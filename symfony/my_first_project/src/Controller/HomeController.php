@@ -5,7 +5,8 @@ namespace App\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
-use App\Entity\Usuario; 
+use App\Entity\Usuario;
+use App\Entity\Minuta;
 
 class HomeController extends AbstractController
 {
@@ -14,12 +15,16 @@ class HomeController extends AbstractController
      */
     public function index(): Response
     {
-        $users_repo = $this->getDoctrine()->getRepository(Usuario::class);
-        $users =  $users_repo->findAll();
+        $minuta_repo = $this->getDoctrine()->getRepository(Minuta::class);
+        $minuta =  $minuta_repo->findAll();
+
+        $usuario_repo = $this->getDoctrine()->getRepository(Usuario::class);
+        $usuario =  $usuario_repo->findAll();
 
         return $this->render('home/index.html.twig', [
-            'title' => 'Historico de Minutas',
-            'usuarios' => $users
+            'title' => 'Dashborad',
+            'minutas' => $minuta,
+            'Usuarios' => $usuario
         ]);
     }
 

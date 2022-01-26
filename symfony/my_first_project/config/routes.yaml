@@ -21,6 +21,7 @@ minuta:
     methods: [GET]
     requirements:
       nombre: '[a-zA-Z ]+'
+      
 
 redirigir:
     path: /redirigir

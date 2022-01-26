@@ -8,6 +8,84 @@
 
 	<h1>{{title}}</h1>
 
-	{{ dump(usuarios) }}
+	<hr>
+
+	<div id="data-table-v1">
+
+		<table>
+
+		  	<tr>
+		    	<th>ID</th>
+				<th>Objetivo</th>
+				<th>Fecha inicio</th>
+				<th>Fecha fin</th>
+				<th>Proxima reunion</th>
+				<th>Itinerario</th>
+				<th>Autorización</th>
+				<th>Estatus</th>
+				<th><i class="fas fa-cogs"></i></th>
+		  	</tr>
+
+		  	{% for minuta in minutas %}
+
+				<tr>
+					<td><center>{{ minuta.id }}</center></td>
+					<td>{{ minuta.objetivo }}</td>
+					<td>{{ minuta.fechaInicio }}</td>
+					<td>{{ minuta.fechaFin }}</td>
+					<td>{{ minuta.proximaReunion }}</td>
+					<td>{{ minuta.itinerario }}</td>
+					<td>{{ minuta.autorizacion }}</td>
+					<td>{{ minuta.estatus }}</td>
+					<td width="3%">
+						<center><i class="fas fa-user-cog" alt="Ajustes de Minuta" title="Ajustes de Minuta" ></i></center>
+					</td>
+				</tr>
+
+			{% endfor %}
+
+		</table>
+
+	</div>
+
+	<hr>
+
+	<div id="data-table-v1">
+
+		<table>
+
+		  	<tr>
+		    	<th>ID</th>
+				<th>Nombre</th>
+				<th>Apellido</th>
+				<th>Email</th>
+				<th>Rol</th>
+				<th>Area</th>
+				<th>Clave</th>
+				<th>Estatus</th>
+				<th><i class="fas fa-cogs"></i></th>
+		  	</tr>
+
+		  	{% for usuario in Usuarios %}
+
+				<tr>
+					<td><center>{{ usuario.id }}</center></td>
+					<td>{{ usuario.nombre }}</td>
+					<td>{{ usuario.apellido }}</td>
+					<td>{{ usuario.email }}</td>
+					<td>{{ usuario.rol }}</td>
+					<td>{{ usuario.area }}</td>
+					<td>{{ usuario.iniciales }}</td>
+					<td>{{ usuario.estatus }}</td>
+					<td width="3%">
+						<center><i class="fas fa-user-cog" alt="Ajustes del usuario" title="Ajustes del usuario" ></i></center>
+					</td>
+				</tr>
+
+			{% endfor %}
+
+		</table>
+
+	</div>
 
 {% endblock %}
