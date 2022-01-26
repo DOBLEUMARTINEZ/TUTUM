@@ -1,0 +1,13 @@
+{% extends 'layout/layoutBase.html.twig' %}
+
+{% block tituloPagina %} 
+	{{title}}
+{% endblock %}
+
+{% block contenido %}
+
+	<h1>{{title}}</h1>
+
+	{{ dump(usuarios) }}
+
+{% endblock %}

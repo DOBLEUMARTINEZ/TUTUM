@@ -1,0 +1,27 @@
+index:
+    path: /inicio
+    controller: App\Controller\HomeController::index
+
+usuario:
+    path: /usuario
+    controller: App\Controller\UsuarioController::index
+
+usuario_detail:
+    path: /usuario/{id}
+    controller: App\Controller\UsuarioController::usuario
+
+guardar:
+    path: /guardar
+    controller: App\Controller\UsuarioController::guardar
+
+minuta:
+    path: /minuta/{nombre}/{apellido}
+    controller: App\Controller\MinutaController::index
+    defaults: { nombre: 'joe', apellido: 'doe' }
+    methods: [GET]
+    requirements:
+      nombre: '[a-zA-Z ]+'
+
+redirigir:
+    path: /redirigir
+    controller: App\Controller\HomeController::redirigir
