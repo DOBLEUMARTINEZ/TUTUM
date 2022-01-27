@@ -21,10 +21,16 @@ class HomeController extends AbstractController
         $usuario_repo = $this->getDoctrine()->getRepository(Usuario::class);
         $usuario =  $usuario_repo->findAll();
 
+        $host= $_SERVER["HTTP_HOST"];
+        $url= $_SERVER["REQUEST_URI"];
+        $url = "http://" . $host . $url;
+
+
         return $this->render('home/index.html.twig', [
             'title' => 'Dashborad',
             'minutas' => $minuta,
-            'Usuarios' => $usuario
+            'Usuarios' => $usuario,
+            'url_actual'=> $url
         ]);
     }
 

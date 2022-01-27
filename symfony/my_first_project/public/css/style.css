@@ -8,6 +8,17 @@
 			letter-spacing: 1px;
 			margin: 0;
 			padding: 0;
+			background: #fff;
+		}
+
+		body h1{
+			font-size: 2em;
+		}
+
+		.hr-red {
+		    height: 2px;
+		    border: none;
+		    background: #fa364473;
 		}
 
 	/* CABECERA */	
@@ -18,16 +29,19 @@
 			display: flex;
 			align-items: center;
 			justify-content: space-between;
+			z-index: 99;
 		}
 
 		#head .logo{
 			width: 10%;
 			margin: auto;
+
 		}
 
 
 		#head .logo > img{
 			width: 100%;
+			cursor: pointer;
 		}
 
 		#head .menu{
@@ -111,8 +125,61 @@
 			width: 100%;
 			margin: 0;
 			padding: 0;
-		}
+		}	
 
+		/* MENU DE LA TABLA*/
+			.off{
+				position: absolute;
+				transition: 0.2s;
+				opacity: 0;
+				transform: translateY(-100%);
+				z-index: -9;
+			}
+
+			.on{
+				position: relative;
+				transition: 0.2s;
+				opacity: 1;
+				transform: translateY(0%);
+				z-index: 1;
+			}
+
+			.rotate-icon{
+				transform: rotate(180deg);
+				transition: 0.7s;
+			}
+
+			#data-table-v1 > ol{
+				position: relative;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				z-index: 9;
+				background: #fff;
+			}
+
+			#data-table-v1 > ol > li > ul{
+				list-style: none;
+				position: relative;
+				display: flex;
+				justify-content: flex-end;
+				align-items: center;
+				margin: 0;
+				padding: 0;
+
+			}
+
+			#data-table-v1 > ol > li > ul > li{
+				margin-left: 15px;
+				padding: 0 15px;
+				font-size: 1.8em;
+				color: #053a76;
+			}
+
+		/* TABLA */
 		#data-table-v1 > table{
 			width: 100%;
 		}

@@ -8,22 +8,35 @@
 
 	<h1>{{title}}</h1>
 
-	<hr>
+	<hr class="hr-red">
 
 	<div id="data-table-v1">
 
-		<table>
+		<ol>
+			<li>
+				<h2>Minutas</h2>
+			</li>
+			<li>
+				<ul>
+					<li onclick="verTable('Minuta')">
+						<i id="btnverinfoMinuta" class="fas fa-arrow-alt-circle-down" title="Mas información" alt="Mas información" ></i>
+					</li>
+				</ul>
+			</li>
+		</ol>
+
+		<table id="tableMinuta" class="off">
 
 		  	<tr>
-		    	<th>ID</th>
-				<th>Objetivo</th>
-				<th>Fecha inicio</th>
-				<th>Fecha fin</th>
-				<th>Proxima reunion</th>
+		    	<th width="3%">ID</th>
+				<th width="25%">Objetivo</th>
+				<th width="8%">Fecha inicio</th>
+				<th width="8%">Fecha fin</th>
+				<th width="8%">Proxima reunion</th>
 				<th>Itinerario</th>
-				<th>Autorización</th>
-				<th>Estatus</th>
-				<th><i class="fas fa-cogs"></i></th>
+				<th width="8%">Autorización</th>
+				<th width="5%">Estatus</th>
+				<th width="3%"><i class="fas fa-cogs"></i></th>
 		  	</tr>
 
 		  	{% for minuta in minutas %}
@@ -34,10 +47,12 @@
 					<td>{{ minuta.fechaInicio }}</td>
 					<td>{{ minuta.fechaFin }}</td>
 					<td>{{ minuta.proximaReunion }}</td>
-					<td>{{ minuta.itinerario }}</td>
+					<td>
+						{{ minuta.itinerario|raw }}
+					</td>
 					<td>{{ minuta.autorizacion }}</td>
-					<td>{{ minuta.estatus }}</td>
-					<td width="3%">
+					<td >{{ minuta.estatus }}</td>
+					<td >
 						<center><i class="fas fa-user-cog" alt="Ajustes de Minuta" title="Ajustes de Minuta" ></i></center>
 					</td>
 				</tr>
@@ -48,11 +63,24 @@
 
 	</div>
 
-	<hr>
+	<hr class="hr-red">
 
 	<div id="data-table-v1">
 
-		<table>
+		<ol>
+			<li>
+				<h2>Usuarios</h2>
+			</li>
+			<li>
+				<ul>
+					<li onclick="verTable('Usuario')">
+						<i class="fas fa-arrow-alt-circle-down" title="Mas información" alt="Mas información" ></i>
+					</li>
+				</ul>
+			</li>
+		</ol>
+
+		<table id="tableUsuario" class="off" >
 
 		  	<tr>
 		    	<th>ID</th>
