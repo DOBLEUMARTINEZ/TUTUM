@@ -129,24 +129,42 @@
 
 		/* MENU DE LA TABLA*/
 			.off{
-				position: absolute;
+				display: none;
 				transition: 0.2s;
 				opacity: 0;
-				transform: translateY(-100%);
 				z-index: -9;
 			}
 
 			.on{
-				position: relative;
+				display: inherit;
 				transition: 0.2s;
 				opacity: 1;
-				transform: translateY(0%);
 				z-index: 1;
 			}
 
-			.rotate-icon{
-				transform: rotate(180deg);
-				transition: 0.7s;
+			.eye-off{
+				display: none!important;
+			}
+
+			.eye-on{
+				display: block;
+			}	
+
+			.btn-off{
+				color: #053a7685;
+			}
+
+			.btn-off:hover{
+				color: #053a76!important;
+			}
+
+			/* BARRA DE BUSQUEDA */
+			#filtroRegistro{
+				width: 98%;
+			    margin: 0 0 20px 0;
+			    background: #00000045;
+			    padding: 1% 1%;
+			    border-radius: 3px;
 			}
 
 			#data-table-v1 > ol{

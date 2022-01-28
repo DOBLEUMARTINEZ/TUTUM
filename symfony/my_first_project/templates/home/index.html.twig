@@ -18,12 +18,23 @@
 			</li>
 			<li>
 				<ul>
-					<li onclick="verTable('Minuta')">
-						<i id="btnverinfoMinuta" class="fas fa-arrow-alt-circle-down" title="Mas información" alt="Mas información" ></i>
+
+					<li>
+						<i id="buscarRegistro" class="fas fa-search btn-off"></i>
 					</li>
+					
+					<li onclick="verTable('Minuta')">
+						<i id="btnoninfoMinuta" class="fas fa-eye eye-off" title="Mas información" alt="Mas información" ></i>
+						<i id="btnoffinfoMinuta"class="fas fa-eye-slash btn-off" title="Mas información" alt="Mas información" ></i>
+					</li>
+
 				</ul>
 			</li>
 		</ol>
+
+		<div id="filtroRegistro">
+			filtro y barra de busqueda
+		</div>
 
 		<table id="tableMinuta" class="off">
 
@@ -73,12 +84,21 @@
 			</li>
 			<li>
 				<ul>
+					<li>
+						<i id="buscarRegistro" class="fas fa-search btn-off"></i>
+					</li>
+
 					<li onclick="verTable('Usuario')">
-						<i class="fas fa-arrow-alt-circle-down" title="Mas información" alt="Mas información" ></i>
+						<i id="btnoninfoUsuario" class="fas fa-eye eye-off" title="Mas información" alt="Mas información" ></i>
+						<i id="btnoffinfoUsuario" class="fas fa-eye-slash btn-off" title="Mas información" alt="Mas información" ></i>
 					</li>
 				</ul>
 			</li>
 		</ol>
+
+		<div id="filtroRegistro">
+			filtro y barra de busqueda
+		</div>
 
 		<table id="tableUsuario" class="off" >
 

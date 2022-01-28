@@ -2,25 +2,25 @@
 
 namespace App\Repository;
 
-use App\Entity\Animal;
+use App\Entity\Audiencia;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
 
 /**
- * @method Animal|null find($id, $lockMode = null, $lockVersion = null)
- * @method Animal|null findOneBy(array $criteria, array $orderBy = null)
- * @method Animal[]    findAll()
- * @method Animal[]    findBy(array $criteria, array $orderBy = null, $limit = null, $offset = null)
+ * @method Audiencia|null find($id, $lockMode = null, $lockVersion = null)
+ * @method Audiencia|null findOneBy(array $criteria, array $orderBy = null)
+ * @method Audiencia[]    findAll()
+ * @method Audiencia[]    findBy(array $criteria, array $orderBy = null, $limit = null, $offset = null)
  */
-class AnimalRepository extends ServiceEntityRepository
+class AudienciaRepository extends ServiceEntityRepository
 {
     public function __construct(ManagerRegistry $registry)
     {
-        parent::__construct($registry, Animal::class);
+        parent::__construct($registry, Audiencia::class);
     }
 
     // /**
-    //  * @return Animal[] Returns an array of Animal objects
+    //  * @return Audiencia[] Returns an array of Audiencia objects
     //  */
     /*
     public function findByExampleField($value)
@@ -37,7 +37,7 @@ class AnimalRepository extends ServiceEntityRepository
     */
 
     /*
-    public function findOneBySomeField($value): ?Animal
+    public function findOneBySomeField($value): ?Audiencia
     {
         return $this->createQueryBuilder('a')
             ->andWhere('a.exampleField = :val')

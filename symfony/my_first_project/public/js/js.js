@@ -2,7 +2,16 @@
 
 function verTable($nombreTabla) {
 	var tabla = document.getElementById("table"+$nombreTabla);
-	var iconDown = document.getElementById("btnverinfo"+$nombreTabla);
+	var iconOn = document.getElementById("btnoninfo"+$nombreTabla);
+	var iconOff = document.getElementById("btnoffinfo"+$nombreTabla);
+
+	var iconEye = document.getElementById("btnInfo"+$nombreTabla);
+
     tabla.classList.toggle('on');
-    iconDown.classList.toggle('rotate-icon');
-}
+
+    iconOn.classList.toggle('eye-off');
+    iconOff.classList.toggle('eye-off');
+
+    iconEye.classList.add("fa-eye-slash");
+    iconEye.classList.remove("fa-eye-slash");
+}	
