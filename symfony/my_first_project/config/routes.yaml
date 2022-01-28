@@ -21,7 +21,10 @@ minuta:
     methods: [GET]
     requirements:
       nombre: '[a-zA-Z ]+'
-      
+    
+audiencia:
+    path: /audiencia
+    controller: App\Controller\AudienciaController::index  
 
 redirigir:
     path: /redirigir
