@@ -50,7 +50,7 @@
 				<th width="3%"><i class="fas fa-cogs"></i></th>
 		  	</tr>
 
-		  	{% for minuta in minutas %}
+		  	{% for minuta in Minutas %}
 
 				<tr>
 					<td><center>{{ minuta.id }}</center></td>
@@ -127,6 +127,105 @@
 					<td>{{ usuario.estatus }}</td>
 					<td width="3%">
 						<center><i class="fas fa-user-cog" alt="Ajustes del usuario" title="Ajustes del usuario" ></i></center>
+					</td>
+				</tr>
+
+			{% endfor %}
+
+		</table>
+
+	</div>
+
+	<hr class="hr-red">
+
+	<div id="data-table-v1">
+
+		<ol>
+			<li>
+				<h2>Audiencia</h2>
+			</li>
+			<li>
+				<ul>
+
+					<li>
+						<i id="buscarRegistro" class="fas fa-search btn-off"></i>
+					</li>
+					
+					<li onclick="verTable('Asistencia')">
+						<i id="btnoninfoAsistencia" class="fas fa-eye eye-off" title="Mas información" alt="Mas información" ></i>
+						<i id="btnoffinfoAsistencia"class="fas fa-eye-slash btn-off" title="Mas información" alt="Mas información" ></i>
+					</li>
+
+				</ul>
+			</li>
+		</ol>
+
+		<div id="filtroRegistro">
+			filtro y barra de busqueda
+		</div>
+
+		<table id="tableAsistencia" class="off">
+
+		  	<tr>
+		    	<th width="5%" >ID</th>
+		    	<th width="20%" >ID Minuta</th>
+				<th width="20%">ID Usuario</th>
+				<th width="10%">Covocado</th>
+				<th width="10%">Asistencia</th>
+				<th >Observación</th>
+				<th width="3%" ><i class="fas fa-cogs"></i></th>
+		  	</tr>
+
+		  	{% for audiencia in Audiencias %}
+
+				<tr>
+					<td><center>{{ audiencia.id }}</center></td>
+
+					<td>
+						{% for minuta in Minutas %}
+							{% if minuta.id == audiencia.idminuta %}
+								{{minuta.objetivo }}
+							{% endif %}
+						{% endfor %}
+					</td>
+
+					<td>
+						{% for usuario in Usuarios %}
+							{% if usuario.id == audiencia.idusuario %}
+								{{usuario.user }}
+							{% endif %}
+						{% endfor %}
+					</td>
+
+					<td>
+						{% if audiencia.asistencia == '1' %}
+
+							SI
+
+						{% else %}
+
+							NO
+
+						{% endif %}
+	
+					</td>
+
+					<td>
+						{% if audiencia.estatus == '1' %}
+
+							Confirmada
+
+						{% else %}
+
+							Sin confirmar
+
+						{% endif %}
+					</td>
+
+					<td>{{ audiencia.observacion }}</td>
+
+					<td>
+						<center><i class="fas fa-user-cog" alt="Ajustes de Audiencia" title="Ajustes de Audiencia" ></i></center>
 					</td>
 				</tr>
 

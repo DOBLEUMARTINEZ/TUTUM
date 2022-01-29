@@ -7,20 +7,22 @@
 {% block contenido %}
 	<h1>{{title}}</h1> 
 
+	<hr class="hr-red">
+
 	<div id="data-table-v1">
 
 		<table>
 
 		  	<tr>
-		    	<th>ID</th>
-				<th>Objetivo</th>
-				<th>Fecha inicio</th>
-				<th>Fecha fin</th>
-				<th>Proxima reunion</th>
+		    	<th width="3%">ID</th>
+				<th width="20%">Objetivo</th>
+				<th width="8%">Fecha inicio</th>
+				<th width="8%">Fecha fin</th>
+				<th width="8%">Proxima reunion</th>
 				<th>Itinerario</th>
-				<th>Autorización</th>
-				<th>Estatus</th>
-				<th><i class="fas fa-cogs"></i></th>
+				<th width="8%">Autorización</th>
+				<th width="10%">Estatus</th>
+				<th width="3%"><i class="fas fa-cogs"></i></th>
 		  	</tr>
 
 		  	{% for minuta in minutas %}
@@ -33,8 +35,16 @@
 					<td>{{ minuta.proximaReunion }}</td>
 					<td>{{ minuta.itinerario|raw }}</td>
 					<td>{{ minuta.autorizacion }}</td>
-					<td>{{ minuta.estatus }}</td>
-					<td width="3%">
+
+					<td>
+						{% for estatus in Estatus %}
+							{% if minuta.estatus == estatus.id %}
+								{{estatus.nombre }}
+							{% endif %}
+						{% endfor %}
+					</td>
+
+					<td>
 						<center><i class="fas fa-user-cog" alt="Ajustes de Minuta" title="Ajustes de Minuta" ></i></center>
 					</td>
 				</tr>

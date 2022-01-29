@@ -1,0 +1,39 @@
+{% extends 'layout/layoutBase.html.twig' %}
+
+{% block tituloPagina %} 
+	{{title}}
+{% endblock %}
+
+
+{% block contenido %}
+	<h1>{{title}}</h1> 
+
+	<hr class="hr-red">
+
+	<div id="data-table-v1">
+
+		<table>
+
+		  	<tr>
+		    	<th width="3%">ID</th>
+				<th>Estatus</th>
+				<th width="3%"><i class="fas fa-cogs"></i></th>
+		  	</tr>
+
+		  	{% for estatus in Estatus %}
+
+				<tr>
+					<td><center>{{ estatus.id }}</center></td>
+					<td>{{ estatus.nombre }}</td>
+					<td>
+						<center><i class="fas fa-user-cog" alt="Ajustes de Minuta" title="Ajustes de Minuta" ></i></center>
+					</td>
+				</tr>
+
+			{% endfor %}
+
+		</table>
+
+	</div>
+
+{% endblock %}

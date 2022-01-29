@@ -2,9 +2,12 @@
 
 namespace App\Twig;
 
+use Doctrine\Common\Persistence\ManagerRegistry;
+
 use Twig\Extension\AbstractExtension;
 use Twig\TwigFilter;
 use Twig\TwigFunction;
+
 
 class MiFiltroExtension extends AbstractExtension
 {
@@ -14,25 +17,22 @@ class MiFiltroExtension extends AbstractExtension
             // If your filter generates SAFE HTML, you should add a third
             // parameter: ['is_safe' => ['html']]
             // Reference: https://twig.symfony.com/doc/2.x/advanced.html#automatic-escaping
-            new TwigFilter('multiplicar', [$this, 'multiplicar']),
+            new TwigFilter('infoUsuario', [$this, 'infoUsuario']),
         ];
     }
 
     public function getFunctions(): array
     {
         return [
-            new TwigFunction('multiplicar', [$this, 'multiplicar']),
+            new TwigFunction('infoUsuario', [$this, 'infoUsuario']),
         ];
     }
 
-    public function multiplicar($numero)
+    public function infoUsuario($idUser)
     {
-        $tabla = "<h2>tabla del ".$numero.' </h2>';
-        for ($i=1; $i <= 10; $i++) { 
-            $tabla .= "$numero X $i= ".($numero*$i)."</br>"; 
-        }
 
-        return $tabla;
-
+        return $usuario;
     }
+
+
 }

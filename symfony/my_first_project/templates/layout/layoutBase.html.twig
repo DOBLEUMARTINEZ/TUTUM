@@ -20,7 +20,6 @@
   		<link rel="stylesheet" type="text/css" href="./css/style.css">
 
 
-
 	</head>
 
 	<body>
@@ -34,31 +33,33 @@
 			<div class="menu">
 				<ol>
 					<li onclick="window.location.href='inicio';" >Inicio</li>
-					
-					<li onclick="window.location.href='minuta';" >Minutas</li>
+						
+					<li class="dropdown-m1">
+						<span onclick="window.location.href='minuta';" >Minutas</span>
+						<ul>
+							<li onclick="window.location.href='minuta';" >Historico</li>
+							<li onclick="window.location.href='audiencia';" >Audiencia</li>
+							<li onclick="window.location.href='categoria';" >Categorias</li>
+							<li onclick="window.location.href='seccion-minuta';" >Secciones</li>
+							<li onclick="window.location.href='tema';" >Temas</li>
+							<li onclick="window.location.href='registro-minuta';" >Registros</li>
+							<li onclick="window.location.href='estatus';" >Estatus</li>
+						</ul>
+					</li>
 
 					<li onclick="window.location.href='usuario';" >Usuarios</li>
 
-					<li onclick="window.location.href='categoria';" >Categorias</li>
+					{% block cabecera %}
 
-					<li onclick="window.location.href='tema';" >Temas</li>
-
-					<li class="dropdown-m1">
-						<i class="fas fa-plus-circle" title="Agregar nuev@" alt="Agregar nuev@" ></i>
-						<ul>
-							<li>Minuta</li>
-							<li>Usuario</li>
-							<li>Categoria</li>
-							<li>Temas</li>
-						</ul>
-					</li>
+					
+					{% endblock %}
 
 					<li ><i class="fas fa-sign-out-alt" title="Cerrar sesion" alt="Cerrar sesion" ></i></li>
 
 				</ol>
 			</div>
 
-			{% block cabecera %}{% endblock %}
+			
 				
 		</div>
 
