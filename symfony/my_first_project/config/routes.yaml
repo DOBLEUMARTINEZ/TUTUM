@@ -18,6 +18,10 @@ minuta:
     path: /minuta
     controller: App\Controller\MinutaController::index
 
+buscar_minuta:
+    path: /minuta/{id_minuta}
+    controller: App\Controller\MinutaController::buscarMinuta
+
 seccion_minuta:
     path: /seccion-minuta
     controller: App\Controller\MinutaController::seccionMinuta

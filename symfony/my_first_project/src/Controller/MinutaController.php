@@ -56,7 +56,6 @@ class MinutaController extends AbstractController
             'Usuarios' => $usuario,
             'Minutas' => $minuta
         ]);
-
     }
 
     public function seccionMinuta(): Response
@@ -133,13 +132,51 @@ class MinutaController extends AbstractController
         $temaMinuta_repo = $this->getDoctrine()->getRepository(TemaMinuta::class);
         $temaMinuta =  $temaMinuta_repo->findAll();
 
-        $usuario_repo = $this->getDoctrine()->getRepository(Usuario::class);
-        $usuario =  $usuario_repo->findAll();
+        $estatusMinuta_repo = $this->getDoctrine()->getRepository(EstatusMinuta::class);
+        $estatusMinuta =  $estatusMinuta_repo->findAll();
+
+        $minuta_repo = $this->getDoctrine()->getRepository(Minuta::class);
+        $minuta =  $minuta_repo->findAll();
+
+        $categoriaMinuta_repo = $this->getDoctrine()->getRepository(Categoria::class);
+        $categoriaMinuta =  $categoriaMinuta_repo->findAll();
 
         return $this->render('minuta/tema.html.twig', [
             'title' => 'Temas de Minutas',
+            'Minutas' => $minuta,
             'TemasMinuta' => $temaMinuta,
-            'Usuarios' => $usuario
+            'EstatusMinuta' => $estatusMinuta,
+            'CategoriasMinuta' => $categoriaMinuta
+        ]);
+    }
+
+    public function buscarMinuta($id_minuta)
+    {
+
+        $minuta_repo = $this->getDoctrine()->getRepository(Minuta::class);
+        $minuta =  $minuta_repo->find($id_minuta);
+
+        $estatusMinuta_repo = $this->getDoctrine()->getRepository(EstatusMinuta::class);
+        $estatusMinuta =  $estatusMinuta_repo->find($minuta->getEstatus());
+
+        $estatusMinuta = $estatusMinuta->getNombre();
+
+        $minuta_detalle = array(
+            'id' => $minuta->getId(),
+            'objetivo' => $minuta->getObjetivo(),
+            'fechaInicio' => $minuta->getFechaInicio(),
+            'fechaFin' => $minuta->getFechaFin(),
+            'proximaReunion' => $minuta->getProximareunion(),
+            'itinerario' => $minuta->getItinerario(),
+            'estatus' => $estatusMinuta,
+            'autorizacion' => $minuta->getAutorizacion()
+        );
+
+        
+
+        return $this->render('minuta/minuta.html.twig', [
+            'title' => 'Minuta correspondiente a la junta del: '.$minuta->getFechaInicio(),
+            'MinutaDetalle' => $minuta_detalle
         ]);
     }
 

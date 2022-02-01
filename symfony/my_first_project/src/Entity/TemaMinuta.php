@@ -33,27 +33,27 @@ class TemaMinuta
     private $compromiso_fin;
 
     /**
-     * @ORM\Column(type="string", length=1000)
+     * @ORM\Column(type="text", length=16000)
      */
     private $requerimiento;
 
     /**
-     * @ORM\Column(type="string", length=1000)
+     * @ORM\Column(type="text", length=16000)
      */
     private $linea_guia;
 
     /**
-     * @ORM\Column(type="string", length=1000)
+     * @ORM\Column(type="text", length=16000)
      */
     private $compromiso_accion;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\Column(type="text", length=16000)
      */
     private $compromiso;
 
     /**
-     * @ORM\Column(type="string", length=10000)
+     * @ORM\Column(type="text", length=16000)
      */
     private $observacion;
 
@@ -248,12 +248,12 @@ class TemaMinuta
 
     public function getUltimaModificacion(): ?string
     {
-        return $this->ultima_modificación;
+        return $this->ultima_modificacion;
     }
 
-    public function setUltimaModificacion(string $ultima_modificación): self
+    public function setUltimaModificacion(string $ultima_modificacion): self
     {
-        $this->ultima_modificación = $ultima_modificación;
+        $this->ultima_modificacion = $ultima_modificacion;
 
         return $this;
     }

@@ -15,3 +15,7 @@ function verTable($nombreTabla) {
     iconEye.classList.add("fa-eye-slash");
     iconEye.classList.remove("fa-eye-slash");
 }	
+
+function verMasInfoTema($idTema) {
+	alert('quieres ver la info del tema con id = '+$idTema);
+}
