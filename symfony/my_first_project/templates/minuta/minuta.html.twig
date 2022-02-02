@@ -11,9 +11,12 @@
 
 	<div id="data-table-v1">
 
+		<!-- DATOS GENERALES -->
 		<table>
 			<tr>
-		    	<th rowspan="3">logo</th>
+		    	<th rowspan="3">
+		    		<img width="60%" src='http://localhost/server/symfony/my_first_project/public/images/prodemex.png'>
+		    	</th>
 				<th colspan="3"> MINUTA  </th>
 		  	</tr>
 
@@ -31,46 +34,228 @@
 		  		<td><strong>Fin de reunión:</strong> {{ MinutaDetalle.fechaFin }}</td>
 		  		<td><strong>Fecha de Próxima Reunión:</strong> {{ MinutaDetalle.proximaReunion }}</td>
 		  	</tr>
-
 		</table>
 
-		<br>
+		<br><br>
 
+		<!-- ASISTENTES -->
+		<table>
+			<tr>
+				<th colspan="4"> ASISTENTES </th>
+			</tr>
+			<tr>
+				<th>Nombre</th>
+				<th>Iniciales </th>
+				<th>Área / Empresa</th>
+				<th>Firma</th>
+			</tr>
+
+			{% for audiencia in MinutaDetalle.audiencia %}
+
+				{% if audiencia.asistencia == 1 %}
+
+					<tr>
+
+						<td>
+							{% for usuario in MinutaDetalle.usuarios %}
+								{% if usuario.id == audiencia.idusuario %}
+									{{ usuario.nombre }} {{ usuario.apellido }}
+								{% endif %}
+							{% endfor %}
+						</td>
+
+						<td>
+							{% for usuario in MinutaDetalle.usuarios %}
+								{% if usuario.id == audiencia.idusuario %}
+									{{ usuario.iniciales }}
+								{% endif %}
+							{% endfor %}
+						</td>
+
+						<td>
+							{% for usuario in MinutaDetalle.usuarios %}
+								{% if usuario.id == audiencia.idusuario %}
+									{{ usuario.area }}
+								{% endif %}
+							{% endfor %}
+						</td>
+
+						<td class="estatus-asistencia-on" >
+							<center><i class="fas fa-check-circle"></i></center>
+						</td>
+
+					</tr>
+
+					{% if audiencia.estatus == 1 %}
+
+						<tr>
+
+							<td>
+								{% for usuario in MinutaDetalle.usuarios %}
+									{% if usuario.id == audiencia.idusuario %}
+										{{ usuario.nombre }} {{ usuario.apellido }}
+									{% endif %}
+								{% endfor %}
+							</td>
+
+							<td>
+								{% for usuario in MinutaDetalle.usuarios %}
+									{% if usuario.id == audiencia.idusuario %}
+										{{ usuario.iniciales }}
+									{% endif %}
+								{% endfor %}
+							</td>
+
+							<td>
+								{% for usuario in MinutaDetalle.usuarios %}
+									{% if usuario.id == audiencia.idusuario %}
+										{{ usuario.area }}
+									{% endif %}
+								{% endfor %}
+							</td>
+
+							<td class="estatus-asistencia-neutro" >
+								<center><i class="fas fa-times-circle"></i></center>
+							</td>
+
+						</tr>
+					{% endif %}
+
+				{% endif %}
+
+			{% endfor %}
+		</table>
+
+		<br><br>
+
+		<!-- AUSENTES -->
+		<table>
+			<tr>
+				<th colspan="4" class="th-ausentes" ><strong>AUSENTES</strong></th>
+			</tr>
+			<tr>
+				<th class="th-ausentes">Nombre</th>
+				<th class="th-ausentes">Iniciales </th>
+				<th class="th-ausentes">Área / Empresa</th>
+				<th class="th-ausentes">Firma</th>
+			</tr>
+
+			{% for audiencia in MinutaDetalle.audiencia %}
+
+				{% if audiencia.asistencia != 1 %}
+
+					<tr>
+
+						<td>
+							{% for usuario in MinutaDetalle.usuarios %}
+								{% if usuario.id == audiencia.idusuario %}
+									{{ usuario.nombre }} {{ usuario.apellido }}
+								{% endif %}
+							{% endfor %}
+						</td>
+
+						<td>
+							{% for usuario in MinutaDetalle.usuarios %}
+								{% if usuario.id == audiencia.idusuario %}
+									{{ usuario.iniciales }}
+								{% endif %}
+							{% endfor %}
+						</td>
+
+						<td>
+							{% for usuario in MinutaDetalle.usuarios %}
+								{% if usuario.id == audiencia.idusuario %}
+									{{ usuario.area }}
+								{% endif %}
+							{% endfor %}
+						</td>
+
+						<td class="estatus-asistencia-off" >
+							<center><i class="fas fa-times-circle"></i></center>
+						</td>
+
+					</tr>
+
+				{% endif %}
+
+							
+			{% endfor %}
+		</table>
+
+		<br><br>
+
+		<!-- AGENDA DE MINUTA -->
+		<table>
+		  	<tr>
+		    	<th> AGENDA </th>
+		  	</tr>
+			<tr>
+				<td>{{ MinutaDetalle.itinerario|raw }}</td>
+			</tr>
+		</table>
+
+		<br><br>
+
+
+		<!-- DIRECCION GENERAL - TEMAS MINUTA -->
 		<table>
 
 		  	<tr>
-		    	<th width="3%">ID</th>
-				<th width="20%">Objetivo</th>
-				<th width="8%">Fecha inicio</th>
-				<th width="8%">Fecha fin</th>
-				<th width="8%">Proxima reunion</th>
-				<th>Itinerario</th>
-				<th width="8%">Autorización</th>
-				<th width="10%">Estatus</th>
-				<th width="3%"><i class="fas fa-tools"></i></th>
+		    	<th colspan="3">DIRECCION GENERAL</th>
 		  	</tr>
 
-			<tr>
-				<td><center>{{ MinutaDetalle.id }}</center></td>
-				<td>{{ MinutaDetalle.objetivo }}</td>
-				<td>{{ MinutaDetalle.fechaInicio }}</td>
-				<td>{{ MinutaDetalle.fechaFin }}</td>
-				<td>{{ MinutaDetalle.proximaReunion }}</td>
-				<td>{{ MinutaDetalle.itinerario|raw }}</td>
-				<td>{{ MinutaDetalle.autorizacion }}</td>
-				<td>{{ MinutaDetalle.estatus }}</td>
-				<td>
-					<center>
-						<i class="fas fa-edit"></i>
-					</center>
-				</td>
-			</tr>
-
-			<tr>
-
-			</tr>
+		  	<tr>
+		  		<td colspan="3" >Requerimientos</td>
+		  	</tr>
 
 		</table>
+
+		{% for temas in MinutaDetalle.temasMinuta %}
+
+		  	<table style="border-top: 5px solid #861717;" >
+		  		<tr>
+					<th colspan="3">{{ temas.titulo}}</th>
+					<td colspan="1">{{ MinutaDetalle.estatus}}</td>
+				</tr>
+				<tr>
+					<td colspan="2">Responsable</td>
+					<td colspan="1">fecha inicio</td>
+					<td colspan="1">Conclusión</td>
+				</tr>
+		  	</table>
+
+		  	<table>
+		  		<tr>
+		  			<td width="50%">
+		  				<h3>Requerimeintos</h3>
+		  				{{ temas.requerimiento|raw}}
+		  			</td>
+		  			<td width="50%">
+		  				<h3>Acuerdos</h3>
+		  				{{ temas.requerimiento|raw}}
+		  			</td>
+		  		</tr>
+		  		<tr>
+		  			<td>
+		  				<h3>Lineamientos</h3>
+		  				{{ temas.lineaguia|raw}}
+		  			</td>
+		  			<td>
+		  				<h3>Acciones</h3>
+		  				{{ temas.compromisoaccion|raw}}
+		  			</td>
+		  		</tr>
+
+		  		<tr>
+		  			<td colspan="2">
+		  				<h3>Observaciónes</h3>
+		  				{{ temas.observacion|raw}}
+		  			</td>
+		  		</tr>
+
+		  	</table>	
+		  		
+		{% endfor %}
 
 	</div>
 

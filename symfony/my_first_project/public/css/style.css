@@ -198,6 +198,20 @@
 			}
 
 		/* TABLA */
+			.estatus-asistencia-off {
+				background: #8f9699!important;
+			}
+
+			.estatus-asistencia-neutro{
+				background-color: #263238!important;
+    			color: #fff!important;		
+    		}
+
+			.estatus-asistencia-on {
+				background: #388e3ccc!important;
+			    color: #fff!important;
+			}
+
 			#data-table-v1 > table{
 				width: 100%;
 			}
@@ -221,9 +235,17 @@
 
 			#data-table-v1 i{
 				cursor: pointer;
+				font-size: 1.5em;
 			}
+
 			#data-table-v1 i:hover{
-				color: #fa3644;
+				/*color: #fa3644;*/
+
+			}
+
+			.th-ausentes{
+				background-color: #cfd8dc!important;
+				color: #000!important;
 			}
 
 		/* CONTENEDOR MAS INFORMACION TEMA */

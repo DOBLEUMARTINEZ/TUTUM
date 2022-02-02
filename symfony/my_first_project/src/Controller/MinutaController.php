@@ -73,8 +73,7 @@ class MinutaController extends AbstractController
     public function registroMinuta(): Response
     {
 
-        $registroMinuta_repo = $this->getDoctrine()->getRepository(RegistroMinuta::class);
-        $registroMinuta =  $registroMinuta_repo->findAll();
+         
 
         return $this->render('minuta/registro-minuta.html.twig', [
             'title' => 'Estatus disponibles en firma de minutas',
@@ -153,13 +152,26 @@ class MinutaController extends AbstractController
     public function buscarMinuta($id_minuta)
     {
 
+        // consulta minuta id
         $minuta_repo = $this->getDoctrine()->getRepository(Minuta::class);
         $minuta =  $minuta_repo->find($id_minuta);
 
+        // estatus minuta
         $estatusMinuta_repo = $this->getDoctrine()->getRepository(EstatusMinuta::class);
         $estatusMinuta =  $estatusMinuta_repo->find($minuta->getEstatus());
-
         $estatusMinuta = $estatusMinuta->getNombre();
+
+        // audiencia minuta
+        $audiencia_repo = $this->getDoctrine()->getRepository(Audiencia::class);
+        $audiencia =  $audiencia_repo->findBy(['id_minuta' => $id_minuta]);
+
+        // usuarios 
+        $usuario_repo = $this->getDoctrine()->getRepository(Usuario::class);
+        $usuario =  $usuario_repo->findAll();
+
+        $temaMinuta_repo = $this->getDoctrine()->getRepository(TemaMinuta::class);
+        $temaMinuta =  $temaMinuta_repo->findBy(['id_reunion' => $id_minuta]);
+
 
         $minuta_detalle = array(
             'id' => $minuta->getId(),
@@ -169,7 +181,10 @@ class MinutaController extends AbstractController
             'proximaReunion' => $minuta->getProximareunion(),
             'itinerario' => $minuta->getItinerario(),
             'estatus' => $estatusMinuta,
-            'autorizacion' => $minuta->getAutorizacion()
+            'autorizacion' => $minuta->getAutorizacion(),
+            'audiencia' => $audiencia,
+            'usuarios' => $usuario,
+            'temasMinuta' => $temaMinuta
         );
 
         
