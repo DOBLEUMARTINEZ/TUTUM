@@ -5,9 +5,15 @@ namespace App\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
-use App\Entity\Usuario;
 use App\Entity\Minuta;
 use App\Entity\Audiencia;
+use App\Entity\Usuario;
+use App\Entity\SeccionMinuta;
+use App\Entity\RegistroMinuta;
+use App\Entity\Categoria;
+use App\Entity\EstatusMinuta;
+use App\Entity\TemaUsuario;
+use App\Entity\TemaMinuta;;
 
 class HomeController extends AbstractController
 {
@@ -16,27 +22,56 @@ class HomeController extends AbstractController
      */
     public function index(): Response
     {
-        $minuta_repo = $this->getDoctrine()->getRepository(Minuta::class);
-        $minuta =  $minuta_repo->findAll();
+        $id_minuta = 85;
 
+        // consulta minuta id
+        $minuta_repo = $this->getDoctrine()->getRepository(Minuta::class);
+        $minuta =  $minuta_repo->find($id_minuta);
+
+        // estatus minuta
+        $estatusMinuta_repo = $this->getDoctrine()->getRepository(EstatusMinuta::class);
+        $estatusMinutas =  $estatusMinuta_repo->findAll();
+        $estatusMinuta =  $estatusMinuta_repo->find($minuta->getEstatus());
+        $estatusMinuta = $estatusMinuta->getNombre();
+
+        // audiencia minuta
+        $audiencia_repo = $this->getDoctrine()->getRepository(Audiencia::class);
+        $audiencia =  $audiencia_repo->findBy(['id_minuta' => $id_minuta]);
+
+        // usuarios 
         $usuario_repo = $this->getDoctrine()->getRepository(Usuario::class);
         $usuario =  $usuario_repo->findAll();
 
-        $audiencia_repo = $this->getDoctrine()->getRepository(Audiencia::class);
-        $audiencia =  $audiencia_repo->findAll();
+        // temas de la minuta
+        $temaMinuta_repo = $this->getDoctrine()->getRepository(TemaMinuta::class);
+        $temaMinuta =  $temaMinuta_repo->findBy(['id_reunion' => $id_minuta]);
 
-        $host= $_SERVER["HTTP_HOST"];
-        $url= $_SERVER["REQUEST_URI"];
-        $url = "http://" . $host . $url;
+        // temas de usuarios
+        $temaUsuario_repo = $this->getDoctrine()->getRepository(TemaUsuario::class);
+        $temaUsuario =  $temaUsuario_repo->findAll();
 
+
+        $minuta_detalle = array(
+            'id' => $minuta->getId(),
+            'objetivo' => $minuta->getObjetivo(),
+            'fechaInicio' => $minuta->getFechaInicio(),
+            'fechaFin' => $minuta->getFechaFin(),
+            'proximaReunion' => $minuta->getProximareunion(),
+            'itinerario' => $minuta->getItinerario(),
+            'estatus' => $estatusMinuta,
+            'estatusMinutas' => $estatusMinutas,
+            'autorizacion' => $minuta->getAutorizacion(),
+            'audiencia' => $audiencia,
+            'usuarios' => $usuario,
+            'temasMinuta' => $temaMinuta,
+            'temasUsuarios' => $temaUsuario
+        );
 
         return $this->render('home/index.html.twig', [
-            'title' => 'Dashborad',
-            'Minutas' => $minuta,
-            'Usuarios' => $usuario,
-            'Audiencias' => $audiencia,
-            'url_actual'=> $url
+            'title' => 'Minuta correspondiente a la junta del: '.$minuta->getFechaInicio(),
+            'MinutaDetalle' => $minuta_detalle
         ]);
+
     }
 
 }

@@ -125,8 +125,13 @@
 			width: 100%;
 			margin: 0;
 			padding: 0;
-		}	
+		}
 
+		/* FILTRO DE BASE DE DATOS */	
+			#fitro-busqueda-minuta{
+
+			}
+			
 		/* MENU DE LA TABLA*/
 			.off{
 				display: none;

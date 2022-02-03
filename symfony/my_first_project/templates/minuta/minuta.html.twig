@@ -5,8 +5,14 @@
 {% endblock %}
 
 {% block contenido %}
-	<h1>{{title}}</h1> 
-
+	<div id="fitro-busqueda-minuta">
+		<h1>{{title}}</h1>
+		<form>
+			<input type="date" name="fecha_inicio">
+			<input type="date" name="fecha_fin">
+			<button><i class="fas fa-search"></i></button>
+		</form> 
+	</div>
 	<hr class="hr-red">
 
 	<div id="data-table-v1">
@@ -80,9 +86,11 @@
 							{% endfor %}
 						</td>
 
-						<td class="estatus-asistencia-on" >
-							<center><i class="fas fa-check-circle"></i></center>
+						<td class="estatus-asistencia-neutro" >
+							<center><i class="fas fa-times-circle"></i></center>
 						</td>
+
+						
 
 					</tr>
 
@@ -114,9 +122,9 @@
 								{% endfor %}
 							</td>
 
-							<td class="estatus-asistencia-neutro" >
-								<center><i class="fas fa-times-circle"></i></center>
-							</td>
+							<td class="estatus-asistencia-on" >
+								<center><i class="fas fa-check-circle"></i></center>
+							</td>	
 
 						</tr>
 					{% endif %}
@@ -214,13 +222,37 @@
 
 		  	<table style="border-top: 5px solid #861717;" >
 		  		<tr>
-					<th colspan="3">{{ temas.titulo}}</th>
-					<td colspan="1">{{ MinutaDetalle.estatus}}</td>
+					<th colspan="3">{{ temas.titulo }}</th>
+
+					{% if temas.idestatus == 1 %}
+						<td style="background-color: #00FF00;" colspan="1">
+							<strong>En proceso (en tiempo)</strong>
+						</td>
+					{% elseif temas.idestatus == 2 %}
+						<td style="background-color: #00FF00;" colspan="1"><strong>En proceso (retraso)</strong></td>
+					{% elseif temas.idestatus == 3 %}
+						<td style="background-color: #00FF00;" colspan="1"><strong>En proceso (fuera de tiempo)</strong>  </td>
+					{% elseif temas.idestatus == 4 %}
+						<td style="background-color: #00FF00;" colspan="1"><strong>Por definir</strong>  </td>
+					{% elseif temas.idestatus == 5 %}
+						<td style="background-color: #00FF00;" colspan="1"><strong>Semanal</strong>  </td>
+					{% endif %}
+					
 				</tr>
 				<tr>
-					<td colspan="2">Responsable</td>
-					<td colspan="1">fecha inicio</td>
-					<td colspan="1">Conclusión</td>
+					<td colspan="2"><strong>Responsable: </strong>
+						{% for temaUsuario in MinutaDetalle.temasUsuarios %}
+							{% if temas.id == temaUsuario.idtema %}
+								{% for usuario in MinutaDetalle.usuarios %}
+									{% if temaUsuario.idUsuario == usuario.id %}
+										{{ usuario.nombre }} {{ usuario.apellido }},
+									{% endif %}
+								{% endfor %}
+							{% endif %}
+						{% endfor %}	
+					</td>
+					<td colspan="1"><strong>Inicio: </strong> {{ temas.compromisoinicio	}}</td>
+					<td colspan="1"><strong>Conclusión: </strong></td>
 				</tr>
 		  	</table>
 
