@@ -4,7 +4,9 @@ namespace App\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpFoundation\Rquest;
 use Symfony\Component\Routing\Annotation\Route;
+
 use App\Entity\Minuta;
 use App\Entity\Audiencia;
 use App\Entity\Usuario;
@@ -13,7 +15,11 @@ use App\Entity\RegistroMinuta;
 use App\Entity\Categoria;
 use App\Entity\EstatusMinuta;
 use App\Entity\TemaUsuario;
-use App\Entity\TemaMinuta;;
+use App\Entity\TemaMinuta;
+use App\Entity\Log;
+
+use Symfony\Component\Form\Extension\Core\Type\TextType;
+use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 
 class HomeController extends AbstractController
 {
@@ -72,6 +78,25 @@ class HomeController extends AbstractController
             'MinutaDetalle' => $minuta_detalle
         ]);
 
+    }
+
+    public function login()
+    {
+
+
+        $form = $this->createFormBuilder()
+                     ->setAction($this->generateUrl('validar_usurio'))
+                     ->setMethod('POST')
+                        ->add('Usuario', TextType::class)
+                        ->add('Password', TextType::class)
+                        ->add('Submit', SubmitType::class)
+                     ->getForm();
+
+
+        return $this->render('home/login.html.twig', [
+            'title' => 'login',
+            'form'=> $form->createView()
+        ]);   
     }
 
 }

@@ -1,5 +1,13 @@
+login:
+    path: /login
+    controller: App\Controller\HomeController::login
+
 index:
     path: /inicio
+    controller: App\Controller\HomeController::index
+
+validar_usurio:
+    path: /validar-usurio
     controller: App\Controller\HomeController::index
 
 usuario:

@@ -731,6 +731,10 @@ td#today:after {
     content: "\f27a";
 }
 
+.widget_meta ul li:nth-child(5) a:before {
+    content: "\f19a";
+}
+
 .footer-main .widget li a:hover:before,
 .footer-main .widget li a:focus:before,
 .widget_meta li a:hover:before,

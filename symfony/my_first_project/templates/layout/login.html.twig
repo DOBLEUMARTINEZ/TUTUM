@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<meta name="theme-color" content="#111">
+		<link rel="icon" type="image/x-icon" href="images/favicon.png" />
+
+		<title>
+			PRODEMEX | {% block tituloPagina %} inicio {% endblock %}
+		</title>
+
+		<!-- icons CDN -->
+  		<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+
+  		<!-- Estilos css  -->
+  		<link rel="stylesheet" type="text/css" href="./css/style.css">
+  		<link rel="stylesheet" type="text/css" href="./css/normalize.css">
+
+	</head>
+
+	<body>
+		
+		<div id="head">
+			
+			<img style="margin:2% auto; width:15%;" onclick="window.location.href='inicio';" src='http://localhost/server/symfony/my_first_project/public/images/prodemex.png'>
+	
+		</div>
+
+		<br><br>
+
+		<section id="content">
+			<div id="formularios">
+				<center>
+					<h2>Inicio de Session</h2>
+					{% block contenido %}{% endblock  %}
+				</center>
+			</div>
+		</section>
+
+		<br><br>
+
+		<footer id="footer" style="position:fixed; bottom:0; width:100%;">
+			{% block piePagina %}{% endblock %}
+			<p>© Copyright2022 PRODEMEX Todos los derechos reservados.</p>
+		</footer>
+
+	</body>
+
+	<!-- javascript -->
+  	<script src="js/js.js" ></script>
+
+</html>

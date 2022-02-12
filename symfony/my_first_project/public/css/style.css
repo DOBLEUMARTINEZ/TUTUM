@@ -271,6 +271,37 @@
 				display: none;
 			}
 
+	/* ESTILOS FORMULARIOS */
+
+		#formularios{
+		}
+
+		#formularios h2{
+			font-size: 2em;
+			width: 100%;
+		}
+
+		#formularios form{
+			width: 30%;
+			text-align: left;
+		}
+
+		#formularios form  label{
+			width: 100%;
+			font-size: 1em;
+			text-align: left;
+		}
+
+		#formularios form  input {
+			width: 100%;
+			margin-bottom: 1em;   
+		}
+
+		#formularios form  button {
+			
+		}
+
+
 	/* ESTILOS DE PIE DE PAGINA */
 		#footer{
 			background: #053a76;

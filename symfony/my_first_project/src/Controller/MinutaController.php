@@ -14,6 +14,7 @@ use App\Entity\Categoria;
 use App\Entity\EstatusMinuta;
 use App\Entity\TemaUsuario;
 use App\Entity\TemaMinuta;
+use App\Entity\Log;
 
 
 
