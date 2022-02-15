@@ -1,4 +1,3 @@
-<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -6,11 +5,10 @@
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="RECUPERADORA DE RECICLAJES INDUSTRIALES DEL MONTE">
-  <meta name="author" content="Dobleu Martinez">
+  <meta name="description" content="TUTUM | Consultoría tecnológica y soluciones integrales de TI">
   <meta name="theme-color" content="#111">
 
-  <title>RECUPERADORA DE RECICLAJES INDUSTRIALES DEL MONTE </title>
+  <title>TUTUM | Consultoría tecnológica y soluciones integrales de TI </title>
 
   <link href="images/logo/icon.png" rel="shortcut icon"/>
 
@@ -40,68 +38,99 @@
 
   <section py="5" class="body-back">
 
+    <div id="services-ttm" >
+      <ul>
+        <li>
+          <img src="images/icons/desarrollo.png">
+          <h2>DESARROLLO E IMPLEMENTACIÓN</h2>
+          <p>Servicios de consultoría tecnológica y soluciones integrales de TI</p>
+          <a href="">Conoce un poco más <i class="fas fa-chevron-right"></i></a>
+          <span></span>
+        </li>
+        <li>
+          <img src="images/icons/operacion.png">
+          <h2>OPERACIÓN</h2>
+          <p>Servicios de consultoría tecnológica y soluciones integrales de TI</p>
+          <a>Conoce un poco más <i class="fas fa-chevron-right"></i></a>
+          <span></span>
+        </li>
+        <li>
+          <img src="images/icons/cau.png">
+          <h2>CENTRO DE ATENCIÓN A USUARIOS</h2>
+          <p>Servicios de consultoría tecnológica y soluciones integrales de TI</p>
+          <a>Conoce un poco más <i class="fas fa-chevron-right"></i></a>
+          <span></span>
+        </li>
+        <li>
+          <img src="images/icons/cuberseguridad.png">
+          <h2>CIBERSEGURIDAD</h2>
+          <p>Servicios de consultoría tecnológica y soluciones integrales de TI</p>
+          <a>Conoce un poco más <i class="fas fa-chevron-right"></i></a>
+          <span></span>
+        </li>
+        <li>
+          <img src="images/icons/sap.png">
+          <h2>SAP</h2>
+          <p>Servicios de consultoría tecnológica y soluciones integrales de TI</p>
+          <a>Conoce un poco más <i class="fas fa-chevron-right"></i></a>
+          <span></span>
+        </li>
+        <li>
+          <img src="images/icons/fabrica.png">
+          <h2>FABRICA DE SOFTWARE</h2>
+          <p>Servicios de consultoría tecnológica y soluciones integrales de TI</p>
+          <a>Conoce un poco más <i class="fas fa-chevron-right"></i></a>
+          <span></span>
+        </li>
+
+      </ul>
+    </div>
+
+    <br><br>
+
     <article>
       <!-- servicios -->
       <div class="container container-services-01">
-        <h2>Los residuos que recolectamos son</h2>
-        <ul>
-          <li>
-            <img src="images/img/plastico.jpg">
-            <h3>Plástico</h3>
-            <p></p>
-          </li>
-          <li>
-            <img src="images/img/tarimas.jpg">
-            <h3>Tarimas</h3>
-            <p></p>
-          </li>
-          <li>
-            <img src="images/img/polipro.jpg">
-            <h3>Polipro</h3>
-            <p></p>
-          </li>
-          <li>
-            <img src="images/img/Polietileno.jpg">
-            <h3>Polietileno</h3>
-            <p></p>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <img src="images/img/carton.jpg">
-            <h3>Cartón</h3>
-            <p></p>
-          </li>
-          <li>
-            <img src="images/img/chatarra.jpg">
-            <h3>Chatarra</h3>
-            <p></p>
-          </li>
-          <li>
-            <img src="images/img/desmantelamiento.jpg">
-            <h3>Desmantelamiento</h3>
-            <p></p>
-          </li>
-        </ul>
+
+        <h2>¿Quiénes somos?</h2>
+
+        <p>
+          Somos una empresa, dinámica, innovadora y 100% mexicana; dedicada a brindar servicios de consultoría tecnológica y soluciones integrales de TI. Estamos comprometidos con el desarrollo económico y social del país, así como con nuestros clientes, socios y colaboradores.
+        </p>
 
       </div>
 
       <!-- cta  -->
-      <div class="container-black" style="padding: 4% 5% 0% 5%;">
+      <div class="container-black" style="padding: 2% 5% 2% 5%;">
         <span style="background: #000f1fcc;"></span>
 
           <div class="row">
 
             <div class="col-md-12" >
-              <h2 id="colors">
-                <center>Trabajamos con equipo altamente calificado y <br>de excelente calidad</center>
-              </h2>
-              <center>
-                <button data-toggle="modal" data-target="#modal-1" class="cta-03">
-                  Contáctanos
-                </button><br><br>
-              </center>
-              
+
+              <ul>
+                <li>
+                  <img src="images/icons/mexico.png">
+                  <h3><a class="counter" data-count="100">0</a>%<br> Mexicana​</h3>
+                </li>
+                <li>
+                  <img src="images/icons/team.png">
+                  <h3>+<a class="counter" data-count="150">0</a><br> Colaboradores capacitados y certificados</h3>
+                </li>
+                <li>
+                  <img src="images/icons/certificate.png">
+                  <h3><a class="counter" data-count="35">0</a><br> Proyectos a nivel nacional​</h3>
+                </li>
+                <li>
+                  <img src="images/icons/dispositivo.png">
+                  <h3>+<a class="counter" data-count="50000">0</a><br> Dispositivos monitoreados diariamente</h3>
+                </li>
+                <li>
+                  <img src="images/icons/cau2.png">
+                  <h3>+<a class="counter" data-count="6">0</a><br> Centros de atención</h3>
+                </li>
+              </ul>
+                      
             </div>
 
           </div>
@@ -220,6 +249,7 @@
       </div>-->
 
     </article>
+
   </section>
 
   <?php 

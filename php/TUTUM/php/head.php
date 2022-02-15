@@ -2,27 +2,40 @@
 
 <!-- HEADER MOBIL -->
  <div class="head mobil" style="background: #fff!important;">
+
     <nav class="container-header">
+
       <ul style="width: 100%; justify-content: space-between;">
+
         <li style="width: 70%;" >
           <img style="margin: 0px 0px 0px 0px;padding: 5px 0px 5px 10px;" src="images/logo/logo.png"/ onclick="window.location.href='./';">
         </li>
+
         <li data-toggle="modal" data-target="#modal-0" style="width: 30%; display: flex;" >
-          <i style="margin: auto;font-size: 1.6em;color: #28a745;
-" class="fas fa-bars"></i>
+          <i style="margin: auto;font-size: 1.6em;color: #28a745;" class="fas fa-bars"></i>
         </li>
+
       </ul>
+
     </nav>
+
   </div>
 
 <!-- HEADER 1 -->
   <div  id="inicio" class="head-0 desktop">
+
     <ul style="justify-content: flex-start;">
-      <li onclick="window.location.href='mailto:resicladosindustriales.22@gmail.com';" > <i class="fas fa-envelope" title="Correo" alt="Correo"></i> resicladosindustriales.22@gmail.com</li>
+      <li onclick="window.location.href='mailto:resicladosindustriales.22@gmail.com';" ><i class="fab fa-facebook-f incon-social"><span></span></i></li>
+      <li onclick="window.location.href='mailto:resicladosindustriales.22@gmail.com';" ><i class="fab fa-instagram incon-social"></i></li>
+      <li onclick="window.location.href='mailto:resicladosindustriales.22@gmail.com';" ><i class="fab fa-linkedin-in incon-social"></i></li>
+      <li onclick="window.location.href='mailto:resicladosindustriales.22@gmail.com';" ><i class="fab fa-twitter incon-social"></i></li>
     </ul>
+
     <ul>
       <li onclick="window.location.href='tel:5521651341';"> <i class="fas fa-phone" title="Teléfono" alt="Teléfono"></i> 55 2165 1341</li>
+      <li onclick="window.location.href='mailto:resicladosindustriales.22@gmail.com';" > <i class="fas fa-envelope" title="Correo" alt="Correo"></i> contacto@tutum.com.mx</li>
     </ul>
+
   </div>
 
 <!-- HEADER 2 -->
@@ -36,8 +49,46 @@
       <ul>
         <li onclick="window.location.href='./';">Inicio</li>
         <li onclick="window.location.href='./';">Nosotros</li>
-        <li onclick="window.location.href='./';">Servicios</li>
-        <li onclick="window.location.href='./';">Proyectos</li>
+
+        <li onclick="window.location.href='./';" class="dropdown-menu-ttm">
+          Servicios <i class="fas fa-angle-down"></i>
+          <ol>
+            <li>
+              Proyectos integrales en Soluciones de TI
+            </li>
+            <li>
+              Centro de atención al usuario
+            </li>
+            <li>
+              Consultoría​ SAP
+            </li>
+            <li>
+              Ciberseguridad
+            </li>
+            <li>
+              Fabrica de Software
+            </li>
+            <li>
+              Operación de Proyectos
+            </li>
+          </ol>
+        </li>
+
+        <li onclick="window.location.href='./';" class="dropdown-menu-ttm">
+          Proyectos <i class="fas fa-angle-down"></i>
+          <ol>
+            <li>
+              En operación
+            </li>
+            <li>
+              Llave en mano
+            </li>
+            <li>
+              En desarrollo
+            </li>
+          </ol>
+        </li>
+
         <li onclick="window.location.href='./';">Contacto</li>
       </ul>
 
