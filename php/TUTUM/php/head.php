@@ -54,22 +54,22 @@
           Servicios <i class="fas fa-angle-down"></i>
           <ol>
             <li>
-              Proyectos integrales en Soluciones de TI
+              Desarrollo e implementacion
             </li>
             <li>
-              Centro de atención al usuario
+              Operación
             </li>
             <li>
-              Consultoría​ SAP
+              Centro de atención a usuarios
             </li>
             <li>
               Ciberseguridad
             </li>
             <li>
-              Fabrica de Software
+              SAP
             </li>
             <li>
-              Operación de Proyectos
+              Fabrica de software
             </li>
           </ol>
         </li>

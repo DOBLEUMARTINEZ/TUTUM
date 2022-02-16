@@ -76,7 +76,7 @@
           <span></span>
         </li>
         <li>
-          <img src="images/icons/fabrica.png">
+          <img src="images/icons/operacion.png">
           <h2>FABRICA DE SOFTWARE</h2>
           <p>Servicios de consultoría tecnológica y soluciones integrales de TI</p>
           <a>Conoce un poco más <i class="fas fa-chevron-right"></i></a>
@@ -85,8 +85,6 @@
 
       </ul>
     </div>
-
-    <br><br>
 
     <article>
       <!-- servicios -->
@@ -98,10 +96,24 @@
           Somos una empresa, dinámica, innovadora y 100% mexicana; dedicada a brindar servicios de consultoría tecnológica y soluciones integrales de TI. Estamos comprometidos con el desarrollo económico y social del país, así como con nuestros clientes, socios y colaboradores.
         </p>
 
+        <br><br>
+
+        <div style="justify-content: center;">
+          
+          <ol style="width: 35%">
+            <li style="display: block; margin:5%; "><img style="width: 40%; margin-left: 30%;" src="images/icons/iso2.png"><h4 style="width: 100%;text-align: center;">Empresa certificada ISO 9001:2015</h4></li>
+          </ol>
+
+          <ol style="width: 35%">
+            <li style="display: block; margin:5%; "><img style="width: 40%; margin-left: 30%;" src="images/icons/iso3.png"><h4 style="width: 100%;text-align: center;">Empresa certificada ISO / IEC 27001:2013</h4></li>
+          </ol>
+
+        </div>
+
       </div>
 
       <!-- cta  -->
-      <div class="container-black" style="padding: 2% 5% 2% 5%;">
+      <div class="container-black" style="padding: 3% 5% 3% 5%;">
         <span style="background: #000f1fcc;"></span>
 
           <div class="row">
@@ -112,6 +124,10 @@
                 <li>
                   <img src="images/icons/mexico.png">
                   <h3><a class="counter" data-count="100">0</a>%<br> Mexicana​</h3>
+                </li>
+                <li>
+                  <img src="images/icons/barra-grafica.png">
+                  <h3><a class="counter" data-count="6">0</a> años<br> Experiencia</h3>
                 </li>
                 <li>
                   <img src="images/icons/team.png">
@@ -137,16 +153,47 @@
 
       </div>
 
-      <!-- socios -->
+      <div class="container container-services-01">
+
+        <h2>Nuestra Experiencia</h2>
+
+        <div>
+
+          <ol>
+            <li><img src="images/icons/operacion.png"><h4>Salud</h4><span></span></li>
+            <li><img src="images/icons/sap.png"><h4>Gestión Hospitalaria</h4><span></span></li>
+            
+          </ol>
+          
+          <ol>
+            <li><img src="images/icons/implementacion.png"><h4>Finanzas</h4><span></span></li>
+            <li><img src="images/icons/winner.png"><h4>Infraestructura e Industrial</h4><span></span></li>
+            
+          </ol>
+
+          <ol>
+            <li><img src="images/icons/diploma.png"><h4>Banca</h4><span></span></li>
+            <li><img src="images/icons/suministro.png"><h4>Seguridad Nacional</h4><span></span></li>
+          </ol>
+
+        </div>
+
+      </div>
+
+      <!-- Clientes -->
+      <div class="container container-services-01">
+
+        <h2>Nuestros Clientes</h2>
+
+      </div>
       <div class="container-fluid">
 
         <div class="row no-gutters">
           <div class="col-md-12">
             <div class="container-work">
 
-              <h2>Nuestro servicio incluye</h2>
               <div class="slider-principal">
-                <div id="our-work" class="carousel slide" data-ride="carousel">    
+                <div id="clientes" class="carousel slide" data-ride="carousel">    
 
                   <div class="carousel-inner">
 
@@ -155,24 +202,141 @@
                       <ul class="clientes">
 
                         <li>
-                          <img src="images/icons/group.png" title="Zoetis" alt="Zoetis">
-                          <h4>Personal capacitado</h4>
+                          <img src="images/img/socios/logo-8.png">
                         </li>
 
                         <li>
-                          <img src="images/icons/24-hours.png" title="Tornel" alt="Tornel">
-                          <h4>24/7</h4>
+                          <img src="images/img/socios/logo-9.png">
                         </li>
 
                         <li>
-                          <img src="images/icons/positive-vote.png" title="Richmond" alt="Richmond">
-                          <h4>Excelente servicio</h4>
+                          <img src="images/img/socios/logo-10.png">
+                        </li>
+
+                        <li>
+                          <img src="images/img/socios/logo-11.png">
                         </li>
 
 
                       </ul>
 
                     </div>
+
+                    <div class="carousel-item ">
+
+                      <ul class="clientes">
+
+                        <li>
+                          
+                        </li>
+
+                        <li>
+                          <img src="images/img/socios/logo-12.png">
+                        </li>
+
+                        <li>
+                          <img src="images/img/socios/logo-13.png">
+                        </li>
+
+                        <li>
+                          
+                        </li>
+
+                      </ul>
+
+                    </div>
+
+                    <a class="carousel-control-prev" href="#clientes" role="button" data-slide="prev">
+                      <i style="font-size: 2em;color: #26cfe0;" class="fas fa-angle-left"></i>
+                    </a>
+
+                    <a class="carousel-control-next" href="#clientes" role="button" data-slide="next">
+                        <i style="font-size: 2em;color: #26cfe0;" class="fas fa-angle-right"></i>
+                    </a>
+              
+                  </div>
+
+                </div>  
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- alianzas -->
+      <div class="container container-services-01">
+
+        <h2>Nuestras Alianzas</h2>
+
+      </div>
+      <div class="container-fluid">
+
+        <div class="row no-gutters">
+          <div class="col-md-12">
+            <div class="container-work">
+
+              <div class="slider-principal">
+                <div id="alianzas" class="carousel slide" data-ride="carousel">    
+
+                  <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+
+                      <ul class="clientes">
+
+                        <li>
+                          <img src="images/img/socios/logo-0.png">
+                        </li>
+
+                        <li>
+                          <img src="images/img/socios/logo-1.png">
+                        </li>
+
+                        <li>
+                          <img src="images/img/socios/logo-2.png">
+                        </li>
+
+                        <li>
+                          <img src="images/img/socios/logo-3.png">
+                        </li>
+
+
+                      </ul>
+
+                    </div>
+
+                    <div class="carousel-item">
+
+                      <ul class="clientes">
+
+                        <li>
+                          <img src="images/img/socios/logo-4.png">
+                        </li>
+
+                        <li>
+                          <img src="images/img/socios/logo-5.png">
+                        </li>
+
+                        <li>
+                          <img src="images/img/socios/logo-6.png">
+                        </li>
+
+                        <li>
+                          <img src="images/img/socios/logo-7.png">
+                        </li>
+
+                      </ul>
+
+                    </div>
+
+                    <a class="carousel-control-prev" href="#alianzas" role="button" data-slide="prev">
+                      <i style="font-size: 2em;color: #26cfe0;" class="fas fa-angle-left"></i>
+                    </a>
+
+                    <a class="carousel-control-next" href="#alianzas" role="button" data-slide="next">
+                        <i style="font-size: 2em;color: #26cfe0;" class="fas fa-angle-right"></i>
+                    </a>
               
                   </div>
 

@@ -23,12 +23,12 @@
 
     <div class="carousel-item">
 
-      <img class="d-block w-100 desktop-slider" src="./images/slide/banner-3.jpg" alt="First slide">
+      <img class="d-block w-100 desktop-slider" src="./images/slide/banner-2.jpg" alt="First slide">
       <img class="d-block w-100 mobil-slider" src="./images/slide/mobil-0.png" alt="First slide">
 
         <div class="box-slider">
           <h1>
-            Contamos con soporte a <span>nivel nacional</span>
+            Fabrica de <span>Software</span>
           </h1>
           <p>
             Estamos comprometidos con el desarrollo económico y social del país, así como con nuestros clientes, socios y colaboradores.​

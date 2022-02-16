@@ -1,6 +1,6 @@
 <div class="footer-W">
 
-	<div class="row">
+	<div class="row" style="display: none;">
 		
 		<div class="col-md-4">
 			<h3>Manejo de residuos</h3>
@@ -28,7 +28,7 @@
 	</div>
 
     <p class="copyrigt">
-    	Copyright © 2021 <span onclick="window.open('http://dobleumartinez.com/')">dobleumartinez.com</span>, 
+    	Copyright © 2021 <span onclick="window.open('http://www.tutum.com.mx/')">tutum.com.mx</span>, 
     	Todos los derechos reservados. 
     	<span>Terminos y Condiciones</span>, 
     	<span>Aviso de Privacidad</span>.
