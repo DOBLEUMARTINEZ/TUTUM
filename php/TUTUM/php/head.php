@@ -43,14 +43,15 @@
 
     <nav class="container-header">
       <div>
-        <img src="images/logo/logo.png" onclick="window.location.href='./';"></li>
+        <img src="images/logo/logo.png" class="img-logo-front" onclick="window.location.href='./';">
+        <img src="images/logo/logo2.png" class="img-logo-back" onclick="window.location.href='./';">
       </div>
 
-      <ul>
+      <ul class="color-font-menu">
         <li onclick="window.location.href='./';">Inicio</li>
-        <li onclick="window.location.href='./';">Nosotros</li>
+        <li onclick="window.location.href='./us';">Identidad</li>
 
-        <li onclick="window.location.href='./';" class="dropdown-menu-ttm">
+        <li class="dropdown-menu-ttm">
           Servicios <i class="fas fa-angle-down"></i>
           <ol>
             <li>
@@ -68,7 +69,7 @@
             <li>
               SAP
             </li>
-            <li>
+            <li onclick="window.location.href='./factory';" >
               Fabrica de software
             </li>
           </ol>

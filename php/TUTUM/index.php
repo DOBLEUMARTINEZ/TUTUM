@@ -34,7 +34,7 @@
 <body>
 
   <?php include("php/head.php"); ?> 
-  <?php include("php/slide.php"); ?>
+  <?php include("php/sliders/slide.php"); ?>
 
   <section py="5" class="body-back">
 
@@ -51,35 +51,35 @@
           <img src="images/icons/operacion.png">
           <h2>OPERACIÓN</h2>
           <p>Servicios de consultoría tecnológica y soluciones integrales de TI</p>
-          <a>Conoce un poco más <i class="fas fa-chevron-right"></i></a>
+          <a href="">Conoce un poco más <i class="fas fa-chevron-right"></i></a>
           <span></span>
         </li>
         <li>
           <img src="images/icons/cau.png">
           <h2>CENTRO DE ATENCIÓN A USUARIOS</h2>
           <p>Servicios de consultoría tecnológica y soluciones integrales de TI</p>
-          <a>Conoce un poco más <i class="fas fa-chevron-right"></i></a>
+          <a href="">Conoce un poco más <i class="fas fa-chevron-right"></i></a>
           <span></span>
         </li>
         <li>
           <img src="images/icons/cuberseguridad.png">
           <h2>CIBERSEGURIDAD</h2>
           <p>Servicios de consultoría tecnológica y soluciones integrales de TI</p>
-          <a>Conoce un poco más <i class="fas fa-chevron-right"></i></a>
+          <a href="">Conoce un poco más <i class="fas fa-chevron-right"></i></a>
           <span></span>
         </li>
         <li>
           <img src="images/icons/sap.png">
           <h2>SAP</h2>
           <p>Servicios de consultoría tecnológica y soluciones integrales de TI</p>
-          <a>Conoce un poco más <i class="fas fa-chevron-right"></i></a>
+          <a href="">Conoce un poco más <i class="fas fa-chevron-right"></i></a>
           <span></span>
         </li>
         <li>
           <img src="images/icons/operacion.png">
           <h2>FABRICA DE SOFTWARE</h2>
           <p>Servicios de consultoría tecnológica y soluciones integrales de TI</p>
-          <a>Conoce un poco más <i class="fas fa-chevron-right"></i></a>
+          <a href="">Conoce un poco más <i class="fas fa-chevron-right"></i></a>
           <span></span>
         </li>
 
@@ -160,20 +160,20 @@
         <div>
 
           <ol>
-            <li><img src="images/icons/operacion.png"><h4>Salud</h4><span></span></li>
-            <li><img src="images/icons/sap.png"><h4>Gestión Hospitalaria</h4><span></span></li>
+            <li><img src="images/icons/salud2.png"><h4>Salud</h4><span></span></li>
+            <li><img src="images/icons/salud.png"><h4>Gestión Hospitalaria</h4><span></span></li>
             
           </ol>
           
           <ol>
-            <li><img src="images/icons/implementacion.png"><h4>Finanzas</h4><span></span></li>
-            <li><img src="images/icons/winner.png"><h4>Infraestructura e Industrial</h4><span></span></li>
+            <li><img src="images/icons/banca.png"><h4>Finanzas</h4><span></span></li>
+            <li><img src="images/icons/factory.png"><h4>Infraestructura e Industrial</h4><span></span></li>
             
           </ol>
 
           <ol>
-            <li><img src="images/icons/diploma.png"><h4>Banca</h4><span></span></li>
-            <li><img src="images/icons/suministro.png"><h4>Seguridad Nacional</h4><span></span></li>
+            <li><img src="images/icons/finanzas.png"><h4>Banca</h4><span></span></li>
+            <li><img src="images/icons/seguridad.png"><h4>Seguridad Nacional</h4><span></span></li>
           </ol>
 
         </div>

@@ -18,9 +18,13 @@ function irArriba(){
 
       $('.head').addClass('enable-head');
 
-      $('.size-0').addClass('size');
+      $('.img-logo-front').css('opacity', '1');
+      $('.img-logo-back').css('opacity', '0');
 
-      $('.colors').addClass('add-colors');
+      $('.color-font-menu').css('color', '#111');
+      //$('.size-0').addClass('size');
+
+      //$('.colors').addClass('add-colors');
 
     }else{
 
@@ -28,11 +32,17 @@ function irArriba(){
 
       $('.dinamic-wha').removeClass('dinamic-wha-active');
       $('.a-wha').addClass('a-desactive');
+
       $('.head').removeClass('enable-head');
 
-      $('.size-0').removeClass('size');
+      $('.img-logo-front').css('opacity', '0');
+      $('.img-logo-back').css('opacity', '1');
 
-      $('.colors').removeClass('add-colors');
+      $('.color-font-menu').css('color', '#fff');
+
+      //$('.size-0').removeClass('size');
+
+      //$('.colors').removeClass('add-colors');
    }
 
   });

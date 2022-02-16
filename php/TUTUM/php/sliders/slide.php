@@ -2,15 +2,21 @@
 
   <div class="carousel-inner">
 
+    <!--
     <div class="carousel-item active">
 
       <img class="d-block w-100 desktop-slider" src="./images/slide/banner-3.jpg" alt="First slide">
       <img class="d-block w-100 mobil-slider" src="./images/slide/mobil-0.png" alt="First slide">
 
         <div class="box-slider">
-          <h1>
-            Contamos con soporte a <span>nivel nacional</span>
+
+          <h1 class="ml11">
+            <span class="text-wrapper">
+              <span class="line line1"></span>
+              <span class="letters">Soluciones Integrales de TI</span>
+            </span>
           </h1>
+
           <p>
             Estamos comprometidos con el desarrollo económico y social del país, así como con nuestros clientes, socios y colaboradores.​
           </p>
@@ -19,16 +25,19 @@
           </button>
         </div>
 
-    </div>
+    </div>-->
 
-    <div class="carousel-item">
+    <div class="carousel-item active">
 
-      <img class="d-block w-100 desktop-slider" src="./images/slide/banner-2.jpg" alt="First slide">
-      <img class="d-block w-100 mobil-slider" src="./images/slide/mobil-0.png" alt="First slide">
+      <span style="position: absolute; width: 100%; height: 100%; background: #0000007a;"></span>
+      <video class="video-slide desktop-slider" loading="lazy" src="https://www.tutum.com.mx/video/SOLUCIONES.mp4" autoplay="" muted="" loop=""></video>
 
         <div class="box-slider">
-          <h1>
-            Fabrica de <span>Software</span>
+          <h1 class="ml11">
+            <span class="text-wrapper">
+              <span class="line line1"></span>
+              <span class="letters">Soluciones Integrales de TI</span>
+            </span>
           </h1>
           <p>
             Estamos comprometidos con el desarrollo económico y social del país, así como con nuestros clientes, socios y colaboradores.​
@@ -42,6 +51,7 @@
   
   </div>
 
+  <!--
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
@@ -50,7 +60,7 @@
   <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
-  </a>
+  </a>-->
 
 </div>
 

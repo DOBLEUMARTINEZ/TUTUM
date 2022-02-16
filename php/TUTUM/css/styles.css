@@ -646,13 +646,15 @@
             background: #0000;
             transition: 0.5s;   
             z-index: 99;
+            color: #fff;
         }
         .enable-head{
             transition: 0.3s!important;
-            background: #0000!important;
+            background: #fff!important;
             opacity: 1!important;
             top: 0;
-            box-shadow: 0 5px 30px #0000;
+            box-shadow: 0 5px 30px #00000069;
+            border-bottom: 2px solid #26cfe047;
         }
 
         .enable-head li{
@@ -662,13 +664,13 @@
 
         /* CABECERA CONTACTO */
             .head-0{
-                padding: 1% 15% 0.5% 15%;
+                padding: 0.5% 15% 0.5% 15%;
                 margin: 0;
                 position: relative;
                 width: 100%;
                 top: 0;
                 z-index: 999;
-                background: #0000;
+                background: #7a7a7a;
                 display: flex;
             }
 
@@ -725,23 +727,33 @@
         /* CONTENEDOR HEADER */
 
             .container-header{
-                background: #ffffff;
+                background: #0000;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
                 border-radius: 5px;
                 padding: 0% 0.5%;
-                box-shadow: 0px 3px 9px -3px #33333375;
             }
 
             .container-header div{
                 width: 20%;
                 text-align: center ;
+                position: relative;
             }
 
-            .container-header div > img{
+            .container-header  .img-logo-front{
                 width: 90%;
+                margin-left: 5%;
+                opacity: 0;
             }
+
+            .container-header .img-logo-back{
+                width: 90%;
+                position: absolute;
+                top: 0;
+                left: 7%;
+            }
+
 
             .container-header ul {
                 width: 80%;
@@ -759,9 +771,7 @@
                 font-family: var(--font-content);
                 font-size: 0.9em;
                 cursor: pointer;
-                font-weight: 800;
                 letter-spacing: 1px;
-                color: #000000cf;
                 text-align: center;
             }
 
@@ -1158,6 +1168,17 @@
     }
 
 /*  ESTILOS CONTENIDO  */
+
+    .title-slider-section{
+        position: absolute;
+        top: 56%;
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 3em;
+        width: 100%;
+        text-align: center;
+    }
+
     .titles{
         position: absolute;
         top: 35%;
@@ -1223,7 +1244,7 @@
         font-weight: 600;
     }
 
-    .box-slider h1 > span{
+    .box-slider a{
         color: #26cfe0;
     }
 
@@ -1263,6 +1284,41 @@
     .box-slider button:hover{
         background: #26cfe0;
     }
+
+        /***/
+
+        .ml11 {
+          font-weight: 700;
+          font-size: 3.5em;
+        }
+
+        .ml11 .text-wrapper {
+          position: relative;
+          display: inline-block;
+          padding-top: 0.1em;
+          padding-right: 0.05em;
+          padding-bottom: 0.15em;
+        }
+
+        .ml11 .line {
+          opacity: 0;
+          position: absolute;
+          left: 0;
+          height: 100%;
+          width: 3px;
+          background-color: #4bbed3;
+          transform-origin: 0 50%;
+        }
+
+        .ml11 .line1 { 
+          top: 0; 
+          left: 0;
+        }
+
+        .ml11 .letter {
+          display: inline-block;
+          line-height: 1em;
+        }
 
 /******ANIMATED SLIDER VERTICAL *****/
 
@@ -1380,6 +1436,10 @@
         width: 50%;
         margin-bottom: 5%;
         z-index: 1; 
+    }
+
+    #services-ttm ul > li > img:before {
+        content: '|';
     }
 
     #services-ttm ul > li > h2{
@@ -1559,16 +1619,26 @@
     .container-us{
 
     }
+
     .container-us h2{
-        font-size: 2.5em;
-        text-align: left;
-        padding: 2% 0%;
+        font-weight: bold;
+        font-size: 2em;
+        padding: 0;
         font-family: var(--font-second);
         line-height: 1.5;
-        letter-spacing: 0px;
-        margin-bottom: 0;
+        letter-spacing: 0.5px;
+        margin: 0.5em 0;
         color: #212529;
     }
+
+    .container-us h2::before{
+        content: '| ';
+        color: #4bbed3;
+        font-weight: 900;
+        font-size: 1.3em;
+
+    }
+
 
     .container-us h3{
         font-size: 1.5em;
@@ -1580,8 +1650,9 @@
         margin-bottom: 0;
         color: #212529;
     }
+
     .container-us p{
-        font-size: 1.3em;
+        font-size: 0.9em;
         margin: 0% 0%;
         padding: 0% 5% 0% 0%;
         letter-spacing: 1px;
@@ -1614,6 +1685,13 @@
         color: #713230;
         font-size: 3.3em;
         margin-bottom: 20px;
+    }
+
+    .container-us img{
+        width: 80%;
+        margin-left: 10%;
+        border-radius: 5px;
+        box-shadow: 1px 4px 12px -5px #333333bf;
     }
 
 /* CONTENEDOR BARRA NEGRA  */
@@ -1829,6 +1907,7 @@
         filter: grayscale(75%);
 
     }
+ 
 
 /* CONTAINER SERVICES 01 */
     .container-services-01 h2{
