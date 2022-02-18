@@ -1,0 +1,5 @@
+php artisan make:controller  "Admin\pclau\NameController" –resource  --model=Name 
+
+php artisan make:migration create_Name_table
+
+php artisan make:livewire "Admin\NameIndex"
