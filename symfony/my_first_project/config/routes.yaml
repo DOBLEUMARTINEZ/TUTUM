@@ -6,10 +6,6 @@ index:
     path: /inicio
     controller: App\Controller\HomeController::index
 
-validar_usurio:
-    path: /validar-usurio
-    controller: App\Controller\HomeController::index
-
 usuario:
     path: /usuario
     controller: App\Controller\UsuarioController::index

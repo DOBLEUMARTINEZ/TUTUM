@@ -17,8 +17,6 @@ use App\Entity\TemaMinuta;
 use App\Entity\Log;
 
 
-
-
 class MinutaController extends AbstractController
 {
     /**

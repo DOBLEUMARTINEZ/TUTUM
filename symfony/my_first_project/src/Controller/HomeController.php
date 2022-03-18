@@ -3,8 +3,10 @@
 namespace App\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+
 use Symfony\Component\HttpFoundation\Response;
-use Symfony\Component\HttpFoundation\Rquest;
+use Symfony\Component\HttpFoundation\Request;
+
 use Symfony\Component\Routing\Annotation\Route;
 
 use App\Entity\Minuta;
@@ -80,18 +82,41 @@ class HomeController extends AbstractController
 
     }
 
-    public function login()
+    public function login(Request $request)
     {
-
-
+        // formulario de login
         $form = $this->createFormBuilder()
-                     ->setAction($this->generateUrl('validar_usurio'))
+                     //->setAction($this->generateUrl('validar_usurio'))
                      ->setMethod('POST')
-                        ->add('Usuario', TextType::class)
-                        ->add('Password', TextType::class)
-                        ->add('Submit', SubmitType::class)
+                        ->add('usuario', TextType::class)
+                        ->add('password', TextType::class)
+                        ->add('submit', SubmitType::class)
                      ->getForm();
 
+        // validar usuario y envio de formulario 
+        $form->handleRequest($request);
+
+        if ($form->isSubmitted()) {
+
+            $form = $request->get('form');
+
+            $user = $form['usuario'];
+            $password = $form['password'];
+
+            // busqueda de usuario 
+            $usuario_f = $this->getDoctrine()->getRepository(Usuario::class);
+            $usuario =  $usuario_f->findOneBy(['user' => $user, 'password' => $password]);
+
+            if (!empty($usuario)) {
+                echo "yes";
+                return $this->redirectToRoute('index');
+
+            }else{
+                echo "no";
+                return $this->redirectToRoute('login');
+            }
+            
+        }
 
         return $this->render('home/login.html.twig', [
             'title' => 'login',
@@ -99,4 +124,4 @@ class HomeController extends AbstractController
         ]);   
     }
 
-}
+} 
