@@ -21,63 +21,106 @@ use App\Entity\TemaMinuta;
 use App\Entity\Log;
 
 use Symfony\Component\Form\Extension\Core\Type\TextType;
+use Symfony\Component\Form\Extension\Core\Type\PasswordType;
 use Symfony\Component\Form\Extension\Core\Type\SubmitType;
+use Symfony\Component\Form\Extension\Core\Type\DateType;
 
 class HomeController extends AbstractController
 {
     /**
      * @Route("/home", name="home") 
      */
-    public function index(): Response
+    public function index(Request $request): Response
     {
-        $id_minuta = 85;
 
-        // consulta minuta id
+        // id minuta default
         $minuta_repo = $this->getDoctrine()->getRepository(Minuta::class);
-        $minuta =  $minuta_repo->find($id_minuta);
+        $minuta =  $minuta_repo->findOneBy([],['id' => 'desc']);
+        $id_minuta = $minuta->getId();
 
-        // estatus minuta
-        $estatusMinuta_repo = $this->getDoctrine()->getRepository(EstatusMinuta::class);
-        $estatusMinutas =  $estatusMinuta_repo->findAll();
-        $estatusMinuta =  $estatusMinuta_repo->find($minuta->getEstatus());
-        $estatusMinuta = $estatusMinuta->getNombre();
+        // formulario busqueda por fecha
+        $form_date = $this->createFormBuilder()
+            //->setAction($this->generateUrl('validar_usurio'))
+            ->setMethod('POST')
+                ->add('date_serch', DateType::class,[
+                    'label'=>'fecha de minuta',
+                    'widget' => 'single_text',
+                    'format' => 'yyyy-MM-dd',
+                ])
 
-        // audiencia minuta
-        $audiencia_repo = $this->getDoctrine()->getRepository(Audiencia::class);
-        $audiencia =  $audiencia_repo->findBy(['id_minuta' => $id_minuta]);
+                ->add('submit', SubmitType::class,[
+                    'label'=>'Buscar'
+                ])
 
-        // usuarios 
-        $usuario_repo = $this->getDoctrine()->getRepository(Usuario::class);
-        $usuario =  $usuario_repo->findAll();
+            ->getForm();
 
-        // temas de la minuta
-        $temaMinuta_repo = $this->getDoctrine()->getRepository(TemaMinuta::class);
-        $temaMinuta =  $temaMinuta_repo->findBy(['id_reunion' => $id_minuta]);
+        // validar envio de formulario de fecha 
+        $form_date->handleRequest($request);
+        if ($form_date->isSubmitted()) {
+            //var_dump($request->get('form'));
+            $form_dates = $request->get('form');
+            $date = $form_dates['date_serch'];
+            //echo  "la fecha inicial es: ".$date;
+            $id_minuta_date = $this->getDoctrine()->getRepository(Minuta::class);
+            $id_minutas =  $id_minuta_date->findOneBy(['fecha_inicio' => $date.' 08:00:00' ]);
+            //var_dump($id_tema_minuta);
+            if (!empty($id_minutas)) {
+                $id_minuta = $id_minutas->getId();
+                //echo "yes";
+            }else{
+                //echo "none";
+                echo $id_minuta;
+            }
+        }
 
-        // temas de usuarios
-        $temaUsuario_repo = $this->getDoctrine()->getRepository(TemaUsuario::class);
-        $temaUsuario =  $temaUsuario_repo->findAll();
+        // colsulta final minuta 
+
+            // estatus minuta
+                $estatusMinuta_repo = $this->getDoctrine()->getRepository(EstatusMinuta::class);
+                $estatusMinutas =  $estatusMinuta_repo->findAll();
+                $estatusMinuta =  $estatusMinuta_repo->find($minuta->getEstatus());
+                $estatusMinuta = $estatusMinuta->getNombre();
+
+            // audiencia minuta
+                $audiencia_repo = $this->getDoctrine()->getRepository(Audiencia::class);
+                $audiencia =  $audiencia_repo->findAll(['id' => $id_minuta]);
+
+            // usuarios 
+                $usuario_repo = $this->getDoctrine()->getRepository(Usuario::class);
+                $usuario =  $usuario_repo->findAll();
+
+            // temas de la minuta
+                $temaMinuta_repo = $this->getDoctrine()->getRepository(TemaMinuta::class);
+                $temaMinuta =  $temaMinuta_repo->findAll(['id' => $id_minuta]);
+
+            // temas de usuarios
+                $temaUsuario_repo = $this->getDoctrine()->getRepository(TemaUsuario::class);
+                $temaUsuario =  $temaUsuario_repo->findAll();
 
 
-        $minuta_detalle = array(
-            'id' => $minuta->getId(),
-            'objetivo' => $minuta->getObjetivo(),
-            'fechaInicio' => $minuta->getFechaInicio(),
-            'fechaFin' => $minuta->getFechaFin(),
-            'proximaReunion' => $minuta->getProximareunion(),
-            'itinerario' => $minuta->getItinerario(),
-            'estatus' => $estatusMinuta,
-            'estatusMinutas' => $estatusMinutas,
-            'autorizacion' => $minuta->getAutorizacion(),
-            'audiencia' => $audiencia,
-            'usuarios' => $usuario,
-            'temasMinuta' => $temaMinuta,
-            'temasUsuarios' => $temaUsuario
-        );
+            // RESPUESTA
+            $minuta_detalle = array(
+                'id' => $id_minuta,
+                'objetivo' => $minuta->getObjetivo(),
+                'fechaInicio' => $minuta->getFechaInicio(),
+                'fechaFin' => $minuta->getFechaFin(),
+                'proximaReunion' => $minuta->getProximareunion(),
+                'itinerario' => $minuta->getItinerario(),
+                'estatus' => $estatusMinuta,
+                'estatusMinutas' => $estatusMinutas,
+                'autorizacion' => $minuta->getAutorizacion(),
+                'audiencia' => $audiencia,
+                'usuarios' => $usuario,
+                'temasMinuta' => $temaMinuta,
+                'temasUsuarios' => $temaUsuario
+            );
 
+
+        // vista
         return $this->render('home/index.html.twig', [
             'title' => 'Minuta correspondiente a la junta del: '.$minuta->getFechaInicio(),
-            'MinutaDetalle' => $minuta_detalle
+            'MinutaDetalle' => $minuta_detalle,
+            'form'=> $form_date->createView()
         ]);
 
     }
@@ -86,12 +129,23 @@ class HomeController extends AbstractController
     {
         // formulario de login
         $form = $this->createFormBuilder()
-                     //->setAction($this->generateUrl('validar_usurio'))
-                     ->setMethod('POST')
-                        ->add('usuario', TextType::class)
-                        ->add('password', TextType::class)
-                        ->add('submit', SubmitType::class)
-                     ->getForm();
+            //->setAction($this->generateUrl('validar_usurio'))
+             ->setMethod('POST')
+                ->add('usuario', TextType::class,[
+                    'label'=>'Usuario',
+                    'attr'=> ['placeholder'=>'exaple@prodemex.com.mx']
+                ])
+
+                ->add('password', PasswordType::class,[
+                    'label'=>'Contraseña',
+                    'attr'=> ['placeholder'=>'Contraseña']
+                ])
+
+                ->add('submit', SubmitType::class,[
+                    'label'=>'Aceptar'
+                ])
+
+            ->getForm();
 
         // validar usuario y envio de formulario 
         $form->handleRequest($request);

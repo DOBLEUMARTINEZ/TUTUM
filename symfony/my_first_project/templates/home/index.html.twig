@@ -7,11 +7,15 @@
 {% block contenido %}
 	<div id="fitro-busqueda-minuta">
 		<h1>{{title}}</h1>
-		<form>
-			<input type="date" name="fecha_inicio">
-			<input type="date" name="fecha_fin">
-			<button><i class="fas fa-search"></i></button>
-		</form> 
+		<ol>
+			<li> select </li>
+			<li>
+				{{ form_start(form) }}
+				{{ form_widget(form) }}
+				{{ form_end(form) }}
+			</li>	
+		</ol>
+		 
 	</div>
 	<hr class="hr-red">
 

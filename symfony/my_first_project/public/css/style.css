@@ -32,12 +32,16 @@
 			z-index: 99;
 		}
 
+		#logo-login{
+			width: 20%;
+    		margin: 1% auto;
+		}
+
 		#head .logo{
 			width: 10%;
 			margin: auto;
 
 		}
-
 
 		#head .logo > img{
 			width: 100%;
@@ -129,7 +133,7 @@
 
 		/* FILTRO DE BASE DE DATOS */	
 			#fitro-busqueda-minuta{
-
+				
 			}
 			
 		/* MENU DE LA TABLA*/
@@ -277,7 +281,7 @@
 		}
 
 		#formularios h2{
-			font-size: 2em;
+			font-size: 2.3em;
 			width: 100%;
 		}
 
@@ -288,17 +292,43 @@
 
 		#formularios form  label{
 			width: 100%;
-			font-size: 1em;
-			text-align: left;
+		    font-size: 1em;
+		    text-align: left;
+		    color: #053a76;
+		    font-weight: 600;
 		}
 
 		#formularios form  input {
-			width: 100%;
-			margin-bottom: 1em;   
+			width: 89%;
+		    padding: 2% 3%;
+		    margin: 1% 0 5% 0;
+		    border-radius: 5px;
+		    background: #0000000a;
+		    border: 2px solid #fa364430;
+		    font-weight: 600;
+		    letter-spacing: 0.5px;
 		}
 
 		#formularios form  button {
-			
+			width: 50%;
+		    padding: 2%;
+		    font-size: 1.3em;
+		    font-weight: 400;
+		    letter-spacing: 1px;
+		    background: #053a76;
+		    color: #fff;
+		    border-radius: 5px;
+		    outline: none;
+		    border: 0px;
+		    margin-left: 25%;
+		    cursor: pointer;
+		    transition: 0.2s;
+		}
+
+
+		#formularios form  button:hover {
+			background: #f63645;
+			transition: 0.2s;
 		}
 
 
@@ -316,3 +346,17 @@
 		}
 
 /* MINIUTA PRODEMEX VISTA MOVIL */
+
+@media(max-width: 430px){
+	/*cabecera*/
+	#logo-login {
+	    width: 70%;
+	    margin: 5% auto;
+	}
+
+	/* formulario*/
+	#formularios form{
+		width: 90%;
+		text-align: left;
+	}
+}
