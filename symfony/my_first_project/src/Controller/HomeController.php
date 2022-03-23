@@ -43,13 +43,13 @@ class HomeController extends AbstractController
             //->setAction($this->generateUrl('validar_usurio'))
             ->setMethod('POST')
                 ->add('date_serch', DateType::class,[
-                    'label'=>'fecha de minuta',
+                    'label'=>'Busqueda por fecha: ',
                     'widget' => 'single_text',
                     'format' => 'yyyy-MM-dd',
                 ])
 
                 ->add('submit', SubmitType::class,[
-                    'label'=>'Buscar'
+                    'label'=>'BUSCAR'
                 ])
 
             ->getForm();
@@ -69,21 +69,25 @@ class HomeController extends AbstractController
                 //echo "yes";
             }else{
                 //echo "none";
-                echo $id_minuta;
+                //echo $id_minuta;
             }
         }
 
+        //echo $id_minuta;
+
         // colsulta final minuta 
+
+            $minuta_repo = $this->getDoctrine()->getRepository(Minuta::class);
+            $minuta =  $minuta_repo->findOneBy(['id' => $id_minuta]);
 
             // estatus minuta
                 $estatusMinuta_repo = $this->getDoctrine()->getRepository(EstatusMinuta::class);
                 $estatusMinutas =  $estatusMinuta_repo->findAll();
                 $estatusMinuta =  $estatusMinuta_repo->find($minuta->getEstatus());
-                $estatusMinuta = $estatusMinuta->getNombre();
 
             // audiencia minuta
                 $audiencia_repo = $this->getDoctrine()->getRepository(Audiencia::class);
-                $audiencia =  $audiencia_repo->findAll(['id' => $id_minuta]);
+                $audiencia =  $audiencia_repo->findBy(['id_minuta' => $id_minuta]);
 
             // usuarios 
                 $usuario_repo = $this->getDoctrine()->getRepository(Usuario::class);
@@ -91,7 +95,7 @@ class HomeController extends AbstractController
 
             // temas de la minuta
                 $temaMinuta_repo = $this->getDoctrine()->getRepository(TemaMinuta::class);
-                $temaMinuta =  $temaMinuta_repo->findAll(['id' => $id_minuta]);
+                $temaMinuta =  $temaMinuta_repo->findBy(['id_reunion' => $id_minuta]);
 
             // temas de usuarios
                 $temaUsuario_repo = $this->getDoctrine()->getRepository(TemaUsuario::class);
@@ -118,7 +122,8 @@ class HomeController extends AbstractController
 
         // vista
         return $this->render('home/index.html.twig', [
-            'title' => 'Minuta correspondiente a la junta del: '.$minuta->getFechaInicio(),
+            'title' => 'Minuta correspondiente a reunión del día: ',
+            'fecha_minuta' => str_replace(' 08:00:00', '', $minuta->getFechaInicio()) ,
             'MinutaDetalle' => $minuta_detalle,
             'form'=> $form_date->createView()
         ]);

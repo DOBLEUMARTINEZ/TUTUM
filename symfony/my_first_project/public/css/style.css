@@ -135,6 +135,80 @@
 			#fitro-busqueda-minuta{
 				
 			}
+
+			#fitro-busqueda-minuta h1{
+				font-size: 3em;
+			}
+
+			#fitro-busqueda-minuta h1>span{
+				color: #fa3644;
+			}
+
+			#fitro-busqueda-minuta ol{
+				width: 100%;
+				list-style: none;
+				padding: 0;	
+				display: flex;
+				justify-content: flex-start;
+			}
+
+			#fitro-busqueda-minuta ol>li{
+				width: 50%;
+				padding: 0.5%;
+				margin-right: 0.5%;
+				border-radius: 5px;
+			}
+
+			#fitro-busqueda-minuta ol>li form{
+				width: 100%;
+			}
+
+			#fitro-busqueda-minuta ol>li form > div {
+				width: 100%;
+				display: flex;
+				justify-content: flex-start;
+				align-items: center;
+			}
+
+			#fitro-busqueda-minuta ol>li form > div > div {
+				width: 45%;
+				display: flex;
+				justify-content: flex-start;
+				margin-right: 1%;	
+				align-items:center;
+			}
+
+			#fitro-busqueda-minuta ol>li form > div > div label{
+				width: 55%;
+				font-weight: bold;
+				font-size: 1.3em;
+			}
+
+			#fitro-busqueda-minuta ol>li form > div > div input{
+				font-size: 1.3em;
+			    padding: 1%;
+			    border-radius: 5px;
+			    width: 45%;
+			    border: 2px solid #3333331a;
+			    background: #3333330d;
+			    border-bottom: 2px solid #fa364473;
+			}
+
+			#fitro-busqueda-minuta ol>li form > div > div button {
+			    font-size: 1.3em;
+			    padding: 2% 3%;
+			    border-radius: 5px;
+			    border: none;
+			    background: #053a76;
+			    color: #fff;
+			    cursor: pointer;
+			}
+
+			#fitro-busqueda-minuta ol>li form > div > div button:hover {
+				color: #fff;
+    			background: #fa3644;
+			}
+
 			
 		/* MENU DE LA TABLA*/
 			.off{

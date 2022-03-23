@@ -5,18 +5,18 @@
 {% endblock %}
 
 {% block contenido %}
+
 	<div id="fitro-busqueda-minuta">
-		<h1>{{title}}</h1>
+		<h1>{{title}}<span>{{fecha_minuta}}</span></h1>
 		<ol>
-			<li> select </li>
 			<li>
 				{{ form_start(form) }}
 				{{ form_widget(form) }}
 				{{ form_end(form) }}
 			</li>	
 		</ol>
-		 
 	</div>
+
 	<hr class="hr-red">
 
 	<div id="data-table-v1">
@@ -208,6 +208,29 @@
 
 		<br><br>
 
+		<!-- DIRECCION GENERAL - TEMAS MINUTA -->
+		<table>
+
+		  	<tr>
+		    	<th colspan="3">PRINCIPALES ACUERDOS DE LA REUNIÓN</th>
+		  	</tr>
+
+		</table>
+
+		{% for temas in MinutaDetalle.temasMinuta %}
+
+			{% if temas.titulo == 'Principales acuerdos de la reunión' %}
+
+				<table style="border-top: 5px solid #861717; border-bottom: 5px solid #861717;" >
+			  		<tr>
+			  			<td>{{ temas.observacion|raw }}</td>
+			  		</tr>
+			  	</table>
+				
+			{% endif %}
+		{% endfor %}
+
+		<br><br>
 
 		<!-- DIRECCION GENERAL - TEMAS MINUTA -->
 		<table>
@@ -222,75 +245,76 @@
 
 		</table>
 
+		<!-- TEMAS -->
 		{% for temas in MinutaDetalle.temasMinuta %}
+			{% if temas.titulo != 'Principales acuerdos de la reunión' %}
+				<table style="border-top: 5px solid #861717;" >
+			  		<tr>
+						<th colspan="3">{{ temas.titulo }}</th>
 
-		  	<table style="border-top: 5px solid #861717;" >
-		  		<tr>
-					<th colspan="3">{{ temas.titulo }}</th>
-
-					{% if temas.idestatus == 1 %}
-						<td style="background-color: #00FF00;" colspan="1">
-							<strong>En proceso (en tiempo)</strong>
+						{% if temas.idestatus == 1 %}
+							<td style="background-color: #00FF00;" colspan="1">
+								<strong>En proceso (en tiempo)</strong>
+							</td>
+						{% elseif temas.idestatus == 2 %}
+							<td style="background-color: #00FF00;" colspan="1"><strong>En proceso (retraso)</strong></td>
+						{% elseif temas.idestatus == 3 %}
+							<td style="background-color: #00FF00;" colspan="1"><strong>En proceso (fuera de tiempo)</strong>  </td>
+						{% elseif temas.idestatus == 4 %}
+							<td style="background-color: #00FF00;" colspan="1"><strong>Por definir</strong>  </td>
+						{% elseif temas.idestatus == 5 %}
+							<td style="background-color: #00FF00;" colspan="1"><strong>Semanal</strong>  </td>
+						{% endif %}
+						
+					</tr>
+					<tr>
+						<td colspan="2"><strong>Responsable: </strong>
+							{% for temaUsuario in MinutaDetalle.temasUsuarios %}
+								{% if temas.id == temaUsuario.idtema %}
+									{% for usuario in MinutaDetalle.usuarios %}
+										{% if temaUsuario.idUsuario == usuario.id %}
+											{{ usuario.nombre }} {{ usuario.apellido }},
+										{% endif %}
+									{% endfor %}
+								{% endif %}
+							{% endfor %}	
 						</td>
-					{% elseif temas.idestatus == 2 %}
-						<td style="background-color: #00FF00;" colspan="1"><strong>En proceso (retraso)</strong></td>
-					{% elseif temas.idestatus == 3 %}
-						<td style="background-color: #00FF00;" colspan="1"><strong>En proceso (fuera de tiempo)</strong>  </td>
-					{% elseif temas.idestatus == 4 %}
-						<td style="background-color: #00FF00;" colspan="1"><strong>Por definir</strong>  </td>
-					{% elseif temas.idestatus == 5 %}
-						<td style="background-color: #00FF00;" colspan="1"><strong>Semanal</strong>  </td>
-					{% endif %}
-					
-				</tr>
-				<tr>
-					<td colspan="2"><strong>Responsable: </strong>
-						{% for temaUsuario in MinutaDetalle.temasUsuarios %}
-							{% if temas.id == temaUsuario.idtema %}
-								{% for usuario in MinutaDetalle.usuarios %}
-									{% if temaUsuario.idUsuario == usuario.id %}
-										{{ usuario.nombre }} {{ usuario.apellido }},
-									{% endif %}
-								{% endfor %}
-							{% endif %}
-						{% endfor %}	
-					</td>
-					<td colspan="1"><strong>Inicio: </strong> {{ temas.compromisoinicio	}}</td>
-					<td colspan="1"><strong>Conclusión: </strong></td>
-				</tr>
-		  	</table>
+						<td colspan="1"><strong>Inicio: </strong> {{ temas.compromisoinicio	}}</td>
+						<td colspan="1"><strong>Conclusión: </strong></td>
+					</tr>
+			  	</table>
 
-		  	<table>
-		  		<tr>
-		  			<td width="50%">
-		  				<h3>Requerimeintos</h3>
-		  				{{ temas.requerimiento|raw}}
-		  			</td>
-		  			<td width="50%">
-		  				<h3>Acuerdos</h3>
-		  				{{ temas.requerimiento|raw}}
-		  			</td>
-		  		</tr>
-		  		<tr>
-		  			<td>
-		  				<h3>Lineamientos</h3>
-		  				{{ temas.lineaguia|raw}}
-		  			</td>
-		  			<td>
-		  				<h3>Acciones</h3>
-		  				{{ temas.compromisoaccion|raw}}
-		  			</td>
-		  		</tr>
+			  	<table>
+			  		<tr>
+			  			<td width="50%">
+			  				<h3>Requerimeintos</h3>
+			  				{{ temas.requerimiento|raw}}
+			  			</td>
+			  			<td width="50%">
+			  				<h3>Acuerdos</h3>
+			  				{{ temas.requerimiento|raw}}
+			  			</td>
+			  		</tr>
+			  		<tr>
+			  			<td>
+			  				<h3>Lineamientos</h3>
+			  				{{ temas.lineaguia|raw}}
+			  			</td>
+			  			<td>
+			  				<h3>Acciones</h3>
+			  				{{ temas.compromisoaccion|raw}}
+			  			</td>
+			  		</tr>
 
-		  		<tr>
-		  			<td colspan="2">
-		  				<h3>Observaciónes</h3>
-		  				{{ temas.observacion|raw}}
-		  			</td>
-		  		</tr>
+			  		<tr>
+			  			<td colspan="2">
+			  				<h3>Observaciónes</h3>
+			  				{{ temas.observacion|raw}}
+			  			</td>
+			  		</tr>
 
-		  	</table>	
-		  		
+			  	</table>
+			{% endif %}
 		{% endfor %}
 
 	</div>
