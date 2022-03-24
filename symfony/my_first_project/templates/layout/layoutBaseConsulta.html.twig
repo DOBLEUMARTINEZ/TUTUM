@@ -27,45 +27,23 @@
 		<div id="head">
 			
 			<div class="logo"  >
-				<img onclick="window.location.href='inicio';" src='http://localhost/server/symfony/my_first_project/public/images/prodemex.png'>
+				<img onclick="window.location.href='../inicio';" src='http://localhost/server/symfony/my_first_project/public/images/prodemex.png'>
 			</div>
 
 			<div class="menu">
 				<ol>
-					<li onclick="window.location.href='inicio';" >Inicio</li>
-						
-					<li class="dropdown-m1">
-						<span onclick="window.location.href='minuta';" >Minutas</span>
-						<ul>
-							<li onclick="window.location.href='minuta';" >Historico</li>
-							<li onclick="window.location.href='audiencia';" >Audiencia</li>
-							<li onclick="window.location.href='categoria';" >Categorias</li>
-							<li onclick="window.location.href='seccion-minuta';" >Secciones</li>
-							<li onclick="window.location.href='tema';" >Temas</li>
-							<li onclick="window.location.href='registro-minuta';" >Registros</li>
-							<li onclick="window.location.href='estatus';" >Estatus</li>
-						</ul>
-					</li>
 
-					<li onclick="window.location.href='usuario';" >Usuarios</li>
-
-					{% block cabecera %}
-
-					
-					{% endblock %}
-
-					<li ><i class="fas fa-sign-out-alt" title="Cerrar sesion" alt="Cerrar sesion" ></i></li>
+					<li onclick="window.history.back();" ><i class="fas fa-undo" alt="Regresar" title="Regresar" ></i></li>
 
 				</ol>
 			</div>
 
-			
-				
 		</div>
 
 		<section id="content">
 
 			{% block contenido %}{% endblock  %}
+				
 		</section>
 
 		<footer id="footer">

@@ -26,6 +26,10 @@ buscar_minuta:
     path: /minuta/{id_minuta}
     controller: App\Controller\MinutaController::buscarMinuta
 
+update_minuta:
+    path: /minuta-update/{id_minuta}
+    controller: App\Controller\MinutaController::update
+
 seccion_minuta:
     path: /seccion-minuta
     controller: App\Controller\MinutaController::seccionMinuta

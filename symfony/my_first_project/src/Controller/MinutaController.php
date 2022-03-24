@@ -33,16 +33,11 @@ class MinutaController extends AbstractController
     public function index(Request $request): Response
     {   
 
-        $title = 'Todas las minutas';
-        $fecha_minuta = '';
-        $minuta_detalle = '';
-        $minutas = '';
-
         // id minuta default
         $minuta_repo = $this->getDoctrine()->getRepository(Minuta::class);
         $minutas =  $minuta_repo->findAll();
 
-        // formulario busqueda por fecha
+        // creacion el formulario para busqueda por fecha
         $form_date = $this->createFormBuilder()
             //->setAction($this->generateUrl('validar_usurio'))
             ->setMethod('POST')
@@ -60,6 +55,7 @@ class MinutaController extends AbstractController
 
         // validar envio de formulario de fecha 
         $form_date->handleRequest($request);
+
         if ($form_date->isSubmitted()) {
 
             $form_dates = $request->get('form');
@@ -69,7 +65,7 @@ class MinutaController extends AbstractController
             $id_minutas =  $id_minuta_date->findOneBy(['fecha_inicio' => $date.' 08:00:00' ]);
             
             if (!empty($id_minutas)) {
-                $title = 'Minuta correspondiente a reunión del día: ';
+
                 $fecha_minuta = str_replace(' 08:00:00', '', $id_minutas->getFechaInicio());
                 $id_minuta = $id_minutas->getId();
 
@@ -116,18 +112,71 @@ class MinutaController extends AbstractController
                             'temasUsuarios' => $temaUsuario
                         );
 
+                // vista
+                return $this->render('minuta/index.html.twig', [
+                    'title' => 'Minuta correspondiente a reunión del día: ',
+                    'fecha_minuta' => $fecha_minuta,
+                    'MinutaDetalle' => $minuta_detalle,
+                    'form'=> $form_date->createView()
+                ]);
+            }else{
+                // return vista
+                return $this->render('minuta/index.html.twig', [
+                    'title' => 'No hay minutas relacionadas',
+                    'Minutas'=> $minutas,
+                    'form'=> $form_date->createView()
+                ]);
             }
 
-        }
+        }else{
 
-        // vista
-        return $this->render('minuta/index.html.twig', [
-            'title' => $title,
-            'fecha_minuta' => $fecha_minuta,
-            'MinutaDetalle' => $minuta_detalle,
-            'Minutas'=> $minutas,
-            'form'=> $form_date->createView()
-        ]);
+            // return vista
+            return $this->render('minuta/index.html.twig', [
+                'title' => 'Todas las minutas',
+                'Minutas'=> $minutas,
+                'form'=> $form_date->createView()
+            ]);
+
+        }
+        
+    }
+
+    public function update(Request $request, $id_minuta): Response
+    {
+
+        $minuta_repo = $this->getDoctrine()->getRepository(Minuta::class);
+        $minuta =  $minuta_repo->findOneBy(['id'=>$id_minuta]);
+        $fecha_minuta = str_replace(' 08:00:00', '', $minuta->getFechaInicio());
+
+        // creacion el formulario para actualizar
+        $minuta_form = $this->createFormBuilder()
+
+            ->setMethod('POST')
+
+                ->add('objetivo', TextType::class,[
+                    'label'=>'objetivo'
+                ])
+
+                ->add('submit', SubmitType::class,[
+                    'label'=>'Aceptar'
+                ])
+
+            ->getForm();
+
+        // validar envio de formulario 
+        $minuta_form->handleRequest($request);
+
+        if ($minuta_form->isSubmitted()) {
+            echo 'yes';
+        }else{
+            // vista
+            return $this->render('minuta/minuta.html.twig', [
+                'title' => 'Actualizar minuta correspondiente a reunión del día: ',
+                'fecha_minuta' => $fecha_minuta,
+                'minuta_form'=> $minuta_form->createView()
+            ]);
+        }   
+
     }
 
     public function audienciaMinuta(): Response
@@ -248,6 +297,7 @@ class MinutaController extends AbstractController
         // consulta minuta id
         $minuta_repo = $this->getDoctrine()->getRepository(Minuta::class);
         $minuta =  $minuta_repo->find($id_minuta);
+        $fecha_minuta = str_replace(' 08:00:00', '', $minuta->getFechaInicio());
 
         // estatus minuta
         $estatusMinuta_repo = $this->getDoctrine()->getRepository(EstatusMinuta::class);
@@ -290,7 +340,8 @@ class MinutaController extends AbstractController
 
         
         return $this->render('minuta/minuta.html.twig', [
-            'title' => 'Minuta correspondiente a la junta del: '.$minuta->getFechaInicio(),
+            'title' => 'Minuta correspondiente a la junta del: ',
+            'fecha_minuta' => $fecha_minuta,
             'MinutaDetalle' => $minuta_detalle
         ]);
     }

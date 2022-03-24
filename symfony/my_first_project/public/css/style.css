@@ -322,7 +322,7 @@
 			}
 
 			#data-table-v1 i:hover{
-				/*color: #fa3644;*/
+				color: #fa3644;
 
 			}
 
@@ -330,6 +330,17 @@
 				background-color: #cfd8dc!important;
 				color: #000!important;
 			}
+
+			/* BOTONRES DE ACCION DE TABLA DE MINUTAS*/
+				.action-icons{
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+				}
+
+				.action-icons i{
+					margin-right: 10px;
+				}
 
 		/* CONTENEDOR MAS INFORMACION TEMA */
 			.mas-info-tema th{
