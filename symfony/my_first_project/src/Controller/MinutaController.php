@@ -154,11 +154,43 @@ class MinutaController extends AbstractController
             ->setMethod('POST')
 
                 ->add('objetivo', TextType::class,[
-                    'label'=>'objetivo'
+                    'label'=>'Objetivo',
+                    'data'=> $minuta->getObjetivo()
                 ])
 
-                ->add('objetivo', TextType::class,[
-                    'label'=>'objetivo'
+                ->add('fecha_inicio_actual', TextType::class,[
+                    'label'=>'Fecha inicio',
+                    'data'=> $minuta->getFechaInicio()
+                ])
+
+                ->add('fecha_inicio_nueva', DateType::class,[
+                    'label'=>'Fecha inicio nueva',
+                    'widget' => 'single_text',
+                    'format' => 'yyyy-MM-dd',
+                ])
+
+                ->add('fecha_fin', DateType::class,[
+                    'label'=>'Fecha fin',
+                    'widget' => 'single_text',
+                    'format' => 'yyyy-MM-dd',
+                ])
+
+                ->add('proxima_reunion', DateType::class,[
+                    'label'=>'Fecha proxima reunion',
+                    'widget' => 'single_text',
+                    'format' => 'yyyy-MM-dd',
+                ])
+
+                ->add('itinerario', TextType::class,[
+                    'label'=>'Itinerario'
+                ])
+
+                ->add('autorizacion', TextType::class,[
+                    'label'=>'Autorizacion'
+                ])
+
+                ->add('estatus', TextType::class,[
+                    'label'=>'Estatus'
                 ])
 
                 ->add('submit', SubmitType::class,[

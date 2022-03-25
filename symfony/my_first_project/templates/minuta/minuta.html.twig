@@ -15,9 +15,11 @@
 	{% if MinutaDetalle is defined %}
 		{{ include('minuta/minutas/detail-minuta.html.twig') }}
 	{% else %}
- 		{{ form_start(form) }}
-		{{ form_widget(form) }}
-		{{ form_end(form) }}
+		<div id="form-minuta">
+			{{ form_start(form) }}
+			{{ form_widget(form) }}
+			{{ form_end(form) }}
+		</div>
 	{% endif %}
 	
 
