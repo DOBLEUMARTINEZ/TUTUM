@@ -148,10 +148,14 @@ class MinutaController extends AbstractController
         $minuta =  $minuta_repo->findOneBy(['id'=>$id_minuta]);
         $fecha_minuta = str_replace(' 08:00:00', '', $minuta->getFechaInicio());
 
-        // creacion el formulario para actualizar
+        // creacion el formulario minuta
         $minuta_form = $this->createFormBuilder()
 
             ->setMethod('POST')
+
+                ->add('objetivo', TextType::class,[
+                    'label'=>'objetivo'
+                ])
 
                 ->add('objetivo', TextType::class,[
                     'label'=>'objetivo'
@@ -167,13 +171,17 @@ class MinutaController extends AbstractController
         $minuta_form->handleRequest($request);
 
         if ($minuta_form->isSubmitted()) {
-            echo 'yes';
+
+            $form_update = $request->get('form');
+
+            dd($form_update['objetivo']);
+
         }else{
             // vista
             return $this->render('minuta/minuta.html.twig', [
                 'title' => 'Actualizar minuta correspondiente a reunión del día: ',
                 'fecha_minuta' => $fecha_minuta,
-                'minuta_form'=> $minuta_form->createView()
+                'form'=> $minuta_form->createView()
             ]);
         }   
 
