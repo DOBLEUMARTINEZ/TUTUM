@@ -342,6 +342,29 @@
 					margin-right: 10px;
 				}
 
+			/* FORMULARIO MINUTA */
+			#form-minuta{
+
+			}
+
+			#form-minuta p {
+			    font-size: 1em;
+			    text-align: left;
+			    color: #053a76;
+			    font-weight: 600;
+			    text-transform: capitalize;
+			    margin: 15px 0px 5px 0px;
+			}
+
+			.btn-full-width{
+				width: 100%;
+				margin-bottom: 10px;
+			}
+
+			#form-minuta form > div > div > div {
+				width: 100%;
+			}
+
 		/* CONTENEDOR MAS INFORMACION TEMA */
 			.mas-info-tema th{
 				text-align: center;

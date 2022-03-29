@@ -22,7 +22,10 @@ use App\Entity\Log;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\Extension\Core\Type\PasswordType;
 use Symfony\Component\Form\Extension\Core\Type\SubmitType;
-use Symfony\Component\Form\Extension\Core\Type\DateType;;
+use Symfony\Component\Form\Extension\Core\Type\DateType;
+use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
+use Symfony\Component\Form\Extension\Core\Type\TextareaType;
+use Symfony\Component\Form\Extension\Core\Type\CheckboxType;
 
 
 class MinutaController extends AbstractController
@@ -148,53 +151,100 @@ class MinutaController extends AbstractController
         $minuta =  $minuta_repo->findOneBy(['id'=>$id_minuta]);
         $fecha_minuta = str_replace(' 08:00:00', '', $minuta->getFechaInicio());
 
+        // USUARIOS
+        $usuario_repo = $this->getDoctrine()->getRepository(Usuario::class);
+        $usuarios =  $usuario_repo->findBy(['rol' => 'USER']);
+
+
         // creacion el formulario minuta
         $minuta_form = $this->createFormBuilder()
 
             ->setMethod('POST')
 
-                ->add('objetivo', TextType::class,[
+                ->add('objetivo',
+                    TextType::class, 
+                    [
                     'label'=>'Objetivo',
-                    'data'=> $minuta->getObjetivo()
+                    'data'=> $minuta->getObjetivo(),
+                    'attr' => ['class' => '']
+                    ]
+                )
+
+                ->add('estatus', ChoiceType::class,[
+                    'label'=>'Estatus',
+                    'choices' => [
+                        $minuta->getEstatus() => $minuta->getEstatus(),
+                        'Si' => true,
+                        'No' => false,
+                    ],
+                    'attr' => ['class' => '']
                 ])
 
-                ->add('fecha_inicio_actual', TextType::class,[
+                ->add('fecha_inicio_1', TextType::class,[
                     'label'=>'Fecha inicio',
-                    'data'=> $minuta->getFechaInicio()
+                    'data'=> $minuta->getFechaInicio(),
+                    'attr' => ['class' => '', 'disabled' => 'disabled']
                 ])
 
-                ->add('fecha_inicio_nueva', DateType::class,[
-                    'label'=>'Fecha inicio nueva',
+                ->add('fecha_inicio_2', DateType::class,[
+                    'label'=>'Nueva fecha',
                     'widget' => 'single_text',
                     'format' => 'yyyy-MM-dd',
+                    'attr' => ['class' => '']
                 ])
 
-                ->add('fecha_fin', DateType::class,[
+                ->add('fecha_fin_1', TextType::class,[
                     'label'=>'Fecha fin',
-                    'widget' => 'single_text',
-                    'format' => 'yyyy-MM-dd',
+                    'data'=> $minuta->getFechaFin(),
+                    'attr' => ['class' => '', 'disabled' => 'disabled']
                 ])
 
-                ->add('proxima_reunion', DateType::class,[
+                ->add('fecha_fin_2', DateType::class,[
+                    'label'=>'Nueva fecha',
+                    'widget' => 'single_text',
+                    'format' => 'yyyy-MM-dd',
+                    'attr' => ['class' => '']
+                ])
+
+                ->add('proxima_reunion_1', TextType::class,[
                     'label'=>'Fecha proxima reunion',
-                    'widget' => 'single_text',
-                    'format' => 'yyyy-MM-dd',
+                    'data'=> $minuta->getProximareunion(),
+                    'attr' => ['class' => '', 'disabled' => 'disabled']
                 ])
 
-                ->add('itinerario', TextType::class,[
-                    'label'=>'Itinerario'
+                ->add('proxima_reunion_2', DateType::class,[
+                    'label'=>'Nueva fecha',
+                    'widget' => 'single_text',
+                    'format' => 'yyyy-MM-dd',
+                    'attr' => ['class' => '']
                 ])
 
                 ->add('autorizacion', TextType::class,[
-                    'label'=>'Autorizacion'
+                    'label'=>'Autorizacion',
+                    'data'=> $minuta->getAutorizacion(),
+                    'attr' => ['class' => '']
                 ])
 
-                ->add('estatus', TextType::class,[
-                    'label'=>'Estatus'
+
+                ->add('itinerario', TextareaType::class,[
+                    'label'=>'Itinerario',
+                    'data'=> $minuta->getItinerario(),
+                    'attr' => ['class' => 'tiny']
+
                 ])
 
+                // INPUT AUDIENCIA
+
+                ->add('audiencia', CheckboxType::class, [
+                    'label' => 'audiencia',
+                    'required' => false,
+                    'attr' => ['class' => '']
+                ])
+                
+                // BOTON DE SUBMIT
                 ->add('submit', SubmitType::class,[
-                    'label'=>'Aceptar'
+                    'label'=>'Actualizar',
+                    'attr' => ['class' => 'btn btn-success btn-full-width']
                 ])
 
             ->getForm();
@@ -206,13 +256,14 @@ class MinutaController extends AbstractController
 
             $form_update = $request->get('form');
 
-            dd($form_update['objetivo']);
+            dd($form_update);
 
         }else{
             // vista
             return $this->render('minuta/minuta.html.twig', [
                 'title' => 'Actualizar minuta correspondiente a reunión del día: ',
                 'fecha_minuta' => $fecha_minuta,
+                'usuarios'=> $usuarios,
                 'form'=> $minuta_form->createView()
             ]);
         }   

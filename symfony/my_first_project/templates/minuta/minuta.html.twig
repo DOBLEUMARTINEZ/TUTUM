@@ -15,11 +15,112 @@
 	{% if MinutaDetalle is defined %}
 		{{ include('minuta/minutas/detail-minuta.html.twig') }}
 	{% else %}
+
 		<div id="form-minuta">
-			{{ form_start(form) }}
-			{{ form_widget(form) }}
+			{{ form_start(form, {'attr': {'class': 'form-control'}}) }}
+
+				<div class="row">
+					<div class="col-md-6">
+						<p>Objetivo</p>
+						{{ form_widget(form.objetivo) }}
+					</div>
+
+					<div class="col-md-3">
+						<p>autorización</p>
+						{{ form_widget(form.autorizacion) }}
+					</div>
+
+					<div class="col-md-3">
+						<p>Estatus</p>
+						{{ form_widget(form.estatus) }}
+					</div>
+
+					<div class="col-md-2"> 
+						<p>fecha inicio</p>
+						{{ form_widget(form.fecha_inicio_1) }}
+					</div>
+
+					<div class="col-md-2"> 
+						<p>nueva fecha inicio</p>
+						{{ form_widget(form.fecha_inicio_2) }}
+					</div>
+
+					<div class="col-md-2"> 
+						<p>fecha fin</p>
+						{{ form_widget(form.fecha_fin_1) }}
+					</div>
+
+					<div class="col-md-2"> 
+						<p>nueva fecha fin</p>
+						{{ form_widget(form.fecha_fin_2) }}
+					</div>
+
+					<div class="col-md-2"> 
+						<p>proxima reunion</p>
+						{{ form_widget(form.proxima_reunion_1) }}
+					</div>
+
+					<div class="col-md-2"> 
+						<p>nueva proxima reunion</p>
+						{{ form_widget(form.proxima_reunion_2) }}
+					</div>
+
+					<div class="col-md-12">
+						<p>Itinerario</p>
+						{{ form_widget(form.itinerario) }}
+					</div>
+
+				</div>
+
+				<hr>
+
+				<div class="row" >
+
+					<div class="col-md-12">
+						<p>asistentes</p>
+						{% for usuario in usuarios %}
+							
+						{% endfor %}
+						{{ form_widget(form.audiencia) }}
+					</div>
+
+				</div>
+
+				<hr>
+
+				<div class="row">
+					<div class="col-md-3">
+					</div>
+
+					<div class="col-md-3">
+					</div>
+
+					<div class="col-md-3">
+					</div>
+
+					<div class="col-md-3">
+						{{ form_widget(form.submit) }}
+					</div>
+				</div>
+			
 			{{ form_end(form) }}
 		</div>
+
+		<br>
+
+	    <script>
+	      $('textarea.tiny').tinymce({
+	        height: 400,
+	        menubar: false,
+	        plugins: [
+	          'advlist autolink lists link image charmap print preview anchor',
+	          'searchreplace visualblocks code fullscreen',
+	          'insertdatetime media table paste code help wordcount'
+	        ],
+	        toolbar: 'undo redo | formatselect | bold italic backcolor | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | removeformat | help'
+	      });
+	    </script>
+
 	{% endif %}
 	
 
