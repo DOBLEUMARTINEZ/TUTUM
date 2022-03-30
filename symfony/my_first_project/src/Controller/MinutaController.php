@@ -154,6 +154,20 @@ class MinutaController extends AbstractController
         // USUARIOS
         $usuario_repo = $this->getDoctrine()->getRepository(Usuario::class);
         $usuarios =  $usuario_repo->findBy(['rol' => 'USER']);
+        
+        $users  = array();
+        $users2  = array();
+
+        foreach($usuarios as $row) 
+        { 
+            $users += array($row->getUser() => $row->getId());
+        }
+
+        //dd($users2);
+
+        // temas de la minuta
+        $temaMinuta_repo = $this->getDoctrine()->getRepository(TemaMinuta::class);
+        $temaMinuta =  $temaMinuta_repo->findOneBy(['id_reunion' => $id_minuta, 'titulo' => 'Principales acuerdos de la reunión']);
 
 
         // creacion el formulario minuta
@@ -234,11 +248,20 @@ class MinutaController extends AbstractController
                 ])
 
                 // INPUT AUDIENCIA
+                ->add('audiencia', ChoiceType::class, [
+                        'expanded' => true,
+                        'multiple' => true,
+                        'label'=> $users,
+                        'choices' => $users,
+                        'data'=> $users
+                    ])
 
-                ->add('audiencia', CheckboxType::class, [
-                    'label' => 'audiencia',
-                    'required' => false,
-                    'attr' => ['class' => '']
+                //PRINCIPALES ACUERDOS
+                ->add('principales_acuerdos', TextareaType::class,[
+                    'label'=>'principales_acuerdos',
+                    'data'=> $temaMinuta->getObservacion(),
+                    'attr' => ['class' => 'tiny2']
+
                 ])
                 
                 // BOTON DE SUBMIT

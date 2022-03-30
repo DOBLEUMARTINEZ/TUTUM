@@ -65,7 +65,18 @@
 						{{ form_widget(form.proxima_reunion_2) }}
 					</div>
 
-					<div class="col-md-12">
+				</div>
+
+				<hr>
+
+				<div class="row">
+
+					<div class="col-md-3">
+						<p>asistentes</p>
+						{{ form_widget(form.audiencia) }}
+					</div>
+
+					<div class="col-md-9">
 						<p>Itinerario</p>
 						{{ form_widget(form.itinerario) }}
 					</div>
@@ -74,16 +85,11 @@
 
 				<hr>
 
-				<div class="row" >
-
-					<div class="col-md-12">
-						<p>asistentes</p>
-						{% for usuario in usuarios %}
-							
-						{% endfor %}
-						{{ form_widget(form.audiencia) }}
+				<div class="row">
+					<div class="col-md-12" >
+						<p>principales acuerdos de la reunión</p>
+						{{ form_widget(form.principales_acuerdos) }}
 					</div>
-
 				</div>
 
 				<hr>
@@ -110,7 +116,18 @@
 
 	    <script>
 	      $('textarea.tiny').tinymce({
-	        height: 400,
+	        height: 750,
+	        menubar: false,
+	        plugins: [
+	          'advlist autolink lists link image charmap print preview anchor',
+	          'searchreplace visualblocks code fullscreen',
+	          'insertdatetime media table paste code help wordcount'
+	        ],
+	        toolbar: 'undo redo | formatselect | bold italic backcolor | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | removeformat | help'
+	      });
+
+	      $('textarea.tiny2').tinymce({
+	        height: 500,
 	        menubar: false,
 	        plugins: [
 	          'advlist autolink lists link image charmap print preview anchor',
