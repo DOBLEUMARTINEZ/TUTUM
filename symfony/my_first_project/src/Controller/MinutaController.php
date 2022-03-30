@@ -147,6 +147,7 @@ class MinutaController extends AbstractController
     public function update(Request $request, $id_minuta): Response
     {
 
+        // MINUTA
         $minuta_repo = $this->getDoctrine()->getRepository(Minuta::class);
         $minuta =  $minuta_repo->findOneBy(['id'=>$id_minuta]);
         $fecha_minuta = str_replace(' 08:00:00', '', $minuta->getFechaInicio());
@@ -165,10 +166,10 @@ class MinutaController extends AbstractController
 
         //dd($users2);
 
-        // temas de la minuta
+        // TEMAS 
         $temaMinuta_repo = $this->getDoctrine()->getRepository(TemaMinuta::class);
         $temaMinuta =  $temaMinuta_repo->findOneBy(['id_reunion' => $id_minuta, 'titulo' => 'Principales acuerdos de la reunión']);
-
+        $temasMinutas =  $temaMinuta_repo->findBy(['id_reunion' => $id_minuta]);
 
         // creacion el formulario minuta
         $minuta_form = $this->createFormBuilder()
@@ -255,39 +256,103 @@ class MinutaController extends AbstractController
                         'choices' => $users,
                         'data'=> $users
                     ])
-
-                //PRINCIPALES ACUERDOS
-                ->add('principales_acuerdos', TextareaType::class,[
-                    'label'=>'principales_acuerdos',
-                    'data'=> $temaMinuta->getObservacion(),
-                    'attr' => ['class' => 'tiny2']
-
-                ])
                 
                 // BOTON DE SUBMIT
                 ->add('submit', SubmitType::class,[
                     'label'=>'Actualizar',
-                    'attr' => ['class' => 'btn btn-success btn-full-width']
+                    'attr' => ['class' => 'btn btn-success btn-full-width','value' => 'minuta']
+                ])
+
+            ->getForm();
+
+        // creacion el formulario tema_minuta
+        $tema_form = $this->createFormBuilder()
+
+            ->setMethod('POST')
+
+                ->add('titulo',
+                    TextType::class, 
+                    [
+                    'label'=>'titulo',
+                    'data' => $temaMinuta->getTitulo(),
+                    'attr' => ['class' => '']
+                    ]
+                )
+
+                // BOTON DE SUBMIT TEMA
+                ->add('submit', SubmitType::class,[
+                    'label'=> 'añadir tema',
+                    'attr' => ['class' => 'btn btn-success btn-full-width', 'value' => 'tema' ]
                 ])
 
             ->getForm();
 
         // validar envio de formulario 
         $minuta_form->handleRequest($request);
+        $tema_form->handleRequest($request);
 
         if ($minuta_form->isSubmitted()) {
 
             $form_update = $request->get('form');
 
-            dd($form_update);
+            switch ($form_update['submit']) {
+
+                case 'minuta':
+                    //echo "minuta";
+                    var_dump($form_update['submit']);
+                    break;
+
+                case 'tema':
+                    //echo "tema";
+
+                    // Permite trabajar con entidades y guardadr en la bd
+                    $entityManager = $this->getDoctrine()->getManager(); 
+
+                    // crea el objeto y asignarle valores
+                    $tema = new TemaMinuta();
+                    $tema->setTitulo($form_update['titulo']);
+                    $tema->setCompromisoInicio('White');
+                    $tema->setCompromisoFin('White');
+                    $tema->setRequerimiento('White');
+                    $tema->setLineaGuia('White');
+                    $tema->setCompromisoAccion('White');
+                    $tema->setCompromiso('White');
+                    $tema->setObservacion('White');
+                    $tema->setIdEstatus('White');
+                    $tema->setIdReunion($id_minuta);
+                    $tema->setIdCategoria('White');
+                    $tema->setUltimoTemaIngresado('White');
+                    $tema->setUltimaModificacion('White');
+                    $tema->setPadre('White');
+                    $tema->setUltimoRoot('White');
+                    $tema->setBloque('White');
+
+                    // guardar temporalmemte los datos 
+                    $entityManager->persist($tema);
+
+                    // insertar todos los datos en la base de datos
+                    $entityManager->flush();
+
+                    return $this->redirect($id_minuta);
+
+                    break;
+                
+                default:
+                    # code...
+                    break;
+            }
+
+            //dd($form_update);
 
         }else{
             // vista
             return $this->render('minuta/minuta.html.twig', [
-                'title' => 'Actualizar minuta correspondiente a reunión del día: ',
+                'title' => 'Actualizar minuta del día: ',
                 'fecha_minuta' => $fecha_minuta,
                 'usuarios'=> $usuarios,
-                'form'=> $minuta_form->createView()
+                'TemasMinutas' => $temasMinutas,
+                'form'=> $minuta_form->createView(),
+                'form_tema'=> $tema_form->createView()
             ]);
         }   
 

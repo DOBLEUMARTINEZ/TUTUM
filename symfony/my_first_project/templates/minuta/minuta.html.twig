@@ -10,13 +10,14 @@
 		<h1>{{title}}<span> {% if fecha_minuta is defined %} {{fecha_minuta}} {% endif %}</span></h1>
 	</div>
 
-	<hr class="hr-red">
-
 	{% if MinutaDetalle is defined %}
 		{{ include('minuta/minutas/detail-minuta.html.twig') }}
 	{% else %}
 
 		<div id="form-minuta">
+
+			<!-- FORMULARIO MINUTA -->
+			<h2>Minuta</h2>
 			{{ form_start(form, {'attr': {'class': 'form-control'}}) }}
 
 				<div class="row">
@@ -65,43 +66,22 @@
 						{{ form_widget(form.proxima_reunion_2) }}
 					</div>
 
-				</div>
-
-				<hr>
-
-				<div class="row">
-
-					<div class="col-md-3">
-						<p>asistentes</p>
-						{{ form_widget(form.audiencia) }}
-					</div>
-
-					<div class="col-md-9">
+					<div class="col-md-8">
 						<p>Itinerario</p>
 						{{ form_widget(form.itinerario) }}
 					</div>
 
+					<div class="col-md-4">
+						<p>asistentes</p>
+						{{ form_widget(form.audiencia) }}
+					</div>
+
 				</div>
 
 				<hr>
 
 				<div class="row">
-					<div class="col-md-12" >
-						<p>principales acuerdos de la reunión</p>
-						{{ form_widget(form.principales_acuerdos) }}
-					</div>
-				</div>
-
-				<hr>
-
-				<div class="row">
-					<div class="col-md-3">
-					</div>
-
-					<div class="col-md-3">
-					</div>
-
-					<div class="col-md-3">
+					<div class="col-md-9">
 					</div>
 
 					<div class="col-md-3">
@@ -110,6 +90,39 @@
 				</div>
 			
 			{{ form_end(form) }}
+
+			<!-- TEMAS MINUTA -->
+			<h2>Temas de minuta</h2>
+			<div class="row">
+				<div class="col-md-12">
+					{% if TemasMinutas is defined %}
+						{{ include('minuta/temas/detail-tema.html.twig') }}
+					{% endif %}
+
+				</div>
+			</div>
+
+			{{ form_start(form_tema, {'attr': {'class': 'form-control'}}) }}
+
+				<div class="row">
+					<div class="col-md-3">
+						<p>titulo</p>
+						{{ form_widget(form_tema.titulo) }}
+					</div>
+				</div>
+
+				<hr>
+
+				<div class="row">
+					<div class="col-md-9">
+					</div>
+					<div class="col-md-3">
+						{{ form_widget(form_tema.submit) }}
+					</div>
+				</div>
+
+			{{ form_end(form_tema) }}
+
 		</div>
 
 		<br>
@@ -127,7 +140,7 @@
 	      });
 
 	      $('textarea.tiny2').tinymce({
-	        height: 500,
+	        height: 750,
 	        menubar: false,
 	        plugins: [
 	          'advlist autolink lists link image charmap print preview anchor',

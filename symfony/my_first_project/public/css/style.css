@@ -347,6 +347,17 @@
 
 			}
 
+			#form-minuta h2{
+			    font-size: 2em;
+			    text-align: left;
+			    color: #053a76;
+			    font-weight: 600;
+			    text-transform: capitalize;
+			    margin: 0px 0px 10px 0px;
+			    padding: 5px 5px;
+			    border-bottom: 2px solid #fa364440;
+			}
+
 			#form-minuta p {
 			    font-size: 1em;
 			    text-align: left;

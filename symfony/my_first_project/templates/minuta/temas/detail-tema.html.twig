@@ -1,0 +1,18 @@
+<div id="data-table-v1">
+
+
+			{% for temas in TemasMinutas %}
+
+				{% if temas.titulo == 'Principales acuerdos de la reunión' %}
+
+					<table style="border-top: 5px solid #861717; border-bottom: 5px solid #861717;" >
+				  		<tr>
+				  			<td>{{ temas.observacion|raw }}</td>
+				  		</tr>
+				  	</table>
+					
+				{% endif %}
+			{% endfor %}
+
+
+</div>
