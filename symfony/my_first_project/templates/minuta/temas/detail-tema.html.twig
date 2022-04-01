@@ -1,18 +1,38 @@
 <div id="data-table-v1">
+	<table>
 
+		<tr>
+			<th>Titulo</th>
+			<th width="10%">Fecha inicio</th>
+			<th width="10%">Fecha fin</th>
+			<th width="10%">Estatus</th>
+			<th width="5%"><i class="fas fa-cogs"></i></th>
+		</tr>
 
-			{% for temas in TemasMinutas %}
+	{% for temas in TemasMinutas %}
 
-				{% if temas.titulo == 'Principales acuerdos de la reunión' %}
+		{% if temas.titulo != 'Principales acuerdos de la reunión' %}
 
-					<table style="border-top: 5px solid #861717; border-bottom: 5px solid #861717;" >
-				  		<tr>
-				  			<td>{{ temas.observacion|raw }}</td>
-				  		</tr>
-				  	</table>
+				<tr>
+					<td >{{ temas.titulo }}</td>
+					<td >{{ temas.compromisoInicio }}</td>
+					<td >{{ temas.compromisofin }}</td>
+
+					<td >
+						{{ temas.idEstatus }}
+					</td>
+
+					<td class="action-icons">
+						<i onclick="window.location.href='{{ temas.idReunion }}/tema/{{ temas.id }}';" style="color: #333;" class="fas fa-eye"></i>
+						<i onclick="window.location.href='minuta-update/';" style="color: #053a76;" class="fas fa-edit"></i>		
+						<i style="color:red;" class="fas fa-trash"></i>
+					</td>
+				</tr>
 					
-				{% endif %}
-			{% endfor %}
+		{% endif %}
 
+
+	{% endfor %}
+	</table>
 
 </div>

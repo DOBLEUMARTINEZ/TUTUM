@@ -295,37 +295,60 @@
 			    color: #fff!important;
 			}
 
-			#data-table-v1 > table{
-				width: 100%;
-			}
+			/* TABLE V1*/
+				#data-table-v1 > table{
+					width: 100%;
+				}
 
-			#data-table-v1 td {
-				border:2px solid #fff;
-				border-collapse: collapse;
-				padding: 10px 15px;
-				background-color: #00000014;
-				text-align: left;
-			}
+				#data-table-v1 td {
+					border:2px solid #fff;
+					border-collapse: collapse;
+					padding: 10px 15px;
+					background-color: #00000014;
+					text-align: left;
+				}
 
-			#data-table-v1 th {
-				text-align: center;
-			    background-color: #053a76;
-			    color: #fff;
-			    font-size: 1.2em;
-			    font-weight: 500;
-			    padding: 10px 0px;
-			}
+				#data-table-v1 th {
+					text-align: center;
+				    background-color: #053a76;
+				    color: #fff;
+				    font-size: 1.2em;
+				    font-weight: 500;
+				    padding: 10px 0px;
+				}
 
-			#data-table-v1 i{
-				cursor: pointer;
-				font-size: 1.5em;
-			}
+				#data-table-v1 i{
+					cursor: pointer;
+					font-size: 1.5em;
+				}
 
-			#data-table-v1 i:hover{
-				color: #fa3644;
+				#data-table-v1 i:hover{
+					color: #fa3644;
 
-			}
+				}
 
+			/* TABLE V2*/
+
+				#data-table-v2 > table{
+					width: 100%;
+				}
+
+				#data-table-v2 td {
+					border:2px solid #fff;
+					border-collapse: collapse;
+					padding: 10px 15px;
+					background-color: #0000;
+					text-align: left;
+				}
+
+				#data-table-v2 i{
+					cursor: pointer;
+					font-size: 1.5em;
+					margin: 0 2px;
+				}
+
+
+			/* TH COLOR AUSENYTES*/	
 			.th-ausentes{
 				background-color: #cfd8dc!important;
 				color: #000!important;
@@ -353,7 +376,7 @@
 			    color: #053a76;
 			    font-weight: 600;
 			    text-transform: capitalize;
-			    margin: 0px 0px 10px 0px;
+			    margin: 20px 0px 10px 0px;
 			    padding: 5px 5px;
 			    border-bottom: 2px solid #fa364440;
 			}

@@ -16,7 +16,7 @@
 
 		<div id="form-minuta">
 
-			<!-- FORMULARIO MINUTA -->
+			<!-- MINUTA -->
 			<h2>Minuta</h2>
 			{{ form_start(form, {'attr': {'class': 'form-control'}}) }}
 
@@ -91,14 +91,13 @@
 			
 			{{ form_end(form) }}
 
-			<!-- TEMAS MINUTA -->
+			<!-- TEMAS -->
 			<h2>Temas de minuta</h2>
 			<div class="row">
 				<div class="col-md-12">
 					{% if TemasMinutas is defined %}
 						{{ include('minuta/temas/detail-tema.html.twig') }}
 					{% endif %}
-
 				</div>
 			</div>
 
@@ -123,10 +122,12 @@
 
 			{{ form_end(form_tema) }}
 
+			<!-- -->
+
 		</div>
 
 		<br>
-
+		<!--  -->
 	    <script>
 	      $('textarea.tiny').tinymce({
 	        height: 750,

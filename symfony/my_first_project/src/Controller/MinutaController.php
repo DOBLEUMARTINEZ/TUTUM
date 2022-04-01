@@ -144,7 +144,7 @@ class MinutaController extends AbstractController
         
     }
 
-    public function update(Request $request, $id_minuta): Response
+    public function update(Request $request, $id_minuta ): Response
     {
 
         // MINUTA
