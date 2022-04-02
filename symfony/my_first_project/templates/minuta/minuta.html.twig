@@ -11,7 +11,9 @@
 	</div>
 
 	{% if MinutaDetalle is defined %}
+
 		{{ include('minuta/minutas/detail-minuta.html.twig') }}
+
 	{% else %}
 
 		<div id="form-minuta">
@@ -127,7 +129,7 @@
 		</div>
 
 		<br>
-		<!--  -->
+		<!-- scripts tiny text area -->
 	    <script>
 	      $('textarea.tiny').tinymce({
 	        height: 750,
@@ -150,6 +152,11 @@
 	        ],
 	        toolbar: 'undo redo | formatselect | bold italic backcolor | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | removeformat | help'
 	      });
+
+	      function MoreInfo(){
+	      	alert('MoreInfo');
+	      }
+
 	    </script>
 
 	{% endif %}

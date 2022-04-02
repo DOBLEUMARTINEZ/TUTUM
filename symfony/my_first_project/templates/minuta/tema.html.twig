@@ -1,4 +1,4 @@
-{% extends 'layout/layoutBase.html.twig' %}
+{% extends 'layout/layoutBaseConsultaCapa3.html.twig' %}
 
 {% block tituloPagina %} 
 	{{title}}
@@ -6,88 +6,20 @@
 
 
 {% block contenido %}
-	<h1>{{title}}</h1> 
-
-	<hr class="hr-red">
-
-	<div id="data-table-v1">
-
-		<table>
-
-		  	<tr>
-		    	<th width="3%">ID</th>
-				<th width="15%">Titulo</th>
-				<th width="8%">Fecha inicio</th>
-				<th width="8%">Fecha fin</th>
-				<th width="10%">Estatus</th>
-				<th width="15%">Reunion</th>
-				<th width="10%">Categoria</th>
-				<th width="20%">Ultimo tema</th>
-				<th width="8%">Ultima actualización</th>
-				<th width="3%"><i class="fas fa-cogs"></i></th>
-		  	</tr>
-
-		  	{% for temaMinuta in TemasMinuta %}
-
-				<tr>
-					<td><center>{{ temaMinuta.id }}</center></td>
-					<td>{{ temaMinuta.titulo }}</td>
-					<td>{{ temaMinuta.compromisoinicio }}</td>
-					<td>{{ temaMinuta.compromisofin }}</td>
-
-					<td>
-						{% for estatus in EstatusMinuta %}
-							{% if temaMinuta.idestatus == estatus.id %}
-								{{estatus.nombre }}
-							{% endif %}
-						{% endfor %}
-					</td>
-
-					<td>
-						{% for minuta in Minutas %}
-							{% if temaMinuta.idreunion == minuta.id %}
-								{{minuta.objetivo }}
-							{% endif %}
-						{% endfor %}
-					</td>
-
-					<td>
-						{% for categoria in CategoriasMinuta %}
-							{% if temaMinuta.idcategoria == categoria.id %}
-								{{categoria.nombre }}
-							{% endif %}
-						{% endfor %}
-					</td>
-					
-					<td>{{ temaMinuta.ultimamodificacion }}</td>
-
-					<td>ver mas</td>
-
-					<td onclick="verMasInfoTema({{ temaMinuta.id }})">
-						<center><i class="fas fa-eye"></i></center>
-					</td>
-				</tr>
-
-				<tr id="masinfotema-{{ temaMinuta.id }}" class="mas-info-tema tema-off">
-					<th colspan="2">requerimiento</th>
-					<th colspan="2">linea guia</th>
-					<th colspan="2">compromiso accion</th>
-					<th colspan="2">compromiso</th>
-					<th colspan="2">observacion</th>
-				</tr>
-
-				<tr id="masinfotema-{{ temaMinuta.id }}" class="mas-info-tema tema-off">
-					<td colspan="2">{{ temaMinuta.requerimiento|raw }}</td>
-					<td colspan="2">{{ temaMinuta.lineaguia|raw }}</td>
-					<td colspan="2">{{ temaMinuta.compromisoaccion|raw }}</td>
-					<td colspan="2">{{ temaMinuta.compromiso|raw }}</td>
-					<td colspan="2">{{ temaMinuta.observacion|raw }}</td>
-				</tr>
-
-			{% endfor %}
-
-		</table>
-
+	<div id="fitro-busqueda-minuta">
+		<h1>{{title}}<span> {% if fecha_minuta is defined %} {{fecha_minuta}} {% endif %}</span></h1>
 	</div>
+
+	{% if TemasMinutas is defined %}
+
+		{{ include('minuta/temas/detalle-tema.html.twig') }}
+
+	{% else %}
+
+		update form
+		
+	{% endif %}
+
+	
 
 {% endblock %}

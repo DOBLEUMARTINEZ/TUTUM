@@ -144,9 +144,9 @@ class MinutaController extends AbstractController
         
     }
 
-    public function update(Request $request, $id_minuta ): Response
+    public function update(Request $request, $id_minuta, $tema): Response
     {
-
+        
         // MINUTA
         $minuta_repo = $this->getDoctrine()->getRepository(Minuta::class);
         $minuta =  $minuta_repo->findOneBy(['id'=>$id_minuta]);
@@ -163,8 +163,6 @@ class MinutaController extends AbstractController
         { 
             $users += array($row->getUser() => $row->getId());
         }
-
-        //dd($users2);
 
         // TEMAS 
         $temaMinuta_repo = $this->getDoctrine()->getRepository(TemaMinuta::class);
@@ -282,14 +280,29 @@ class MinutaController extends AbstractController
                 // BOTON DE SUBMIT TEMA
                 ->add('submit', SubmitType::class,[
                     'label'=> 'añadir tema',
-                    'attr' => ['class' => 'btn btn-success btn-full-width', 'value' => 'tema' ]
+                    'attr' => ['class' => 'btn btn-success btn-full-width', 'value' => 'new_tema' ]
                 ])
 
             ->getForm();
 
+        // creacion el formulario update Tema minuta
+        $update_tema_form = $this->createFormBuilder()
+
+            ->setMethod('POST')
+
+                // BOTON DE SUBMIT AUCTUALIZAR TEMA
+                ->add('submit', SubmitType::class,[
+                    'label'=> 'actualizar',
+                    'attr' => ['class' => 'btn btn-success btn-full-width', 'value' => 'update_tema' ]
+                ])
+
+            ->getForm();
+
+
         // validar envio de formulario 
         $minuta_form->handleRequest($request);
         $tema_form->handleRequest($request);
+        $update_tema_form->handleRequest($request);
 
         if ($minuta_form->isSubmitted()) {
 
@@ -300,9 +313,10 @@ class MinutaController extends AbstractController
                 case 'minuta':
                     //echo "minuta";
                     var_dump($form_update['submit']);
+
                     break;
 
-                case 'tema':
+                case 'new_tema':
                     //echo "tema";
 
                     // Permite trabajar con entidades y guardadr en la bd
@@ -337,6 +351,11 @@ class MinutaController extends AbstractController
 
                     break;
                 
+                case 'update_tema':
+                    //echo "minuta";
+                    var_dump($form_update['submit']);
+                    break;
+
                 default:
                     # code...
                     break;
@@ -345,6 +364,54 @@ class MinutaController extends AbstractController
             //dd($form_update);
 
         }else{
+
+            /* TEMA *******************************************************************/
+            if (!empty($tema)) {
+
+                $bloque =  str_replace('@', '', strstr($tema, '@', true));
+                $id_tema = str_replace('@','',strstr($tema, '@'));
+
+                // TEMAS 
+                $temaMinuta_repo = $this->getDoctrine()->getRepository(TemaMinuta::class);
+                $temaMinuta =  $temaMinuta_repo->findOneBy(['id' => $id_tema, 'id_reunion' => $id_minuta]);
+
+                // ESTATUS TEMA
+                $estatusMinuta_repo = $this->getDoctrine()->getRepository(EstatusMinuta::class);
+                $EstatusMinutas =  $estatusMinuta_repo->findAll();
+                $estatusMinuta =  $estatusMinuta_repo->find($minuta->getEstatus());
+
+                switch (str_replace('Tema', '', $bloque)) {
+                    case 'Detail':
+                        //echo "detalle";
+                        // vista
+                        return $this->render('minuta/tema.html.twig', [
+                            'title' => 'Detalle del tema :'.$temaMinuta->getTitulo(),
+                            'TemasMinutas' => $temasMinutas,
+                            'EstatusMinuta' => $EstatusMinutas
+                        ]);
+                        break;
+
+                    case 'Update':
+                        //echo "update";
+                        // vista
+                        return $this->render('minuta/tema.html.twig', [
+                            'title' => 'Actualizar tema: ',
+                            'TemaMinuta' => $temaMinuta,
+                            'form'=> $minuta_form->createView(),
+                            'form_tema'=> $tema_form->createView(),
+                            'form_tema_update'=> $update_tema_form->createView()
+                        ]);
+                        break;
+                    
+                    default:
+                        # code...
+                        break;
+                }
+                exit();
+            }
+
+            /***********************************************************************/
+
             // vista
             return $this->render('minuta/minuta.html.twig', [
                 'title' => 'Actualizar minuta del día: ',
@@ -352,8 +419,11 @@ class MinutaController extends AbstractController
                 'usuarios'=> $usuarios,
                 'TemasMinutas' => $temasMinutas,
                 'form'=> $minuta_form->createView(),
-                'form_tema'=> $tema_form->createView()
+                'form_tema'=> $tema_form->createView(),
+                'form_tema_update'=> $update_tema_form->createView()
             ]);
+
+            
         }   
 
     }
