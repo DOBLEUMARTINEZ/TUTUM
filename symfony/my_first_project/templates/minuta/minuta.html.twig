@@ -16,6 +16,8 @@
 
 	{% else %}
 
+		<!-- formulario general de minuta -->
+
 		<div id="form-minuta">
 
 			<!-- MINUTA -->
@@ -98,7 +100,7 @@
 			<div class="row">
 				<div class="col-md-12">
 					{% if TemasMinutas is defined %}
-						{{ include('minuta/temas/detail-tema.html.twig') }}
+						{{ include('minuta/temas/all-temas.html.twig') }}
 					{% endif %}
 				</div>
 			</div>

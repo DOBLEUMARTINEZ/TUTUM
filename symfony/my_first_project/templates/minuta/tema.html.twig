@@ -7,19 +7,9 @@
 
 {% block contenido %}
 	<div id="fitro-busqueda-minuta">
-		<h1>{{title}}<span> {% if fecha_minuta is defined %} {{fecha_minuta}} {% endif %}</span></h1>
+		<h1>{{title}}</h1>
 	</div>
 
-	{% if TemasMinutas is defined %}
-
-		{{ include('minuta/temas/detalle-tema.html.twig') }}
-
-	{% else %}
-
-		update form
-		
-	{% endif %}
-
-	
+	{{ include('minuta/temas/detalle-tema.html.twig') }}
 
 {% endblock %}

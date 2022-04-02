@@ -368,7 +368,6 @@ class MinutaController extends AbstractController
             /* TEMA *******************************************************************/
             if (!empty($tema)) {
 
-                $bloque =  str_replace('@', '', strstr($tema, '@', true));
                 $id_tema = str_replace('@','',strstr($tema, '@'));
 
                 // TEMAS 
@@ -380,33 +379,14 @@ class MinutaController extends AbstractController
                 $EstatusMinutas =  $estatusMinuta_repo->findAll();
                 $estatusMinuta =  $estatusMinuta_repo->find($minuta->getEstatus());
 
-                switch (str_replace('Tema', '', $bloque)) {
-                    case 'Detail':
-                        //echo "detalle";
-                        // vista
-                        return $this->render('minuta/tema.html.twig', [
-                            'title' => 'Detalle del tema :'.$temaMinuta->getTitulo(),
-                            'TemasMinutas' => $temasMinutas,
-                            'EstatusMinuta' => $EstatusMinutas
-                        ]);
-                        break;
+                
+                return $this->render('minuta/tema.html.twig', [
+                    'title' => 'Detalle del tema :'.$temaMinuta->getTitulo(),
+                    'TemasMinutas' => $temasMinutas,
+                    'EstatusMinuta' => $EstatusMinutas
+                ]);
 
-                    case 'Update':
-                        //echo "update";
-                        // vista
-                        return $this->render('minuta/tema.html.twig', [
-                            'title' => 'Actualizar tema: ',
-                            'TemaMinuta' => $temaMinuta,
-                            'form'=> $minuta_form->createView(),
-                            'form_tema'=> $tema_form->createView(),
-                            'form_tema_update'=> $update_tema_form->createView()
-                        ]);
-                        break;
-                    
-                    default:
-                        # code...
-                        break;
-                }
+                
                 exit();
             }
 
