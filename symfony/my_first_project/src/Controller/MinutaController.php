@@ -106,7 +106,7 @@ class MinutaController extends AbstractController
                             'fechaFin' => $minuta->getFechaFin(),
                             'proximaReunion' => $minuta->getProximareunion(),
                             'itinerario' => $minuta->getItinerario(),
-                            'estatus' => $estatusMinuta,
+                            'estatus' => $estatusMinuta->getNombre(),
                             'estatusMinutas' => $estatusMinutas,
                             'autorizacion' => $minuta->getAutorizacion(),
                             'audiencia' => $audiencia,
@@ -155,7 +155,6 @@ class MinutaController extends AbstractController
         // USUARIOS
         $usuario_repo = $this->getDoctrine()->getRepository(Usuario::class);
         $usuarios =  $usuario_repo->findBy(['rol' => 'USER']);
-        
         $users  = array();
         $users2  = array();
 
@@ -168,6 +167,26 @@ class MinutaController extends AbstractController
         $temaMinuta_repo = $this->getDoctrine()->getRepository(TemaMinuta::class);
         $temaMinuta =  $temaMinuta_repo->findOneBy(['id_reunion' => $id_minuta, 'titulo' => 'Principales acuerdos de la reunión']);
         $temasMinutas =  $temaMinuta_repo->findBy(['id_reunion' => $id_minuta]);
+
+        // ESTATUS
+        $estatusMinuta_repo = $this->getDoctrine()->getRepository(EstatusMinuta::class);
+        $estatusMinutas =  $estatusMinuta_repo->findAll();
+        $estatusMinuta =  $estatusMinuta_repo->find($minuta->getEstatus());
+        $catalogo_estatus= array();
+        foreach($estatusMinutas as $row) 
+        { 
+            $catalogo_estatus += array($row->getNombre() => $row->getId());
+        }
+
+        // CATEGORIA 
+        $Categorias_repo = $this->getDoctrine()->getRepository(Categoria::class);
+        $Categorias_all =  $Categorias_repo->findAll();
+        $Categorias = array();
+        foreach($Categorias_all as $row) 
+        { 
+            $Categorias += array($row->getNombre() => $row->getId());
+        }
+
 
         // creacion el formulario minuta
         $minuta_form = $this->createFormBuilder()
@@ -185,11 +204,7 @@ class MinutaController extends AbstractController
 
                 ->add('estatus', ChoiceType::class,[
                     'label'=>'Estatus',
-                    'choices' => [
-                        $minuta->getEstatus() => $minuta->getEstatus(),
-                        'Si' => true,
-                        'No' => false,
-                    ],
+                    'choices' => $catalogo_estatus,
                     'attr' => ['class' => '']
                 ])
 
@@ -232,9 +247,9 @@ class MinutaController extends AbstractController
                     'attr' => ['class' => '']
                 ])
 
-                ->add('autorizacion', TextType::class,[
+                ->add('autorizacion', ChoiceType::class,[
                     'label'=>'Autorizacion',
-                    'data'=> $minuta->getAutorizacion(),
+                    'choices' => [ 'Si' => true, 'No' => false ],
                     'attr' => ['class' => '']
                 ])
 
@@ -272,14 +287,52 @@ class MinutaController extends AbstractController
                     TextType::class, 
                     [
                     'label'=>'titulo',
-                    'data' => $temaMinuta->getTitulo(),
                     'attr' => ['class' => '']
                     ]
                 )
 
+                ->add('categoria',
+                    ChoiceType::class, 
+                    [
+                    'label'=>'categoria',
+                    'choices' => $Categorias,
+                    'attr' => ['class' => '']
+                    ]
+                )
+
+                ->add('estatus', ChoiceType::class,[
+                    'label'=>'Estatus',
+                    'choices' => $catalogo_estatus,
+                    'attr' => ['class' => '']
+                ])
+
+                ->add('responsables',
+                    ChoiceType::class, 
+                    [
+                    'expanded' => false,
+                    'multiple' => false,
+                    'label'=> $users,
+                    'choices' => $users,
+                    ]
+                )
+
+                ->add('fecha_inicio', DateType::class,[
+                    'label'=>'Fecha inicio',
+                    'widget' => 'single_text',
+                    'format' => 'yyyy-MM-dd',
+                    'attr' => ['class' => '']
+                ])
+
+                ->add('fecha_fin', DateType::class,[
+                    'label'=>'Fecha fin',
+                    'widget' => 'single_text',
+                    'format' => 'yyyy-MM-dd',
+                    'attr' => ['class' => '']
+                ])
+
                 // BOTON DE SUBMIT TEMA
                 ->add('submit', SubmitType::class,[
-                    'label'=> 'añadir tema',
+                    'label'=> 'Añadir tema',
                     'attr' => ['class' => 'btn btn-success btn-full-width', 'value' => 'new_tema' ]
                 ])
 
@@ -289,6 +342,15 @@ class MinutaController extends AbstractController
         $update_tema_form = $this->createFormBuilder()
 
             ->setMethod('POST')
+
+                ->add('titulo_tema',
+                    TextType::class, 
+                    [
+                    'label'=>'titulo',
+                    'data' => $temaMinuta->getTitulo(),
+                    'attr' => ['class' => '']
+                    ]
+                )
 
                 // BOTON DE SUBMIT AUCTUALIZAR TEMA
                 ->add('submit', SubmitType::class,[
@@ -325,16 +387,16 @@ class MinutaController extends AbstractController
                     // crea el objeto y asignarle valores
                     $tema = new TemaMinuta();
                     $tema->setTitulo($form_update['titulo']);
-                    $tema->setCompromisoInicio('White');
-                    $tema->setCompromisoFin('White');
+                    $tema->setCompromisoInicio($form_update['fecha_inicio']);
+                    $tema->setCompromisoFin($form_update['fecha_fin']);
                     $tema->setRequerimiento('White');
                     $tema->setLineaGuia('White');
                     $tema->setCompromisoAccion('White');
                     $tema->setCompromiso('White');
                     $tema->setObservacion('White');
-                    $tema->setIdEstatus('White');
+                    $tema->setIdEstatus($form_update['estatus']);
                     $tema->setIdReunion($id_minuta);
-                    $tema->setIdCategoria('White');
+                    $tema->setIdCategoria($form_update['categoria']);
                     $tema->setUltimoTemaIngresado('White');
                     $tema->setUltimaModificacion('White');
                     $tema->setPadre('White');
@@ -378,10 +440,9 @@ class MinutaController extends AbstractController
                 $estatusMinuta_repo = $this->getDoctrine()->getRepository(EstatusMinuta::class);
                 $EstatusMinutas =  $estatusMinuta_repo->findAll();
                 $estatusMinuta =  $estatusMinuta_repo->find($minuta->getEstatus());
-
                 
                 return $this->render('minuta/tema.html.twig', [
-                    'title' => 'Detalle del tema :'.$temaMinuta->getTitulo(),
+                    'title' => $temaMinuta->getTitulo(),
                     'TemasMinutas' => $temasMinutas,
                     'EstatusMinuta' => $EstatusMinutas
                 ]);

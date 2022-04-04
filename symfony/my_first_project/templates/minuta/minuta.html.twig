@@ -98,35 +98,61 @@
 			<!-- TEMAS -->
 			<h2>Temas de minuta</h2>
 			<div class="row">
+
 				<div class="col-md-12">
 					{% if TemasMinutas is defined %}
 						{{ include('minuta/temas/all-temas.html.twig') }}
 					{% endif %}
 				</div>
+
+				<div class="col-md-12">
+					{{ form_start(form_tema, {'attr': {'class': 'form-control'}}) }}
+
+						<div class="row">
+							<div class="col-md-2">
+								<p>Nuevo tema</p>
+								{{ form_widget(form_tema.titulo) }}
+							</div>
+							<div class="col-md-2">
+								<p>Categoría</p>
+								{{ form_widget(form_tema.categoria) }}
+							</div>
+							<div class="col-md-2">
+								<p>Estatus</p>
+								{{ form_widget(form_tema.estatus) }}
+							</div>
+							<div class="col-md-2">
+								<p>Inicio</p>
+								{{ form_widget(form_tema.fecha_inicio) }}
+							</div>
+							<div class="col-md-2">
+								<p>Conclusión</p>
+								{{ form_widget(form_tema.fecha_fin) }}
+							</div>
+							<div class="col-md-2">
+								<p>Responsables</p>
+								{{ form_widget(form_tema.responsables) }}
+							</div>
+						</div>
+
+						<hr>
+
+						<div class="row">
+							<div class="col-md-9">
+							</div>
+							<div class="col-md-3">
+							{{ form_widget(form_tema.submit) }}
+							</div>
+						</div>
+
+					{{ form_end(form_tema) }}
+				</div>
 			</div>
 
-			{{ form_start(form_tema, {'attr': {'class': 'form-control'}}) }}
+			<!-- next bloque -->
+			<h2>Temas de minuta</h2>
 
-				<div class="row">
-					<div class="col-md-3">
-						<p>titulo</p>
-						{{ form_widget(form_tema.titulo) }}
-					</div>
-				</div>
-
-				<hr>
-
-				<div class="row">
-					<div class="col-md-9">
-					</div>
-					<div class="col-md-3">
-						{{ form_widget(form_tema.submit) }}
-					</div>
-				</div>
-
-			{{ form_end(form_tema) }}
-
-			<!-- -->
+			
 
 		</div>
 
@@ -155,8 +181,24 @@
 	        toolbar: 'undo redo | formatselect | bold italic backcolor | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | removeformat | help'
 	      });
 
-	      function MoreInfo(){
-	      	alert('MoreInfo');
+
+	      /* MODAL JS */
+
+	      function MoreInfoTema($id_tema){
+
+	      	//alert($id_tema);
+
+	      	$('#DetailTema-'+$id_tema).toggle();
+
+	      }
+
+
+	      function CloseModal($id_tema){
+
+	      	//alert($id_tema);
+
+	      	$('#DetailTema-'+$id_tema).toggle();
+
 	      }
 
 	    </script>

@@ -23,7 +23,7 @@
 					</td>
 
 					<td class="action-icons">
-						<i onclick="window.location.href='{{ temas.idReunion }}/TemaDetail@{{ temas.id }}';" style="color: #333;" class="fas fa-eye"></i>
+						<i onclick="MoreInfoTema({{ temas.id }})" style="color: #333;" class="fas fa-eye"></i>
 						<i onclick="window.location.href='{{ temas.idReunion }}/TemaUpdate@{{ temas.id }}';" style="color: #053a76;" class="fas fa-edit"></i>		
 						<i style="color:red;" class="fas fa-trash"></i>
 					</td>
@@ -36,3 +36,39 @@
 	</table>
 
 </div>
+
+<div id="content-modals">
+
+	{% for temas in TemasMinutas %}
+
+		<div id="DetailTema-{{ temas.id }}">
+
+			<div class="row modal-wm" >
+
+				<div class="col-md-12" style="text-align:right;">
+					<span onclick="CloseModal({{ temas.id }})" >
+						<i class="fas fa-times"></i>
+					</span>
+				</div>
+
+					<div class="col-md-1" >
+						<p>ID</p>
+						<input class="form-control"  value="{{ temas.id }}" disabled="">
+					</div>
+
+					<div class="col-md-1" >
+						<p>Titulo</p>
+						<input class="form-control"  value="{{ temas.titulo }}" disabled="">
+					</div>
+
+				
+
+			</div>
+
+		</div>
+				
+	{% endfor %}
+
+	
+</div>
+
