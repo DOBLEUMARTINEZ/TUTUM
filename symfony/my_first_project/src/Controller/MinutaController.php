@@ -459,6 +459,8 @@ class MinutaController extends AbstractController
                 'fecha_minuta' => $fecha_minuta,
                 'usuarios'=> $usuarios,
                 'TemasMinutas' => $temasMinutas,
+                'CatalogoEstatus' => $estatusMinutas,
+                'CatalgoCategorias' => $Categorias_all,
                 'form'=> $minuta_form->createView(),
                 'form_tema'=> $tema_form->createView(),
                 'form_tema_update'=> $update_tema_form->createView()

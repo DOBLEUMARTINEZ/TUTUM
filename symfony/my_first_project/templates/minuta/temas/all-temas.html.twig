@@ -39,13 +39,18 @@
 
 <div id="content-modals">
 
+
 	{% for temas in TemasMinutas %}
 
 		<div id="DetailTema-{{ temas.id }}">
 
 			<div class="row modal-wm" >
 
-				<div class="col-md-12" style="text-align:right;">
+				<div class="col-md-11">
+					<h2>Detalle tema</h2>
+				</div>
+
+				<div class="col-md-1" style="text-align:right;">
 					<span onclick="CloseModal({{ temas.id }})" >
 						<i class="fas fa-times"></i>
 					</span>
@@ -56,9 +61,80 @@
 						<input class="form-control"  value="{{ temas.id }}" disabled="">
 					</div>
 
-					<div class="col-md-1" >
+					<div class="col-md-11" >
 						<p>Titulo</p>
 						<input class="form-control"  value="{{ temas.titulo }}" disabled="">
+					</div>
+
+					<div class="col-md-2" >
+						<p>Fecha inicio</p>
+						<input class="form-control"  value="{{ temas.compromisoInicio }}" disabled="">
+					</div>
+
+					<div class="col-md-2" >
+						<p>Fecha fin</p>
+						<input class="form-control"  value="{{ temas.compromisoFin }}" disabled="">
+					</div>
+
+					<div class="col-md-2" >
+						<p>Actualización</p>
+						<input class="form-control"  value="{{ temas.ultimaModificacion }}" disabled="">
+					</div>
+
+					<div class="col-md-3" >
+						<p>Estatus</p>
+						{% for  estatus in CatalogoEstatus %}
+							{% if temas.idEstatus == estatus.id %}
+								<input class="form-control"  value="{{ estatus.nombre }}" disabled="">
+							{% endif %}
+						{% endfor  %}
+						
+					</div>
+
+
+					<div class="col-md-3" >
+						<p>Categoria</p>
+						{% for  Categoria in CatalgoCategorias %}
+							{% if temas.idCategoria == Categoria.id %}
+								<input class="form-control"  value="{{ Categoria.nombre }}" disabled="">
+							{% endif %}
+						{% endfor  %}
+					</div>
+
+
+					<div class="col-md-6" >
+						<p>Requerimientos</p>
+						<div class="overflow-auto textarea-fake" style="max-width: ; max-height: 150px;" >
+							{{ temas.requerimiento|raw }}
+						</div>
+					</div>
+
+					<div class="col-md-6" >
+						<p>Linea guia</p>
+						<div class="overflow-auto textarea-fake" style="max-width: ; max-height: 150px;" >
+							{{ temas.lineaGuia|raw }}
+						</div>
+					</div>
+
+					<div class="col-md-6" >
+						<p>Compromiso acción</p>
+						<div class="overflow-auto textarea-fake" style="max-width: ; max-height: 150px;" >
+							{{ temas.compromisoAccion|raw }}
+						</div>
+					</div>
+
+					<div class="col-md-6" >
+						<p>Compromiso</p>
+						<div class="overflow-auto textarea-fake" style="max-width: ; max-height: 150px;" >
+							{{ temas.compromiso|raw }}
+						</div>
+					</div>
+
+					<div class="col-md-6" >
+						<p>Observación</p>
+						<div class="overflow-auto textarea-fake" style="max-width: ; max-height: 150px;" >
+							{{ temas.observacion|raw }}
+						</div>
 					</div>
 
 				

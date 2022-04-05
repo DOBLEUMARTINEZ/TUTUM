@@ -503,6 +503,14 @@
 	    padding: 0% 0% 1% 0%;
 	}
 
+	.textarea-fake{
+		max-height: 200px;
+	    background: #e9ecef;
+	    border: 1px solid #ced4da;
+	    border-radius: 5px;
+	    padding: 10px;
+	}
+
 	/* ESTILOS DE PIE DE PAGINA */
 		#footer{
 			background: #053a76;
