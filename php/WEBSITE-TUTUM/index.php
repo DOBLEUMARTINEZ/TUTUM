@@ -1,7 +1,9 @@
 <?php
 echo '<!DOCTYPE html><html lang="es">';
 
-  // VALIDAR SECCIONES
+  // PROGRAMER 01
+
+  // VALIDAR SECCIONES 
   if (isset($_GET['seccion'])) {
     $name_seccion = $_GET['seccion'];
   }else{
