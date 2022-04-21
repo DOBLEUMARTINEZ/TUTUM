@@ -1,7 +1,7 @@
 <?php
 echo '<!DOCTYPE html><html lang="es">';
 
-  // 
+  // VALIDAR SECCIONES
   if (isset($_GET['seccion'])) {
     $name_seccion = $_GET['seccion'];
   }else{
