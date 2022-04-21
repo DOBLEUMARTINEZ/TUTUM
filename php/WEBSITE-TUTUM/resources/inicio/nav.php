@@ -16,10 +16,10 @@
         <li style="width: 10%" >
           <i class="fas fa-bars"></i><br>
           <ol class="menu-mobil">
-            <li onclick="window.location.href='./index.php?seccion=identidad&menu=true';">
+            <li onclick="window.location.href='./menu-identidad';">
               IDENTIDAD
             </li>
-            <li onclick="window.location.href='./index.php?seccion=servicios&menu=true';">
+            <li onclick="window.location.href='./menu-servicios';">
               SERVICIOS
             </li>
             <li onclick="window.location.href='./';">
@@ -63,21 +63,21 @@
         <li onclick="window.location.href='./';">Inicio</li>
 
         <li class="dropdown-menu-ttm">
-          <a onclick="window.location.href='./index.php?seccion=identidad&menu=true';" >Identidad</a>
+          <a onclick="window.location.href='./menu-identidad';" >Identidad</a>
           <ol>
-            <li onclick="window.location.href='./index.php?seccion=identidad#us';">
+            <li onclick="window.location.href='./identidad#us';">
               ¿Quiénes somos?
             </li>
-            <li onclick="window.location.href='./index.php?seccion=identidad#vision-mision';">
+            <li onclick="window.location.href='./identidad#vision-mision';">
               Misión y vision
             </li>
-            <li onclick="window.location.href='./index.php?seccion=identidad#experiencia';">
+            <li onclick="window.location.href='./identidad#experiencia';">
               Nuestra experiencia
             </li>
-            <li onclick="window.location.href='./index.php?seccion=identidad#clientes';">
+            <li onclick="window.location.href='./identidad#clientes';">
               Nuetros clientes
             </li>
-            <li onclick="window.location.href='./index.php?seccion=identidad#socios';">
+            <li onclick="window.location.href='./identidad#socios';">
               Socios de negocio
             </li>
           </ol>
@@ -85,28 +85,28 @@
         </li>
 
         <li class="dropdown-menu-ttm">
-          <a onclick="window.location.href='./index.php?seccion=servicios&menu=true';" >Servicios</a>
+          <a onclick="window.location.href='./menu-servicios';" >Servicios</a>
 
           <ol>
-            <li onclick="window.location.href='./index.php?seccion=servicios#proyectos';">
+            <li onclick="window.location.href='./servicios#proyectos';">
               PROYECTOS INTEGRALES TI
             </li>
-            <li onclick="window.location.href='./index.php?seccion=servicios#operacion';">
+            <li onclick="window.location.href='./servicios#operacion';">
               OPERACIÓN DE PROYECTOS​
             </li>
-            <li onclick="window.location.href='./index.php?seccion=servicios#cau';">
+            <li onclick="window.location.href='./servicios#cau';">
               CENTRO DE ATENCIÓN A USUARIOS​
             </li>
-            <li onclick="window.location.href='./index.php?seccion=servicios#sap';">
+            <li onclick="window.location.href='./servicios#sap';">
               CONSULTORÍA E IMPLEMENTACIÓN SA​P
             </li>
-            <li onclick="window.location.href='./index.php?seccion=servicios#hospitales';">
+            <li onclick="window.location.href='./servicios#hospitales';">
               SOLUCIONES HOSPITALARIAS​
             </li>
-            <li onclick="window.location.href='./index.php?seccion=servicios#ciberseguridad';">
+            <li onclick="window.location.href='./servicios#ciberseguridad';">
               CIBERSEGURIDAD
             </li>
-            <li onclick="window.location.href='./index.php?seccion=servicios#fabrica';" >
+            <li onclick="window.location.href='./servicios#fabrica';" >
               Fabrica de software
             </li>
           </ol>

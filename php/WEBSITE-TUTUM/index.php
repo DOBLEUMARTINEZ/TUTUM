@@ -1,4 +1,7 @@
 <?php
+
+
+
 echo '<!DOCTYPE html><html lang="es">';
 
   // 
@@ -14,30 +17,37 @@ echo '<!DOCTYPE html><html lang="es">';
 
 echo '<body>'; // INICIO CUERPO
 
-    include("resources/inicio/nav.php"); // BARRRA DE NAVEGACIÓN
+  include("resources/inicio/nav.php"); // BARRRA DE NAVEGACIÓN
 
     if (isset($_GET['seccion'])) {  // SECCIONES
 
-        switch ($_GET['seccion']) {
+        $seccion = str_replace('menu-', '', $_GET['seccion']);
+
+        switch ($seccion) {
 
           case 'identidad':
-            if (isset($_GET['menu'])) {
+
+            if (str_replace($seccion, '', $_GET['seccion']) == 'menu-') {
               include("resources/identidad/menu.php"); // MENU IDENTIDAD
             }else{
               include("resources/identidad/contenido.php"); // CONTENIDO
             }
+
             break;
 
           case 'servicios':
-            if (isset($_GET['menu'])) {
+            include("resources/inicio/nav.php"); // BARRRA DE NAVEGACIÓN
+
+            if (str_replace($seccion, '', $_GET['seccion']) == 'menu-') {
               include("resources/servicios/menu.php"); // MENU SERVICIOS
             }else{
               include("resources/servicios/contenido.php"); // CONTENIDO
             }
+
             break;
           
           default:
-            echo "none";
+            include("resources/error.php"); // ERROR NOT FOUND
             break;
         }
 
@@ -45,7 +55,7 @@ echo '<body>'; // INICIO CUERPO
        include("resources/inicio/contenido.php"); // CONTRENEDOR DEL CUERPO DEL INDEX
     }
 
-    include 'resources/inicio/footer.php'; // PIE DE PAGINA
+  include 'resources/inicio/footer.php'; // PIE DE PAGINA
 
 echo '</body></html>';// FIN CUERPO
 
