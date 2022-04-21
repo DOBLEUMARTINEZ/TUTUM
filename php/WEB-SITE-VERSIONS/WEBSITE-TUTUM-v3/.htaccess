@@ -1,0 +1,5 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+RewriteRule ^identidad$ identidad.php
+RewriteRule ^identidad/([a-z]+)$ identidad.php?seccion=true#$1
