@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="TUTUM TECH | Misael Lopez Lara" />
+    <meta name="copyright" content="Propietario del copyright" />
+    <title>TUTUM TECH | Centro de Atención a Usuarios - CAU</title>
+    <!-- Preload -->
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-187877163-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-187877163-1');
+    </script>
+
+
+
+    <link rel="preload" href="https://fonts.googleapis.com">
+    <link rel="preload" href="https://fonts.gstatic.com" crossorigin crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <script src="https://kit.fontawesome.com/6d3873a82e.js" crossorigin="anonymous"></script>
+
+    <!-- Start of  Zendesk Widget script -->
+    <script id="ze-snippet"
+        src="https://static.zdassets.com/ekr/snippet.js?key=e6b454e7-49ce-4a19-a813-9697e01eb3f3"> </script>
+    <!-- End of  Zendesk Widget script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <section id="header">
+            <nav class="navegacion">
+                <div class="wrapper">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img id="logo" src="img/tutum-logo-blanco-005.png" alt="">
+                        </a>
+                    </div>
+                    <input type="radio" name="slider" id="menu-btn">
+                    <input type="radio" name="slider" id="close-btn">
+                    <ul class="nav-links">
+                        <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+                        <li><a href="identidad.html">Identidad</a></li>
+                        <li>
+                            <a href="oferta.html" class="desktop-item">Oferta <i class="fas fa-chevron-down"></i></a>
+                            <input type="checkbox" id="showMega">
+                            <label for="showMega" class="mobile-item">Oferta <i class="fas fa-chevron-down"></i></label>
+                            <div class="mega-box">
+                                <div class="content">
+                                    <!-- <div class="row">
+                                        <img src="img/CAU.jpg" alt="">
+                                    </div> -->
+                                    <div class="row">
+                                        <header><a href="proyectos-llave-mano.html"> Proyectos Llave en Mano </a>
+                                        </header>
+                                        <ul class="mega-links">
+                                            <li><a class="text-blanco" href="proyectos-llave-mano.html#PLLM_h2">Que Ofrecemos</a></li>
+                                            <li><a class="text-blanco" href="proyectos-llave-mano.html#PLLM_componentes">Componentes</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#sectores">Conocimiento</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#experiencia">Referencias</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="row">
+                                        <header><a href="operacion.html">Operación</a></header>
+                                        <ul class="mega-links">
+                                            <li><a class="text-blanco" href="operacion.html#operacion">Como Operamos</a></li>
+                                            <li><a class="text-blanco" href="operacion.html#operacion">Tecnología</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#sectores">Participación</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#experiencia">Referencias</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="row">
+                                        <header><a href="cau.html">Centro de Atención a Usuarios </a> </header>
+                                        <ul class="mega-links">
+                                            <li><a class="text-blanco" href="cau.html#cau">Como Ayudamos</a></li>
+                                            <li><a class="text-blanco" href="cau.html#grafico_cau">CAU</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#sectores">Industria</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#experiencia">Caso de Éxito</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="row">
+                                        <header><a href="infraestructura-de-hardware.html">Infraestructura de Hardware</a>
+                                        </header>
+                                        <ul class="mega-links">
+                                            <li><a class="text-blanco" href="infraestructura-de-hardware.html#infraestructura">Como Soportamos</a></li>
+                                            <li><a class="text-blanco" href="infraestructura-de-hardware.html#infraestructura_grafico">Infraestructura</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#sectores">Sectores</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#experiencia">Caso de Éxito</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="row">
+                                        <header><a href="software.html">Soluciones de Software </a></header>
+                                        <ul class="mega-links">
+                                            <li><a class="text-blanco" href="software.html#software">Que Desarrollamos</a></li>
+                                            <li><a class="text-blanco" href="software.html#software_grafico">Aplicaciones</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#sectores">Industria</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#experiencia">Caso de Éxito</a></li>
+                                            
+                                        </ul>
+                                    </div>
+                                    <div class="row">
+                                        <header><a href="centro-de-datos.html">Centro de Datos </a></header>
+                                        <ul class="mega-links">
+                                            <li><a class="text-blanco" href="centro-de-datos.html#datacenter">Nuestra Experiencia</a></li>
+                                            <li><a class="text-blanco" href="centro-de-datos.html#datacenter_grafico">Servicios</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#sectores">Sectores</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#experiencia">Referencias</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="row">
+                                        <header><a href="ciberseguridad.html"> Ciberseguridad </a></header>
+                                        <ul class="mega-links">
+                                            <li><a class="text-blanco" href="ciberseguridad.html#ciberseguridad">Que Protegemos</a>
+                                            </li>
+                                            <li><a class="text-blanco" href="ciberseguridad.html#ciberseguridad_grafico">Tecnología</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#sectores">Industria</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#experiencia">Caso de Éxito</a></li>
+                                            
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="oferta.html">Talento</a></li>
+                        <li><a href="hablemos.html">Hablemos</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <!-- <li>
+                                <a href="#" class="desktop-item">Dropdown Menu</a>
+                                <input type="checkbox" id="showDrop">
+                                <label for="showDrop" class="mobile-item">Dropdown Menu</label>
+                                <ul class="drop-menu">
+                                    <li><a href="#">Drop menu 1</a></li>
+                                    <li><a href="#">Drop menu 2</a></li>
+                                    <li><a href="#">Drop menu 3</a></li>
+                                    <li><a href="#">Drop menu 4</a></li>
+                                </ul>
+                            </li> -->
+
+
+                    </ul>
+                    <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+                </div>
+            </nav>
+        </section>
+    </header>
+    <!-- End Header -->
+
+
+    <!-- Hero Section  -->
+    <section id="hero">
+        <video class="video-slide active" src="video/CAU.mp4" autoplay muted loop></video>
+
+        <div class="hero container">
+            <div class="contenido active">
+                <h1>Habilitamos ventajas competitivas<span></span></h1>
+                <h1>para tu empresa, como nuestro<span></span></h1>
+                <h1>Centro de Atención a Usuarios <span></span></h1>
+                <a href="#" type="button" class="cta" onclick="toggle2();">Ver video <i
+                        class="far fa-play-circle"></i></a>
+                <div class="youtube_2">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/F3IM6aYDwLY"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+
+                    <i class="close far fa-times-circle" onclick="toggle2();"></i>
+                </div>
+            </div>
+
+    </section>
+    <!-- End Hero Section  -->
+
+    <!-- Nosotros Section -->
+    <section id="cau">
+        <div class="cau">
+
+            <div class="cau_contenido">
+                <h2 class="section-title">Centro de Atención a Usuarios (CAU)</h2>
+                <p>La experiencia del cliente es un factor clave para las empresas. Por ello, cada vez, los negocios se
+                    esfuerzan más en garantizar una atención adecuada como parte de su propuesta de valor de negocio.
+                    Para poder alcanzar un mejor nivel de satisfacción del cliente, las empresas están incorporando un
+                    servicio tercerizado de Centro de Atención a Usuarios (CAU). De esta manera, se pueden reducir los
+                    tiempos de espera en la atención y resolución de dudas. Además, se logra agilizar los procesos de
+                    trabajo y mejorar la relación con el cliente.
+
+                </p>
+                <br>
+                <P>Un Centro de Soporte con personal adecuado y procesos ágiles, orientados a ayudar al usuario, resulta
+                    ser una inversión que supone un retorno inmediato. La rápida atención a problemas de TI, puede ser
+                    crucial para las empresas, sobre todo si se trata de algún proceso crítico y de ello depende
+                    totalmente la operación de las mismas. Por ello, se requieren soluciones especializadas en las
+                    cuales gestionan consultas e incidencias, como la plataforma como el CAU de TUTUM.
+
+                </P>
+                <br>
+
+            </div>
+            <div class="cau_img">
+                <img src="img/cau_2.jpg" alt="">
+            </div>
+    </section>
+    <!-- FIN Nosotros Section -->
+
+    <section id="cau_bloque_2">
+        <div class="cau">
+            <div class="cau_img_2">
+                <img src="img/cau_12.jpg" alt="">
+            </div>
+            <div class="cau_contenido">
+                <!-- <h2 class="section-title">Centro de Atención a Usuarios (CAU)</h2> -->
+                <p>La plataforma CAU de TUTUM es totalmente adaptable a tus necesidades de atención a tus usuarios,
+                    facilitando los procesos de soporte de servicio de manera integral. Sin importar si la solicitud de
+                    servicio se inicia a través de la web, el correo electrónico, el teléfono, el cliente de escritorio
+                    o por un evento desde una red o una aplicación de gestión de sistemas, esta interface de solicitud
+                    de cliente multicanal consolida y maneja las solicitudes desde su presentación hasta su solución
+                    final.
+
+                </p>
+                <br>
+                <P>Dentro de la organización, el CAU de TUTUM proporciona una herramienta común para automatizar e
+                    integrar los procesos de soporte de servicio dentro de los grupos regionales o funcionales, los
+                    recursos de terceros y otras partes de la empresa; todo lo anterior basados en metodología ITIL y
+                    con opciones de Acuerdos de Niveles de Servicio (SLA´s) que se ajustan a las necesidades de tu
+                    negocio. Nuestro CAU también proporciona un motor y una base de datos de flujo de trabajo común para
+                    proporcionar una visibilidad de métricas clave de servicio de TI en toda la organización en una sola
+                    suite integrada. La visibilidad cruzada de la organización en la información es una fuente clave de
+                    métricas que se necesitan para gestionar mejoras operativas en curso.
+
+                </P>
+                <br>
+
+            </div>
+
+    </section>
+
+
+
+
+
+    <!-- Sección hablemos presentación -->
+    <section class="cau_servicio">
+        <div class="cau_servicio_contenido">
+            <img src="img/tutum-servicios-centro-de-atencion-usuarios-007.png" alt="">
+        </div>
+        <div class="cau_enlace">
+            <a href="hablemos.html" type="button" class="cta_contacto_cau">Contactanos para más información sobre
+                nuestro
+                CAU</a>
+        </div>
+    </section>
+
+    <!--FIN Sección hablemos presentación -->
+
+
+
+    <section id="cau">
+        <div class="cau">
+
+            <div class="cau_contenido">
+
+                <p>Con el servicio tercerizado de Atención, Operación y Soporte a través del CAU de TUTUM, tu
+                    organización puede responder rápida y eficientemente a las condiciones que interrumpen los servicios
+                    críticos. El CAU de TUTUM actúa como un único punto de contacto para las solicitudes del usuario,
+                    incidentes presentados por el usuario e incidentes generados por la infraestructura. Sus profundos,
+                    flexibles flujos de trabajo de mejores prácticas de ITIL aceleran la restauración normal del
+                    servicio, ayudan a evitar eventos futuros por servicios que impactan adversamente el negocio y
+                    mejoran la eficiencia del personal de TI.
+                </p>
+                <br>
+                <p>Los innovadores flujos de trabajo entregados por nuestro CAU captan y rastrean las relaciones – desde
+                    el inicio del incidente, hasta la correlación del problema, investigación de la causa raíz, errores
+                    conocidos y solicitudes de cambio. La adición de nuestro módulo de Administración del Conocimiento
+                    proporciona rica autoría, búsqueda natural de lenguaje, y auto servicio para reducir el volumen de
+                    incidentes y permitir mayor resolución de soporte de primer nivel, y apoyando a diagnosticar la
+                    causa raíz por medio de la visibilidad a las dependencias de la infraestructura.
+                </p>
+
+            </div>
+            <div class="cau_img">
+                <img src="img/cau_8.jpg" alt="">
+            </div>
+    </section>
+
+
+    <section class="cau_servicio_2">
+
+        <div class="cau_contendero_servicios_2">
+            <div class="cau_contenido_titulo">
+                <h2>SLA’s y Servicios Activos:</h2>
+            </div>
+            <div class="cau_servicio_contenido_sla">
+
+                <li>Soporte técnico:<span> Con niveles de soporte L1, L2, L3 permiten los mejores tiempos de respuesta
+                        con una
+                        disponibilidad 24x7.</span></li>
+                <li>Soporte IT:<span> Personal experto con el conocimiento y capacidad de utilizar el gestor de mesa de
+                        ayuda
+                        de manera efectiva.</span></li>
+                <li>Mesa de ayuda:<span> Ayudamos aumentar la efectividad operativa y utilizamos las mejores prácticas
+                        en el
+                        manejo y administración de mesa de ayuda, incidentes, problemas, niveles de servicio,
+                        autoservicio y
+                        base de conocimiento en un ambiente escalable y amigable.</span></li>
+            </div>
+            <div class="cau_servicio_contenido_sla">
+
+                <li>Monitoreo de misión crítica:<span> Nuestros servicios mesa de ayuda y monitoreo de la
+                        infraestructura de red,
+                        aplicaciones y bases de datos están basados en una mesa de soporte y atención a usuarios 24x7,
+                        generando la tranquilidad de nuestros clientes de que siempre están protegidos. Realizamos un
+                        análisis profundo y diseñamos soluciones tecnológicas de acuerdo con las necesidades de su
+                        negocio.</span>
+                </li>
+                <li>Tableros de control:<span> Contamos con el mejor servicio de atención con base en niveles de
+                        servicio L1, L2,
+                        L3. Generamos tableros de desempeño en nuestra plataforma mesa de ayuda y presentamos datos de
+                        calidad en tiempo real. </span></li>
+
+            </div>
+            <div class="cau_enlace">
+                <a href="hablemos.html" type="button" class="cta_contacto_sla">Contactanos para más información sobre
+                    nuestro
+                    CAU</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="hablemos_contacto_presentacion">
+        <div class="contenido_hablemos">
+            <h2>Cada una de nuestras ofertas en servicios están respaldadas por una amplia experiencia en el sector de
+                la infraestructura social </h2>
+        </div>
+        <a href="hablemos.html" type="button" class="cta_contacto">Contáctanos</a>
+    </section>
+
+    <!-- Sección Grafico CAU -->
+    <section id="grafico_cau" class="grafico_cau">
+        <div class="grafico_cau_contenedor">
+
+            <div class="grafico_cau_top">
+                <div class="grafico_cau_top_left">
+                    <p>On Premise y en la Nube </p>
+                    <img src="img/iconos/tutum-iconos_0029_layer-48.png" alt="">
+                </div>
+
+                <div class="grafico_cau_top_center">
+                    <img src="img/iconos/tutum-iconos_0028_layer-49.png" alt="">
+                    <p>Omnicanal</p>
+                </div>
+
+                <div class="grafico_cau_top_rigth">
+                    <img src="img/iconos/tutum-iconos_0031_layer-46.png" alt="">
+                    <p>Estadísticas y Métricas</p>
+                </div>
+
+            </div>
+
+            <div class="grafico_cau_center">
+                <div class="grafico_cau_center_left">
+                    <p>Seguimiento de Tickets</p>
+                    <img src="img/iconos/tutum-iconos_0033_layer-44.png" alt="">
+                </div>
+                <div class="grafico_cau_center_center">
+                    <img src="img/grafico_cau.png" alt="">
+                </div>
+
+                <div class="grafico_cau_center_rigth">
+                    <img src="img/iconos/tutum-iconos_0054_layer-23.png" alt="">
+                    <p>Niveles de Atención y SLA´s</p>
+                </div>
+            </div>
+
+            <div class="grafico_cau_center_2">
+                <div class="grafico_cau_center_left_2">
+                    <p>Base de Datos de Incidentes</p>
+                    <img src="img/iconos/tutum-iconos_0054_layer-23.png" alt="">
+                </div>
+                <div class="grafico_cau_center_rigth_2">
+                    <img src="img/iconos/tutum-iconos_0008_layer-69.png" alt="">
+                    <p>Estándares (ITIL)</p>
+                </div>
+            </div>
+
+            <div class="grafico_cau_bottom">
+                <div class="grafico_cau_bottom_left">
+                    <p>Interfaz Amigable</p>
+                    <img src="img/iconos/grupo.png" alt="">
+                </div>
+                <div class="grafico_cau_bottom_center">
+                    <img src="img/iconos/software.png" alt="">
+                    <p>Inteligencia Artificial y Bots</p>
+                </div>
+                <div class="grafico_cau_bottom_rigth">
+                    <img src="img/iconos/tutum-iconos_0067_layer-10.png" alt="">
+                    <p>Escalabilidad</p>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+    <!-- FIN Sección Grafico CAU -->
+
+
+
+
+    <!-- Footer -->
+    <footer id="footer">
+        <section class="footer_grid">
+            <div class="footer">
+                <div class="brand_footer">
+                    <a href="index.html"><img src="img/tutum-logo-blanco-005.png" alt="Logo Tutum"> </a>
+                </div>
+                <div class="direccion_inicio">
+                    <p>
+                        Av. de los Insurgentes 1811 piso 5, Guadalupe Inn, Álvaro Obregón, C.P. 01020, Ciudad
+                        de México.
+                    </p>
+                    <a href="https://g.page/Tutumtechmex?share" target="_blank" rel="noopener">Ver en el mapa</a>
+
+                    <a class="telefono_footer" href="tel:+525586230660">Oficina: 55 8623 0660</a>
+                </div>
+                <h2>Nuestras Redes</h2>
+                <div class="social-icon">
+                    <div class="social-item">
+                        <a href="https://www.linkedin.com/company/tutum-tech/mycompany/" target="_blank"
+                            rel="noopener"><img src="img/linkedin.png" alt="LinkedIn" /></a>
+                    </div>
+                    <div class="social-item">
+                        <a href="https://www.facebook.com/Tutum-Tech-515010355546588" target="_blank"
+                            rel="noopener"><img src="img/facebook.png" alt="Facebook" /></a>
+                    </div>
+                    <div class="social-item">
+                        <a href="https://www.instagram.com/tutumtech/" target="_blank" rel="noopener"><img
+                                src="img/instagram.png" alt="Instagram" /></a>
+                    </div>
+                    <div class="social-item">
+                        <a href="https://twitter.com/TutumTech" target="_blank" rel="noopener"><img
+                                src="img/twitter.png" alt="Twitter"></a>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="footer_empresa">
+                <h2>Empresa</h2>
+                <li><a href="identidad.html">Quiénes somos</a></li>
+                <!-- <li><a href="partners.html">Partners</a></li> -->
+                <li><a href="talento.html">Únete al equipo</a> </li>
+                <li><a href="aviso_privacidad.html">Aviso de privacidad</a> </li>
+            </div>
+            <div class="footer_servicios">
+                <h2>Servicios</h2>
+                <li><a href="proyectos-llave-mano.html">Proyectos Llave en Mano</a>
+                <li><a href="operacion.html">Operaciones</a>
+                <li><a href="cau.html">Centro de Atención a Usuarios</a>
+                <li><a href="infraestructura-de-hardware.html">Infraestructura de HW</a>
+                <li><a href="software.html">Soluciones de Software</a>
+                <li><a href="centro-de-datos.html">Centro de Datos</a>
+                <li><a href="ciberseguridad.html">Ciberseguridad</a>
+            </div>
+            <div class="footer_servicios">
+                <h2>Noticias</h2>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="#">Webinar</a></li>
+
+            </div>
+            <div class="copyrigth">
+                <p>Copyright © 2021 TUTUM TECH. Todos los derechos reservados.</p>
+            </div>
+        </section>
+    </footer>
+    <!-- End Footer -->
+    <a id="app-whatsapp" target="_blanck"
+        href="https://api.whatsapp.com/send?phone=+525579591149&amp;text=Hola!&nbsp;me&nbsp;pueden&nbsp;apoyar?">
+        <img src="img/whatsapp.png" alt="">
+    </a>
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>

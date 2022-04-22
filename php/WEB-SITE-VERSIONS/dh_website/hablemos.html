@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="es_MX">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Empresa de tecnología con servicios de Centro de Atención a usuarios, Ciberseguridad, Servicios de Infraestructura
+    tecnologica, Servicios de TI, Soluciones de Software">
+
+    <title>TUTUM TECH | Hablemos</title>
+    <!-- Preload -->
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-187877163-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-187877163-1');
+    </script>
+
+
+    <link rel="preload" href="https://fonts.googleapis.com">
+    <link rel="preload" href="https://fonts.gstatic.com" crossorigin crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <script src="https://kit.fontawesome.com/6d3873a82e.js" crossorigin="anonymous"></script>
+
+    <!-- Start of  Zendesk Widget script -->
+    <script id="ze-snippet"
+        src="https://static.zdassets.com/ekr/snippet.js?key=e6b454e7-49ce-4a19-a813-9697e01eb3f3"> </script>
+    <!-- End of  Zendesk Widget script -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.3.2.js"></script>
+    <!-- Recaptcha -->
+    <script src="https://www.google.com/recaptcha/api.js?render=6LdS4ekcAAAAACfKC_aLgo0lqb6rY3DO830Qgbs_"></script>
+    <script>
+        $(document).ready(function () {
+            $('#enviar').click(function () {
+                grecaptcha.ready(function () {
+                    grecaptcha.execute('6LdS4ekcAAAAACfKC_aLgo0lqb6rY3DO830Qgbs_', { action: 'validarFormulario' }).then(function (token) {
+                        $('#formulario').prepend('<input type="hidden" name="token" value="' + token + '">');
+                        $('#formulario').prepend('<input type="hidden" name="token" value="validarFormulario">');
+                        $('#formulario').submit();
+                    });
+                });
+            })
+        })
+    </script>
+
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <section id="header">
+            <nav class="navegacion">
+                <div class="wrapper">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img id="logo" src="img/tutum-logo-blanco-005.png" alt="">
+                        </a>
+                    </div>
+                    <input type="radio" name="slider" id="menu-btn">
+                    <input type="radio" name="slider" id="close-btn">
+                    <ul class="nav-links">
+                        <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+                        <li><a href="identidad.html">Identidad</a></li>
+                        <li>
+                            <a href="oferta.html" class="desktop-item">Oferta <i class="fas fa-chevron-down"></i></a>
+                            <input type="checkbox" id="showMega">
+                            <label for="showMega" class="mobile-item">Oferta <i class="fas fa-chevron-down"></i></label>
+                            <div class="mega-box">
+                                <div class="content">
+                                    <!-- <div class="row">
+                                        <img src="img/CAU.jpg" alt="">
+                                    </div> -->
+                                    <div class="row">
+                                        <header><a href="proyectos-llave-mano.html"> Proyectos Llave en Mano </a>
+                                        </header>
+                                        <ul class="mega-links">
+                                            <li><a class="text-blanco" href="proyectos-llave-mano.html#PLLM_h2">Que Ofrecemos</a></li>
+                                            <li><a class="text-blanco" href="proyectos-llave-mano.html#PLLM_componentes">Componentes</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#sectores">Conocimiento</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#experiencia">Referencias</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="row">
+                                        <header><a href="operacion.html">Operación</a></header>
+                                        <ul class="mega-links">
+                                            <li><a class="text-blanco" href="operacion.html#operacion">Como Operamos</a></li>
+                                            <li><a class="text-blanco" href="operacion.html#operacion">Tecnología</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#sectores">Participación</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#experiencia">Referencias</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="row">
+                                        <header><a href="cau.html">Centro de Atención a Usuarios </a> </header>
+                                        <ul class="mega-links">
+                                            <li><a class="text-blanco" href="cau.html#cau">Como Ayudamos</a></li>
+                                            <li><a class="text-blanco" href="cau.html#grafico_cau">CAU</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#sectores">Industria</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#experiencia">Caso de Éxito</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="row">
+                                        <header><a href="infraestructura-de-hardware.html">Infraestructura de Hardware</a>
+                                        </header>
+                                        <ul class="mega-links">
+                                            <li><a class="text-blanco" href="infraestructura-de-hardware.html#infraestructura">Como Soportamos</a></li>
+                                            <li><a class="text-blanco" href="infraestructura-de-hardware.html#infraestructura_grafico">Infraestructura</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#sectores">Sectores</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#experiencia">Caso de Éxito</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="row">
+                                        <header><a href="software.html">Soluciones de Software </a></header>
+                                        <ul class="mega-links">
+                                            <li><a class="text-blanco" href="software.html#software">Que Desarrollamos</a></li>
+                                            <li><a class="text-blanco" href="software.html#software_grafico">Aplicaciones</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#sectores">Industria</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#experiencia">Caso de Éxito</a></li>
+                                            
+                                        </ul>
+                                    </div>
+                                    <div class="row">
+                                        <header><a href="centro-de-datos.html">Centro de Datos </a></header>
+                                        <ul class="mega-links">
+                                            <li><a class="text-blanco" href="centro-de-datos.html#datacenter">Nuestra Experiencia</a></li>
+                                            <li><a class="text-blanco" href="centro-de-datos.html#datacenter_grafico">Servicios</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#sectores">Sectores</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#experiencia">Referencias</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="row">
+                                        <header><a href="ciberseguridad.html"> Ciberseguridad </a></header>
+                                        <ul class="mega-links">
+                                            <li><a class="text-blanco" href="ciberseguridad.html#ciberseguridad">Que Protegemos</a>
+                                            </li>
+                                            <li><a class="text-blanco" href="ciberseguridad.html#ciberseguridad_grafico">Tecnología</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#sectores">Industria</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#experiencia">Caso de Éxito</a></li>
+                                            
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="oferta.html">Talento</a></li>
+                        <li><a href="hablemos.html">Hablemos</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <!-- <li>
+                                <a href="#" class="desktop-item">Dropdown Menu</a>
+                                <input type="checkbox" id="showDrop">
+                                <label for="showDrop" class="mobile-item">Dropdown Menu</label>
+                                <ul class="drop-menu">
+                                    <li><a href="#">Drop menu 1</a></li>
+                                    <li><a href="#">Drop menu 2</a></li>
+                                    <li><a href="#">Drop menu 3</a></li>
+                                    <li><a href="#">Drop menu 4</a></li>
+                                </ul>
+                            </li> -->
+
+
+                    </ul>
+                    <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+                </div>
+            </nav>
+        </section>
+    </header>
+    <!-- End Header -->
+
+
+    <!-- Hero Section  -->
+    <!-- <section id="hero">
+        <video class="video-slide active" src="video/EVOLUCIONDIGITAL.mp4" autoplay muted loop></video>
+     
+        <div class="hero container">
+            <div class="contenido active">
+                <h1>Tú aliado estratégico <span></span></h1>
+                <h1>para proyectos de <span></span></h1>
+                <h1>Evolución Digital <span></span></h1>
+                <a href="#" type="button" class="cta">Ver video <i class="far fa-play-circle"></i></a>
+            </div>
+           
+        </div>
+
+    </section> -->
+    <!-- Contact Section -->
+    <section id="contact" class="contenido_hablemos">
+        <div>
+            <h2 class="section-title">Formulario de Contacto</h2>
+        </div>
+        <div class="contacto">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3764.289678930868!2d-99.18695708578286!3d19.3566057481237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb8cb7dd5f0cfd095!2sTUTUM%20TECH%2C%20S.A.%20DE%20C.V.!5e0!3m2!1ses!2smx!4v1624992607638!5m2!1ses!2smx"
+                width="95%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+            <div class="contacto_formulario">
+                <form id="formulario" class="formulario" action="formulario.php" method="post">
+                    <fieldset>
+                        <legend>En breve nuestros especialistas lo contactarán</legend>
+                        <label for="nombre">Nombre*:</label>
+                        <input class="input" id="nombre" type="text" name="nombre" maxlength="40"
+                            pattern="^[a-zA-ZÀ-ÿ\u00f1\u00d1]+(\s*[a-zA-ZÀ-ÿ\u00f1\u00d1]*)*[a-zA-ZÀ-ÿ\u00f1\u00d1]+$"
+                            title="Solo letras" required>
+
+
+                        <label for="apellido">Apellido*:</label>
+                        <input type="text" name="apellido" id="apellido" maxlength="50"
+                            pattern="^[a-zA-ZÀ-ÿ\u00f1\u00d1]+(\s*[a-zA-ZÀ-ÿ\u00f1\u00d1]*)*[a-zA-ZÀ-ÿ\u00f1\u00d1]+$"
+                            title="Solo letras" required>
+
+                        <label for="email">Correo electrónico*: </label>
+                        <input type="email" name="email" id="email" maxlength="60"
+                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Debe ingresar un correo" required>
+
+                        <label for="telefono">Número de teléfono*:</label>
+                        <input type="text" name="telefono" id="telefono" maxlength="14" pattern="[0-9]{10,12}"
+                            title="Solo números" required>
+
+                        <label for="empresa">Nombre de la empresa*</label>
+                        <input type="text" name="empresa" id="empresa" maxlength="50"
+                            pattern="^[a-z0-9A-ZÀ-ÿ\u00f1\u00d1]+(\s*[a-z0-9A-ZÀ-ÿ\u00f1\u00d1]*)*[a-z0-9A-ZÀ-ÿ\u00f1\u00d1]+$"
+                            title="Solo letras" required>
+
+                        <label for="puesto">Puesto que desempeña</label>
+                        <input type="text" name="puesto" id="puesto" maxlength="40"
+                            pattern="^[a-z0-9A-ZÀ-ÿ\u00f1\u00d1]+(\s*[a-z0-9A-ZÀ-ÿ\u00f1\u00d1]*)*[a-z0-9A-ZÀ-ÿ\u00f1\u00d1]+$"
+                            title="Solo letras" required>
+
+                        <label for="lugar">País/Región</label>
+                        <input type="text" name="lugar" id="lugar" maxlength="50"
+                            pattern="^[a-z0-9A-ZÀ-ÿ\u00f1\u00d1]+(\s*[a-z0-9A-ZÀ-ÿ\u00f1\u00d1]*)*[a-z0-9A-ZÀ-ÿ\u00f1\u00d1]+$"
+                            title="Solo letras" required>
+
+                        <input type="hidden" name="token" value="<?php echo csrf::getTokenCSRF() ?>">
+
+
+                        <label for="asunto">Asunto</label>
+                        <input type="text" name="asunto" id="asunto" maxlength="100"
+                            pattern="^[a-z0-9A-ZÀ-ÿ\u00f1\u00d1]+(\s*[a-z0-9A-ZÀ-ÿ\u00f1\u00d1]*)*[a-z0-9A-ZÀ-ÿ\u00f1\u00d1]+$"
+                            title="Solo letras" required>
+
+                        <label for="mensaje">Mensaje: </label>
+                        <input class="textarea" type="text" required name="mensaje" id="mensaje" maxlength="516"
+                            pattern="^[a-z0-9A-ZÀ-ÿ\u00f1\u00d1]+(\s*[a-z0-9A-ZÀ-ÿ\u00f1\u00d1]*)*[a-z0-9A-ZÀ-ÿ\u00f1\u00d1]+$"
+                            title="Solo letras">
+
+                        <!-- <button class="cta_mas g-recaptcha" data-sitekey="6LdS4ekcAAAAACfKC_aLgo0lqb6rY3DO830Qgbs_" data-callback='onSubmit'
+                            data-action='submit'>Enviar</button> -->
+
+                        <input class="cta_mas g-recaptcha" id="enviar" type="button" value="Enviar"
+                            data-sitekey="6LdS4ekcAAAAACfKC_aLgo0lqb6rY3DO830Qgbs_" data-callback='onSubmit'
+                            data-action='submit'>
+
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact Section -->
+
+
+    <!-- Footer -->
+    <footer id="footer">
+        <section class="footer_grid">
+            <div class="footer">
+                <div class="brand_footer">
+                    <a href="index.html"><img src="img/tutum-logo-blanco-005.png" alt="Logo Tutum"> </a>
+                </div>
+                <div class="direccion_inicio">
+                    <p>
+                        Av. de los Insurgentes 1811 piso 5, Guadalupe Inn, Álvaro Obregón, C.P. 01020, Ciudad
+                        de México.
+                    </p>
+                    <a href="https://g.page/Tutumtechmex?share" target="_blank" rel="noopener">Ver en el mapa</a>
+
+                    <a class="telefono_footer" href="tel:+525586230660">Oficina: 55 8623 0660</a>
+                </div>
+                <h2>Nuestras Redes</h2>
+                <div class="social-icon">
+                    <div class="social-item">
+                        <a href="https://www.linkedin.com/company/tutum-tech/mycompany/" target="_blank"
+                            rel="noopener"><img src="img/linkedin.png" alt="LinkedIn" /></a>
+                    </div>
+                    <div class="social-item">
+                        <a href="https://www.facebook.com/Tutum-Tech-515010355546588" target="_blank"
+                            rel="noopener"><img src="img/facebook.png" alt="Facebook" /></a>
+                    </div>
+                    <div class="social-item">
+                        <a href="https://www.instagram.com/tutumtech/" target="_blank" rel="noopener"><img
+                                src="img/instagram.png" alt="Instagram" /></a>
+                    </div>
+                    <div class="social-item">
+                        <a href="https://twitter.com/TutumTech" target="_blank" rel="noopener"><img
+                                src="img/twitter.png" alt="Twitter"></a>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="footer_empresa">
+                <h2>Empresa</h2>
+                <li><a href="identidad.html">Quiénes somos</a></li>
+                <!-- <li><a href="partners.html">Partners</a></li> -->
+                <li><a href="talento.html">Únete al equipo</a> </li>
+                <li><a href="aviso_privacidad.html">Aviso de privacidad</a> </li>
+            </div>
+            <div class="footer_servicios">
+                <h2>Servicios</h2>
+                <li><a href="proyectos-llave-mano.html">Proyectos Llave en Mano</a>
+                <li><a href="operacion.html">Operaciones</a>
+                <li><a href="cau.html">Centro de Atención a Usuarios</a>
+                <li><a href="infraestructura-de-hardware.html">Infraestructura de HW</a>
+                <li><a href="software.html">Soluciones de Software</a>
+                <li><a href="centro-de-datos.html">Centro de Datos</a>
+                <li><a href="ciberseguridad.html">Ciberseguridad</a>
+            </div>
+            <div class="footer_servicios">
+                <h2>Noticias</h2>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="#">Webinar</a></li>
+
+            </div>
+            <div class="copyrigth">
+                <p>Copyright © 2021 TUTUM TECH. Todos los derechos reservados.</p>
+            </div>
+        </section>
+    </footer>
+    <!-- End Footer -->
+
+    <a id="app-whatsapp" target="_blanck"
+        href="https://api.whatsapp.com/send?phone=+525579591149&amp;text=Hola!&nbsp;me&nbsp;pueden&nbsp;apoyar?">
+        <img src="img/whatsapp.png" alt="">
+    </a>
+
+    <script src="js/app.js"></script>
+    <script src="js/formulario.js"></script>
+
+
+
+
+
+</body>
+
+</html>

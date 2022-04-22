@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Empresa de tecnología con servicios de Centro de Atención a usuarios, Ciberseguridad, Servicios de Infraestructura
+    tecnologica, Servicios de TI, Soluciones de Software">
+    <meta name="author" content="TUTUM TECH | Misael Lopez Lara" />
+    <meta name="copyright" content="Propietario del copyright" />
+
+    <title>TUTUM TECH | Inicio</title>
+
+    <!-- Preload -->
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preload" href="https://fonts.googleapis.com">
+    <link rel="preload" href="https://fonts.gstatic.com" crossorigin crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-187877163-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-187877163-1');
+    </script>
+
+
+
+    <script src="https://kit.fontawesome.com/6d3873a82e.js" crossorigin="anonymous"></script>
+
+    <!-- Start of  Zendesk Widget script -->
+    <script id="ze-snippet"
+        src="https://static.zdassets.com/ekr/snippet.js?key=e6b454e7-49ce-4a19-a813-9697e01eb3f3"> </script>
+    <!-- End of  Zendesk Widget script -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.3.2.js"></script>
+
+</head>
+
+<body>
+    <!-- <div class="loader"></div> -->
+    <!-- Header -->
+    <header>
+        <section id="header">
+            <nav class="navegacion">
+                <div class="wrapper">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img id="logo" src="img/tutum-logo-blanco-005.png" alt="">
+                        </a>
+                    </div>
+                    <input type="radio" name="slider" id="menu-btn">
+                    <input type="radio" name="slider" id="close-btn">
+                    <ul class="nav-links">
+                        <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+                        <li><a href="identidad.html">Identidad</a></li>
+                        <li>
+                            <a href="oferta.html" class="desktop-item">Oferta <i class="fas fa-chevron-down"></i></a>
+                            <input type="checkbox" id="showMega">
+                            <label for="showMega" class="mobile-item">Oferta <i class="fas fa-chevron-down"></i></label>
+                            <div class="mega-box">
+                                <div class="content">
+                                    <!-- <div class="row">
+                                        <img src="img/CAU.jpg" alt="">
+                                    </div> -->
+                                    <div class="row">
+                                        <header><a href="proyectos-llave-mano.html"> Proyectos Llave en Mano </a>
+                                        </header>
+                                        <ul class="mega-links">
+                                            <li><a class="text-blanco" href="proyectos-llave-mano.html#PLLM_h2">Que Ofrecemos</a></li>
+                                            <li><a class="text-blanco" href="proyectos-llave-mano.html#PLLM_componentes">Componentes</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#sectores">Conocimiento</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#experiencia">Referencias</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="row">
+                                        <header><a href="operacion.html">Operación</a></header>
+                                        <ul class="mega-links">
+                                            <li><a class="text-blanco" href="operacion.html#operacion">Como Operamos</a></li>
+                                            <li><a class="text-blanco" href="operacion.html#operacion">Tecnología</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#sectores">Participación</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#experiencia">Referencias</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="row">
+                                        <header><a href="cau.html">Centro de Atención a Usuarios </a> </header>
+                                        <ul class="mega-links">
+                                            <li><a class="text-blanco" href="cau.html#cau">Como Ayudamos</a></li>
+                                            <li><a class="text-blanco" href="cau.html#grafico_cau">CAU</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#sectores">Industria</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#experiencia">Caso de Éxito</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="row">
+                                        <header><a href="infraestructura-de-hardware.html">Infraestructura de Hardware</a>
+                                        </header>
+                                        <ul class="mega-links">
+                                            <li><a class="text-blanco" href="infraestructura-de-hardware.html#infraestructura">Como Soportamos</a></li>
+                                            <li><a class="text-blanco" href="infraestructura-de-hardware.html#infraestructura_grafico">Infraestructura</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#sectores">Sectores</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#experiencia">Caso de Éxito</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="row">
+                                        <header><a href="software.html">Soluciones de Software </a></header>
+                                        <ul class="mega-links">
+                                            <li><a class="text-blanco" href="software.html#software">Que Desarrollamos</a></li>
+                                            <li><a class="text-blanco" href="software.html#software_grafico">Aplicaciones</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#sectores">Industria</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#experiencia">Caso de Éxito</a></li>
+                                            
+                                        </ul>
+                                    </div>
+                                    <div class="row">
+                                        <header><a href="centro-de-datos.html">Centro de Datos </a></header>
+                                        <ul class="mega-links">
+                                            <li><a class="text-blanco" href="centro-de-datos.html#datacenter">Nuestra Experiencia</a></li>
+                                            <li><a class="text-blanco" href="centro-de-datos.html#datacenter_grafico">Servicios</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#sectores">Sectores</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#experiencia">Referencias</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="row">
+                                        <header><a href="ciberseguridad.html"> Ciberseguridad </a></header>
+                                        <ul class="mega-links">
+                                            <li><a class="text-blanco" href="ciberseguridad.html#ciberseguridad">Que Protegemos</a>
+                                            </li>
+                                            <li><a class="text-blanco" href="ciberseguridad.html#ciberseguridad_grafico">Tecnología</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#sectores">Industria</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#experiencia">Caso de Éxito</a></li>
+                                            
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="oferta.html">Talento</a></li>
+                        <li><a href="hablemos.html">Hablemos</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <!-- <li>
+                                <a href="#" class="desktop-item">Dropdown Menu</a>
+                                <input type="checkbox" id="showDrop">
+                                <label for="showDrop" class="mobile-item">Dropdown Menu</label>
+                                <ul class="drop-menu">
+                                    <li><a href="#">Drop menu 1</a></li>
+                                    <li><a href="#">Drop menu 2</a></li>
+                                    <li><a href="#">Drop menu 3</a></li>
+                                    <li><a href="#">Drop menu 4</a></li>
+                                </ul>
+                            </li> -->
+
+
+                    </ul>
+                    <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+                </div>
+            </nav>
+        </section>
+    </header>
+    <!-- End Header -->
+
+
+
+    <!-- Hero Section  -->
+    <section id="hero">
+        <!-- Sección de videos -->
+        <video class="video-slide active" loading="lazy" src="video/SOLUCIONES.mp4" autoplay muted loop></video>
+        <!--Proyectos Llave en Mano-->
+        <video class="video-slide" loading="lazy" src="video/INFRAESTRUCTURA.mp4" autoplay muted loop></video>
+        <!--Proyectos Llave en Mano-->
+        <video class="video-slide " src="video/EVOLUCIONDIGITAL.mp4" autoplay muted loop type='video/mp4'></video>
+        <video class="video-slide" loading="lazy" src="video/CIBERSEGURIDAD.mp4" autoplay muted loop></video>
+        <video class="video-slide" loading="lazy" src="video/CAU.mp4" autoplay muted loop></video>
+        <video class="video-slide" loading="lazy" src="video/INFRAESTRUCTURA.mp4" autoplay muted loop></video>
+        <video class="video-slide" loading="lazy" src="video/SOLUCIONES.mp4" autoplay muted loop></video>
+
+        <!-- Fin de Sección de videos -->
+
+        <!-- Sección de Hero -->
+        <div class="hero container">
+            <div class="contenido active">
+                <h1>Ante los retos de la tecnología te ofrecemos<span></span></h1>
+                <h1>experiencia y confiabilidad en<span></span></h1>
+                <h1>Proyectos Llave en Mano <span></span></h1>
+                <a href="#" type="button" class="cta" onclick="toggle();">Ver video <i
+                        class="far fa-play-circle"></i></a>
+                <div class="youtube">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/tndsN1sY0FQ"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <i class="close far fa-times-circle" onclick="toggle();"></i>
+                </div>
+            </div>
+
+
+            <div class="contenido">
+                <h1>Mantenemos 7 x 24 plataformas de<span></span></h1>
+                <h1>tecnología para una eficiente <span></span></h1>
+                <h1>Operación <span></span></h1>
+                <a href="#" type="button" class="cta" onclick="toggle1();">Ver video <i
+                        class="far fa-play-circle"></i></a>
+                <div class="youtube_1">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/tndsN1sY0FQ"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <i class="close far fa-times-circle" onclick="toggle1();"></i>
+                </div>
+            </div>
+
+            <div class="contenido">
+                <h1>Habilitamos ventajas competitivas<span></span></h1>
+                <h1>para tu empresa, como nuestro<span></span></h1>
+                <h1>Centro de Atención a Usuarios <span></span></h1>
+                <a href="#" type="button" class="cta" onclick="toggle4();">Ver video <i
+                        class="far fa-play-circle"></i></a>
+                <div class="youtube_4">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/F3IM6aYDwLY"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+
+                    <i class="close far fa-times-circle" onclick="toggle4();"></i>
+                </div>
+            </div>
+
+
+            <div class="contenido">
+                <h1>Experiencia comprobada<span></span></h1>
+                <h1>en proyectos llave en mano de<span></span></h1>
+                <h1>Infraestructura Tecnológica<span></span></h1>
+                <a href="#" type="button" class="cta" onclick="toggle5();">Ver video <i
+                        class="far fa-play-circle"></i></a>
+                <div class="youtube_5">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/tndsN1sY0FQ"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+
+                    <i class="close far fa-times-circle" onclick="toggle5();"></i>
+                </div>
+            </div>
+            <div class="contenido">
+                <h1>Te ayudamos a optimizar tus operaciones <span></span></h1>
+                <h1>y maximizar la rentabilidad con nuestras<span></span></h1>
+                <h1>Soluciones de Software<span></span></h1>
+                <a href="#" type="button" class="cta" onclick="toggle6();">Ver video <i
+                        class="far fa-play-circle"></i></a>
+                <div class="youtube_6">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/MxXB8wWU6vg"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+
+                    <i class="close far fa-times-circle" onclick="toggle6();"></i>
+                </div>
+            </div>
+
+
+
+            <div class="contenido">
+                <h1>Experiencia y Creatividad<span></span></h1>
+                <h1>en proyectos integrales para <span></span></h1>
+                <h1>Centro de Datos<span></span></h1>
+                <a href="#" type="button" class="cta" onclick="toggle2();">Ver video <i
+                        class="far fa-play-circle"></i></a>
+                <div class="youtube_2">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/AQkFGSADUvU"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <i class="close far fa-times-circle" onclick="toggle2();"></i>
+                </div>
+            </div>
+
+
+
+
+            <div class="contenido">
+                <h1>Dedícate a tu negocio <span></span></h1>
+                <h1>y nosotros nos encargamos de tu <span></span></h1>
+                <h1>Ciberseguridad<span></span></h1>
+                <a href="#" type="button" class="cta" onclick="toggle3();">Ver video <i
+                        class="far fa-play-circle"></i></a>
+                <div class="youtube_3">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/TedcHA-ZKsw"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+
+                    <i class="close far fa-times-circle" onclick="toggle3();"></i>
+                </div>
+            </div>
+
+
+            <div class="slider-navegacion">
+                <div class="nav-btn active"></div>
+                <div class="nav-btn"></div>
+                <div class="nav-btn"></div>
+                <div class="nav-btn"></div>
+                <div class="nav-btn"></div>
+                <div class="nav-btn"></div>
+                <div class="nav-btn"></div>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- End Hero Section  -->
+
+    <!-- Service Section -->
+    <section id="services">
+        <div class="services container">
+            <div class="contenedor_service-top">
+                <div class="service-top">
+                    <h2 class="section-title">Soluciones que harán más simples sus procesos de evolución digital.</h2>
+                    <p><span class="resaltado_azul">La evolución digital</span> al ser un proceso cada vez más
+                        cotidiano, los
+                        clientes exigen mejores servicios de
+                        tecnología. Es por ello, que las empresas tienen que invertir en innovación tecnológica y contar
+                        con
+                        expertos calificados para dar solución a las exigencias de los consumidores y ser competitivos
+                        en el
+                        mercado.</p>
+                    <div class="service-top_contenidos">
+                        <div class="service-top_contenido">
+                            <div class="service-top_icono">
+                                <img src="img/Tutum-experiencia.png" alt="Imagen de experiencia Tutum" loading="lazy">
+                                <h2>Experiencia Sectorial</h2>
+                            </div>
+                            <p>Contribuimos a un crecimiento sólido a partir de una experiencia digital diferencial y
+                                personalizada, que aplicamos a empresas y organizaciones de todos los sectores.</p>
+                        </div>
+                        <div class="service-top_contenido">
+                            <div class="service-top_icono">
+                                <img src="img/tutum-equipo.png" alt="Imagen de equipo Tutum" loading="lazy">
+                                <h2>Personas / Equipo</h2>
+                            </div>
+                            <p>Disponemos del conocimiento y la experiencia para tomar las mejores decisiones. Contamos
+                                con equipos sólidos que garantizan la eficacia de las operaciones.</p>
+                        </div>
+                        <div class="service-top_contenido">
+                            <div class="service-top_icono">
+                                <img src="img/Tutum-soluciones.png" alt="Imagen de solucines Tutum" loading="lazy">
+                                <h2>Soluciones a la medida</h2>
+                            </div>
+                            <p>Articulamos nuestra propuesta de soluciones y servicios en building blocks, bloques
+                                modulares y combinables entre sí, que conjugan tecnologías disruptivas y tradicionales y
+                                se apoyan a su vez en tecnologías habilitadoras.</p>
+                        </div>
+                        <div class="service-top_contenido">
+                            <div class="service-top_icono">
+                                <img src="img/Tutum-tecnologia.png" alt="Imagen de Tecnologias Tutum" loading="lazy">
+                                <h2>Tecnologías Habilitadoras</h2>
+                            </div>
+                            <p>Conseguimos una mejora de los procesos mediante el uso de habilitadores digitales, que
+                                permiten a nuestros clientes avanzar en cada una de las fases de la transformación
+                                digital.</p>
+                        </div>
+                    </div>
+
+                    <a href="#" type="button" class="cta_mas" onclick="toggle7();">Ver video <i
+                            class="far fa-play-circle"></i></a>
+                    <div class="youtube_7">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/AQkFGSADUvU"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+
+                        <i class="close far fa-times-circle" onclick="toggle7();"></i>
+
+                    </div>
+                </div>
+                <img src="img/Evolucion_digital.png" alt="Imagen de Evolución Digital" loading="lazy">
+            </div>
+
+            <div class="service-bottom">
+                <div class="service-item">
+                    <div class="icon"><img src="img/proceso-tutum-implementacion.png"
+                            alt="Imagen del servicio Servicios TI" loading="lazy" />
+                    </div>
+                    <h2>Proyectos Llave en Mano</h2>
+                    <p>En TUTUM te ofrecemos nuestra experiencia y confiablidad generada a través de los años para
+                        ofrecerte soluciones completas tanto de hardware como de software que incluyen el diseño,
+                        suministro, desarrollo, operación e implementación que mejor se adapte a tus requerimientos,
+                        garantizando en todo momento la puesta en funcionamiento de la misma.
+                    </p>
+                    <a href="proyectos-llave-mano.html" type="button" class="cta_mas">Conozca más</a>
+                </div>
+
+                <div class="service-item">
+                    <div class="icon"><img src="img/progreso.png" alt="Imagen del servicio Soluciones de Software"
+                            loading="lazy" />
+                    </div>
+                    <h2>Operación</h2>
+                    <p>Asegura la continuidad de la operación y transforma tu actual infraestructura TIC para que
+                        trabaje para el negocio y no solo sea un costo para tu empresa. A través de los diversos
+                        servicios especializados de TUTUM se logra que la organización se enfoque en el desarrollo del
+                        negocio, mejorando la eficiencia y la confiabilidad de las operaciones de tecnología.
+                    </p>
+                    <a href="operacion.html" type="button" class="cta_mas">Conozca más</a>
+                </div>
+                <div class="service-item">
+                    <div class="icon"><img src="img/help_desk.png"
+                            alt="Imagen del servicio Centro de Atención a Usuarios" loading="lazy" /></div>
+                    <h2>Centro de Atención a Usuarios (CAU)</h2>
+                    <p>Trabajamos para que tu empresa tenga ventajas competitivas como nuestro <span
+                            class="resaltado_azul">
+                            Centro de Atención a
+                            Usuarios</span> que te da acceso a una plataforma con todos los servicios, para responder a
+                        tus retos y
+                        necesidades de manera inmediata.</p>
+                    <a href="cau.html" type="button" class="cta_mas">Conozca más</a>
+                </div>
+
+                <div class="service-item">
+                    <div class="icon"><img src="img/infraestructura.png" alt="Imagen del servicio Servicios TI"
+                            loading="lazy" />
+                    </div>
+                    <h2>Infraestructura de HW</h2>
+                    <p>Con nuestros servicios de proyectos “llave en mano”, nosotros nos encargamos de diseñar,
+                        desarrollar, suministrar, construir, implementar, poner en marcha, operar, capacitar y
+                        monitorear 24x7 toda tu infraestructura tecnológica a tu lado.</p>
+                    <a href="infraestructura-de-hardware.html" type="button" class="cta_mas">Conozca más</a>
+                </div>
+
+                <div class="service-item">
+                    <div class="icon"><img src="img/Software.png" alt="Imagen del servicio Soluciones de Software"
+                            loading="lazy" />
+                    </div>
+                    <h2>Soluciones de Software</h2>
+                    <p>Te ayudamos a desarrollar e implementar tecnología para optimizar tus operaciones y maximizar la
+                        rentabilidad, integrando tus actuales servicios, para que tu te dediques a tu negocio.</p>
+                    <a href="software.html" type="button" class="cta_mas">Conozca más</a>
+                </div>
+
+
+
+                <div class="service-item">
+                    <div class="icon"><img src="img/Tutum-tecnologia.png"
+                            alt="Imagen del servicio Servicios Administrados de Infraestructura Tecnológica"
+                            loading="lazy" /></div>
+                    <h2>Centro de Datos</h2>
+                    <p>En TUTUM te ofrecemos los servicios de consultoría y diseño de arquitectura e ingeniería de las
+                        instalaciones necesarias para la construcción de un Centro de Datos: estrategia, diseño,
+                        integración y eficiencia operativa de las instalaciones y sus equipos. Así mismo, nos encargamos
+                        de todo el suministro, instalación, integración, pruebas y puesta en marcha de toda la
+                        infraestructura tecnológica necesaria para la instalación y operación de todas tus necesidades
+                        de negocio.</p>
+                    <a href="centro-de-datos.html" type="button" class="cta_mas">Conozca más</a>
+                </div>
+
+                <div class="service-item">
+                    <div class="icon"><img src="img/Ciberseguridad_2.png" alt="Imagen del servicio Ciberseguridad"
+                            loading="lazy" />
+                    </div>
+                    <h2>Ciberseguridad</h2>
+                    <p>Nos especializamos en prevenir y eliminar estos ataques con nuestros sistemas basados en
+                        Inteligencia Artificial, así, monitoreamos la infraestructura tecnológica, los procesos de
+                        negocio y a los usuarios.
+                    </p>
+                    <a href="ciberseguridad.html" type="button" class="cta_mas">Conozca más</a>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- End Service Section -->
+
+
+    <!-- Sección Experiencia -->
+    <!--
+    <section class="experiencia">
+        <div class="experiencia_titulo">
+            <div class="experiecia_forma-1"></div>
+            <div class="experiecia_forma-2">
+                <h2>Experiencia</h2>
+            </div>
+            <div class="experiecia_forma-3"></div>
+        </div>
+
+
+        <div class="experiencia_contenido_top">
+            <div class="experiencia_top_left">
+                <div class="experiencia_top_left_left">
+                    <img src="img/iconos/ganador.png" alt="">
+                </div>
+                <div class="experiencia_top_left_center">
+                    <h2>13</h2>
+                </div>
+                <div class="experiencia_top_left_rigth">
+                    <p>Proyectos a Nivel Nacional</p>
+                </div>
+            </div>
+
+            <div class="experiencia_top_center">
+                <div class="experienia_top_center_center">
+                    <h2>+ 50,000</h2>
+                    <p>Dispositivos Monitoreados Diariamente</p>
+                </div>
+            </div>
+
+            <div class="experiencia_top_rigth">
+                <div class="experiencia_top_rigth_left">
+                    <img src="img/iconos/quetzalcoatl.png" alt="">
+                </div>
+                <div class="experiencia_top_rigth_center">
+                    <h2>100%</h2>
+                    <p>Mexicana</p>
+                </div>
+                <div class="experiencia_top_rigth_rigth">
+                    <p>Comprometidos con la situación de bienestar y el desarrollo social de México</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="experiencia_contenido_center_bg">
+            <div class="experiencia_contenido_center">
+
+                <div class="experiencia_center_left">
+                    <div class="experiencia_center_left_left">
+                        <img src="img/iconos/seguridad.png" alt="">
+                    </div>
+                    <div class="experiencia_center_left_rigth">
+                        <p>Expertos en servicios administrados de <span>alta tecnología y seguridad</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="experiencia_center_center">
+                    <div class="experiencia_center_img">
+                        <img src="img/iconos/mapa.png" alt="">
+                    </div>
+                </div>
+
+                <div class="experiencia_center_right">
+                    <div class="experiencia_center_rigth_rigth">
+                        <p>Amplia experiencia en proyectos llave en mano basados en estándares nacionales e
+                            internacionales
+
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+-->
+<!--
+        <div class="experiencia_contenido_bottom">
+            <div class="experiencia_bottom_left">
+                <div class="experiencia_bottom_left_left">
+                    <img src="img/iconos/empleado.png" alt="">
+                </div>
+                <div class="experiencia_bottom_left_center">
+                    <h2>250</h2>
+                    <p>Staff</p>
+                </div>
+                <div class="experiencia_bottom_left_rigth">
+                    <p>Capacitados y certificados en tecnologías de vanguardia
+                    </p>
+                </div>
+            </div>
+            <div class="experiencia_bottom_rigth_r">
+                <div class="experiencia_bottom_rigth">
+                    <div class="experiencia_bottom_rigth_left">
+                        <img src="img/iconos/tutum-iconos_0041_layer-36.png" alt="">
+                    </div>
+                    <div class="experiencia_bottom_rigth_center">
+                        <h2>6</h2>
+                        <p>Centros de Atención</p>
+                    </div>
+                    <div class="experiencia_bottom_rigth_rigth">
+                        <ul>
+                            <li>1. Nayarit</li>
+                            <li>2. CDMX</li>
+                            <li>3. Durango</li>
+                            <li>4. Michoacán</li>
+                            <li>5. Tabasco</li>
+                            <li>6. Chiapas</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+-->
+        </div>
+    </section>
+    <br><br><br><br><br>
+
+    <!-- Sección experiencia 2 -->
+
+    <!-- <section class="experiencia_2">
+        <div class="experiencia_contenido_top_2">
+            <div class="experiencia_top_left_2">
+                <div class="experiencia_top_left_left_2">
+                    <h2>Img</h2>
+                </div>
+                <div class="experiencia_top_left_center_2">
+                    <h2>+32</h2>
+                </div>
+                <div class="experiencia_top_left_rigth_2">
+                    <h2>Instalaciones Hoteleras </h2>
+                </div>
+            </div>
+            <div class="experiencia_top_center_2">
+                <div class="experiencia_top_center_left_2">
+                    <h2>Img</h2>
+                </div>
+                <div class="experiencia_top_center_center_2">
+                    <h2>+72</h2>
+                </div>
+                <div class="experiencia_top_center_rigth_2">
+                    <h2>Sucursales Bancarias</h2>
+                </div>
+            </div>
+            <div class="experiencia_top_rigth_2">
+
+            </div>
+        </div>
+        <div class="experiencia_contenido_center_2">
+            <div class="experiencia_top_center_left_2"></div>
+            <div class="experiencia_top_center_rigth_2"></div>
+        </div>
+        <div class="experiencia_contenido_rigth_2">
+            <div class="experiencia_top_rigth_left_2"></div>
+            <div class="experiencia_top_rigth_left_2"></div>
+            <div class="experiencia_top_rigth_left_2"></div>
+        </div>
+    </section> -->
+
+    <!-- Sección experiencia 2 -->
+
+
+
+    <!-- <section class="contador_numeros">
+        <div class="nosotros_contador_pricipal">
+            <div class="contador ocultar">
+                <img src="img/proceso-tutum-apoyo-tecnico.png" alt="icono de pacientes Atendidos">
+                <p>+</p>
+                <div class="contador_cantidad" data-cantidad-total="1256">0</div>
+                <h2>Clientes</h2>
+            </div>
+            <div class="contador ocultar">
+                <img src="img/Software.png" alt="Icono de urgencias atendidas">
+                <p>+</p>
+                <div class="contador_cantidad" data-cantidad-total="805">0</div>
+                <h2>Proyectos</h2>
+            </div>
+            <div class="contador ocultar">
+                <img src="img/Ciberseguridad_2.png" alt="Icono de traslados atendidos">
+                <p>+</p>
+                <div class="contador_cantidad" data-cantidad-total="7">0</div>
+                <h2>Lineas de negocios</h2>
+            </div>
+            <div class="contador ocultar">
+                <img src="img/help_desk.png" alt="Icono de clientes satisfechos">
+                <p>+</p>
+                <div class="contador_cantidad" data-cantidad-total="100">0</div>
+                <h2>Servicios</h2>
+            </div>
+
+        </div>
+
+    </section> -->
+
+    <!--Info Proceso section-->
+
+    <section class="info_proceso">
+        <div class="contenedor contenido-info_proceso">
+            <h2>Acompañamiento especializado
+                desde la etapa de consultoría hasta el final del proyecto.</h2>
+            <p>Nuestro proceso de diseño de solución incluye el acompañamiento y la adopción del proyecto
+                para implementar un servicio que cumpla con los requerimientos de usabilidad
+                de nuestros clientes y se ajuste a los objetivos de la compañía.</p>
+        </div>
+    </section>
+    <!-- Proceso TUTUM -->
+
+    <section class="proceso_tutum contenedor">
+        <!-- <div class="proceso_tutum-informacion">
+            <h2>Nuestros procesos</h2>
+        </div> -->
+        <div class="proceso_tutum_procesos">
+            <h2>1</h2>
+            <img src="img/proceso-tutum-consultoria.png" alt="Imagen consultoría" loading="lazy" />
+            <p>Consultoría y Levantamiento</p>
+        </div>
+        <div class="proceso_tutum_procesos">
+            <h2>2</h2>
+            <img src="img/proceso-tutum-diseno.png" alt="Imagen Diseño" loading="lazy" />
+            <p>Diseño de Solución</p>
+        </div>
+        <div class="proceso_tutum_procesos">
+            <h2>3</h2>
+            <img src="img/proceso-tutum-implementacion.png" alt="Imagen Implementación" loading="lazy" />
+            <p>Implementación</p>
+        </div>
+        <div class="proceso_tutum_procesos">
+            <h2>4</h2>
+            <img src="img/proceso-tutum-capacitacion.png" alt="Imagen Capacitación" loading="lazy" />
+            <p>Capacitación y Adopción</p>
+        </div>
+        <div class="proceso_tutum_procesos">
+            <h2>5</h2>
+            <img src="img/proceso-tutum-apoyo-tecnico.png" alt="Imagen Mantenimiento" loading="lazy" />
+            <p>Mantenimiento y Soporte</p>
+        </div>
+    </section>
+    <!--FIN Proceso TUTUM -->
+
+    <!--PARTNERS TECNOLÓGICOS -->
+    <section class="partners_tecnologicos">
+        <h2>Socios Tecnológicos</h2>
+        <div class="partners">
+            <div class="partners_img">
+                <a href="https://www.delltechnologies.com/es-mx/index.htm" target="_blank" rel="noopener">
+                    <img src="img/tutum-alianzas-dell-emc_005.png" alt="Imagen Partners Tutum 1" loading="lazy" />
+                </a>
+            </div>
+            <div class="partners_img">
+                <a href="https://www.cisco.com/c/es_mx/index.html" target="_blank" rel="noopener">
+                    <img src="img/tutum-alianzas-cisco_005.png" alt="Imagen Partners Tutum 2" loading="lazy">
+                </a>
+            </div>
+            <div class="partners_img">
+                <a href="https://logrhythm.com/" target="_blank" rel="noopener">
+                    <img class="margen" src="img/tutum-alianzas-logrhythm_005.png" alt="Imagen Partners Tutum 16"
+                        loading="lazy">
+                </a>
+            </div>
+            <div class="partners_img">
+                <a href="https://www.avigilon.com/es-la/" target="_blank" rel="noopener">
+                    <img src="img/tutum-alianzas-avigilon_005-1.png" alt="Imagen Partners Tutum 3" loading="lazy">
+                </a>
+            </div>
+            <div class="partners_img">
+                <a href="https://www.axis.com/es-mx" target="_blank" rel="noopener">
+                    <img src="img/tutum-alianzas-axis-communications_005.png" alt="Imagen Partners Tutum 4"
+                        loading="lazy">
+                </a>
+            </div>
+            <div class="partners_img">
+                <a href="https://www.avaya.com/es/" target="_blank" rel="noopener">
+                    <img src="img/tutum-alianzas-avaya_005.png" alt="Imagen Partners Tutum 5" loading="lazy">
+                </a>
+            </div>
+            <div class="partners_img">
+                <a href="https://www.hp.com/mx-es/home.html" target="_blank" rel="noopener">
+                    <img src="img/tutum-alianzas-hp_005.png" alt="Imagen Partners Tutum 6" loading="lazy">
+                </a>
+            </div>
+            <div class="partners_img">
+                <a href="https://www.oracle.com/mx/index.html" target="_blank" rel="noopener">
+                    <img src="img/tutum-alianzas-oracle_005.png" alt="Imagen Partners Tutum 7" loading="lazy">
+                </a>
+            </div>
+            <div class="partners_img">
+                <a href="https://www.se.com/mx/es/" target="_blank" rel="noopener">
+                    <img src="img/tutum-alianzas-schneider-electric_005.png" alt="Imagen Partners Tutum 8"
+                        loading="lazy">
+                </a>
+            </div>
+            <div class="partners_img">
+                <a href="https://www.samsung.com/mx/" target="_blank" rel="noopener">
+                    <img src="img/tutum-alianzas-samsung_005.png" alt="Imagen Partners Tutum 9" loading="lazy">
+                </a>
+            </div>
+            <div class="partners_img">
+                <a href="https://www.ge.com/latam/" target="_blank" rel="noopener">
+                    <img src="img/tutum-alianzas-general-electric_005.png" alt="Imagen Partners Tutum 10"
+                        loading="lazy">
+                </a>
+            </div>
+
+            <div class="partners_img">
+                <a href="https://www.exabeam.com/" target="_blank" rel="noopener">
+                    <img class="margen" src="img/tutum-alianzas-exabeams_005.jpeg" alt="Imagen Partners Tutum 16"
+                        loading="lazy">
+                </a>
+            </div>
+
+            <div class="partners_img">
+                <a href="https://www.sap.com/latinamerica/index.html" target="_blank" rel="noopener">
+                    <img src="img/tutum-alianzas-sap_005.png" alt="Imagen Partners Tutum 11" loading="lazy">
+                </a>
+            </div>
+            <div class="partners_img">
+                <a href="http://www.toa.com.mx/" target="_blank" rel="noopener">
+                    <img src="img/tutum-alianzas-toa_005.png" alt="Imagen Partners Tutum 12" loading="lazy">
+                </a>
+            </div>
+            <div class="partners_img">
+                <a href="https://www.smithsdetection.com/es/" target="_blank" rel="noopener">
+                    <img src="img/tutum-alianzas-smiths-detection_005.png" alt="Imagen Partners Tutum 13"
+                        loading="lazy">
+                </a>
+            </div>
+            <div class="partners_img">
+                <a href="https://www.rrbrink.com/" target="_blank" rel="noopener">
+                    <img src="img/tutum-alianzas-rr-brink_005.png" alt="Imagen Partners Tutum 14" loading="lazy">
+                </a>
+            </div>
+            <div class="partners_img">
+                <a href="https://www.rauland.com/" target="_blank" rel="noopener">
+                    <img src="img/tutum-alianzas-rausland_005.png" alt="Imagen Partners Tutum 15" loading="lazy">
+                </a>
+            </div>
+
+            <div class="partners_img">
+                <a href="https://automation.omron.com/es/mx/" target="_blank" rel="noopener">
+                    <img src="img/tutum-alianzas-omron_005.png" alt="Imagen Partners Tutum 18" loading="lazy">
+                </a>
+            </div>
+            <div class="partners_img">
+                <a href="https://www.honeywell.com/mx/es" target="_blank" rel="noopener">
+                    <img src="img/tutum-alianzas-honeywell_005.png" alt="Imagen Partners Tutum 19" loading="lazy">
+                </a>
+            </div>
+            <div class="partners_img">
+                <a href="https://www.milestonesys.com/es/" target="_blank" rel="noopener">
+                    <img src="img/tutum-alianzas-milestone_005.png" alt="Imagen Partners Tutum 20" loading="lazy">
+                </a>
+            </div>
+            <div class="partners_img">
+                <a href="https://www.fortinet.com/lat" target="_blank" rel="noopener">
+                    <img src="img/tutum-alianzas-fortinet_005.png" alt="Imagen Partners Tutum 21" loading="lazy">
+                </a>
+            </div>
+            <div class="partners_img">
+                <a href="https://www.flir.com.mx/" target="_blank" rel="noopener">
+                    <img src="img/tutum-alianzas-flir_005.png" alt="Imagen Partners Tutum 22" loading="lazy">
+                </a>
+            </div>
+            <div class="partners_img">
+                <a href="https://www.extremenetworks.com/mx/" target="_blank" rel="noopener">
+                    <img src="img/tutum-alianzas-extreme_005.png" alt="Imagen Partners Tutum 23" loading="lazy">
+                </a>
+            </div>
+            <div class="partners_img">
+                <a href="https://www.bosch.com.mx/" target="_blank" rel="noopener">
+                    <img src="img/tutum-alianzas-bosch_005.png" alt="Imagen Partners Tutum 24" loading="lazy">
+                </a>
+            </div>
+            <div class="partners_img">
+                <a href="https://www.bogen.com/" target="_blank" rel="noopener">
+                    <img src="img/tutum-alianzas-bogen_005-1.png" alt="Imagen Partners Tutum 25" loading="lazy">
+                </a>
+            </div>
+            <div class="partners_img">
+                <a href="https://rhyno.io/" target="_blank" rel="noopener">
+                    <img src="img/tutum-alianzas-rhyno_005.png" alt="Imagen Partners Tutum 16" loading="lazy">
+                </a>
+            </div>
+            <div class="partners_img">
+                <a href="https://www.belden.com/" target="_blank" rel="noopener">
+                    <img src="img/tutum-alianzas-belden_005.png" alt="Imagen Partners Tutum 26" loading="lazy">
+                </a>
+            </div>
+            <div class="partners_img">
+                <a href="https://www.airbus.com/" target="_blank" rel="noopener">
+                    <img src="img/tutum-alianzas-airbus_005.png" alt="Imagen Partners Tutum 27" loading="lazy">
+                </a>
+            </div>
+
+        </div>
+
+        <!-- <a href="partners.html" type="button" class="cta_ver_mas">Ver más sobre nuestros aliados Tecnológicos</a> -->
+
+    </section>
+    <!--FIN PARTNERS TECNOLÓGICOS -->
+
+    <section class="hablemos_contacto">
+        <h2>¿Hablamos? Queremos ser tu aliado estratégico en tus <span> proyectos tecnológicos</span> </h2>
+        <a href="hablemos.html" type="button" class="cta_contacto">Contáctanos</a>
+
+    </section>
+    <!--End Info section-->
+
+    <!-- Footer -->
+    <footer id="footer">
+        <section class="footer_grid">
+            <div class="footer">
+                <div class="brand_footer">
+                    <a href="index.html"><img src="img/tutum-logo-blanco-005.png" alt="Logo Tutum" loading="lazy"> </a>
+                </div>
+                <div class="direccion_inicio">
+                    <p>
+                        Av. de los Insurgentes 1811 piso 5, Guadalupe Inn, Álvaro Obregón, C.P. 01020, Ciudad
+                        de México.
+                    </p>
+                    <a href="https://g.page/Tutumtechmex?share" target="_blank" rel="noopener">Ver en el mapa</a>
+
+                    <a class="telefono_footer" href="tel:+525586230660">Oficina: 55 8623 0660</a>
+                </div>
+                <h2>Nuestras Redes</h2>
+                <div class="social-icon">
+                    <div class="social-item">
+                        <a href="https://www.linkedin.com/company/tutum-tech/mycompany/" target="_blank"
+                            rel="noopener"><img src="img/linkedin.png" alt="LinkedIn" loading="lazy" /></a>
+                    </div>
+                    <div class="social-item">
+                        <a href="https://www.facebook.com/Tutum-Tech-515010355546588" target="_blank"
+                            rel="noopener"><img src="img/facebook.png" alt="Facebook" loading="lazy" /></a>
+                    </div>
+                    <div class="social-item">
+                        <a href="https://www.instagram.com/tutumtech/" target="_blank" rel="noopener"><img
+                                src="img/instagram.png" alt="Instagram" loading="lazy" /></a>
+                    </div>
+                    <div class="social-item">
+                        <a href="https://twitter.com/TutumTech" target="_blank" rel="noopener"><img
+                                src="img/twitter.png" alt="Twitter" loading="lazy"></a>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="footer_empresa">
+                <h2>Empresa</h2>
+                <ul>
+                    <li><a href="identidad.html">Quiénes somos</a></li>
+                    <!-- <li><a href="partners.html">Partners</a></li> -->
+                    <li><a href="talento.html">Únete al equipo</a> </li>
+                    <li><a href="aviso_privacidad.html">Aviso de privacidad</a> </li>
+                </ul>
+            </div>
+            <div class="footer_servicios">
+                <h2>Servicios</h2>
+                <ul>
+                    <li><a href="proyectos-llave-mano.html">Proyectos Llave en Mano</a>
+                    <li><a href="operacion.html">Operaciones</a>
+                    <li><a href="cau.html">Centro de Atención a Usuarios</a>
+                    <li><a href="infraestructura-de-hardware.html">Infraestructura de HW</a>
+                    <li><a href="software.html">Soluciones de Software</a>
+                    <li><a href="centro-de-datos.html">Centro de Datos</a>
+                    <li><a href="ciberseguridad.html">Ciberseguridad</a>
+                </ul>
+            </div>
+            <div class="footer_servicios">
+                <h2>Noticias</h2>
+                <ul>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="#">Webinar</a></li>
+                </ul>
+            </div>
+            <div class="copyrigth">
+                <p>Copyright © 2021 TUTUM TECH. Todos los derechos reservados.</p>
+            </div>
+        </section>
+    </footer>
+
+    <a id="app-whatsapp" target="_blanck"
+        href="https://api.whatsapp.com/send?phone=+525579591149&amp;text=Hola!&nbsp;me&nbsp;pueden&nbsp;apoyar?">
+        <img src="img/whatsapp.png" alt="Imagen de whatsapp " loading="lazy">
+    </a>
+    <!-- End Footer -->
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>

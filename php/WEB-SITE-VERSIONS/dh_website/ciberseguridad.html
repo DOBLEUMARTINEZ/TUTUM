@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUTUM TECH | Ciberseguridad</title>
+    <!-- Preload -->
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-187877163-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-187877163-1');
+    </script>
+
+
+    <link rel="preload" href="https://fonts.googleapis.com">
+    <link rel="preload" href="https://fonts.gstatic.com" crossorigin crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <script src="https://kit.fontawesome.com/6d3873a82e.js" crossorigin="anonymous"></script>
+
+    <!-- Start of  Zendesk Widget script -->
+    <script id="ze-snippet"
+        src="https://static.zdassets.com/ekr/snippet.js?key=e6b454e7-49ce-4a19-a813-9697e01eb3f3"> </script>
+    <!-- End of  Zendesk Widget script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <section id="header">
+            <nav class="navegacion">
+                <div class="wrapper">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img id="logo" src="img/tutum-logo-blanco-005.png" alt="">
+                        </a>
+                    </div>
+                    <input type="radio" name="slider" id="menu-btn">
+                    <input type="radio" name="slider" id="close-btn">
+                    <ul class="nav-links">
+                        <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+                        <li><a href="identidad.html">Identidad</a></li>
+                        <li>
+                            <a href="oferta.html" class="desktop-item">Oferta <i class="fas fa-chevron-down"></i></a>
+                            <input type="checkbox" id="showMega">
+                            <label for="showMega" class="mobile-item">Oferta <i class="fas fa-chevron-down"></i></label>
+                            <div class="mega-box">
+                                <div class="content">
+                                    <!-- <div class="row">
+                                        <img src="img/CAU.jpg" alt="">
+                                    </div> -->
+                                    <div class="row">
+                                        <header><a href="proyectos-llave-mano.html"> Proyectos Llave en Mano </a>
+                                        </header>
+                                        <ul class="mega-links">
+                                            <li><a class="text-blanco" href="proyectos-llave-mano.html#PLLM_h2">Que Ofrecemos</a></li>
+                                            <li><a class="text-blanco" href="proyectos-llave-mano.html#PLLM_componentes">Componentes</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#sectores">Conocimiento</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#experiencia">Referencias</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="row">
+                                        <header><a href="operacion.html">Operación</a></header>
+                                        <ul class="mega-links">
+                                            <li><a class="text-blanco" href="operacion.html#operacion">Como Operamos</a></li>
+                                            <li><a class="text-blanco" href="operacion.html#operacion">Tecnología</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#sectores">Participación</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#experiencia">Referencias</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="row">
+                                        <header><a href="cau.html">Centro de Atención a Usuarios </a> </header>
+                                        <ul class="mega-links">
+                                            <li><a class="text-blanco" href="cau.html#cau">Como Ayudamos</a></li>
+                                            <li><a class="text-blanco" href="cau.html#grafico_cau">CAU</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#sectores">Industria</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#experiencia">Caso de Éxito</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="row">
+                                        <header><a href="infraestructura-de-hardware.html">Infraestructura de Hardware</a>
+                                        </header>
+                                        <ul class="mega-links">
+                                            <li><a class="text-blanco" href="infraestructura-de-hardware.html#infraestructura">Como Soportamos</a></li>
+                                            <li><a class="text-blanco" href="infraestructura-de-hardware.html#infraestructura_grafico">Infraestructura</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#sectores">Sectores</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#experiencia">Caso de Éxito</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="row">
+                                        <header><a href="software.html">Soluciones de Software </a></header>
+                                        <ul class="mega-links">
+                                            <li><a class="text-blanco" href="software.html#software">Que Desarrollamos</a></li>
+                                            <li><a class="text-blanco" href="software.html#software_grafico">Aplicaciones</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#sectores">Industria</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#experiencia">Caso de Éxito</a></li>
+                                            
+                                        </ul>
+                                    </div>
+                                    <div class="row">
+                                        <header><a href="centro-de-datos.html">Centro de Datos </a></header>
+                                        <ul class="mega-links">
+                                            <li><a class="text-blanco" href="centro-de-datos.html#datacenter">Nuestra Experiencia</a></li>
+                                            <li><a class="text-blanco" href="centro-de-datos.html#datacenter_grafico">Servicios</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#sectores">Sectores</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#experiencia">Referencias</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="row">
+                                        <header><a href="ciberseguridad.html"> Ciberseguridad </a></header>
+                                        <ul class="mega-links">
+                                            <li><a class="text-blanco" href="ciberseguridad.html#ciberseguridad">Que Protegemos</a>
+                                            </li>
+                                            <li><a class="text-blanco" href="ciberseguridad.html#ciberseguridad_grafico">Tecnología</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#sectores">Industria</a></li>
+                                            <li><a class="text-blanco" href="oferta.html#experiencia">Caso de Éxito</a></li>
+                                            
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="oferta.html">Talento</a></li>
+                        <li><a href="hablemos.html">Hablemos</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <!-- <li>
+                                <a href="#" class="desktop-item">Dropdown Menu</a>
+                                <input type="checkbox" id="showDrop">
+                                <label for="showDrop" class="mobile-item">Dropdown Menu</label>
+                                <ul class="drop-menu">
+                                    <li><a href="#">Drop menu 1</a></li>
+                                    <li><a href="#">Drop menu 2</a></li>
+                                    <li><a href="#">Drop menu 3</a></li>
+                                    <li><a href="#">Drop menu 4</a></li>
+                                </ul>
+                            </li> -->
+
+
+                    </ul>
+                    <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+                </div>
+            </nav>
+        </section>
+    </header>
+    <!-- End Header -->
+
+
+    <!-- Hero Section  -->
+    <section id="hero">
+        <video class="video-slide active" src="video/CIBERSEGURIDAD.mp4" autoplay muted loop></video>
+
+        <div class="hero container">
+            <div class="contenido active">
+                <h1>Dedícate a tu negocio <span></span></h1>
+                <h1>y nosotros nos encargamos de tu <span></span></h1>
+                <h1>Ciberseguridad<span></span></h1>
+                <a href="#" type="button" class="cta" onclick="toggle1();">Ver video <i
+                        class="far fa-play-circle"></i></a>
+                <div class="youtube_1">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/TedcHA-ZKsw"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+
+                    <i class="close far fa-times-circle" onclick="toggle1();"></i>
+                </div>
+            </div>
+
+    </section>
+    <!-- End Hero Section  -->
+
+    <!-- Nosotros Section -->
+    <section id="cau">
+        <div id="ciberseguridad" class="cau">
+
+            <div class="cau_contenido">
+                <h2 class="section-title">Ciberseguridad</h2>
+                <p>Hoy en día todos somos conscientes de los beneficios que nos brinda la tecnología y el Internet. Sin
+                    embargo, con sus ventajas también llegan los aspectos menos positivos, como son las amenazas en
+                    forma de virus, fraudes o la pérdida de privacidad. Por tanto, como usuarios, empresa y sociedad
+                    tenemos por delante la misión de ocuparnos en este campo y hacer algo al respecto para que nuestra
+                    experiencia en el uso de las tecnologías e Internet sea lo más segura posible.
+
+                </p>
+                <br>
+                <br>
+                <P>Los ciberataques cada día son más frecuentes y peligrosos. Se han convertido en las mayores amenazas
+                    a las organizaciones. ¿Y tú, qué tanto te estás actualizando para defenderte? En TUTUM nos
+                    especializamos en eliminar estos ataques con nuestros sistemas basados en Inteligencia Artificial
+                    (IA), así monitoreamos de manera proactiva la infraestructura tecnológica, los procesos del negocio
+                    y a las personas en una organización. Con la plataforma de ciberseguridad TUTUM nos adelantamos y
+                    aprendemos para detectar estos ataques… incluso antes de que lleguen. Tenemos las herramientas para
+                    que a partir de hoy te sientas seguro.
+                </P>
+                <br>
+
+            </div>
+            <div class="cau_img">
+                <img src="img/cau_5.jpg" alt="">
+            </div>
+    </section>
+    <!-- FIN Nosotros Section -->
+
+    <!-- Bloque 1 -->
+    <section class="bloque_1">
+        <h2>Como te ayudamos</h2>
+        <p>El servicio MDR (Managed Detection and Response) de TUTUM puede ayudar a tu organización a detectar y
+            responder a las amenazas del ciberespacio que se dirigen a la infraestructura, los puntos finales, la
+            red, los servicios y las aplicaciones.</p>
+
+        <div class="contenido_bloque_ciber">
+            <div class="contenido_bloque_1">
+                <i class="fa fa-eye" aria-hidden="true"></i>
+                <h2>Visibilidad amplia de amenazas</h2>
+                <p>Sin visibilidad de la actividad dentro de tu red de la organización, puede ser imposible saber si los
+                    sistemas y los datos están en peligro de ser comprometido. El servicio MDR de TUTUM proporciona
+                    amplia
+                    visibilidad de amenazas en las instalaciones, en la nube e híbridos, 24 horas al día, 7 días a la
+                    semana.</p>
+            </div>
+            <div class="contenido_bloque_1">
+                <i class="fa fa-clock-o" aria-hidden="true"></i>
+
+                <h2>Detección continua de ataques</h2>
+                <p>Considerando que las amenazas están en constante evolución, es importante garantizar que las
+                    capacidades
+                    de detección se mantengan constantemente. El servicio de MDR de TUTUM utiliza modernas herramientas
+                    de
+                    seguridad e inteligencia de amenazas para garantizar que tu organización siempre se encuentre
+                    preparada
+                    para responder a las amenazas cibernéticas emergentes.</p>
+            </div>
+            <div class="contenido_bloque_1">
+                <i class="fa fa-users" aria-hidden="true"></i>
+                <h2>Integración con tu organización</h2>
+                <p>Nuestros expertos del Centro de Operaciones en Seguridad (SOC) de TUTUM gestionan y monitorear todos
+                    los
+                    activos e incidencias de tu organización con nuestro servicio de MDR, investigando y clasificando
+                    todas
+                    las alertas que se generan. Nuestros analistas se vuelven parte de tu equipo interno de seguridad
+                    con la
+                    única responsabilidad de detectar, responder y mitigar cualquier amenaza 24 horas al día los 365
+                    días al
+                    año.</p>
+            </div>
+            <div class="contenido_bloque_1">
+                <i class="fa fa-rocket" aria-hidden="true"></i>
+                <h2>Acelera la respuesta a incidentes</h2>
+                <p>Una respuesta rápida a los incidentes cibernéticos exige un alto nivel de conciencia situacional. El
+                    MDR
+                    de TUTUM asegura una acción ordenada, clasificando por prioridades las alertas y realizando una
+                    respuesta automatizada y mitigación correcta para responder con eficiencia y eficacia. </p>
+            </div>
+            <div class="contenido_bloque_1">
+                <i class="fa fa-line-chart" aria-hidden="true"></i>
+                <h2>Reduce el tiempo de madurez</h2>
+                <p>Al operar como una extensión de tu organización, el MDR de TUTUM te permite elevar rápidamente
+                    capacidades de seguridad a nivel empresarial. El servicio ayuda a que los procesos de atención de
+                    incidentes de seguridad sean más expeditos, asegurando que todos estos eventos sean atendidos en
+                    tiempo
+                    y forma, permitiendo que tu personal se pueda concentrar en otras prioridades.</p>
+            </div>
+            <div class="contenido_bloque_1">
+                <i class="fas fa-clipboard-list"></i>
+                <h2>Facilita el cumplimiento</h2>
+                <p>Actualmente un enfoque proactivo para la detección de amenazas es necesario para lograr el
+                    cumplimiento
+                    de políticas, reglamentos, normas y leyes. Con el MDR de TUTUM, puedes elevar rápidamente las
+                    capacidades de seguridad cibernética a un nivel necesario para ayudar cumplir con los requisitos de
+                    HIPAA, PCI DSS, ISO 27001 y más.</p>
+            </div>
+        </div>
+
+    </section>
+    <!-- FIN Bloque 1 -->
+
+    <section id="cau_bloque_2">
+        <div id="ciberseguridad_grafico" class="cau">
+            <div class="cau_img_2">
+                <img src="img/cau_10.jpg" alt="">
+            </div>
+            <div class="cau_contenido">
+                <h2 class="section-title">Propuesta de valor integral</h2>
+                <p class="negrita">Security Operation Center (SOC):</p>
+                <br>
+                <ul class="Centro_datos_ul_vi">
+                    <li>Implementación y gestión y soporte de tecnologías de seguridad.</li>
+                    <li>Gestión de Incidentes de seguridad.</li>
+                    <li>SIEM (Security Information and Event Management) as a Service. El servicio de SIEM as A
+                        Service apoya en cumplimiento a las siguientes normas PCI DDS, ISO 27001, HIPAA, NERC.</li>
+                    <li>Protección de Marca.</li>
+                </ul>
+                <br>
+
+                <p class="negrita">Servicios de Hacking Ético:</p>
+                <br>
+                <ul class="Centro_datos_ul_vi">
+                    <li>Análisis de Vulnerabilidades.</li>
+                    <li>Gestión de Vulnerabilidades.</li>
+                    <li>Pruebas de Penetración (Pentesting).</li>
+                    <li>Ingeniería Social.</li>
+                    <li>Campañas de Concientización (Awareness).</li>
+                    <li>Análisis estático y dinámico, SAST/DAST, de código.</li>
+                </ul>
+
+                <p class="negrita">Servicio de Auditoría ISO/IEC-27001:2013:</p>
+                <br>
+                <ul class="Centro_datos_ul_vi">
+                    <li>Auditoría de 1a y 2a partes, ajustándonos a los requerimientos del cliente.</li>
+                    <li>Consultoría sobre la implementación, o mejores prácticas, si es que el cliente no desea aplicar
+                        a la certificación.</li>
+                    <li>Implementación del Sistema de Gestión de Seguridad de la Información, dirigiendo el proceso y la
+                        documentación.</li>
+                </ul>
+
+                <p class="negrita">CISOaaS (CISO as a Service):</p>
+                <br>
+
+                <ul class="Centro_datos_ul_vi">
+                    <li>Conoce y comprende a detalle el contexto de la organización.</li>
+                    <li>Define y genera la Estrategia de Seguridad de la Información, el Plan Maestro que incluye
+                        alinear o cumplir con regulaciones, nacionales e internacionales, tales como SAT, CNBV, ISO
+                        27001, PCI DSS, entre otras.</li>
+
+                    <li>Conduce y dirige los esfuerzos para la generación de los planes estratégicos de la organización.
+                    </li>
+                    <li>Diseña y define la arquitectura de seguridad.</li>
+                    <li>Ejecuta y reporta a la alta dirección.</li>
+                    <li>Conduce y dirige los esfuerzos para la construcción de una cultura de seguridad empresarial.
+                    </li>
+                </ul>
+
+                <p class="negrita">Threat Intelligence y Cyber Intelligence :</p>
+                <br>
+                <p>Servicios complementarios de alta especialización basados en notificaciones o nuevas alertas de los
+                    CERTS globales a los que estamos conectados:</p>
+                <ul class="Centro_datos_ul_vi">
+                    <li>OSINT (Open Source Intelligence)</li>
+                    <li>Threat hunting</li>
+                    <li>Adversary simulations</li>
+                    <li>Cyberintelligence: se puede dirigir a vigilancia en surface y darkwebs de la red, dependiendo el
+                        tipo de vigilancia y alcance.</li>
+                </ul>
+
+
+            </div>
+
+    </section>
+
+
+
+
+
+    <!-- Sección hablemos presentación -->
+    <section class="hablemos_contacto_presentacion">
+        <div class="contenido_hablemos">
+            <h2>Cada una de nuestras ofertas en servicios están respaldadas
+                por una amplia experiencia en el sector de la infraestructura social </h2>
+        </div>
+        <a href="hablemos.html" type="button" class="cta_contacto">Contáctanos</a>
+    </section>
+
+    <!--FIN Sección hablemos presentación -->
+
+    <!-- Sección Experiencia -->
+    <!-- <section class="experiencia">
+        <div class="experiencia_titulo">
+            <div class="experiecia_forma-1"></div>
+            <div class="experiecia_forma-2">
+                <h2>Experiencia</h2>
+            </div>
+            <div class="experiecia_forma-3"></div>
+        </div>
+
+
+        <div class="experiencia_contenido_top">
+            <div class="experiencia_top_left">
+                <div class="experiencia_top_left_left">
+                    <img src="img/iconos/ganador.png" alt="">
+                </div>
+                <div class="experiencia_top_left_center">
+                    <h2>13</h2>
+                </div>
+                <div class="experiencia_top_left_rigth">
+                    <p>Proyectos a Nivel Nacional</p>
+                </div>
+            </div>
+
+            <div class="experiencia_top_center">
+                <div class="experienia_top_center_center">
+                    <h2>+ 50,000</h2>
+                    <p>Dispositivos Monitoreados Diariamente</p>
+                </div>
+            </div>
+
+            <div class="experiencia_top_rigth">
+                <div class="experiencia_top_rigth_left">
+                    <img src="img/iconos/quetzalcoatl.png" alt="">
+                </div>
+                <div class="experiencia_top_rigth_center">
+                    <h2>100%</h2>
+                    <p>Mexicana</p>
+                </div>
+                <div class="experiencia_top_rigth_rigth">
+                    <p>Comprometidos con la situación de bienestar y el desarrollo social de México</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="experiencia_contenido_center_bg">
+            <div class="experiencia_contenido_center">
+
+                <div class="experiencia_center_left">
+                    <div class="experiencia_center_left_left">
+                        <img src="img/iconos/seguridad.png" alt="">
+                    </div>
+                    <div class="experiencia_center_left_rigth">
+                        <p>Expertos en servicios administrados de <span>alta tecnología y seguridad</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="experiencia_center_center">
+                    <div class="experiencia_center_img">
+                        <img src="img/iconos/mapa.png" alt="">
+                    </div>
+                </div>
+
+                <div class="experiencia_center_right">
+                    <div class="experiencia_center_rigth_rigth">
+                        <p>Amplia experiencia en proyectos llave en mano basados en estándares nacionales e
+                            internacionales
+
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="experiencia_contenido_bottom">
+            <div class="experiencia_bottom_left">
+                <div class="experiencia_bottom_left_left">
+                    <img src="img/iconos/empleado.png" alt="">
+                </div>
+                <div class="experiencia_bottom_left_center">
+                    <h2>250</h2>
+                    <p>Staff</p>
+                </div>
+                <div class="experiencia_bottom_left_rigth">
+                    <p>Capacitados y certificados en tecnologías de vanguardia
+                    </p>
+                </div>
+            </div>
+            <div class="experiencia_bottom_rigth_r">
+                <div class="experiencia_bottom_rigth">
+                    <div class="experiencia_bottom_rigth_left">
+                        <img src="img/iconos/Tutum-iconos_0041_Layer-36.png" alt="">
+                    </div>
+                    <div class="experiencia_bottom_rigth_center">
+                        <h2>6</h2>
+                        <p>Centros de Atención</p>
+                    </div>
+                    <div class="experiencia_bottom_rigth_rigth">
+                        <ul>
+                            <li>1. Nayarit</li>
+                            <li>2. CDMX</li>
+                            <li>3. Durango</li>
+                            <li>4. Michoacán</li>
+                            <li>5. Tabasco</li>
+                            <li>6. Chiapas</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section> -->
+
+    <!-- END Sección Experiencia -->
+
+    <!-- Footer -->
+    <footer id="footer">
+        <section class="footer_grid">
+            <div class="footer">
+                <div class="brand_footer">
+                    <a href="index.html"><img src="img/tutum-logo-blanco-005.png" alt="Logo Tutum"> </a>
+                </div>
+                <div class="direccion_inicio">
+                    <p>
+                        Av. de los Insurgentes 1811 piso 5, Guadalupe Inn, Álvaro Obregón, C.P. 01020, Ciudad
+                        de México.
+                    </p>
+                    <a href="https://g.page/Tutumtechmex?share" target="_blank" rel="noopener">Ver en el mapa</a>
+
+                    <a class="telefono_footer" href="tel:+525586230660">Oficina: 55 8623 0660</a>
+                </div>
+                <h2>Nuestras Redes</h2>
+                <div class="social-icon">
+                    <div class="social-item">
+                        <a href="https://www.linkedin.com/company/tutum-tech/mycompany/" target="_blank"
+                            rel="noopener"><img src="img/linkedin.png" alt="LinkedIn" /></a>
+                    </div>
+                    <div class="social-item">
+                        <a href="https://www.facebook.com/Tutum-Tech-515010355546588" target="_blank"
+                            rel="noopener"><img src="img/facebook.png" alt="Facebook" /></a>
+                    </div>
+                    <div class="social-item">
+                        <a href="https://www.instagram.com/tutumtech/" target="_blank" rel="noopener"><img
+                                src="img/instagram.png" alt="Instagram" /></a>
+                    </div>
+                    <div class="social-item">
+                        <a href="https://twitter.com/TutumTech" target="_blank" rel="noopener"><img
+                                src="img/twitter.png" alt="Twitter"></a>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="footer_empresa">
+                <h2>Empresa</h2>
+                <li><a href="identidad.html">Quiénes somos</a></li>
+                <!-- <li><a href="partners.html">Partners</a></li> -->
+                <li><a href="talento.html">Únete al equipo</a> </li>
+                <li><a href="aviso_privacidad.html">Aviso de privacidad</a> </li>
+            </div>
+            <div class="footer_servicios">
+                <h2>Servicios</h2>
+                <li><a href="proyectos-llave-mano.html">Proyectos Llave en Mano</a>
+                <li><a href="operacion.html">Operaciones</a>
+                <li><a href="cau.html">Centro de Atención a Usuarios</a>
+                <li><a href="infraestructura-de-hardware.html">Infraestructura de HW</a>
+                <li><a href="software.html">Soluciones de Software</a>
+                <li><a href="centro-de-datos.html">Centro de Datos</a>
+                <li><a href="ciberseguridad.html">Ciberseguridad</a>
+            </div>
+            <div class="footer_servicios">
+                <h2>Noticias</h2>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="#">Webinar</a></li>
+
+            </div>
+            <div class="copyrigth">
+                <p>Copyright © 2021 TUTUM TECH. Todos los derechos reservados.</p>
+            </div>
+        </section>
+    </footer>
+    <!-- End Footer -->
+
+    <a id="app-whatsapp" target="_blanck"
+        href="https://api.whatsapp.com/send?phone=+525579591149&amp;text=Hola!&nbsp;me&nbsp;pueden&nbsp;apoyar?">
+        <img src="img/whatsapp.png" alt="">
+    </a>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
