@@ -260,7 +260,7 @@
 
 		  	<div>
 		  		
-				<ol class="square-cau-02">	
+				<ol>	
 				  	<li>
 				  		<h3>Gestión en asistencia a usuarios en los 3 niveles de soporte:<br><br>Actividades :</h3>
 				  		<p style="text-align: left;">
@@ -283,25 +283,6 @@
 				  			* Mantenimientos preventivos y correctivos<br>
 				  			* Administración de CCTV Corporativo ​<br>
 				  			* Implementación de soluciones de Seguridad <br>
-				  			&nbsp;&nbsp;&nbsp;&nbsp;* Hospitales<br>
-				  			&nbsp;&nbsp;&nbsp;&nbsp;* Escuela Naval<br>
-				  			* Detección de incendios, Controles de Acceso<br>
-				  			* Voceo, BMS <br>
-				  			* Seguimiento de tickets mediante la Mesa de Ayuda<br>
-				  		</p>
-				  	</li>
-
-				  	<li>
-				  		<h3>Gestión de proyectos e implementaciones  a los sistemas de seguridad perimetral:<br><br>Actividades :</h3>
-				  		<p style="text-align: left;">
-				  			* Soporte a las incidencias, problemáticas de los clientes<br>
-				  			* Ofrecemos Capacitación Técnica<br>
-				  			* Elaboración de reportes y manuales​<br>
-				  			* Mantenimientos preventivos y correctivos<br>
-				  			* Administración de CCTV Corporativo ​<br>
-				  			* Implementación de soluciones de Seguridad <br>
-				  			&nbsp;&nbsp;&nbsp;&nbsp;* Hospitales<br>
-				  			&nbsp;&nbsp;&nbsp;&nbsp;* Escuela Naval<br>
 				  			* Detección de incendios, Controles de Acceso<br>
 				  			* Voceo, BMS <br>
 				  			* Seguimiento de tickets mediante la Mesa de Ayuda<br>
@@ -586,10 +567,11 @@
 			      </li>
 			    </ol>
 			</div>
+			<img class="icon-float" src="images/icons/encrypted.png">
 			<span style="background: url('images/img/FOTO 10.jpg');"></span>
 		  	<h2>CIBERSEGURIDAD</h2>
 		  	<p>
-		  		Ofrecemos soluciones de tecnología diseñadas para la 
+		  		En TUTUM Buscamos crear conciencia sobre la vital importancia que conllevan los riesgos de Ciberseguridad y queremos formar un gobierno de seguridad de la información para proteger a la organización y fomentar buenas prácticas para adoptar una verdadera cultura en Ciberseguridad.​ 
 		  	</p>
 
 		  	<br>
@@ -598,25 +580,31 @@
 		  		
 				<ol>	
 				  	<li>
-				  		<h3>DIFINIR INFORMACION</h3>
+				  		<h3>¿Que hacemos?</h3>
 				  		<p>
-				  			* <br>
-				  			* <br>
-				  			* ​<br>
-				  			* <br>
+				  			TUTUM a través de su Centro de Operaciones de ciberseguridad (7x24x365) monitoriza la actividad y los eventos en los sistemas de nuestros clientes, para asegurar que los comportamientos anómalos sean detectados, identificados, clasificados y gestionados.
 				  		</p>
 				  	</li>
 
 				  	<li>
-				  		<h3>DIFINIR INFORMACION</h3>
+				  		<h3>¿Como lo hacemos?</h3>
 				  		<p>
-				  			
+				  			El equipo de Tutum evalúa los diferentes mecanismos de seguridad implementados por el cliente para proteger sus activos, con la finalidad de conocer el estado actual de la ciberseguridad de su organización y las posibles consecuencias que derivarían de las brechas de seguridad detectadas. 
 				  		</p>
 				  	</li>
 
 				  	<li>
-				  		<h3>DIFINIR INFORMACION</h3>
-				  		
+				  		<h3>Servicios:</h3>
+				  		<p>
+				  			* Seguridad Gestionada​<br>
+							* SOC inteligente​<br>
+							* Hacking Ético​<br>
+							* GAP análisis​<br>
+							* CISO aaS​<br>
+							* Ciber patrullaje​<br>
+							* Ciber inteligencia​<br>
+							* Talleres y Campañas
+						</p>
 				  	</li>
 
 				</ol>
@@ -637,10 +625,12 @@
 			      </li>
 			    </ol>
 			</div>
-			<span style="background: url('images/img/FOTO 05.jpg');"></span>
+			<img class="icon-float" src="images/icons/coding.png">
+			<span style="background: url('images/img/CODIGOS.jpg');"></span>
 		  	<h2>FABRICA DE SOFTWARE</h2>
 		  	<p>
-		  		Te ayudamos a desarrollar e implementar tecnología para optimizar tus operaciones y maximizar la rentabilidad, integrando tus actuales servicios, para que tú te dediques a tu negocio.<br><br>Contamos con desarrolladores expertos, y con vasta experiencia en industrias específicas, con desarrollos apegados a las mejores prácticas de seguridad, desarrollo ágil entre otras. 
+		  		Contamos con desarrolladores expertos, y con vasta experiencia en industrias específicas, con desarrollos apegados a las mejores prácticas de seguridad, desarrollo ágil entre otras.<br><br>
+		  		Nuestro objetivo, ayudar a nuestros clientes a implementar tecnología la cual sirva para optimizar sus operaciones e integrara sus operaciones, maximizando la rentabilidad del negocio de cada uno de nuestros clientes.
 		  	</p>
 
 		  	<br>
@@ -649,30 +639,26 @@
 		  		
 				<ol>	
 				  	<li>
-				  		<h3>Desarrollo Web Personalizado</h3>
 				  		<p>
 				  			Nuestras soluciones de desarrollo web facilitan los flujos de trabajo, aumentan los ingresos y optimizan las operaciones comerciales, lo anterior bajo desarrollos que cumplen con los principales estándares de seguridad aplicables a cada sector de la industria.
 				  		</p>
 				  	</li>
 
 				  	<li>
-				  		<h3>Mantenimiento de Aplicaciones</h3>
-				  		<p>
-				  			Nuestros servicios de mantenimiento y modernización están diseñados para garantizar la escalabilidad, el rendimiento y la sostenibilidad de toda su infraestructura de software, manteniendo así la vigencia de los distintos aplicativos al interior de la organización, bajo un esquema de mejores prácticas de CMMI.
-				  		</p>
-				  	</li>
-
-				  	<li>
-				  		<h3>Aplicaciones Personalizadas</h3>
-				  		<p>
-				  			Con base en la experiencia de nuestro equipo de más de 20 años en el desarrollo de aplicaciones y , bajo un esquema de mejores prácticas del modelo CMMI, podemos ofrecer aplicaciones a la medida tanto web como de escritorio, flexibles e interoperables, conectando de ser necesarios desarrollos in house preexistentes.
-				  		</p>
-				  	</li>
-
-				  	<li>
-				  		<h3>Implementación y Despliegue</h3>
+				  		
 				  		<p>
 				  			Diseñamos un plan de implementación en conjunto con nuestra Mesa de Servicios a profundidad, evaluando las necesidades de su empresa, para así brindar tecnologías mejoradas a los usuarios finales. En nuestras implementaciones consideramos los esquemas de regreso en caso de existir algún impacto en servicios productivos, apegándonos al ciclo de vida del servicio marcado en el marco de referencia ITIL V4.
+				  		</p>
+				  	</li>
+
+				  	<li>
+				  		<h3>Servicios</h3>
+				  		<p>
+				  			* Desarrollo web​<br>
+							* Mantenimiento de aplicaciones​<br>
+							* Aplicativos personalizados​<br>
+							* Implementación y despliegue​<br>
+							* Soporte y acompañamiento<br>
 				  		</p>
 				  	</li>
 

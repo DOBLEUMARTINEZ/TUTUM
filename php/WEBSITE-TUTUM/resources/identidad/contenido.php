@@ -27,14 +27,24 @@
 				  		</p>
 				  	</li>
 
-				  	<li>
+				  	<li class="desktop-wm" >
 				  		<h3>Empresa certificada en:​</h3>
 				  		<img src="images/icons/iso2-white.png">
 				  	</li>
 
-				  	<li>
+				  	<li class="desktop-wm" >
 				  		<h3>Empresa certificada en:​</h3>
 				  		<img src="images/icons/iso1-white.png">
+				  	</li>
+
+				  	<li class="movil-wm" >
+				  		<h3>Empresa certificada en:​</h3>
+				  		<img src="images/icons/iso1-white.png">
+				  		<img src="images/icons/iso2-white.png">
+				  	</li>
+
+				  	<li class="bloque-just-movil" style="position: relative;">
+				  		<img src="images/icons/team.png" style="width: 100%!important;margin: 0%!important;padding: 20%!important;opacity: 0.7;position:absolute;bottom: -7vw;">
 				  	</li>
 
 				</ol>
@@ -109,8 +119,12 @@
 
 				  	<li>
 				  		<img src="images/icons/firma.png">
-				  		<h3 style="text-align: center;" >30</h3>
+				  		<h3 style="justify-content: center;" >30</h3>
 				  		<p style="text-align: center;" >Contratos exitosos en los últimos <strong>6</strong> años</p>
+				  	</li>
+
+				  	<li class="bloque-just-movil" style="position: relative;">
+				  		<img src="images/icons/certificate.png" style="width: 100%!important;margin: 0%!important;padding: 20%!important;opacity: 0.7;position:absolute;bottom: -7vw;">
 				  	</li>
 
 				</ol>

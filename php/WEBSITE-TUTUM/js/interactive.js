@@ -217,6 +217,36 @@ function SecurityServ(a) {
         }
     }
 }
+
+/* GALERIA DE FOTOS */
+function caruselProyectos(name) {
+    
+    switch (name) {
+      case 'llave':
+        $(".carrousel-wm").addClass('wm-active');
+        break;
+
+      default:
+        alert('none');
+    }
+
+}
+
+function caruselProyectosClose(name) {
+    
+    switch (name) {
+      case 'llave':
+        $(".carrousel-wm").removeClass('wm-active');
+        break;
+
+      default:
+        alert('none');
+    }
+
+}
+
+
+
 /**/
 
 $( "#btn-login" ).click(function() {

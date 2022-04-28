@@ -3,7 +3,7 @@
   <img class="background-section" src="images/img/FOTO 06.jpg">
   <span class="background-section-darkness" ></span>
 
-  <ol class="menu-services-1" style="padding: 0 19%;">
+  <ol class="menu-services-1">
     <li onclick="window.location.href='./identidad#us';">
       <img src="images/icons/team.png">
       <h2>¿QUIÉNES SOMOS?</h2>
@@ -24,6 +24,7 @@
       <img src="images/icons/team.png">
       <h2>SOCIOS DE NEGOCIO</h2>
     </li>
+    
   </ol>
 
 </div>

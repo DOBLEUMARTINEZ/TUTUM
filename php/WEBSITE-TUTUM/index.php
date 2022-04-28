@@ -18,45 +18,41 @@ echo '<body>'; // INICIO CUERPO
 
     if (isset($_GET['seccion'])) {  // SECCIONES
 
-        $seccion = str_replace('menu-', '', $_GET['seccion']);
+        if(strpos($_GET['seccion'], 'menu')===false){
 
-        switch ($seccion) {
+          // IDENTIDAD 
+          if (strpos($_GET['seccion'], 'identidad')===false){}else{
+            include("resources/identidad/contenido.php"); // CONTENIDO
+          }
 
-          case 'identidad':
+          // SERVICIOS
+          if (strpos($_GET['seccion'], 'servicios')===false){}else{
+            include("resources/servicios/contenido.php"); // CONTENIDO
+          }
 
-            if (str_replace($seccion, '', $_GET['seccion']) == 'menu-') {
+          // SERVICIOS
+          if (strpos($_GET['seccion'], 'proyectos')===false){}else{
+            include("resources/proyectos/contenido.php"); // CONTENIDO
+          }
+
+          include("resources/error.php"); // ERROR NOT FOUND
+
+        }else{ // MENU
+          $seccion = str_replace('menu-', '', $_GET['seccion']);
+          switch ($seccion) {
+            case 'identidad':
               include("resources/identidad/menu.php"); // MENU IDENTIDAD
-            }else{
-              include("resources/identidad/contenido.php"); // CONTENIDO
-            }
-
-            break;
-
-          case 'servicios':
-            include("resources/inicio/nav.php"); // BARRRA DE NAVEGACIÓN
-
-            if (str_replace($seccion, '', $_GET['seccion']) == 'menu-') {
+              break;
+            case 'servicios':
               include("resources/servicios/menu.php"); // MENU SERVICIOS
-            }else{
-              include("resources/servicios/contenido.php"); // CONTENIDO
-            }
-
-            break;
-
-          case 'proyectos':
-            include("resources/inicio/nav.php"); // BARRRA DE NAVEGACIÓN
-
-            if (str_replace($seccion, '', $_GET['seccion']) == 'menu-') {
-              include("resources/proyectos/menu.php"); // MENU SERVICIOS
-            }else{
-              include("resources/proyectos/contenido.php"); // CONTENIDO
-            }
-
-            break;
-          
-          default:
-            include("resources/error.php"); // ERROR NOT FOUND
-            break;
+              break;
+            case 'proyectos':
+                include("resources/proyectos/menu.php"); // MENU SERVICIOS
+              break;
+            default:
+              include("resources/error.php"); // ERROR NOT FOUND
+              break;
+          }
         }
 
     }else{

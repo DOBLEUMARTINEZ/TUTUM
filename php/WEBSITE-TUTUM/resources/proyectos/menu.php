@@ -19,15 +19,15 @@
   <span class="background-section-darkness" ></span>
 
   <ol class="menu-services-1 menu-services-2" style="padding: 0 19%;">
-    <li onclick="window.location.href='./proyectos#llave-en-mano';">
+    <li onclick="window.location.href='./proyectos-llave-en-mano';">
       <img src="images/icons/dispositivo.png">
       <h2>LLAVE EN MANO​</h2>
     </li>
-    <li onclick="window.location.href='./proyectos#en-operacion';">
+    <li onclick="window.location.href='./proyectos-en-operacion';">
       <img src="images/icons/dashboard.png">
       <h2>OPERACIÓN</h2>
     </li>
-    <li onclick="window.location.href='./proyectos#en-desarrollo';">
+    <li onclick="window.location.href='./proyectos-en-desarrollo';">
       <img src="images/icons/hotel.png">
       <h2>EN DESARROLLO​</h2>
     </li>

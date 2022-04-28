@@ -74,8 +74,6 @@
          <!--  
         <div class="carousel-item ">-->
 
-        </div>
-
       </div>
 
       <!-- CONTROLS SLIDER 1 -->
@@ -142,7 +140,7 @@
           <table class="table-icons-v1" >
             <tr>
               <td><img src="images/icons/hilo.png" style="transform: rotate(-90deg);"></td>
-              <td><img src="images/icons/cable-de-red (2).png"></td>
+              <td><img src="images/icons/cable-de-red.png"></td>
               <td><img src="images/icons/casino-cctv.png"></td>
             </tr>
             <tr style="background: #00000059;">

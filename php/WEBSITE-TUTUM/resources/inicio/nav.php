@@ -22,7 +22,7 @@
             <li onclick="window.location.href='./menu-servicios';">
               SERVICIOS
             </li>
-            <li onclick="window.location.href='./proyectos';">
+            <li style="display: none;" onclick="window.location.href='./menu-proyectos';">
               PROYECTOS
             </li>
             <li onclick="window.location.href='./';">
@@ -30,9 +30,6 @@
             </li>
             <li onclick="window.location.href='./';">
               CONTACTO
-            </li>
-            <li onclick="window.location.href='./';">
-              <i class="fas fa-user"></i> LOGIN
             </li>
           </ol>
         </li>
@@ -113,16 +110,16 @@
 
         </li>
 
-        <li class="dropdown-menu-ttm">
+        <li class="dropdown-menu-ttm" style="display: none;">
           <a onclick="window.location.href='./menu-proyectos';" >Proyectos</a>
           <ol>
-            <li onclick="window.location.href='./proyectos#en-operacion';" >
+            <li onclick="window.location.href='./proyectos-en-operacion';" >
               En operación
             </li>
-            <li onclick="window.location.href='./proyectos#llave-en-mano';">
+            <li onclick="window.location.href='./proyectos-llave-en-mano';">
               Llave en mano
             </li>
-            <li onclick="window.location.href='./proyectos#en-desarrollo';" >
+            <li onclick="window.location.href='./proyectos-en-desarrollo';" >
               En desarrollo
             </li>
           </ol>
@@ -152,12 +149,12 @@
             <li onclick="window.location.href='./';">
               clientes cau
             </li>
+            <li onclick="window.location.href='./';">
+              iniciar sesión
+            </li>
           </ol>
         </li>
 
-        <li onclick="window.location.href='./';">
-          <i class="fas fa-user"></i> LOGIN
-        </li>
 
       </ul>
 

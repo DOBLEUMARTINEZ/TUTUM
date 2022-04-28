@@ -53,6 +53,14 @@
         padding: 0.35em;
     }
 
+    .movil-wm{
+        display: none!important;
+    }
+
+    .desktop-wm{
+        display: block!important;
+    }
+
 /* MODAL */
 
     .modal-content {
@@ -317,7 +325,7 @@
             }
 
             .container-header-mobil > ol > li i{
-                font-size: 2vw;
+                font-size: 5vw;
             }
 
             .container-header-mobil > ol > li i:hover{
@@ -332,15 +340,16 @@
                 right: 0;
                 top: 100%;
                 width: 100%;
-                background: #26cfe0f2;
+                background: #4e4e4ef2;
                 text-transform: uppercase;
+                border-bottom: 1vw solid #4bbed387;
                 display: none;
             }
 
             .container-header-mobil > ol > li > ol > li{
                 text-align: left;
                 padding: 2% 6%;
-                font-size: 1vw;
+                font-size: 2.5vw;
                 font-weight: bold;
                 letter-spacing: 1px;
             }
@@ -459,7 +468,7 @@
                 padding: 20% 0%;
                 left: 0;
                 top: -10vw;
-                background: #26cfe0f2;
+                background: #26cfe08a;
                 text-align: left;
                 transition: 0.3s;
                 z-index: -99;
@@ -650,7 +659,7 @@
         list-style: none;
         flex-wrap: wrap;
         margin: 0;
-        padding: 0 15%;
+        padding: 0 18%;
     }
 
     .menu-services-1 li {
@@ -660,7 +669,7 @@
         padding: 3% 3%;
         text-align: center;
         background: #5e5e5ea6;
-        border-bottom: 15px solid #4bbed3;
+        border-bottom: 1.5vw solid #4bbed3;
         color: #fff;
         cursor: pointer;
         transition: 0.3s;
@@ -891,6 +900,7 @@
         z-index: -9;
         height: 100%;
         width: 250%;
+        border-bottom: 1vw solid #fff;
     }
 
     .lateral-content div > div  {
@@ -912,7 +922,7 @@
         }
 
         .lateral-content div > div > ol > li {
-            width: 24.2vw;
+            width: 24vw;
             margin: 0 0px 10px 10px;
             padding: 2%;
             background: #4bbed3b8;
@@ -935,77 +945,196 @@
 
         /* squre-us */
 
-        .squre-us li > img{
-            width: 60%!important;
-            margin: 5% 20%!important;
-        }
+            .squre-us li > img{
+                width: 60%!important;
+                margin: 5% 20%!important;
+            }
 
         /* squre-mision-vision */
-        .squre-mision-vision{
-            margin: 2vw 0 2vw 5vw!important;
-        }
+            .squre-mision-vision{
+                margin: 2vw 0 2vw 5vw!important;
+            }
 
-        .squre-mision-vision > li{
-             width: 40vw!important;
-             padding:5%!important;
-             margin-left: 3vw!important;
-        }
+            .squre-mision-vision > li{
+                 width: 40vw!important;
+                 padding:5%!important;
+                 margin-left: 3vw!important;
+            }
 
         /* squre-experiencia */
 
-        .squre-experiencia li > h3{
-            justify-content: center;
-        }
+            .squre-experiencia li > h3{
+                justify-content: center;
+            }
 
-        .squre-experiencia li > p{
-            line-height: 2.5vw!important;
-        }
+            .squre-experiencia li > p{
+                line-height: 2.5vw!important;
+            }
 
         /* squre-logos */
 
-        .squre-logos li{
-            background: #ffffffa8!important;
-            display: flex;
-            flex-wrap: wrap;
-            align-content: space-around;
-            align-items: center;
-            justify-content: space-between;
-        }
+            .squre-logos li{
+                background: #ffffffa8!important;
+                display: flex;
+                flex-wrap: wrap;
+                align-content: space-around;
+                align-items: center;
+                justify-content: space-between;
+            }
 
-        .squre-logos li > img{
-            width: 80%!important;
-            margin: 0 10%!important;
-        }
+            .squre-logos li > img{
+                width: 80%!important;
+                margin: 0 10%!important;
+            }
 
         /* squre-logos-02 */
 
-        .squre-logos-02 li{
-            background: #ffffffa8!important;
-            display: flex;
-            flex-wrap: wrap;
-            align-content: space-around;
-            align-items: center;
-            justify-content: space-between;
-        }
+            .squre-logos-02 li{
+                background: #ffffffa8!important;
+                display: flex;
+                flex-wrap: wrap;
+                align-content: space-around;
+                align-items: center;
+                justify-content: space-between;
+            }
 
-        .squre-logos-02 li > img{
-            width: 40%!important;
-            margin: 0 30%!important;
-        }
+            .squre-logos-02 li > img{
+                width: 40%!important;
+                margin: 0 30%!important;
+            }
 
 
-        /* square-cau-02 */
+            /* square-cau-02 */
 
-        .square-cau-02 li{
-            width: 31vw!important;
-        }
+            .square-cau-02 li{
+                width: 31vw!important;
+            }
 
-        /* square-sap-02 */
+            /* square-sap-02 */
 
-        .square-sap-02 li{
-            width: 50vw!important;
-        }
+            .square-sap-02 li{
+                width: 50vw!important;
+            }
 
+        /* squre-projects */
+            .squre-projects {
+
+            }
+
+            .box-gallery {
+                height: 24vw;
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                flex-wrap: wrap;
+                align-content: center;
+            }
+
+            .box-gallery h3{
+               justify-content: center;
+               cursor: pointer;
+            }
+
+            .box-gallery:hover {
+                color: #fff;
+                background: #5e5e5ea6;
+                transition: 0.3s;
+            }
+
+            .box-gallery img{
+                margin: 0!important;
+                cursor: pointer;
+            }
+
+            /* CARRETE DE FOTOS */
+               .carrousel-wm {
+                    height: 100%;
+                    position: absolute;
+                    display: flex;
+                    width: 0vw;
+                    left: 0;
+                    opacity: 0;
+                    z-index: -9;
+                    transition: 0.3s;
+               }
+
+               .wm-active{
+                    width: 73vw;
+                    transition: 0.3s;
+                    z-index: 9;
+                    opacity: 1;
+                    border-left: 1vw solid #495057;
+               }
+
+               .images-wm{
+                    display: flex;
+                    transform: translate(0);
+                    transition: transform 1s ease-in-out;
+                    overflow: hidden;
+                    padding: 0vw;
+                    background: #656565;
+                    overflow-x: overlay;
+                    position: relative;
+               }
+
+               .images-wm::-webkit-scrollbar {
+                  height: 1.3vw;
+                  cursor: move!important;
+                }
+
+                .images-wm::-webkit-scrollbar-thumb {
+                    background: #4bbed385;
+                    width: 2vw!important;
+                    border-radius: 50px;
+                    cursor: move!important;
+                }
+
+                .images-wm::-webkit-scrollbar-thumb:hover {
+                    background: #4bbed3;
+                }
+
+                .images-wm::-webkit-scrollbar-track {
+                    background: #ffffffa9;
+                    border-radius: 50px;
+                    cursor: move!important;
+                }
+
+                .images-wm img{
+                    width: 100%;
+                    height: 100%;
+                    padding: 0 1vw 0 0vw;
+
+                }
+
+               .btn-wm{
+                    width: 8vw;
+                    display: none;
+                    justify-content: space-between;
+                    font-size: 2vw;
+                    padding: 0;
+                    border: none;
+                    align-items: center;
+                    outline: none!important;
+                    background: #656565;
+               }
+
+               .btn-wm img{
+                    width: 100%;
+               }
+
+        /* squre-proyects-erp */       
+            .squre-proyects-erp li {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                text-align: left;
+            }
+
+            .squre-proyects-erp li > p{
+                text-align: left!important;
+            }
 
     /* ul primera capa */
         .lateral-content div > div > ul{
@@ -1113,7 +1242,7 @@
         }
 
         .table-icons-v1 h3{
-            font-size: 2.3vw!important;
+            font-size: 1.9vw!important;
             color: #4bbed3;
             font-weight: bold;
             margin: 10% 0;
@@ -1356,6 +1485,10 @@
 
 /* RESPONSIVE */
 
+    .bloque-just-movil{
+        display: none!important;
+    }
+
     @media(max-width: 2560px){
 
     }
@@ -1373,7 +1506,7 @@
 
         /* MENU SERVICIOS CUADROS */
             .menu-services-1 {
-                padding: 5% 5% 0 0;
+                
             }
 
         /* CONTENEDOR LATERAL*/
@@ -1439,9 +1572,17 @@
                 width: 16.5%;
                 font-weight: bold;
                 text-transform: uppercase;
-                font-size: 0.9em;
+                font-size: 1.8vw;
                 letter-spacing: 1px;
                 padding: 1% 5%;
+            }
+
+            .table-icons-v1 h3 {
+                font-size: 5vw!important;
+            }
+
+            .table-icons-v1 img {
+                width: 50%;
             }
 
             #slider-box-1{
@@ -1463,6 +1604,11 @@
                 height: 13em;
             }
 
+            .menu-services-1 li > h2 {
+                font-size: 2.8vw;
+                margin-top: 7%;
+            }
+
         /* BACKAGROUND DE SECCIONES  */
             .video-slide{
                 width:auto;
@@ -1476,22 +1622,22 @@
 
 
             .lateral-background {
-                width: 65%;
+                width: 90%;
             }
 
         /* CONTENEDOR LATERAL*/
 
             .lateral-content {
-                width: 65%;
-                margin-right: 35%;
+                width: 90%;
+                margin-right: 10%;
             }
 
             .lateral-content div {
-                padding: 15% 0%;
+                padding: 12.5% 0%;
             }
 
             .lateral-content div > span {
-                width: 153%;
+                width: 111%;
             }
 
             .lateral-content div > div > ol {
@@ -1500,18 +1646,79 @@
             }
 
             .lateral-content div > div > ol > li {
-                width: 40em;
+                width: 43vw;
             }
 
             .lateral-content div > div > ol > li > img {
-                width: 20%;
-                margin: 0 0 0 0%;
-                padding: 2%;
-                float: left;
+                width: 40%;
+                margin: 0 0 0 30%;
+                padding: 3%;
             }
 
             .lateral-content div > div > ul > li {
                 width: 152%;
+            }
+
+            /**/
+
+            .lateral-content h2 {
+                font-size: 4vw;
+            }
+
+            .lateral-content p {
+                font-size: 2vw;
+            }
+
+            .lateral-content h3 {
+                font-size: 2.5vw;
+            }
+
+            .lateral-content div > div > ol > li > p {
+                font-size: 1.9vw;
+                text-align: left;
+                line-height: normal;
+            }
+
+            .bloque-just-movil{
+                background: #0000!important;
+                display: flex!important;
+                justify-content: center;
+                align-items: flex-end;
+            }
+
+            /**/
+            .squre-mision-vision {
+                margin: 0vw 0 0vw 0vw!important;
+            }
+
+            /**/
+            .squre-experiencia li > h3 {
+                justify-content: flex-start;
+            }
+
+            /**/
+            .squre-logos-02 li > img {
+                width: 40%!important;
+                margin: 0 5%!important;
+                padding: 0%!important;
+            }
+
+            /**/
+
+            .download-pdf{
+                display: none!important;
+            }
+
+            .download-pdf-contenido {
+                display: none!important;
+            }
+
+            .icon-float {
+                position: absolute;
+                right: 9vw;
+                bottom: 9vw;
+                width: 25vw;
+                opacity: 0.7;
             }
 
     }
@@ -1522,6 +1729,10 @@
     }
 
     @media (max-width: 425px){
+
+        .desktop-wm{
+            display: none!important;
+        }
 
         /* CABECERA */
             .container-header-mobil > ol > li > ol > li{
@@ -1563,6 +1774,21 @@
                 margin-right: 15%;
             }
 
+            .lateral-content h2 {
+                font-size: 5vw;
+                text-align: left;
+                padding-left: 5%;
+            }
+
+            .lateral-content h3 {
+                font-size: 3.5vw;
+            }
+
+            .lateral-content p {
+                font-size: 3.5vw;
+                text-align: left;
+            }
+
             .lateral-content div > span {
                 width: 117%;
             }
@@ -1572,14 +1798,75 @@
             }
 
 
-            .lateral-content div > div > ul > li {
-                width: 117%;
+            .lateral-content div > div > ol > li {
+                width: 95vw;
+            }
+
+            .lateral-content div > div > ol > li > p {
+                font-size: 3.2vw;
+                text-align: left;
+                letter-spacing: 1px;
+                line-height: normal!important;
+                padding: 0vw 4vw;
             }
 
             .lateral-content div > div > ul > li > img {
                 width: 40%;
                 margin: 0% 4%;
             }
+
+            /**/ 
+            .squre-logos li{
+                margin: 0 0px 0px 10px!important;
+                }
+
+            .squre-logos li > img {
+                width: 50%!important;
+                margin: 0 0%!important;
+                padding: 5%!important;
+            }
+
+            .squre-logos-02 li {
+                margin: 0% 10px!important;
+            }
+
+            .square-sap-02 li {
+                width: 94.5vw!important;
+            }
+            
+            .icon-float {
+                position: absolute;
+                right: 9vw;
+                bottom: 9vw;
+                width: 25vw;
+                opacity: 0.09;
+            }
+
+            .bloque-just-movil{
+               display: none!important; 
+            }
+
+        /**/
+
+        .movil-wm {
+            display: flex!important;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .squre-us li > img {
+            width: 40%!important;
+            margin: 0% 0%!important;
+            padding: 0%!important;
+        }
+
+        /**/
+
+        .squre-mision-vision > li {
+            width: 94.5vw!important;
+            padding: 5%!important;
+            margin-left: 2.5vw!important;
+        }
 
         /* RESPOSIVE TABLE ICONS SLIDER */
 
