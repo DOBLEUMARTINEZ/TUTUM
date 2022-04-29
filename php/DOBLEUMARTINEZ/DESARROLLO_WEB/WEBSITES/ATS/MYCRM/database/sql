@@ -1,0 +1,155 @@
+CREATE TABLE user (
+        id int(25) AUTO_INCREMENT PRIMARY KEY,
+        name varchar(100) NOT NULL,
+        last_name varchar(100) NOT NULL,
+        email varchar(100) NOT NULL,
+        phone varchar(100) NOT NULL,
+        user varchar(100) NOT NULL, 
+        password varchar(50) NOT NULL,
+        emp varchar(100) NOT NULL,
+        st varchar(100) NOT NULL,
+        st_n varchar(100) NOT NULL,
+        suburb varchar(100) NOT NULL,
+        city varchar(100) NOT NULL,
+        state varchar(100) NOT NULL,
+        country varchar(100) NOT NULL,
+        zip_code varchar(100) NOT NULL,
+        type_employe varchar(100) NOT NULL,
+        picture varchar(100) NOT NULLcommercial line
+);
+
+INSERT INTO `user` (`id`, `name`, `last_name`, `email`, `phone`, `user`, `password`, `emp`, `st`, `st_n`, `suburb`, `city`, `state`, `country`, `zip_code`, `type_employe`, `picture`) 
+VALUES (NULL, 'jose salvador', 'atemiz martinez', 'salvador@gmail.com', '5531341654', 'jose_martinez', 'maredima01', 'dimarketing', 'del bajio ', '8', 'francisco i madero', 'nicolas romero', 'México', 'México', '54467', 'master','image');
+
+
+/****/
+CREATE TABLE cliente (
+        id int(25) AUTO_INCREMENT PRIMARY KEY,
+        name varchar(100) NOT NULL,
+        detail varchar(100) NOT NULL,
+        logo varchar(100) NOT NULL
+);
+
+CREATE TABLE area (
+        id int(25) AUTO_INCREMENT PRIMARY KEY,
+        name varchar(100) NOT NULL,
+        detail varchar(100) NOT NULL,
+        goal varchar(100) NOT NULL,
+        leads varchar(100) NOT NULL,
+        sell varchar(100) NOT NULL,
+        billing varchar(100) NOT NULL,
+        logo varchar(100) NOT NULL,
+        broshure varchar(100) NOT NULL
+);
+
+CREATE TABLE blog (
+        id int(25) AUTO_INCREMENT PRIMARY KEY,
+        autor varchar(100) NOT NULL,
+        title varchar(100) NOT NULL,
+        sub_title varchar(100) NOT NULL,
+        description varchar(500) NOT NULL,
+        img varchar(100) NOT NULL
+);
+
+CREATE TABLE colocacion (
+        id int(25) AUTO_INCREMENT PRIMARY KEY,
+        area varchar(100) NOT NULL,
+        goal varchar(100) NOT NULL,
+        inversion varchar(100) NOT NULL,
+        leads varchar(100) NOT NULL,
+        facturado varchar(100) NOT NULL,
+        month varchar(100) NOT NULL,
+        fecha_inicio varchar(100) NOT NULL,
+        fecha_termino varchar(100) NOT NULL
+);
+
+CREATE TABLE brochure (
+        id int(25) AUTO_INCREMENT PRIMARY KEY,
+        name varchar(100) NOT NULL,
+        detail varchar(100) NOT NULL,
+        area varchar(100) NOT NULL,
+        portada varchar(100) NOT NULL,
+        pdf varchar(100) NOT NULL
+);
+
+
+CREATE TABLE data_sheet (
+        id int(25) AUTO_INCREMENT PRIMARY KEY,
+        name varchar(100) NOT NULL,
+        detail varchar(100) NOT NULL,
+        area varchar(100) NOT NULL,
+        portada varchar(100) NOT NULL,
+        pdf varchar(100) NOT NULL
+);
+
+
+CREATE TABLE promotion (
+        id int(25) AUTO_INCREMENT PRIMARY KEY,
+        name varchar(100) NOT NULL,
+        detail varchar(100) NOT NULL,
+        area varchar(100) NOT NULL,
+        portada varchar(100) NOT NULL,
+        img varchar(100) NOT NULL,
+        pdf varchar(100) NOT NULL
+);
+
+CREATE TABLE record (
+        id int(25) AUTO_INCREMENT PRIMARY KEY,
+        pharner varchar(100) NOT NULL,
+        area varchar(100) NOT NULL,
+        lead varchar(100) NOT NULL,
+        fecha varchar(100) NOT NULL,
+        hora varchar(100) NOT NULL,
+        detail varchar(500) NOT NULL
+);
+
+
+/****/
+
+CREATE TABLE lead (
+        id int(25) AUTO_INCREMENT PRIMARY KEY,
+        type varchar(255) NOT NULL,
+        origin varchar(255) NOT NULL,
+        name varchar(255) NOT NULL,
+        phone varchar(255) NOT NULL,
+        email varchar(255) NOT NULL,
+        address varchar(255) NOT NULL,
+        area varchar(255) NOT NULL,
+        msg varchar(255) NOT NULL,
+        date_l varchar(255) NOT NULL,
+        time_l varchar(255) NOT NULL,
+        pharner varchar(255) NOT NULL,
+        status varchar(255) NOT NULL,
+        quote varchar(255) NOT NULL,
+        quote_pdf varchar(255) NOT NULL,
+        fac_pre varchar(255) NOT NULL,
+        fac_end varchar(255) NOT NULL,
+        pay varchar(255) NOT NULL,
+        pay_pdf varchar(255) NOT NULL,
+        comments varchar(255) NOT NULL,
+        empresa varchar(255) NOT NULL,
+        puesto varchar(255) NOT NULL
+);
+
+INSERT INTO `mycrm`.`lead` (`id`, `type`, `origin`, `name`, `phone`, `email`, `address`, `area`, `msg`, `date_l`, `time_l`, `pharner`, `status`, `quote`, `quote_pdf`, `fac_pre`, `fac_end`, `pay`, `pay_pdf`, `comments`, `empresa`, `puesto`) VALUES 
+(NULL, 'organic/ads', 'formulario contact', 'joe lemonade', '5523592527', 'joe@lemonade.com.mx', 'del bajio 8 nicolas romero mexico', 'limpieza', 'servicio de limpieza', '21102020', '10:30', 'melisa', '50%', './pdf/quote/q_1.pdf', '5000', './pdf/fac/pre_fac_1.pdf', './pdf/fac/end_fac_1.pdf', '4500', './pdf/pay/pay_1.pdf', 'se niega a pagar el 50% ');
+
+/****/
+
+CREATE TABLE lead_prestamo (
+        id int(25) AUTO_INCREMENT PRIMARY KEY,
+        name varchar(255) NOT NULL,
+        nutra varchar(255) NOT NULL,
+        phone varchar(255) NOT NULL,
+        plaza varchar(255) NOT NULL,
+        antique varchar(255) NOT NULL,
+        job varchar(255) NOT NULL,
+        proyect varchar(255) NOT NULL,
+        arren varchar(255) NOT NULL,
+        origen varchar(255) NOT NULL,
+        status varchar(255) NOT NULL,
+        ejecutivo varchar(255) NOT NULL,
+        observacion varchar(255) NOT NULL
+);
+
+INSERT INTO `lead_prestamo` (`id`, `name`, `nutra`, `phone`, `plaza`, `antique`, `job`, `proyect`, `arren`, `origen`, `status`, `ejecutivo`, `observacion`) VALUES (NULL, 'jose', '452h', '5531341654', 'edomex', '6 años', 'programador', 'maredima', 'no', 'MYCRM', 'activo', 'jessica', 'text text te texttext ');

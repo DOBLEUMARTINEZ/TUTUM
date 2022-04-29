@@ -1,0 +1,21 @@
+{
+  "short_name": "CAPRICHOS IMPRESOS ",
+  "name": "PUBLICIDAD EN GRAN FORMATO",
+  "icons": [
+    {
+      "src": "images/icons/icon-caprichos.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "images/icons/icon-caprichos.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "https://caprichosimpresos.dimarketing.mx/",
+  "background_color": "f512a7",
+  "display": "standalone",
+  "theme_color": "#fff",
+  "orientation": "portrait"
+}
