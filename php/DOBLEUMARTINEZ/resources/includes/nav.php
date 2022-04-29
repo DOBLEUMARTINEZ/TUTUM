@@ -1,8 +1,8 @@
 
 <div class="header-00">
 	<ul style="justify-content: flex-start;">
-		<li><i class="fas fa-envelope"></i> contacto@dobleumartinez.com</li>
-		<li><i class="fas fa-phone"></i> 55 2957 5302</li>
+		<li><i class="fas fa-envelope"></i> <span>contacto@dobleumartinez.com</span></li>
+		<li><i class="fas fa-phone"></i> <span>55 2957 5302</span></li>
 	</ul>
 	<ul style="justify-content: flex-end;">
 		<li><i class="fab fa-behance"></i></li>

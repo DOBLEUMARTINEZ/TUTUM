@@ -38,14 +38,14 @@
 				  	<li>
 				  		<h3> <i class="fas fa-network-wired"></i> Servicios:</h3>
 				  		<p style="text-align: left;">
-				  			* Soluciones integrales en TI​<br>
-				  			* Desarrollo de ingenierías​<br>
-				  			* Suministro de equipamiento​<br>
-				  			* Implementación de sistemas​<br>
-				  			* Capacitación usuario final​<br>
-				  			* Implementación SAP​<br>
-				  			* Implementación HIS​<br>
-				  			* Pólizas<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Soluciones integrales en TI​<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Desarrollo de ingenierías​<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Suministro de equipamiento​<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Implementación de sistemas​<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Capacitación usuario final​<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Implementación SAP​<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Implementación HIS​<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Pólizas<br>
 				  		</p>
 				  	</li>
 
@@ -88,40 +88,40 @@
 				<ol>	
 				  	<li>
 				  		<p style="text-align: left;">
-				  			* Cableado Estructurado​<br>
-				  			* Telefonía E Informática​<br>
-				  			* Computo E Impresión​<br>
-				  			* Sistema De Redes Y Wifi​<br>
-				  			* Circuito Cerrado De Televisión​<br>
-				  			* Detección De Incendios​<br>
-				  			* Control De Acceso​<br>
-				  			* Voceo Y Sonorización​<br>
-				  			* Intercomunicación<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Cableado Estructurado​<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Telefonía E Informática​<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Computo E Impresión​<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Sistema De Redes Y Wifi​<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Circuito Cerrado De Televisión​<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Detección De Incendios​<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Control De Acceso​<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Voceo Y Sonorización​<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Intercomunicación<br>
 				  		</p>
 				  	</li>
 
 				  	<li>
 				  		<p style="text-align: left;">
-				  			* Voceo IP​<br>
-				  			* Detección De Sustancias Y Objetos​<br>
-				  			* Sensores Perimetrales​<br>
-				  			* Videoconferencias​<br>
-				  			* Inhibición Celular​<br>
-				  			* Control, Y Monitoreo (BMS)​<br>
-				  			* Integración De Sistemas ​<br>
-				  			* Radiocomunicación Segura<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Voceo IP​<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Detección De Sustancias Y Objetos​<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Sensores Perimetrales​<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Videoconferencias​<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Inhibición Celular​<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Control, Y Monitoreo (BMS)​<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Integración De Sistemas ​<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Radiocomunicación Segura<br>
 				  		</p>
 				  	</li>
 
 				  	<li>
 				  		<p style="text-align: left;" >
-				  			* Tele Enseñanza<br>
-				  			* Tele Medicina<br>
-				  			* Televisión IP<br>
-				  			* Control Neonatal RFID<br>
-				  			* Sistemas De Información Hospitalaria (HIS)<br>
-				  			* Planificación De Recursos Empresariales (ERP)<br>
-				  			* Ciberseguridad<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Tele Enseñanza<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Tele Medicina<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Televisión IP<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Control Neonatal RFID<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Sistemas De Información Hospitalaria (HIS)<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Planificación De Recursos Empresariales (ERP)<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Ciberseguridad<br>
 				  		</p>
 				  	</li>
 
@@ -158,16 +158,16 @@
 				  	<li>
 				  		<h3> <i class="fas fa-network-wired"></i> Servicios:</h3>
 				  		<p style="text-align: left;">
-				  			* Infraestructura tecnológica<br>
-				  			* Administración<br>
-				  			* Operación <br>
-				  			* Refaccionamiento<br>
-				  			* Capacitación<br>
-				  			* Ciberseguridad<br>
-				  			* PAET<br>
-				  			* CAU<br>
-				  			* HIS <br>
-				  			* ERP<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Infraestructura tecnológica<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Administración<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Operación <br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Refaccionamiento<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Capacitación<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Ciberseguridad<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; PAET<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; CAU<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; HIS <br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; ERP<br>
 				  		</p>
 				  	</li>
 
@@ -217,14 +217,14 @@
 				  	<li>
 				  		<h3><i class="fas fa-network-wired"></i> Servicios:</h3>
 				  		<p style="text-align: left;">
-				  			* Administración<br>
-				  			* Soporte a la operación en los 3 niveles<br>
-				  			* Refaccionamiento<br>
-				  			* Capacitación<br>
-				  			* Soluciones empresariales<br>
-				  			* Diseño distribuido en la nube<br>
-				  			* Data center<br>
-				  			* Pólizas<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Administración<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Soporte a la operación en los 3 niveles<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Refaccionamiento<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Capacitación<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Soluciones empresariales<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Diseño distribuido en la nube<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Data center<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Pólizas<br>
 				  		</p>
 				  	</li>
 
@@ -264,28 +264,28 @@
 				  	<li>
 				  		<h3>Gestión en asistencia a usuarios en los 3 niveles de soporte:<br><br>Actividades :</h3>
 				  		<p style="text-align: left;">
-				  			* Administración del Directorio Activo y licenciamiento.<br>
-				  			* Inventarios de equipo de computo.<br>
-				  			* Mantenimientos preventivos.<br>
-				  			* Actualización de sistemas.<br>
-				  			* Respaldos de información.<br>
-				  			* Diagnóstico en el mal funcionamiento del hardware y el software.<br>
-				  			* Seguimiento de tickets mediante la Mesa de Ayuda.<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Administración del Directorio Activo y licenciamiento.<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Inventarios de equipo de computo.<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Mantenimientos preventivos.<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Actualización de sistemas.<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Respaldos de información.<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Diagnóstico en el mal funcionamiento del hardware y el software.<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Seguimiento de tickets mediante la Mesa de Ayuda.<br>
 				  		</p>
 				  	</li>
 
 				  	<li>
 				  		<h3>Gestión de proyectos e implementaciones  a los sistemas de seguridad perimetral:<br><br>Actividades :</h3>
 				  		<p style="text-align: left;">
-				  			* Soporte a las incidencias, problemáticas de los clientes<br>
-				  			* Ofrecemos Capacitación Técnica<br>
-				  			* Elaboración de reportes y manuales​<br>
-				  			* Mantenimientos preventivos y correctivos<br>
-				  			* Administración de CCTV Corporativo ​<br>
-				  			* Implementación de soluciones de Seguridad <br>
-				  			* Detección de incendios, Controles de Acceso<br>
-				  			* Voceo, BMS <br>
-				  			* Seguimiento de tickets mediante la Mesa de Ayuda<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Soporte a las incidencias, problemáticas de los clientes<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Ofrecemos Capacitación Técnica<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Elaboración de reportes y manuales​<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Mantenimientos preventivos y correctivos<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Administración de CCTV Corporativo ​<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Implementación de soluciones de Seguridad <br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Detección de incendios, Controles de Acceso<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Voceo, BMS <br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Seguimiento de tickets mediante la Mesa de Ayuda<br>
 				  		</p>
 				  	</li>
 
@@ -322,62 +322,62 @@
 				  	<li>
 				  		<h3>METODOLOGÍAS DE IMPLEMENTACIÓN</h3>
 				  		<p style="text-align: left;" >
-				  			* PMI<br>
-				  			* COSO<br>
-				  			* KANBAN<br>
-				  			* SPRINT<br>
-				  			* KOTTER<br>
-				  			* SAP ACTIVATE<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; PMI<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; COSO<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; KANBAN<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; SPRINT<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; KOTTER<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; SAP ACTIVATE<br>
 				  		</p>
 				  	</li>
 
 				  	<li>
 				  		<h3>MÓDULOS SAP</h3>
 				  		<p style="text-align: left;" >
-				  			* <strong>EP</strong> Enterprise Portals<br>
-				  			* <strong>BI</strong> Bussines Intelligence<br>
-				  			* <strong>MDM</strong> Master Data Manager<br>
-				  			* <strong>IDM</strong> Identity Management<br>
-				  			* <strong>MI</strong> Mobile Infrastructure<br>
-				  			* <strong>ACC</strong> Adaptative Computing Controlling<br>
-				  			* <strong>ES</strong> Enterprice Services<br>
-				  			* <strong>PI</strong> Process Integration<br>
-				  			* <strong>BO</strong>  Business Objects<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; <strong>EP</strong> Enterprise Portals<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; <strong>BI</strong> Bussines Intelligence<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; <strong>MDM</strong> Master Data Manager<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; <strong>IDM</strong> Identity Management<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; <strong>MI</strong> Mobile Infrastructure<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; <strong>ACC</strong> Adaptative Computing Controlling<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; <strong>ES</strong> Enterprice Services<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; <strong>PI</strong> Process Integration<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; <strong>BO</strong>  Business Objects<br>
 				  		</p>
 				  	</li>
 
 				  	<li>
 				  		<h3>APLICACIONES</h3>
 				  		<p style="text-align: left;" >
-				  			* <strong>MMI</strong> Manufacturing Integration And Intelligence<br>
-				  			* <strong>SRM</strong> Supplier Relationship Management<br>
-				  			* <strong>SCM</strong> Supply Chain Management<br>
-				  			* <strong>SOLMAN</strong> Solmgr Solution Manager<br>
-				  			* <strong>PLM</strong>  Product Lifecycle Managment<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; <strong>MMI</strong> Manufacturing Integration And Intelligence<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; <strong>SRM</strong> Supplier Relationship Management<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; <strong>SCM</strong> Supply Chain Management<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; <strong>SOLMAN</strong> Solmgr Solution Manager<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; <strong>PLM</strong>  Product Lifecycle Managment<br>
 				  		</p>
 				  	</li>
 
 				  	<li style="display: none;">
 				  		<h3>CONSULTORÍA EN SOLUCIONES SAP</h3>
 				  		<p style="text-align: left;" >
-				  			* Soluciones en la cadena de suministro, logística ​ <br>
-							* Soluciones Financieras y de costos ​ <br>
-							* Soluciones  en Ventas y Distribución <br> ​
-							* Soluciones en Compras e Inventarios ​ <br>
-							* Soluciones para la planeación de la producción​ <br>
-							* Soluciones para el control de Calidad​ <br>
-							* Soluciones para el control del Mantenimiento​ <br>
-							* Portales para Clientes CRM​ <br>
-							* Portales para proveedores SRM​ <br>
-							* Analíticos para la toma de decisión Directiva​ <br>
-							* Consultoría por tiempo y materiales en cualquier especialidad​ <br>
-							* Upgrades​ <br>
-							* Migraciones​ <br>
-							* Soportes​ <br>
-							* Roll-Outs​ <br>
-							* Implementaciones​ <br>
-							* Capacitación​ <br>
-							* Hosting <br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Soluciones en la cadena de suministro, logística ​ <br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Soluciones Financieras y de costos ​ <br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Soluciones  en Ventas y Distribución <br> ​
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Soluciones en Compras e Inventarios ​ <br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Soluciones para la planeación de la producción​ <br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Soluciones para el control de Calidad​ <br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Soluciones para el control del Mantenimiento​ <br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Portales para Clientes CRM​ <br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Portales para proveedores SRM​ <br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Analíticos para la toma de decisión Directiva​ <br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Consultoría por tiempo y materiales en cualquier especialidad​ <br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Upgrades​ <br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Migraciones​ <br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Soportes​ <br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Roll-Outs​ <br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Implementaciones​ <br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Capacitación​ <br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Hosting <br>
 				  		</p>
 				  	</li>
 
@@ -407,24 +407,24 @@
 				  	<li>
 				  		<h3>CONSULTORÍA EN SOLUCIONES SAP</h3>
 				  		<p>
-				  			* Soluciones en la cadena de suministro, logística ​ <br>
-							* Soluciones Financieras y de costos ​ <br>
-							* Soluciones  en Ventas y Distribución <br> ​
-							* Soluciones en Compras e Inventarios ​ <br>
-							* Soluciones para la planeación de la producción​ <br>
-							* Soluciones para el control de Calidad​ <br>
-							* Soluciones para el control del Mantenimiento​ <br>
-							* Portales para Clientes CRM​ <br>
-							* Portales para proveedores SRM​ <br>
-							* Analíticos para la toma de decisión Directiva​ <br>
-							* Consultoría por tiempo y materiales en cualquier especialidad​ <br>
-							* Upgrades​ <br>
-							* Migraciones​ <br>
-							* Soportes​ <br>
-							* Roll-Outs​ <br>
-							* Implementaciones​ <br>
-							* Capacitación​ <br>
-							* Hosting <br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Soluciones en la cadena de suministro, logística ​ <br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Soluciones Financieras y de costos ​ <br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Soluciones  en Ventas y Distribución <br> ​
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Soluciones en Compras e Inventarios ​ <br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Soluciones para la planeación de la producción​ <br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Soluciones para el control de Calidad​ <br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Soluciones para el control del Mantenimiento​ <br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Portales para Clientes CRM​ <br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Portales para proveedores SRM​ <br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Analíticos para la toma de decisión Directiva​ <br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Consultoría por tiempo y materiales en cualquier especialidad​ <br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Upgrades​ <br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Migraciones​ <br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Soportes​ <br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Roll-Outs​ <br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Implementaciones​ <br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Capacitación​ <br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Hosting <br>
 				  		</p>
 				  	</li>
 
@@ -461,10 +461,10 @@
 				  	<li>
 				  		<h3>CATALOGO DE SOLUCIONES</h3>
 				  		<p style="text-align: left;">
-				  			* Sistemas de Información Hospitalaria<br>
-				  			* Sistemas de Tele Medicina<br>
-				  			* ​Sistemas de Tele Enseñanza<br>
-				  			* Sistema Paciente Enfermera<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Sistemas de Información Hospitalaria<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Sistemas de Tele Medicina<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; ​Sistemas de Tele Enseñanza<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Sistema Paciente Enfermera<br>
 				  		</p>
 				  	</li>
 
@@ -507,45 +507,45 @@
 				  	<li>
 				  		<h3>Módulos administrativos</h3>
 				  		<p>
-				  			* Adm. y proveedores​ <br>
-							* Almacén ​ <br>
-							* Cuentas por pagar​ <br>
-							* Cuentas por cobrar​ <br>
-							* Compras​ <br>
-							* Caja y facturación​ <br>
-							* Costos​ <br>
-							* Ccontabilidad <br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Adm. y proveedores​ <br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Almacén ​ <br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Cuentas por pagar​ <br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Cuentas por cobrar​ <br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Compras​ <br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Caja y facturación​ <br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Costos​ <br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Ccontabilidad <br>
 				  		</p>
 				  	</li>
 
 				  	<li>
 				  		<h3>Módulos clínicos​</h3>
 				  		<p>
-							* Admisión hospitalaria​<br>
-							* Urgencias​<br>
-							* Laboratorio​<br>
-							* Banco de sangre​<br>
-							* Imagenología​<br>
-							* Consulta externa​<br>
-							* Trabajo social​<br>
-							* Administración de quirófanos​<br>
-							* Enfermería​<br>
-							* Indicaciones médicas ​<br>
-							* Dietas y cocina​ <br>
-							* Expediente clínico electrónico<br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Admisión hospitalaria​<br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Urgencias​<br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Laboratorio​<br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Banco de sangre​<br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Imagenología​<br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Consulta externa​<br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Trabajo social​<br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Administración de quirófanos​<br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Enfermería​<br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Indicaciones médicas ​<br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Dietas y cocina​ <br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Expediente clínico electrónico<br>
 				  		</p>
 				  	</li>
 
 				  	<li>
 				  		<h3>Módulos de configuración</h3>
 				  		<p>
-							* Seguridad​<br>
-							* Importador de datos​<br>
-							* Administración del sistema​<br>
-							* Flujo de trabajo​<br>
-							* Cuestionarios​<br>
-							* Formas​<br>
-							* Interoperabilidad<br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Seguridad​<br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Importador de datos​<br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Administración del sistema​<br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Flujo de trabajo​<br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Cuestionarios​<br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Formas​<br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Interoperabilidad<br>
 				  		</p>
 				  	</li>
 
@@ -596,14 +596,14 @@
 				  	<li>
 				  		<h3>Servicios:</h3>
 				  		<p>
-				  			* Seguridad Gestionada​<br>
-							* SOC inteligente​<br>
-							* Hacking Ético​<br>
-							* GAP análisis​<br>
-							* CISO aaS​<br>
-							* Ciber patrullaje​<br>
-							* Ciber inteligencia​<br>
-							* Talleres y Campañas
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Seguridad Gestionada​<br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; SOC inteligente​<br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Hacking Ético​<br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; GAP análisis​<br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; CISO aaS​<br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Ciber patrullaje​<br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Ciber inteligencia​<br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Talleres y Campañas
 						</p>
 				  	</li>
 
@@ -639,6 +639,7 @@
 		  		
 				<ol>	
 				  	<li>
+				  		<img src="images/img/fabrica_01.jpg" style="width: 100%;margin: 0 0 1vw 0;padding: 0%;">
 				  		<p>
 				  			Nuestras soluciones de desarrollo web facilitan los flujos de trabajo, aumentan los ingresos y optimizan las operaciones comerciales, lo anterior bajo desarrollos que cumplen con los principales estándares de seguridad aplicables a cada sector de la industria.
 				  		</p>
@@ -647,18 +648,20 @@
 				  	<li>
 				  		
 				  		<p>
+				  			<img src="images/img/fabrica_02.jpg" style="width: 100%;margin: 0 0 1vw 0;padding: 0%;">
 				  			Diseñamos un plan de implementación en conjunto con nuestra Mesa de Servicios a profundidad, evaluando las necesidades de su empresa, para así brindar tecnologías mejoradas a los usuarios finales. En nuestras implementaciones consideramos los esquemas de regreso en caso de existir algún impacto en servicios productivos, apegándonos al ciclo de vida del servicio marcado en el marco de referencia ITIL V4.
 				  		</p>
 				  	</li>
 
 				  	<li>
+				  		<img src="images/img/fabrica_03.jpg" style="width: 100%;margin: 0 0 1vw 0;padding: 0%;">
 				  		<h3>Servicios</h3>
 				  		<p>
-				  			* Desarrollo web​<br>
-							* Mantenimiento de aplicaciones​<br>
-							* Aplicativos personalizados​<br>
-							* Implementación y despliegue​<br>
-							* Soporte y acompañamiento<br>
+				  			&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Desarrollo web​<br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Mantenimiento de aplicaciones​<br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Aplicativos personalizados​<br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Implementación y despliegue​<br>
+							&nbsp;&nbsp;<i class="fas fa-caret-right"></i>&nbsp; Soporte y acompañamiento<br>
 				  		</p>
 				  	</li>
 

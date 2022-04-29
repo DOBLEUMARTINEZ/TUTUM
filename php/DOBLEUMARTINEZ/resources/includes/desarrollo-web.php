@@ -15,7 +15,7 @@
 	<div class="content-02">
 		<span></span>
 		<div>
-			<h2>Conoce Alguna de las Soluciones que <br>Nuestros Equipo puede Desarrollar para Ti</h2>
+			<h2>Conoce alguna de las soluciones que <br>nuestros equipo puede desarrollar para ti</h2>
 			<button>Contactanos</button>
 		</div>
 	</div>
@@ -57,75 +57,26 @@
 	<div class="content-04">
 		<h2>Casos de Exito</h2>
 		<p>Desarrollo de Proyectos Atractivos, Rápidos y Funcionales.</p>
-		<div class="slider-frame">
-	        <ul>
-	            <li>
-	            	<ol>
-	            		<li onclick="modalCliente(1);" >
-	            			<img src="resources/images/desarrollos/tienda.jpg" alt="">
-	            			<p>Dimarketing</p>
-	            		</li>
-	            		<li>
-	            			<img src="resources/images/desarrollos/tienda.jpg" alt="">
-	            			<p>cliente</p>
-	            		</li>
-	            		<li>
-	            			<img src="resources/images/desarrollos/tienda.jpg" alt="">
-	            			<p>cliente</p>
-	            		</li>
-	            	</ol>
-	            </li>
-	            <!--
-	            <li>
-	            	<ol>
-	            		<li>
-	            			<img src="resources/images/desarrollos/tienda.jpg" alt="">
-	            			<p>cliente</p>
-	            		</li>
-	            		<li>
-	            			<img src="resources/images/desarrollos/tienda.jpg" alt="">
-	            			<p>cliente</p>
-	            		</li>
-	            		<li>
-	            			<img src="resources/images/desarrollos/tienda.jpg" alt="">
-	            			<p>cliente</p>
-	            		</li>
-	            	</ol>
-	            </li>
-	            <li>
-	            	<ol>
-	            		<li>
-	            			<img src="resources/images/desarrollos/tienda.jpg" alt="">
-	            			<p>cliente</p>
-	            		</li>
-	            		<li>
-	            			<img src="resources/images/desarrollos/tienda.jpg" alt="">
-	            			<p>cliente</p>
-	            		</li>
-	            		<li>
-	            			<img src="resources/images/desarrollos/tienda.jpg" alt="">
-	            			<p>cliente</p>
-	            		</li>
-	            	</ol>
-	            </li>
-	            <li>
-	            	<ol>
-	            		<li>
-	            			<img src="resources/images/desarrollos/tienda.jpg" alt="">
-	            			<p>cliente</p>
-	            		</li>
-	            		<li>
-	            			<img src="resources/images/desarrollos/tienda.jpg" alt="">
-	            			<p>cliente</p>
-	            		</li>
-	            		<li>
-	            			<img src="resources/images/desarrollos/tienda.jpg" alt="">
-	            			<p>cliente</p>
-	            		</li>
-	            	</ol>
-	            </li>-->
-	        </ul>
-	    </div>
+		<div class="carousel">
+			<ul>
+				<li>
+					<img src="resources/images/desarrollos/CUVITALENTO.png">
+					<img src="resources/images/desarrollos/QHIMPRESIONES.png">
+					<img src="resources/images/desarrollos/SIPLA.png">
+					<img src="resources/images/desarrollos/kadcreativo.png">
+					<img src="resources/images/desarrollos/ATS.png">
+					<img src="resources/images/desarrollos/TUTUM.png">
+				</li>
+				<li style="display: none;">
+					<img src="resources/images/desarrollos/kadcreativo.png">
+					<img src="resources/images/desarrollos/ATS.png">
+					<img src="resources/images/desarrollos/TUTUM.png">
+				</li>
+			</ul>
+		</div>
+
+		
+
 	</div>
 
 </section>

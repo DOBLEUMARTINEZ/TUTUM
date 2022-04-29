@@ -3,16 +3,16 @@
 	<meta charset="UTF-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   	<meta name="description" content="">
-  	<meta name="author" content="Dobleu Martinez">
+  	<meta name="author" content="Dobleu Martinez || Desarrollo web especializado - paginas web , landig pages, sitios web, y mucho más.">
   	<meta name="theme-color" content="#111">
 	
 	<title>DOBLEU MARTINEZ | DESARROLLO WEB </title>
 
-	<link href="resources/images/logo/icon.png" rel="shortcut icon"/>
+	<link href="resources/images/wm-icon.png" rel="shortcut icon"/>
 
-	<link rel="manifest" href="https://atsonline.com.mx/images/logo/icon.png">
-	<link rel="icon" type="resources/images/logo/icon.png" sizes="32x32" href="https://atsonline.com.mx/images/logo/icon.png">
-	<link rel="icon" type="resources/images/logo/icon.png" sizes="16x16" href="https://atsonline.com.mx/images/logo/icon.png">
+	<link rel="manifest" href="resources/images/wm-icon.png">
+	<link rel="icon" type="resources/images/wm-icon.png" sizes="32x32" href="resources/images/wm-icon.png">
+	<link rel="icon" type="resources/images/wm-icon.png" sizes="16x16" href="resources/images/wm-icon.png">
 
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="resources/css/style.css">

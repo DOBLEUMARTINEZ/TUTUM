@@ -13,7 +13,7 @@
 	
 	-->
 
-	<h1>Te Ayudamos a Encontrar la Mejor Solución para tu Proyecto Web</h1><br>
+	<h1>Te ayudamos con la mejor solución para tu Proyecto Web</h1><br>
 	<p>Diseñamos poderosos Desarrollos web<br> atractivos que resalten la identidad <br>de tu empresa o negocio</p><br>
 	<button>Contactanos</button>
 </div>

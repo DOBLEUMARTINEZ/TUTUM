@@ -9,6 +9,13 @@
 			</ol>
 		</li>
 		<li>
+			<H3>Contacto</H3>
+			<ol>
+				<li>contacto@dobleumartinez.com</li>
+				<li>55 2957 5902</li>
+			</ol>
+		</li>
+		<li>
 			<h3>Redes Sociales</h3>
 			<ol>
 				<li>Behance</li>
@@ -16,13 +23,7 @@
 				<li>Facebook</li>
 			</ol>
 		</li>
-		<li>
-			<H3>Contacto</H3>
-			<ol>
-				<li>contacto@dobleumartinez.com</li>
-				<li>55 2957 5902</li>
-			</ol>
-		</li>
+		
 	</ul>
 	<p>Copyright © 2021 <span>dobleumartinez.com</span>, Todos los derechos reservados.</p>
 </footer>
