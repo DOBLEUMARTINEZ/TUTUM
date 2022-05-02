@@ -180,9 +180,9 @@ body{
 
 /**/
     .slider{
-    	background-image: url(../images/banners/banner-4.jpg);
+    	background-image: url(../images/banners/banner-1.jpg);
         background-position: center;
-        background-size: 100%;
+        background-size: cover;
         height: 550px;
         padding: 5%;
     }
@@ -288,7 +288,7 @@ body{
 
     .content-02{
     	position: relative;
-    	background-image: url(../images/banners/banner-4.jpg);
+    	background-image: url(../images/banners/banner-3.jpg);
         background-position: top;
         background-size: 100%;
     	width: 100%;
@@ -764,6 +764,90 @@ body{
 
     .footer ul>li {
         width: 30%;
+    }
+
+}
+
+@media( max-width: 425px ){
+    /**/
+    .header-00 ul>li>i {
+        font-size: 0.8em;
+    }
+
+    .header {
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .header div {
+        width: 100%;
+    }
+
+    .header ul {
+        width: 100%;
+    }
+
+    .header ul > li {
+        width: 100%;
+    }
+
+    /**/
+    .slider {
+        padding: 20% 5%;
+    }
+
+    .slider > h1 {
+        font-size: 2.3em;
+    }
+
+    .slider > p {
+        font-size: 1.2em;
+    }
+
+    /**/
+    .content-01>div>h2 {
+        font-size: 2.5em;
+    }
+
+    .content-02>div {
+        padding: 5% 5%;
+    }
+
+    .content-02>div>h2 {
+        font-size: 1.5em;
+        letter-spacing: 1px;
+        line-height: 40px;
+    }
+
+    .content-03>h2 {
+        font-size: 2em;
+        line-height: 40px;
+        margin: 20px 0px;
+    }
+
+    .content-03>ul>li {
+        width: 90%;
+        padding: 2% 0 5% 0;
+        margin: 0 0 5% 0;
+    }
+
+    .content-03>ul>li>p {
+        padding: 5% 5%;
+    }
+
+    .content-03>ul {
+        margin: 5% 0 0 0;
+    }
+
+    /**/
+
+    .footer ul {
+        flex-wrap: wrap;
+    }
+
+    .footer ul>li {
+        width: 90%;
     }
 
 }
