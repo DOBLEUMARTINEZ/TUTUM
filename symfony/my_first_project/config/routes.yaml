@@ -1,5 +1,5 @@
 login:
-    path: /login
+    path: /login 
     controller: App\Controller\HomeController::login
 
 index:
@@ -8,56 +8,59 @@ index:
 
 usuario:
     path: /usuario
-    controller: App\Controller\UsuarioController::index
-
-usuario_detalle:
-    path: /usuario/{id}
-    controller: App\Controller\UsuarioController::usuario
-
-guardar_usuario:
-    path: /guardar
-    controller: App\Controller\UsuarioController::guardar
+    controller: App\Controller\HomeController::usuario
 
 minuta:
     path: /minuta
-    controller: App\Controller\MinutaController::index
+    controller: App\Controller\HomeController::minuta
+#usuario_detalle:
+#    path: /usuario/{id}
+#    controller: App\Controller\UsuarioController::usuario
 
-buscar_minuta:
-    path: /minuta/{id_minuta}
-    controller: App\Controller\MinutaController::buscarMinuta
+#guardar_usuario:
+#    path: /guardar
+#    controller: App\Controller\UsuarioController::guardar
 
-update_minuta:
-    path: /minuta-update/{id_minuta?}/{tema?}
-    controller: App\Controller\MinutaController::update
+#minuta:
+#    path: /minuta
+#    controller: App\Controller\MinutaController::index
 
-seccion_minuta:
-    path: /seccion-minuta
-    controller: App\Controller\MinutaController::seccionMinuta
+#buscar_minuta:
+#    path: /minuta/{id_minuta}
+#    controller: App\Controller\MinutaController::buscarMinuta
 
-registro_minuta:
-    path: /registro-minuta
-    controller: App\Controller\MinutaController::registroMinuta
+#update_minuta:
+#    path: /minuta-update/{id_minuta?}/{tema?}
+#    controller: App\Controller\MinutaController::update
 
-audiencia_minuta:
-    path: /audiencia
-    controller: App\Controller\MinutaController::audienciaMinuta
+#seccion_minuta:
+#    path: /seccion-minuta
+#    controller: App\Controller\MinutaController::seccionMinuta
 
-categoria_minuta:
-    path: /categoria
-    controller: App\Controller\MinutaController::categoriaMinuta
+#registro_minuta:
+#    path: /registro-minuta
+#    controller: App\Controller\MinutaController::registroMinuta
 
-estaus_minuta:
-    path: /estatus
-    controller: App\Controller\MinutaController::estatusMinuta
+#audiencia_minuta:
+#    path: /audiencia
+#    controller: App\Controller\MinutaController::audienciaMinuta
 
-Tema_minuta:
-    path: /tema
-    controller: App\Controller\MinutaController::temaMinuta
+#categoria_minuta:
+#    path: /categoria
+#    controller: App\Controller\MinutaController::categoriaMinuta
 
-tema_usuario:
-    path: /tema-usuario
-    controller: App\Controller\MinutaController:temaUsuario
+#estaus_minuta:
+#    path: /estatus
+#    controller: App\Controller\MinutaController::estatusMinuta
 
-redirigir:
-    path: /redirigir
-    controller: App\Controller\HomeController::redirigir
+#Tema_minuta:
+#    path: /tema
+#    controller: App\Controller\MinutaController::temaMinuta
+
+#tema_usuario:
+#    path: /tema-usuario
+#    controller: App\Controller\MinutaController:temaUsuario
+
+#redirigir:
+#    path: /redirigir
+#    controller: App\Controller\HomeController::redirigir

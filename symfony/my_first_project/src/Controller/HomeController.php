@@ -32,7 +32,6 @@ class HomeController extends AbstractController
      */
     public function index(Request $request): Response
     {
-
         // ID ULTIMA MINUTA
             $minuta_repo = $this->getDoctrine()->getRepository(Minuta::class);
             $minuta =  $minuta_repo->findOneBy([],['id' => 'desc']);
@@ -182,6 +181,26 @@ class HomeController extends AbstractController
             'title' => 'login',
             'form'=> $form->createView()
         ]);   
+    }
+
+    public function usuario(Request $request){
+        echo "Usuarios_all";
+        dd($request);
+    }
+
+    public function minuta(Request $request){
+        echo "Minutas_all";
+        dd($request);
+    }
+
+    public function categoria(Request $request){
+        echo "Categoria_all";
+        dd($request);
+    }
+
+    public function tema(Request $request){
+        echo "tema_all";
+        dd($request);
     }
 
 } 

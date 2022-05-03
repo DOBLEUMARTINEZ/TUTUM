@@ -36,11 +36,11 @@ class MinutaController extends AbstractController
     public function index(Request $request): Response
     {   
 
-        // id minuta default
+        // CONSUTA TODAS LA MINUTAS
         $minuta_repo = $this->getDoctrine()->getRepository(Minuta::class);
         $minutas =  $minuta_repo->findAll();
 
-        // creacion el formulario para busqueda por fecha
+        // FORMULARIO DE BUSQUEDA POR FECHA
         $form_date = $this->createFormBuilder()
             //->setAction($this->generateUrl('validar_usurio'))
             ->setMethod('POST')
@@ -56,49 +56,55 @@ class MinutaController extends AbstractController
 
             ->getForm();
 
-        // validar envio de formulario de fecha 
+        // FORMULARIOS 
         $form_date->handleRequest($request);
 
+        // VALIDAR ENVIO DE FORMULARIO
         if ($form_date->isSubmitted()) {
 
+            // DATOS DE FORMULARIO
             $form_dates = $request->get('form');
             $date = $form_dates['date_serch'];
 
+            // CONSULTA DE FECHA
             $id_minuta_date = $this->getDoctrine()->getRepository(Minuta::class);
             $id_minutas =  $id_minuta_date->findOneBy(['fecha_inicio' => $date.' 08:00:00' ]);
             
+            // VALIDAR CONSULTA     
             if (!empty($id_minutas)) {
 
+                // REMPLAZAR HORA 
                 $fecha_minuta = str_replace(' 08:00:00', '', $id_minutas->getFechaInicio());
+
+                //ID MINUTA DE CONSULTA 
                 $id_minuta = $id_minutas->getId();
 
-                // colsulta final minuta 
-
+                // CONTRUCCION DE CONSULTA DE MINUTA 
                     $minuta_repo = $this->getDoctrine()->getRepository(Minuta::class);
                     $minuta =  $minuta_repo->findOneBy(['id' => $id_minuta]);
 
-                    // estatus minuta
+                    // ESTATUS MINUTA
                         $estatusMinuta_repo = $this->getDoctrine()->getRepository(EstatusMinuta::class);
                         $estatusMinutas =  $estatusMinuta_repo->findAll();
                         $estatusMinuta =  $estatusMinuta_repo->find($minuta->getEstatus());
 
-                    // audiencia minuta
+                    // AUDIENCIA
                         $audiencia_repo = $this->getDoctrine()->getRepository(Audiencia::class);
                         $audiencia =  $audiencia_repo->findBy(['id_minuta' => $id_minuta]);
 
-                    // usuarios 
+                    // USUARIOS
                         $usuario_repo = $this->getDoctrine()->getRepository(Usuario::class);
                         $usuario =  $usuario_repo->findAll();
 
-                    // temas de la minuta
+                    // TEMAS
                         $temaMinuta_repo = $this->getDoctrine()->getRepository(TemaMinuta::class);
                         $temaMinuta =  $temaMinuta_repo->findBy(['id_reunion' => $id_minuta]);
 
-                    // temas de usuarios
+                    // TEMAS DE USUARIOS
                         $temaUsuario_repo = $this->getDoctrine()->getRepository(TemaUsuario::class);
                         $temaUsuario =  $temaUsuario_repo->findAll();
 
-                    // RESPUESTA
+                    // RESPUESTA PARA LA VISTA
                         $minuta_detalle = array(
                             'id' => $id_minuta,
                             'objetivo' => $minuta->getObjetivo(),
@@ -115,31 +121,29 @@ class MinutaController extends AbstractController
                             'temasUsuarios' => $temaUsuario
                         );
 
-                // vista
+                // DEVUELVE VISTA
                 return $this->render('minuta/index.html.twig', [
                     'title' => 'Minuta correspondiente a reunión del día: ',
                     'fecha_minuta' => $fecha_minuta,
                     'MinutaDetalle' => $minuta_detalle,
                     'form'=> $form_date->createView()
                 ]);
-            }else{
-                // return vista
+
+            }else{ // VISTA DEFAULT 
+
                 return $this->render('minuta/index.html.twig', [
                     'title' => 'No hay minutas relacionadas',
                     'Minutas'=> $minutas,
                     'form'=> $form_date->createView()
                 ]);
             }
-
-        }else{
-
-            // return vista
+ 
+        }else{ // VISTA DEAFULT
             return $this->render('minuta/index.html.twig', [
                 'title' => 'Todas las minutas',
                 'Minutas'=> $minutas,
                 'form'=> $form_date->createView()
             ]);
-
         }
         
     }

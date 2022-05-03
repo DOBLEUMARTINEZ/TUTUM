@@ -4,13 +4,16 @@
 			<h3>DOBLEU MARTINEZ</h3>
 			<ol>
 				<li>Desarrollo web</li>
-				<li>Tattoo studio</li>
+				<li>Marketing digital</li>
+				<li>Campañas de Goole ADS</li>
+				<li>Tattoo</li>
 				<li>Joyeria</li>
 			</ol>
 		</li>
 		<li>
 			<H3>Contacto</H3>
 			<ol>
+				<li>josemartinez@dobleumartinez.com</li>
 				<li>contacto@dobleumartinez.com</li>
 				<li>55 2957 5902</li>
 			</ol>
