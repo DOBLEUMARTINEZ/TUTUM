@@ -29,27 +29,27 @@
 				<img src="resources/images/web-page.png" title="DOBLEU MARTINEZ - Desarrollo Web" alt="DOBLEU MARTINEZ - Desarrollo Web">
 				<h3>Landing page</h3>
 				<p>Orientada a ventas directas de algun producto o servicio</p>
-				<button>Cotiza ahora</button>
+				<button onclick="window.location.href='https://api.whatsapp.com/send?phone=+525529575302&text=Me%20interesa%20conocer%20mas%20a%20detalle%20los%20servicios';">Cotiza ahora</button>
 			</li>
 			<li>
 				<img src="resources/images/webpage.png" title="DOBLEU MARTINEZ - Desarrollo Web" alt="DOBLEU MARTINEZ - Desarrollo Web">
 				<h3>Pagina Web</h3>
 				<p>Ideal para empezar a darte a conocer en la Internet</p>
 				
-				<button class="">Cotiza ahora</button>
+				<button onclick="window.location.href='https://api.whatsapp.com/send?phone=+525529575302&text=Me%20interesa%20conocer%20mas%20a%20detalle%20los%20servicios';">Cotiza ahora</button>
 			</li>
 			<li>
 				<img src="resources/images/website (2).png" title="DOBLEU MARTINEZ - Desarrollo Web" alt="DOBLEU MARTINEZ - Desarrollo Web">
 				<h3>Sitio Web</h3>
 				<p>Empieza a competir contra los mejores</p>
 				
-				<button>Cotiza ahora</button>
+				<button onclick="window.location.href='https://api.whatsapp.com/send?phone=+525529575302&text=Me%20interesa%20conocer%20mas%20a%20detalle%20los%20servicios';">Cotiza ahora</button>
 			</li>
 			<li>
 				<img src="resources/images/website (1).png" title="DOBLEU MARTINEZ - Desarrollo Web" alt="DOBLEU MARTINEZ - Desarrollo Web">
 				<h3>Desarrollos Especiales</h3>
 				<p>Volvemos realidad todas tus ideas</p>
-				<button>Cotiza ahora</button>
+				<button onclick="window.location.href='https://api.whatsapp.com/send?phone=+525529575302&text=Me%20interesa%20conocer%20mas%20a%20detalle%20los%20servicios';">Cotiza ahora</button>
 			</li>
 		</ul>
 	</div>

@@ -11,13 +11,13 @@
 		</li>
 	</ul>
 	<ul style="justify-content: flex-end;">
-		<li onclick="window.location.href='https://api.whatsapp.com/send?phone=5529575302&text=Me%20interesa%20conocer%20mas%20a%20detalle%20los%20servicios';" >
+		<li onclick="window.location.href='https://api.whatsapp.com/send?phone=+525529575302&text=Me%20interesa%20conocer%20mas%20a%20detalle%20los%20servicios';" >
 			<i class="fab fa-behance"></i>
 		</li>
-		<li onclick="window.location.href='https://api.whatsapp.com/send?phone=5529575302&text=Me%20interesa%20conocer%20mas%20a%20detalle%20los%20servicios';" >
+		<li onclick="window.location.href='https://api.whatsapp.com/send?phone=+525529575302&text=Me%20interesa%20conocer%20mas%20a%20detalle%20los%20servicios';" >
 			<i class="fab fa-linkedin-in"></i>
 		</li>
-		<li onclick="window.location.href='https://api.whatsapp.com/send?phone=5529575302&text=Me%20interesa%20conocer%20mas%20a%20detalle%20los%20servicios';" >
+		<li onclick="window.location.href='https://api.whatsapp.com/send?phone=+525529575302&text=Me%20interesa%20conocer%20mas%20a%20detalle%20los%20servicios';" >
 			<i class="fab fa-instagram"></i>
 		</li>
 	</ul>
@@ -27,7 +27,7 @@
 	<div onclick="window.location.href='https://dobleumartinez.com/';" >DOBLEU MARTINEZ</div>
 	<ul>
 		<li>
-			<button onclick="window.location.href='https://api.whatsapp.com/send?phone=5529575302&text=Me%20interesa%20conocer%20mas%20a%20detalle%20los%20servicios';" >
+			<button onclick="window.location.href='https://api.whatsapp.com/send?phone=+525529575302&text=Me%20interesa%20conocer%20mas%20a%20detalle%20los%20servicios';" >
 			Contactanos
 			</button>
 		</li>

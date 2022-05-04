@@ -33,27 +33,8 @@
 
 			<br>
 			<p>Diseñamos poderosos Desarrollos web<br> atractivos que resalten la identidad <br>de tu empresa o negocio</p><br>
-			<button>Contactanos</button>
+			<button onclick="window.location.href='https://api.whatsapp.com/send?phone=5529575302&text=Me%20interesa%20conocer%20mas%20a%20detalle%20los%20servicios';" >Contactanos</button>
  		</li>
-
- 		<li>
-			<h1>2Te Ayudamos a Encontrar la Mejor Solución para tu Proyecto Web</h1><br>
-			<p>Diseñamos poderosos Desarrollos web<br> atractivos que resalten la identidad <br>de tu empresa o negocio</p><br>
-			<button>Contactanos</button>
- 		</li>
-
- 		<li>
-			<h1>3Te Ayudamos a Encontrar la Mejor Solución para tu Proyecto Web</h1><br>
-			<p>Diseñamos poderosos Desarrollos web<br> atractivos que resalten la identidad <br>de tu empresa o negocio</p><br>
-			<button>Contactanos</button>
- 		</li>
-
- 		<li>
-			<h1>4Te Ayudamos a Encontrar la Mejor Solución para tu Proyecto Web</h1><br>
-			<p>Diseñamos poderosos Desarrollos web<br> atractivos que resalten la identidad <br>de tu empresa o negocio</p><br>
-			<button>Contactanos</button>
- 		</li>
-
 
 	</ul>
 </div>
