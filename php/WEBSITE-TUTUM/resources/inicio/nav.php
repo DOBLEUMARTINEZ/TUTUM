@@ -41,8 +41,6 @@
 
       <!-- LOGO - SOCIAL MEDIA -->
       <div>
-        <img src="images/logo/logo2.png" class="img-logo-front" onclick="window.location.href='./';">
-        <img src="images/logo/logo2.png" class="img-logo-back" onclick="window.location.href='./';">
 
         <?php if(isset($_GET['seccion'])){ }else{?>
         <ol>

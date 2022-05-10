@@ -1,233 +1,113 @@
-<div style="position: fixed; height: 100%; width: 100%;">
-
-  <!-- BACKGPUND NEGRO TRANSPARENCIA -->
-  <span style="position: absolute; width: 100%; height: 100%; background: #0000007a;"></span>
+<div style="position: relative;">
 
   <!-- BACKGROUND VIDEO -->
   <video class="video-slide" loading="lazy" src="https://www.tutum.com.mx/video/SOLUCIONES.mp4" autoplay="" muted="" loop=""></video>
 
-  <!-- BOX SLIDERS -->
-  <div class="box-slider">
+  <div class="square-logo-big" >
+    <img src="images/logo/LOGO-TUTUM.png" onclick="window.location.href='./';">
+    <h2>SOLUCIONES EN TECNOLOGÍA</h2>
+    <a id="us"></a>
+    <i class="fas fa-chevron-down" onclick="window.location.href='./#us'"></i>
+  </div>
 
-    <!-- BOX SLIDER 01 DESKTOP -->
-    <div id="slider-box-1" class="carousel slide" data-ride="carousel">
+</div>
 
-      <div class="carousel-inner">
+<div class="square-02" style="background: url('images/img/FOTO 09.jpg');">
+  <ul>
+    <li>
+      <img src="images/icons/desarrollo.png">
+      <h3>+400K</h3>
+      <p>METROS DE FIBRA ÓPTICA CERTIFICADOS</p>
+    </li>
+    <li>
+      <img src="images/icons/desarrollo.png">
+      <h3>+980K​</h3>
+      <p>METROS DE UTP CERTIFICADOS​</p>
+    </li>
+    <li>
+      <img src="images/icons/desarrollo.png">
+      <h3>+40K​</h3>
+      <p>DISPOSITIVOS DE SEGURIDAD PERIMETRAL​</p>
+    </li>
+    <li>
+      <img src="images/icons/desarrollo.png">
+      <h3>+1000​</h3>
+      <p>EQUIPOS DE INFORMÁTICA Y SERVIDORES​</p>
+    </li>
+    <li>
+      <img src="images/icons/desarrollo.png">
+      <h3>+10K</h3>
+      <p>EQUIPOS DE COMPUTO IMPRESIÓN Y TELEFONÍA​</p>
+    </li>
+    <li>
+      <img src="images/icons/desarrollo.png">
+      <h3>+600​</h3>
+      <p>CUARTOS DE COMUNICACIÓN EQUIPADOS​</p>
+    </li>
+  </ul>
+  <p>
+    En TUTUM buscamos la excelencia y la obtenemos a través de la implementación de estándares nacionales e internacionales, acompañados de un alto nivel de servicio. Nuestra filosofía de mejora continua nos permite alcanzar el máximo beneficio tecnológico para nuestros clientes y acompañarlos en el desarrollo de su proyecto 
+  </p>
+  <ol>
+    <li>
+      <img src="images/icons/team.png">
+      <h3>IDENTIDAD</h3>
+    </li>
+    <li>
+      <img src="images/icons/dispositivo.png">
+      <h3>SERVICIOS​</h3>
+    </li>
+    <li>
+      <img src="images/icons/cau2.png">
+      <h3>PRENSA​</h3>
+    </li>
+    <li>
+      <img src="images/icons/headphones.png">
+      <h3>CONTACTO</h3>
+    </li>
+  </ol>
+</div>
 
-        <div class="carousel-item active">
-          <table class="table-icons-v1" >
-            <tr>
-              <td><img src="images/icons/barra-grafica.png"></td>
-              <td><img src="images/icons/team.png"></td>
-              <td><img src="images/icons/certificate.png"></td>
-              <td><img src="images/icons/dispositivo.png"></td>
-              <td><img src="images/icons/cau2.png"></td>
-            </tr>
-            <tr style="background: #00000059;">
-              <td><h3><a class="counter" data-count="6">0</a></h3></td>
-              <td><h3><a class="counter" data-count="250">0</a></h3></td>
-              <td><h3><a class="counter" data-count="30">0</a></h3></td>
-              <td><h3><a class="counter" data-count="40">0</a>MIL</h3></td>
-              <td><h3><a class="counter" data-count="6">0</a></h3></td>
-            </tr>
-            <tr>
-              <td>AÑOS DE EXPERIENCIA</td>
-              <td>COLABORADORES​ CAPACITADOS Y CERTIFICADOS</td>
-              <td>PROYECTOS ​A NIVEL NACIONAL</td>
-              <td>DISPOSITIVOS MONITOREADOS DIARIAMENTE</td>
-              <td>CENTROS DE ATENCIÓN A USUARIOS</td>
-            </tr>
-          </table>
-        </div>
+<hr style="margin-top: 11%;">
 
-        <div class="carousel-item ">
+<div class="square-03" >
+  <h2>REDES SOCIALES</h2>
 
-          <table class="table-icons-v1" >
-            <tr>
-              <td><img src="images/icons/hilo.png" style="transform: rotate(-90deg);"></td>
-              <td><img src="images/icons/cable-de-red.png"></td>
-              <td><img src="images/icons/casino-cctv.png"></td>
-              <td><img src="images/icons/server.png"></td>
-              <td><img src="images/icons/phone.png"></td>
-              <td><img src="images/icons/dispositivo.png"></td>
-            </tr>
-            <tr style="background: #00000059;">
-              <td><h3>+<a class="counter" data-count="400">0</a>MIL</h3></td>
-              <td><h3>+<a class="counter" data-count="250">0</a>MIL</h3></td>
-              <td><h3>+<a class="counter" data-count="40">0</a>MIL</h3></td>
-              <td><h3>+<a class="counter" data-count="1000">0</a></h3></td>
-              <td><h3>+<a class="counter" data-count="10">0</a>MIL</h3></td>
-              <td><h3>+<a class="counter" data-count="600">0</a></h3></td>
-            </tr>
-            <tr>
-              <td>METROS DE FIBRA ÓPTICA CERTIFICADOS​</td>
-              <td>METROS DE UTP CERTIFICADOS​</td>
-              <td>DISPOSITIVOS DE SEGURIDAD PERIMETRAL​</td>
-              <td>EQUIPOS DE INFORMÁTICA Y SERVIDORES​</td>
-              <td>EQUIPOS DE COMPUTO IMPRESIÓN Y TELEFONÍA​</td>
-              <td>CUARTOS DE COMUNICACIÓN EQUIPADOS​</td>
-            </tr>
-          </table>
+  <div>
+    <div style="width: 100%; position: relative;">
 
-        </div>
+     <img src="images/img/pc.png" style="width: 80%; margin: 5% 10%;">
 
-         <!--  
-        <div class="carousel-item ">-->
-
-      </div>
-
-      <!-- CONTROLS SLIDER 1 -->
-      <a class="carousel-control-prev" href="#slider-box-1" role="button" data-slide="prev" style="width: 2%;">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      </a>
-
-      <a class="carousel-control-next" href="#slider-box-1" role="button" data-slide="next" style="width: 2%;">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      </a>
-
-    </div>
-
-    <!-- BOX SLIDER 02 MOVIL -->
-    <div id="slider-box-2" class="carousel slide" data-ride="carousel">
-
-      <div class="carousel-inner">
-
-        <div class="carousel-item active">
-
-          <table class="table-icons-v1" >
-            <tr>
-              <td><img src="images/icons/barra-grafica.png"></td>
-              <td><img src="images/icons/team.png"></td>
-              <td><img src="images/icons/certificate.png">
-            </tr>
-            <tr style="background: #00000059;">
-              <td><h3><a class="counter" data-count="6">0</a></h3></td>
-              <td><h3><a class="counter" data-count="250">0</a></h3></td>
-              <td><h3><a class="counter" data-count="30">0</a></h3></td>
-            </tr>
-            <tr>
-              <td>AÑOS DE EXPERIENCIA</td>
-              <td>COLABORADORES​ CAPACITADOS Y CERTIFICADOS</td>
-              <td>PROYECTOS ​A NIVEL NACIONAL</td>
-          </table>
-
-        </div>
-
-        <div class="carousel-item ">
-
-          <table class="table-icons-v1" >
-            <tr>
-              <td><img src="images/icons/dispositivo.png"></td>
-              <td><img src="images/icons/mexico.png"></td>
-              <td><img src="images/icons/cau2.png"></td>
-            </tr>
-            <tr style="background: #00000059;">
-              <td><h3><a class="counter" data-count="40">0</a>MIL</h3></td>
-              <td><h3><a class="counter" data-count="100">0</a>%</h3></td>
-              <td><h3><a class="counter" data-count="6">0</a></h3></td>
-            </tr>
-            <tr>
-              <td>DISPOSITIVOS MONITOREADOS DIARIAMENTE</td>
-              <td>MEXICANA</td>
-              <td>CENTROS DE ATENCIÓN A USUARIOS</td>
-            </tr>
-          </table>
-
-        </div>
-
-        <div class="carousel-item ">
-
-          <table class="table-icons-v1" >
-            <tr>
-              <td><img src="images/icons/hilo.png" style="transform: rotate(-90deg);"></td>
-              <td><img src="images/icons/cable-de-red.png"></td>
-              <td><img src="images/icons/casino-cctv.png"></td>
-            </tr>
-            <tr style="background: #00000059;">
-              <td><h3>+<a class="counter" data-count="400">0</a>MIL</h3></td>
-              <td><h3>+<a class="counter" data-count="250">0</a>MIL</h3></td>
-              <td><h3>+<a class="counter" data-count="40">0</a>MIL</h3></td>
-            </tr>
-            <tr>
-              <td>METROS DE FIBRA ÓPTICA CERTIFICADOS​</td>
-              <td>METROS DE UTP CERTIFICADOS​</td>
-              <td>DISPOSITIVOS DE SEGURIDAD PERIMETRAL​</td>
-            </tr>
-          </table>
-
-        </div>
-
-        <div class="carousel-item ">
-
-          <table class="table-icons-v1" >
-            <tr>
-              <td><img src="images/icons/server.png"></td>
-              <td><img src="images/icons/phone.png"></td>
-              <td><img src="images/icons/dispositivo.png"></td>
-            </tr>
-            <tr style="background: #00000059;">
-              <td><h3>+<a class="counter" data-count="1000">0</a></h3></td>
-              <td><h3>+<a class="counter" data-count="10">0</a>MIL</h3></td>
-              <td><h3>+<a class="counter" data-count="600">0</a></h3></td>
-            </tr>
-            <tr>
-              <td>EQUIPOS DE INFORMÁTICA Y SERVIDORES​</td>
-              <td>EQUIPOS DE COMPUTO IMPRESIÓN Y TELEFONÍA​</td>
-              <td>CUARTOS DE COMUNICACIÓN EQUIPADOS​</td>
-            </tr>
-          </table>
-
-        </div>
-
-      </div>
-
-      <!--  -->
-      <a class="carousel-control-prev" href="#slider-box-2" role="button" data-slide="prev" style="width: 5%;">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      </a>
-
-      <a class="carousel-control-next" href="#slider-box-2" role="button" data-slide="next" style="width: 5%;">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      </a>
+     <iframe id="video-tutum"
+        title="video tutum"
+        src="https://youtu.be/MxXB8wWU6vg">
+      </iframe>
 
     </div>
+    <ol>
+      <li>VIDEOS</li>
+      <li>PRENSA</li>
+      <li>NOTICIAS</li>
+    </ol>
+  </div>
 
+  <div>
+    <div style="width:80%; position: relative;" >
+      <img src="images/img/phone.png" style="width: 60%; margin: 0 20%;">
+      <iframe id="video-tutum-phone"
+        title="linkedin"
+        src="https://www.linkedin.com/company/tutum-tech/posts/?feedView=all">
+      </iframe>
+    </div>
+    <ul>
+      <li><i class="fab fa-facebook-square"></i></li>
+      <li><i class="fab fa-instagram"></i></li>
+      <li><i class="fab fa-linkedin"></i></li>
+      <li><i class="fab fa-twitter-square"></i></li>
+      <li><i class="fab fa-youtube"></i></li>
+    </ul>
   </div>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-<script type="text/javascript">
 
-// Wrap every letter in a span
-var textWrapper = document.querySelector('.ml11 .letters');
-textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>");
 
-anime.timeline({loop: true})
-  .add({
-    targets: '.ml11 .line',
-    scaleY: [0,1],
-    opacity: [0.5,1],
-    easing: "easeOutExpo",
-    duration: 700
-  })
-  .add({
-    targets: '.ml11 .line',
-    translateX: [0, document.querySelector('.ml11 .letters').getBoundingClientRect().width + 10],
-    easing: "easeOutExpo",
-    duration: 700,
-    delay: 100
-  }).add({
-    targets: '.ml11 .letter',
-    opacity: [0,1],
-    easing: "easeOutExpo",
-    duration: 600,
-    offset: '-=775',
-    delay: (el, i) => 34 * (i+1)
-  }).add({
-    targets: '.ml11',
-    opacity: 0,
-    duration: 1000,
-    easing: "easeOutExpo",
-    delay: 1000
-  });
-</script>        
