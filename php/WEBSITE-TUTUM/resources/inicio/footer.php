@@ -1,43 +1,38 @@
-<div class="footer-W">
+<div class="footer-W" style="background: url('images/img/FOTO 08.jpg');">
 
-	<div class="row" style="align-items: flex-end;">
+	<div class="row" >
+		<div class="col-md-6" ></div>
+		<div class="col-md-3" >
+			<ol>
+				<li style="margin-left: 20%" >USUARIOS CAU​</li>
+				<li style="margin-left: 20%" >¿QUIERES SER PROVEEDOR?​</li>
+			</ol>
+		</div>
+		<div class="col-md-3" >
+			<ol>
+				<li style="margin-right: 20%" >BLOG</li>
+				<li style="margin-right: 20%" >ACCEDER</li>
+			</ol>
+		</div>
+	</div>
 
-		<?php if(isset($_GET['seccion'])){ ?>
+	<div class="row" style="align-items: center;">
 
-			<div class="col-lg-12 col-md-12 col-sm-12 col-12">
-				<p class="copyrigt" style="margin-bottom: 5px;">
-			    	Copyright © 2021 <span onclick="window.open('http://www.tutum.com.mx/')">tutum.com.mx</span>, 
-			    	Todos los derechos reservados. 
-			    	<span>Terminos y Condiciones</span>, 
-			    	<span>Aviso de Privacidad</span>.
-			    </p>
+		<div class="col-md-2 ">
+        		<img src="images/logo/LOGO-WHITE.png" onclick="window.location.href='./';" style="width: 100%;">
 			</div>
-
-		<?php }else{ ?>
-
-			<div class="col-lg-1 col-md-2 col-sm-2 col-3">
-        		<img src="images/logo/logo2.png" onclick="window.location.href='./';" style="width: 100%;">
-        		<h4 style="font-size: 0.7em;">ISO 9001:2015​ <br>ISO/IEC 27001:2013</h4>
+			<div class="col-md-2">
+				<h4>ISO 9001:2015​ <br>ISO/IEC 27001:2013</h4>
+				<i class="fab fa-whatsapp"></i>
 			</div>
-			<div class="col-lg-2 col-md-3 col-sm-2 col-4">
-				<h4 style="font-size: 0.8em;">
-					<a>CONTACTO</a>​<br>
-					<a href="tel:5586230660">55 8623 0660</a><br>
-					<a href="mailto:contacto@tutum.com.mx">contacto@tutum.com.mx</a><br>
-				</h4>
-			</div>
-
-			<div class="col-lg-9 col-md-7 col-sm-8 col-5">
-				<p class="copyrigt" style="margin-bottom: 5px;">
-			    	Copyright © 2021 <span onclick="window.open('http://www.tutum.com.mx/')">tutum.com.mx</span>, 
-			    	Todos los derechos reservados. 
-			    	<span>Terminos y Condiciones</span>, 
-			    	<span>Aviso de Privacidad</span>.
-			    </p>
-			</div>
-
-		<?php }?>
-		
+			<div class="col-md-8 ">
+			<p class="copyrigt">
+			    Copyright © 2021 <span onclick="window.open('http://www.tutum.com.mx/')">tutum.com.mx</span>, 
+			    Todos los derechos reservados. 
+			    <span>Terminos y Condiciones</span>, 
+			    <span>Aviso de Privacidad</span>.
+			</p>
+		</div>
 
 	</div>
 </div>

@@ -76,9 +76,9 @@
   <div>
     <div style="width: 100%; position: relative;">
 
-     <img src="images/img/pc.png" style="width: 80%; margin: 5% 10%;">
+     <img src="images/img/pc2.png" style="width: 100%; margin: 0% 0%;">
 
-     <iframe id="video-tutum"
+     <iframe style="display: none;" id="video-tutum"
         title="video tutum"
         src="https://youtu.be/MxXB8wWU6vg">
       </iframe>
@@ -94,7 +94,7 @@
   <div>
     <div style="width:80%; position: relative;" >
       <img src="images/img/phone.png" style="width: 60%; margin: 0 20%;">
-      <iframe id="video-tutum-phone"
+      <iframe id="video-tutum-phone" style="display: none;" 
         title="linkedin"
         src="https://www.linkedin.com/company/tutum-tech/posts/?feedView=all">
       </iframe>

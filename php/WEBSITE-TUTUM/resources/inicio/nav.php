@@ -6,7 +6,7 @@
       <ol>
         <li style="width: 30%" ><img src="images/logo/logo2.png" onclick="window.location.href='./';"></li>
         <li style="width: 60%" >
-          <ul>
+          <ul >
             <li onclick="window.open('https://www.facebook.com/Tutum-Tech-515010355546588');"><i class="fab fa-facebook-square"></i></li>
             <li onclick="window.open('https://www.instagram.com/tutumtech/');"><i class="fab fa-instagram"></i></li>
             <li onclick="window.open('https://www.linkedin.com/company/tutum-tech/mycompany/verification/');"><i class="fab fa-linkedin"></i></li>
@@ -43,7 +43,7 @@
       <div>
 
         <?php if(isset($_GET['seccion'])){ }else{?>
-        <ol>
+        <ol id="social-media-icons">
           <li onclick="window.open('https://www.facebook.com/Tutum-Tech-515010355546588');" ><i class="fab fa-facebook-square"></i></li>
           <li onclick="window.open('https://www.instagram.com/tutumtech/');" ><i class="fab fa-instagram"></i></li>
           <li onclick="window.open('https://www.linkedin.com/company/tutum-tech/mycompany/verification/');" ><i class="fab fa-linkedin"></i></li>
@@ -55,9 +55,10 @@
 
       <!-- RUTAS -->
       <ul class="color-font-menu">
-        <li onclick="window.location.href='./';">Inicio</li>
 
-        <li class="dropdown-menu-ttm">
+        <li  class="dropdown-menu-ttm" onclick="window.location.href='./';">Inicio</li>
+
+        <li  class="dropdown-menu-ttm">
           <a onclick="window.location.href='./menu-identidad';" >Identidad</a>
           <ol>
             <li onclick="window.location.href='./identidad#us';">
@@ -76,10 +77,9 @@
               Socios de negocio
             </li>
           </ol>
-
         </li>
 
-        <li class="dropdown-menu-ttm">
+        <li  class="dropdown-menu-ttm">
           <a onclick="window.location.href='./menu-servicios';" >Servicios</a>
 
           <ol>
@@ -105,10 +105,9 @@
               Fabrica de software
             </li>
           </ol>
-
         </li>
 
-        <li class="dropdown-menu-ttm" style="display: none;">
+        <li  class="dropdown-menu-ttm" style="display: none;">
           <a onclick="window.location.href='./menu-proyectos';" >Proyectos</a>
           <ol>
             <li onclick="window.location.href='./proyectos-en-operacion';" >
@@ -123,7 +122,7 @@
           </ol>
         </li>
 
-        <li class="dropdown-menu-ttm">
+        <li  class="dropdown-menu-ttm">
           <a onclick="window.location.href='./';" >Prensa </a>
           <ol>
             <li onclick="window.location.href='./';" >
@@ -135,7 +134,7 @@
           </ol>
         </li>
 
-        <li class="dropdown-menu-ttm">
+        <li  class="dropdown-menu-ttm">
           <a onclick="window.location.href='./';" >Contacto</a>
           <ol>
             <li onclick="window.location.href='./';" >
@@ -152,7 +151,6 @@
             </li>
           </ol>
         </li>
-
 
       </ul>
 

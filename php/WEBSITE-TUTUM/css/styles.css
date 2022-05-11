@@ -39,8 +39,8 @@
 
     .ir-arriba {
         position: fixed;
-        bottom: 5%;
-        right: 3%;
+        bottom: 9%;
+        right: 2%;
         background: #4bbed3;
         color: #fff;
         border-radius: 50px;
@@ -61,6 +61,11 @@
 
     .desktop-wm{
         display: block!important;
+    }
+
+    .hidden-icons{
+        opacity: 0;
+        transition: 0.5s;
     }
 
 /* MODAL */
@@ -276,22 +281,26 @@
         }
 
         .head:hover{
-            background: #00000052;
+            background: #0000;
         }
 
         .enable-head{
-            transition: 0.3s!important;
-            background: #00000052!important;
+            /*transition: 0.3s!important;
+            background: #0000!important;
             opacity: 1!important;
             top: 0;
             box-shadow: 0 5px 30px #00000069;
-            /*border-bottom: 2px solid #26cfe047;*/
+            border-bottom: 2px solid #26cfe047;*/
         }
 
-        .enable-head li{
-            font-family: var(--font-content);
-            transition: 0.3s;
+        .active-li-nav {
+           /* color: #fff;
+            background: #000000bf;
+            border-bottom: 3px solid #4DBED4;
+            transition: 0.2s;*/ 
         }
+
+        
 
         /* CONTENEDOR HEADER MOBIL*/
             .container-header-mobil{
@@ -433,8 +442,8 @@
             .container-header ul > li{
                 position: relative;
                 list-style: none;
-                margin: 0em 0.5em;
-                padding: 2em 0em;
+                margin: 0em 0em;
+                padding: 1em 1em;
                 font-family: var(--font-content);
                 font-size: 0.9vw;
                 cursor: pointer;
@@ -442,10 +451,14 @@
                 text-align: center;
                 font-weight: bold;
                 text-transform: uppercase;
+                transition: 0.3s;
             }
 
             .container-header ul > li:hover{
-                color: #26cfe0;
+                color: #fff;
+                background: #00000061;
+                border-bottom: 3px solid #4DBED4;
+                transition: 0.2s;
             }
 
             .container-header button{
@@ -1685,73 +1698,65 @@
 /* PIE DE PAGINA */
 
     .footer-W{
-        width:80%;
+        width:100%;
         margin-left: auto;
         margin-right: auto;
-        margin: 0% 0% 0% 0%;
-        padding: 0% 0% 0% 0%;
-        background-color: #11111100;
+        margin: 3% 0% 0% 0%;
+        padding: 3% 2% 1% 2% ;
         bottom: 0;
     }
 
-    .footer-W h3 {
-        font-size: 1.2em;
-        padding: 0;
-        font-family: var(--font-second);
-        line-height: 1.5;
-        letter-spacing: 0px;
-        margin: 0.5em 0;
-        color: #fff;
+    .footer-W h4 {
+       margin: 0;
+        color: #c0c5d1;
+        font-weight: bold;
+        letter-spacing: 1.5px;
+        font-size: 1vw;
     }
 
-    .footer-W h3::before {
-        content: '|';
-        color: #4bbed3;
-        font-weight: 900;
-        font-size: 1.1em;
+    .footer-W i{
+        color: #c0c5d1;
+        /* float: revert; */
+        position: absolute;
+        right: 5%;
+        font-size: 2vw;
+        top: 12%;
     }
 
     .footer-W ol{
+        width: 100%;
         color: #fff;
         font-family: var(--font-content);
         list-style: none;
         margin: 0;
         padding: 0;
+        text-align: center;
     }
 
     .footer-W ol>li{
-        text-align: left;
+        width: 80%;
+        background: #0000;
+        border-radius: 10px;
+        border:2px solid #c0c5d1;
+        margin-bottom: 10px;
+        padding: 0.5% 1%;
         cursor: pointer;
-        font-size: 1em;
-        letter-spacing: 0.5px;
-
+        font-weight: bold;
+        letter-spacing: 1px;
     }
 
     .footer-W ol>li:hover{
-        color: #4bbed3;
-    }
-
-    .footer-W h4 {
-        color: #4bbed3;
-    }
-
-    .footer-W h4 > a{
-        cursor: pointer;
-        color: #ffc107b8!important;
-    }
-
-    .footer-W h4 > a:hover{
-        color: #4bbed3!important;
+        background: #c0c5d1;
+        color: #000;
     }
 
     .copyrigt{
         font-family: var(--font-content);
-        color: #ffffff85;
-        font-size: 0.7em;
-        margin: 0;
-        padding: 0% 2% 0% 0%;
+        color: #c0c5d1;
+        font-size: 1vw;
+        margin: 0%;
+        padding: 0%;
         text-align: right;
-        margin-top: 15px;
     }
 
     .copyrigt>span{
