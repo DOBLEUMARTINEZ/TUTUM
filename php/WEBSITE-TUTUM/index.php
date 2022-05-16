@@ -35,7 +35,6 @@ echo '<body>'; // INICIO CUERPO
             include("resources/proyectos/contenido.php"); // CONTENIDO
           }
 
-          include("resources/error.php"); // ERROR NOT FOUND
 
         }else{ // MENU
           $seccion = str_replace('menu-', '', $_GET['seccion']);
