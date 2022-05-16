@@ -494,7 +494,7 @@
 
 
             .dropdown-menu-ttm:hover > ol{
-                top: 4vw;
+                top: 3.3vw;
                 transition: 0.3s;
                 z-index: 1;
                 opacity: 1;
@@ -1922,6 +1922,22 @@
             .logos-contratos img{
                 width: 30%;
                 padding: 0 2%;
+            }
+
+            .operacion-contratos li {
+            }
+
+            .operacion-contratos li > span {
+                color: #4DBED4;
+                font-weight: bold;
+                font-size: 2.5vw;
+                width: 100%;
+                text-align: center;
+            }
+
+            .operacion-contratos li > img{
+                width: 30%!important;
+                margin-top: 5%!important;
             }
 
 /* ESTILOS SLIDER */

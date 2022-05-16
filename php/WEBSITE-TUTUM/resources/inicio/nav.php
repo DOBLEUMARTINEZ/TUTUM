@@ -76,13 +76,13 @@
         </li>
 
         <li  class="dropdown-menu-ttm">
-          <a onclick="window.location.href='./';" >Servicios</a>
+          <a onclick="window.location.href='./proyectos';" >Servicios</a>
 
           <ol >
             <li onclick="window.location.href='./proyectos';">
               PROYECTOS INTEGRALES TI
             </li>
-            <li onclick="window.location.href='./';">
+            <li onclick="window.location.href='./operacion';">
               OPERACIÓN DE PROYECTOS​
             </li>
             <li onclick="window.location.href='./';">

@@ -30,9 +30,14 @@ echo '<body>'; // INICIO CUERPO
             include("resources/servicios/contenido.php"); // CONTENIDO
           }
 
-          // SERVICIOS
+          // PROYECTOS
           if (strpos($_GET['seccion'], 'proyectos')===false){}else{
             include("resources/servicios/proyectos.php"); // CONTENIDO
+          }
+
+          // OPERACION
+          if (strpos($_GET['seccion'], 'operacion')===false){}else{
+            include("resources/servicios/operacion-de-proyectos.php"); // CONTENIDO
           }
 
 

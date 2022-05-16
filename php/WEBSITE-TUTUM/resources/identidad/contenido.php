@@ -1,13 +1,13 @@
 <div style="position: relative;">
-	<img src="images/img/FOTO 09.jpg" style="position: fixed; width: 100%; height: 100%; z-index: -99">
+	<img src="images/img/PASILLO.jpg" style="position: fixed; width: 100%; height: 100%; z-index: -99">
   	<!-- BACKGROUND VIDEO 
   	<video class="video-slide" loading="lazy" src="https://www.tutum.com.mx/video/SOLUCIONES.mp4" autoplay="" muted="" loop=""></video>-->
-  	<img class="video-slide" src="images/img/FOTO 09.jpg" style="opacity: 0;">
+  	<img class="video-slide" src="images/img/PASILLO.jpg" style="opacity: 0;">
   		<div class="square-logo-big" >
     <img src="images/logo/LOGO-TUTUM.png" onclick="window.location.href='./';">
     <h2>IDENTIDAD</h2>
     <a id="us"></a>
-    <i class="fas fa-chevron-down" onclick="window.location.href='./#us'"></i>
+    <i class="fas fa-chevron-down" onclick="window.location.href='./identidad#us'"></i>
   </div>
 
 </div>

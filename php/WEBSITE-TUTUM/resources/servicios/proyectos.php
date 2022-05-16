@@ -8,7 +8,7 @@
     <img src="images/logo/LOGO-TUTUM.png" onclick="window.location.href='./';">
     <h2>SERVICIOS</h2>
     <a id="us"></a>
-    <i class="fas fa-chevron-down" onclick="window.location.href='./#us'"></i>
+    <i class="fas fa-chevron-down" onclick="window.location.href='./proyectos#us'"></i>
   </div>
 
 </div>
