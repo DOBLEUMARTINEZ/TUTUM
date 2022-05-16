@@ -1,4 +1,4 @@
-<div class="footer-W" style="background: url('images/img/FOTO 08.jpg');">
+<div class="footer-W">
 
 	<div class="row" >
 		<div class="col-md-6" ></div>

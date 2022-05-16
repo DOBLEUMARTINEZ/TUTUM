@@ -1,7 +1,7 @@
 <div style="position: relative;">
-
+  <video class="video-slide" loading="lazy" style="position: fixed; width: 100%; z-index: -99" src="https://www.tutum.com.mx/video/SOLUCIONES.mp4" autoplay="" muted="" loop=""></video>
   <!-- BACKGROUND VIDEO -->
-  <video class="video-slide" loading="lazy" src="https://www.tutum.com.mx/video/SOLUCIONES.mp4" autoplay="" muted="" loop=""></video>
+  <video class="video-slide" loading="lazy" src="https://www.tutum.com.mx/video/SOLUCIONES.mp4" autoplay="" muted="" loop="" style="opacity: 0;"></video>
 
   <div class="square-logo-big" >
     <img src="images/logo/LOGO-TUTUM.png" onclick="window.location.href='./';">
@@ -12,7 +12,7 @@
 
 </div>
 
-<div class="square-02" style="background: url('images/img/FOTO 09.jpg');">
+<div class="square-02">
   <ul>
     <li>
       <img src="images/icons/desarrollo.png">
@@ -71,17 +71,11 @@
 <hr style="margin-top: 11%;">
 
 <div class="square-03" >
-  <h2>REDES SOCIALES</h2>
-
+  <br><br><br>
   <div>
     <div style="width: 100%; position: relative;">
 
-     <img src="images/img/pc2.png" style="width: 100%; margin: 0% 0%;">
-
-     <iframe style="display: none;" id="video-tutum"
-        title="video tutum"
-        src="https://youtu.be/MxXB8wWU6vg">
-      </iframe>
+     <iframe width="100%" height="500" src="https://www.youtube.com/embed/MxXB8wWU6vg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     </div>
     <ol>

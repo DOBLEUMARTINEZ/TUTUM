@@ -16,13 +16,13 @@
         <li style="width: 10%" >
           <i class="fas fa-bars"></i><br>
           <ol class="menu-mobil">
-            <li onclick="window.location.href='./menu-identidad';">
+            <li onclick="window.location.href='./identidad';">
               IDENTIDAD
             </li>
-            <li onclick="window.location.href='./menu-servicios';">
+            <li onclick="window.location.href='./';">
               SERVICIOS
             </li>
-            <li style="display: none;" onclick="window.location.href='./menu-proyectos';">
+            <li style="display: none;" onclick="window.location.href='./';">
               PROYECTOS
             </li>
             <li onclick="window.location.href='./';">
@@ -41,16 +41,12 @@
 
       <!-- LOGO - SOCIAL MEDIA -->
       <div>
-
-        <?php if(isset($_GET['seccion'])){ }else{?>
         <ol id="social-media-icons">
           <li onclick="window.open('https://www.facebook.com/Tutum-Tech-515010355546588');" ><i class="fab fa-facebook-square"></i></li>
           <li onclick="window.open('https://www.instagram.com/tutumtech/');" ><i class="fab fa-instagram"></i></li>
           <li onclick="window.open('https://www.linkedin.com/company/tutum-tech/mycompany/verification/');" ><i class="fab fa-linkedin"></i></li>
           <li onclick="window.open('https://twitter.com/TutumTech');" ><i class="fab fa-twitter-square"></i></li>
         </ol>
-        <?php }?>
-
       </div>
 
       <!-- RUTAS -->
@@ -59,8 +55,8 @@
         <li  class="dropdown-menu-ttm" onclick="window.location.href='./';">Inicio</li>
 
         <li  class="dropdown-menu-ttm">
-          <a onclick="window.location.href='./menu-identidad';" >Identidad</a>
-          <ol>
+          <a onclick="window.location.href='./identidad';" >Identidad</a>
+          <ol style=" display: none;">
             <li onclick="window.location.href='./identidad#us';">
               ¿Quiénes somos?
             </li>
@@ -80,28 +76,28 @@
         </li>
 
         <li  class="dropdown-menu-ttm">
-          <a onclick="window.location.href='./menu-servicios';" >Servicios</a>
+          <a onclick="window.location.href='./';" >Servicios</a>
 
-          <ol>
-            <li onclick="window.location.href='./servicios#proyectos';">
+          <ol >
+            <li onclick="window.location.href='./proyectos';">
               PROYECTOS INTEGRALES TI
             </li>
-            <li onclick="window.location.href='./servicios#operacion';">
+            <li onclick="window.location.href='./';">
               OPERACIÓN DE PROYECTOS​
             </li>
-            <li onclick="window.location.href='./servicios#cau';">
+            <li onclick="window.location.href='./';">
               CENTRO DE ATENCIÓN A USUARIOS​
             </li>
-            <li onclick="window.location.href='./servicios#sap';">
+            <li onclick="window.location.href='./p';">
               CONSULTORÍA E IMPLEMENTACIÓN SA​P
             </li>
-            <li onclick="window.location.href='./servicios#hospitales';">
+            <li onclick="window.location.href='./';">
               SOLUCIONES HOSPITALARIAS​
             </li>
-            <li onclick="window.location.href='./servicios#ciberseguridad';">
+            <li onclick="window.location.href='./';">
               CIBERSEGURIDAD
             </li>
-            <li onclick="window.location.href='./servicios#fabrica';" >
+            <li onclick="window.location.href='./';" >
               Fabrica de software
             </li>
           </ol>

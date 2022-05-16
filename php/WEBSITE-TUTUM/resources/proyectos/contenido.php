@@ -22,7 +22,7 @@
             include("resources/proyectos/projects/en-desarrollo.php"); //CONTENIDO EN DESARROLLO
           }
 
-        include("resources/error.php"); // ERROR NOT FOUND
+        //include("resources/error.php"); // ERROR NOT FOUND
         
 	?>
 	</div>

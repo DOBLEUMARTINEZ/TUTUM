@@ -485,7 +485,7 @@
                 padding: 20% 0%;
                 left: 0;
                 top: -10vw;
-                background: #26cfe08a;
+                background: #000000ad;
                 text-align: left;
                 transition: 0.3s;
                 z-index: -99;
@@ -1355,9 +1355,11 @@
 
         .square-03{
             width: 100%;
-            padding: 0 10%;
+            padding: 15% 10% 2% 10%;
+            margin-top: -11.7%;
             display: flex;
             flex-wrap: wrap;
+            background: #fff;
         }
 
 
@@ -1447,6 +1449,7 @@
         .square-04{
             margin: 0;
             padding: 0 5%;
+            background: #fff;
         }
 
         .square-04 ol{
@@ -1474,128 +1477,452 @@
 
         .square-04 ol > li > p{
             text-align: justify;
-            font-size: 1.3vw;
+            font-size: 1vw;
             padding: 0% 0% 0% 0%;
             color: #111;
             text-shadow: none!important;
             margin: -5% 0 0 0;
          }
 
-        .square-05 > ul {
-            background-image: url('../images/img/FOTO 01.jpg');
-            margin: -3% 0 0 0;
-            padding: 5% 5%;
-            position: relative;
-            display: flex;
-            justify-content: flex-end;
-            list-style: none;
-            z-index: -9;
-            background-position: bottom;
-        }
-
-        .square-05 > ul > li{
-            width: 11vw;
-            height: 11vw;
-            background: #fff;
-            border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 0 0;
-            margin: 0 0 -10% 2%;
-        }
-
-        .square-05 >ul::before{
-            content: '.';
-            position: absolute;
-            width: 49.8%;
-            height: 15px;
-            background: #4DBED4;
-            bottom:0;
-            left: 0;    
-        }
-
-        .square-05 >ul::after{
-            content: '.';
-            position: absolute;
-            width: 49.8%;
-            height: 15px;
-            background: #fff;
-            bottom: 0;
-            right: 0;
-        }
-
-        .square-06 {
-            width: 100%;
-        }
-
-        .square-06 h2 {
-            width: 100%;
-            background: #000;
-            padding: 3% 5%;
-            color: #fff;
-            margin: 0%;
-        }
-
-        .square-06 ol {
-            width: 100%;
-            margin: 0;
-            padding: 0;
-            list-style: none;
-            display: flex;
-            justify-content: flex-start;
-            position: relative;
-        }
-
-        .square-06 >ol::before{
-            content: '.';
-            position: absolute;
-            width: 49.8%;
-            height: 15px;
-            background: #a5a5a5;
-            bottom:0;
-            left: 0;    
-        }
-
-        .square-06 >ol::after{
-            content: '.';
-            position: absolute;
-            width: 49.8%;
-            height: 15px;
-            background: #4DBED4;
-            bottom: 0;
-            right: 0;
-        }
-
-        .square-06 ol > li {
-            width: 50%;
-        }
-
-        .square-06 ol > li > p{
-            text-align: justify;
+         .square-04 button{
+            padding: 1%;
+            border: 5px solid #4dbed4;
+            border-radius: 48px;
+            outline: none;
             font-size: 1vw;
-            padding: 3% 10%;
-            color: #111;
-            text-shadow: none!important;
-            margin: 0 0 0 0;
-        }
+            background: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 60%;
+            margin: 3% 20%;
+         }
 
-        .square-06 ol > li > h3{
-            width: 100%;
-            margin: 0;
-            padding: 4% 10%;
-            background: #a5a5a5;
-            color: #fff;
-            font-weight: bold;
-            letter-spacing: 0.5px;
-        }
+         .square-04 button > p {
+            width: 70%;
+            font-size: 1vw;
+         }
 
-        .square-06 ol > li > img{
-            width: 100%;
-        }
+         .square-04 button > img {
+            width: 30%;
+            padding: 5%;
+         }
 
-        
+        /* square 5 */
 
+            .icons-count{
+                flex-direction: column!important;
+            }
+
+            .icons-count img{
+                width: 40%!important;
+                margin: 0%!important;
+            }
+
+            .icons-count h3{
+                color: #4DBED4;
+                text-shadow: none!important;
+                font-weight: bold;
+                font-size: 2vw!important;
+            }
+
+            .icons-count p{
+                padding: 0 11%;
+                font-size: 0.8vw;
+                text-align: center;
+                text-shadow: none!important;
+                font-weight: bold;
+            }
+
+            .square-05 > ul {
+                margin: 0% 0 0 0;
+                padding: 2.5% 5%;
+                position: relative;
+                display: flex;
+                justify-content: flex-end;
+                list-style: none;
+                background: #00000094;
+                z-index: 0;
+                background-position: bottom;
+            }
+
+            .square-05 > ul > li{
+                width: 11vw;
+                height: 11vw;
+                background: #fff;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 0 0;
+                margin: 0 0 0 2%;
+                border: 5px solid #4DBED4;
+            }
+
+            .square-05 > ul > li > img{
+                width: 70%;
+                margin: 15%
+            }
+
+            .square-05 >ul::before{
+                content: '.';
+                position: absolute;
+                width: 49.8%;
+                height: 15px;
+                background: #4DBED4;
+                bottom:0;
+                left: 0;    
+            }
+
+            .square-05 >ul::after{
+                content: '.';
+                position: absolute;
+                width: 49.8%;
+                height: 15px;
+                background: #fff;
+                bottom: 0;
+                right: 0;
+            }
+
+            .square-05 > ol {
+                background: #00000094;
+                margin: 0 0 0 0;
+                padding: 2.5% 5%;
+                position: relative;
+                display: flex;
+                justify-content: flex-end;
+                list-style: none;
+                z-index: -9;
+                background-position: bottom;
+            }
+
+            .square-05 > ol > li{
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .square-05 > ol > li > img{
+                width: 20%;
+                padding: 0.5% 2%;
+            }
+
+
+        /* 6 */
+
+            .square-06 {
+                width: 100%;
+            }
+
+            .square-06 h2 {
+                width: 100%;
+                background: #000;
+                padding: 3% 5%;
+                color: #fff;
+                margin: 0%;
+            }
+
+            .square-06 ol {
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                display: flex;
+                justify-content: flex-start;
+                position: relative;
+                background: #fff;
+            }
+
+            .square-06 >ol::before{
+                content: '.';
+                position: absolute;
+                width: 49.8%;
+                height: 15px;
+                background: #4DBED4;
+                bottom:0;
+                left: 0;    
+            }
+
+            .square-06 >ol::after{
+                content: '.';
+                position: absolute;
+                width: 49.8%;
+                height: 15px;
+                background: #a5a5a5;
+                bottom: 0;
+                right: 0;
+            }
+
+            .square-06 ol > li {
+                width: 50%;
+            }
+
+            .square-06 ol > li > p{
+                text-align: justify;
+                font-size: 1vw;
+                padding: 3% 10%;
+                color: #111;
+                text-shadow: none!important;
+                margin: 0 0 0 0;
+            }
+
+            .square-06 ol > li > h3{
+                width: 100%;
+                margin: 0;
+                padding: 4% 10%;
+                background: #a5a5a5;
+                color: #fff;
+                font-weight: bold;
+                letter-spacing: 0.5px;
+            }
+
+            .square-06 ol > li > img{
+                width: 100%;
+            }
+
+            .square-06  ol > li > ul {
+                width: 100%;
+                margin: 0% 0%; 
+                padding: 2% 3%;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                list-style: none;
+            }
+
+            .square-06  ol > li > ul > li{
+                font-size: 1vw;
+                width: 70%;
+                padding: 3% 0%;
+            }
+
+            .square-06  ol > li > ul > li > i{
+                font-size: 0.5vw;
+                margin-bottom: 0.5vw
+            }
+
+            .square-06  ol > li > ul > li > img{
+                width: 50%;
+                margin: 0 25%;
+            }
+
+        /* SERVICES PROYECTOS 7 */
+
+            .square-07{
+                position: relative;
+                border-top: 0px solid #fff;
+                margin-top: -15px;
+            }
+
+            .square-07 ul{
+                display: flex;
+                margin: 0;
+                padding:  3% 1%  7% 1%;
+                list-style: none;
+                background: #000;
+                flex-wrap: nowrap;
+                flex-direction: row;
+                align-content: center;
+                align-items: center;
+                justify-content: space-around;
+            }
+
+            .square-07 ul>li {
+                width: 13vw;
+                height: 13vw;
+                background: #fff;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                border:0.5vw solid #4DBED4;
+                position: relative;
+            }
+
+            .square-07 ul>li>img {
+                width: 50%;
+            }
+
+            .square-07 ul>li>h2{
+                position: absolute;
+                bottom: -40%;
+                color: #fff;
+                font-size: 0.9vw;
+                text-align: center;
+                padding: 0 10%;
+            }
+
+            .square-07::before{
+                content: '.';
+                position: absolute;
+                width: 50%;
+                height: 15px;
+                background: #C0C5D1;
+                bottom:0;
+                left: 0;    
+            }
+
+            .square-07::after{
+                content: '.';
+                position: absolute;
+                width: 50%;
+                height: 15px;
+                background: #4DBED4;
+                bottom: 0;
+                right: 0;
+            }
+
+        /* 8 */
+
+            .square-08 > ul {
+                background: #00000094;
+                margin: 0% 0 0 0;
+                padding: 2.5% 5%;
+                position: relative;
+                display: flex;
+                justify-content: flex-end;
+                list-style: none;
+                z-index: -9;
+                background-position: bottom;
+            }
+
+            .square-08 > ul > li{
+                width: 22vw;
+                height: 22vw;
+                background: #fff;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 3% 3%;
+                margin: 0 0 0 2%;
+                border: 5px solid #4DBED4;
+                flex-wrap: wrap;
+                align-content: center;
+            }
+
+            .square-08 > ul > li > h2{
+                width: 100%;
+                font-size: 1.2vw;
+                text-align: center;
+                color: #8AECF9;
+            }
+
+            .square-08 > ul > li > ol{
+                display: flex;
+                list-style: none;
+                flex-wrap: wrap;
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .square-08 > ul > li > ol> li > img{
+                width: 100%;
+                margin: 15%
+            }
+
+        /* 9 */
+            .square-09 {
+                width: 100%;
+                background: #fff;
+            }
+
+            .square-09 h2 {
+                width: 100%;
+                background: #000;
+                padding: 3% 5%;
+                color: #fff;
+                margin: 0%;
+            }
+
+            .square-09 div {
+                width: 100%;
+                padding: 0 2.5%;
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .square-09 div > div {
+                width: 50%;
+            }
+
+            .square-09 div > div > h3{
+                width: 100%;
+                padding: 5% 0;
+                text-align: center;
+                font-weight: bold;
+                color: #4dbed4;
+                font-size: 1.5vw;
+                text-shadow: none!important;
+            }
+
+            .square-09 div > div > ol{
+                width: 100%;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .square-09 div > div > ol > li{
+                width: 50%;
+                text-align: left;
+                font-size: 1vw;
+            }
+
+            .square-09 div > div > ol > li > img {
+                width: 25%;
+                margin: 10% 35% 10% 35%;
+
+            }
+
+            .square-09 div > div > ul {
+                display: flex;
+                width: 100%;
+                padding: 0;
+                margin: 0;
+                justify-content: flex-start;
+                align-items: center;
+                list-style: none;
+            }
+
+            .square-09 div > div > ul > li{
+                text-align: left;
+                font-size: 1vw;
+            }
+
+             .square-09 div > div > ul > li > img{
+                width: 50%;
+                margin: 0% 25%;
+            }
+
+        /**/
+
+            .square-paralax {
+                position: relative;
+                padding: 8%;
+                margin: 0% 0 0 0;
+                width: 100%;
+                background: #00000094;
+            }
+
+            .logos-contratos{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                align-content: flex-start;
+                flex-wrap: wrap;
+                align-items: center;
+            }
+
+            .logos-contratos img{
+                width: 30%;
+                padding: 0 2%;
+            }
 
 /* ESTILOS SLIDER */
 
@@ -1853,9 +2180,10 @@
         width:100%;
         margin-left: auto;
         margin-right: auto;
-        margin: 3% 0% 0% 0%;
+        margin: 0% 0% 0% 0%;
         padding: 3% 2% 1% 2% ;
         bottom: 0;
+        background: #00000094;
     }
 
     .footer-W h4 {

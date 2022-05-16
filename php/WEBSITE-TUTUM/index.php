@@ -32,7 +32,7 @@ echo '<body>'; // INICIO CUERPO
 
           // SERVICIOS
           if (strpos($_GET['seccion'], 'proyectos')===false){}else{
-            include("resources/proyectos/contenido.php"); // CONTENIDO
+            include("resources/servicios/proyectos.php"); // CONTENIDO
           }
 
 
@@ -46,7 +46,7 @@ echo '<body>'; // INICIO CUERPO
               include("resources/servicios/menu.php"); // MENU SERVICIOS
               break;
             case 'proyectos':
-                include("resources/proyectos/menu.php"); // MENU SERVICIOS
+                include("resources/servicios/proyectos.php"); // MENU SERVICIOS
               break;
             default:
               include("resources/error.php"); // ERROR NOT FOUND
