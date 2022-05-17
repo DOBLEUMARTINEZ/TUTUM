@@ -1,17 +1,18 @@
 <div style="position: relative;">
+	<!-- -->
 	<img src="images/img/PASILLO.jpg" style="position: fixed; width: 100%; height: 100%; z-index: -99">
-  	<!-- BACKGROUND VIDEO 
-  	<video class="video-slide" loading="lazy" src="https://www.tutum.com.mx/video/SOLUCIONES.mp4" autoplay="" muted="" loop=""></video>-->
   	<img class="video-slide" src="images/img/PASILLO.jpg" style="opacity: 0;">
-  		<div class="square-logo-big" >
-    <img src="images/logo/LOGO-TUTUM.png" onclick="window.location.href='./';">
-    <h2>IDENTIDAD</h2>
-    <a id="us"></a>
-    <i class="fas fa-chevron-down" onclick="window.location.href='./identidad#us'"></i>
-  </div>
 
+  	<!-- -->
+  	<div class="square-logo-big" >
+	    <img src="images/logo/LOGO-TUTUM.png" onclick="window.location.href='./';">
+	    <h2>IDENTIDAD</h2>
+	    <a id="start"></a>
+	    <i class="fas fa-chevron-down arrow-down " onclick="window.location.href='./identidad#start'"></i>
+  	</div>
 </div>
 
+<!-- -->
 <div class="square-04">
 	<ol>
 		<li>
@@ -25,12 +26,17 @@
 		</li>
 	</ol>
 </div>
+
+<!-- -->
 <div class="square-05">
 	<ul>
+		<span></span>
 		<li><img src="images/icons/iso.png" ></li>
 		<li><img src="images/icons/iso2.png" ></li>
 	</ul>
 </div>
+
+<!-- -->
 <div class="square-06">
 	<h2>MISIÓN</h2>
 	<ol>
@@ -49,6 +55,8 @@
 		<li style="background: url('images/img/FOTO 09.jpg');background-position: center;"></li>
 	</ol>
 </div>
+
+<!-- -->
 <div class="square-04">
 	<ol>
 		<li>
@@ -61,8 +69,11 @@
 		</li>
 	</ol>
 </div>
+
+<!-- -->
 <div class="square-05">
 	<ul>
+		<span></span>
 		<li class="icons-count" >
 			<img src="images/icons/barra-grafica-2.png" >
 			<h3>6</h3>
@@ -75,8 +86,10 @@
 		</li>
 	</ul>
 </div>
+
+<!-- -->
 <div class="square-06">
-	<h2>CONTRATOS</h2>
+	<h2>SECTORES</h2>
 	<ol>
 		<li>
 
@@ -110,6 +123,8 @@
 		<li style="background: url('images/img/PROYECTOS/VILLAHERMOSA/VHT01.jpg');background-position: center;background-size: 100%;"></li>
 	</ol>
 </div>
+
+<!-- -->
 <div class="square-04">
 	<ol>
 		<li>
@@ -122,12 +137,14 @@
 		</li>
 	</ol>
 </div>
+
+<!-- -->
 <div class="square-05">
 	<ol style="position: relative;
     background: #ffffff;
-    padding: 3% 5% 3% 5%;" >
-		<li style="width: 40%;"></li>
-		<li style="width: 60%;">
+    padding: 0% 5% 2% 5%;" >
+		<li style="width: 50%;"></li>
+		<li style="width: 50%;">
 			<img src="images/img/socios/logo-1.png" >
 			<img src="images/img/socios/logo-14.png" >
 			<img src="images/img/socios/logo-20.png" >
@@ -147,6 +164,8 @@
 		<span></span>
 	</ol>
 </div>
+
+<!-- -->
 <div class="square-06">
 	<h2>CLIENTES</h2>
 	<ol>
@@ -167,6 +186,8 @@
 		<li style="background: url('images/img/PROYECTOS/TAPACHULA/IMSS.jpg');background-position: center;background-size: 100%;"></li>
 	</ol>
 </div>
+
+<!-- -->
 <div class="square-04">
 	<ol>
 		<li>

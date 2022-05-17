@@ -1,70 +1,60 @@
 <?php
 echo '<!DOCTYPE html><html lang="es">';
 
-  // VALIDAR SECCION
-  if (isset($_GET['seccion'])) {
-    $name_seccion = $_GET['seccion'];
-  }else{
-    $name_seccion = 'TUTUM | Consultoría tecnológica y soluciones integrales de TI';
+  // VALIDAR SECCION - TITULO DE SECCION
+  if (isset($_GET['seccion'])){ 
+    $name_seccion = 'TUTUM | '.$_GET['seccion'];  
+  }else{ 
+    $name_seccion = 'TUTUM | Consultoría tecnológica y soluciones integrales de TI'; 
   }
+  
+  // HEAD
+  include("resources/inicio/head.php"); 
 
-  include("resources/inicio/head.php"); // HEAD
+  // ALERTAS DE CONFIRMACIÓN
+  //include('resources/alertas/alertas_01.php'); 
 
-  include('resources/alertas/alertas_01.php'); // ALERTA CONFIRM
+// INICIO CUERPO
+echo '<body>';
+  
+  // BARRRA DE NAVEGACIÓN
+  include("resources/inicio/nav.php"); 
+    
+    // SECCIONES
+    if (isset($_GET['seccion'])) {  
 
-echo '<body>'; // INICIO CUERPO
-
-  include("resources/inicio/nav.php"); // BARRRA DE NAVEGACIÓN
-
-    if (isset($_GET['seccion'])) {  // SECCIONES
-
-        if(strpos($_GET['seccion'], 'menu')===false){
-
-          // IDENTIDAD 
-          if (strpos($_GET['seccion'], 'identidad')===false){}else{
+        switch ($_GET['seccion']) {
+          case 'identidad':
             include("resources/identidad/contenido.php"); // CONTENIDO
-          }
+            break;
 
-          // SERVICIOS
-          if (strpos($_GET['seccion'], 'servicios')===false){}else{
-            include("resources/servicios/contenido.php"); // CONTENIDO
-          }
-
-          // PROYECTOS
-          if (strpos($_GET['seccion'], 'proyectos')===false){}else{
+          case 'proyectos':
             include("resources/servicios/proyectos.php"); // CONTENIDO
-          }
+            break;
 
-          // OPERACION
-          if (strpos($_GET['seccion'], 'operacion')===false){}else{
+          case 'operacion':
             include("resources/servicios/operacion-de-proyectos.php"); // CONTENIDO
-          }
+            break;
 
-
-        }else{ // MENU
-          $seccion = str_replace('menu-', '', $_GET['seccion']);
-          switch ($seccion) {
-            case 'identidad':
-              include("resources/identidad/menu.php"); // MENU IDENTIDAD
-              break;
-            case 'servicios':
-              include("resources/servicios/menu.php"); // MENU SERVICIOS
-              break;
-            case 'proyectos':
-                include("resources/servicios/proyectos.php"); // MENU SERVICIOS
-              break;
-            default:
-              include("resources/error.php"); // ERROR NOT FOUND
-              break;
-          }
+          case 'cau':
+            dd($_GET['seccion']);
+            include("resources/servicios/cau.php"); // CONTENIDO
+            break;
+          
+          default:
+            include("resources/error.php");
+            exit();
+            break;
         }
 
     }else{
-       include("resources/inicio/contenido.php"); // CONTRENEDOR DEL CUERPO DEL INDEX
+
+      // CONTRENEDOR DEL CUERPO DEL INDEX
+      include("resources/inicio/contenido.php"); 
     }
 
-  include 'resources/inicio/footer.php'; // PIE DE PAGINA
-
+  // PIE DE PAGINA
+  include 'resources/inicio/footer.php'; 
 echo '</body></html>';// FIN CUERPO
 
 ?>

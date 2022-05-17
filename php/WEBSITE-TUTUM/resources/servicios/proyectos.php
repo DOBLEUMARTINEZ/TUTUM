@@ -1,18 +1,20 @@
 <div style="position: relative;">
+
+	<!-- -->
 	<img src="images/img/serv.jpg" style="position: fixed; width: 100%; height: 100%; z-index: -99">
-  	<!-- BACKGROUND VIDEO 
-  	<video class="video-slide" loading="lazy" src="https://www.tutum.com.mx/video/SOLUCIONES.mp4" autoplay="" muted="" loop=""></video>-->
   	<img class="video-slide" src="images/img/serv.jpg" style="opacity: 0;">
 
-  <div class="square-logo-big" >
-    <img src="images/logo/LOGO-TUTUM.png" onclick="window.location.href='./';">
-    <h2>SERVICIOS</h2>
-    <a id="us"></a>
-    <i class="fas fa-chevron-down" onclick="window.location.href='./proyectos#us'"></i>
-  </div>
+  	<!-- -->
+  	<div class="square-logo-big" >
+	    <img src="images/logo/LOGO-TUTUM.png" onclick="window.location.href='./';">
+	    <h2>SERVICIOS</h2>
+	    <a id="start"></a>
+	    <i class="fas fa-chevron-down arrow-down" onclick="window.location.href='./proyectos#start'"></i>
+  	</div>
 
 </div>
 
+<!-- MENU SERCICES -->
 <div class="square-07" style="background: url('images/img/FOTO 09.jpg');">
   <ul>
     <li>
@@ -46,6 +48,7 @@
   </ul>
 </div>
 
+<!-- -->
 <div class="square-04">
 	<ol>
 		<li>
@@ -59,13 +62,13 @@
 		</li>
 	</ol>
 </div>
-<div class="square-05">
-	<ol style="padding: 8%;" >
-		<li></li>
-		<li></li>
-		<span></span>
-	</ol>
+
+<!-- -->
+<div class="square-paralax">
+	<span></span>
 </div>
+
+<!-- -->
 <div class="square-06">
 	<h2>EXPERIENCIA EN DISEÑO E IMPLEMENTACION</h2>
 	<ol>
@@ -98,6 +101,8 @@
 		<li style="background: url('images/img/PROYECTOS/ESCUELA NAVAL/ENCARRETE01.jpg');background-position: center;background-size: 100%;"></li>
 	</ol>
 </div>
+
+<!-- -->
 <div class="square-04">
 	<ol>
 		<li>
@@ -110,8 +115,11 @@
 		</li>
 	</ol>
 </div>
+
+<!-- -->
 <div class="square-08">
 	<ul>
+		<span></span>
 		<li>
 			<h2>Desarrollo e Implementación de hardware y software en:</h2>
 			<ol>
@@ -143,6 +151,8 @@
 		</li>
 	</ul>
 </div>
+
+<!-- -->
 <div class="square-09">
 	<h2>CATALOGO DE SOLUCIONES</h2>
 	<div>
@@ -200,10 +210,12 @@
 	<br><br>
 </div>
 
+<!-- -->
 <div class="square-paralax">
-
+	<span></span>
 </div>
 
+<!-- -->
 <div class="square-04">
 	<ol>
 		<li>

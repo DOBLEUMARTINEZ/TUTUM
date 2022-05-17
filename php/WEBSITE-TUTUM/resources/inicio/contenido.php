@@ -1,47 +1,50 @@
 <div style="position: relative;">
-  <video class="video-slide" loading="lazy" style="position: fixed; width: 100%; z-index: -99" src="https://www.tutum.com.mx/video/SOLUCIONES.mp4" autoplay="" muted="" loop=""></video>
+
   <!-- BACKGROUND VIDEO -->
+  <video class="video-slide" loading="lazy" style="position: fixed; width: 100%; z-index: -99" src="https://www.tutum.com.mx/video/SOLUCIONES.mp4" autoplay="" muted="" loop=""></video>
   <video class="video-slide" loading="lazy" src="https://www.tutum.com.mx/video/SOLUCIONES.mp4" autoplay="" muted="" loop="" style="opacity: 0;"></video>
 
+  <!-- TUTU LOGO -->
   <div class="square-logo-big" >
     <img src="images/logo/LOGO-TUTUM.png" onclick="window.location.href='./';">
     <h2>SOLUCIONES EN TECNOLOGÍA</h2>
-    <a id="us"></a>
-    <i class="fas fa-chevron-down" onclick="window.location.href='./#us'"></i>
+    <a id="start"></a>
+    <i class="fas fa-chevron-down arrow-down"  onclick="window.location.href='./#start'"></i>
   </div>
 
 </div>
 
+<!-- -->
 <div class="square-02">
   <ul>
     <li>
       <img src="images/icons/desarrollo.png">
-      <h3>+400K</h3>
+      <h3>+ <a class="counter" data-count="400">0</a> K</h3>
       <p>METROS DE FIBRA ÓPTICA CERTIFICADOS</p>
     </li>
     <li>
       <img src="images/icons/desarrollo.png">
-      <h3>+980K​</h3>
+      <h3>+ <a class="counter" data-count="980">0</a> K​</h3>
       <p>METROS DE UTP CERTIFICADOS​</p>
     </li>
     <li>
       <img src="images/icons/desarrollo.png">
-      <h3>+40K​</h3>
+      <h3>+ <a class="counter" data-count="40">0</a> K​</h3>
       <p>DISPOSITIVOS DE SEGURIDAD PERIMETRAL​</p>
     </li>
     <li>
       <img src="images/icons/desarrollo.png">
-      <h3>+1000​</h3>
+      <h3>+ <a class="counter" data-count="1000">0</a></h3>
       <p>EQUIPOS DE INFORMÁTICA Y SERVIDORES​</p>
     </li>
     <li>
       <img src="images/icons/desarrollo.png">
-      <h3>+10K</h3>
+      <h3>+<a class="counter" data-count="10">0</a>K</h3>
       <p>EQUIPOS DE COMPUTO IMPRESIÓN Y TELEFONÍA​</p>
     </li>
     <li>
       <img src="images/icons/desarrollo.png">
-      <h3>+600​</h3>
+      <h3>+ <a class="counter" data-count="600">0</a> </h3>
       <p>CUARTOS DE COMUNICACIÓN EQUIPADOS​</p>
     </li>
   </ul>
@@ -70,6 +73,7 @@
 
 <hr style="margin-top: 11%;">
 
+<!-- -->
 <div class="square-03" >
   <br><br><br>
   <div>

@@ -56,23 +56,6 @@
 
         <li  class="dropdown-menu-ttm">
           <a onclick="window.location.href='./identidad';" >Identidad</a>
-          <ol style=" display: none;">
-            <li onclick="window.location.href='./identidad#us';">
-              ¿Quiénes somos?
-            </li>
-            <li onclick="window.location.href='./identidad#vision-mision';">
-              Misión y vision
-            </li>
-            <li onclick="window.location.href='./identidad#experiencia';">
-              Nuestra experiencia
-            </li>
-            <li onclick="window.location.href='./identidad#clientes';">
-              Nuetros clientes
-            </li>
-            <li onclick="window.location.href='./identidad#socios';">
-              Socios de negocio
-            </li>
-          </ol>
         </li>
 
         <li  class="dropdown-menu-ttm">

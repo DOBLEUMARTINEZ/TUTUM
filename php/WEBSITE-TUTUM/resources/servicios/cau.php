@@ -1,51 +1,53 @@
 <div style="position: relative;">
+
+	<!-- -->
 	<img src="images/img/operacion.jpg" style="position: fixed; width: 100%; height: 100%; z-index: -99">
-  	<!-- BACKGROUND VIDEO 
-  	<video class="video-slide" loading="lazy" src="https://www.tutum.com.mx/video/SOLUCIONES.mp4" autoplay="" muted="" loop=""></video>-->
-  	<img class="video-slide" src="images/img/operacion.jpg" style="opacity: 0;">
+	<img class="video-slide" src="images/img/operacion.jpg" style="opacity: 0;">
 
-  <div class="square-logo-big" >
-    <img src="images/logo/LOGO-TUTUM.png" onclick="window.location.href='./';">
-    <h2>SERVICIOS</h2>
-    <a id="us"></a>
-    <i class="fas fa-chevron-down arrow-down" onclick="window.location.href='./operacion#us'"></i>
-  </div>
-
+	<!-- -->
+	<div class="square-logo-big">
+	  	<img src="images/logo/LOGO-TUTUM.png" onclick="window.location.href='./';">
+	    <h2>CAU</h2>
+	    <a id="start"></a>
+	    <i class="fas fa-chevron-down arrow-down" onclick="window.location.href='./operacion#us'"></i>
+	</div>
 </div>
 
+<!-- -->
 <div class="square-07" style="background: url('images/img/FOTO 09.jpg');">
-  <ul>
-    <li>
-      <img src="images/icons/implementacion.png">
-      <h2>DESARROLLO DE PORYECTOS TI</h2>
-    </li>
-    <li>
-      <img src="images/icons/sap.png">
-      <h2>OPERACIÓN DE PROYECTOS​</h2>
-    </li>
-    <li>
-      <img src="images/icons/cau.png">
-      <h2>CENTRO DE ATENCIÓN A USUARIOS​</h2>
-    </li>
-    <li>
-      <img src="images/icons/document-2.png">
-      <h2>CONSULTORÍA E IMPLEMENTACIÓN SAP​</h2>
-    </li>
-    <li>
-      <img src="images/icons/informe-medico-2.png">
-      <h2>SOLUCIONES HOSPITALARIAS​</h2>
-    </li>
-    <li>
-      <img src="images/icons/encrypted-2.png">
-      <h2>CIBERSEGURIDAD<br><br></h2>
-    </li>
-    <li>
-      <img src="images/icons/engineering-2.png">
-      <h2>FABRICA DE SOFTWARE​</h2>
-    </li>
-  </ul>
+	<ul>
+	    <li>
+	      <img src="images/icons/implementacion.png">
+	      <h2>DESARROLLO DE PORYECTOS TI</h2>
+	    </li>
+	    <li>
+	      <img src="images/icons/sap.png">
+	      <h2>OPERACIÓN DE PROYECTOS​</h2>
+	    </li>
+	    <li>
+	      <img src="images/icons/cau.png">
+	      <h2>CENTRO DE ATENCIÓN A USUARIOS​</h2>
+	    </li>
+	    <li>
+	      <img src="images/icons/document-2.png">
+	      <h2>CONSULTORÍA E IMPLEMENTACIÓN SAP​</h2>
+	    </li>
+	    <li>
+	      <img src="images/icons/informe-medico-2.png">
+	      <h2>SOLUCIONES HOSPITALARIAS​</h2>
+	    </li>
+	    <li>
+	      <img src="images/icons/encrypted-2.png">
+	      <h2>CIBERSEGURIDAD<br><br></h2>
+	    </li>
+	    <li>
+	      <img src="images/icons/engineering-2.png">
+	      <h2>FABRICA DE SOFTWARE​</h2>
+	    </li>
+	</ul>
 </div>
 
+<!-- -->
 <div class="square-04">
 	<ol>
 		<li>
@@ -59,10 +61,12 @@
 	</ol>
 </div>
 
+<!-- -->
 <div class="square-paralax">
 	<span></span>
 </div>
 
+<!-- -->
 <div class="square-06">
 	<h2>EXPERIENCIA EN OPERACIÓN</h2>
 	<ol>
@@ -95,6 +99,7 @@
 	</ol>
 </div>
 
+<!-- -->
 <div class="square-04">
 	<ol>
 		<li>
@@ -107,7 +112,8 @@
 		</li>
 	</ol>
 </div>
-	
+
+<!-- -->	
 <div class="square-05">
 	<ul>
 		<li style="width: 15vw;height: 15vw;" class="icons-count" >
@@ -123,6 +129,7 @@
 	</ul>
 </div>
 
+<!-- -->
 <div class="square-09">
 	<h2>CATALOGO DE SOLUCIONES</h2>
 	<div style="align-items: flex-start;">
@@ -191,10 +198,12 @@
 	<br><br>
 </div>
 
+<!-- -->
 <div class="square-paralax">
 	<span></span>
 </div>
 
+<!-- -->
 <div class="square-04">
 	<ol>
 		<li>
