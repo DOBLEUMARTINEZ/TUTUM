@@ -18,7 +18,8 @@
 <div class="square-07" style="background: url('images/img/FOTO 09.jpg');">
   <ul>
     <li>
-      <img src="images/icons/implementacion.png">
+      <img src="images/icons/implementacion.png" class="icon-menu-black">
+      <img src="images/icons/implementacion-2.png" class="icon-menu-white" >
       <h2>DESARROLLO DE PORYECTOS TI</h2>
     </li>
     <li>
@@ -224,7 +225,7 @@
 		<li style="text-align: center;">
 			<button>
 				<p>DESCARAGA NUESTRO<br> CURRICULUM</p>
-				<img src="images/icons/descargar-pdf.png">
+				<img src="images/icons/descargar-pdf.png" class="arrow-down">
 			</button>
 		</li>
 	</ol>

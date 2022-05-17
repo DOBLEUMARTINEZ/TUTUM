@@ -196,7 +196,7 @@
 		<li style="text-align: center;">
 			<button>
 				<p>DESCARAGA NUESTRO<br> CURRICULUM</p>
-				<img src="images/icons/descargar-pdf.png">
+				<img src="images/icons/descargar-pdf.png" class="arrow-down">
 			</button>
 		</li>
 	</ol>
