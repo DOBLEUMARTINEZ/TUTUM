@@ -108,11 +108,11 @@
           position: absolute;
           width: 60%;
           height: 80%;
-          left: 20%;
+          left: 19.5%;
           top: 10%;
           border-radius: 30px;
           z-index: 2;" 
-        src="https://www.linkedin.com/embed/feed/update/urn:li:share:6932344749928439809"  frameborder="0" allowfullscreen="" title="Publicación integrada">
+        src="https://www.linkedin.com/embed/feed/update/urn:li:share:6924842538818293760"  frameborder="0" allowfullscreen="" title="Publicación integrada">
         </iframe>
     </div>
   </div>
