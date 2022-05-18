@@ -204,13 +204,18 @@
 				<img src="images/img/socios/logo-02.png" >	
 			</div>
 
-
 		</li>
-		<li style="background: url('images/img/PROYECTOS/TAPACHULA/IMSS.jpg');background-position: center;background-size: 100%;"></li>
+		<li style="
+		background: url('images/img/PROYECTOS/TAPACHULA/IMSS.jpg');
+		background-size: 100%;
+			background-position: center;
+			border-bottom: 1.5vw solid #fff;
+			border-top: 1.5vw solid #fff;
+		"></li>
 	</ol>
 </div>
 
-<!-- -->
+<!-- DESCARGAR PDF -->
 <div class="square-04" style="background: #0000;padding-bottom: 5%;">
 	<ol>
 		<li>
@@ -218,7 +223,7 @@
 		</li>
 		<li style="text-align: center; background: #fff;">
 			<button>
-				<p>DESCARAGA NUESTRO<br> CURRICULUM</p>
+				<p>DESCARGA NUESTRO CATALOGO DE SERVICIOS</p>
 				<img src="images/icons/descargar-pdf.png" class="arrow-down">
 			</button>
 		</li>
