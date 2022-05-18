@@ -1507,10 +1507,12 @@
             border-radius: 30px;
         }
 
+        /* 4 */
+
         .square-04{
             margin: 0;
-            padding: 0 5%;
-            background: #fff;
+            padding: 0 0%;
+            background: #ffffff73;
         }
 
         .square-04 ol{
@@ -1520,7 +1522,7 @@
             width: 100%;
             margin: 0% 0%;
             padding: 0;
-            align-items: center;
+            align-items: flex-start
         }
 
         .square-04 ol > li{
@@ -1528,21 +1530,23 @@
         }
 
          .square-04 ol > li > h2{
-            width: 70%;
+            width: 60%;
             background: #000;
             color: #fff;
-            margin: 0% 15% ;
-            padding: 20% 0%;
+            margin: 0% 20%;
+            padding: 11% 0%;
+            font-family: 'Roboto', sans-serif!important;
             text-align: center;
          }
 
         .square-04 ol > li > p{
             text-align: justify;
             font-size: 1vw;
-            padding: 0% 0% 0% 0%;
+            padding: 7% 5% 7% 5%;
             color: #111;
             text-shadow: none!important;
-            margin: -5% 0 0 0;
+            margin: 0% 0 0 0;
+            background: #fff;
          }
 
          .square-04 button{
@@ -1609,7 +1613,7 @@
 
             .square-05 > ul {
                 margin: 0% 0 0 0;
-                padding: 5% 5%;
+                padding: 4% 1%;
                 position: relative;
                 display: flex;
                 justify-content: flex-end;
@@ -1713,7 +1717,7 @@
 
             .square-06 ol {
                 width: 100%;
-                margin: 0;
+                margin: 0 0 15px 0;
                 padding: 0;
                 list-style: none;
                 display: flex;
@@ -1725,20 +1729,20 @@
             .square-06 >ol::before{
                 content: '.';
                 position: absolute;
-                width: 49.8%;
+                width: 50%;
                 height: 15px;
-                background: #4DBED4;
-                bottom:0;
+                background: #C0C5D1;
+                bottom:-15px;
                 left: 0;    
             }
 
             .square-06 >ol::after{
                 content: '.';
                 position: absolute;
-                width: 49.8%;
+                width: 50%;
                 height: 15px;
-                background: #a5a5a5;
-                bottom: 0;
+                background: #4DBED4;
+                bottom: -15px;
                 right: 0;
             }
 
@@ -1753,6 +1757,11 @@
                 color: #111;
                 text-shadow: none!important;
                 margin: 0 0 0 0;
+            }
+
+            .square-06 ol > li > p > span{
+                font-weight: bold;
+                color: #4dbed4;
             }
 
             .square-06 ol > li > h3{
@@ -2018,6 +2027,71 @@
              .square-09 div > div > ul > li > img{
                 width: 50%;
                 margin: 0% 25%;
+            }
+
+        /**/
+
+            .square-10{
+                background: #ffffff73;
+                padding: 10% 0 0 0;
+            }
+
+            .square-10 ul{
+                display: flex;
+                margin: 0% 0 0 0;
+                padding: 0% 1% 1% 1%;
+                list-style: none;
+                background: #000;
+                flex-wrap: nowrap;
+                flex-direction: row;
+                align-content: center;
+                align-items: center;
+                justify-content: space-around;
+            }
+
+            .square-10 ul>li {
+                width: 13vw;
+                height: 13vw;
+                background: #fff;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                border: 0.5vw solid #4DBED4;
+                transition: 0.5s;
+                margin: -7% 0 0 0;
+            }
+
+            .square-10 ul>li:hover {
+                border:0.5vw solid #CBF41C;
+                transition: 0.5s;
+            }
+
+            .square-10 ul>li:hover h3 {
+                color: #CBF41C;
+                transition: 0.3s;
+            }
+
+            .square-10 ul>li>img {
+                width: 25%;
+            }
+
+            .square-10 ul>li>h3 {
+                color: #4DBED4;
+                font-weight: bold;
+                margin: 0;
+                padding: 3% 0;
+                transition: 0.3s;
+            }
+
+            .square-10 ul>li>p {
+                text-align: center;
+                font-size: 0.7vw;
+                padding: 0 5%;
+                font-weight: bold;
+                text-shadow: none!important;
+                letter-spacing: 0.5px;
             }
 
         /**/

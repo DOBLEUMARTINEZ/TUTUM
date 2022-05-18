@@ -5,14 +5,25 @@
 
   	<!-- -->
   	<div class="square-logo-big" >
-	    <img src="images/logo/LOGO-TUTUM.png" onclick="window.location.href='./';">
+	    <img src="images/logo/LOGO-WHITE.png" onclick="window.location.href='./';">
 	    <h2>IDENTIDAD</h2>
 	    <a id="start"></a>
 	    <i class="fas fa-chevron-down arrow-down " onclick="window.location.href='./identidad#start'"></i>
   	</div>
+
+  	<span style="
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 30%;
+    background: #000;
+    bottom: 0;
+    z-index: -1;">
+  </span>
+
 </div>
 
-<!-- -->
+<!-- us -->
 <div class="square-04">
 	<ol>
 		<li>
@@ -20,39 +31,43 @@
 		</li>
 		<li>
 			<p>
-				Somos una empresa, dinámica, innovadora y 100% mexicana; dedicada a brindar servicios de consultoría tecnológica y soluciones integrales de TI. Estamos comprometidos con el desarrollo económico y social del país, así como con nuestros clientes, socios y colaboradores.
-
+				Somos una empresa, dinámica, innovadora y 100% mexicana; dedicada a brindar servicios de consultoría tecnológica y soluciones integrales de TI. Estamos comprometidos con el desarrollo económico y social del país, así como con nuestros clientes, socios y colaboradores.​
 			</p>
 		</li>
 	</ol>
 </div>
 
-<!-- -->
+<!-- certificaciones -->
 <div class="square-05">
 	<ul>
-		<span></span>
-		<li><img src="images/icons/iso.png" ></li>
+		<li><img src="images/icons/dell.png" ></li>
+		<li><img src="images/icons/sap-icon.png" ></li>
+		<li><img src="images/icons/iso3.png" ></li>
 		<li><img src="images/icons/iso2.png" ></li>
 	</ul>
 </div>
 
-<!-- -->
+<!-- MISIÓN Y VISIÓN ​ -->
 <div class="square-06">
-	<h2>MISIÓN</h2>
+	<h2>MISIÓN Y VISIÓN </h2>
 	<ol>
 		<li>
+			<br>
 			<p>
+				<span>Misión</span><br>
 				Generar valor a nuestros clientes a través de una oferta diferenciada que comprende: servicios, infraestructura y tecnología. Dentro de los sectores privado y de la administración pública, nacional y extranjera, mediante la integración de soluciones con procesos eficientes; cuidando siempre la debida atención a los requerimientos y necesidades de nuestros clientes.
 			</p>
-			<h3>VISIÓN</h3>
+			
 			<p>
-				Ser la empresa líder en soluciones tecnológicas integrales, eficientes y orientadas a empresas con una alta dependencia tecnológica, ofreciendo productos innovadores en plataformas de vanguardia y estableciendo entornos digitales seguros
-				<br>
-				Además, seremos una referencia en la industria por nuestra excelencia, basada en: planeación, diseño, implementación y operación; garantizada confiabilidad en arquitecturas personalizadas: funcionales, ágiles y consistentes.
+				​<span>Visión</span><br>
+				Ser la empresa líder en soluciones tecnológicas integrales, eficientes y orientadas a empresas con una alta dependencia tecnológica, ofreciendo productos innovadores en plataformas de vanguardia y estableciendo entornos digitales seguros​
 				<br><br>
+				Además, seremos una referencia en la industria por nuestra excelencia, basada en: planeación, diseño, implementación y operación; garantizada confiabilidad en arquitecturas personalizadas: funcionales, ágiles y consistentes.
 			</p>
+			<br><br>
 		</li>
-		<li style="background: url('images/img/FOTO 09.jpg');background-position: center;"></li>
+		<li style="
+			background: url('images/img/FOTO 09.jpg');background-position: center;border-bottom: 1.5vw solid #fff;border-top: 1.5vw solid #fff;"></li>
 	</ol>
 </div>
 
@@ -71,60 +86,70 @@
 </div>
 
 <!-- -->
-<div class="square-05">
-	<ul>
-		<span></span>
-		<li class="icons-count" >
-			<img src="images/icons/barra-grafica-2.png" >
-			<h3>6</h3>
-			<p>AÑOS DE EXPERIENCIA​</p>
-		</li>
-		<li class="icons-count" >
-			<img src="images/icons/certificate2.png" >
-			<h3>30</h3>
-			<p>CONTRATOS EXITOSOS​</p>
-		</li>
-	</ul>
+<div class="square-10">
+  <ul>
+    <li>
+      <img src="images/icons/hilo-2.png">
+      <h3>+400K</h3>
+      <p>METROS DE FIBRA ÓPTICA CERTIFICADOS</p>
+    </li>
+    <li>
+      <img src="images/icons/cable-de-red-2.png">
+      <h3>+980K​</h3>
+      <p>METROS DE UTP CERTIFICADOS​</p>
+    </li>
+    <li>
+      <img src="images/icons/camera-2.png">
+      <h3>+40K​</h3>
+      <p>DISPOSITIVOS DE SEGURIDAD PERIMETRAL​</p>
+    </li>
+    <li>
+      <img src="images/icons/suministro.png">
+      <h3>+1000</h3>
+      <p>EQUIPOS DE INFORMÁTICA Y SERVIDORES​</p>
+    </li>
+    <li>
+      <img src="images/icons/desarrollo.png">
+      <h3>+10K</h3>
+      <p>EQUIPOS DE COMPUTO IMPRESIÓN Y TELEFONÍA​</p>
+    </li>
+    <li>
+      <img src="images/icons/operacion.png">
+      <h3>+600</h3>
+      <p>CUARTOS DE COMUNICACIÓN EQUIPADOS​</p>
+    </li>
+  </ul>
 </div>
 
-<!-- -->
+<!-- Sectores  ​ -->
 <div class="square-06">
-	<h2>SECTORES</h2>
 	<ol>
 		<li>
-
-			<ul>
-				<li style="width: 30%;">
-					<img src="images/icons/sap.png" >
-				</li>
-				<li>
-					<i class="far fa-circle"></i> Operación Proyectos en Modalidad APP​<br>
-					<i class="far fa-circle"></i> Ciberseguridad<br>
-					<i class="far fa-circle"></i> Servicios Administrados ERP<br>
-				</li>
-			</ul>
-
-			<h3>PROYECTOS</h3>
-
-			<ul>
-				<li style="width: 30%;">
-					<img src="images/icons/factory.png" >
-				</li>
-				<li>
-					<i class="far fa-circle"></i> Salud Publica​<br>
-					<i class="far fa-circle"></i> Seguridad Publica​<br>
-					<i class="far fa-circle"></i> SEMAR​<br>
-					<i class="far fa-circle"></i> Obra Publica​<br>
-					<i class="far fa-circle"></i> Corporativo<br>
-				</li>
-			</ul>
-
+			<br>
+			<p style="padding: 8% 15%">
+				<span>Sectores</span><br><br>
+				° Operación Proyectos en Modalidad APP​<br>
+				° Servicios Administrados ERP​<br>
+				° Ciberseguridad​<br>
+				° Salud Publica​<br>
+				° Seguridad Publica​<br>
+				° SEMAR​<br>
+				° Obra Publica​<br>
+				° Corporativo​<br>
+				° Residencial​<br>
+				° Industrial<br>
+			</p>
 		</li>
-		<li style="background: url('images/img/PROYECTOS/VILLAHERMOSA/VHT01.jpg');background-position: center;background-size: 100%;"></li>
+		<li style="
+			background: url('images/img/PROYECTOS/VILLAHERMOSA/VHT01.jpg');
+			background-size: 100%;
+			background-position: center;
+			border-bottom: 1.5vw solid #fff;
+			border-top: 1.5vw solid #fff;"></li>
 	</ol>
 </div>
 
-<!-- -->
+<!-- SOCIOS DE NEGOCIO​ -->
 <div class="square-04">
 	<ol>
 		<li>
@@ -140,11 +165,9 @@
 
 <!-- -->
 <div class="square-05">
-	<ol style="position: relative;
-    background: #ffffff;
-    padding: 0% 5% 2% 5%;" >
+	<ol style="position: relative;padding: 0%; background: #ffffff73;" >
 		<li style="width: 50%;"></li>
-		<li style="width: 50%;">
+		<li style="width: 50%; background: #fff; padding: 1% 1%;">
 			<img src="images/img/socios/logo-1.png" >
 			<img src="images/img/socios/logo-14.png" >
 			<img src="images/img/socios/logo-20.png" >
@@ -188,12 +211,12 @@
 </div>
 
 <!-- -->
-<div class="square-04">
+<div class="square-04" style="background: #0000;padding-bottom: 5%;">
 	<ol>
 		<li>
 			<h2 style="padding: 10% 0%;">¿QUIERES SABER MAS<br>SOBRE NOSOTROS?</h2>
 		</li>
-		<li style="text-align: center;">
+		<li style="text-align: center; background: #fff;">
 			<button>
 				<p>DESCARAGA NUESTRO<br> CURRICULUM</p>
 				<img src="images/icons/descargar-pdf.png" class="arrow-down">
