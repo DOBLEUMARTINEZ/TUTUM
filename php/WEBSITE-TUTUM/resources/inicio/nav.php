@@ -4,7 +4,7 @@
     <!-- NAV BAR MOVIL -->
     <nav class="container-header-mobil" >
       <ol>
-        <li style="width: 30%" ><img src="images/logo/logo2.png" onclick="window.location.href='<?php echo $url;?>/';"></li>
+        <li style="width: 30%" ><img src="<?php echo $url;?>images/logo/logo2.png" onclick="window.location.href='<?php echo $url;?>/';"></li>
         <li style="width: 60%" >
           <ul >
             <li onclick="window.open('https://www.facebook.com/Tutum-Tech-515010355546588');"><i class="fab fa-facebook-square"></i></li>
@@ -62,25 +62,25 @@
           <a onclick="window.location.href='<?php echo $url;?>servicios';" >Servicios</a>
 
           <ol >
-            <li onclick="window.location.href='<?php echo $url;?>proyectos';">
+            <li onclick="window.location.href='<?php echo $url;?>servicios-proyectos';">
               PROYECTOS INTEGRALES TI
             </li>
-            <li onclick="window.location.href='<?php echo $url;?>operacion';">
+            <li onclick="window.location.href='<?php echo $url;?>servicios-operacion';">
               OPERACIÓN DE PROYECTOS​
             </li>
-            <li onclick="window.location.href='<?php echo $url;?>cau';">
+            <li onclick="window.location.href='<?php echo $url;?>servicios-cau';">
               CENTRO DE ATENCIÓN A USUARIOS​
             </li>
-            <li onclick="window.location.href='<?php echo $url;?>sap';">
+            <li onclick="window.location.href='<?php echo $url;?>servicios-sap';">
               CONSULTORÍA E IMPLEMENTACIÓN SA​P
             </li>
-            <li onclick="window.location.href='<?php echo $url;?>hospitales';">
+            <li onclick="window.location.href='<?php echo $url;?>servicios-hospitales';">
               SOLUCIONES HOSPITALARIAS​
             </li>
-            <li onclick="window.location.href='<?php echo $url;?>ciberseguridad';">
+            <li onclick="window.location.href='<?php echo $url;?>servicios-ciberseguridad';">
               CIBERSEGURIDAD
             </li>
-            <li onclick="window.location.href='<?php echo $url;?>fabrica-de-software';" >
+            <li onclick="window.location.href='<?php echo $url;?>servicios-fabrica-sw';" >
               Fabrica de software
             </li>
           </ol>
