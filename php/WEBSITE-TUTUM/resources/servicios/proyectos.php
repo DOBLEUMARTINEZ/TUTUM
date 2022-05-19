@@ -79,11 +79,13 @@
 		</li>
 		<li>
 			<p>
-				Contamos con la experiencia en implementación de más de 25 soluciones en TI, con la finalidad de ofrecer al mercado la tecnología más avanzada y la mejor oferta en sistemas, software y hardware.
+				Ofrecemos nuestra experiencia y confiablidad generada a través de los años para ofrecerte soluciones completas tanto de hardware como de software que incluyen el diseño, suministro, desarrollo e implementación de soluciones que mejor se adapte a tus necesidades, garantizando en todo momento la puesta en funcionamiento de la misma.
 			</p>
 		</li>
 	</ol>
 </div>
+
+<hr class="barra-colores-01">
 
 <!-- -->
 <div class="square-06">
@@ -92,7 +94,7 @@
 		<li>
 
 			<p>
-				Contamos con la experiencia en implementación de más de 25 soluciones en TI, con la finalidad de ofrecer al mercado la tecnología más avanzada y la mejor oferta en sistemas, software y hardware.​
+				Contamos con la experiencia en implementación de más de 25 soluciones en TI, con la finalidad de ofrecer al mercado la tecnología más avanzada y la mejor oferta en sistemas, software y hardware.
 			</p>
 			<p style="padding: 2% 10% 0 10%"><span>PROYECTOS Y CONTRATOS</span></p>
 			<p>
@@ -132,7 +134,7 @@
 		<li>
 			<h2>Desarrollo e Implementación de hardware y software en:</h2>
 			<ol>
-				<li style="width: 70%;">
+				<li style="width: 70%; padding: 0 10%;">
 					° Seguridad​<br>
 					° Hospitalaria​<br>
 					° Corporativo<br> ​
@@ -145,7 +147,7 @@
 		<li>
 			<h2>Servicios:​</h2>
 			<ol>
-				<li style="width: 100%;" >
+				<li style="width: 100%; padding: 0 10%;" >
 					° Soluciones integrales en TI​<br>
 					° Desarrollo de ingenierías​<br>
 					° Suministro de equipamiento​<br>
@@ -161,7 +163,7 @@
 	</ul>
 </div>
 
-<!-- -->
+<!-- CATALOGO DE SOLUCIONES -->
 <div class="square-09">
 	<h2>CATALOGO DE SOLUCIONES</h2>
 	<div>
@@ -177,10 +179,7 @@
 					° Detección de Incendios​<br>
 					° Control de Acceso​<br>
 					° Voceo y Sonorización​<br>
-					° Intercomunicación	<br>
-					<img src="<?php echo $url ?>images/icons/camera-2.png" >
-				</li>
-				<li>
+					° Intercomunicación<br>
 					° Voceo IP​<br>
 					° Detección De Sustancias Y Objetos​<br>
 					° Sensores Perimetrales​<br>
@@ -188,47 +187,53 @@
 					° Inhibición Celular​<br>
 					° Control, Y Monitoreo (BMS)​<br>
 					° Integración De Sistemas ​<br>
-					° Radiocomunicación Segura<br><br>
+					° Radiocomunicación Segura<br>
+					<img src="<?php echo $url ?>images/icons/camera-2.png" >
 					<img src="<?php echo $url ?>images/icons/alarma-de-incendios.png" >
+					<img src="<?php echo $url ?>images/icons/informe-medico-2.png" >
+					<img src="<?php echo $url ?>images/icons/engineering-2.png" >
 				</li>
 			</ol>
-		</div>
-		<div>
 			<h3>Soluciones Especiales Hospitalarias </h3>
-			<ul>
-				<li style="width: 30%;"><img src="<?php echo $url ?>images/icons/informe-medico-2.png" ></li>
-				<li style="width: 70%;" >
+			<ol>
+				<li >
 					° Tele Enseñanza​<br>
 					° Fomento a la salud y entretenimiento​<br>
 					° Tele Medicina​<br>
 					° Televisión fomento a la salud​<br>
 					° Control Neonatal RFID<br>
 				</li>
-			</ul>
+			</ol>
+		</div>
+		<div>
 			<h3>Software especializado​</h3>
 			<ul>
-				<li style="width: 30%;"><img src="<?php echo $url ?>images/icons/engineering-2.png" ></li>
-				<li style="width: 70%;" >
+				<li >
 					° Sistemas de Información Hospitalaria (HIS)​<br>
 					° Planificación De Recursos Empresariales (ERP)​<br>
 					° Ciberseguridad <br>
 				</li>
 			</ul>
+			<br><br>
+			<img src="<?php echo $url ?>images/img/FOTO 10.jpg" >
+
 		</div>
 	</div>
 	<br><br>
 </div>	
 
-<!-- -->
-<div class="square-04">
+<hr class="barra-colores-01">
+
+<!-- DESCARGAR PDF -->
+<div class="square-04" style="background: #0000;padding-bottom: 5%;">
 	<ol>
 		<li>
 			<h2 style="padding: 10% 0%;">¿QUIERES SABER MAS<br>SOBRE NOSOTROS?</h2>
 		</li>
-		<li style="text-align: center;">
+		<li style="text-align: center; background: #fff;">
 			<button>
-				<p>DESCARAGA NUESTRO<br> CURRICULUM</p>
-				<img src="<?php echo $url ?>images/icons/descargar-pdf.png" class="arrow-down">
+				<p>DESCARGA NUESTRO CATALOGO DE SERVICIOS</p>
+				<img src="images/icons/descargar-pdf.png" class="arrow-down">
 			</button>
 		</li>
 	</ol>
