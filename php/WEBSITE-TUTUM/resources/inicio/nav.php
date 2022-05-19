@@ -4,7 +4,7 @@
     <!-- NAV BAR MOVIL -->
     <nav class="container-header-mobil" >
       <ol>
-        <li style="width: 30%" ><img src="images/logo/logo2.png" onclick="window.location.href='./';"></li>
+        <li style="width: 30%" ><img src="images/logo/logo2.png" onclick="window.location.href='<?php echo $url;?>/';"></li>
         <li style="width: 60%" >
           <ul >
             <li onclick="window.open('https://www.facebook.com/Tutum-Tech-515010355546588');"><i class="fab fa-facebook-square"></i></li>
@@ -16,19 +16,19 @@
         <li style="width: 10%" >
           <i class="fas fa-bars"></i><br>
           <ol class="menu-mobil">
-            <li onclick="window.location.href='./identidad';">
+            <li onclick="window.location.href='<?php echo $url;?>identidad';">
               IDENTIDAD
             </li>
-            <li onclick="window.location.href='./';">
+            <li onclick="window.location.href='<?php echo $url;?>';">
               SERVICIOS
             </li>
-            <li style="display: none;" onclick="window.location.href='./';">
+            <li style="display: none;" onclick="window.location.href='<?php echo $url;?>';">
               PROYECTOS
             </li>
-            <li onclick="window.location.href='./';">
+            <li onclick="window.location.href='<?php echo $url;?>';">
               PRENSA
             </li>
-            <li onclick="window.location.href='./';">
+            <li onclick="window.location.href='<?php echo $url;?>';">
               CONTACTO
             </li>
           </ol>
@@ -52,80 +52,80 @@
       <!-- RUTAS -->
       <ul class="color-font-menu">
 
-        <li  class="dropdown-menu-ttm" onclick="window.location.href='./';">Inicio</li>
+        <li  class="dropdown-menu-ttm" onclick="window.location.href='<?php echo $url;?>';">Inicio</li>
 
         <li  class="dropdown-menu-ttm">
-          <a onclick="window.location.href='./identidad';" >Identidad</a>
+          <a onclick="window.location.href='<?php echo $url;?>identidad';" >Identidad</a>
         </li>
 
         <li  class="dropdown-menu-ttm">
-          <a onclick="window.location.href='./proyectos';" >Servicios</a>
+          <a onclick="window.location.href='<?php echo $url;?>servicios';" >Servicios</a>
 
           <ol >
-            <li onclick="window.location.href='./proyectos';">
+            <li onclick="window.location.href='<?php echo $url;?>proyectos';">
               PROYECTOS INTEGRALES TI
             </li>
-            <li onclick="window.location.href='./operacion';">
+            <li onclick="window.location.href='<?php echo $url;?>operacion';">
               OPERACIÓN DE PROYECTOS​
             </li>
-            <li onclick="window.location.href='./';">
+            <li onclick="window.location.href='<?php echo $url;?>cau';">
               CENTRO DE ATENCIÓN A USUARIOS​
             </li>
-            <li onclick="window.location.href='./p';">
+            <li onclick="window.location.href='<?php echo $url;?>sap';">
               CONSULTORÍA E IMPLEMENTACIÓN SA​P
             </li>
-            <li onclick="window.location.href='./';">
+            <li onclick="window.location.href='<?php echo $url;?>hospitales';">
               SOLUCIONES HOSPITALARIAS​
             </li>
-            <li onclick="window.location.href='./';">
+            <li onclick="window.location.href='<?php echo $url;?>ciberseguridad';">
               CIBERSEGURIDAD
             </li>
-            <li onclick="window.location.href='./';" >
+            <li onclick="window.location.href='<?php echo $url;?>fabrica-de-software';" >
               Fabrica de software
             </li>
           </ol>
         </li>
 
         <li  class="dropdown-menu-ttm" style="display: none;">
-          <a onclick="window.location.href='./menu-proyectos';" >Proyectos</a>
+          <a onclick="window.location.href='<?php echo $url;?>proyectos-tutum';" >Proyectos</a>
           <ol>
-            <li onclick="window.location.href='./proyectos-en-operacion';" >
+            <li onclick="window.location.href='<?php echo $url;?>proyectos-en-operacion';" >
               En operación
             </li>
-            <li onclick="window.location.href='./proyectos-llave-en-mano';">
+            <li onclick="window.location.href='<?php echo $url;?>proyectos-llave-en-mano';">
               Llave en mano
             </li>
-            <li onclick="window.location.href='./proyectos-en-desarrollo';" >
+            <li onclick="window.location.href='<?php echo $url;?>proyectos-en-desarrollo';" >
               En desarrollo
             </li>
           </ol>
         </li>
 
         <li  class="dropdown-menu-ttm">
-          <a onclick="window.location.href='./';" >Prensa </a>
+          <a onclick="window.location.href='<?php echo $url;?>';" >Prensa </a>
           <ol>
-            <li onclick="window.location.href='./';" >
+            <li onclick="window.location.href='<?php echo $url;?>';" >
               Blog
             </li>
-            <li onclick="window.location.href='./';">
+            <li onclick="window.location.href='<?php echo $url;?>';">
               por definir
             </li>
           </ol>
         </li>
 
         <li  class="dropdown-menu-ttm">
-          <a onclick="window.location.href='./';" >Contacto</a>
+          <a onclick="window.location.href='<?php echo $url;?>';" >Contacto</a>
           <ol>
-            <li onclick="window.location.href='./';" >
+            <li onclick="window.location.href='<?php echo $url;?>';" >
               Servicios
             </li>
-            <li onclick="window.location.href='./';">
+            <li onclick="window.location.href='<?php echo $url;?>';">
               bolsa de trabajo
             </li>
-            <li onclick="window.location.href='./';">
+            <li onclick="window.location.href='<?php echo $url;?>';">
               clientes cau
             </li>
-            <li onclick="window.location.href='./';">
+            <li onclick="window.location.href='<?php echo $url;?>';">
               iniciar sesión
             </li>
           </ol>

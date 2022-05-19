@@ -1288,12 +1288,12 @@
 
         .square-02 ul>li:hover {
             border:0.5vw solid #CBF41C;
-            background: #C0C5D1;
+            background: #CBF41C;
             transition: 0.5s;
         }
 
         .square-02 ul>li:hover h3 {
-            color: #CBF41C;
+            color: #000;
             transition: 0.3s;
         }
 
@@ -1525,8 +1525,9 @@
             list-style: none;
             width: 100%;
             margin: 0% 0%;
-            padding: 0;
-            align-items: flex-start
+            padding: 0 0 0% 0;
+            align-items: flex-start;
+            position:relative;
         }
 
         .square-04 ol > li{
@@ -1657,6 +1658,7 @@
 
             .square-05 > ul > li:hover {
                 border: 5px solid #CBF41C;
+                background: #CBF41C;
                 transition: 0.3s;
             }
 
@@ -1848,6 +1850,7 @@
                 flex-direction: column;
                 border:0.5vw solid #4DBED4;
                 position: relative;
+                cursor: pointer;
             }
 
             .square-07 ul>li>img {
@@ -1919,28 +1922,74 @@
                 border: 5px solid #4DBED4;
                 flex-wrap: wrap;
                 align-content: center;
-            }
-
-            .icon-menu-black {
-                opacity: 1;
                 transition: 0.3s;
-            }
-
-            .icon-menu-black:hover {
-                opacity: 0;
-                transition: 0.3s;
-            }
-
-            .icon-menu-white { 
-                position: absolute;
-                top: 25%;
-                opacity: 0;
-                transition: 0.3s;
-            }
-
-            .icon-menu-white:hover{
 
             }
+
+            /**/
+
+                .fondos{
+                    position: fixed;
+                    left: 0vw;
+                    top: 0vw;
+                    width: 100vw!important;
+                    z-index: -1;
+                    transition: 0.3s;
+
+                }
+
+                .fondo-proyectos{
+                    opacity: 0;
+                }
+
+                .fondo-proyectos-active{
+                    opacity: 1!important;
+                 }
+
+                .service-menu-color:hover {
+                    background: #4DBED4;
+                    transition: 0.3s;
+                }
+
+                .icon-menu-black {
+                    opacity: 1;
+                    transition: 0.3s;
+                }
+
+                 .icon-menu-white { 
+                    position: absolute;
+                    top: 25%;
+                    opacity: 0;
+                    transition: 0.3s;
+                }
+
+                .service-menu-color:hover .icon-menu-black{
+                    opacity: 0;
+                    transition: 0.3s;
+                }
+
+                .service-menu-color:hover .icon-menu-white{
+                    opacity: 1;
+                    transition: 0.3s;
+                }
+
+                #proyectos-active:hover .fondo-proyectos {
+                    opacity:1!important;
+                    transition: 0.3s
+                }
+
+                /* active */
+
+                .service-active{
+                    background: #4DBED4!important;
+                }
+
+                .service-active .icon-menu-white{
+                     opacity: 1!important;
+                }
+
+
+            /**/
 
             .square-08 > ul > li > h2{
                 width: 100%;
@@ -2077,11 +2126,12 @@
 
             .square-10 ul>li:hover {
                 border:0.5vw solid #CBF41C;
+                background: #CBF41C;
                 transition: 0.5s;
             }
 
             .square-10 ul>li:hover h3 {
-                color: #CBF41C;
+                color: #000;
                 transition: 0.3s;
             }
 
@@ -2124,6 +2174,16 @@
                 z-index: -1;
                 width: 100%;
                 height: 100%;
+            }
+
+            .barra-negra{
+                position: absolute;
+                width: 100%;
+                left: 0;
+                height: 30%;
+                background: #000;
+                bottom: 0;
+                z-index: -1;
             }
 
             .logos-contratos{

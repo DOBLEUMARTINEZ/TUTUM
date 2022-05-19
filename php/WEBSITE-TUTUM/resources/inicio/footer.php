@@ -19,7 +19,7 @@
 	<div class="row" style="align-items: center;">
 
 		<div class="col-md-2 ">
-        		<img src="images/logo/LOGO-WHITE.png" onclick="window.location.href='./';" style="width: 100%;">
+        		<img src="<?php echo $url;?>images/logo/LOGO-WHITE.png" onclick="window.location.href='./';" style="width: 100%;">
 			</div>
 			<div class="col-md-2">
 				<h4>ISO 9001:2015​ <br>ISO/IEC 27001:2013</h4>
@@ -37,15 +37,11 @@
 	</div>
 </div>
 
-
-
 <!-- JS -->
 
-	<script src="js/interactive.js"></script>
-	
-	<!-- JS 
-	<script src="//code.tidio.co/fdu00mdjxqbklojosbjbfkmvcm7uzrvz.js" async></script>-->
+	<!-- js -->
+	<script src="<?php echo $url;?>js/interactive.js"></script>
 
 	<!-- Bootstrap core JavaScript -->
-	  <script src="js/js.js"></script>
+	  <script src="<?php echo $url;?>js/js.js"></script>
 	  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>

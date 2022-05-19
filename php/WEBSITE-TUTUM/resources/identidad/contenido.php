@@ -1,6 +1,6 @@
 <div style="position: relative;">
 	<!-- -->
-	<img src="images/img/PASILLO.jpg" style="position: fixed; width: 100%; height: 100%; z-index: -99">
+	<img src="images/img/PASILLO.jpg" style="position: fixed; width: 100%; z-index: -99">
   	<img class="video-slide" src="images/img/PASILLO.jpg" style="opacity: 0;">
 
   	<!-- -->
@@ -67,7 +67,7 @@
 			<br><br>
 		</li>
 		<li style="
-			background: url('images/img/FOTO 09.jpg');background-position: center;border-bottom: 1.5vw solid #fff;border-top: 1.5vw solid #fff;"></li>
+			background: url('images/img/FOTO 09.jpg');background-size: 100%; background-position: center;border-bottom: 1.5vw solid #fff;border-top: 1.5vw solid #fff;"></li>
 	</ol>
 </div>
 

@@ -1,7 +1,7 @@
 <div style="position: relative;">
 
 	<!-- -->
-	<img src="images/img/operacion.jpg" style="position: fixed; width: 100%; height: 100%; z-index: -99">
+	<img src="images/img/operacion.jpg" style="position: fixed; width: 100%; z-index: -99">
 	<img class="video-slide" src="images/img/operacion.jpg" style="opacity: 0;">
 
 	<!-- -->

@@ -7,15 +7,15 @@
 
   <title><?php echo strtoupper($name_seccion);?></title>
 
-  <link href="images/logo/icon.png" rel="shortcut icon"/>
+  <link href="<?php echo $url;?>images/logo/icon.png" rel="shortcut icon"/>
 
-  <link rel="manifest" href="images/logo/icon.png">
-  <link rel="icon" type="images/logo/icon.png" sizes="32x32" href="images/logo/icon.png">
-  <link rel="icon" type="images/logo/icon.png" sizes="16x16" href="images/logo/icon.png">
+  <link rel="manifest" href="<?php echo $url;?>images/logo/icon.png">
+  <link rel="icon" type="<?php echo $url;?>images/logo/icon.png" sizes="32x32" href="<?php echo $url;?>images/logo/icon.png">
+  <link rel="icon" type="<?php echo $url;?>images/logo/icon.png" sizes="16x16" href="<?php echo $url;?>images/logo/icon.png">
 
 
-  <link rel="stylesheet" href="css/styles.css"/>
-  <link rel="stylesheet" href="css/main.css"/>
+  <link rel="stylesheet" href="<?php echo $url;?>css/styles.css"/>
+  <link rel="stylesheet" href="<?php echo $url;?>css/main.css"/>
 
   <!-- icons CDN -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">

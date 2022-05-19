@@ -1,117 +1,125 @@
 <div style="position: relative;">
 
 	<!-- -->
-	<img src="images/img/serv.jpg" style="position: fixed; width: 100%; height: 100%; z-index: -99">
-  	<img class="video-slide" src="images/img/serv.jpg" style="opacity: 0;">
+	<img src="<?php echo $url ?>images/img/serv.jpg" style="position: fixed; width: 100%; z-index: -99">
+  	<img src="<?php echo $url ?>images/img/serv.jpg" style="opacity: 0; width: 100%;">
 
   	<!-- -->
   	<div class="square-logo-big" >
-	    <img src="images/logo/LOGO-TUTUM.png" onclick="window.location.href='./';">
+	    <img src="<?php echo $url ?>images/logo/LOGO-TUTUM.png" onclick="window.location.href='./';">
 	    <h2>SERVICIOS</h2>
 	    <a id="start"></a>
 	    <i class="fas fa-chevron-down arrow-down" onclick="window.location.href='./proyectos#start'"></i>
   	</div>
 
+  	<!-- barra negra -->
+	 <span class="barra-negra"></span>
+
 </div>
 
 <!-- MENU SERCICES -->
 <div class="square-07" style="background: url('images/img/FOTO 09.jpg');">
-  <ul>
-    <li>
-      <img src="images/icons/implementacion.png" class="icon-menu-black">
-      <img src="images/icons/implementacion-2.png" class="icon-menu-white" >
-      <h2>DESARROLLO DE PORYECTOS TI</h2>
-    </li>
-    <li>
-      <img src="images/icons/sap.png">
-      <h2>OPERACIÓN DE PROYECTOS​</h2>
-    </li>
-    <li>
-      <img src="images/icons/cau.png">
-      <h2>CENTRO DE ATENCIÓN A USUARIOS​</h2>
-    </li>
-    <li>
-      <img src="images/icons/document-2.png">
-      <h2>CONSULTORÍA E IMPLEMENTACIÓN SAP​</h2>
-    </li>
-    <li>
-      <img src="images/icons/informe-medico-2.png">
-      <h2>SOLUCIONES HOSPITALARIAS​</h2>
-    </li>
-    <li>
-      <img src="images/icons/encrypted-2.png">
-      <h2>CIBERSEGURIDAD<br><br></h2>
-    </li>
-    <li>
-      <img src="images/icons/engineering-2.png">
-      <h2>FABRICA DE SOFTWARE​</h2>
-    </li>
-  </ul>
+  	<ul>
+	    <li id="proyectos-active" class="service-menu-color service-active">
+	      	<img src="<?php echo $url ?>images/icons/implementacion.png" class="icon-menu-black">
+	      	<img src="<?php echo $url ?>images/icons/implementacion-2.png" class="icon-menu-white" >
+	      	<h2>DESARROLLO DE PORYECTOS TI</h2>
+	    </li>
+
+    	<li id="proyectos-active" class="service-menu-color" >
+	    	<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/operacion.jpg">
+	      	<img src="<?php echo $url;?>images/icons/sap.png" class="icon-menu-black">
+	      	<img src="<?php echo $url;?>images/icons/sap-2.png" class="icon-menu-white">
+	      	<h2>OPERACIÓN DE PROYECTOS​</h2>
+	    </li>
+
+	    <li id="proyectos-active" class="service-menu-color" >
+	    	<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/FOTO 10.jpg">
+	      	<img src="<?php echo $url;?>images/icons/cau.png" class="icon-menu-black" >
+	      	<img src="<?php echo $url;?>images/icons/cau-2.png" class="icon-menu-white" >
+	      	<h2>CENTRO DE ATENCIÓN A USUARIOS​</h2>
+	    </li>
+
+	    <li id="proyectos-active" class="service-menu-color" >
+	    	<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/FOTO 11.jpg">
+	      	<img src="<?php echo $url;?>images/icons/document-2.png" class="icon-menu-black" >
+	      	<img src="<?php echo $url;?>images/icons/document.png" class="icon-menu-white" >
+	      	<h2>CONSULTORÍA E IMPLEMENTACIÓN SAP​</h2>
+	    </li>
+
+	    <li id="proyectos-active" class="service-menu-color" >
+	    	<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/FOTO 15.jpg">
+	      	<img src="<?php echo $url;?>images/icons/informe-medico-2.png" class="icon-menu-black" >
+	      	<img src="<?php echo $url;?>images/icons/informe-medico.png" class="icon-menu-white" >
+	      	<h2>SOLUCIONES HOSPITALARIAS​</h2>
+	    </li>
+
+	    <li id="proyectos-active" class="service-menu-color" >
+	    	<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/FOTO 16.jpg">
+	      	<img src="<?php echo $url;?>images/icons/encrypted-2.png" class="icon-menu-black" >
+	      	<img src="<?php echo $url;?>images/icons/encrypted.png" class="icon-menu-white" >
+	      	<h2>CIBERSEGURIDAD<br><br></h2>
+	    </li>
+
+	    <li id="proyectos-active" class="service-menu-color" >
+	    	<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/FOTO 10.jpg">
+	      	<img src="<?php echo $url;?>images/icons/engineering-2.png" class="icon-menu-black">
+	      	<img src="<?php echo $url;?>images/icons/engineering.png" class="icon-menu-white">
+	      	<h2>FABRICA DE SOFTWARE​</h2>
+	    </li>
+
+  	</ul>
 </div>
 
 <!-- -->
-<div class="square-04">
+<div class="square-04" style="padding: 0 0 10% 0 ">
 	<ol>
 		<li>
-			<h2>DESARROLLO E IMPLEMNTACION DE SOLUCIONES EN TI​</h2>
+			<h2>DESARROLLO E<br> IMPLEMNTACION DE<br> SOLUCIONES EN TI​</h2>
 		</li>
 		<li>
 			<p>
-				Ofrecemos nuestra experiencia y confiablidad generada a través de los años para ofrecerte soluciones completas tanto de hardware como de software que incluyen el diseño, suministro, desarrollo e implementación de soluciones que mejor se adapte a tus necesidades, garantizando en todo momento la puesta en funcionamiento de la misma.​
-
+				Contamos con la experiencia en implementación de más de 25 soluciones en TI, con la finalidad de ofrecer al mercado la tecnología más avanzada y la mejor oferta en sistemas, software y hardware.
 			</p>
 		</li>
 	</ol>
 </div>
 
 <!-- -->
-<div class="square-paralax">
-	<span></span>
-</div>
-
-<!-- -->
 <div class="square-06">
-	<h2>EXPERIENCIA EN DISEÑO E IMPLEMENTACION</h2>
+	<h2>EXPERIENCIA EN DISEÑO E<br> IMPLEMENTACION</h2>
 	<ol>
 		<li>
 
 			<p>
 				Contamos con la experiencia en implementación de más de 25 soluciones en TI, con la finalidad de ofrecer al mercado la tecnología más avanzada y la mejor oferta en sistemas, software y hardware.​
 			</p>
-
-			<h3>PROYECTOS Y CONTRATOS</h3>
-
+			<p style="padding: 2% 10% 0 10%"><span>PROYECTOS Y CONTRATOS</span></p>
 			<p>
-				Desarrollamos soluciones integrales  de TI con la mejor tecnología del mercado e implementada con la mas alta calidad​
+
+				Desarrollamos soluciones integrales  de TI con la mejor tecnología del mercado e implementada con la mas alta calidad.<br><br>
+				° Contratos de seguridad​<br>
+				° Contratos Hospitales​<br>
+				° Contratos de Ciberseguridad​<br>
+				° Contratos ERP​<br>
+				° Proyectos Sector Salud​<br>
+				° Proyecto Residencial<br>
 			</p>
 
-			<ul style="padding: 0% 10% 2% 10%;">
-				<li style="width: 50%;">
-					<i class="far fa-circle"></i> Salud Publica​<br>
-					<i class="far fa-circle"></i> Seguridad Publica​<br>
-					<i class="far fa-circle"></i> SEMAR​<br>
-				</li>
-				<li style="width: 50%;">
-					<i class="far fa-circle"></i> Salud Publica​<br>
-					<i class="far fa-circle"></i> Seguridad Publica​<br>
-					<i class="far fa-circle"></i> SEMAR​<br>
-				</li>
-			</ul>
-
 		</li>
-		<li style="background: url('images/img/PROYECTOS/ESCUELA NAVAL/ENCARRETE01.jpg');background-position: center;background-size: 100%;"></li>
+		<li style="background: url('<?php echo $url ?>images/img/PROYECTOS/ESCUELA NAVAL/ENCARRETE01.jpg');background-position: center;background-size: 100%;border-bottom: 1.5vw solid #fff;border-top: 1.5vw solid #fff;"></li>
 	</ol>
 </div>
 
 <!-- -->
 <div class="square-04">
-	<ol>
+	<ol >
 		<li>
 			<h2>SERVICIOS</h2>
 		</li>
 		<li>
 			<p>
-				Vamos de la mano con nuestros clientes para conocer y atender las necesidades de su proyecto​
+				Vamos de la mano con nuestros clientes para conocer y atender las necesidades de sus proyectos, diseñando e implementando soluciones especializadas.
 			</p>
 		</li>
 	</ol>
@@ -131,13 +139,13 @@
 					° Residencial​<br>
 					° Industrial​<br>
 				</li>
-				<li style="width: 30%;" ><img src="images/icons/suministro.png" ></li>
+				<li style="width: 30%;" ><img src="<?php echo $url ?>images/icons/suministro.png" ></li>
 			</ol>
 		</li>
 		<li>
 			<h2>Servicios:​</h2>
 			<ol>
-				<li style="width: 70%;" >
+				<li style="width: 100%;" >
 					° Soluciones integrales en TI​<br>
 					° Desarrollo de ingenierías​<br>
 					° Suministro de equipamiento​<br>
@@ -147,7 +155,7 @@
 					° Implementación HIS​<br>
 					° Pólizas<br>
 				</li>
-				<li style="width: 30%;" ><img src="images/icons/camera-2.png" ></li>
+				<li style="width: 30%;" ><img src="<?php echo $url ?>images/icons/camera-2.png" ></li>
 			</ol>
 		</li>
 	</ul>
@@ -170,7 +178,7 @@
 					° Control de Acceso​<br>
 					° Voceo y Sonorización​<br>
 					° Intercomunicación	<br>
-					<img src="images/icons/camera-2.png" >
+					<img src="<?php echo $url ?>images/icons/camera-2.png" >
 				</li>
 				<li>
 					° Voceo IP​<br>
@@ -181,14 +189,14 @@
 					° Control, Y Monitoreo (BMS)​<br>
 					° Integración De Sistemas ​<br>
 					° Radiocomunicación Segura<br><br>
-					<img src="images/icons/alarma-de-incendios.png" >
+					<img src="<?php echo $url ?>images/icons/alarma-de-incendios.png" >
 				</li>
 			</ol>
 		</div>
 		<div>
 			<h3>Soluciones Especiales Hospitalarias </h3>
 			<ul>
-				<li style="width: 30%;"><img src="images/icons/informe-medico-2.png" ></li>
+				<li style="width: 30%;"><img src="<?php echo $url ?>images/icons/informe-medico-2.png" ></li>
 				<li style="width: 70%;" >
 					° Tele Enseñanza​<br>
 					° Fomento a la salud y entretenimiento​<br>
@@ -199,7 +207,7 @@
 			</ul>
 			<h3>Software especializado​</h3>
 			<ul>
-				<li style="width: 30%;"><img src="images/icons/engineering-2.png" ></li>
+				<li style="width: 30%;"><img src="<?php echo $url ?>images/icons/engineering-2.png" ></li>
 				<li style="width: 70%;" >
 					° Sistemas de Información Hospitalaria (HIS)​<br>
 					° Planificación De Recursos Empresariales (ERP)​<br>
@@ -209,12 +217,7 @@
 		</div>
 	</div>
 	<br><br>
-</div>
-
-<!-- -->
-<div class="square-paralax">
-	<span></span>
-</div>
+</div>	
 
 <!-- -->
 <div class="square-04">
@@ -225,7 +228,7 @@
 		<li style="text-align: center;">
 			<button>
 				<p>DESCARAGA NUESTRO<br> CURRICULUM</p>
-				<img src="images/icons/descargar-pdf.png" class="arrow-down">
+				<img src="<?php echo $url ?>images/icons/descargar-pdf.png" class="arrow-down">
 			</button>
 		</li>
 	</ol>
