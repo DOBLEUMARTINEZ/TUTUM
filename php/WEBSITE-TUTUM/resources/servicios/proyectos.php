@@ -214,8 +214,7 @@
 					° Ciberseguridad <br>
 				</li>
 			</ul>
-			<br><br>
-			<img src="<?php echo $url ?>images/img/FOTO 10.jpg" >
+			<img style="height: 40vw; margin: 5% 0; " src="<?php echo $url ?>images/img/PROYECTOS/TPACHULA APP/TAPC01.jpg" >
 
 		</div>
 	</div>
@@ -233,7 +232,7 @@
 		<li style="text-align: center; background: #fff;">
 			<button>
 				<p>DESCARGA NUESTRO CATALOGO DE SERVICIOS</p>
-				<img src="images/icons/descargar-pdf.png" class="arrow-down">
+				<img src="<?php echo $url ?>images/icons/descargar-pdf.png" class="arrow-down">
 			</button>
 		</li>
 	</ol>
