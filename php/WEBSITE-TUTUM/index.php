@@ -44,11 +44,23 @@ echo '<body>';
             break;
 
           case 'operacion':
-            include("resources/servicios/operacion-de-proyectos.php"); 
+            include("resources/servicios/operacion.php"); 
             break;
 
           case 'cau':
             include("resources/servicios/cau.php"); 
+            break;
+
+          case 'sap':
+            include("resources/servicios/sap.php"); 
+            break;
+
+          case 'hospitales':
+            include("resources/servicios/hospitales.php"); 
+            break;
+
+          case 'ciberseguridad':
+            include("resources/servicios/ciberseguridad.php");
             break;
           
           default:
@@ -56,7 +68,7 @@ echo '<body>';
             break;
         }
 
-      } else {  // SECIONES
+      }else {  // SECIONES
 
         //echo "SECCION NORMAL";
 

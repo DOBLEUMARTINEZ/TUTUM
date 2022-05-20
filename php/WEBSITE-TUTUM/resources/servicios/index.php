@@ -25,14 +25,14 @@
 
 	    <li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-proyectos';">
 	    	<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/serv.jpg">
-	      	<img src="<?php echo $url ?>images/icons/implementacion.png" class="icon-menu-black">
-	      	<img src="<?php echo $url ?>images/icons/implementacion-2.png" class="icon-menu-white" >
+	      	<img src="<?php echo $url ?>images/icons/1.- ordenador-portatil.gif" class="icon-menu-black">
+	      	<img src="<?php echo $url ?>images/icons/laptop-2.png" class="icon-menu-white" >
 	      	<h2>DESARROLLO DE PORYECTOS TI</h2>
 	    </li>
 
 	    <li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-operacion';">
 	    	<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/operacion.jpg">
-	      	<img src="<?php echo $url;?>images/icons/sap.png" class="icon-menu-black">
+	      	<img src="<?php echo $url;?>images/icons/2.- red-en-la-nube.gif" class="icon-menu-black">
 	      	<img src="<?php echo $url;?>images/icons/sap-2.png" class="icon-menu-white">
 	      	<h2>OPERACIÓN DE PROYECTOS​</h2>
 	    </li>
@@ -59,7 +59,7 @@
 	    </li>
 
 	    <li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-ciberseguridad';" >
-	    	<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/FOTO 16.jpg">
+	    	<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/FOTO 06.jpg">
 	      	<img src="<?php echo $url;?>images/icons/encrypted-2.png" class="icon-menu-black" >
 	      	<img src="<?php echo $url;?>images/icons/encrypted.png" class="icon-menu-white" >
 	      	<h2>CIBERSEGURIDAD<br><br></h2>

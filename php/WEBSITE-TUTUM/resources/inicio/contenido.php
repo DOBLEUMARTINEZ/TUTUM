@@ -63,19 +63,19 @@
   </p>
   <ol>
     <li>
-      <img src="images/icons/team.png">
+      <img src="images/icons/1.- cliente.gif">
       <h3>IDENTIDAD</h3>
     </li>
     <li>
-      <img src="images/icons/dispositivo.png">
+      <img src="images/icons/2.- red-en-la-nube.gif">
       <h3>SERVICIOS​</h3>
     </li>
     <li>
-      <img src="images/icons/cau2.png">
+      <img src="images/icons/3.- television.gif">
       <h3>PRENSA​</h3>
     </li>
     <li>
-      <img src="images/icons/headphones.png">
+      <img src="images/icons/4.- telefono.gif">
       <h3>CONTACTO</h3>
     </li>
   </ol>
