@@ -1320,7 +1320,7 @@
         .square-02 > p {
             text-align: center;
             font-size: 1.5vw;
-            padding: 5% 10% 12.5% 10%;
+            padding: 5% 10%;
             color: #fff;
             text-shadow: none!important;
             background: #00000085;
@@ -1328,7 +1328,6 @@
         }
 
         .square-02 ol{
-            position: absolute;
             width: 100%;
             display: flex;
             margin: 0;
@@ -1336,7 +1335,7 @@
             align-items: center;
             justify-content: space-around;
             list-style: none;
-            bottom: -25%;
+            background: #00000085;
         }
 
         .square-02 ol > li{
@@ -1379,27 +1378,26 @@
         .square-02 ol::before{
             content: '.';
             position: absolute;
-            width: 49.8%;
+            width: 50%;
             height: 15px;
             background: #4DBED4;
-            bottom:0;
+            bottom:-1%;
             left: 0;    
         }
 
         .square-02 ol::after{
             content: '.';
             position: absolute;
-            width: 49.8%;
+            width: 50%;
             height: 15px;
             background: #C0C5D1;
-            bottom: 0;
+            bottom: -1%;
             right: 0;
         }
 
         .square-03{
             width: 100%;
-            padding: 10.7% 10% 2% 10%;
-            margin-top: -11.7%;
+            padding: 0% 10% 3% 10%;
             display: flex;
             flex-wrap: wrap;
             background: #fff;

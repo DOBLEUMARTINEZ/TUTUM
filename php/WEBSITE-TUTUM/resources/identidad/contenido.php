@@ -66,8 +66,9 @@
 			</p>
 			<br><br>
 		</li>
-		<li style="
-			background: url('images/img/FOTO 09.jpg');background-size: 100%; background-position: center;border-bottom: 1.5vw solid #fff;border-top: 1.5vw solid #fff;"></li>
+		<li >
+			<iframe style="width: 100%; height: 32vw; border-top: 15px solid #fff; border-bottom: 15px solid #fff;" src="https://www.youtube.com/embed/Dim5x51IDp4?start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</li>
 	</ol>
 </div>
 

@@ -23,7 +23,7 @@
 	    	<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/serv.jpg">
 	      	<img src="<?php echo $url ?>images/icons/implementacion.png" class="icon-menu-black">
 	      	<img src="<?php echo $url ?>images/icons/implementacion-2.png" class="icon-menu-white" >
-	      	<h2>DESARROLLO DE PORYECTOS TI</h2>
+	      	<h2>DESARROLLO DE PROYECTOS TI</h2>
 	    </li>
 
     	<li id="proyectos-active" class="service-menu-color service-active" onclick="window.location.href='servicios-operacion';">

@@ -80,8 +80,8 @@
 		<li>
 			<p>
 				En Tutum, tenemos el objetivo de proteger los sistemas, redes y programas de nuestros clientes, de ataques digitales. Por medio de un monitoreando continuo, evitamos ciberataques los cuales apuntan a acceder, modificar o destruir la información confidencial, para después Extorsionar  a los usuarios o interrumpir la continuidad del negocio.​
-				<br><br>
-				Actualmente, la implementación de medidas de seguridad digital se debe a que hay más dispositivos conectados que personas, y los atacantes son cada vez más creativos.​
+				<br>
+				Actualmente, la implementación de medidas de seguridad digital se debe a que hay más dispositivos conectados que personas, y los atacantes son cada vez más creativos.
 			</p>
 		</li>
 	</ol>
@@ -92,19 +92,19 @@
 	<ul style="z-index: 1;">
 		<li>
 			<p>Ciber patrullaje</p>
-			<img src="images/icons/HIS.png" >
+			<img src="images/icons/TUTUM_Iconos/Tutum-iconos_0015_Layer-62.png" >
 		</li>
 		<li>
 			<p>Hacking Ético </p>
-			<img src="images/icons/HIS.png" >
+			<img src="images/icons/TUTUM_Iconos/Tutum-iconos_0050_Layer-27.png" >
 		</li>
 		<li>
 			<p>SOC Inteligente</p>
-			<img src="images/icons/HIS.png" >
+			<img src="images/icons/TUTUM_Iconos/Tutum-iconos_0011_Layer-66.png" >
 		</li>
 		<li>
 			<p>Talleres</p>
-			<img src="images/icons/HIS.png" >
+			<img src="images/icons/TUTUM_Iconos/Tutum-iconos_0037_Layer-40.png" >
 		</li>
 	</ul>
 </div>
@@ -115,7 +115,7 @@
 	<h2>SERVICIOS EN​ CIBERSEGURIDAD ​</h2>
 	<ol>
 		<li>
-
+			<br><br>
 			<p style="position: relative;">
 				<span>Servicio de seguridad Gestionada</span><br><br>
 				TUTUM a través de su servicio de Seguridad Gestionada permite la administración externa de infraestructura de seguridad de nuestros clientes, en el que nuestro equipo se encarga de la monitorización, gestión, control y soporte de dicha infraestructura de acuerdo a los Niveles de Servicio establecidos.<br><br>
@@ -126,9 +126,11 @@
 				° Gestión de Cambios​<br>
 				° Aplicación de Hardering<br>
 
-				<img style="width: 12%;bottom: 10%;right: 10%;position: absolute;" src="images/icons/informe-medico-2.png" >
+				<img style="width: 12%;bottom: 10%;right: 10%;position: absolute;" src="images/icons/TUTUM_Iconos/Tutum-iconos_0016_Layer-61.png" >
 			</p>
+			<br><br>
 		</li>
+
 		<li style="background: url('<?php echo $url ?>images/img/FOTO 05.jpg');background-position: center;background-size: 100%;border-bottom: 1.5vw solid #fff;border-top: 1.5vw solid #fff;"></li>
 	</ol>
 </div>
@@ -170,7 +172,7 @@
 
 <!-- CATALOGO DE SOLUCIONES -->
 <div class="square-06">
-	<h2>CATALOGO DE SOLUCIONES </h2>
+	<h2 style="color: #0000">Hacking Ético</h2>
 	<ol>
 		<li>
 			<br>
@@ -280,13 +282,11 @@
 <div class="square-04">
 	<ol>
 		<li>
-			<h2>CIBERSEGURIDAD</h2>
+			<h2><span style="color: #4dbed4;">Talleres​</span><br>Campañas de concientización</h2>
 		</li>
 		<li>
 			<p>
-				En Tutum, tenemos el objetivo de proteger los sistemas, redes y programas de nuestros clientes, de ataques digitales. Por medio de un monitoreando continuo, evitamos ciberataques los cuales apuntan a acceder, modificar o destruir la información confidencial, para después Extorsionar  a los usuarios o interrumpir la continuidad del negocio.​
-				<br><br>
-				Actualmente, la implementación de medidas de seguridad digital se debe a que hay más dispositivos conectados que personas, y los atacantes son cada vez más creativos.​
+				Buscamos crear conciencia sobre la vital importancia que conllevan los riesgos de Ciberseguridad y queremos formar un gobierno de seguridad de la información para proteger a la Organización y fomentar buenas prácticas para adoptar una verdadera cultura en Ciberseguridad.
 			</p>
 		</li>
 	</ol>
@@ -306,7 +306,7 @@
 
 <!-- MISIÓN Y VISIÓN ​ -->
 <div class="square-06">
-	<h2>CIBERSEGURIDAD </h2>
+	<h2 style="color: #0000;">Charlas y  Talleres</h2>
 	<ol>
 		<li>
 			<br>
@@ -330,7 +330,7 @@
 			<br><br>
 		</li>
 		<li style="
-			background: url('images/img/FOTO 09.jpg');background-size:cover; background-position: center;border-bottom: 1.5vw solid #fff;border-top: 1.5vw solid #fff;"></li>
+			background: url('images/img/FOTO 05.jpg');background-size:cover; background-position: center;border-bottom: 1.5vw solid #fff;border-top: 1.5vw solid #fff;"></li>
 	</ol>
 </div>
 

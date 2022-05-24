@@ -40,31 +40,40 @@ echo '<body>';
 
         switch ($servicio) {
           case 'proyectos':
+            include("resources/servicios/background.php"); // BACKGRAUND 
+            include("resources/servicios/menu.php"); // MENU DE SERVICIOS 
             include("resources/servicios/proyectos.php"); 
             break;
 
           case 'operacion':
+
             include("resources/servicios/operacion.php"); 
             break;
 
           case 'cau':
+
             include("resources/servicios/cau.php"); 
             break;
 
           case 'sap':
+
             include("resources/servicios/sap.php"); 
             break;
 
           case 'hospitales':
+
             include("resources/servicios/hospitales.php"); 
             break;
 
           case 'ciberseguridad':
+
             include("resources/servicios/ciberseguridad.php");
             break;
           
           default:
-            include("resources/servicios/index.php"); // MENU DE SERVICIOS
+            $servicio='menu';
+            include("resources/servicios/background.php"); // BACKGROUND 
+            include("resources/servicios/menu.php"); // MENU DE SERVICIOS
             break;
         }
 

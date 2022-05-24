@@ -1,75 +1,3 @@
-<div style="position: relative;">
-
-	<!-- -->
-	<img src="<?php echo $url ?>images/img/serv.jpg" style="position: fixed; width: 100%; z-index: -99">
-  	<img src="<?php echo $url ?>images/img/serv.jpg" style="opacity: 0; width: 100%;">
-
-  	<!-- -->
-  	<div class="square-logo-big" >
-	    <img src="<?php echo $url ?>images/logo/LOGO-WHITE.png" onclick="window.location.href='./';">
-	    <h2>DESARROLLO DE PORYECTOS TI</h2>
-	    <i class="fas fa-chevron-down arrow-down" onclick="window.location.href='#start'"></i>
-  	</div>
-
-  	<!-- barra negra -->
-	 <span class="barra-negra"></span>
-
-</div>
-
-<!-- MENU SERCICES -->
-<div class="square-07" style="background: url('images/img/FOTO 09.jpg');">
-  	<ul>
-	    <li id="proyectos-active" class="service-menu-color service-active" onclick="window.location.href='servicios-proyectos';">
-	      	<img src="<?php echo $url ?>images/icons/implementacion.png" class="icon-menu-black">
-	      	<img src="<?php echo $url ?>images/icons/implementacion-2.png" class="icon-menu-white" >
-	      	<h2>DESARROLLO DE PORYECTOS TI</h2>
-	    </li>
-
-    	<li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-operacion';">
-	    	<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/operacion.jpg">
-	      	<img src="<?php echo $url;?>images/icons/sap.png" class="icon-menu-black">
-	      	<img src="<?php echo $url;?>images/icons/sap-2.png" class="icon-menu-white">
-	      	<h2>OPERACIÓN DE PROYECTOS​</h2>
-	    </li>
-
-	    <li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-cau';">
-	    	<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/FOTO 10.jpg">
-	      	<img src="<?php echo $url;?>images/icons/cau.png" class="icon-menu-black" >
-	      	<img src="<?php echo $url;?>images/icons/cau-2.png" class="icon-menu-white" >
-	      	<h2>CENTRO DE ATENCIÓN A USUARIOS​</h2>
-	    </li>
-
-	    <li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-sap';">
-	    	<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/FOTO 11.jpg">
-	      	<img src="<?php echo $url;?>images/icons/document-2.png" class="icon-menu-black" >
-	      	<img src="<?php echo $url;?>images/icons/document.png" class="icon-menu-white" >
-	      	<h2>CONSULTORÍA E IMPLEMENTACIÓN SAP​</h2>
-	    </li>
-
-	    <li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-hospitales';">
-	    	<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/FOTO 15.jpg">
-	      	<img src="<?php echo $url;?>images/icons/informe-medico-2.png" class="icon-menu-black" >
-	      	<img src="<?php echo $url;?>images/icons/informe-medico.png" class="icon-menu-white" >
-	      	<h2>SOLUCIONES HOSPITALARIAS​</h2>
-	    </li>
-
-	    <li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-ciberseguridad';">
-	    	<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/FOTO 6.jpg">
-	      	<img src="<?php echo $url;?>images/icons/encrypted-2.png" class="icon-menu-black" >
-	      	<img src="<?php echo $url;?>images/icons/encrypted.png" class="icon-menu-white" >
-	      	<h2>CIBERSEGURIDAD<br><br></h2>
-	    </li>
-
-	    <li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-fabrica-sw';">
-	    	<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/FOTO 10.jpg">
-	      	<img src="<?php echo $url;?>images/icons/engineering-2.png" class="icon-menu-black">
-	      	<img src="<?php echo $url;?>images/icons/engineering.png" class="icon-menu-white">
-	      	<h2>FABRICA DE SOFTWARE​</h2>
-	    </li>
-
-  	</ul>
-</div>
-
 <!-- -->
 <a id="start"></a>
 <div class="square-04" style="padding: 0 0 10% 0 ">
@@ -89,7 +17,7 @@
 
 <!-- -->
 <div class="square-06">
-	<h2>EXPERIENCIA EN DISEÑO E<br> IMPLEMENTACION</h2>
+	<h2>EXPERIENCIA EN DISEÑO E <br>IMPLEMENTACION</h2>
 	<ol>
 		<li>
 
@@ -115,52 +43,48 @@
 
 <!-- -->
 <div class="square-04">
-	<ol >
+	<ol style="padding-bottom: 10%;">
 		<li>
 			<h2>SERVICIOS</h2>
 		</li>
 		<li>
 			<p>
-				Vamos de la mano con nuestros clientes para conocer y atender las necesidades de sus proyectos, diseñando e implementando soluciones especializadas.
+				Ofrecemos servicios de diseño e implementación de soluciones tecnológicas y modernas,  tanto de hardware como de software, lo cual nos permite implementar sistemas que mejoran la operación de los proyectos de nuestros clientes, teniendo como beneficio, proyectos mas seguros, inteligentes y 100% gestionables.
 			</p>
 		</li>
 	</ol>
 </div>
 
-<!-- -->
-<div class="square-08">
-	<ul>
-		<span></span>
+<div class="square-06">
+	<h2>CATALOGO DE SOLUCIONES</h2>
+	<ol>
 		<li>
-			<h2>Desarrollo e Implementación de hardware y software en:</h2>
-			<ol>
-				<li style="width: 70%; padding: 0 10%;">
-					° Seguridad​<br>
-					° Hospitalaria​<br>
-					° Corporativo<br> ​
-					° Residencial​<br>
-					° Industrial​<br>
-				</li>
-				<li style="width: 30%;" ><img src="<?php echo $url ?>images/icons/suministro.png" ></li>
-			</ol>
+			<br><br>
+			<p>
+				<span>Servicios​</span><br>
+				° Soluciones integrales en TI​<br>
+				° Desarrollo de ingenierías​<br>
+				° Suministro de equipamiento​<br>
+				° Implementación de sistemas​<br>
+				° Capacitación usuario final​<br>
+				° Implementación SAP​<br>
+				° Implementación HIS​<br>
+				° Pólizas<br>
+			</p>
+			
+			<p>
+				​<span>Desarrollo e Implementación de hardware y software en:</span><br>
+				° Seguridad​<br>
+				° Hospitalaria​<br>
+				° Corporativo<br> ​
+				° Residencial​<br>
+				° Industrial<br>
+			</p>
+			<br><br>
 		</li>
-		<li>
-			<h2>Servicios:​</h2>
-			<ol>
-				<li style="width: 100%; padding: 0 10%;" >
-					° Soluciones integrales en TI​<br>
-					° Desarrollo de ingenierías​<br>
-					° Suministro de equipamiento​<br>
-					° Implementación de sistemas​<br>
-					° Capacitación usuario final​<br>
-					° Implementación SAP​<br>
-					° Implementación HIS​<br>
-					° Pólizas<br>
-				</li>
-				<li style="width: 30%;" ><img src="<?php echo $url ?>images/icons/camera-2.png" ></li>
-			</ol>
+		<li style="background: url('<?php echo $url ?>images/img/FOTO 14.jpg');background-position: center;background-size: 100%;border-bottom: 1.5vw solid #fff;border-top: 1.5vw solid #fff;">
 		</li>
-	</ul>
+	</ol>
 </div>
 
 <!-- CATALOGO DE SOLUCIONES -->
@@ -214,11 +138,10 @@
 					° Ciberseguridad <br>
 				</li>
 			</ul>
-			<img style="height: 40vw; margin: 5% 0; " src="<?php echo $url ?>images/img/PROYECTOS/TPACHULA APP/TAPC01.jpg" >
+			<img style="height: 40vw; margin: 5% 0; " src="<?php echo $url ?>images/img/PROYECTOS/BAHIA BANDERAS/BHB01.jpg" >
 
 		</div>
 	</div>
-	<br><br>
 </div>	
 
 <hr class="barra-colores-01">

@@ -62,11 +62,11 @@
     En TUTUM buscamos la excelencia y la obtenemos a través de la implementación de estándares nacionales e internacionales, acompañados de un alto nivel de servicio. Nuestra filosofía de mejora continua nos permite alcanzar el máximo beneficio tecnológico para nuestros clientes y acompañarlos en el desarrollo de su proyecto 
   </p>
   <ol>
-    <li>
+    <li onclick="window.location.href='<?php echo $url;?>identidad';" >
       <img src="images/icons/1.- cliente.gif">
       <h3>IDENTIDAD</h3>
     </li>
-    <li>
+    <li onclick="window.location.href='<?php echo $url;?>servicios';" >
       <img src="images/icons/2.- red-en-la-nube.gif">
       <h3>SERVICIOS​</h3>
     </li>
@@ -80,8 +80,6 @@
     </li>
   </ol>
 </div>
-
-<hr style="margin-top: 11%;">
 
 <!-- -->
 <div class="square-03" >
