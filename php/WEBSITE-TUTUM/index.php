@@ -41,33 +41,51 @@ echo '<body>';
         switch ($servicio) {
           case 'proyectos':
             include("resources/servicios/background.php"); // BACKGRAUND 
-            include("resources/servicios/menu.php"); // MENU DE SERVICIOS 
-            include("resources/servicios/proyectos.php"); 
+            include("resources/servicios/menu.php"); // MENU 
+            include("resources/servicios/proyectos.php"); // CONTENIDO 
+            include("resources/servicios/download-pdf.php"); // PDF
             break;
 
           case 'operacion':
-
-            include("resources/servicios/operacion.php"); 
+            include("resources/servicios/background.php"); // BACKGRAUND 
+            include("resources/servicios/menu.php"); // MENU 
+            include("resources/servicios/operacion.php"); // CONTENIDO 
+            include("resources/servicios/download-pdf.php"); // PDF
             break;
 
           case 'cau':
-
-            include("resources/servicios/cau.php"); 
+            include("resources/servicios/background.php"); // BACKGRAUND 
+            include("resources/servicios/menu.php"); // MENU 
+            include("resources/servicios/cau.php");  // CONTENIDO
+            include("resources/servicios/download-pdf.php"); // PDF
             break;
 
           case 'sap':
-
-            include("resources/servicios/sap.php"); 
+            include("resources/servicios/background.php"); // BACKGRAUND 
+            include("resources/servicios/menu.php"); // MENU 
+            include("resources/servicios/sap.php"); // CONTENIDO
+            include("resources/servicios/download-pdf.php"); // PDF
             break;
 
           case 'hospitales':
-
-            include("resources/servicios/hospitales.php"); 
+            include("resources/servicios/background.php"); // BACKGRAUND 
+            include("resources/servicios/menu.php"); // MENU 
+            include("resources/servicios/hospitales.php"); // CONTENIDO
+            include("resources/servicios/download-pdf.php"); // PDF
             break;
 
           case 'ciberseguridad':
+            include("resources/servicios/background.php"); // BACKGRAUND 
+            include("resources/servicios/menu.php"); // MENU 
+            include("resources/servicios/ciberseguridad.php");// CONTENIDO
+            include("resources/servicios/download-pdf.php"); // PDF
+            break;
 
-            include("resources/servicios/ciberseguridad.php");
+          case 'fabrica-sw':
+            include("resources/servicios/background.php"); // BACKGRAUND 
+            include("resources/servicios/menu.php"); // MENU 
+            include("resources/servicios/fabrica-sw.php");// CONTENIDO
+            include("resources/servicios/download-pdf.php"); // PDF
             break;
           
           default:

@@ -25,7 +25,7 @@
 				Contamos con la experiencia en implementación de más de 25 soluciones en TI, con la finalidad de ofrecer al mercado la tecnología más avanzada y la mejor oferta en sistemas, software y hardware.
 			</p>
 			<p style="padding: 2% 10% 0 10%"><span>PROYECTOS Y CONTRATOS</span></p>
-			<p>
+			<p style="position: relative;">
 
 				Desarrollamos soluciones integrales  de TI con la mejor tecnología del mercado e implementada con la mas alta calidad.<br><br>
 				° Contratos de seguridad​<br>
@@ -34,6 +34,9 @@
 				° Contratos ERP​<br>
 				° Proyectos Sector Salud​<br>
 				° Proyecto Residencial<br>
+
+				<img style="width: 15%;bottom: 10%;right: 10%;position: absolute;" src="images/icons/3.- Gifts Servicios/1.- Proyectos/hospital.gif" >
+
 			</p>
 
 		</li>
@@ -132,10 +135,11 @@
 		<div>
 			<h3>Software especializado​</h3>
 			<ul>
-				<li >
+				<li style="position: relative; width: 100%;">
 					° Sistemas de Información Hospitalaria (HIS)​<br>
 					° Planificación De Recursos Empresariales (ERP)​<br>
 					° Ciberseguridad <br>
+					<img style="width: 15%;bottom: 10%;right: 10%;position: absolute; margin: 0;" src="images/icons/3.- Gifts Servicios/1.- Proyectos/grafico-de-linea.gif" >
 				</li>
 			</ul>
 			<img style="height: 40vw; margin: 5% 0; " src="<?php echo $url ?>images/img/PROYECTOS/BAHIA BANDERAS/BHB01.jpg" >
@@ -145,20 +149,5 @@
 </div>	
 
 <hr class="barra-colores-01">
-
-<!-- DESCARGAR PDF -->
-<div class="square-04" style="background: #0000;padding-bottom: 5%;">
-	<ol>
-		<li>
-			<h2 style="padding: 10% 0%;">¿QUIERES SABER MAS<br>SOBRE NOSOTROS?</h2>
-		</li>
-		<li style="text-align: center; background: #fff;">
-			<button>
-				<p>DESCARGA NUESTRO CATALOGO DE SERVICIOS</p>
-				<img src="<?php echo $url ?>images/icons/descargar-pdf.png" class="arrow-down">
-			</button>
-		</li>
-	</ol>
-</div>
 
 

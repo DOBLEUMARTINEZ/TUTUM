@@ -1,75 +1,3 @@
-<div style="position: relative;">
-
-	<!-- -->
-	<img src="<?php echo $url ?>images/img/FOTO 06.jpg" style="position: fixed; width: 100%; z-index: -99">
-  	<img src="<?php echo $url ?>images/img/FOTO 06.jpg" style="opacity: 0; width: 100%;">
-
-	<!-- -->
-	<div class="square-logo-big">
-	  	<img src="images/logo/LOGO-WHITE.png" onclick="window.location.href='./';">
-	    <h2>CIBERSEGURIDAD</h2>
-	    <i class="fas fa-chevron-down arrow-down" onclick="window.location.href='#start'"></i>
-	</div>
-
-	<!-- barra negra -->
-	 <span class="barra-negra"></span>
-</div>
-
-<!-- MENU SERCICES -->
-	<div class="square-07">
-	  <ul>
-
-	    <li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-proyectos';">
-	    	<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/serv.jpg">
-	      	<img src="<?php echo $url ?>images/icons/implementacion.png" class="icon-menu-black">
-	      	<img src="<?php echo $url ?>images/icons/implementacion-2.png" class="icon-menu-white" >
-	      	<h2>DESARROLLO DE PORYECTOS TI</h2>
-	    </li>
-
-	    <li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-operacion';">
-	    	<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/operacion.jpg">
-	      	<img src="<?php echo $url;?>images/icons/sap.png" class="icon-menu-black">
-	      	<img src="<?php echo $url;?>images/icons/sap-2.png" class="icon-menu-white">
-	      	<h2>OPERACIÓN DE PROYECTOS​</h2>
-	    </li>
-
-	    <li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-cau';">
-	    	<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/FOTO 10.jpg">
-	      	<img src="<?php echo $url;?>images/icons/cau.png" class="icon-menu-black" >
-	      	<img src="<?php echo $url;?>images/icons/cau-2.png" class="icon-menu-white" >
-	      	<h2>CENTRO DE ATENCIÓN A USUARIOS​</h2>
-	    </li>
-
-	    <li id="proyectos-active" class="service-menu-color " onclick="window.location.href='servicios-sap';" >
-	    	<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/FOTO 11.jpg">
-	      	<img src="<?php echo $url;?>images/icons/document-2.png" class="icon-menu-black">
-	      	<img src="<?php echo $url;?>images/icons/document.png" class="icon-menu-white" >
-	      	<h2>CONSULTORÍA E IMPLEMENTACIÓN SAP​</h2>
-	    </li>
-
-	    <li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-hospitales';" >
-	    	<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/FOTO 15.jpg">
-	      	<img src="<?php echo $url;?>images/icons/informe-medico-2.png" class="icon-menu-black">
-	      	<img src="<?php echo $url;?>images/icons/informe-medico.png" class="icon-menu-white" >
-	      	<h2>SOLUCIONES HOSPITALARIAS​</h2>
-	    </li>
-
-	    <li id="proyectos-active" class="service-menu-color service-active" onclick="window.location.href='servicios-ciberseguridad';" >
-	      	<img src="<?php echo $url;?>images/icons/encrypted-2.png" class="icon-menu-black" style="opacity: 0;">
-	      	<img src="<?php echo $url;?>images/icons/encrypted.png" class="icon-menu-white" >
-	      	<h2>CIBERSEGURIDAD<br><br></h2>
-	    </li>
-
-	    <li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-fabrica-sw';">
-	    	<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/FOTO 10.jpg">
-	      	<img src="<?php echo $url;?>images/icons/engineering-2.png" class="icon-menu-black">
-	      	<img src="<?php echo $url;?>images/icons/engineering.png" class="icon-menu-white">
-	      	<h2>FABRICA DE SOFTWARE​</h2>
-	    </li>
-
-	  </ul>
-	</div>
-
 <!-- 1 box -->
 <a id="start"></a>
 <div class="square-04">
@@ -335,19 +263,6 @@
 </div>
 
 <hr class="barra-colores-01">
-<!-- DESCARGAR PDF -->
-<div class="square-04" style="background: #0000;padding-bottom: 5%;">
-	<ol>
-		<li>
-			<h2 style="padding: 10% 0%;">¿QUIERES SABER MAS<br>SOBRE NOSOTROS?</h2>
-		</li>
-		<li style="text-align: center; background: #fff;">
-			<button>
-				<p>DESCARGA NUESTRO CATALOGO DE SERVICIOS</p>
-				<img src="<?php echo $url ?>images/icons/descargar-pdf.png" class="arrow-down">
-			</button>
-		</li>
-	</ol>
-</div>
+
 
 

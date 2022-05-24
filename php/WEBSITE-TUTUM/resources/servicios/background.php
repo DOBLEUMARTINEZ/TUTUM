@@ -3,7 +3,7 @@
 		'proyectos' => 'images/img/serv.jpg',
 		'operacion' => 'images/img/operacion.jpg',
 		'cau' => 'images/img/cau.jpg',
-		'sap' => 'images/img/sap 05.jpg',
+		'sap' => 'images/img/sap.jpg',
 		'hospitales' => 'images/img/hospitales.jpg',
 		'ciberseguridad' => 'images/img/ciberseguridad.jpg',
 		'fabrica-sw' => 'images/img/fabrica-sw.jpg',
