@@ -87,6 +87,8 @@ echo '<body>';
             include("resources/servicios/fabrica-sw.php");// CONTENIDO
             include("resources/servicios/download-pdf.php"); // PDF
             break;
+
+
           
           default:
             $servicio='menu';
@@ -103,6 +105,11 @@ echo '<body>';
 
           case 'identidad':
             include("resources/identidad/contenido.php"); // CONTENIDO
+            break;
+
+          case 'prensa':
+            include("resources/prensa/contenido.php"); // CONTENIDO
+            include("resources/servicios/download-pdf.php"); // PDF
             break;
                 
           default:

@@ -1,41 +1,6 @@
 <!-- NAV BAR -->
   <div class="head ">
 
-    <!-- NAV BAR MOVIL -->
-    <nav class="container-header-mobil" >
-      <ol>
-        <li style="width: 30%" ><img src="<?php echo $url;?>images/logo/logo2.png" onclick="window.location.href='<?php echo $url;?>/';"></li>
-        <li style="width: 60%" >
-          <ul >
-            <li onclick="window.open('https://www.facebook.com/Tutum-Tech-515010355546588');"><i class="fab fa-facebook-square"></i></li>
-            <li onclick="window.open('https://www.instagram.com/tutumtech/');"><i class="fab fa-instagram"></i></li>
-            <li onclick="window.open('https://www.linkedin.com/company/tutum-tech/mycompany/verification/');"><i class="fab fa-linkedin"></i></li>
-            <li onclick="window.open('https://twitter.com/TutumTech');"><i class="fab fa-twitter-square"></i></li>
-          </ul>
-        </li>
-        <li style="width: 10%" >
-          <i class="fas fa-bars"></i><br>
-          <ol class="menu-mobil">
-            <li onclick="window.location.href='<?php echo $url;?>identidad';">
-              IDENTIDAD
-            </li>
-            <li onclick="window.location.href='<?php echo $url;?>';">
-              SERVICIOS
-            </li>
-            <li style="display: none;" onclick="window.location.href='<?php echo $url;?>';">
-              PROYECTOS
-            </li>
-            <li onclick="window.location.href='<?php echo $url;?>';">
-              PRENSA
-            </li>
-            <li onclick="window.location.href='<?php echo $url;?>';">
-              CONTACTO
-            </li>
-          </ol>
-        </li>
-      </ol>
-    </nav>
-
     <!-- NAV BAR DESKTOP -->
     <nav class="container-header">
 
@@ -86,31 +51,8 @@
           </ol>
         </li>
 
-        <li  class="dropdown-menu-ttm" style="display: none;">
-          <a onclick="window.location.href='<?php echo $url;?>proyectos-tutum';" >Proyectos</a>
-          <ol>
-            <li onclick="window.location.href='<?php echo $url;?>proyectos-en-operacion';" >
-              En operación
-            </li>
-            <li onclick="window.location.href='<?php echo $url;?>proyectos-llave-en-mano';">
-              Llave en mano
-            </li>
-            <li onclick="window.location.href='<?php echo $url;?>proyectos-en-desarrollo';" >
-              En desarrollo
-            </li>
-          </ol>
-        </li>
-
         <li  class="dropdown-menu-ttm">
-          <a onclick="window.location.href='<?php echo $url;?>';" >Prensa </a>
-          <ol>
-            <li onclick="window.location.href='<?php echo $url;?>';" >
-              Blog
-            </li>
-            <li onclick="window.location.href='<?php echo $url;?>';">
-              por definir
-            </li>
-          </ol>
+          <a onclick="window.location.href='<?php echo $url;?>prensa';" >Prensa </a>
         </li>
 
         <li  class="dropdown-menu-ttm">
@@ -133,6 +75,41 @@
 
       </ul>
 
+    </nav>
+
+    <!-- NAV BAR MOVIL -->
+    <nav class="container-header-mobil" >
+      <ol>
+        <li style="width: 30%" ><img src="<?php echo $url;?>images/logo/logo2.png" onclick="window.location.href='<?php echo $url;?>/';"></li>
+        <li style="width: 60%" >
+          <ul >
+            <li onclick="window.open('https://www.facebook.com/Tutum-Tech-515010355546588');"><i class="fab fa-facebook-square"></i></li>
+            <li onclick="window.open('https://www.instagram.com/tutumtech/');"><i class="fab fa-instagram"></i></li>
+            <li onclick="window.open('https://www.linkedin.com/company/tutum-tech/mycompany/verification/');"><i class="fab fa-linkedin"></i></li>
+            <li onclick="window.open('https://twitter.com/TutumTech');"><i class="fab fa-twitter-square"></i></li>
+          </ul>
+        </li>
+        <li style="width: 10%" >
+          <i class="fas fa-bars"></i><br>
+          <ol class="menu-mobil">
+            <li onclick="window.location.href='<?php echo $url;?>identidad';">
+              IDENTIDAD
+            </li>
+            <li onclick="window.location.href='<?php echo $url;?>';">
+              SERVICIOS
+            </li>
+            <li style="display: none;" onclick="window.location.href='<?php echo $url;?>';">
+              PROYECTOS
+            </li>
+            <li onclick="window.location.href='<?php echo $url;?>';">
+              PRENSA
+            </li>
+            <li onclick="window.location.href='<?php echo $url;?>';">
+              CONTACTO
+            </li>
+          </ol>
+        </li>
+      </ol>
     </nav>
 
     <!-- ir-arriba -->
