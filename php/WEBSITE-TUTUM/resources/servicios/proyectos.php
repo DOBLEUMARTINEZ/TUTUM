@@ -23,24 +23,35 @@
 
 			<p>
 				Contamos con la experiencia en implementación de más de 25 soluciones en TI, con la finalidad de ofrecer al mercado la tecnología más avanzada y la mejor oferta en sistemas, software y hardware.
+				<br><br>
+				<span>PROYECTOS</span>
+				<br><br>
+				Desarrollamos soluciones integrales de TI con la mejor tecnología del mercado e implementada con la mas alta calidad.
 			</p>
-			<p style="padding: 2% 10% 0 10%"><span>PROYECTOS Y CONTRATOS</span></p>
-			<p style="position: relative;">
 
-				Desarrollamos soluciones integrales  de TI con la mejor tecnología del mercado e implementada con la mas alta calidad.<br><br>
-				° Contratos de seguridad​<br>
-				° Contratos Hospitales​<br>
-				° Contratos de Ciberseguridad​<br>
-				° Contratos ERP​<br>
-				° Proyectos Sector Salud​<br>
-				° Proyecto Residencial<br>
-
-				<img style="width: 15%;bottom: 10%;right: 10%;position: absolute;" src="images/icons/3.- Gifts Servicios/1.- Proyectos/hospital.gif" >
-
-			</p>
+			<ul>
+				<li style="width: 25%; text-align: center;" >
+					<img style="width: 50%;" src="images/icons/2-Identidad/medicamento (1).gif"><br><br>
+					<span style="font-weight: bold;color: #4dbed4;font-size: 1.1vw;">Salud</span>
+				</li>
+				<li style="width: 25%; text-align: center;" >
+					<img style="width: 50%;" src="images/icons/2-Identidad/alerta.gif"><br><br>
+					<span style="font-weight: bold;color: #4dbed4;font-size: 1.1vw;">Seguridad​</span>
+				</li>
+				<li style="width: 25%; text-align: center;" >
+					<img style="width: 50%;" src="images/icons/2-Identidad/grafico-de-linea.gif"><br><br>
+					<span style="font-weight: bold;color: #4dbed4;font-size: 1.1vw;">Corporativo</span>
+				</li>
+				<li style="width: 25%; text-align: center;" >
+					<img style="width: 50%;" src="images/icons/2-Identidad/soleado.gif"><br><br>
+					<span style="font-weight: bold;color: #4dbed4;font-size: 1.1vw;">Residencial​</span>
+				</li>
+			</ul>
 
 		</li>
-		<li style="background: url('<?php echo $url ?>images/img/PROYECTOS/ESCUELA NAVAL/ENCARRETE01.jpg');background-position: center;background-size: 100%;border-bottom: 1.5vw solid #fff;border-top: 1.5vw solid #fff;"></li>
+		<li>
+			<iframe style="width: 100%; height: 32vw; border-top: 15px solid #fff; border-bottom: 15px solid #fff;" src="https://www.youtube.com/embed/tndsN1sY0FQ?start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</li>
 	</ol>
 </div>
 
@@ -59,33 +70,43 @@
 </div>
 
 <div class="square-06">
-	<h2>CATALOGO DE SOLUCIONES</h2>
+	<h2 style="color: #0000;">CATALOGO DE SOLUCIONES</h2>
+</div>
+
+<!-- SECTORES  -->
+<div class="square-12">
 	<ol>
 		<li>
-			<br><br>
-			<p>
-				<span>Servicios​</span><br>
-				° Soluciones integrales en TI​<br>
-				° Desarrollo de ingenierías​<br>
-				° Suministro de equipamiento​<br>
-				° Implementación de sistemas​<br>
-				° Capacitación usuario final​<br>
-				° Implementación SAP​<br>
-				° Implementación HIS​<br>
-				° Pólizas<br>
-			</p>
-			
-			<p>
-				​<span>Desarrollo e Implementación de hardware y software en:</span><br>
-				° Seguridad​<br>
-				° Hospitalaria​<br>
-				° Corporativo<br> ​
-				° Residencial​<br>
-				° Industrial<br>
-			</p>
-			<br><br>
+			<img src="images/icons/3.- Gifts Servicios/1.- Proyectos/digital (1).png">
+			<p>Soluciones ​integrales en TI​</p>
 		</li>
-		<li style="background: url('<?php echo $url ?>images/img/FOTO 14.jpg');background-position: center;background-size: 100%;border-bottom: 1.5vw solid #fff;border-top: 1.5vw solid #fff;">
+		<li>
+			<img src="images/icons/3.- Gifts Servicios/1.- Proyectos/tecnologia (1).png">
+			<p>Desarrollo de ​ingenierías</p>
+		</li>
+		<li>
+			<img src="images/icons/3.- Gifts Servicios/1.- Proyectos/ordenador-portatil12.png">
+			<p>Suministro de ​equipamiento</p>
+		</li>
+		<li>
+			<img src="images/icons/3.- Gifts Servicios/1.- Proyectos/informatica (1).png">
+			<p>Implementación de ​sistemas​</p>
+		</li>
+		<li>
+			<img src="images/icons/3.- Gifts Servicios/1.- Proyectos/nube.png">
+			<p>Implementación ​SAP</p>
+		</li>
+		<li>
+			<img src="images/icons/3.- Gifts Servicios/1.- Proyectos/cuidado-de-la-salud.png">
+			<p>Implementación ​HIS</p>
+		</li>
+		<li>
+			<img src="images/icons/3.- Gifts Servicios/1.- Proyectos/infraestructura.png">
+			<p>Capacitación ​usuario final</p>
+		</li>
+		<li>
+			<img src="images/icons/3.- Gifts Servicios/1.- Proyectos/ordenador-portatil.png">
+			<p>Pólizas</p>
 		</li>
 	</ol>
 </div>
@@ -115,35 +136,51 @@
 					° Control, Y Monitoreo (BMS)​<br>
 					° Integración De Sistemas ​<br>
 					° Radiocomunicación Segura<br>
-					<img src="<?php echo $url ?>images/icons/camera-2.png" >
-					<img src="<?php echo $url ?>images/icons/alarma-de-incendios.png" >
-					<img src="<?php echo $url ?>images/icons/informe-medico-2.png" >
-					<img src="<?php echo $url ?>images/icons/engineering-2.png" >
+					<img src="<?php echo $url ?>images/icons/3.- Gifts Servicios/1.- Proyectos/camara-de-cctv.png" >
+					<img src="<?php echo $url ?>images/icons/3.- Gifts Servicios/1.- Proyectos/control-de-accesso.png" >
+					<img src="<?php echo $url ?>images/icons/3.- Gifts Servicios/1.- Proyectos/wifi.png" >
+					<img src="<?php echo $url ?>images/icons/3.- Gifts Servicios/1.- Proyectos/walkie-talkie.png" >
 				</li>
 			</ol>
-			<h3>Soluciones Especiales Hospitalarias </h3>
-			<ol>
-				<li >
-					° Tele Enseñanza​<br>
-					° Fomento a la salud y entretenimiento​<br>
-					° Tele Medicina​<br>
-					° Televisión fomento a la salud​<br>
-					° Control Neonatal RFID<br>
-				</li>
-			</ol>
+			
 		</div>
 		<div>
 			<h3>Software especializado​</h3>
-			<ul>
-				<li style="position: relative; width: 100%;">
-					° Sistemas de Información Hospitalaria (HIS)​<br>
-					° Planificación De Recursos Empresariales (ERP)​<br>
-					° Ciberseguridad <br>
-					<img style="width: 15%;bottom: 10%;right: 10%;position: absolute; margin: 0;" src="images/icons/3.- Gifts Servicios/1.- Proyectos/grafico-de-linea.gif" >
+			<ol style="padding: " >
+				<li style="position: relative; width: 33%;padding: 0;text-align: center;">
+					<img style="width: 40%;" src="<?php echo $url ?>images/icons/3.- Gifts Servicios/1.- Proyectos/cama-de-hospital.png" ><br>
+					Sistemas de Información Hospitalaria<br> <span style="font-weight: bold;color: #4dbed4;">(HIS)</span>​
 				</li>
-			</ul>
-			<img style="height: 40vw; margin: 5% 0; " src="<?php echo $url ?>images/img/PROYECTOS/BAHIA BANDERAS/BHB01.jpg" >
+				<li style="position: relative; width: 33%;padding: 0;text-align: center;">
+					<img style="width: 40%;" src="<?php echo $url ?>images/icons/3.- Gifts Servicios/1.- Proyectos/negocio.png" ><br>
+					Planificación De Recursos Empresariales<br> <span style="font-weight: bold;color: #4dbed4;">(ERP)</span>​
+				</li>
+				<li style="position: relative; width: 33%;padding: 0;text-align: center;">
+					<img style="width: 40%;" src="<?php echo $url ?>images/icons/3.- Gifts Servicios/1.- Proyectos/verificar.png" ><br>
+					Ciberseguridad<br> <span style="font-weight: bold;color: #4dbed4;">(SOC)</span>
+				</li>
+			</ol>
 
+			<h3>Soluciones Especiales Hospitalarias </h3>
+			<ol style="justify-content: space-around;padding-bottom: 5%;">
+				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
+					<img style="width: 30%;" src="<?php echo $url ?>images/icons/3.- Gifts Servicios/1.- Proyectos/rayos-x.png" ><br>
+					Tele Enseñanza
+				</li>
+				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
+					<img style="width: 30%;" src="<?php echo $url ?>images/icons/3.- Gifts Servicios/1.- Proyectos/monitor-de-computadora.png" ><br>
+					Tele Medicina
+				</li>
+				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
+					<img style="width: 30%;" src="<?php echo $url ?>images/icons/3.- Gifts Servicios/1.- Proyectos/monitor-de-pulso-cardiaco.png" ><br>
+					Televisión fomento a la salud
+				</li>
+				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
+					<img style="width: 30%;" src="<?php echo $url ?>images/icons/3.- Gifts Servicios/1.- Proyectos/bebe.png" ><br>
+					Control Neonatal
+				</li>
+			</ol>
+			
 		</div>
 	</div>
 </div>	

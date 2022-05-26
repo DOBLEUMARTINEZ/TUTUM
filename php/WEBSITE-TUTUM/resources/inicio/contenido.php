@@ -12,15 +12,8 @@
     <i class="fas fa-chevron-down arrow-down"  onclick="window.location.href='./#start'"></i>
   </div>
 
-  <span style="
-    position: absolute;
-    width: 100%;
-    left: 0;
-    height: 30%;
-    background: #000;
-    bottom: 0;
-    z-index: -1;">
-  </span>
+  <!-- barra negra -->
+      <span class="barra-negra"></span>
 
 </div>
 
@@ -28,34 +21,28 @@
 <div class="square-02">
   <ul>
     <li>
-      <img src="images/icons/hilo-2.png">
-      <h3>+ <a class="counter" data-count="400">0</a> K</h3>
-      <p>METROS DE FIBRA ÓPTICA CERTIFICADOS</p>
+      <h3><a>100%</a></h3>
+      <p>MEXICANA</p>
     </li>
     <li>
-      <img src="images/icons/cable-de-red-2.png">
-      <h3>+ <a class="counter" data-count="980">0</a> K​</h3>
-      <p>METROS DE UTP CERTIFICADOS​</p>
+      <h3><a>6</a></h3>
+      <p>AÑOS DE EXPERIENCIA</p>
     </li>
     <li>
-      <img src="images/icons/camera-2.png">
-      <h3>+ <a class="counter" data-count="40">0</a> K​</h3>
-      <p>DISPOSITIVOS DE SEGURIDAD PERIMETRAL​</p>
+      <h3>+<a>30</a></h3>
+      <p>PROYECTOS​ EXITOSOS</p>
     </li>
     <li>
-      <img src="images/icons/suministro.png">
-      <h3>+ <a class="counter" data-count="1000">0</a></h3>
-      <p>EQUIPOS DE INFORMÁTICA Y SERVIDORES​</p>
+      <h3><a>+40k</a></h3>
+      <p>DISPOSITIVOS MONITOREADOS</p>
     </li>
     <li>
-      <img src="images/icons/desarrollo.png">
-      <h3>+<a class="counter" data-count="10">0</a>K</h3>
-      <p>EQUIPOS DE COMPUTO IMPRESIÓN Y TELEFONÍA​</p>
+      <h3><a>+300</a></h3>
+      <p>ESPECIALISTAS​ CERTIFICADOS</p>
     </li>
     <li>
-      <img src="images/icons/operacion.png">
-      <h3>+ <a class="counter" data-count="600">0</a> </h3>
-      <p>CUARTOS DE COMUNICACIÓN EQUIPADOS​</p>
+      <h3><a>+300</a> </h3>
+      <p>CUARTOS DE COMUNICACIÓN EQUIPADOS</p>
     </li>
   </ul>
   <p>

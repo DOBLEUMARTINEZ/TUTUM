@@ -105,6 +105,7 @@ echo '<body>';
 
           case 'identidad':
             include("resources/identidad/contenido.php"); // CONTENIDO
+            include("resources/servicios/download-pdf.php"); // PDF
             break;
 
           case 'prensa':

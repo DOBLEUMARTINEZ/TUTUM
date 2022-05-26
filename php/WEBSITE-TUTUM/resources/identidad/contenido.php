@@ -11,15 +11,8 @@
 	    <i class="fas fa-chevron-down arrow-down " onclick="window.location.href='./identidad#start'"></i>
   	</div>
 
-  	<span style="
-    position: absolute;
-    width: 100%;
-    left: 0;
-    height: 30%;
-    background: #000;
-    bottom: 0;
-    z-index: -1;">
-  </span>
+  	<!-- barra negra -->
+	<span class="barra-negra"></span>
 
 </div>
 
@@ -72,7 +65,7 @@
 	</ol>
 </div>
 
-<!-- -->
+<!-- NUESTRA EXPERIENCIA -->
 <div class="square-04">
 	<ol>
 		<li>
@@ -86,7 +79,7 @@
 	</ol>
 </div>
 
-<!-- -->
+<!-- DATOS CIRCULO -->
 <div class="square-10">
   <ul>
     <li>
@@ -122,37 +115,49 @@
   </ul>
 </div>
 
-<!-- Sectores  ​ -->
-<div class="square-06">
+<!-- SECTORES  -->
+<div class="square-12">
 	<ol>
 		<li>
-			<br>
-			<p style="padding: 8% 15%">
-				<span>Sectores</span><br><br>
-				° Operación Proyectos en Modalidad APP​<br>
-				° Servicios Administrados ERP​<br>
-				° Ciberseguridad​<br>
-				° Salud Publica​<br>
-				° Seguridad Publica​<br>
-				° SEMAR​<br>
-				° Obra Publica​<br>
-				° Corporativo​<br>
-				° Residencial​<br>
-				° Industrial<br>
-			</p>
+			<img src="images/icons/2-Identidad/medicamento (1).gif">
+			<p>Salud Publica</p>
 		</li>
-		<li style="
-			background: url('images/img/PROYECTOS/VILLAHERMOSA/VHT01.jpg');
-			background-size: 100%;
-			background-position: center;
-			border-bottom: 1.5vw solid #fff;
-			border-top: 1.5vw solid #fff;"></li>
+		<li>
+			<img src="images/icons/2-Identidad/medicamento (1).gif">
+			<p>Obra Publica</p>
+		</li>
+		<li>
+			<img src="images/icons/2-Identidad/soleado.gif">
+			<p>Residencial</p>
+		</li>
+		<li>
+			<img src="images/icons/2-Identidad/medicamento (1).gif">
+			<p>Comercial</p>
+		</li>
+		<li>
+			<img src="images/icons/2-Identidad/alerta.gif">
+			<p>Seguridad Publica</p>
+		</li>
+		<li>
+			<img src="images/icons/2-Identidad/grafico-de-linea.gif">
+			<p>Corporativo</p>
+		</li>
+		<li>
+			<img src="images/icons/2-Identidad/medicamento (1).gif">
+			<p>Industrial</p>
+		</li>
+		<li>
+			<img src="images/icons/2-Identidad/medicamento (1).gif">
+			<p>Ciberseguridad</p>
+		</li>
 	</ol>
 </div>
 
+<hr class="barra-colores-01">
+
 <!-- SOCIOS DE NEGOCIO​ -->
 <div class="square-04">
-	<ol>
+	<ol style="background: #fff;">
 		<li>
 			<h2>SOCIOS DE NEGOCIO​</h2>
 		</li>
@@ -166,9 +171,8 @@
 
 <!-- -->
 <div class="square-05">
-	<ol style="position: relative;padding: 0%; background: #ffffff73;" >
-		<li style="width: 50%;"></li>
-		<li style="width: 50%; background: #fff; padding: 1% 1%;">
+	<ol style="position: relative;padding: 0%; background: #fff;" >
+		<li style="width: 80%; background: #fff; padding: 1% 1%; margin: 0 10%;">
 			<img src="images/img/socios/logo-1.png" >
 			<img src="images/img/socios/logo-14.png" >
 			<img src="images/img/socios/logo-20.png" >
@@ -189,44 +193,47 @@
 	</ol>
 </div>
 
+
+
 <!-- -->
 <div class="square-06">
-	<h2>CLIENTES</h2>
-	<ol>
-		<li>
+	<h2 style="color: #0000;">CLIENTES</h2>
+	<br><br>
+    <div id="clientes" class="carousel slide clientes-slide" data-ride="carousel">    
+        <div class="carousel-inner">
 
-			<div class="logos-contratos">
-				<img src="images/img/socios/logo-9.png" >
-				<img src="images/img/socios/logo-03.png" >
-				<img src="images/img/socios/logo-01.png" >
-				<img src="images/img/socios/logo-8.png" >
-				<img src="images/img/socios/logo-06.png" >
-				<img src="images/img/socios/logo-05.png" >
-				<img src="images/img/socios/logo-02.png" >	
-			</div>
+         	<!-- SLIDE 1 -->
+            <div class="carousel-item active">
+            	<ul>
+            		<li><img src="images/img/socios/logo-9.png" ></li>
+            		<li><img src="images/img/socios/logo-04.png" ></li>
+            		<li><img src="images/img/socios/logo-01.png" ></li>
+            		<li><img src="images/img/socios/logo-06.png" ></li>
+            	</ul>
+            </div>
 
-		</li>
-		<li style="
-		background: url('images/img/PROYECTOS/TAPACHULA/IMSS.jpg');
-		background-size: 100%;
-			background-position: center;
-			border-bottom: 1.5vw solid #fff;
-			border-top: 1.5vw solid #fff;
-		"></li>
-	</ol>
+            <!-- SLIDE 1 -->
+            <div class="carousel-item">
+            	<ul>
+            		<li><img src="images/img/socios/logo-02.png" ></li>
+            		<li><img src="images/img/socios/logo-05.png" ></li>
+            		<li><img src="images/img/socios/logo-03.png" ></li>
+            		<li></li>
+            	</ul>
+            </div>
+
+            <!-- FLECHAS DE CAMBIO -->
+            <a class="slide-control-prev" href="#clientes" role="button" data-slide="prev">
+                <i class="fas fa-chevron-circle-left"></i>
+            </a>
+            <a class="slide-control-next" href="#clientes" role="button" data-slide="next">
+                <i class="fas fa-chevron-circle-right"></i>
+            </a>
+              
+        </div>
+    </div>  
+    <br><br>
+    <h2 style="color: #0000;">CLIENTES</h2>
 </div>
 
-<!-- DESCARGAR PDF -->
-<div class="square-04" style="background: #0000;padding-bottom: 5%;">
-	<ol>
-		<li>
-			<h2 style="padding: 10% 0%;">¿QUIERES SABER MAS<br>SOBRE NOSOTROS?</h2>
-		</li>
-		<li style="text-align: center; background: #fff;">
-			<button>
-				<p>DESCARGA NUESTRO CATALOGO DE SERVICIOS</p>
-				<img src="images/icons/descargar-pdf.png" class="arrow-down">
-			</button>
-		</li>
-	</ol>
-</div>
+<hr class="barra-colores-01">

@@ -1332,6 +1332,7 @@
             margin: 0;
             padding: 3% 0;
             transition: 0.3s;
+            font-size: 2vw;
         }
 
         .square-02 ul>li>p {
@@ -2292,6 +2293,85 @@
 
         /**/
 
+            .square-12 {
+                width: 100%;
+                margin: 0% 0;
+                padding: 2.5% 10%;
+                background: #fff;
+            }
+
+            .square-12 > ol {
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                flex-wrap: wrap;
+                list-style: none;
+            }
+
+            .square-12 > ol > li {
+                width: 23%;
+                text-align: center;
+                margin-bottom: 1%;
+            }
+
+            .square-12 > ol > li > p{
+                font-weight: bold;
+                color: #4dbed4;
+                font-size: 1.1vw;
+            }
+
+            .square-12 > ol > li > img{
+                width: 40%;
+            }
+
+        /**/
+            .clientes-slide {
+                background: #fff;
+                border-top: 15px solid #4dbed4;
+                border-bottom: 15px solid #4dbed4;
+            }
+
+             .clientes-slide  ul{
+                width: 100%;
+                list-style: none;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                margin: 0;
+                padding: 0;
+             }
+
+            .clientes-slide ul > li{
+                width: 20%;
+            }
+
+            .clientes-slide ul > li > img{
+                width: 70%;
+                margin: 0 15%;
+            }
+
+            .slide-control-prev{
+                position: absolute;
+                top: 40%;
+                left: 1%;
+                font-size: 2vw;
+                color: #c0c5d1;
+            }
+
+            .slide-control-next{
+                position: absolute;
+                top: 40%;
+                right: 1%;
+                font-size: 2vw;
+                color: #c0c5d1;
+            }
+
+
+        /**/
+
             .square-paralax {
                 position: relative;
                 padding: 8%;
@@ -2634,7 +2714,7 @@
         margin-left: auto;
         margin-right: auto;
         margin: 0% 0% 0% 0%;
-        padding: 3% 2% 1% 2% ;
+        padding: 2% 2% 1% 2% ;
         bottom: 0;
         background: #00000094;
     }
@@ -2689,7 +2769,7 @@
         font-size: 1vw;
         margin: 0%;
         padding: 0%;
-        text-align: right;
+        text-align: center;
     }
 
     .copyrigt>span{

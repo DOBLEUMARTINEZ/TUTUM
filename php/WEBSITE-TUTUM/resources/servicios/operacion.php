@@ -41,26 +41,34 @@
 			<p>
 				Contamos con experiencia en la Operación de proyectos en seguridad, hospitalarios y corporativos, teniendo como objetivo el asegurar la continua operación de los sistemas de nuestros clientes
 			</p>
+			<center style="text-align: center; font-weight: bold;color: #4dbed4; font-size: 1.5vw;" >CONTRATOS</center>
 			<ul>
-				<li>
-					<p>
-						° Contratos de seguridad​<br>
-						° Contratos Hospitales​<br>
-						° Contratos de Ciberseguridad​<br>
-						° Contratos ERP​<br>
-						° Proyectos Sector Salud​<br>
-						° Proyecto Residencial<br><br>
-						<img src="images/icons/sap.png" >
-					</p>
+				<li style=" width: 20%; text-align: center; font-weight: bold;color: #4dbed4;">
+					<img style="width: 80%;" src="images/icons/services/operacion/medicamento (1).gif">
+					Salud
 				</li>
-				<li>
-					<p style="text-align: center;">
-						<img src="images/icons/implementacion.png" ><br><br>
-						<span>+ 40,000​</span><br>
-						Dispositivos monitoreados diariamente
-					</p>
+				<li style=" width: 20%; text-align: center; font-weight: bold;color: #4dbed4;">
+					<img style="width: 80%;" src="images/icons/services/operacion/alerta.gif">
+					Seguridad​
+				</li>
+				<li style=" width: 20%; text-align: center; font-weight: bold;color: #4dbed4;">
+					<img style="width: 80%;" src="images/icons/services/operacion/grafico-de-linea.gif">
+					ERP​
+				</li>
+				<li style=" width: 20%; text-align: center; font-weight: bold;color: #4dbed4;">
+					<img style="width: 80%;" src="images/icons/services/operacion/latido-del-corazon.gif">
+					HIS​
+				</li>
+				<li style=" width: 20%; text-align: center; font-weight: bold;color: #4dbed4;">
+					<img style="width: 80%;" src="images/icons/services/operacion/6.- hacker.gif">
+					Ciber​ Seguridad​
 				</li>
 			</ul>
+			<p style="text-align: center;">
+				<img style="width: 15%; margin-right: 5%;" src="images/icons/services/operacion/dispositivos.png" > 
+				<span style="margin-right: 5%; font-size: 2vw;">+ 40,000​</span> 
+				Dispositivos monitoreados diariamente
+			</p>
 
 			
 
