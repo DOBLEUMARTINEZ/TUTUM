@@ -21,27 +21,27 @@
 <div class="square-02">
   <ul>
     <li>
-      <h3><a>100%</a></h3>
+      <h3><a class="counter" data-count="100" >0</a>%</h3>
       <p>MEXICANA</p>
     </li>
     <li>
-      <h3><a>6</a></h3>
+      <h3><a class="counter" data-count="6" >0</a></h3>
       <p>AÑOS DE EXPERIENCIA</p>
     </li>
     <li>
-      <h3>+<a>30</a></h3>
+      <h3>+<a class="counter" data-count="30" >0</a></h3>
       <p>PROYECTOS​ EXITOSOS</p>
     </li>
     <li>
-      <h3><a>+40k</a></h3>
+      <h3>+<a class="counter" data-count="40" >0</a>k</h3>
       <p>DISPOSITIVOS MONITOREADOS</p>
     </li>
     <li>
-      <h3><a>+300</a></h3>
+      <h3>+<a class="counter" data-count="300" >0</a></h3>
       <p>ESPECIALISTAS​ CERTIFICADOS</p>
     </li>
     <li>
-      <h3><a>+300</a> </h3>
+      <h3>+<a class="counter" data-count="300" >0</a></h3>
       <p>CUARTOS DE COMUNICACIÓN EQUIPADOS</p>
     </li>
   </ul>

@@ -19,7 +19,6 @@
   		<img src="<?php echo $url.$images[$servicio];?>" style=" width: 100%; opacity: 0;">
 
 	  	<!-- CUADRO DE TEXTO -->
-	  	<a id="start"></a>
 	  	<div class="square-logo-big" >
 		    <img src="<?php echo $url;?>images/logo/LOGO-WHITE.png" onclick="window.location.href='./';">
 		    <h2>SERVICIOS</h2>
@@ -30,3 +29,4 @@
 	  	<span class="barra-negra"></span>
 
 	</div>
+	<a id="start"></a>

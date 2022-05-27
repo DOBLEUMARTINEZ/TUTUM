@@ -31,19 +31,19 @@
 
 			<ul>
 				<li style="width: 25%; text-align: center;" >
-					<img style="width: 50%;" src="images/icons/2-Identidad/medicamento (1).gif"><br><br>
+					<img style="width: 50%;" src="images/icons/services/proyectos/medicamento.gif"><br><br>
 					<span style="font-weight: bold;color: #4dbed4;font-size: 1.1vw;">Salud</span>
 				</li>
 				<li style="width: 25%; text-align: center;" >
-					<img style="width: 50%;" src="images/icons/2-Identidad/alerta.gif"><br><br>
+					<img style="width: 50%;" src="images/icons/services/proyectos/alerta.gif"><br><br>
 					<span style="font-weight: bold;color: #4dbed4;font-size: 1.1vw;">Seguridad​</span>
 				</li>
 				<li style="width: 25%; text-align: center;" >
-					<img style="width: 50%;" src="images/icons/2-Identidad/grafico-de-linea.gif"><br><br>
+					<img style="width: 50%;" src="images/icons/services/proyectos/grafico-de-linea.gif"><br><br>
 					<span style="font-weight: bold;color: #4dbed4;font-size: 1.1vw;">Corporativo</span>
 				</li>
 				<li style="width: 25%; text-align: center;" >
-					<img style="width: 50%;" src="images/icons/2-Identidad/soleado.gif"><br><br>
+					<img style="width: 50%;" src="images/icons/services/proyectos/soleado.gif"><br><br>
 					<span style="font-weight: bold;color: #4dbed4;font-size: 1.1vw;">Residencial​</span>
 				</li>
 			</ul>
@@ -77,36 +77,52 @@
 <div class="square-12">
 	<ol>
 		<li>
-			<img src="images/icons/3.- Gifts Servicios/1.- Proyectos/digital (1).png">
+			<br><br>
+			<img src="images/icons/services/proyectos/digital (1).png">
 			<p>Soluciones ​integrales en TI​</p>
+			<br><br>
 		</li>
 		<li>
-			<img src="images/icons/3.- Gifts Servicios/1.- Proyectos/tecnologia (1).png">
+			<br><br>
+			<img src="images/icons/services/proyectos/tecnologia (1).png">
 			<p>Desarrollo de ​ingenierías</p>
+			<br><br>
 		</li>
 		<li>
-			<img src="images/icons/3.- Gifts Servicios/1.- Proyectos/ordenador-portatil12.png">
+			<br><br>
+			<img src="images/icons/services/proyectos/ordenador-portatil12.png">
 			<p>Suministro de ​equipamiento</p>
+			<br><br>
 		</li>
 		<li>
-			<img src="images/icons/3.- Gifts Servicios/1.- Proyectos/informatica (1).png">
+			<br><br>
+			<img src="images/icons/services/proyectos/informatica (1).png">
 			<p>Implementación de ​sistemas​</p>
+			<br><br>
 		</li>
 		<li>
-			<img src="images/icons/3.- Gifts Servicios/1.- Proyectos/nube.png">
+			<br><br>
+			<img src="images/icons/services/proyectos/nube.png">
 			<p>Implementación ​SAP</p>
+			<br><br>
 		</li>
 		<li>
-			<img src="images/icons/3.- Gifts Servicios/1.- Proyectos/cuidado-de-la-salud.png">
+			<br><br>
+			<img src="images/icons/services/proyectos/cuidado-de-la-salud.png">
 			<p>Implementación ​HIS</p>
+			<br><br>
 		</li>
 		<li>
-			<img src="images/icons/3.- Gifts Servicios/1.- Proyectos/infraestructura.png">
+			<br><br>
+			<img src="images/icons/services/proyectos/infraestructura.png">
 			<p>Capacitación ​usuario final</p>
+			<br><br>
 		</li>
 		<li>
-			<img src="images/icons/3.- Gifts Servicios/1.- Proyectos/ordenador-portatil.png">
+			<br><br>
+			<img src="images/icons/services/proyectos/ordenador-portatil.png">
 			<p>Pólizas</p>
+			<br><br>
 		</li>
 	</ol>
 </div>
@@ -136,10 +152,10 @@
 					° Control, Y Monitoreo (BMS)​<br>
 					° Integración De Sistemas ​<br>
 					° Radiocomunicación Segura<br>
-					<img src="<?php echo $url ?>images/icons/3.- Gifts Servicios/1.- Proyectos/camara-de-cctv.png" >
-					<img src="<?php echo $url ?>images/icons/3.- Gifts Servicios/1.- Proyectos/control-de-accesso.png" >
-					<img src="<?php echo $url ?>images/icons/3.- Gifts Servicios/1.- Proyectos/wifi.png" >
-					<img src="<?php echo $url ?>images/icons/3.- Gifts Servicios/1.- Proyectos/walkie-talkie.png" >
+					<img src="<?php echo $url ?>images/icons/services/proyectos/camara-de-cctv.png" >
+					<img src="<?php echo $url ?>images/icons/services/proyectos/control-de-accesso.png" >
+					<img src="<?php echo $url ?>images/icons/services/proyectos/wifi.png" >
+					<img src="<?php echo $url ?>images/icons/services/proyectos/walkie-talkie.png" >
 				</li>
 			</ol>
 			
@@ -148,15 +164,15 @@
 			<h3>Software especializado​</h3>
 			<ol style="padding: " >
 				<li style="position: relative; width: 33%;padding: 0;text-align: center;">
-					<img style="width: 40%;" src="<?php echo $url ?>images/icons/3.- Gifts Servicios/1.- Proyectos/cama-de-hospital.png" ><br>
+					<img style="width: 40%;" src="<?php echo $url ?>images/icons/services/proyectos/cama-de-hospital.png" ><br>
 					Sistemas de Información Hospitalaria<br> <span style="font-weight: bold;color: #4dbed4;">(HIS)</span>​
 				</li>
 				<li style="position: relative; width: 33%;padding: 0;text-align: center;">
-					<img style="width: 40%;" src="<?php echo $url ?>images/icons/3.- Gifts Servicios/1.- Proyectos/negocio.png" ><br>
+					<img style="width: 40%;" src="<?php echo $url ?>images/icons/services/proyectos/negocio.png" ><br>
 					Planificación De Recursos Empresariales<br> <span style="font-weight: bold;color: #4dbed4;">(ERP)</span>​
 				</li>
 				<li style="position: relative; width: 33%;padding: 0;text-align: center;">
-					<img style="width: 40%;" src="<?php echo $url ?>images/icons/3.- Gifts Servicios/1.- Proyectos/verificar.png" ><br>
+					<img style="width: 40%;" src="<?php echo $url ?>images/icons/services/proyectos/verificar.png" ><br>
 					Ciberseguridad<br> <span style="font-weight: bold;color: #4dbed4;">(SOC)</span>
 				</li>
 			</ol>
@@ -164,19 +180,19 @@
 			<h3>Soluciones Especiales Hospitalarias </h3>
 			<ol style="justify-content: space-around;padding-bottom: 5%;">
 				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
-					<img style="width: 30%;" src="<?php echo $url ?>images/icons/3.- Gifts Servicios/1.- Proyectos/rayos-x.png" ><br>
+					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/proyectos/rayos-x.png" ><br>
 					Tele Enseñanza
 				</li>
 				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
-					<img style="width: 30%;" src="<?php echo $url ?>images/icons/3.- Gifts Servicios/1.- Proyectos/monitor-de-computadora.png" ><br>
+					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/proyectos/monitor-de-computadora.png" ><br>
 					Tele Medicina
 				</li>
 				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
-					<img style="width: 30%;" src="<?php echo $url ?>images/icons/3.- Gifts Servicios/1.- Proyectos/monitor-de-pulso-cardiaco.png" ><br>
+					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/proyectos/monitor-de-pulso-cardiaco.png" ><br>
 					Televisión fomento a la salud
 				</li>
 				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
-					<img style="width: 30%;" src="<?php echo $url ?>images/icons/3.- Gifts Servicios/1.- Proyectos/bebe.png" ><br>
+					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/proyectos/bebe.png" ><br>
 					Control Neonatal
 				</li>
 			</ol>

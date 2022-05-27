@@ -119,36 +119,52 @@
 <div class="square-12">
 	<ol>
 		<li>
-			<img src="images/icons/2-Identidad/medicamento (1).gif">
+			<br><br>
+			<img src="images/icons/Identidad/medicamento.gif">
 			<p>Salud Publica</p>
+			<br><br>
 		</li>
 		<li>
-			<img src="images/icons/2-Identidad/medicamento (1).gif">
+			<br><br>
+			<img src="images/icons/Identidad/edificio.gif">
 			<p>Obra Publica</p>
+			<br><br>
 		</li>
 		<li>
-			<img src="images/icons/2-Identidad/soleado.gif">
+			<br><br>
+			<img src="images/icons/Identidad/soleado.gif">
 			<p>Residencial</p>
+			<br><br>
 		</li>
 		<li>
-			<img src="images/icons/2-Identidad/medicamento (1).gif">
+			<br><br>
+			<img src="images/icons/Identidad/carrito-de-compras.gif">
 			<p>Comercial</p>
+			<br><br>
 		</li>
 		<li>
-			<img src="images/icons/2-Identidad/alerta.gif">
+			<br><br>
+			<img src="images/icons/Identidad/alerta.gif">
 			<p>Seguridad Publica</p>
+			<br><br>
 		</li>
 		<li>
-			<img src="images/icons/2-Identidad/grafico-de-linea.gif">
+			<br><br>
+			<img src="images/icons/Identidad/grafico-de-linea.gif">
 			<p>Corporativo</p>
+			<br><br>
 		</li>
 		<li>
-			<img src="images/icons/2-Identidad/medicamento (1).gif">
+			<br><br>
+			<img src="images/icons/Identidad/grua.gif">
 			<p>Industrial</p>
+			<br><br>
 		</li>
 		<li>
-			<img src="images/icons/2-Identidad/medicamento (1).gif">
+			<br><br>
+			<img src="images/icons/Identidad/advertencia.gif">
 			<p>Ciberseguridad</p>
+			<br><br>
 		</li>
 	</ol>
 </div>

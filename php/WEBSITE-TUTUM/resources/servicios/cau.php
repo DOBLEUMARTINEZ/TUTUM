@@ -42,19 +42,19 @@
 			<center style="text-align: center; font-weight: bold;color: #4dbed4; font-size: 1.5vw;" >SOPORTE</center>
 			<ul>
 				<li style="width: 25%; text-align: center;" >
-					<img style="width: 50%;" src="images/icons/2-Identidad/medicamento (1).gif"><br><br>
+					<img style="width: 50%;" src="images/icons/services/cau/medicamento (1).gif"><br><br>
 					<span style="font-weight: bold;color: #4dbed4;font-size: 1.1vw;">Salud</span>
 				</li>
 				<li style="width: 25%; text-align: center;" >
-					<img style="width: 50%;" src="images/icons/2-Identidad/alerta.gif"><br><br>
+					<img style="width: 50%;" src="images/icons/services/cau/alerta.gif"><br><br>
 					<span style="font-weight: bold;color: #4dbed4;font-size: 1.1vw;">Seguridad​</span>
 				</li>
 				<li style="width: 25%; text-align: center;" >
-					<img style="width: 50%;" src="images/icons/2-Identidad/grafico-de-linea.gif"><br><br>
+					<img style="width: 50%;" src="images/icons/services/cau/grafico-de-linea.gif"><br><br>
 					<span style="font-weight: bold;color: #4dbed4;font-size: 1.1vw;">Corporativo</span>
 				</li>
 				<li style="width: 25%; text-align: center;" >
-					<img style="width: 50%;" src="images/icons/2-Identidad/soleado.gif"><br><br>
+					<img style="width: 50%;" src="images/icons/services/cau/grua.gif"><br><br>
 					<span style="font-weight: bold;color: #4dbed4;font-size: 1.1vw;">Industrial</span>
 				</li>
 			</ul>
@@ -87,7 +87,7 @@
 	</ol>
 </div>
 
-<!-- 2 box  -->
+<!-- circulos  -->
 <div class="square-11">
 	<ul>
 		<li>
@@ -107,100 +107,257 @@
 
 <!-- CATALOGO DE SOLUCIONES -->
 <div class="square-09">
-	<h2>CATALOGO DE SOLUCIONES</h2>
-	<div>
+	<h2 style="color: #0000;">EXPERIENCIA EN ADMINISTRACION ​DE SOLUCIONES </h2>
+</div>
+
+<!-- SECTORES  -->
+<div class="square-12">
+	<ol>
+		<li style="width: 20%;" >
+			<br><br>
+			<img src="images/icons/services/operacion/infraestructura.png">
+			<p>Infraestructura​ tecnológica​</p>
+			<br><br>
+		</li>
+		<li style="width: 20%;" >
+			<br><br>
+			<img src="images/icons/services/operacion/operacion.png">
+			<p>Operación ​</p>
+			<br><br>
+		</li>
+		<li style="width: 20%;" >
+			<br><br>
+			<img src="images/icons/services/operacion/llave-inglesa.png">
+			<p>Refaccionamiento​</p>
+			<br><br>
+		</li>
+		<li style="width: 20%;" >
+			<br><br>
+			<img src="images/icons/services/operacion/equipo.png">
+			<p>Capacitación​</p>
+			<br><br>
+		</li>
+		<li style="width: 20%;" >
+			<br><br>
+			<img src="images/icons/services/operacion/proceso.png">
+			<p>PAET​</p>
+			<br><br>
+		</li>
+		<li style="width: 20%;" >
+			<br><br>
+			<img src="images/icons/services/operacion/seguridad-informatica.png">
+			<p>SOC</p>
+			<br><br>
+		</li>
+		<li style="width: 20%;" >
+			<br><br>
+			<img src="images/icons/services/operacion/servicio-al-cliente.png">
+			<p>CAU</p>
+			<br><br>
+		</li>
+		<li style="width: 20%;" >
+			<br><br>
+			<img src="images/icons/services/operacion/laptop.png">
+			<p>HIS​</p>
+			<br><br>
+		</li>
+		<li style="width: 20%;" >
+			<br><br>
+			<img src="images/icons/services/operacion/finanzas.png">
+			<p>ERP</p>
+			<br><br>
+		</li>
+	</ol>
+</div>
+
+<div class="square-09">
+	<h2 style="color: #0000;">EXPERIENCIA EN ADMINISTRACION ​DE SOLUCIONES </h2>
+</div>
+
+<!-- SECTORES  -->
+<div class="square-12">
+	<ol>
+		<li style="width: 20%;" >
+			<br><br>
+			<img src="images/icons/services/operacion/infraestructura.png">
+			<p>Infraestructura​ tecnológica​</p>
+			<br><br>
+		</li>
+		<li style="width: 20%;" >
+			<br><br>
+			<img src="images/icons/services/operacion/operacion.png">
+			<p>Operación ​</p>
+			<br><br>
+		</li>
+		<li style="width: 20%;" >
+			<br><br>
+			<img src="images/icons/services/operacion/llave-inglesa.png">
+			<p>Refaccionamiento​</p>
+			<br><br>
+		</li>
+		<li style="width: 20%;" >
+			<br><br>
+			<img src="images/icons/services/operacion/equipo.png">
+			<p>Capacitación​</p>
+			<br><br>
+		</li>
+		<li style="width: 20%;" >
+			<br><br>
+			<img src="images/icons/services/operacion/proceso.png">
+			<p>PAET​</p>
+			<br><br>
+		</li>
+		<li style="width: 20%;" >
+			<br><br>
+			<img src="images/icons/services/operacion/seguridad-informatica.png">
+			<p>SOC</p>
+			<br><br>
+		</li>
+		<li style="width: 20%;" >
+			<br><br>
+			<img src="images/icons/services/operacion/servicio-al-cliente.png">
+			<p>CAU</p>
+			<br><br>
+		</li>
+		<li style="width: 20%;" >
+			<br><br>
+			<img src="images/icons/services/operacion/laptop.png">
+			<p>HIS​</p>
+			<br><br>
+		</li>
+		<li style="width: 20%;" >
+			<br><br>
+			<img src="images/icons/services/operacion/finanzas.png">
+			<p>ERP</p>
+			<br><br>
+		</li>
+	</ol>
+</div>
+
+<div class="square-09">
+	<h2>ACTIVIDADES DE SOPORTE</h2>
+</div>
+
+<!-- SECTORES  -->
+<div class="square-12" style="background: #000;" >
+	<ol>
+		<li style="width: 20%;color:#fff; " >
+			<br><br>
+			<img src="images/icons/services/operacion/infraestructura.png">
+			<p>Infraestructura​ tecnológica​</p>
+			<br><br>
+		</li>
+		<li style="width: 20%;color:#fff; " >
+			<br><br>
+			<img src="images/icons/services/operacion/operacion.png">
+			<p>Operación ​</p>
+			<br><br>
+		</li>
+		<li style="width: 20%;color:#fff; " >
+			<br><br>
+			<img src="images/icons/services/operacion/llave-inglesa.png">
+			<p>Refaccionamiento​</p>
+			<br><br>
+		</li>
+		<li style="width: 20%;color:#fff; " >
+			<br><br>
+			<img src="images/icons/services/operacion/equipo.png">
+			<p>Capacitación​</p>
+			<br><br>
+		</li>
+		<li style="width: 20%;color:#fff; " >
+			<br><br>
+			<img src="images/icons/services/operacion/proceso.png">
+			<p>PAET​</p>
+			<br><br>
+		</li>
+		<li style="width: 20%;color:#fff; " >
+			<br><br>
+			<img src="images/icons/services/operacion/seguridad-informatica.png">
+			<p>SOC</p>
+			<br><br>
+		</li>
+		<li style="width: 20%;color:#fff; " >
+			<br><br>
+			<img src="images/icons/services/operacion/servicio-al-cliente.png">
+			<p>CAU</p>
+			<br><br>
+		</li>
+		<li style="width: 20%;color:#fff; " >
+			<br><br>
+			<img src="images/icons/services/operacion/laptop.png">
+			<p>HIS​</p>
+			<br><br>
+		</li>
+		<li style="width: 20%;color:#fff; " >
+			<br><br>
+			<img src="images/icons/services/operacion/finanzas.png">
+			<p>ERP</p>
+			<br><br>
+		</li>
+	</ol>
+</div>
+
+<hr class="barra-colores-01">
+
+<!-- CATALOGO DE SOLUCIONES -->
+<div class="square-09">
+	<div>	
 		<div>
-			<h3>Servicios</h3>
+			<h3>CENTRO DE DATOS​</h3>
 			<ol>
 				<li>
-					° Administración​<br>
-					° Soporte a la operación en los 3 niveles​
-					° Refaccionamiento​<br>
-					° Capacitación​<br>
-					° Soluciones empresariales​<br>
-					° Diseño distribuido en la nube​<br>
-					° Data center​<br>
-					° Pólizas <br>
-					<img src="<?php echo $url ?>images/icons/TUTUM_Iconos/Tutum-iconos_0005_Layer-72.png" >
-					<img src="<?php echo $url ?>images/icons/TUTUM_Iconos/Tutum-iconos_0028_Layer-49.png" >
-					<img src="<?php echo $url ?>images/icons/team-3.png" >
-					<img src="<?php echo $url ?>images/icons/support.png" >
+					Garantiza la funcionalidad y desempeño de la Infraestructura & Telecomunicaciones.<br><br>
+					Administración de :​<br>
+					° Servidores Físicos y Virtuales​<br>
+					° Firewall Fortinet ​<br>
+					° Switch Acceso, Core​<br>
+					° Access Point ​<br>
+					° Telefonía IP ​<br>
+					Gestión de la Arquitectura SAP​<br>
+					Integración de Soluciones Corporativas​<br>
+					° Mesa de Ayuda (REMEDY)​<br>
+					Casos de Negocio ​<br>
+					° Estudio Plan de Continuidad del Negocio (Site Alterno)​<br>
+					° Certificación ISO 27001 ​<br>
+					Seguimiento de tickets mediante la Mesa deAyuda<br>
 				</li>
 			</ol>
-			<h3>Centros de Datos</h3>
-			<ol>
-				<li>
-				Garantiza la funcionalidad y desempeño de la Infraestructura & Telecomunicaciones.​<br><br>
-				Administración de :​<br><br>
-				° Servidores Físicos y Virtuales Dell Vxrail​<br>
-				° Firewall Fortinet ​<br>
-				° Switch Acceso, Core​<br>
-				° Access Point ​<br>
-				° Telefonía IP ​<br>
-				Gestión de la Arquitectura SAP​<br>
-				Integración de Soluciones Corporativas​<br>
-				° Mesa de Ayuda (Remedy)​<br>
-				Casos de Negocio ​<br>
-				° Estudio Plan de Continuidad del Negocio (Site Alterno)​<br>
-				° Certificación ISO 27001 ​<br>
-				Seguimiento de tickets mediante la Mesa de​ Ayuda<br>
-				</li>
-			</ol>
-			<h3>Servicios Centros de Datos​</h3>
-			<ol>
-				<li >
-					° Hiperconvergencia​<br>
-					° Infraestructura de red​<br>
-					° Servidores​ <br>
-					° Hardering​<br>
-					° Soporte de misión critica​<br>
-					° Monitoreo de disponibilidad​<br>
-					° Computo e impresión​<br>
-					<img src="<?php echo $url ?>images/icons/TUTUM_Iconos/Tutum-iconos_0017_Layer-60.png" >
-					<img src="<?php echo $url ?>images/icons/suministro.png" >
-					<img src="<?php echo $url ?>images/icons/TUTUM_Iconos/Tutum-iconos_0006_Layer-71.png" >
-					<img src="<?php echo $url ?>images/icons/TUTUM_Iconos/Tutum-iconos_0058_Layer-19.png" >
-				</li>
-			</ol>
+			
 		</div>
 		<div>
-			<h3>Actividades de Gestión</h3>
-			<ul>
-				<li >
-					Gestión de proyectos e implementaciones  a los sistemas de seguridad perimetral  ​<br><br>
-					° Soporte a las incidencias, problemáticas de los clientes <br> ​
-					° Ofrecemos Capacitación Técnica​<br>
-					° Elaboración de reportes y manuales​<br>
-					° Mantenimientos preventivos y correctivos​<br>
-					° Administración de CCTV Corporativo ​<br>
-					° Implementación de soluciones de Seguridad ​<br>
-					° Detección de incendios, Controles de Acceso​<br>
-					° Voceo, BMS​<br>
-					° Seguimiento de tickets mediante la Mesa de Ayuda<br>
+			<h3>SERVICIOS CENTROS DE DATOS</h3>
+			<ol style="padding: " >
+				<li style="position: relative; width: 33%;padding: 0;text-align: center;">
+					<img style="width: 40%;" src="<?php echo $url ?>images/icons/services/operacion/cama-de-hospital.png" ><br>
+					Sistemas de Información Hospitalaria<br> <span style="font-weight: bold;color: #4dbed4;">(HIS)</span>​
 				</li>
-			</ul>
-			<h3>Actividades de Soporte</h3>
-			<ol>
-				<li >
-					Asistencia a usuarios en los 3 niveles de soporte​<br><br>
-					° Administración del Directorio Activo y licenciamiento.​<br>
-					° Inventarios de equipo de computo.    ​<br>
-					° Mantenimientos preventivos.​<br>
-					° Actualización de sistemas.​<br>
-					° Respaldos de información.​<br>
-					° Diagnóstico en el mal funcionamiento del hardware y el software.​<br>
-					° Seguimiento de tickets mediante la Mesa de Ayuda.<br>
-					<img src="<?php echo $url ?>images/icons/suministro.png" >
-					<img src="<?php echo $url ?>images/icons/TUTUM_Iconos/Tutum-iconos_0014_Layer-63.png" >
-					<img src="<?php echo $url ?>images/icons/TUTUM_Iconos/Tutum-iconos_0029_Layer-48.png" >
-					<img src="<?php echo $url ?>images/icons/signature.png" >
+				<li style="position: relative; width: 33%;padding: 0;text-align: center;">
+					<img style="width: 40%;" src="<?php echo $url ?>images/icons/services/operacion/negocio.png" ><br>
+					Planificación De Recursos Empresariales<br> <span style="font-weight: bold;color: #4dbed4;">(ERP)</span>​
+				</li>
+				<li style="position: relative; width: 33%;padding: 0;text-align: center;">
+					<img style="width: 40%;" src="<?php echo $url ?>images/icons/services/operacion/verificar.png" ><br>
+					Ciberseguridad<br> <span style="font-weight: bold;color: #4dbed4;">(SOC)</span>
+				</li>
+				<li style="position: relative; width: 33%;padding: 0;text-align: center;">
+					<img style="width: 40%;" src="<?php echo $url ?>images/icons/services/operacion/verificar.png" ><br>
+					Ciberseguridad<br> <span style="font-weight: bold;color: #4dbed4;">(SOC)</span>
+				</li>
+				<li style="position: relative; width: 33%;padding: 0;text-align: center;">
+					<img style="width: 40%;" src="<?php echo $url ?>images/icons/services/operacion/verificar.png" ><br>
+					Ciberseguridad<br> <span style="font-weight: bold;color: #4dbed4;">(SOC)</span>
+				</li>
+				<li style="position: relative; width: 33%;padding: 0;text-align: center;">
+					<img style="width: 40%;" src="<?php echo $url ?>images/icons/services/operacion/verificar.png" ><br>
+					Ciberseguridad<br> <span style="font-weight: bold;color: #4dbed4;">(SOC)</span>
 				</li>
 			</ol>
-			<img style="height: 27vw; margin: 5% 0; " src="<?php echo $url ?>images/img/FOTO 12.jpg" >
+			
 		</div>
 	</div>
 	<br><br>
-</div>	
+</div>
 
 <hr class="barra-colores-01">
 
