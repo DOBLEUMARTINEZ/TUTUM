@@ -21,42 +21,53 @@
 	</ul>
 </div>
 
-
-<!-- box 3 -->
+<!---->
 <div class="square-06">
-	<h2>EXPERIENCIA EN CONSULTORÍA E IMPLEMENTACIÓN SAP ​</h2>
+	<h2>EXPERIENCIA EN CONSULTORÍA E IMPLEMENTACIÓN SAP</h2>
 	<ol>
 		<li>
 
 			<p>
 				Contamos con experiencia en la implementación de proyectos en <strong>SAP BACKOFFICE</strong>, tenemos como objetivo el asegurar la continua operación de los sistemas de nuestros clientes.
 			</p>
-			<ul>
-				<li>
-					<p style="text-align: center;">
-						<span>Módulos​</span><br>
-						° Finanzas​<br>
-						° Contabilidad​<br>
-						° Costos​<br>
-						° Presupuestos​<br>
-						° Inventarios​<br>
-						° Compras​<br>
-						° Bussines intelligent<br>
-					</p>
+			<center style="text-align: center; font-weight: bold;color: #4dbed4; font-size: 1.5vw;" >SOPORTE</center>
+			<ul style="flex-wrap: wrap; justify-content: center;">
+				<li style="width: 25%; text-align: center;" >
+					<img style="width: 50%;" src="images/icons/services/sap/ordenador-portatil.gif"><br>
+					<span style="font-weight: bold;color: #4dbed4;font-size: 1.1vw;">Finanzas</span>
 				</li>
-				<li>
-					<p style="text-align: center;">
-						Implementaciones​ <strong>BackOffice​</strong>
-						<img src="images/icons/team-2.png" ><br>
-						nstancias en​ Hosting TUTUM​
-					</p>
+				<li style="width: 25%; text-align: center;" >
+					<img style="width: 50%;" src="images/icons/services/sap/bolsa-de-dinero.gif"><br>
+					<span style="font-weight: bold;color: #4dbed4;font-size: 1.1vw;">Contabilidad</span>
+				</li>
+				<li style="width: 25%; text-align: center;" >
+					<img style="width: 50%;" src="images/icons/services/sap/euro.gif"><br>
+					<span style="font-weight: bold;color: #4dbed4;font-size: 1.1vw;">Costos​</span>
+				</li>
+				<li style="width: 25%; text-align: center;" >
+					<img style="width: 50%;" src="images/icons/services/sap/documento.gif"><br>
+					<span style="font-weight: bold;color: #4dbed4;font-size: 1.1vw;">Presupuestos​</span>
+				</li>
+				<li style="width: 25%; text-align: center;" >
+					<img style="width: 50%;" src="images/icons/services/sap/lista-de-verificacion.gif"><br>
+					<span style="font-weight: bold;color: #4dbed4;font-size: 1.1vw;">Inventarios</span>
+				</li>
+				<li style="width: 25%; text-align: center;" >
+					<img style="width: 50%;" src="images/icons/services/sap/paleta.gif"><br>
+					<span style="font-weight: bold;color: #4dbed4;font-size: 1.1vw;">Compras​</span>
+				</li>
+				<li style="width: 25%; text-align: center;" >
+					<img style="width: 50%;" src="images/icons/services/sap/presentacion.gif"><br>
+					<span style="font-weight: bold;color: #4dbed4;font-size: 1.1vw;">BI​</span>
 				</li>
 			</ul>
 
-			
+		</li>
+		<li>
+
+			<iframe style="width: 100%; height: 32vw; border-top: 15px solid #fff; border-bottom: 15px solid #fff;" src="https://www.youtube.com/embed/MxXB8wWU6vg?start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
 
 		</li>
-		<li style="background: url('<?php echo $url ?>images/img/FOTO 10.jpg');background-position: center;background-size: 100%;border-bottom: 1.5vw solid #fff;border-top: 1.5vw solid #fff;"></li>
 	</ol>
 </div>
 

@@ -30,40 +30,46 @@
 	</ul>
 </div>
 
-<!-- box 3 -->
+<!---->
 <div class="square-06">
 	<h2>EXPERIENCIA EN ATENCIÓN A USUARIOS</h2>
 	<ol>
 		<li>
 
 			<p>
-				Contamos con experiencia ofreciendo <strong>servicios de mesa de ayuda</strong> para proyectos en seguridad, hospitalarios y corporativos, teniendo como objetivo el asegurar la continua operación de los sistemas de nuestros clientes​.
+				Contamos con experiencia ofreciendo <strong>servicios de mesa de ayuda</strong> para proyectos en seguridad, hospitalarios y corporativos, teniendo como objetivo el asegurar la continua operación de los sistemas de nuestros clientes​
 			</p>
+			<center style="text-align: center; font-weight: bold;color: #4dbed4; font-size: 1.5vw;" >SOPORTE</center>
 			<ul>
-				<li>
-					<p style="text-align: center;">
-						<span>Soporte</span><br>
-						° Corporativo​<br>
-						° Hospitales​<br>
-						° Seguridad​<br>
-						° Industrial<br><BR>
-						<img style="margin: 0 5%;" src="images/icons/3.- Gifts Servicios/3.- Cau/apoyo.gif" >
-						<img style="margin: 0 5%;" src="images/icons/3.- Gifts Servicios/3.- Cau/24-horas.gif" >
-					</p>
+				<li style="width: 25%; text-align: center;" >
+					<img style="width: 50%;" src="images/icons/2-Identidad/medicamento (1).gif"><br><br>
+					<span style="font-weight: bold;color: #4dbed4;font-size: 1.1vw;">Salud</span>
 				</li>
-				<li>
-					<p style="text-align: center;">
-						<img src="images/icons/3.- Gifts Servicios/3.- Cau/carne-de-identidad.gif" ><br>
-						<span>+50</span><br>
-						Especialistas dan soporte a nuestros clientes ​<strong>24x7</strong>
-					</p>
+				<li style="width: 25%; text-align: center;" >
+					<img style="width: 50%;" src="images/icons/2-Identidad/alerta.gif"><br><br>
+					<span style="font-weight: bold;color: #4dbed4;font-size: 1.1vw;">Seguridad​</span>
+				</li>
+				<li style="width: 25%; text-align: center;" >
+					<img style="width: 50%;" src="images/icons/2-Identidad/grafico-de-linea.gif"><br><br>
+					<span style="font-weight: bold;color: #4dbed4;font-size: 1.1vw;">Corporativo</span>
+				</li>
+				<li style="width: 25%; text-align: center;" >
+					<img style="width: 50%;" src="images/icons/2-Identidad/soleado.gif"><br><br>
+					<span style="font-weight: bold;color: #4dbed4;font-size: 1.1vw;">Industrial</span>
 				</li>
 			</ul>
-
-			
+			<p style="text-align: center; display: flex; justify-content: center;align-items: center; width: 100%">
+				<img style="width: 15%; margin-right: 5%;" src="images/icons/services/cau/carne-de-identidad.gif" > 
+				<span style="margin-right: 5%; font-size: 2vw;">+40</span>Especialistas dan soporte a nuestros clientes<br>24x7
+				<img style="width: 15%; margin-right: 5%;" src="images/icons/services/cau/24-horas.gif" > 
+			</p>
 
 		</li>
-		<li style="background: url('<?php echo $url ?>images/img/FOTO 10.jpg');background-position: center;background-size: 100%;border-bottom: 1.5vw solid #fff;border-top: 1.5vw solid #fff;"></li>
+		<li>
+
+			<iframe style="width: 100%; height: 32vw; border-top: 15px solid #fff; border-bottom: 15px solid #fff;" src="https://www.youtube.com/embed/F3IM6aYDwLY?start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
+
+		</li>
 	</ol>
 </div>
 
