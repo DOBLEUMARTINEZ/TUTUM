@@ -20,6 +20,9 @@
 			<p>TUTUM<br><span style="font-size: 0.9vw;">HIS</span></p>
 			<img src="images/icons/HIS.png" >
 		</li>
+		<li>
+			<img style="width: 50%;" src="images/icons/services/hospitales/latido-del-corazon.gif" >
+		</li>
 	</ul>
 </div>
 
@@ -37,9 +40,21 @@
 			<ul style="justify-content: center; padding-top: 0;">
 				<li>
 					<p style="text-align: center;">
-						Implementación​ <br><span style="font-size: 0.9vw;">HIS</span><br><br>	
-						<img src="images/icons/services/hospitales/latido-del-corazon.gif" ><br><br>
-						Software as a Service​ <br>	On Premise​
+						<img style="width: 50%; margin:1% 25%;" src="images/icons/services/hospitales/servicio-al-cliente.png" ><br><br>
+						Implementación​<span style="font-size: 0.9vw;"> HIS</span>
+					</p>
+				</li>
+				<li>
+					<p style="text-align: center;">
+						
+						<img style="width: 50%; margin:1% 25%;" src="images/icons/services/hospitales/servidor-en-la-nube.png" ><br><br>
+						Software ​as a<span style="font-size: 0.9vw;"> Service</span>
+					</p>
+				</li>
+				<li>
+					<p style="text-align: center;">
+						<img style="width: 50%; margin:1% 25%;" src="images/icons/services/hospitales/infraestructura.png" ><br><br>
+						On<span style="font-size: 0.9vw;"> Premise​</span>
 					</p>
 				</li>
 			</ul>
@@ -53,7 +68,7 @@
 
 <!-- SERVICIOS -->
 <div class="square-04">
-	<ol >
+	<ol style="padding-bottom: 2%;">
 		<li>
 			<h2>SERVICIOS</h2>
 		</li>
@@ -65,57 +80,107 @@
 	</ol>
 </div>
 
-<!-- 2 box  -->
-<div class="square-11">
-	<ul>
-		<li>
-			<p><span style="font-size: 0.9vw;">Implementación</span></p>
-			<img src="images/icons/suministro.png" >
-		</li>
-		<li>
-			<p><span style="font-size: 0.9vw;">Administración</span></p>
-			<img src="images/icons/servers.png" >
-		</li>
-		<li>
-			<p><span style="font-size: 0.9vw;">Soporte​</span></p>
-			<img src="images/icons/cau.png" >
-		</li>
-	</ul>
-</div>
-
-<!-- CATALOGO DE SOLUCIONES -->
-<div class="square-06">
-	<h2>CATALOGO DE SOLUCIONES </h2>
+<!-- SECTORES  -->
+<div class="square-12" style="background: #000; padding: 1% 1%;" >
 	<ol>
-		<li>
-			<br>
-			<p>
-				<span>Servicios​</span><br>
-				° Infraestructura tecnológica​ <br>
-					° Administración​ <br>
-					° Operación ​ <br>
-					° Refaccionamiento​ <br>
-					° Capacitación​ <br>
-					° CAU​ <br>
-					° HIS​ <br>
-					° ERP <br>
-			</p>
-			
-			<p>
-				​<span>Soluciones y Sistemas</span><br>
-				° Sistemas de información Hospitalaria​<br>
-					° Tele enseñanza​<br>
-					° Tele consultorio​<br>
-					° Intercomunicación Paciente Enfermera​<br>
-					° Control Neonatal​<br>
-					° Televisión IP, Entretenimiento y fomento a la salud<br>
-			</p>
+		<li style="width:12%;" >
+			<br><br>
+			<img src="images/icons/services/hospitales/laptop.png"><br><br>
+			<p >HIS​</p>
 			<br><br>
 		</li>
-		<li style="
-			background: url('images/img/FOTO 17.jpg');background-size: cover; background-position: center;border-bottom: 1.5vw solid #fff;border-top: 1.5vw solid #fff;"></li>
+		<li style="width:12%;" >
+			<br><br>
+			<img src="images/icons/services/hospitales/finanzas.png"><br><br>
+			<p>ERP​</p>
+			<br><br>
+		</li>
+		<li style="width:12%;" >
+			<br><br>
+			<img src="images/icons/services/hospitales/infraestructura.png"><br><br>
+			<p>Infraestructura​<br>tecnológica​</p>
+			<br><br>
+		</li>
+		<li style="width:12%;" >
+			<br><br>
+			<img src="images/icons/services/hospitales/operacion.png"><br><br>
+			<p>Operación ​</p>
+			<br><br>
+		</li>
+		<li style="width:12%;" >
+			<br><br>
+			<img src="images/icons/services/hospitales/equipo.png"><br><br>
+			<p>Capacitación​</p>
+			<br><br>
+		</li>
+		<li style="width:12%;" >
+			<br><br>
+			<img src="images/icons/services/hospitales/proceso.png"><br><br>
+			<p>PAET​</p>
+			<br><br>
+		</li>
+		<li style="width:12%;" >
+			<br><br>
+			<img src="images/icons/services/hospitales/servicio-al-cliente.png"><br><br>
+			<p>CAU​</p>
+			<br><br>
+		</li>
+		<li style="width:12%;" >
+			<br><br>
+			<img src="images/icons/services/hospitales/seguridad-informatica.png"><br><br>
+			<p>SOC</p>
+			<br><br>
+		</li>
 	</ol>
-</div>	
+</div>
+
+
+<!-- CATALOGO DE SOLUCIONES -->
+<div class="square-09">
+	<div>	
+		<div>
+			<h3 style="text-align: center; font-weight: normal; ">SOLUCIONES Y SISTEMAS</h3>
+			<h3 style="text-align: center; ">Soluciones Especiales Hospitalarias </h3>
+			<ol style="justify-content: space-around;padding-bottom: 5%;">
+				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
+					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/operacion/rayos-x.png" ><br>
+					Tele Enseñanza
+				</li>
+				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
+					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/operacion/monitor-de-computadora.png" ><br>
+					Tele Medicina
+				</li>
+				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
+					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/operacion/monitor-de-pulso-cardiaco.png" ><br>
+					Televisión fomento a la salud
+				</li>
+				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
+					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/operacion/bebe.png" ><br>
+					Control Neonatal
+				</li>
+			</ol>
+		</div>
+		<div>
+			<h3 style="text-align: center; font-weight: normal; color: #0000;">SOFTWARE ESPECIALIZADO</h3>
+			<h3 style="text-align: center; font-weight: normal;">SOFTWARE ESPECIALIZADO</h3>
+			<ol style="padding: " >
+				<li style="position: relative; width: 33%;padding: 0;text-align: center;">
+					<img style="width: 40%;" src="<?php echo $url ?>images/icons/services/operacion/cama-de-hospital.png" ><br>
+					Sistemas de Información Hospitalaria<br> <span style="font-weight: bold;color: #4dbed4;">(HIS)</span>​
+				</li>
+				<li style="position: relative; width: 33%;padding: 0;text-align: center;">
+					<img style="width: 40%;" src="<?php echo $url ?>images/icons/services/operacion/negocio.png" ><br>
+					Planificación De Recursos Empresariales<br> <span style="font-weight: bold;color: #4dbed4;">(ERP)</span>​
+				</li>
+				<li style="position: relative; width: 33%;padding: 0;text-align: center;">
+					<img style="width: 40%;" src="<?php echo $url ?>images/icons/services/operacion/verificar.png" ><br>
+					Ciberseguridad<br> <span style="font-weight: bold;color: #4dbed4;">(SOC)</span>
+				</li>
+			</ol>
+		</div>
+	</div>
+	<br><br>
+</div>
 
 <hr class="barra-colores-01">
 
@@ -123,7 +188,7 @@
 <div class="square-04">
 	<ol >
 		<li>
-			<h2>SISTEMAS DE INFORMACION <br>HOSPITALARIA <br>TUTUM HIS</h2>
+			<h2>SISTEMAS DE INFORMACION <br>HOSPITALARIA <br>TUTUM <span style="font-weight: bold;color: #4dbed4;">HIS</span></h2>
 		</li>
 		<li>
 			<p>
@@ -157,7 +222,7 @@
 
 <!-- CATALOGO DE SOLUCIONES -->
 <div class="square-09" >
-	<h2>CATALOGO DE SOLUCIONES</h2>
+	<h2 style="color: #0000;">CATALOGO DE SOLUCIONES</h2>
 	<div style="padding-top: 2.5%;">
 		<div >
 			<ol>

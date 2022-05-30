@@ -213,10 +213,9 @@
 
 <!-- -->
 <div class="square-06">
-	<h2 style="color: #0000;">CLIENTES</h2>
-	<br><br>
+	<h2>CLIENTES</h2>
     <div id="clientes" class="carousel slide clientes-slide" data-ride="carousel">    
-        <div class="carousel-inner">
+        <div class="carousel-inner" style="padding: 4% 0;">
 
          	<!-- SLIDE 1 -->
             <div class="carousel-item active">
@@ -248,7 +247,6 @@
               
         </div>
     </div>  
-    <br><br>
     <h2 style="color: #0000;">CLIENTES</h2>
 </div>
 

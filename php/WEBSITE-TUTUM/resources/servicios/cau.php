@@ -284,19 +284,19 @@
 			<ol>
 				<li>
 					Garantiza la funcionalidad y desempeño de la Infraestructura & Telecomunicaciones.<br><br>
-					Administración de :​<br>
+					Administración de :<br>
 					° Servidores Físicos y Virtuales​<br>
 					° Firewall Fortinet ​<br>
 					° Switch Acceso, Core​<br>
 					° Access Point ​<br>
 					° Telefonía IP ​<br>
-					Gestión de la Arquitectura SAP​<br>
+					Gestión de la Arquitectura <span style="color: #4dbed4">SAP​</span><br>
 					Integración de Soluciones Corporativas​<br>
-					° Mesa de Ayuda (REMEDY)​<br>
+					° Mesa de Ayuda <span style="color: #4dbed4">(REMEDY)​</span><br>
 					Casos de Negocio ​<br>
-					° Estudio Plan de Continuidad del Negocio (Site Alterno)​<br>
-					° Certificación ISO 27001 ​<br>
-					Seguimiento de tickets mediante la Mesa deAyuda<br>
+					° Estudio Plan de Continuidad del Negocio <span style="color: #4dbed4">(Site Alterno)​</span><br>
+					° Certificación <span style="color: #4dbed4">ISO 27001</span><br>
+					Seguimiento de tickets mediante la Mesa de Ayuda<br>
 				</li>
 			</ol>
 			
@@ -306,27 +306,26 @@
 			<ol style="padding: " >
 				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
 					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/cau/servidor.png" ><br>
-					Sistemas de Información Hospitalaria<br> <span style="font-weight: bold;color: #4dbed4;">(HIS)</span>​
+					<span style="font-weight: bold;color: #4dbed4;">Hiperconvergencia​</span>​
 				</li>
 				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
-					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/cau/infraestructura.png" ><br>
-					Planificación De Recursos Empresariales<br> <span style="font-weight: bold;color: #4dbed4;">(ERP)</span>​
+					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/cau/infraestructura.png" ><br><span style="font-weight: bold;color: #4dbed4;">Infraestructura de red</span>​
 				</li>
 				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
 					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/cau/servidor (1).png" ><br>
-					Ciberseguridad<br> <span style="font-weight: bold;color: #4dbed4;">(SOC)</span>
+					<span style="font-weight: bold;color: #4dbed4;">Servidores</span>
 				</li>
 				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
 					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/cau/phishing.png" ><br>
-					Ciberseguridad<br> <span style="font-weight: bold;color: #4dbed4;">(SOC)</span>
+					<span style="font-weight: bold;color: #4dbed4;">Hardering</span>
 				</li>
 				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
 					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/cau/apoyo-tecnico.png" ><br>
-					Ciberseguridad<br> <span style="font-weight: bold;color: #4dbed4;">(SOC)</span>
+					<span style="font-weight: bold;color: #4dbed4;">Soporte de ​misión critica</span>
 				</li>
 				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
 					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/cau/vigilancia.png" ><br>
-					Ciberseguridad<br> <span style="font-weight: bold;color: #4dbed4;">(SOC)</span>
+					<span style="font-weight: bold;color: #4dbed4;">Monitoreo de ​disponibilidad</span>
 				</li>
 			</ol>
 			

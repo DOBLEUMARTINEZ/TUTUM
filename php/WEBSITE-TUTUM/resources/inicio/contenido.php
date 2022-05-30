@@ -49,19 +49,19 @@
     En TUTUM buscamos la excelencia y la obtenemos a través de la implementación de estándares nacionales e internacionales, acompañados de un alto nivel de servicio. Nuestra filosofía de mejora continua nos permite alcanzar el máximo beneficio tecnológico para nuestros clientes y acompañarlos en el desarrollo de su proyecto 
   </p>
   <ol>
-    <li onclick="window.location.href='<?php echo $url;?>identidad';" >
+    <li onclick="window.location.href='./identidad';" >
       <img src="images/icons/1.- cliente.gif">
       <h3>IDENTIDAD</h3>
     </li>
-    <li onclick="window.location.href='<?php echo $url;?>servicios';" >
+    <li onclick="window.location.href='./servicios';" >
       <img src="images/icons/2.- red-en-la-nube.gif">
       <h3>SERVICIOS​</h3>
     </li>
-    <li>
+    <li onclick="window.location.href='./prensa';">
       <img src="images/icons/3.- television.gif">
       <h3>PRENSA​</h3>
     </li>
-    <li>
+    <li onclick="window.location.href='./';">
       <img src="images/icons/4.- telefono.gif">
       <h3>CONTACTO</h3>
     </li>
@@ -103,16 +103,27 @@
   </div>
 
   <div>
-    <div style="width: 100%; position: relative; padding-top: 20%;">
-     <iframe width="100%" height="300" src="https://www.youtube.com/embed/MxXB8wWU6vg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
-     <iframe width="100%" height="300" src="https://www.youtube.com/embed/tndsN1sY0FQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div style="width: 100%; position: relative; padding-top: 45%;">
+     <iframe width="100%" height="300" src="https://www.youtube.com/embed/MxXB8wWU6vg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-
   </div>
-
-  
-
 </div>
+
+<div class="square-footer-index">
+  <ul>
+    <li><img src="images/logo/LOGO-WHITE.png" onclick="window.location.href='./';" style="width: 100%;"></li>
+    <li><h4>ISO 9001:2015​ <br>ISO/IEC 27001:2013</h4></li>
+    <li onclick="window.open('https://api.whatsapp.com/send?phone=525579591149&text=Hola!%20me%20pueden%20apoyar?');" ><i class="fab fa-whatsapp"></i></li>
+  </ul>
+  <ol>
+    <li>USUARIOS CAU</li>
+    <li onclick="window.location.href='./prensa';">PRENSA</li>
+    <li>¿QUIERES SER PROVEEDOR?</li>
+    <li>ACCEDER</li>
+  </ol>
+</div>
+
+
 
 
 

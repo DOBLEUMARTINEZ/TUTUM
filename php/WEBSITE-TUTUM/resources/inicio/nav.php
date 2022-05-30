@@ -37,7 +37,7 @@
               CENTRO DE ATENCIÓN A USUARIOS​
             </li>
             <li onclick="window.location.href='<?php echo $url;?>servicios-sap';">
-              CONSULTORÍA E IMPLEMENTACIÓN SA​P
+              SA​P
             </li>
             <li onclick="window.location.href='<?php echo $url;?>servicios-hospitales';">
               SOLUCIONES HOSPITALARIAS​

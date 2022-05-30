@@ -3,7 +3,7 @@
 <div class="square-04">
 	<ol>
 		<li>
-			<h2>CONSULTORÍA E IMPLEMENTACIÓN SAP</h2>
+			<h2>SAP</h2>
 		</li>
 		<li>
 			<p>
@@ -321,13 +321,13 @@
 		<li>
 
 			<p style="padding: 10% 0 0 15%;">
-				<span>PRODUCTOS SAP Y NO SAP</span><br><br>
-				° SAP  eDocument ​<br>
-				° SAP bank comunication  Managment​<br>
-				° SAP CFDIs Implementación y Upgrade Localización Mexicana​<br>
-				° SAP Contabilidad Electrónica​<br>
-				° SAP SAC Analytics Cloud​<br>
-				° SAP CPI aplicativos​<br>
+				<span>PRODUCTOS SAP Y COMPLEMENTOS</span><br><br>
+				° eDocument ​<br>
+				° bank comunication  Managment​<br>
+				° CFDIs Implementación y Upgrade Localización Mexicana​<br>
+				° Contabilidad Electrónica​<br>
+				° SAC Analytics Cloud​<br>
+				° CPI aplicativos​<br>
 				° Portal de Proveedores​<br>
 				° SAP C4C Cloud for Customers​<br>
 				° Hosting y ciberseguridad​<br>
