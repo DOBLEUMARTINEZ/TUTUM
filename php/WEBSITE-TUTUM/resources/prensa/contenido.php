@@ -37,19 +37,134 @@
 
 <!-- MISIÓN Y VISIÓN ​ -->
 <div class="square-06">
-	<h2 style="color: #0000;">MISIÓN Y VISIÓN </h2>
+	<h2 style="padding: 2% 5%;text-align: left;" ><img style="width: 7%; margin-right: 2%;" src="images/icons/services/prensa/noticias.png" onclick="window.location.href='./';"> NOTICIAS</h2>
 	<ol>
 		<li style="width: 100%">
-			<img style="width: 5%;margin: 3% 0% 0 5%;" src="images/icons/cuaderno.gif" onclick="window.location.href='./';">
-			<br>
-			<p class="pensa-notice">Amenaza ciberseguridad mundial conflicto entre rusia y ucrania, MARZO 3, 2022 <i style="float: right;color: #c0c5d1;font-size: 1.3vw;" class="fas fa-chevron-circle-right"></i></p>
-			<p class="pensa-notice">SAP cumple medio siglo de historia, servicios e innovación, ABRIL 1, 2022 <i style="float: right;color: #c0c5d1;font-size: 1.3vw;" class="fas fa-chevron-circle-right"></i></p>
-			<p class="pensa-notice">Se agota el tiempo para que contribuyentes implementen CFDI 4.0 y eviten multas: alertan consultores, ABRIL 25, 2022 <i style="float: right;color: #c0c5d1;font-size: 1.3vw;" class="fas fa-chevron-circle-right"></i></p>
-			<p class="pensa-notice">Edificios inteligentes sumarán en optimización de consumo energético: TUTUM Tech, MAYO 22, 2022 <i style="float: right;color: #c0c5d1;font-size: 1.3vw;" class="fas fa-chevron-circle-right"></i></p>
+			<p class="pensa-notice" style="cursor: pointer;" onclick="window.open('https://laopcion.com.mx/nacional/amenaza-ciberseguridad-mundial-conflicto-entre-rusia-y-ucrania-20220303-376776.html');"  >
+				<img src="images/icons/services/prensa/hacker.png" style="width: 5%; padding:1%;" >
+				Amenaza ciberseguridad mundial conflicto entre rusia y ucrania, <span>MARZO 3, 2022</span> 
+				<i style=" color: #c0c5d1;font-size: 1.1vw;" class="fas fa-chevron-circle-right"></i>
+			</p>
+			<p class="pensa-notice" style="cursor: pointer;" onclick="window.open('https://lideresmexicanos.com/noticias/sap-cumple-medio-siglo-de-historia-servicios-e-innovacion/');"  >
+				<img src="images/icons/services/prensa/finanzas.png" style="width: 5%; padding:1%;" >
+				SAP cumple medio siglo de historia, servicios e innovación, <span>ABRIL 1, 2022 </span>
+				<i style=" color: #c0c5d1;font-size: 1.1vw;" class="fas fa-chevron-circle-right"></i>
+			</p>
+			<p class="pensa-notice" style="cursor: pointer;" onclick="window.open('https://cionoticias.tv/2022/04/25/se-agota-el-tiempo-para-que-contribuyentes-implementen-cfdi-4-0-y-eviten-multas-alertan-consultores/');"  >
+				<img src="images/icons/services/prensa/factura.png" style="width: 5%; padding:1%;" >
+				Se agota el tiempo para que contribuyentes implementen CFDI 4.0 y eviten multas: alertan consultores, <span>ABRIL 25, 2022 </span>
+				<i style=" color: #c0c5d1;font-size: 1.1vw;" class="fas fa-chevron-circle-right"></i>
+			</p>
+			<p class="pensa-notice" style="cursor: pointer;" onclick="window.open('https://www.milenio.com/negocios/edificios-inteligentes-mejoraran-consumo-energetico-tutum-tech');"  >
+				<img src="images/icons/services/prensa/panel-de-administrador.png" style="width: 5%; padding:1%;" >
+				Edificios inteligentes sumarán en optimización de consumo energético: TUTUM Tech, <span>MAYO 22, 2022</span> 
+				<i style=" color: #c0c5d1;font-size: 1.1vw;" class="fas fa-chevron-circle-right"></i>
+			</p>
 			<br><br><br>
 		</li>
 
 	</ol>
+</div>
+
+<!-- -->
+<div class="square-06">
+	<h2 style="padding: 2% 5%;text-align: left;" ><img style="width: 7%; margin-right: 2%;" src="images/icons/services/prensa/blogging.png" onclick="window.location.href='./';"> PUBLICACIONES ​</h2>
+
+    <div id="clientes" class="carousel slide blog-slide" data-ride="carousel">    
+        <div class="carousel-inner" style="padding: 0 10%;">
+
+         	<!-- SLIDE 1 -->
+            <div class="carousel-item active">
+            	<ul>
+            		<li><img src="images/icons/services/prensa/blog/9marzo_TUTUM.jpg" ></li>
+            		<li><img src="images/icons/services/prensa/blog/11Marzo_TUTUM2.jpg" ></li>
+            	</ul>
+            </div>
+
+            <!-- SLIDE 1 -->
+            <div class="carousel-item">
+            	<ul>
+            		<li><img src="images/icons/services/prensa/blog/13Marzo_TUTUM3.jpg" ></li>
+            		<li><img src="images/icons/services/prensa/blog/15MARZO_TUTUM.jpg" ></li>	
+            	</ul>
+            </div>
+
+            <!-- SLIDE 1 -->
+            <div class="carousel-item">
+            	<ul>
+            		<li><img src="images/icons/services/prensa/blog/19Marzo_TUTUM5.jpg" ></li>
+            		<li><img src="images/icons/services/prensa/blog/21Marzo_TUTUM6.jpg" ></li>	
+            	</ul>
+            </div>
+
+            <!-- SLIDE 1 -->
+            <div class="carousel-item">
+            	<ul>
+            		<li><img src="images/icons/services/prensa/blog/25Marzo_TUTUM8.jpg" ></li>
+            		<li><img src="images/icons/services/prensa/blog/27Marzo_TUTUM9.jpg" ></li>	
+            	</ul>
+            </div>
+
+            <!-- SLIDE 1 -->
+            <div class="carousel-item">
+            	<ul>
+            		<li><img src="images/icons/services/prensa/blog/29Marzo_TUTUM10.jpg" ></li>
+            		<li><img src="images/icons/services/prensa/blog/31Marzo_TUTUM11.jpg" ></li>	
+            	</ul>
+            </div>
+
+            <!-- SLIDE 1 -->
+            <div class="carousel-item">
+            	<ul>
+            		<li><img src="images/icons/services/prensa/blog/TUTUM_TEMPLATE_ABRIL.jpg" ></li>
+            		<li><img src="images/icons/services/prensa/blog/TUTUM_TEMPLATE_ABRIL2.jpg" ></li>	
+            	</ul>
+            </div>
+
+            <!-- SLIDE 1 -->
+            <div class="carousel-item">
+            	<ul>
+            		<li><img src="images/icons/services/prensa/blog/23Marzo_TUTUM7.jpg" ></li>
+            		<li><img src="images/icons/services/prensa/blog/TUTUM_TEMPLATE_ABRILVIDEO4.jpg" ></li>	
+            	</ul>
+            </div>
+
+
+             <!-- SLIDE 1 -->
+            <div class="carousel-item">
+            	<ul>
+            		<li><img src="images/icons/services/prensa/blog/TUTUM_TEMPLATE_ABRIL3.jpg" ></li>
+            		<li><img src="images/icons/services/prensa/blog/TUTUM_TEMPLATE_ABRIL4.jpg" ></li>	
+            	</ul>
+            </div>
+
+
+            <!-- SLIDE 1 -->
+            <div class="carousel-item">
+            	<ul>
+            		<li><img src="images/icons/services/prensa/blog/TUTUM_TEMPLATE_ABRIL5.jpg" ></li>
+            		<li><img src="images/icons/services/prensa/blog/TUTUM_TEMPLATE_ABRILVIDEO.jpg" ></li>	
+            	</ul>
+            </div>
+
+            <!-- SLIDE 1 -->
+            <div class="carousel-item">
+            	<ul>
+            		<li><img src="images/icons/services/prensa/blog/TUTUM_TEMPLATE_ABRILVIDEO2.jpg" ></li>
+            		<li><img src="images/icons/services/prensa/blog/TUTUM_TEMPLATE_ABRILVIDEO3.jpg" ></li>	
+            	</ul>
+            </div>
+
+            <!-- FLECHAS DE CAMBIO -->
+            <a class="slide-control-prev" href="#clientes" role="button" data-slide="prev">
+                <i class="fas fa-chevron-circle-left"></i>
+            </a>
+            <a class="slide-control-next" href="#clientes" role="button" data-slide="next">
+                <i class="fas fa-chevron-circle-right"></i>
+            </a>
+              
+        </div>
+    </div>  
 </div>
 
 

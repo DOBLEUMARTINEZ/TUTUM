@@ -110,7 +110,7 @@ echo '<body>';
 
           case 'prensa':
             include("resources/prensa/contenido.php"); // CONTENIDO
-            include("resources/servicios/download-pdf.php"); // PDF
+            include("resources/prensa/social-media.php"); 
             break;
                 
           default:

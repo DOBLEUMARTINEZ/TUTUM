@@ -107,128 +107,110 @@
 
 <!-- CATALOGO DE SOLUCIONES -->
 <div class="square-09">
-	<h2 style="color: #0000;">EXPERIENCIA EN ADMINISTRACION ​DE SOLUCIONES </h2>
+	<h2 >SERVICIOS</h2>
 </div>
 
 <!-- SECTORES  -->
 <div class="square-12">
 	<ol>
-		<li style="width: 20%;" >
+		<li style="width: 24%;" >
 			<br><br>
-			<img src="images/icons/services/operacion/infraestructura.png">
-			<p>Infraestructura​ tecnológica​</p>
-			<br><br>
-		</li>
-		<li style="width: 20%;" >
-			<br><br>
-			<img src="images/icons/services/operacion/operacion.png">
-			<p>Operación ​</p>
+			<img src="images/icons/services/cau/proceso.png"><br><br>
+			<p>Administración​</p>
 			<br><br>
 		</li>
-		<li style="width: 20%;" >
+		<li style="width: 24%;" >
 			<br><br>
-			<img src="images/icons/services/operacion/llave-inglesa.png">
-			<p>Refaccionamiento​</p>
+			<img src="images/icons/services/cau/soporte-tecnico.png"><br><br>
+			<p>Soporte a la operación en los 3 niveles</p>
 			<br><br>
 		</li>
-		<li style="width: 20%;" >
+		<li style="width: 24%;" >
 			<br><br>
-			<img src="images/icons/services/operacion/equipo.png">
+			<img src="images/icons/services/cau/configuraciones.png"><br><br>
+			<p>Refaccionamiento</p>
+			<br><br>
+		</li>
+		<li style="width: 24%;" >
+			<br><br>
+			<img src="images/icons/services/cau/capacitacion.png"><br><br>
 			<p>Capacitación​</p>
 			<br><br>
 		</li>
-		<li style="width: 20%;" >
+		<li style="width: 24%;" >
 			<br><br>
-			<img src="images/icons/services/operacion/proceso.png">
-			<p>PAET​</p>
-			<br><br>
-		</li>
-		<li style="width: 20%;" >
-			<br><br>
-			<img src="images/icons/services/operacion/seguridad-informatica.png">
-			<p>SOC</p>
+			<img src="images/icons/services/cau/solucion.png"><br><br>
+			<p>Soluciones empresariales​</p>
 			<br><br>
 		</li>
-		<li style="width: 20%;" >
+		<li style="width: 24%;" >
 			<br><br>
-			<img src="images/icons/services/operacion/servicio-al-cliente.png">
-			<p>CAU</p>
-			<br><br>
-		</li>
-		<li style="width: 20%;" >
-			<br><br>
-			<img src="images/icons/services/operacion/laptop.png">
-			<p>HIS​</p>
+			<img src="images/icons/services/cau/servidor-en-la-nube.png"><br><br>
+			<p>Diseño distribuido​ en la nube</p>
 			<br><br>
 		</li>
-		<li style="width: 20%;" >
+		<li style="width: 24%;" >
 			<br><br>
-			<img src="images/icons/services/operacion/finanzas.png">
-			<p>ERP</p>
+			<img src="images/icons/services/cau/data-center.png"><br><br>
+			<p>Data Center</p>
+			<br><br>
+		</li>
+		<li style="width: 24%;" >
+			<br><br>
+			<img src="images/icons/services/cau/certificado-de-garantia.png"><br><br>
+			<p>Pólizas</p>
 			<br><br>
 		</li>
 	</ol>
 </div>
 
 <div class="square-09">
-	<h2 style="color: #0000;">EXPERIENCIA EN ADMINISTRACION ​DE SOLUCIONES </h2>
+	<h2>ACTIVIDADES DE GESTIÓN </h2>
 </div>
 
 <!-- SECTORES  -->
 <div class="square-12">
 	<ol>
-		<li style="width: 20%;" >
+		<li style="width: 24%;" >
 			<br><br>
-			<img src="images/icons/services/operacion/infraestructura.png">
-			<p>Infraestructura​ tecnológica​</p>
-			<br><br>
-		</li>
-		<li style="width: 20%;" >
-			<br><br>
-			<img src="images/icons/services/operacion/operacion.png">
-			<p>Operación ​</p>
+			<img src="images/icons/services/cau/cable-roto.png"><br><br>
+			<p>Soporte a las incidencias, problemáticas de los clientes</p>
 			<br><br>
 		</li>
-		<li style="width: 20%;" >
+		<li style="width: 24%;" >
 			<br><br>
-			<img src="images/icons/services/operacion/llave-inglesa.png">
-			<p>Refaccionamiento​</p>
-			<br><br>
-		</li>
-		<li style="width: 20%;" >
-			<br><br>
-			<img src="images/icons/services/operacion/equipo.png">
-			<p>Capacitación​</p>
+			<img src="images/icons/services/cau/capacitacion 12.png"><br><br>
+			<p>Oferta de​ Capacitación Técnica</p>
 			<br><br>
 		</li>
-		<li style="width: 20%;" >
+		<li style="width: 24%;" >
 			<br><br>
-			<img src="images/icons/services/operacion/proceso.png">
-			<p>PAET​</p>
-			<br><br>
-		</li>
-		<li style="width: 20%;" >
-			<br><br>
-			<img src="images/icons/services/operacion/seguridad-informatica.png">
-			<p>SOC</p>
+			<img src="images/icons/services/cau/manual (1).png"><br><br>
+			<p>Elaboración de ​reportes y manuales</p>
 			<br><br>
 		</li>
-		<li style="width: 20%;" >
+		<li style="width: 24%;" >
 			<br><br>
-			<img src="images/icons/services/operacion/servicio-al-cliente.png">
-			<p>CAU</p>
-			<br><br>
-		</li>
-		<li style="width: 20%;" >
-			<br><br>
-			<img src="images/icons/services/operacion/laptop.png">
-			<p>HIS​</p>
+			<img src="images/icons/services/cau/mantenimiento.png"><br><br>
+			<p>Mantenimientos ​preventivos y correctivos</p>
 			<br><br>
 		</li>
-		<li style="width: 20%;" >
+		<li style="width: 24%;" >
 			<br><br>
-			<img src="images/icons/services/operacion/finanzas.png">
-			<p>ERP</p>
+			<img src="images/icons/services/cau/cctv.png"><br><br>
+			<p>Administración de ​CCTV Corporativo</p>
+			<br><br>
+		</li>
+		<li style="width: 24%;" >
+			<br><br>
+			<img src="images/icons/services/cau/control-de-accesso.png"><br><br>
+			<p>Implementación de ​soluciones de Seguridad</p>
+			<br><br>
+		</li>
+		<li style="width: 24%;" >
+			<br><br>
+			<img src="images/icons/services/cau/mesa-de-ayuda.png"><br><br>
+			<p>Seguimiento de tickets ​mediante la Mesa de Ayuda</p>
 			<br><br>
 		</li>
 	</ol>
@@ -241,58 +223,52 @@
 <!-- SECTORES  -->
 <div class="square-12" style="background: #000;" >
 	<ol>
-		<li style="width: 20%;color:#fff; " >
+		<li style="width: 24%;color:#fff; " >
 			<br><br>
-			<img src="images/icons/services/operacion/infraestructura.png">
-			<p>Infraestructura​ tecnológica​</p>
-			<br><br>
-		</li>
-		<li style="width: 20%;color:#fff; " >
-			<br><br>
-			<img src="images/icons/services/operacion/operacion.png">
-			<p>Operación ​</p>
+			<img src="images/icons/services/cau/soporte-tecnico.png"><br><br>
+			<p style="color: #fff;" >Asistencia a usuarios en los 3 niveles de soporte​</p>
 			<br><br>
 		</li>
-		<li style="width: 20%;color:#fff; " >
+		<li style="width: 24%;color:#fff; " >
 			<br><br>
-			<img src="images/icons/services/operacion/llave-inglesa.png">
-			<p>Refaccionamiento​</p>
-			<br><br>
-		</li>
-		<li style="width: 20%;color:#fff; " >
-			<br><br>
-			<img src="images/icons/services/operacion/equipo.png">
-			<p>Capacitación​</p>
+			<img src="images/icons/services/cau/computadora-personal.png"><br><br>
+			<p style="color: #fff;" >Administración del Directorio Activo y licenciamiento</p>
 			<br><br>
 		</li>
-		<li style="width: 20%;color:#fff; " >
+		<li style="width: 24%;color:#fff; " >
 			<br><br>
-			<img src="images/icons/services/operacion/proceso.png">
-			<p>PAET​</p>
-			<br><br>
-		</li>
-		<li style="width: 20%;color:#fff; " >
-			<br><br>
-			<img src="images/icons/services/operacion/seguridad-informatica.png">
-			<p>SOC</p>
+			<img src="images/icons/services/cau/inventario.png"><br><br>
+			<p style="color: #fff;" >Inventarios de equipo ​de computo  </p>
 			<br><br>
 		</li>
-		<li style="width: 20%;color:#fff; " >
+		<li style="width: 24%;color:#fff; " >
 			<br><br>
-			<img src="images/icons/services/operacion/servicio-al-cliente.png">
-			<p>CAU</p>
-			<br><br>
-		</li>
-		<li style="width: 20%;color:#fff; " >
-			<br><br>
-			<img src="images/icons/services/operacion/laptop.png">
-			<p>HIS​</p>
+			<img src="images/icons/services/cau/mantenimiento.png"><br><br>
+			<p style="color: #fff;" >Mantenimientos ​preventivos</p>
 			<br><br>
 		</li>
-		<li style="width: 20%;color:#fff; " >
+		<li style="width: 24%;color:#fff; " >
 			<br><br>
-			<img src="images/icons/services/operacion/finanzas.png">
-			<p>ERP</p>
+			<img src="images/icons/services/cau/mesa-de-ayuda.png"><br><br>
+			<p style="color: #fff;" >Seguimiento de tickets​ mediante la Mesa de Ayuda.</p>
+			<br><br>
+		</li>
+		<li style="width: 24%;color:#fff; " >
+			<br><br>
+			<img src="images/icons/services/cau/actualizar-pagina.png"><br><br>
+			<p style="color: #fff;" >Actualización de​ sistemas</p>
+			<br><br>
+		</li>
+		<li style="width: 24%;color:#fff; " >
+			<br><br>
+			<img src="images/icons/services/cau/copia-de-respaldo (1).png"><br><br>
+			<p style="color: #fff;" >Respaldos de ​información</p>
+			<br><br>
+		</li>
+		<li style="width: 24%;color:#fff; " >
+			<br><br>
+			<img src="images/icons/services/cau/alerta.png"><br><br>
+			<p style="color: #fff;" >Diagnóstico en el mal funcionamiento​del hardware y el software</p>
 			<br><br>
 		</li>
 	</ol>
@@ -328,28 +304,28 @@
 		<div>
 			<h3>SERVICIOS CENTROS DE DATOS</h3>
 			<ol style="padding: " >
-				<li style="position: relative; width: 33%;padding: 0;text-align: center;">
-					<img style="width: 40%;" src="<?php echo $url ?>images/icons/services/operacion/cama-de-hospital.png" ><br>
+				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
+					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/cau/servidor.png" ><br>
 					Sistemas de Información Hospitalaria<br> <span style="font-weight: bold;color: #4dbed4;">(HIS)</span>​
 				</li>
-				<li style="position: relative; width: 33%;padding: 0;text-align: center;">
-					<img style="width: 40%;" src="<?php echo $url ?>images/icons/services/operacion/negocio.png" ><br>
+				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
+					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/cau/infraestructura.png" ><br>
 					Planificación De Recursos Empresariales<br> <span style="font-weight: bold;color: #4dbed4;">(ERP)</span>​
 				</li>
-				<li style="position: relative; width: 33%;padding: 0;text-align: center;">
-					<img style="width: 40%;" src="<?php echo $url ?>images/icons/services/operacion/verificar.png" ><br>
+				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
+					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/cau/servidor (1).png" ><br>
 					Ciberseguridad<br> <span style="font-weight: bold;color: #4dbed4;">(SOC)</span>
 				</li>
-				<li style="position: relative; width: 33%;padding: 0;text-align: center;">
-					<img style="width: 40%;" src="<?php echo $url ?>images/icons/services/operacion/verificar.png" ><br>
+				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
+					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/cau/phishing.png" ><br>
 					Ciberseguridad<br> <span style="font-weight: bold;color: #4dbed4;">(SOC)</span>
 				</li>
-				<li style="position: relative; width: 33%;padding: 0;text-align: center;">
-					<img style="width: 40%;" src="<?php echo $url ?>images/icons/services/operacion/verificar.png" ><br>
+				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
+					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/cau/apoyo-tecnico.png" ><br>
 					Ciberseguridad<br> <span style="font-weight: bold;color: #4dbed4;">(SOC)</span>
 				</li>
-				<li style="position: relative; width: 33%;padding: 0;text-align: center;">
-					<img style="width: 40%;" src="<?php echo $url ?>images/icons/services/operacion/verificar.png" ><br>
+				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
+					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/cau/vigilancia.png" ><br>
 					Ciberseguridad<br> <span style="font-weight: bold;color: #4dbed4;">(SOC)</span>
 				</li>
 			</ol>

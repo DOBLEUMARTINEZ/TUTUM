@@ -46,7 +46,7 @@
 			<br><br>
 			<p style="position: relative;">
 				<span>Servicio de seguridad Gestionada</span><br><br>
-				TUTUM a través de su servicio de Seguridad Gestionada permite la administración externa de infraestructura de seguridad de nuestros clientes, en el que nuestro equipo se encarga de la monitorización, gestión, control y soporte de dicha infraestructura de acuerdo a los Niveles de Servicio establecidos.<br><br>
+				TUTUM a través de su servicio de Seguridad Gestionada permite la administración externa de infraestructura de seguridad de nuestros clientes, en el que nuestro equipo se encarga de la monitorización, gestión, control y soporte de dicha infraestructura de acuerdo a los Niveles de Servicio establecidos.<br><br><br>
 
 				° Asesoría y dimensionamiento​<br>
 				° Puesta a Punto​<br>
@@ -59,7 +59,9 @@
 			<br><br>
 		</li>
 
-		<li style="background: url('<?php echo $url ?>images/img/FOTO 05.jpg');background-position: center;background-size: 100%;border-bottom: 1.5vw solid #fff;border-top: 1.5vw solid #fff;"></li>
+		<li>
+			<iframe style="width: 100%; height: 32vw; border-top: 15px solid #fff; border-bottom: 15px solid #fff;" src="https://www.youtube.com/embed/TedcHA-ZKsw?start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
+		</li>
 	</ol>
 </div>
 

@@ -81,7 +81,7 @@
       <li onclick="window.open('https://www.linkedin.com/company/tutum-tech/mycompany/verification/');"><i class="fab fa-linkedin"></i></li>
       <li onclick="window.open('https://twitter.com/TutumTech');"><i class="fab fa-twitter-square"></i></li>
       <li onclick="window.open('https://www.youtube.com/channel/UCjFN9qoYAGuQltMZOiuznCA/featured');" ><i class="fab fa-youtube"></i></li>
-      <li onclick="window.open('https://www.youtube.com/channel/UCjFN9qoYAGuQltMZOiuznCA/featured');" ><i class="fab fa-whatsapp"></i></li>
+      <li onclick="window.open('https://api.whatsapp.com/send?phone=525579591149&text=Hola!%20me%20pueden%20apoyar?');" ><i class="fab fa-whatsapp"></i></li>
     </ul>
   </div>
 

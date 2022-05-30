@@ -103,88 +103,245 @@
 	</ul>
 </div>
 
-<!-- CATALOGO DE SOLUCIONES -->
+<!-- SOLUCIONES Y ÁREAS -->
 <div class="square-09">
-	<h2>CATALOGO DE SOLUCIONES</h2>
-	<div>
-		<div>
-			<h3>Soluciones y Áreas</h3>
-			<ol>
-				<li>
-					° Finanzas fiscal​<br>
-					° Compras y ventas​<br>
-					° Analíticos​<br>
-					° Cloud​<br>
-					° Manufactura y producción​<br>
-					° Mantenimiento​<br>
-					° Seguridad​<br>
-					° Migraciones​<br>
-					° Implementación​<br>
-					° Soporte​<br>
-					° Mejora continua<br>
-				</li>
-			</ol>
-			<h3>Productos SAP y no SAP​</h3>
-			<ol>
-				<li>
-					° SAP  eDocument ​<br>
-					° SAP bank comunication  Managment​<br>
-					° SAP CFDIs Implementación y Upgrade Localización Mexicana​<br>
-					° SAP Contabilidad Electrónica​<br>
-					° SAP SAC Analytics Cloud​<br>
-					° SAP CPI aplicativos​<br>
-					° Portal de Proveedores​<br>
-					° SAP C4C Cloud for Customers​<br>
-					° Hosting y ciberseguridad​<br>
-					° Vertical HIS con interfaz a SAP<br>
-				</li>
-			</ol>
-			<h3>SERVICIOS DE CONSULTORÍA</h3>
-			<ol>
-				<li >
-					° Implementación <strong>S/4HANA​</strong><br>
-					° Upgrade <strong>ECC - S/4 HANNA​</strong><br>
-					° Rolout integración de nuevas sociedades​<br>
-					° Migración <strong>ECC- S74</strong> HANNA​<br>
-					° Soporte <strong>AMS</strong> on demand y bolsas de horas​<br>
-					° Desarrollo <strong>FABRICA DE SOFTWARE​</strong><br>
-					° Remediaciones técnica-funcional<br>
-					<img style="width: 15%; margin: 0 0.5%; " src="<?php echo $url ?>images/icons/TUTUM_Iconos/Tutum-iconos_0054_Layer-23.png" >
-					<img style="width: 15%; margin: 0 0.5%; " src="<?php echo $url ?>images/icons/TUTUM_Iconos/Tutum-iconos_0005_Layer-72.png" >
-					<img style="width: 15%; margin: 0 0.5%; " src="<?php echo $url ?>images/icons/TUTUM_Iconos/Tutum-iconos_0014_Layer-63.png" >
-					<img style="width: 15%; margin: 0 0.5%; " src="<?php echo $url ?>images/icons/TUTUM_Iconos/Tutum-iconos_0029_Layer-48.png" >
-					<img style="width: 15%; margin: 0 0.5%; " src="<?php echo $url ?>images/icons/signature.png" >
-					<img style="width: 15%; margin: 0 0.5%; " src="<?php echo $url ?>images/icons/team-2.png" >
-					<br>
-					<img src="<?php echo $url ?>images/icons/sap-4.png" style="width: 50%;margin-left: 25%;" >
-				</li>
-			</ol>
-		</div>
-		<div>
-			<h3>Factores de éxito</h3>
-			<ol>
-				<li >
-					Nuestras soluciones de ERP utilizan tecnologías inteligentes para ayudar a nuestros clientes a transformar los procesos de misión crítica y adaptarse rápidamente al cambio sin importar el tamaño de su negocio.​<br>
-					° Armado del equipo 100% disponibilidad​<br>
-					° Compromiso de dirección en todas las etapas del proyecto ​<br>
-					° Datos limpios y a tiempo​<br>
-					° Evitar uso de sistemas alternos  (excel)​<br>
-					° Apego a la metodología de TUTUM​<br>
-					° Mantenerse en el estándar y mejores prácticas​<br>
-					° Cumplimiento de plan de trabajo​<br>
-					° El proyecto debe de ser comunicado a toda la empresa​<br>
-					° Evitar el excesivo análisis de cada definición que lleva a la parálisis y a la NO toma decisiones​<br>
-					° Compromiso de usuarios en etapas de capacitación, entrenamiento y pruebas<br>
-					
-				</li>
-			</ol>
-			<img style="height: 35vw; margin: 5% 0; " src="<?php echo $url ?>images/img/FOTO 13.jpg" >
-		</div>
-	</div>
-	<br><br>
-</div>	
+	<h2>SOLUCIONES Y ÁREAS</h2>
+</div>
+
+<!-- SECTORES  -->
+<div class="square-12">
+	<ol>
+		<li style="width: 15%;" >
+			<br><br>
+			<img src="images/icons/services/sap/finanzas.png"><br><br>
+			<p>Finanzas fiscal</p>
+			<br><br>
+		</li>
+		<li style="width: 15%;" >
+			<br><br>
+			<img src="images/icons/services/sap/ventas.png"><br><br>
+			<p>Compras y ​Ventas​</p>
+			<br><br>
+		</li>
+		<li style="width: 15%;" >
+			<br><br>
+			<img src="images/icons/services/sap/computadora.png"><br><br>
+			<p>Analíticos</p>
+			<br><br>
+		</li>
+		<li style="width: 15%;" >
+			<br><br>
+			<img src="images/icons/services/sap/cloud-data.png"><br><br>
+			<p>Cloud</p>
+			<br><br>
+		</li>
+		<li style="width: 15%;" >
+			<br><br>
+			<img src="images/icons/services/sap/produccion.png"><br><br>
+			<p>Manufactura y Producción</p>
+			<br><br>
+		</li>
+		<li style="width: 15%;" >
+			<br><br>
+			<img src="images/icons/services/sap/mantenimiento.png"><br><br>
+			<p>Mantenimiento</p>
+			<br><br>
+		</li>
+		<li style="width: 15%;" >
+			<br><br>
+			<img src="images/icons/services/sap/policia.png"><br><br>
+			<p>Seguridad</p>
+			<br><br>
+		</li>
+		<li style="width: 15%;" >
+			<br><br>
+			<img src="images/icons/services/sap/datos.png"><br><br>
+			<p>Migraciones</p>
+			<br><br>
+		</li>
+		<li style="width: 15%;" >
+			<br><br>
+			<img src="images/icons/services/sap/planificacion.png"><br><br>
+			<p>Implementación</p>
+			<br><br>
+		</li>
+		<li style="width: 15%;" >
+			<br><br>
+			<img src="images/icons/services/sap/servicio-al-cliente.png"><br><br>
+			<p>Soporte</p>
+			<br><br>
+		</li>
+		<li style="width: 15%;" >
+			<br><br>
+			<img src="images/icons/services/sap/ventas (1).png"><br><br>
+			<p>Mejora continua</p>
+			<br><br>
+		</li>
+		<li style="width: 15%;" >
+			<br><br>
+			<img src="images/icons/sap-4.png" style="width: 100%;padding-bottom: 10px;border-bottom: 10px solid #4dbed4;" >
+			<br><br>
+			<br><br>
+		</li>
+	</ol>
+</div>
 
 <hr class="barra-colores-01">
 
+<div class="square-09">
+	<h2>SERVICIOS DE CONSULTORÍA </h2>
+</div>
 
+<!-- SECTORES  -->
+<div class="square-12">
+	<ol>
+		<li style="width: 24%;" >
+			<br><br>
+			<img src="images/icons/services/sap/bombilla.png"><br><br>
+			<p>Implementación S/4HANA</p>
+			<br><br>
+		</li>
+		<li style="width: 24%;" >
+			<br><br>
+			<img src="images/icons/services/sap/gear (1).png"><br><br>
+			<p>Upgrade ECC - S/4 HANNA</p>
+			<br><br>
+		</li>
+		<li style="width: 24%;" >
+			<br><br>
+			<img src="images/icons/services/sap/integracion.png"><br><br>
+			<p>ROLOUT integración de ​nuevas sociedades​</p>
+			<br><br>
+		</li>
+		<li style="width: 24%;" >
+			<br><br>
+			<img src="images/icons/services/sap/migracion.png"><br><br>
+			<p>Migración ​ECC- S74 HANNA</p>
+			<br><br>
+		</li>
+		<li style="width: 24%;" >
+			<br><br>
+			<img src="images/icons/services/sap/soporte-tecnico.png"><br><br>
+			<p>Remediaciones ​TÉCNICA-FUNCIONAL</p>
+			<br><br>
+		</li>
+		<li style="width: 24%;" >
+			<br><br>
+			<img src="images/icons/services/sap/sustentabilidad.png"><br><br>
+			<p>Desarrollo ​FABRICA DE SOFTWARE</p>
+			<br><br>
+		</li>
+		<li style="width: 24%;" >
+			<br><br>
+			<img src="images/icons/services/sap/soporte-tecnico (1).png"><br><br>
+			<p>Soporte AMS ON DEMAND ​y bolsas de horas</p>
+			<br><br>
+		</li>
+		<li style="width: 24%;" >
+			<br><br>
+			<img src="images/icons/sap-icon-3.png" style="width: 100%;padding-bottom: 10px;border-bottom: 10px solid #4dbed4;" >
+			<br><br>
+			<br><br>
+		</li>
+	</ol>
+</div>
 
+<div class="square-09">
+	<h2>FACTORES DE ÉXITO</h2>
+</div>
+
+<!-- SECTORES  -->
+<div class="square-12" style="background: #000;" >
+	<ol>
+		<li style="width:20%;color:#fff; " >
+			<br><br>
+			<img src="images/icons/services/sap/equipo.png"><br><br>
+			<p style="color: #fff;" >Armado del equipo <br><span style="color: #4dbed4" >100% ​</span><br>disponibilidad</p>
+			<br><br>
+		</li>
+		<li style="width:20%;color:#fff; " >
+			<br><br>
+			<img src="images/icons/services/sap/junta.png"><br><br>
+			<p style="color: #fff;" >Compromiso de <span style="color: #4dbed4" >DIRECCIÓN</span> en todas las etapas del proyecto ​</p>
+			<br><br>
+		</li>
+		<li style="width:20%;color:#fff; " >
+			<br><br>
+			<img src="images/icons/services/sap/tablero.png"><br><br>
+			<p style="color: #fff;" >Datos limpios ​y <br>en tiempo​</p>
+			<br><br>
+		</li>
+		<li style="width:20%;color:#fff; " >
+			<br><br>
+			<img src="images/icons/services/sap/lapiz.png"><br><br>
+			<p style="color: #fff;" >Evitar uso de sistemas alternos <span style="color: #4dbed4" >(EXCEL)​</span></p>
+			<br><br>
+		</li>
+		<li style="width:20%;color:#fff; " >
+			<br><br>
+			<img src="images/icons/services/sap/investigar.png"><br><br>
+			<p style="color: #fff;" >Apego a la metodología <br>de <span style="color: #4dbed4" >TUTUM​</span></p>
+			<br><br>
+		</li>
+		<li style="width:20%;color:#fff; " >
+			<br><br>
+			<img src="images/icons/services/sap/compromiso.png"><br><br>
+			<p style="color: #fff;" ><span style="color: #4dbed4" >COMPROMISO</span> de usuarios en etapas de capacitación, entrenamiento y pruebas​</p>
+			<br><br>
+		</li>
+		<li style="width:20%;color:#fff; " >
+			<br><br>
+			<img src="images/icons/services/sap/estandar.png"><br><br>
+			<p style="color: #fff;" >Mantenerse en el <span style="color: #4dbed4" >ESTÁNDAR</span> y mejores <span style="color: #4dbed4" >PRÁCTICAS​</span></p>
+			<br><br>
+		</li>
+		<li style="width:20%;color:#fff; " >
+			<br><br>
+			<img src="images/icons/services/sap/retroalimentacion.png"><br><br>
+			<p style="color: #fff;" >El proyecto debe de ser <span style="color: #4dbed4" >COMUNICADO</span> a toda la empresa​</p>
+			<br><br>
+		</li>
+		<li style="width:20%;color:#fff; " >
+			<br><br>
+			<img src="images/icons/services/sap/plan-de-negocios.png"><br><br>
+			<p style="color: #fff;" >Cumplimiento de <br><span style="color: #4dbed4" >PLAN</span> ​de trabajo​</p>
+			<br><br>
+		</li>
+		<li style="width:20%;color:#fff; " >
+			<br><br>
+			<img src="images/icons/services/sap/lupa.png"><br><br>
+			<p style="color: #fff;" >Evitar el excesivo <span style="color: #4dbed4" >ANÁLISIS</span> de cada definición que lleva a la parálisis y a la no toma decisiones​</p>
+			<br><br>
+		</li>	
+	</ol>
+</div>
+<!---->
+<div class="square-06">
+	<ol>
+		<li>
+
+			<p style="padding: 10% 0 0 15%;">
+				<span>PRODUCTOS SAP Y NO SAP</span><br><br>
+				° SAP  eDocument ​<br>
+				° SAP bank comunication  Managment​<br>
+				° SAP CFDIs Implementación y Upgrade Localización Mexicana​<br>
+				° SAP Contabilidad Electrónica​<br>
+				° SAP SAC Analytics Cloud​<br>
+				° SAP CPI aplicativos​<br>
+				° Portal de Proveedores​<br>
+				° SAP C4C Cloud for Customers​<br>
+				° Hosting y ciberseguridad​<br>
+				° Vertical HIS con interfaz a SAP<br><br><br>
+			</p>
+
+		</li>
+		<li style="
+		background: url('images/img/FOTO 13.jpg');
+	    background-position: center;
+	    background-size: 100%;
+	    border-bottom: 1.5vw solid #fff;
+	    border-top: 1.5vw solid #fff;
+		" >
+		</li>
+	</ol>
+</div>

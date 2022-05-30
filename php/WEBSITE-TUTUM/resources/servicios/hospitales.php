@@ -38,8 +38,8 @@
 				<li>
 					<p style="text-align: center;">
 						Implementación​ <br><span style="font-size: 0.9vw;">HIS</span><br><br>	
-						<img src="images/icons/3.- Gifts Servicios/5.- Hospitales/latido-del-corazon.gif" ><br><br>
-						Software as a Service​ On Premise​
+						<img src="images/icons/services/hospitales/latido-del-corazon.gif" ><br><br>
+						Software as a Service​ <br>	On Premise​
 					</p>
 				</li>
 			</ul>

@@ -2368,6 +2368,47 @@
                 font-size: 2vw;
                 color: #c0c5d1;
             }
+        /**/
+            .blog-slide {
+                background: #000;
+                padding-bottom: 3%;
+            }
+
+             .blog-slide  ul{
+                width: 100%;
+                list-style: none;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                margin: 0;
+                padding: 0;
+             }
+
+            .blog-slide ul > li{
+                width: 50%;
+            }
+
+            .blog-slide ul > li > img{
+                width: 100%;
+                margin: 0 0%;
+                padding: 0 2%;
+            }
+
+            .slide-control-prev{
+                position: absolute;
+                top: 40%;
+                left: 1%;
+                font-size: 2vw;
+                color: #c0c5d1;
+            }
+
+            .slide-control-next{
+                position: absolute;
+                top: 40%;
+                right: 1%;
+                font-size: 2vw;
+                color: #c0c5d1;
+            }
 
 
         /**/
