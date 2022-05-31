@@ -81,7 +81,7 @@
 
 <!-- DATOS CIRCULO -->
 <div class="square-10">
-  <ul>
+  <ul style="padding-bottom: 3%;">
     <li>
       <img src="images/icons/hilo-2.png">
       <h3>+400K</h3>

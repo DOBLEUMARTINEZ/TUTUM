@@ -30,7 +30,7 @@ switch ($servicio) {
 					<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/sap.jpg">
 					<img src="<?php echo $url ?>images/icons/services/4.- presentacion.gif" class="icon-menu-black">
 					<img src="<?php echo $url;?>images/icons/services/presentation.png" class="icon-menu-white" >
-					<h2>CONSULTORÍA E IMPLEMENTACIÓN SAP​</h2>
+					<h2>SAP​</h2>
 				</li>
 
 				<li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-hospitales';" >
@@ -93,7 +93,7 @@ switch ($servicio) {
 					<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/sap.jpg">
 					<img src="<?php echo $url ?>images/icons/services/4.- presentacion.gif" class="icon-menu-black">
 					<img src="<?php echo $url;?>images/icons/services/presentation.png" class="icon-menu-white" >
-					<h2>CONSULTORÍA E IMPLEMENTACIÓN SAP​</h2>
+					<h2>SAP​</h2>
 				</li>
 
 				<li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-hospitales';" >
@@ -156,7 +156,7 @@ switch ($servicio) {
 					<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/sap.jpg">
 					<img src="<?php echo $url ?>images/icons/services/4.- presentacion.gif" class="icon-menu-black">
 					<img src="<?php echo $url;?>images/icons/services/presentation.png" class="icon-menu-white" >
-					<h2>CONSULTORÍA E IMPLEMENTACIÓN SAP​</h2>
+					<h2>SAP​</h2>
 				</li>
 
 				<li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-hospitales';" >
@@ -219,7 +219,7 @@ switch ($servicio) {
 				<li id="proyectos-active" class="service-menu-color service-active" onclick="window.location.href='servicios-sap';" >
 					<img src="<?php echo $url ?>images/icons/services/4.- presentacion.gif" class="icon-menu-black" style="opacity: 0;">
 					<img src="<?php echo $url;?>images/icons/services/presentation.png" class="icon-menu-white" >
-					<h2>CONSULTORÍA E IMPLEMENTACIÓN SAP​</h2>
+					<h2>SAP​</h2>
 				</li>
 
 				<li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-hospitales';" >
@@ -283,7 +283,7 @@ switch ($servicio) {
 					<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/sap.jpg">
 					<img src="<?php echo $url ?>images/icons/services/4.- presentacion.gif" class="icon-menu-black">
 					<img src="<?php echo $url;?>images/icons/services/presentation.png" class="icon-menu-white" >
-					<h2>CONSULTORÍA E IMPLEMENTACIÓN SAP​</h2>
+					<h2>SAP​</h2>
 				</li>
 
 				<li id="proyectos-active" class="service-menu-color service-active" onclick="window.location.href='servicios-hospitales';" >
@@ -346,7 +346,7 @@ switch ($servicio) {
 					<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/sap.jpg">
 					<img src="<?php echo $url ?>images/icons/services/4.- presentacion.gif" class="icon-menu-black">
 					<img src="<?php echo $url;?>images/icons/services/presentation.png" class="icon-menu-white" >
-					<h2>CONSULTORÍA E IMPLEMENTACIÓN SAP​</h2>
+					<h2>SAP​</h2>
 				</li>
 
 				<li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-hospitales';" >
@@ -409,7 +409,7 @@ switch ($servicio) {
 					<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/sap.jpg">
 					<img src="<?php echo $url ?>images/icons/services/4.- presentacion.gif" class="icon-menu-black">
 					<img src="<?php echo $url;?>images/icons/services/presentation.png" class="icon-menu-white" >
-					<h2>CONSULTORÍA E IMPLEMENTACIÓN SAP​</h2>
+					<h2>SAP​</h2>
 				</li>
 
 				<li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-hospitales';" >
@@ -473,7 +473,7 @@ switch ($servicio) {
 					<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/sap.jpg">
 					<img src="<?php echo $url ?>images/icons/services/4.- presentacion.gif" class="icon-menu-black">
 					<img src="<?php echo $url;?>images/icons/services/presentation.png" class="icon-menu-white" >
-					<h2>CONSULTORÍA E IMPLEMENTACIÓN SAP​</h2>
+					<h2>SAP​</h2>
 				</li>
 
 				<li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-hospitales';" >
