@@ -7,7 +7,7 @@
 		'hospitales' => 'images/img/hospitales.jpg',
 		'ciberseguridad' => 'images/img/ciberseguridad.jpg',
 		'fabrica-sw' => 'images/img/fabrica-sw.jpg',
-		'menu' => 'images/img/FOTO 05.jpg'
+		'menu' => 'images/img/Foto para inicio de servicios.jpg'
 	);
 ?>
 

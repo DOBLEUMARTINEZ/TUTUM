@@ -114,7 +114,7 @@
 	</ol>
 </div>
 
-<!-- CATALOGO DE SOLUCIONES -->
+<!-- Hacking Ético  -->
 <div class="square-09">
 	<div>	
 		<div>
@@ -131,7 +131,7 @@
 		<div>
 			<ol style=" padding:5% 0%;">
 				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
-					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/ciber/console 	.png" ><br>
+					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/ciber/console.png" ><br>
 					<span style="font-weight: bold;color: #4dbed4;">Análisis y Gestión de Vulnerabilidades </span>​
 				</li>
 				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
@@ -151,10 +151,9 @@
 	</div>
 	<br><br>
 </div>
-
 <hr class="barra-colores-01">
 
-<!-- SERVICIOS -->
+<!-- GAP Análisis -->
 <div class="square-04">
 	<ol>
 		<li>
@@ -169,8 +168,6 @@
 		</li>
 	</ol>
 </div>
-
-<!-- certificaciones -->
 <div class="square-05">
 	<ul>
 		<li><img src="images/icons/iso3.png" ></li>
@@ -268,7 +265,7 @@
 </div>
 <hr class="barra-colores-01">
 
-<!-- CIBER INTELIGENCIA -->
+<!-- CIBER PATRULLAJE-->
 <div class="square-04">
 	<ol style="padding-bottom: 2%;">
 		<li>
@@ -347,53 +344,86 @@
 		</li>
 	</ol>
 </div>
-<div class="square-12" style="background: #000;" >
-	<ol>
-		<li style="width: 24%;color:#fff; " >
-			<br><br>
-			<img src="images/icons/services/ciber/servidores.png"><br><br>
-			<p style="color: #fff;" >Ciber amenazas que pudieran afectar la infraestructura​</p>
-			<br><br>
-		</li>
-		<li style="width: 24%;color:#fff; " >
-			<br><br>
-			<img src="images/icons/services/ciber/tramposo.png"><br><br>
-			<p style="color: #fff;" >Actividades fraudulentas</p>
-			<br><br>
-		</li>
-		<li style="width: 24%;color:#fff; " >
-			<br><br>
-			<img src="images/icons/services/ciber/publicacion.png"><br><br>
-			<p style="color: #fff;" >Información Publicada por colaboradores​</p>
-			<br><br>
-		</li>
-		<li style="width: 24%;color:#fff; " >
-			<br><br>
-			<img src="images/icons/services/ciber/mala-resena.png"><br><br>
-			<p style="color: #fff;" >Menciones negativas</p>
-			<br><br>
-		</li>
-		<li style="width: 24%;color:#fff; " >
-			<br><br>
-			<img src="images/icons/services/ciber/computadora-portatil.png"><br><br>
-			<p style="color: #fff;" >Vulnerabilidades Dirigidas.</p>
-			<br><br>
-		</li>
-		<li style="width: 24%;color:#fff; " >
-			<br><br>
-			<img src="images/icons/services/ciber/fraude.png"><br><br>
-			<p style="color: #fff;" >Usurpación de identidad</p>
-			<br><br>
-		</li>
-		<li style="width: 24%;color:#fff; " >
-			<br><br>
-			<img src="images/icons/services/ciber/fuga-de-datos.png"><br><br>
-			<p style="color: #fff;" >Fuga de Información</p>
-			<br><br>
-		</li>
-	</ol>
+<div class="square-09">
+	<div style="background: #000;">
+		<div>
+			<h3 style="text-align: center; margin: 2% 0 2% 0; ">CHARLAS</h3>
+			<ol style="justify-content: space-around;padding-bottom: 10%;">
+				<li style="position: relative; width: 45%;padding: 0;text-align: center; color: #fff;">
+					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/ciber/phishing.png" ><br>
+					Prevención ante el Phishing
+				</li>
+				<li style="position: relative; width: 45%;padding: 0;text-align: center; color: #fff;">
+					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/ciber/hacker.png" ><br>
+					Ciberataques 2022 
+				</li>
+				<li style="position: relative; width: 45%;padding: 0;text-align: center; color: #fff;">
+					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/ciber/virus.png" ><br>
+					APT Amenazas Avanzadas Persistentes
+				</li>
+				<li style="position: relative; width: 45%;padding: 0;text-align: center; color: #fff;">
+					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/ciber/trabajo.png" ><br>
+					Teletrabajo y sus riesgos
+				</li>
+			</ol>
+			
+		</div>
+		<div>
+			<h3 style="text-align: center; margin: 2% 0 2% 0; ">TALLERES</h3>
+			<ol style="justify-content: space-around;padding-bottom: 10%;">
+				<li style="position: relative; width: 45%;padding: 0;text-align: center;color: #fff;">
+					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/ciber/antivirus.png" ><br>
+					Ciberseguridad personal
+				</li>
+				<li style="position: relative; width: 45%;padding: 0;text-align: center;color: #fff;">
+					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/ciber/computadora.png" ><br>
+					Anonimato y privacidad
+				</li>
+				<li style="position: relative; width: 45%;padding: 0;text-align: center;color: #fff;">
+					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/ciber/virus (1).png" ><br>
+					Informática Forense 1
+				</li>
+				<li style="position: relative; width: 45%;padding: 0;text-align: center;color: #fff;">
+					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/ciber/virus (2).png" ><br>
+					Informática Forense 2
+				</li>
+			</ol>
+			
+		</div>
+	</div>
 </div>
 <hr class="barra-colores-01">
+
+<!-- SOCIOS DE NEGOCIO-->
+<div class="square-13">
+	<h3>SOCIOS DE NEGOCIO</h3>
+	<ul>
+		<li style="background-image: url('images/icons/services/ciber/logos/cisco.png');"></li>
+		<li style="background-image: url('images/icons/services/ciber/logos/McAfee_Logo_2017.png');"></li>
+		<li style="background-image: url('images/icons/services/ciber/logos/check-point-logo-sized-768x384.jpg');"></li>
+		<li style="background-image: url('images/icons/services/ciber/logos/descarga.png');"></li>
+		<li style="background-image: url('images/icons/services/ciber/logos/Fortinet-logo.png');"></li>
+		<li style="background-image: url('images/icons/services/ciber/logos/rhyno-logo-1.png');"></li>
+		<li style="background-image: url('images/icons/services/ciber/logos/trendmicro-ogsocial.jpg');"></li>
+		<li style="background-image: url('images/icons/services/ciber/logos/bitdefender-logo.preview.png');"></li>
+		<li style="background-image: url('images/icons/services/ciber/logos/1200px-Symantec_logo10.svg.png');"></li>
+		<li style="background-image: url('images/icons/services/ciber/logos/cylance.png');"></li>
+		<li style="background-image: url('images/icons/services/ciber/logos/blue-coat-logo-960AD6DB0E-seeklogo.com.png');"></li>
+		<li style="background-image: url('images/icons/services/ciber/logos/servlet.png');"></li>
+		<li style="background-image: url('images/icons/services/ciber/logos/Kemp_logo.png');"></li>
+		<li style="background-image: url('images/icons/services/ciber/logos/2560px-FireEye.svg.png');"></li>
+		<li style="background-image: url('images/icons/services/ciber/logos/1557253433_Logo_MobileIron_new_.png');"></li>
+		<li style="background-image: url('images/icons/services/ciber/logos/netskope-logo-h1x-650x200.png');"></li>
+		<li style="background-image: url('images/icons/services/ciber/logos/Wallix_Logo.jpg');"></li>
+		<li style="background-image: url('images/icons/services/ciber/logos/kaspersky-logo-8.png');"></li>
+		<li style="background-image: url('images/icons/services/ciber/logos/logo-stormshield-1.png');"></li>
+		<li style="background-image: url('images/icons/services/ciber/logos/logo-2.png');"></li>
+		<li style="background-image: url('images/icons/services/ciber/logos/Logrhythm-main-logo-r.jpg');"></li>
+		<li style="background-image: url('images/icons/services/ciber/logos/exabeam-logo.png');"></li>
+		<li style="background-image: url('images/icons/services/ciber/logos/Nozomi-networks-logo.jpg');"></li>
+		<li></li>
+	</ul>
+</div>
 
 
 

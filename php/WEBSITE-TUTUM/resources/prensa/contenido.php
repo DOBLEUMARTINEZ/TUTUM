@@ -37,9 +37,10 @@
 
 <!-- MISIÓN Y VISIÓN ​ -->
 <div class="square-06">
-	<h2 style="padding: 2% 5%;text-align: left;" ><img style="width: 7%; margin-right: 2%;" src="images/icons/services/prensa/noticias.png" onclick="window.location.href='./';"> NOTICIAS</h2>
+	<h2 style="padding: 2% 10%;text-align: left;" > NOTICIAS</h2>
 	<ol>
 		<li style="width: 100%">
+            <br><br>
 			<p class="pensa-notice" style="cursor: pointer;" onclick="window.open('https://laopcion.com.mx/nacional/amenaza-ciberseguridad-mundial-conflicto-entre-rusia-y-ucrania-20220303-376776.html');"  >
 				<img src="images/icons/services/prensa/hacker.png" style="width: 5%; padding:1%;" >
 				Amenaza ciberseguridad mundial conflicto entre rusia y ucrania, <span>MARZO 3, 2022</span> 
@@ -60,7 +61,7 @@
 				Edificios inteligentes sumarán en optimización de consumo energético: TUTUM Tech, <span>MAYO 22, 2022</span> 
 				<i style=" color: #c0c5d1;font-size: 1.1vw;" class="fas fa-chevron-circle-right"></i>
 			</p>
-			<br><br><br>
+			<br><br>
 		</li>
 
 	</ol>
@@ -68,7 +69,7 @@
 
 <!-- -->
 <div class="square-06">
-	<h2 style="padding: 2% 5%;text-align: left;" ><img style="width: 7%; margin-right: 2%;" src="images/icons/services/prensa/blogging.png" onclick="window.location.href='./';"> PUBLICACIONES ​</h2>
+	<h2 style="padding: 2% 10%;text-align: left;" > PUBLICACIONES ​</h2>
 
     <div id="clientes" class="carousel slide blog-slide" data-ride="carousel">    
         <div class="carousel-inner" style="padding: 0 10%;">

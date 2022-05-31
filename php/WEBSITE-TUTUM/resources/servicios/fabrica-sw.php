@@ -1,7 +1,7 @@
-<!-- 1 box -->
+<!-- FABRICA DE SOFTWARE-->
 <a id="start"></a>
 <div class="square-04">
-	<ol>
+	<ol style="padding-bottom: 2%;">
 		<li>
 			<h2>FABRICA DE SOFTWARE</h2>
 		</li>
@@ -9,54 +9,78 @@
 			<p>
 				Ayudamos a nuestros clientes a desarrollar e implementar tecnología para optimizar sus operaciones y maximizar la rentabilidad, integrando sus actuales servicios, para que se dediquen a su negocio.​
 				<br><br>
-				Contamos con desarrolladores expertos, y con vasta experiencia en industrias específicas, con desarrollos apegados a las mejores prácticas de seguridad, desarrollo ágil entre otras.
+				Contamos con desarrolladores expertos, y con vasta experiencia en industrias específicas, con desarrollos apegados a las mejores prácticas de seguridad, desarrollo ágil entre otras.​
 			</p>
 		</li>
 	</ol>
 </div>
-
-<!-- 2 box  -->
-<div class="square-11">
-	<ul style="z-index: 1;">
-		<li>
-			<p>Desarrollo WEB​ Personalizado​</p>
+<div class="square-12" style="background: #000; padding: 1% 1%;" >
+	<ol>
+		<li style="width:20%;" >
+			<br><br>
+			<img src="images/icons/services/fw/seo.png"><br><br>
+			<p style="color: #fff;font-weight: normal;">Desarrollo WEB​ Personalizado</p>
+			<br><br>
 		</li>
-		<li>
-			<p>Mantenimiento ​de Aplicaciones</p>
+		<li style="width:20%;" >
+			<br><br>
+			<img src="images/icons/services/fw/desarrollo-de-aplicaciones.png"><br><br>
+			<p style="color: #fff;font-weight: normal;">Mantenimiento ​de Aplicaciones</p>
+			<br><br>
 		</li>
-		<li>
-			<p>Aplicaciones Personalizadas</p>
+		<li style="width:20%;" >
+			<br><br>
+			<img src="images/icons/services/fw/aplicaciones.png"><br><br>
+			<p style="color: #fff;font-weight: normal;">Aplicaciones Personalizadas</p>
+			<br><br>
 		</li>
-		<li>
-			<p>Implementación ​y Despliegue</p>
+		<li style="width:20%;" >
+			<br><br>
+			<img src="images/icons/services/fw/desarrollo-web.png"><br><br>
+			<p style="color: #fff;font-weight: normal;">Implementación ​y Despliegue</p>
+			<br><br>
 		</li>
-	</ul>
+	</ol>
 </div>
+<hr class="barra-colores-01">
 
-<!-- box 3 -->
+
+<!-- DESARROLLO WEB​ PERSONALIZADO -->
 <div class="square-06">
-	<h2>DESARROLLO <span style="color: #4dbed4;">WEB</span>​ PERSONALIZADO</h2>
 	<ol>
 		<li>
 			<br><br>
 			<p style="position: relative;">
-				Nuestras soluciones de desarrollo web facilitan los flujos de trabajo, aumentan los ingresos y optimizan las operaciones comerciales, lo anterior bajo desarrollos que cumplen con los principales estándares de seguridad aplicables a cada sector de la industria.<br><br>
+				<span>
+					DESARROLLO WEB​ PERSONALIZADO
+				</span>
 				<br><br>
-				<img style="width: 20%; margin: 0 1.5% 0 1.5%;" src="images/icons/3.- Gifts Servicios/7.- FS/computadora.gif" >
-				<img style="width: 20%; margin: 0 1.5% 0 1.5%;" src="images/icons/3.- Gifts Servicios/7.- FS/documento.gif" >
-				<img style="width: 20%; margin: 0 1.5% 0 1.5%;" src="images/icons/3.- Gifts Servicios/7.- FS/raton.gif" >
-				<img style="width: 20%; margin: 0 1.5% 0 1.5%;" src="images/icons/3.- Gifts Servicios/7.- FS/compras.gif" >
+				Nuestras soluciones de desarrollo web facilitan los flujos de trabajo, aumentan los ingresos y optimizan las operaciones comerciales, lo anterior bajo desarrollos que cumplen con los principales estándares de seguridad aplicables a cada sector de la industria.
 			</p>
-			<br><br><br><br>
+			<ul>
+				<li style="text-align: center; color: #4dbed4;font-weight: bold; ">
+					<img style="width:35%;" src="images/icons/services/fw/flujo-de-trabajo.png"><br><br>
+					Flujo de trabajo fácil
+				</li>
+				<li style="text-align: center; color: #4dbed4;font-weight: bold; ">
+					<img style="width:35%;" src="images/icons/services/fw/ingresos.png"><br><br>
+					Aumento de ingresos
+				</li>
+				<li style="text-align: center; color: #4dbed4;font-weight: bold; ">
+					<img style="width:35%;" src="images/icons/services/fw/operacion.png"><br><br>
+					Optimización de operación
+				</li>
+			</ul>
+			
 		</li>
 
 		<li style="background: url('<?php echo $url ?>images/img/FOTO 13.jpg');background-position: center;background-size: 100%;border-bottom: 1.5vw solid #fff;border-top: 1.5vw solid #fff;"></li>
 	</ol>
 </div>
 
-<!-- SERVICIOS -->
+<!-- MANTENIMIENTO DE APLICACIONES -->
 <div class="square-04">
-	<ol  style="padding-bottom: 10%;">
+	<ol  style="padding-bottom: 2%;">
 		<li>
 			<h2>MANTENIMIENTO DE APLICACIONES</h2>
 		</li>
@@ -67,11 +91,32 @@
 		</li>
 	</ol>
 </div>
-
-<!-- CATALOGO DE SOLUCIONES -->
-<div class="square-06">
-	<h2 style="color: #0000">APLICACIONES PERSONALIZADAS</h2>
+<div class="square-12" style="background: #000; padding: 1% 1%;" >
 	<ol>
+		<li style="width:20%;" >
+			<br><br>
+			<img src="images/icons/services/fw/mantenimiento-web.png"><br><br>
+			<p style="color: #fff;font-weight: normal;">Mantenimiento y modernización​</p>
+			<br><br>
+		</li>
+		<li style="width:20%;" >
+			<br><br>
+			<img src="images/icons/services/fw/rendimiento.png"><br><br>
+			<p style="color: #fff;font-weight: normal;">Escalabilidad y rendimiento</p>
+			<br><br>
+		</li>
+		<li style="width:20%;" >
+			<br><br>
+			<img src="images/icons/services/fw/ingenieria-de-software.png"><br><br>
+			<p style="color: #fff;font-weight: normal;">Infraestructura de software​</p>
+			<br><br>
+		</li>
+	</ol>
+</div>
+
+<!-- APLICACIONES PERSONALIZADAS -->
+<div class="square-06">
+	<ol style="align-items: center;">
 		<li>
 			<br>
 			<p>
@@ -83,12 +128,72 @@
 			</p>
 			<br><br>
 		</li>
-		<li style="
-			background: url('images/img/CAU_6.jpg');background-size: cover; background-position: center;border-bottom: 1.5vw solid #fff;border-top: 1.5vw solid #fff;"></li>
+		<li>
+			<ul style="justify-content: space-around;">
+				<li style="text-align: center;font-weight: bold; width: 20%;" >
+					<br><br>
+					<img style="width: 60%;" src="images/icons/services/fw/desarrollo-de-aplicaciones (1).png"><br><br>
+					<p style="color:#4dbed4;">Desarrollo de aplicaciones </p>
+					<br><br>
+				</li>
+				<li style="text-align: center;font-weight: bold; width: 20%;" >
+					<br><br>
+					<img style="width: 60%;" src="images/icons/services/fw/reduccion-de-peso.png"><br><br>
+					<p style="color:#4dbed4;">Desarrollo a la medida</p>
+					<br><br>
+				</li>
+				<li style="text-align: center;font-weight: bold; width: 20%;" >
+					<br><br>
+					<img style="width: 60%;" src="images/icons/services/fw/elastico.png"><br><br>
+					<p style="color:#4dbed4;">Diseño flexible</p>
+					<br><br>
+				</li>
+			</ul>
+		</li>
 	</ol>
 </div>
-
 <hr class="barra-colores-01">
 
+<!-- IMPLEMENTACIÓN Y​ DESPLIEGUE -->
+<div class="square-04">
+	<ol  style="padding-bottom: 2%;">
+		<li>
+			<h2>IMPLEMENTACIÓN Y​ DESPLIEGUE</h2>
+		</li>
+		<li>
+			<p>
+				Diseñamos un plan de implementación en conjunto con nuestra Mesa de Servicios a profundidad, evaluando las necesidades de su empresa, para así brindar tecnologías mejoradas a los usuarios finales. En nuestras implementaciones consideramos los esquemas de regreso en caso de existir algún impacto en servicios productivos, apegándonos al ciclo de vida del servicio marcado en el marco de referencia ITIL V4.
+			</p>
+		</li>
+	</ol>
+</div>
+<div class="square-12" style="background: #000; padding: 1% 1%;" >
+	<ol>
+		<li style="width:20%;" >
+			<br><br>
+			<img src="images/icons/services/fw/ayudar.png"><br><br>
+			<p style="color: #fff;font-weight: normal;">Implementación en conjunto con mesa de ayuda</p>
+			<br><br>
+		</li>
+		<li style="width:20%;" >
+			<br><br>
+			<img src="images/icons/services/fw/evaluacion.png"><br><br>
+			<p style="color: #fff;font-weight: normal;">Evaluación de necesidades</p>
+			<br><br>
+		</li>
+		<li style="width:20%;" >
+			<br><br>
+			<img src="images/icons/services/fw/gestion-de-proyectos.png"><br><br>
+			<p style="color: #fff;font-weight: normal;">Tecnologías​ mejoradas</p>
+			<br><br>
+		</li>
+		<li style="width:20%;" >
+			<br><br>
+			<img src="images/icons/services/fw/equipo.png"><br><br>
+			<p style="color: #fff;font-weight: normal;">Acompañamiento</p>
+			<br><br>
+		</li>
+	</ol>
+</div>
 
 

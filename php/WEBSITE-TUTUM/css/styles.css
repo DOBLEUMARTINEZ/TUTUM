@@ -1795,6 +1795,15 @@
                 color: #111;
                 text-shadow: none!important;
                 margin: 0 0 0 0;
+                transition: 0.3s;
+            }
+
+            .square-06 ol > li > p:hover {
+                cursor: pointer;
+                background: #dee1e7;
+                transform: translateX(10px);
+                box-shadow: -1px 3px 9px -3px #333333a8;
+                transition: 0.3s;
             }
 
             .square-06 ol > li > p > span{
@@ -2325,6 +2334,37 @@
 
             .square-12 > ol > li > img{
                 width: 40%;
+            }
+
+        /**/
+
+            .square-13{
+                background: #fff;
+                padding: 1% 10%;
+            }
+
+            .square-13 h3{
+                color: #4dbed4;
+                margin: 3% 0%;
+            }
+
+            .square-13 ul{
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                list-style: none;
+            }
+
+            .square-13 ul > li {
+                width: 12vw;
+                height: 6vw;
+                margin-bottom: 0.5vw;
+                background-position: center;
+                background-size: 80%;
+                background-repeat: no-repeat;
             }
 
         /**/

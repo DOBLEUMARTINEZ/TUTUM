@@ -4,7 +4,7 @@
 		<li>
 			<h2 style="padding: 10% 0%;">
 				¿QUIERES SABER MAS<br>SOBRE NOSOTROS?<br><br>
-				<span>Descarga nuestro catálogo de servicios​</span><br><br>
+				<span style="color: #4DBED4" >Búscanos en redes​</span><br><br>
 				<img onclick="window.open('https://www.facebook.com/Tutum-Tech-515010355546588');" style="width: 10%;" src="<?php echo $url ?>images/icons/services/prensa/facebook.png">
 				<img onclick="window.open('https://twitter.com/TutumTech');" style="width: 10%;" src="<?php echo $url ?>images/icons/services/prensa/gorjeo.png">
 				<img onclick="window.open('https://www.linkedin.com/company/tutum-tech/mycompany/verification/');" style="width: 10%;" src="<?php echo $url ?>images/icons/services/prensa/linkedin.png">

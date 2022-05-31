@@ -1,4 +1,4 @@
-<!-- 1 box -->
+<!-- SOLUCIONES HOSPITALARIAS -->
 <a id="start"></a>
 <div class="square-04">
 	<ol>
@@ -12,8 +12,6 @@
 		</li>
 	</ol>
 </div>
-
-<!-- 2 box  -->
 <div class="square-11">
 	<ul>
 		<li>
@@ -26,8 +24,7 @@
 	</ul>
 </div>
 
-
-<!-- box 3 -->
+<!-- EXPERIENCIA SOLUCIONES HOSPITALARIAS -->
 <div class="square-06">
 	<h2>EXPERIENCIA SOLUCIONES HOSPITALARIAS</h2>
 	<ol>
@@ -40,7 +37,7 @@
 			<ul style="justify-content: center; padding-top: 0;">
 				<li>
 					<p style="text-align: center;">
-						<img style="width: 50%; margin:1% 25%;" src="images/icons/services/hospitales/servicio-al-cliente.png" ><br><br>
+						<img style="width: 50%; margin:1% 25%;" src="images/icons/services/hospitales/medico-paciente.png" ><br><br>
 						Implementación​<span style="font-size: 0.9vw;"> HIS</span>
 					</p>
 				</li>
@@ -53,8 +50,8 @@
 				</li>
 				<li>
 					<p style="text-align: center;">
-						<img style="width: 50%; margin:1% 25%;" src="images/icons/services/hospitales/infraestructura.png" ><br><br>
-						On<span style="font-size: 0.9vw;"> Premise​</span>
+						<img style="width: 50%; margin:1% 25%;" src="images/icons/services/hospitales/servidores.png" ><br><br>
+						<span style="font-size: 0.9vw;">On </span>Premise​
 					</p>
 				</li>
 			</ul>
@@ -79,8 +76,6 @@
 		</li>
 	</ol>
 </div>
-
-<!-- SECTORES  -->
 <div class="square-12" style="background: #000; padding: 1% 1%;" >
 	<ol>
 		<li style="width:12%;" >
@@ -134,8 +129,7 @@
 	</ol>
 </div>
 
-
-<!-- CATALOGO DE SOLUCIONES -->
+<!-- SOLUCIONES Y SISTEMAS -->
 <div class="square-09">
 	<div>	
 		<div>
@@ -181,12 +175,11 @@
 	</div>
 	<br><br>
 </div>
-
 <hr class="barra-colores-01">
 
-<!-- SERVICIOS -->
+<!-- SISTEMAS DE INFORMACION HOSPITALARIA TUTUM HIS -->
 <div class="square-04">
-	<ol >
+	<ol style="padding-bottom: 1%;"	>
 		<li>
 			<h2>SISTEMAS DE INFORMACION <br>HOSPITALARIA <br>TUTUM <span style="font-weight: bold;color: #4dbed4;">HIS</span></h2>
 		</li>
@@ -197,92 +190,276 @@
 		</li>
 	</ol>
 </div>
-
-<!-- 2 box  -->
-<div class="square-11">
-	<ul>
-		<li>
-			<p>TUTUM<br><span style="font-size: 0.9vw;">HIS</span></p>
-			<img src="images/icons/HIS.png" >
+<div class="square-12" style="background: #000; padding: 1% 1%;" >
+	<ol style="justify-content: center;">
+		<li style="width:18%;" >
+			<br><br>
+			<img src="images/icons/services/hospitales/HIS.png"><br><br>
+			<p >TUTUM​ HIS ​</p>
 		</li>
-		<li>
+		<li style="width:18%;" >
+			<br><br>
+			<img src="images/icons/services/hospitales/riesgo.png"><br><br>
 			<p>Módulos Administrativos</p>
-			<img src="images/icons/sap.png" >
 		</li>
-		<li>
+		<li style="width:18%;" >
+			<br><br>
+			<img src="images/icons/services/hospitales/salud.png"><br><br>
 			<p>Módulos Clínicos</p>
-			<img src="images/icons/computer.png" >
 		</li>
-		<li>
+		<li style="width:18%;" >
+			<br><br>
+			<img src="images/icons/services/hospitales/proceso123.png"><br><br>
 			<p>Módulos de Configuración</p>
-			<img src="images/icons/computer-networks.png" >
 		</li>
-	</ul>
+	</ol>
+</div>
+<div class="square-06">
+	<ol>
+		<li>
+			<p style="position: relative;">
+				El objetivo de <strong>TUTUM SIH</strong> es implementar un Sistema Integral de Información Hospitalaria (SIH), mediante el cual se logre una comunicación permanente entre todas las áreas del Sistema Hospitalario, siendo éste capaz de transmitir texto, imágenes y videos permitiendo de esta forma, realizar por parte del Personal Médico y Administrativo una gestión oportuna, clara y efectiva, coadyuvando al logro de los indicadores de productividad y estándares de servicios.
+			</p>
+			<br><br>
+			<ul style="flex-wrap: wrap; justify-content: center;">
+				<li style="text-align: center; width: 25%;" >
+					<img style="width: 40%; margin: 1% 30%;" src="images/icons/services/hospitales/informatica.png">
+					<span style="color: #4dbed4;" >Sistema integral</span>
+				</li>
+				<li style="text-align: center; width: 25%;" >
+					<img style="width: 40%; margin: 1% 30%;" src="images/icons/services/hospitales/rayos-x.png">
+					<span style="color: #4dbed4;" >Transmisión de datos</span>
+				</li>
+				<li style="text-align: center; width: 25%;" >
+					<img style="width: 40%; margin: 1% 30%;" src="images/icons/services/hospitales/paciente.png">
+					<span style="color: #4dbed4;" >Operación</span>
+				</li>
+				<li style="text-align: center; width: 25%;" >
+					<img style="width: 40%; margin: 1% 30%;" src="images/icons/services/hospitales/investigacion.png">
+					<span style="color: #4dbed4;" >Administración</span>
+				</li>
+			</ul>
+			<br><br>
+		</li>
+
+		<li style="
+		background: url('images/img/FOTO 19.jpg');
+		background-position: center; 
+		background-size: 100%;
+		border-bottom: 1.5vw solid #fff;
+		border-top: 1.5vw solid #fff;
+		">
+		</li>
+	</ol>
 </div>
 
-<!-- CATALOGO DE SOLUCIONES -->
-<div class="square-09" >
-	<h2 style="color: #0000;">CATALOGO DE SOLUCIONES</h2>
-	<div style="padding-top: 2.5%;">
-		<div >
-			<ol>
-				<li>
-					El objetivo de <strong>TUTUM SIH</strong> es implementar un Sistema Integral de Información Hospitalaria (SIH), mediante el cual se logre una comunicación permanente entre todas las áreas del Sistema Hospitalario, siendo éste capaz de transmitir texto, imágenes y videos permitiendo de esta forma, realizar por parte del Personal Médico y Administrativo una gestión oportuna, clara y efectiva, coadyuvando al logro de los indicadores de productividad y estándares de servicios.
-					<br><br>
-					​<span style="color: #4dbed4;font-weight: bold;">Módulos clínicos</span><br>
-					° Admisión hospitalaria​<br>
-					° Urgencias​<br>
-					° Laboratorio​<br>
-					° Banco de sangre​<br>
-					° Imagenología​<br>
-					° Consulta externa​<br>
-					° Trabajo social​<br>
-					° Administración de quirófanos​<br>
-					° Enfermería​<br>
-					° Indicaciones médicas ​<br>
-					° Dietas y cocina​<br>
-					° Expediente clínico electrónico​<br>
-					° Control de activos​<br>
-					° Biblio hemeroteca y videoteca​<br>
-					° Defunciones​<br>
-					° Medio ambiente​<br>
-					° Referencia y contrarreferencia​<br>
-					° Donación de órganos​<br>
-					° Investigación<br>
-				</li>
-			</ol>
-		</div>
-		<div>
-			<ol>
-				<li style="width: 50%;">
-					<span style="color: #4dbed4;font-weight: bold;">Módulos administrativos</span><br>
-					° Administración y proveedores​<br>
-					° Almacén ​<br>
-					° Cuentas por pagar​<br>
-					° Cuentas por cobrar​<br>
-					° Compras​<br>
-					° Caja y facturación​<br>
-					° Costos​<br>
-					° Ccontabilidad​<br>
-				</li>
-				<li style="width: 50%;">
-					<span style="color: #4dbed4;font-weight: bold;">Módulos de configuración</span><br>
-					° Seguridad​
-					° Importador de datos​
-					° Administración del sistema​
-					° Flujo de trabajo​
-					° Cuestionarios​
-					° Formas​
-					° Interoperabilidad
-				</li>
-			</ol>
-			<img style="height: 33vw; margin: 5% 0 0 0; " src="<?php echo $url ?>images/img/FOTO 19.jpg" >
-
-		</div>
-	</div>
-	<br><br>
+<!-- MÓDULOS ADMINISTRATIVOS -->
+<div class="square-12" style="background: #000;" >
+	<h2 style="color: #4dbed4;">MÓDULOS ADMINISTRATIVOS</h2>
+	<ol style="justify-content: center;">
+		<li style="width:25%;color:#fff; " >
+			<br><br>
+			<img style="width: 25%;" src="images/icons/services/hospitales/proveedor.png"><br><br>
+			<p style="color: #fff;" >Administración y proveedores</p>
+			<br><br>
+		</li>
+		<li style="width:25%;color:#fff; " >
+			<br><br>
+			<img style="width: 25%;" src="images/icons/services/hospitales/almacen.png"><br><br>
+			<p style="color: #fff;" >Almacén</p>
+			<br><br>
+		</li>
+		<li style="width:25%;color:#fff; " >
+			<br><br>
+			<img style="width: 25%;" src="images/icons/services/hospitales/salario.png"><br><br>
+			<p style="color: #fff;" >Cuentas por​ pagar​ </p>
+			<br><br>
+		</li>
+		<li style="width:25%;color:#fff; " >
+			<br><br>
+			<img style="width: 25%;" src="images/icons/services/hospitales/equilibrar.png"><br><br>
+			<p style="color: #fff;" >Cuentas por ​cobrar​</p>
+			<br><br>
+		</li>
+		<li style="width:25%;color:#fff; " >
+			<br><br>
+			<img style="width: 25%;" src="images/icons/services/hospitales/caja-registradora.png"><br><br>
+			<p style="color: #fff;" >Caja y ​facturación</p>
+			<br><br>
+		</li>
+		<li style="width:25%;color:#fff; " >
+			<br><br>
+			<img style="width: 25%;" src="images/icons/services/hospitales/presupuesto.png"><br><br>
+			<p style="color: #fff;" >Costos</p>
+			<br><br>
+		</li>
+		<li style="width:25%;color:#fff; " >
+			<br><br>
+			<img style="width: 25%;" src="images/icons/services/hospitales/orden.png"><br><br>
+			<p style="color: #fff;" >Contabilidad​</p>
+			<br><br>
+		</li>
+		<li style="width:25%;color:#fff; " >
+			<br><br>
+			<img style="width: 25%;" src="images/icons/services/hospitales/contabilidad.png"><br><br>
+			<p style="color: #fff;" >Compras</p>
+			<br><br>
+		</li>
+	</ol>
 </div>
+<hr class="barra-colores-01">
 
+<!-- MÓDULOS CLÍNICOS -->
+<div class="square-12">
+	<h2 style="color: #4dbed4;">MÓDULOS CLÍNICOS</h2>
+	<ol style="justify-content: center;">
+		<li style="width:13%;">
+			<br><br>
+			<img style="width: 50%;" src="images/icons/services/hospitales/historial-medico.png"><br><br>
+			<p>Expediente clínico electrónico</p>
+		</li>
+		<li style="width:13%;">
+			<br><br>
+			<img style="width: 50%;" src="images/icons/services/hospitales/recepcionista.png"><br><br>
+			<p>Admisión hospitalaria</p>
+		</li>
+		<li style="width:13%;">
+			<br><br>
+			<img style="width: 50%;" src="images/icons/services/hospitales/hospitalizacion.png"><br><br>
+			<p>Urgencias</p>
+		</li>
+		<li style="width:13%;">
+			<br><br>
+			<img style="width: 50%;" src="images/icons/services/hospitales/muestra-de-sangre.png"><br><br>
+			<p>Laboratorio</p>
+		</li>
+		<li style="width:13%;">
+			<br><br>
+			<img style="width: 50%;" src="images/icons/services/hospitales/tipo-de-sangre.png"><br><br>
+			<p>Banco de sangre</p>
+		</li>
+		<li style="width:13%;">
+			<br><br>
+			<img style="width: 50%;" src="images/icons/services/hospitales/rayos-x22.png"><br><br>
+			<p>Imagenología</p>
+		</li>
+		<li style="width:13%;">
+			<br><br>
+			<img style="width: 50%;" src="images/icons/services/hospitales/examen.png"><br><br>
+			<p>Consulta externa</p>
+		</li>
+		<li style="width:13%;">
+			<br><br>
+			<img style="width: 50%;" src="images/icons/services/hospitales/humano.png"><br><br>
+			<p>Trabajo social​</p>
+		</li>
+		<li style="width:13%;">
+			<br><br>
+			<img style="width: 50%;" src="images/icons/services/hospitales/cuarto-de-cirugia.png"><br><br>
+			<p>Administración de quirófanos</p>
+		</li>
+		<li style="width:13%;">
+			<br><br>
+			<img style="width: 50%;" src="images/icons/services/hospitales/enfermera.png"><br><br>
+			<p>Enfermería</p>
+		</li>
+		<li style="width:13%;">
+			<br><br>
+			<img style="width: 50%;" src="images/icons/services/hospitales/enfermeras.png"><br><br>
+			<p>Indicaciones médicas </p>
+		</li>
+		<li style="width:13%;">
+			<br><br>
+			<img style="width: 50%;" src="images/icons/services/hospitales/dieta (1).png"><br><br>
+			<p>Dietas y cocina</p>
+		</li>
+		<li style="width:13%;">
+			<br><br>
+			<img style="width: 50%;" src="images/icons/services/hospitales/medidor-de-presion-arterial.png"><br><br>
+			<p>Control de activos</p>
+		</li>
+		<li style="width:13%;">
+			<br><br>
+			<img style="width: 50%;" src="images/icons/services/hospitales/biblioteca-en-linea.png"><br><br>
+			<p>Biblio hemeroteca y videoteca</p>
+		</li>
+		<li style="width:13%;">
+			<br><br>
+			<img style="width: 50%;" src="images/icons/services/hospitales/acta-de-defuncion.png"><br><br>
+			<p>Defunciones</p>
+		</li>
+		<li style="width:13%;">
+			<br><br>
+			<img style="width: 50%;" src="images/icons/services/hospitales/papel.png"><br><br>
+			<p>Medio ambiente​</p>
+		</li>
+		<li style="width:13%;">
+			<br><br>
+			<img style="width: 50%;" src="images/icons/services/hospitales/historial-medico (1).png"><br><br>
+			<p>Referencia y contrarreferencia​</p>
+		</li>
+		<li style="width:13%;">
+			<br><br>
+			<img style="width: 50%;" src="images/icons/services/hospitales/donacion-de-organos.png"><br><br>
+			<p>Donación de órganos​</p>
+		</li>
+		<li style="width:13%;">
+			<br><br>
+			<img style="width: 50%;" src="images/icons/services/hospitales/microscopio.png"><br><br>
+			<p>Investigación​</p>
+		</li>
+	</ol>
+</div>
+<hr class="barra-colores-01">
+
+<!-- MÓDULOS ADMINISTRATIVOS -->
+<div class="square-12" style="background: #000;" >
+	<h2 style="color: #4dbed4;">MÓDULOS ADMINISTRATIVOS</h2>
+	<ol style="justify-content: center;">
+		<li style="width:25%;color:#fff; " >
+			<br><br>
+			<img style="width: 25%;" src="images/icons/services/hospitales/la-seguridad.png"><br><br>
+			<p style="color: #fff;" >Seguridad​</p>
+			<br><br>
+		</li>
+		<li style="width:25%;color:#fff; " >
+			<br><br>
+			<img style="width: 25%;" src="images/icons/services/hospitales/importacion.png"><br><br>
+			<p style="color: #fff;" >Importador de datos​</p>
+			<br><br>
+		</li>
+		<li style="width:25%;color:#fff; " >
+			<br><br>
+			<img style="width: 25%;" src="images/icons/services/hospitales/gestion-de-la-informacion.png"><br><br>
+			<p style="color: #fff;" >Administración del sistema​</p>
+			<br><br>
+		</li>
+		<li style="width:25%;color:#fff; " >
+			<br><br>
+			<img style="width: 25%;" src="images/icons/services/hospitales/diagrama-de-flujo.png"><br><br>
+			<p style="color: #fff;" >Flujo de trabajo​</p>
+			<br><br>
+		</li>
+		<li style="width:25%;color:#fff; " >
+			<br><br>
+			<img style="width: 25%;" src="images/icons/services/hospitales/questionnaire.png"><br><br>
+			<p style="color: #fff;" >Cuestionarios​</p>
+			<br><br>
+		</li>
+		<li style="width:25%;color:#fff; " >
+			<br><br>
+			<img style="width: 25%;" src="images/icons/services/hospitales/formulario-de-contacto.png"><br><br>
+			<p style="color: #fff;" >Formas​</p>
+			<br><br>
+		</li>
+		<li style="width:25%;color:#fff; " >
+			<br><br>
+			<img style="width: 25%;" src="images/icons/services/hospitales/proceso-de-trabajo.png"><br><br>
+			<p style="color: #fff;" >Interoperabilidad</p>
+			<br><br>
+		</li>
+	</ol>
+</div>
 <hr class="barra-colores-01">
 
 
