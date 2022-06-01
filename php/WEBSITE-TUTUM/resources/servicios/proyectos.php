@@ -12,10 +12,9 @@
 		</li>
 	</ol>
 </div>
-
 <hr class="barra-colores-01">
 
-<!-- -->
+<!-- DESARROLLO E IMPLEMNTACION DE SOLUCIONES EN TI​ -->
 <div class="square-06">
 	<h2>EXPERIENCIA EN DISEÑO E <br>IMPLEMENTACION</h2>
 	<ol>
@@ -55,7 +54,7 @@
 	</ol>
 </div>
 
-<!-- -->
+<!-- SERVICIOS -->
 <div class="square-04">
 	<ol style="padding-bottom: 10%;">
 		<li>
@@ -68,59 +67,55 @@
 		</li>
 	</ol>
 </div>
-
-<div class="square-06">
-	<h2 style="color: #0000;">CATALOGO DE SOLUCIONES</h2>
-</div>
-
-<!-- SECTORES  -->
+<div class="square-06"><h2 style="color: #0000;">SERVICIOS</h2></div>
 <div class="square-12">
-	<ol>
+	<h3 style="color: #4dbed4;">SERVICIOS</h3>
+	<ol style="justify-content: center;">
 		<li>
 			<br><br>
-			<img src="images/icons/services/proyectos/digital (1).png">
+			<img style="width: 27%;" src="images/icons/services/proyectos/digital (1).png"><br><br>
 			<p>Soluciones ​integrales en TI​</p>
 			<br><br>
 		</li>
 		<li>
 			<br><br>
-			<img src="images/icons/services/proyectos/tecnologia (1).png">
+			<img style="width: 27%;" src="images/icons/services/proyectos/tecnologia (1).png"><br><br>
 			<p>Desarrollo de ​ingenierías</p>
 			<br><br>
 		</li>
 		<li>
 			<br><br>
-			<img src="images/icons/services/proyectos/ordenador-portatil12.png">
+			<img style="width: 27%;" src="images/icons/services/proyectos/ordenador-portatil12.png"><br><br>
 			<p>Suministro de ​equipamiento</p>
 			<br><br>
 		</li>
 		<li>
 			<br><br>
-			<img src="images/icons/services/proyectos/informatica (1).png">
+			<img style="width: 27%;" src="images/icons/services/proyectos/informatica (1).png"><br><br>
 			<p>Implementación de ​sistemas​</p>
 			<br><br>
 		</li>
 		<li>
 			<br><br>
-			<img src="images/icons/services/proyectos/nube.png">
+			<img style="width: 27%;" src="images/icons/services/proyectos/nube.png"><br><br>
 			<p>Implementación ​SAP</p>
 			<br><br>
 		</li>
 		<li>
 			<br><br>
-			<img src="images/icons/services/proyectos/cuidado-de-la-salud.png">
+			<img style="width: 27%;" src="images/icons/services/proyectos/cuidado-de-la-salud.png"><br><br>
 			<p>Implementación ​HIS</p>
 			<br><br>
 		</li>
 		<li>
 			<br><br>
-			<img src="images/icons/services/proyectos/infraestructura.png">
+			<img style="width: 27%;" src="images/icons/services/proyectos/infraestructura.png"><br><br>
 			<p>Capacitación ​usuario final</p>
 			<br><br>
 		</li>
 		<li>
 			<br><br>
-			<img src="images/icons/services/proyectos/ordenador-portatil.png">
+			<img style="width: 27%;" src="images/icons/services/proyectos/ordenador-portatil.png"><br><br>
 			<p>Pólizas</p>
 			<br><br>
 		</li>
@@ -130,9 +125,9 @@
 <!-- CATALOGO DE SOLUCIONES -->
 <div class="square-09">
 	<h2>CATALOGO DE SOLUCIONES</h2>
-	<div>
+	<div style="padding:2.5% 0%;">
 		<div>
-			<h3>Soluciones Infra estructura y Seguridad</h3>
+			<h3 style="text-transform: uppercase; font-weight: normal;" >Soluciones Infra estructura y Seguridad</h3>
 			<ol>
 				<li>
 					° Cableado Estructurado​<br>
@@ -161,7 +156,7 @@
 			
 		</div>
 		<div>
-			<h3>Software especializado​</h3>
+			<h3 style="text-transform: uppercase; font-weight: normal;text-align: center;" >Software especializado​</h3>
 			<ol style="padding: " >
 				<li style="position: relative; width: 33%;padding: 0;text-align: center;">
 					<img style="width: 40%;" src="<?php echo $url ?>images/icons/services/proyectos/cama-de-hospital.png" ><br>
@@ -177,7 +172,7 @@
 				</li>
 			</ol>
 
-			<h3>Soluciones Especiales Hospitalarias </h3>
+			<h3 style="text-transform: uppercase; font-weight: normal;text-align: center;" >Soluciones Especiales Hospitalarias </h3>
 			<ol style="justify-content: space-around;padding-bottom: 5%;">
 				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
 					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/proyectos/rayos-x.png" ><br>

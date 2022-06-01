@@ -1,7 +1,7 @@
 <!-- FABRICA DE SOFTWARE-->
 <a id="start"></a>
 <div class="square-04">
-	<ol style="padding-bottom: 2%;">
+	<ol style=" background: #fff;">
 		<li>
 			<h2>FABRICA DE SOFTWARE</h2>
 		</li>
@@ -16,27 +16,27 @@
 </div>
 <div class="square-12" style="background: #000; padding: 1% 1%;" >
 	<ol>
-		<li style="width:20%;" >
+		<li style="width:20%; text-align: center;" >
 			<br><br>
-			<img src="images/icons/services/fw/seo.png"><br><br>
+			<img style="width: 26%;" src="images/icons/services/fw/seo.png"><br><br>
 			<p style="color: #fff;font-weight: normal;">Desarrollo WEB​ Personalizado</p>
 			<br><br>
 		</li>
-		<li style="width:20%;" >
+		<li style="width:20%; text-align: center;" >
 			<br><br>
-			<img src="images/icons/services/fw/desarrollo-de-aplicaciones.png"><br><br>
+			<img style="width: 26%;" src="images/icons/services/fw/desarrollo-de-aplicaciones.png"><br><br>
 			<p style="color: #fff;font-weight: normal;">Mantenimiento ​de Aplicaciones</p>
 			<br><br>
 		</li>
-		<li style="width:20%;" >
+		<li style="width:20%; text-align: center;" >
 			<br><br>
-			<img src="images/icons/services/fw/aplicaciones.png"><br><br>
+			<img style="width: 26%;" src="images/icons/services/fw/aplicaciones.png"><br><br>
 			<p style="color: #fff;font-weight: normal;">Aplicaciones Personalizadas</p>
 			<br><br>
 		</li>
-		<li style="width:20%;" >
+		<li style="width:20%; text-align: center;" >
 			<br><br>
-			<img src="images/icons/services/fw/desarrollo-web.png"><br><br>
+			<img style="width: 26%;" src="images/icons/services/fw/desarrollo-web.png"><br><br>
 			<p style="color: #fff;font-weight: normal;">Implementación ​y Despliegue</p>
 			<br><br>
 		</li>
@@ -59,15 +59,15 @@
 			</p>
 			<ul>
 				<li style="text-align: center; color: #4dbed4;font-weight: bold; ">
-					<img style="width:35%;" src="images/icons/services/fw/flujo-de-trabajo.png"><br><br>
+					<img style="width:28%;" src="images/icons/services/fw/flujo-de-trabajo.png"><br><br>
 					Flujo de trabajo fácil
 				</li>
 				<li style="text-align: center; color: #4dbed4;font-weight: bold; ">
-					<img style="width:35%;" src="images/icons/services/fw/ingresos.png"><br><br>
+					<img style="width:28%;" src="images/icons/services/fw/ingresos.png"><br><br>
 					Aumento de ingresos
 				</li>
 				<li style="text-align: center; color: #4dbed4;font-weight: bold; ">
-					<img style="width:35%;" src="images/icons/services/fw/operacion.png"><br><br>
+					<img style="width:28%;" src="images/icons/services/fw/operacion.png"><br><br>
 					Optimización de operación
 				</li>
 			</ul>
@@ -80,7 +80,7 @@
 
 <!-- MANTENIMIENTO DE APLICACIONES -->
 <div class="square-04">
-	<ol  style="padding-bottom: 2%;">
+	<ol  style="background: #fff;">
 		<li>
 			<h2>MANTENIMIENTO DE APLICACIONES</h2>
 		</li>
@@ -95,19 +95,19 @@
 	<ol>
 		<li style="width:20%;" >
 			<br><br>
-			<img src="images/icons/services/fw/mantenimiento-web.png"><br><br>
+			<img style="width: 26%;" src="images/icons/services/fw/mantenimiento-web.png"><br><br>
 			<p style="color: #fff;font-weight: normal;">Mantenimiento y modernización​</p>
 			<br><br>
 		</li>
 		<li style="width:20%;" >
 			<br><br>
-			<img src="images/icons/services/fw/rendimiento.png"><br><br>
+			<img style="width: 26%;" src="images/icons/services/fw/rendimiento.png"><br><br>
 			<p style="color: #fff;font-weight: normal;">Escalabilidad y rendimiento</p>
 			<br><br>
 		</li>
 		<li style="width:20%;" >
 			<br><br>
-			<img src="images/icons/services/fw/ingenieria-de-software.png"><br><br>
+			<img style="width: 26%;" src="images/icons/services/fw/ingenieria-de-software.png"><br><br>
 			<p style="color: #fff;font-weight: normal;">Infraestructura de software​</p>
 			<br><br>
 		</li>
@@ -132,19 +132,19 @@
 			<ul style="justify-content: space-around;">
 				<li style="text-align: center;font-weight: bold; width: 20%;" >
 					<br><br>
-					<img style="width: 60%;" src="images/icons/services/fw/desarrollo-de-aplicaciones (1).png"><br><br>
+					<img style="width: 45%;" src="images/icons/services/fw/desarrollo-de-aplicaciones (1).png"><br><br>
 					<p style="color:#4dbed4;">Desarrollo de aplicaciones </p>
 					<br><br>
 				</li>
 				<li style="text-align: center;font-weight: bold; width: 20%;" >
 					<br><br>
-					<img style="width: 60%;" src="images/icons/services/fw/reduccion-de-peso.png"><br><br>
+					<img style="width: 45%;" src="images/icons/services/fw/reduccion-de-peso.png"><br><br>
 					<p style="color:#4dbed4;">Desarrollo a la medida</p>
 					<br><br>
 				</li>
 				<li style="text-align: center;font-weight: bold; width: 20%;" >
 					<br><br>
-					<img style="width: 60%;" src="images/icons/services/fw/elastico.png"><br><br>
+					<img style="width: 45%;" src="images/icons/services/fw/elastico.png"><br><br>
 					<p style="color:#4dbed4;">Diseño flexible</p>
 					<br><br>
 				</li>
@@ -156,7 +156,7 @@
 
 <!-- IMPLEMENTACIÓN Y​ DESPLIEGUE -->
 <div class="square-04">
-	<ol  style="padding-bottom: 2%;">
+	<ol  style="padding-bottom: 2%;background: #fff;">
 		<li>
 			<h2>IMPLEMENTACIÓN Y​ DESPLIEGUE</h2>
 		</li>
@@ -171,25 +171,25 @@
 	<ol>
 		<li style="width:20%;" >
 			<br><br>
-			<img src="images/icons/services/fw/ayudar.png"><br><br>
+			<img style="width: 28%;" src="images/icons/services/fw/ayudar.png"><br><br>
 			<p style="color: #fff;font-weight: normal;">Implementación en conjunto con mesa de ayuda</p>
 			<br><br>
 		</li>
 		<li style="width:20%;" >
 			<br><br>
-			<img src="images/icons/services/fw/evaluacion.png"><br><br>
+			<img style="width: 28%;" src="images/icons/services/fw/evaluacion.png"><br><br>
 			<p style="color: #fff;font-weight: normal;">Evaluación de necesidades</p>
 			<br><br>
 		</li>
 		<li style="width:20%;" >
 			<br><br>
-			<img src="images/icons/services/fw/gestion-de-proyectos.png"><br><br>
+			<img style="width: 28%;" src="images/icons/services/fw/gestion-de-proyectos.png"><br><br>
 			<p style="color: #fff;font-weight: normal;">Tecnologías​ mejoradas</p>
 			<br><br>
 		</li>
 		<li style="width:20%;" >
 			<br><br>
-			<img src="images/icons/services/fw/equipo.png"><br><br>
+			<img style="width: 28%;" src="images/icons/services/fw/equipo.png"><br><br>
 			<p style="color: #fff;font-weight: normal;">Acompañamiento</p>
 			<br><br>
 		</li>

@@ -1,22 +1,20 @@
+<!-- BANNER -->
 <div style="position: relative;">
-	<!-- -->
+	<!-- BACKGROUND IMAGEN -->
 	<img src="images/img/PASILLO.jpg" style="position: fixed; width: 100%; z-index: -99">
   	<img class="video-slide" src="images/img/PASILLO.jpg" style="opacity: 0;">
-
-  	<!-- -->
+  	<!-- LOGO & TITULO -->
   	<div class="square-logo-big" >
 	    <img src="images/logo/LOGO-WHITE.png" onclick="window.location.href='./';">
 	    <h2>IDENTIDAD</h2>
-	    <a id="start"></a>
 	    <i class="fas fa-chevron-down arrow-down " onclick="window.location.href='./identidad#start'"></i>
   	</div>
-
-  	<!-- barra negra -->
+  	<!-- BARRA NEGRA -->
 	<span class="barra-negra"></span>
-
 </div>
 
-<!-- us -->
+<!-- ¿QUIENES SOMOS? -->
+<a id="start"></a>
 <div class="square-04">
 	<ol>
 		<li>
@@ -30,7 +28,7 @@
 	</ol>
 </div>
 
-<!-- certificaciones -->
+<!-- CERTIFICACIONES -->
 <div class="square-05">
 	<ul>
 		<li><img src="images/icons/dell.png" ></li>
@@ -47,12 +45,12 @@
 		<li>
 			<br>
 			<p>
-				<span>Misión</span><br>
+				<span>MISIÓN</span><br>
 				Generar valor a nuestros clientes a través de una oferta diferenciada que comprende: servicios, infraestructura y tecnología. Dentro de los sectores privado y de la administración pública, nacional y extranjera, mediante la integración de soluciones con procesos eficientes; cuidando siempre la debida atención a los requerimientos y necesidades de nuestros clientes.
 			</p>
 			
 			<p>
-				​<span>Visión</span><br>
+				​<span>VISIÓN</span><br>
 				Ser la empresa líder en soluciones tecnológicas integrales, eficientes y orientadas a empresas con una alta dependencia tecnológica, ofreciendo productos innovadores en plataformas de vanguardia y estableciendo entornos digitales seguros​
 				<br><br>
 				Además, seremos una referencia en la industria por nuestra excelencia, basada en: planeación, diseño, implementación y operación; garantizada confiabilidad en arquitecturas personalizadas: funcionales, ágiles y consistentes.
@@ -117,6 +115,7 @@
 
 <!-- SECTORES  -->
 <div class="square-12">
+	<h3 style="color: #4dbed4;">SECTORES</h3>
 	<ol>
 		<li>
 			<br><br>
@@ -184,8 +183,6 @@
 		</li>
 	</ol>
 </div>
-
-<!-- -->
 <div class="square-05">
 	<ol style="position: relative;padding: 0%; background: #fff;" >
 		<li style="width: 80%; background: #fff; padding: 1% 1%; margin: 0 10%;">
@@ -209,9 +206,7 @@
 	</ol>
 </div>
 
-
-
-<!-- -->
+<!-- CLIENTES -->
 <div class="square-06">
 	<h2>CLIENTES</h2>
     <div id="clientes" class="carousel slide clientes-slide" data-ride="carousel">    
@@ -249,5 +244,4 @@
     </div>  
     <h2 style="color: #0000;">CLIENTES</h2>
 </div>
-
 <hr class="barra-colores-01">

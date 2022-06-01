@@ -1,5 +1,5 @@
 <?php
-switch ($servicio) {
+switch ($servicio) {  
     case 'proyectos':
     ?>
 	    <!-- MENU PROYECTOS -->

@@ -37,20 +37,20 @@
 			<ul style="justify-content: center; padding-top: 0;">
 				<li>
 					<p style="text-align: center;">
-						<img style="width: 50%; margin:1% 25%;" src="images/icons/services/hospitales/medico-paciente.png" ><br><br>
+						<img style="width: 35%; margin:1% 25%;" src="images/icons/services/hospitales/medico-paciente.png" ><br><br>
 						Implementación​<span style="font-size: 0.9vw;"> HIS</span>
 					</p>
 				</li>
 				<li>
 					<p style="text-align: center;">
 						
-						<img style="width: 50%; margin:1% 25%;" src="images/icons/services/hospitales/servidor-en-la-nube.png" ><br><br>
+						<img style="width: 35%; margin:1% 25%;" src="images/icons/services/hospitales/servidor-en-la-nube.png" ><br><br>
 						Software ​as a<span style="font-size: 0.9vw;"> Service</span>
 					</p>
 				</li>
 				<li>
 					<p style="text-align: center;">
-						<img style="width: 50%; margin:1% 25%;" src="images/icons/services/hospitales/servidores.png" ><br><br>
+						<img style="width: 35%; margin:1% 25%;" src="images/icons/services/hospitales/servidores.png" ><br><br>
 						<span style="font-size: 0.9vw;">On </span>Premise​
 					</p>
 				</li>
@@ -134,7 +134,7 @@
 	<div>	
 		<div>
 			<h3 style="text-align: center; font-weight: normal; ">SOLUCIONES Y SISTEMAS</h3>
-			<h3 style="text-align: center; ">Soluciones Especiales Hospitalarias </h3>
+			<h3 style="text-align: center; text-transform: uppercase;font-weight: normal; ">Soluciones Especiales Hospitalarias </h3>
 			<ol style="justify-content: space-around;padding-bottom: 5%;">
 				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
 					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/operacion/rayos-x.png" ><br>
@@ -194,22 +194,22 @@
 	<ol style="justify-content: center;">
 		<li style="width:18%;" >
 			<br><br>
-			<img src="images/icons/services/hospitales/HIS.png"><br><br>
+			<img style="width: 30%;" src="images/icons/services/hospitales/HIS.png"><br><br>
 			<p >TUTUM​ HIS ​</p>
 		</li>
 		<li style="width:18%;" >
 			<br><br>
-			<img src="images/icons/services/hospitales/riesgo.png"><br><br>
+			<img style="width: 30%;" src="images/icons/services/hospitales/riesgo.png"><br><br>
 			<p>Módulos Administrativos</p>
 		</li>
 		<li style="width:18%;" >
 			<br><br>
-			<img src="images/icons/services/hospitales/salud.png"><br><br>
+			<img style="width: 30%;" src="images/icons/services/hospitales/salud.png"><br><br>
 			<p>Módulos Clínicos</p>
 		</li>
 		<li style="width:18%;" >
 			<br><br>
-			<img src="images/icons/services/hospitales/proceso123.png"><br><br>
+			<img style="width: 30%;" src="images/icons/services/hospitales/proceso123.png"><br><br>
 			<p>Módulos de Configuración</p>
 		</li>
 	</ol>
@@ -255,53 +255,45 @@
 
 <!-- MÓDULOS ADMINISTRATIVOS -->
 <div class="square-12" style="background: #000;" >
-	<h2 style="color: #4dbed4;">MÓDULOS ADMINISTRATIVOS</h2>
+	<h2 style="color: #4dbed4;">MÓDULOS ADMINISTRATIVOS</h2><br><br>
 	<ol style="justify-content: center;">
 		<li style="width:25%;color:#fff; " >
-			<br><br>
-			<img style="width: 25%;" src="images/icons/services/hospitales/proveedor.png"><br><br>
+			<img style="width: 23%;" src="images/icons/services/hospitales/proveedor.png"><br><br>
 			<p style="color: #fff;" >Administración y proveedores</p>
 			<br><br>
 		</li>
 		<li style="width:25%;color:#fff; " >
-			<br><br>
-			<img style="width: 25%;" src="images/icons/services/hospitales/almacen.png"><br><br>
+			<img style="width: 23%;" src="images/icons/services/hospitales/almacen.png"><br><br>
 			<p style="color: #fff;" >Almacén</p>
 			<br><br>
 		</li>
 		<li style="width:25%;color:#fff; " >
-			<br><br>
-			<img style="width: 25%;" src="images/icons/services/hospitales/salario.png"><br><br>
+			<img style="width: 23%;" src="images/icons/services/hospitales/salario.png"><br><br>
 			<p style="color: #fff;" >Cuentas por​ pagar​ </p>
 			<br><br>
 		</li>
 		<li style="width:25%;color:#fff; " >
-			<br><br>
-			<img style="width: 25%;" src="images/icons/services/hospitales/equilibrar.png"><br><br>
+			<img style="width: 23%;" src="images/icons/services/hospitales/equilibrar.png"><br><br>
 			<p style="color: #fff;" >Cuentas por ​cobrar​</p>
 			<br><br>
 		</li>
 		<li style="width:25%;color:#fff; " >
-			<br><br>
-			<img style="width: 25%;" src="images/icons/services/hospitales/caja-registradora.png"><br><br>
+			<img style="width: 23%;" src="images/icons/services/hospitales/caja-registradora.png"><br><br>
 			<p style="color: #fff;" >Caja y ​facturación</p>
 			<br><br>
 		</li>
 		<li style="width:25%;color:#fff; " >
-			<br><br>
-			<img style="width: 25%;" src="images/icons/services/hospitales/presupuesto.png"><br><br>
+			<img style="width: 23%;" src="images/icons/services/hospitales/presupuesto.png"><br><br>
 			<p style="color: #fff;" >Costos</p>
 			<br><br>
 		</li>
 		<li style="width:25%;color:#fff; " >
-			<br><br>
-			<img style="width: 25%;" src="images/icons/services/hospitales/orden.png"><br><br>
+			<img style="width: 23%;" src="images/icons/services/hospitales/orden.png"><br><br>
 			<p style="color: #fff;" >Contabilidad​</p>
 			<br><br>
 		</li>
 		<li style="width:25%;color:#fff; " >
-			<br><br>
-			<img style="width: 25%;" src="images/icons/services/hospitales/contabilidad.png"><br><br>
+			<img style="width: 23%;" src="images/icons/services/hospitales/contabilidad.png"><br><br>
 			<p style="color: #fff;" >Compras</p>
 			<br><br>
 		</li>
@@ -414,47 +406,40 @@
 
 <!-- MÓDULOS ADMINISTRATIVOS -->
 <div class="square-12" style="background: #000;" >
-	<h2 style="color: #4dbed4;">MÓDULOS ADMINISTRATIVOS</h2>
+	<h2 style="color: #4dbed4;">MÓDULOS ADMINISTRATIVOS<br><br><br></h2>
 	<ol style="justify-content: center;">
 		<li style="width:25%;color:#fff; " >
-			<br><br>
-			<img style="width: 25%;" src="images/icons/services/hospitales/la-seguridad.png"><br><br>
+			<img style="width: 23%;" src="images/icons/services/hospitales/la-seguridad.png"><br><br>
 			<p style="color: #fff;" >Seguridad​</p>
 			<br><br>
 		</li>
 		<li style="width:25%;color:#fff; " >
-			<br><br>
-			<img style="width: 25%;" src="images/icons/services/hospitales/importacion.png"><br><br>
+			<img style="width: 23%;" src="images/icons/services/hospitales/importacion.png"><br><br>
 			<p style="color: #fff;" >Importador de datos​</p>
 			<br><br>
 		</li>
 		<li style="width:25%;color:#fff; " >
-			<br><br>
-			<img style="width: 25%;" src="images/icons/services/hospitales/gestion-de-la-informacion.png"><br><br>
+			<img style="width: 23%;" src="images/icons/services/hospitales/gestion-de-la-informacion.png"><br><br>
 			<p style="color: #fff;" >Administración del sistema​</p>
 			<br><br>
 		</li>
 		<li style="width:25%;color:#fff; " >
-			<br><br>
-			<img style="width: 25%;" src="images/icons/services/hospitales/diagrama-de-flujo.png"><br><br>
+			<img style="width: 23%;" src="images/icons/services/hospitales/diagrama-de-flujo.png"><br><br>
 			<p style="color: #fff;" >Flujo de trabajo​</p>
 			<br><br>
 		</li>
 		<li style="width:25%;color:#fff; " >
-			<br><br>
-			<img style="width: 25%;" src="images/icons/services/hospitales/questionnaire.png"><br><br>
+			<img style="width: 23%;" src="images/icons/services/hospitales/questionnaire.png"><br><br>
 			<p style="color: #fff;" >Cuestionarios​</p>
 			<br><br>
 		</li>
 		<li style="width:25%;color:#fff; " >
-			<br><br>
-			<img style="width: 25%;" src="images/icons/services/hospitales/formulario-de-contacto.png"><br><br>
+			<img style="width: 23%;" src="images/icons/services/hospitales/formulario-de-contacto.png"><br><br>
 			<p style="color: #fff;" >Formas​</p>
 			<br><br>
 		</li>
 		<li style="width:25%;color:#fff; " >
-			<br><br>
-			<img style="width: 25%;" src="images/icons/services/hospitales/proceso-de-trabajo.png"><br><br>
+			<img style="width: 23%;" src="images/icons/services/hospitales/proceso-de-trabajo.png"><br><br>
 			<p style="color: #fff;" >Interoperabilidad</p>
 			<br><br>
 		</li>

@@ -1,3 +1,5 @@
+
+<!-- BANNER INICIO -->
 <div style="position: relative;">
 
   <!-- BACKGROUND VIDEO -->
@@ -14,10 +16,9 @@
 
   <!-- barra negra -->
       <span class="barra-negra"></span>
-
 </div>
 
-<!-- -->
+<!-- CIRCULOS Y DESCRIPCION -->
 <div class="square-02">
   <ul>
     <li>
@@ -68,7 +69,7 @@
   </ol>
 </div>
 
-<!-- -->
+<!-- VISITA NUESTRAS REDES​ -->
 <div class="square-03" >
 
   <br><br><br>
@@ -109,6 +110,7 @@
   </div>
 </div>
 
+<!-- FOOTER INDEX -->
 <div class="square-footer-index">
   <ul>
     <li><img src="images/logo/LOGO-WHITE.png" onclick="window.location.href='./';" style="width: 100%;"></li>

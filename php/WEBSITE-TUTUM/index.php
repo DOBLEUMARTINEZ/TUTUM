@@ -3,8 +3,7 @@ echo '<!DOCTYPE html><html lang="es">';
 
   // URL
     //$url = $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
-    //$url = '/';
-    $url = 'http://localhost/wm_server/php/WEBSITE-TUTUM/';
+    $url = './';
 
   // VALIDAR SECCION - TITULO DE SECCION
     if (isset($_GET['seccion'])){ 
@@ -19,14 +18,11 @@ echo '<!DOCTYPE html><html lang="es">';
   // ALERTAS DE CONFIRMACIÓN
   //include('resources/alertas/alertas_01.php'); 
 
-// INICIO CUERPO
-echo '<body>';
-  
-  // BARRRA DE NAVEGACIÓN
-  include("resources/inicio/nav.php"); 
+echo '<body>'; // INICIO CUERPO
+
+  include("resources/inicio/nav.php"); // BARRRA DE NAVEGACIÓN
     
-    // CONTENIDO DE PAGINA
-    if (isset($_GET['seccion'])) {  
+    if (isset($_GET['seccion'])) { //CONTENIDO DE PAGINA 
 
       $seccion = $_GET['seccion'];
       $findme   = 'servicios';
@@ -99,8 +95,6 @@ echo '<body>';
 
       }else {  // SECIONES
 
-        //echo "SECCION NORMAL";
-
         switch ($_GET['seccion']) {
 
           case 'identidad':
@@ -112,6 +106,18 @@ echo '<body>';
             include("resources/prensa/contenido.php"); // CONTENIDO
             include("resources/prensa/social-media.php"); 
             break;
+
+          case 'contacto':
+            include("resources/contacto/menu.php"); // CONTENIDO 
+            break;
+
+          case 'contactar':
+            include("resources/contacto/contenido.php"); // CONTENIDO 
+            break;
+
+          case 'bolsa-de-trabajo':
+            include("resources/contacto/bolsa.php"); // CONTENIDO 
+            break;
                 
           default:
             include("resources/error.php");
@@ -121,13 +127,11 @@ echo '<body>';
       }
     
     }else{
-
-      // INDEX
-      include("resources/inicio/contenido.php"); 
+      include("resources/inicio/contenido.php"); // INDEX
     }
 
-  // PIE DE PAGINA
-  include 'resources/inicio/footer.php'; 
+  include 'resources/inicio/footer.php'; // PIE DE PAGINA
+
 echo '</body></html>';// FIN CUERPO
 
 ?>

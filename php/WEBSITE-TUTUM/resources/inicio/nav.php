@@ -56,19 +56,19 @@
         </li>
 
         <li  class="dropdown-menu-ttm">
-          <a onclick="window.location.href='<?php echo $url;?>';" >Contacto</a>
-          <ol>
-            <li onclick="window.location.href='<?php echo $url;?>';" >
-              Servicios
+          <a onclick="window.location.href='<?php echo $url;?>contacto';" >Contacto</a>
+           <ol >
+            <li onclick="window.location.href='<?php echo $url;?>contactar';">
+              CONTACTO
+            </li>
+            <li onclick="window.location.href='<?php echo $url;?>bolsa-de-trabajo';">
+              BOLSA DE TRABAJO
+            </li>
+            <li onclick="window.location.href='https://cau.tutum.com.mx/dwp/app/#/account/login?returnUrl=%2F'';">
+              CAU
             </li>
             <li onclick="window.location.href='<?php echo $url;?>';">
-              bolsa de trabajo
-            </li>
-            <li onclick="window.location.href='<?php echo $url;?>';">
-              clientes cau
-            </li>
-            <li onclick="window.location.href='<?php echo $url;?>';">
-              iniciar sesión
+              INTRANET
             </li>
           </ol>
         </li>
@@ -83,28 +83,28 @@
         <li style="width: 30%" ><img src="<?php echo $url;?>images/logo/logo2.png" onclick="window.location.href='<?php echo $url;?>/';"></li>
         <li style="width: 60%" >
           <ul >
-            <li onclick="window.open('https://www.facebook.com/Tutum-Tech-515010355546588');"><i class="fab fa-facebook-square"></i></li>
-            <li onclick="window.open('https://www.instagram.com/tutumtech/');"><i class="fab fa-instagram"></i></li>
-            <li onclick="window.open('https://www.linkedin.com/company/tutum-tech/mycompany/verification/');"><i class="fab fa-linkedin"></i></li>
-            <li onclick="window.open('https://twitter.com/TutumTech');"><i class="fab fa-twitter-square"></i></li>
+            <li onclick="window.open('https://www.facebook.com/Tutum-Tech-515010355546588');" ><i class="fab fa-facebook-square"></i></li>
+            <li onclick="window.open('https://www.instagram.com/tutumtech/');" ><i class="fab fa-instagram"></i></li>
+            <li onclick="window.open('https://www.linkedin.com/company/tutum-tech/mycompany/verification/');" ><i class="fab fa-linkedin"></i></li>
+            <li onclick="window.open('https://twitter.com/TutumTech');" ><i class="fab fa-twitter-square"></i></li>
           </ul>
         </li>
         <li style="width: 10%" >
           <i class="fas fa-bars"></i><br>
           <ol class="menu-mobil">
+             <li onclick="window.location.href='<?php echo $url;?>';">
+              INICIO
+            </li>
             <li onclick="window.location.href='<?php echo $url;?>identidad';">
               IDENTIDAD
             </li>
-            <li onclick="window.location.href='<?php echo $url;?>';">
+            <li onclick="window.location.href='<?php echo $url;?>servicios';">
               SERVICIOS
             </li>
-            <li style="display: none;" onclick="window.location.href='<?php echo $url;?>';">
-              PROYECTOS
-            </li>
-            <li onclick="window.location.href='<?php echo $url;?>';">
+            <li onclick="window.location.href='<?php echo $url;?>prensa';" >
               PRENSA
             </li>
-            <li onclick="window.location.href='<?php echo $url;?>';">
+            <li onclick="window.location.href='<?php echo $url;?>contacto';">
               CONTACTO
             </li>
           </ol>

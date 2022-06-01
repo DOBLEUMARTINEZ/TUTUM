@@ -1,4 +1,4 @@
-<!-- 1 box -->
+<!-- CENTRO DE ATENCIÓN A USUARIOS -->
 <a id="start"></a>
 <div class="square-04">
 	<ol>
@@ -12,9 +12,6 @@
 		</li>
 	</ol>
 </div>
-
-
-<!-- 2 box  -->
 <div class="square-11">
 	<ul>
 		<li>
@@ -30,7 +27,7 @@
 	</ul>
 </div>
 
-<!---->
+<!-- EXPERIENCIA EN ATENCIÓN A USUARIOS -->
 <div class="square-06">
 	<h2>EXPERIENCIA EN ATENCIÓN A USUARIOS</h2>
 	<ol>
@@ -73,7 +70,7 @@
 	</ol>
 </div>
 
-<!-- -->
+<!-- SERVICIOS -->
 <div class="square-04">
 	<ol >
 		<li>
@@ -86,8 +83,6 @@
 		</li>
 	</ol>
 </div>
-
-<!-- circulos  -->
 <div class="square-11">
 	<ul>
 		<li>
@@ -104,179 +99,166 @@
 		</li>
 	</ul>
 </div>
-
-<!-- CATALOGO DE SOLUCIONES -->
 <div class="square-09">
-	<h2 >SERVICIOS</h2>
+	<h2 style="color: #0000;">SERVICIOS</h2>
 </div>
-
-<!-- SECTORES  -->
 <div class="square-12">
-	<ol>
+	<h3 style="color: #4dbed4;">SERVICIOS</h3>
+	<ol style="justify-content: center;">
 		<li style="width: 24%;" >
 			<br><br>
-			<img src="images/icons/services/cau/proceso.png"><br><br>
+			<img style="width: 25%;" src="images/icons/services/cau/proceso.png"><br><br>
 			<p>Administración​</p>
-			<br><br>
 		</li>
 		<li style="width: 24%;" >
 			<br><br>
-			<img src="images/icons/services/cau/soporte-tecnico.png"><br><br>
+			<img style="width: 25%;" src="images/icons/services/cau/soporte-tecnico.png"><br><br>
 			<p>Soporte a la operación en los 3 niveles</p>
-			<br><br>
 		</li>
 		<li style="width: 24%;" >
 			<br><br>
-			<img src="images/icons/services/cau/configuraciones.png"><br><br>
+			<img style="width: 25%;" src="images/icons/services/cau/configuraciones.png"><br><br>
 			<p>Refaccionamiento</p>
-			<br><br>
 		</li>
 		<li style="width: 24%;" >
 			<br><br>
-			<img src="images/icons/services/cau/capacitacion.png"><br><br>
+			<img style="width: 25%;" src="images/icons/services/cau/capacitacion.png"><br><br>
 			<p>Capacitación​</p>
-			<br><br>
 		</li>
 		<li style="width: 24%;" >
 			<br><br>
-			<img src="images/icons/services/cau/solucion.png"><br><br>
+			<img style="width: 25%;" src="images/icons/services/cau/solucion.png"><br><br>
 			<p>Soluciones empresariales​</p>
-			<br><br>
 		</li>
 		<li style="width: 24%;" >
 			<br><br>
-			<img src="images/icons/services/cau/servidor-en-la-nube.png"><br><br>
+			<img style="width: 25%;" src="images/icons/services/cau/servidor-en-la-nube.png"><br><br>
 			<p>Diseño distribuido​ en la nube</p>
-			<br><br>
 		</li>
 		<li style="width: 24%;" >
 			<br><br>
-			<img src="images/icons/services/cau/data-center.png"><br><br>
+			<img style="width: 25%;" src="images/icons/services/cau/data-center.png"><br><br>
 			<p>Data Center</p>
-			<br><br>
 		</li>
 		<li style="width: 24%;" >
 			<br><br>
-			<img src="images/icons/services/cau/certificado-de-garantia.png"><br><br>
+			<img style="width: 25%;" src="images/icons/services/cau/certificado-de-garantia.png"><br><br>
 			<p>Pólizas</p>
-			<br><br>
 		</li>
 	</ol>
 </div>
 
+<!-- ACTIVIDADES DE GESTIÓN  -->
 <div class="square-09">
-	<h2>ACTIVIDADES DE GESTIÓN </h2>
+	<h2 style="color: #0000;">ACTIVIDADES DE GESTIÓN </h2>
 </div>
-
-<!-- SECTORES  -->
 <div class="square-12">
-	<ol>
+	<h3 style="color: #4dbed4;">ACTIVIDADES DE GESTIÓN</h3>
+	<ol style="justify-content: center;">
 		<li style="width: 24%;" >
 			<br><br>
-			<img src="images/icons/services/cau/cable-roto.png"><br><br>
+			<img style="width: 25%;" src="images/icons/services/cau/cable-roto.png"><br><br>
 			<p>Soporte a las incidencias, problemáticas de los clientes</p>
 			<br><br>
 		</li>
 		<li style="width: 24%;" >
 			<br><br>
-			<img src="images/icons/services/cau/capacitacion 12.png"><br><br>
+			<img style="width: 25%;" src="images/icons/services/cau/capacitacion 12.png"><br><br>
 			<p>Oferta de​ Capacitación Técnica</p>
 			<br><br>
 		</li>
 		<li style="width: 24%;" >
 			<br><br>
-			<img src="images/icons/services/cau/manual (1).png"><br><br>
+			<img style="width: 25%;" src="images/icons/services/cau/manual (1).png"><br><br>
 			<p>Elaboración de ​reportes y manuales</p>
 			<br><br>
 		</li>
 		<li style="width: 24%;" >
 			<br><br>
-			<img src="images/icons/services/cau/mantenimiento.png"><br><br>
+			<img style="width: 25%;" src="images/icons/services/cau/mantenimiento.png"><br><br>
 			<p>Mantenimientos ​preventivos y correctivos</p>
 			<br><br>
 		</li>
 		<li style="width: 24%;" >
 			<br><br>
-			<img src="images/icons/services/cau/cctv.png"><br><br>
+			<img style="width: 25%;" src="images/icons/services/cau/cctv.png"><br><br>
 			<p>Administración de ​CCTV Corporativo</p>
 			<br><br>
 		</li>
 		<li style="width: 24%;" >
 			<br><br>
-			<img src="images/icons/services/cau/control-de-accesso.png"><br><br>
+			<img style="width: 25%;" src="images/icons/services/cau/control-de-accesso.png"><br><br>
 			<p>Implementación de ​soluciones de Seguridad</p>
 			<br><br>
 		</li>
 		<li style="width: 24%;" >
 			<br><br>
-			<img src="images/icons/services/cau/mesa-de-ayuda.png"><br><br>
+			<img style="width: 25%;" src="images/icons/services/cau/mesa-de-ayuda.png"><br><br>
 			<p>Seguimiento de tickets ​mediante la Mesa de Ayuda</p>
 			<br><br>
 		</li>
 	</ol>
 </div>
 
+<!-- ACTIVIDADES DE SOPORTE -->
 <div class="square-09">
 	<h2>ACTIVIDADES DE SOPORTE</h2>
 </div>
-
-<!-- SECTORES  -->
 <div class="square-12" style="background: #000;" >
-	<ol>
+	<ol style="text-align: center;">
 		<li style="width: 24%;color:#fff; " >
 			<br><br>
-			<img src="images/icons/services/cau/soporte-tecnico.png"><br><br>
+			<img style="width: 25%;" src="images/icons/services/cau/soporte-tecnico.png"><br><br>
 			<p style="color: #fff;" >Asistencia a usuarios en los 3 niveles de soporte​</p>
 			<br><br>
 		</li>
 		<li style="width: 24%;color:#fff; " >
 			<br><br>
-			<img src="images/icons/services/cau/computadora-personal.png"><br><br>
+			<img style="width: 25%;" src="images/icons/services/cau/computadora-personal.png"><br><br>
 			<p style="color: #fff;" >Administración del Directorio Activo y licenciamiento</p>
 			<br><br>
 		</li>
 		<li style="width: 24%;color:#fff; " >
 			<br><br>
-			<img src="images/icons/services/cau/inventario.png"><br><br>
+			<img style="width: 25%;" src="images/icons/services/cau/inventario.png"><br><br>
 			<p style="color: #fff;" >Inventarios de equipo ​de computo  </p>
 			<br><br>
 		</li>
 		<li style="width: 24%;color:#fff; " >
 			<br><br>
-			<img src="images/icons/services/cau/mantenimiento.png"><br><br>
+			<img style="width: 25%;" src="images/icons/services/cau/mantenimiento.png"><br><br>
 			<p style="color: #fff;" >Mantenimientos ​preventivos</p>
 			<br><br>
 		</li>
 		<li style="width: 24%;color:#fff; " >
 			<br><br>
-			<img src="images/icons/services/cau/mesa-de-ayuda.png"><br><br>
+			<img style="width: 25%;" src="images/icons/services/cau/mesa-de-ayuda.png"><br><br>
 			<p style="color: #fff;" >Seguimiento de tickets​ mediante la Mesa de Ayuda.</p>
 			<br><br>
 		</li>
 		<li style="width: 24%;color:#fff; " >
 			<br><br>
-			<img src="images/icons/services/cau/actualizar-pagina.png"><br><br>
+			<img style="width: 25%;" src="images/icons/services/cau/actualizar-pagina.png"><br><br>
 			<p style="color: #fff;" >Actualización de​ sistemas</p>
 			<br><br>
 		</li>
 		<li style="width: 24%;color:#fff; " >
 			<br><br>
-			<img src="images/icons/services/cau/copia-de-respaldo (1).png"><br><br>
+			<img style="width: 25%;" src="images/icons/services/cau/copia-de-respaldo (1).png"><br><br>
 			<p style="color: #fff;" >Respaldos de ​información</p>
 			<br><br>
 		</li>
 		<li style="width: 24%;color:#fff; " >
 			<br><br>
-			<img src="images/icons/services/cau/alerta.png"><br><br>
+			<img style="width: 25%;" src="images/icons/services/cau/alerta.png"><br><br>
 			<p style="color: #fff;" >Diagnóstico en el mal funcionamiento​del hardware y el software</p>
 			<br><br>
 		</li>
 	</ol>
 </div>
-
 <hr class="barra-colores-01">
 
-<!-- CATALOGO DE SOLUCIONES -->
+<!-- CENTRO DE DATO -->
 <div class="square-09">
 	<div>	
 		<div>
@@ -333,7 +315,6 @@
 	</div>
 	<br><br>
 </div>
-
 <hr class="barra-colores-01">
 
 

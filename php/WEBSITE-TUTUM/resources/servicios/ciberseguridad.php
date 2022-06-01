@@ -1,4 +1,4 @@
-<!-- 1 box -->
+<!-- CIBERSEGURIDAD -->
 <a id="start"></a>
 <div class="square-04">
 	<ol>
@@ -14,8 +14,6 @@
 		</li>
 	</ol>
 </div>
-
-<!-- 2 box  -->
 <div class="square-11">
 	<ul style="z-index: 1;">
 		<li>
@@ -37,13 +35,13 @@
 	</ul>
 </div>
 
-<!-- box 3 -->
+<!-- SERVICIOS EN​ CIBERSEGURIDAD ​ -->
 <div class="square-06">
 	<h2>SERVICIOS EN​ CIBERSEGURIDAD ​</h2>
 	<ol>
 		<li>
 			<p style="position: relative;">
-				<span>Servicio de seguridad Gestionada</span><br><br>
+				<span style=" text-transform: uppercase;">Servicio de seguridad Gestionada</span><br><br>
 				TUTUM a través de su servicio de Seguridad Gestionada permite la administración externa de infraestructura de seguridad de nuestros clientes, en el que nuestro equipo se encarga de la monitorización, gestión, control y soporte de dicha infraestructura de acuerdo a los Niveles de Servicio establecidos.
 			</p>
 			<ul style="flex-wrap: wrap; justify-content: center;">
@@ -78,7 +76,7 @@
 
 <!-- SOC  Inteligente-->
 <div class="square-04">
-	<ol style="padding-bottom: 2%;">
+	<ol style="padding-bottom: 2%; background: #fff;">
 		<li>
 			<h2><span style="color: #4dbed4;">SOC</span> Inteligente</h2>
 		</li>
@@ -92,24 +90,34 @@
 <div class="square-12" style="background: #000; padding: 1% 1%;" >
 	<ol>
 		<li style="width:20%;" >
-			<img src="images/icons/services/ciber/error-informatico.png"><br><br>
+			<br><br>
+			<img style="width: 24%;" src="images/icons/services/ciber/error-informatico.png"><br><br>
 			<p style="color: #fff;font-weight: normal;">Detección de Análisis de Amenazas ​</p>
+			<br><br>
 		</li>
 		<li style="width:20%;" >
-			<img src="images/icons/services/ciber/informatica.png"><br><br>
+			<br><br>
+			<img style="width: 24%;" src="images/icons/services/ciber/informatica.png"><br><br>
 			<p style="color: #fff;font-weight: normal;">Gestión de Incidentes de Seguridad</p>
+			<br><br>
 		</li>
 		<li style="width:20%;" >
-			<img src="images/icons/services/ciber/seguridad-informatica.png"><br><br>
+			<br><br>
+			<img style="width: 24%;" src="images/icons/services/ciber/seguridad-informatica.png"><br><br>
 			<p style="color: #fff;font-weight: normal;">Respuesta a​ Incidentes </p>
+			<br><br>
 		</li>
 		<li style="width:20%;" >
-			<img src="images/icons/services/ciber/virus (3).png"><br><br>
+			<br><br>
+			<img style="width: 24%;" src="images/icons/services/ciber/virus (3).png"><br><br>
 			<p style="color: #fff;font-weight: normal;">Correlación de Eventos y Emisión de Alertas ​</p>
+			<br><br>
 		</li>
 		<li style="width:20%;" >
-			<img src="images/icons/services/ciber/punto-de-mira.png"><br><br>
+			<br><br>
+			<img style="width: 24%;" src="images/icons/services/ciber/punto-de-mira.png"><br><br>
 			<p style="color: #fff;font-weight: normal;">Caza de ​Amenazas</p>
+			<br><br>
 		</li>
 	</ol>
 </div>
@@ -118,7 +126,7 @@
 <div class="square-09">
 	<div>	
 		<div>
-			<h3>Hacking Ético </h3>
+			<h3 style="text-transform: uppercase;" >Hacking Ético </h3>
 			<ol>
 				<li>
 					TUTUM a El equipo de Tutum evalúa los diferentes mecanismos de seguridad implementados por el cliente para proteger sus activos, con la finalidad de conocer el estado actual de la ciberseguridad de su organización y las posibles consecuencias que derivarían de las brechas de seguridad detectadas. ​
@@ -131,18 +139,18 @@
 		<div>
 			<ol style=" padding:5% 0%;">
 				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
-					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/ciber/console.png" ><br>
+					<img style="width: 28%;" src="<?php echo $url ?>images/icons/services/ciber/console.png" ><br>
 					<span style="font-weight: bold;color: #4dbed4;">Análisis y Gestión de Vulnerabilidades </span>​
 				</li>
 				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
-					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/ciber/atencion.png" ><br><span style="font-weight: bold;color: #4dbed4;">Hacking Ofensivo</span>​
+					<img style="width: 28%;" src="<?php echo $url ?>images/icons/services/ciber/atencion.png" ><br><span style="font-weight: bold;color: #4dbed4;">Hacking Ofensivo</span>​
 				</li>
 				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
-					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/ciber/phishing (1).png" ><br>
+					<img style="width: 28%;" src="<?php echo $url ?>images/icons/services/ciber/phishing (1).png" ><br>
 					<span style="font-weight: bold;color: #4dbed4;">Pruebas de Penetración <br>(Pen testing)</span>
 				</li>
 				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
-					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/ciber/formar.png" ><br>
+					<img style="width: 28%;" src="<?php echo $url ?>images/icons/services/ciber/formar.png" ><br>
 					<span style="font-weight: bold;color: #4dbed4;">Análisis y Pen testing <br>Aplicativos Web</span>
 				</li>
 			</ol>
@@ -203,7 +211,7 @@
 
 <!-- CIBER INTELIGENCIA -->
 <div class="square-04">
-	<ol style="padding-bottom: 2%;">
+	<ol style="padding-bottom: 2%; background: #fff;">
 		<li>
 			<h2><span style="color: #4dbed4;">CIBER</span> INTELIGENCIA</h2>
 		</li>
@@ -219,15 +227,18 @@
 <div class="square-12" style="background: #000; padding: 1% 1%;" >
 	<ol style="justify-content: center;">
 		<li style="width:20%;" >
-			<img src="images/icons/services/ciber/investigacion-del-consumidor.png"><br><br>
+			<br><br>
+			<img style="width: 25%;" src="images/icons/services/ciber/investigacion-del-consumidor.png"><br><br>
 			<p style="color: #fff;font-weight: normal;">Ingeniería Social​</p>
 		</li>
 		<li style="width:20%;" >
-			<img src="images/icons/services/ciber/buscar (1).png"><br><br>
+			<br><br>
+			<img style="width: 25%;" src="images/icons/services/ciber/buscar (1).png"><br><br>
 			<p style="color: #fff;font-weight: normal;">OSINT<br>(Open Source Intelligence)​</p>
 		</li>
 		<li style="width:20%;" >
-			<img src="images/icons/services/ciber/phishing (2).png"><br><br>
+			<br><br>
+			<img style="width: 25%;" src="images/icons/services/ciber/phishing (2).png"><br><br>
 			<p style="color: #fff;font-weight: normal;">Pruebas de Phishing</p>
 		</li>
 	</ol>
@@ -239,25 +250,25 @@
 	<ol>
 		<li style="width: 24%;" >
 			<br><br>
-			<img src="images/icons/services/cau/proceso.png"><br><br>
+			<img style="width: 24%;" src="images/icons/services/cau/proceso.png"><br><br>
 			<p>Administración​</p>
 			<br><br>
 		</li>
 		<li style="width: 24%;" >
 			<br><br>
-			<img src="images/icons/services/cau/soporte-tecnico.png"><br><br>
+			<img style="width: 24%;" src="images/icons/services/cau/soporte-tecnico.png"><br><br>
 			<p>Soporte a la operación en los 3 niveles</p>
 			<br><br>
 		</li>
 		<li style="width: 24%;" >
 			<br><br>
-			<img src="images/icons/services/cau/configuraciones.png"><br><br>
+			<img style="width: 24%;" src="images/icons/services/cau/configuraciones.png"><br><br>
 			<p>Refaccionamiento</p>
 			<br><br>
 		</li>
 		<li style="width: 24%;" >
 			<br><br>
-			<img src="images/icons/services/cau/capacitacion.png"><br><br>
+			<img style="width: 24%;" src="images/icons/services/cau/capacitacion.png"><br><br>
 			<p>Capacitación​</p>
 			<br><br>
 		</li>
@@ -267,7 +278,7 @@
 
 <!-- CIBER PATRULLAJE-->
 <div class="square-04">
-	<ol style="padding-bottom: 2%;">
+	<ol style="padding-bottom: 2%; background: #fff;">
 		<li>
 			<h2><span style="color: #4dbed4;">CIBER</span> PATRULLAJE</h2>
 		</li>
@@ -283,51 +294,50 @@
 <div class="square-12" style="background: #000;" >
 	<ol>
 		<li style="width: 24%;color:#fff; " >
-			<br><br>
-			<img src="images/icons/services/ciber/servidores.png"><br><br>
+			
+			<img style="width: 25%;" src="images/icons/services/ciber/servidores.png"><br><br>
 			<p style="color: #fff;" >Ciber amenazas que pudieran afectar la infraestructura​</p>
 			<br><br>
 		</li>
 		<li style="width: 24%;color:#fff; " >
-			<br><br>
-			<img src="images/icons/services/ciber/tramposo.png"><br><br>
+			
+			<img style="width: 25%;" src="images/icons/services/ciber/tramposo.png"><br><br>
 			<p style="color: #fff;" >Actividades fraudulentas</p>
 			<br><br>
 		</li>
 		<li style="width: 24%;color:#fff; " >
-			<br><br>
-			<img src="images/icons/services/ciber/publicacion.png"><br><br>
+			
+			<img style="width: 25%;" src="images/icons/services/ciber/publicacion.png"><br><br>
 			<p style="color: #fff;" >Información Publicada por colaboradores​</p>
 			<br><br>
 		</li>
 		<li style="width: 24%;color:#fff; " >
-			<br><br>
-			<img src="images/icons/services/ciber/mala-resena.png"><br><br>
+			
+			<img style="width: 25%;" src="images/icons/services/ciber/mala-resena.png"><br><br>
 			<p style="color: #fff;" >Menciones negativas</p>
 			<br><br>
 		</li>
 		<li style="width: 24%;color:#fff; " >
-			<br><br>
-			<img src="images/icons/services/ciber/computadora-portatil.png"><br><br>
+			
+			<img style="width: 25%;" src="images/icons/services/ciber/computadora-portatil.png"><br><br>
 			<p style="color: #fff;" >Vulnerabilidades Dirigidas.</p>
 			<br><br>
 		</li>
 		<li style="width: 24%;color:#fff; " >
-			<br><br>
-			<img src="images/icons/services/ciber/fraude.png"><br><br>
+			
+			<img style="width: 25%;" src="images/icons/services/ciber/fraude.png"><br><br>
 			<p style="color: #fff;" >Usurpación de identidad</p>
 			<br><br>
 		</li>
 		<li style="width: 24%;color:#fff; " >
-			<br><br>
-			<img src="images/icons/services/ciber/fuga-de-datos.png"><br><br>
+			
+			<img style="width: 25%;" src="images/icons/services/ciber/fuga-de-datos.png"><br><br>
 			<p style="color: #fff;" >Fuga de Información</p>
 			<br><br>
 		</li>
 	</ol>
 </div>
 <hr class="barra-colores-01">
-
 
 <!-- TALLERES​ CAMPAÑAS DE CONCIENTIZACIÓN  -->
 <div class="square-04">
