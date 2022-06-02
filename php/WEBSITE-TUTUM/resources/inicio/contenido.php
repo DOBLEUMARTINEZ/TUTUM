@@ -111,7 +111,7 @@
 </div>
 
 <!-- FOOTER INDEX -->
-<div class="square-footer-index">
+<div class="square-footer-index" style="position: relative;">
   <ul>
     <li><img src="images/logo/LOGO-WHITE.png" onclick="window.location.href='./';" style="width: 100%;"></li>
     <li><h4>ISO 9001:2015​ <br>ISO/IEC 27001:2013</h4></li>
@@ -120,9 +120,13 @@
   <ol>
     <li>USUARIOS CAU</li>
     <li onclick="window.location.href='./prensa';">PRENSA</li>
-    <li>¿QUIERES SER PROVEEDOR?</li>
+    <li>CONTACTO</li>
     <li>ACCEDER</li>
   </ol>
+  <div>
+    <i class="fas fa-phone"></i> Of. +52 (55) 55 79 59 11 77<br>
+    <i class="fab fa-whatsapp"></i> Whatsapp 55 79 59 1149
+  </div>
 </div>
 
 

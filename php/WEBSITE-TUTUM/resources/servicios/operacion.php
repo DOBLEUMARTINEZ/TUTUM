@@ -87,10 +87,7 @@
 		</li>
 	</ol>
 </div>
-<div class="square-09">
-	<h2 style="color: #0000;">SERVICIOS </h2>
-</div>
-<div class="square-12">
+<div class="square-12" style="background: #000;" >
 	<h3 style="color: #4dbed4;">SERVICIOS</h3>
 	<ol style="justify-content: center;">
 		<li style="width: 20%;" >
@@ -149,13 +146,14 @@
 		</li>
 	</ol>
 </div>
+<hr class="barra-colores-01">
 
-<!-- EXPERIENCIA EN ADMINISTRACION ​DE SOLUCIONESS -->
+<!-- ADMINISTRACION ​DE SOLUCIONES  -->
 <div class="square-09">
-	<h2>EXPERIENCIA EN ADMINISTRACION ​DE SOLUCIONES </h2>
-	<div>	
+	<div>
 		<div>
-			<h3 style=" text-transform: uppercase; font-weight: normal;" >Soluciones Infra estructura ​y Seguridad</h3>
+			<h4 style="width: 60%; margin-left: 20%; text-align: center; padding:10% 2%; background: #000;color: #fff;" >ADMINISTRACION ​DE SOLUCIONES</h4>
+			<h3 style="text-transform: uppercase; font-weight: normal;" >Soluciones Infra estructura y Seguridad</h3>
 			<ol>
 				<li>
 					° Cableado Estructurado​<br>
@@ -175,56 +173,55 @@
 					° Control, Y Monitoreo (BMS)​<br>
 					° Integración De Sistemas ​<br>
 					° Radiocomunicación Segura<br>
-					<img src="<?php echo $url ?>images/icons/services/operacion/camara-de-cctv.png" >
-					<img src="<?php echo $url ?>images/icons/services/operacion/control-de-accesso.png" >
-					<img src="<?php echo $url ?>images/icons/services/operacion/wifi.png" >
-					<img src="<?php echo $url ?>images/icons/services/operacion/walkie-talkie.png" >
+					<img src="<?php echo $url ?>images/icons/services/proyectos/camara-de-cctv.png" >
+					<img src="<?php echo $url ?>images/icons/services/proyectos/control-de-accesso.png" >
+					<img src="<?php echo $url ?>images/icons/services/proyectos/wifi.png" >
+					<img src="<?php echo $url ?>images/icons/services/proyectos/walkie-talkie.png" >
 				</li>
 			</ol>
 			
 		</div>
 		<div>
-			<h3 style=" text-transform: uppercase; font-weight: normal;text-align: center;">Software especializado​</h3>
+			<h3 style="text-transform: uppercase; font-weight: normal;text-align: center; padding-top: 10%;" >Software especializado​</h3>
 			<ol style="padding: " >
 				<li style="position: relative; width: 33%;padding: 0;text-align: center;">
-					<img style="width: 40%;" src="<?php echo $url ?>images/icons/services/operacion/cama-de-hospital.png" ><br>
+					<img style="width: 40%;" src="<?php echo $url ?>images/icons/services/proyectos/cama-de-hospital.png" ><br>
 					Sistemas de Información Hospitalaria<br> <span style="font-weight: bold;color: #4dbed4;">(HIS)</span>​
 				</li>
 				<li style="position: relative; width: 33%;padding: 0;text-align: center;">
-					<img style="width: 40%;" src="<?php echo $url ?>images/icons/services/operacion/negocio.png" ><br>
+					<img style="width: 40%;" src="<?php echo $url ?>images/icons/services/proyectos/negocio.png" ><br>
 					Planificación De Recursos Empresariales<br> <span style="font-weight: bold;color: #4dbed4;">(ERP)</span>​
 				</li>
 				<li style="position: relative; width: 33%;padding: 0;text-align: center;">
-					<img style="width: 40%;" src="<?php echo $url ?>images/icons/services/operacion/verificar.png" ><br>
+					<img style="width: 40%;" src="<?php echo $url ?>images/icons/services/proyectos/verificar.png" ><br>
 					Ciberseguridad<br> <span style="font-weight: bold;color: #4dbed4;">(SOC)</span>
 				</li>
 			</ol>
 
-			<h3 style=" text-transform: uppercase; font-weight: normal;text-align: center;">Soluciones Especiales Hospitalarias </h3>
+			<h3 style="text-transform: uppercase; font-weight: normal;text-align: center;padding-top: 10%;" >Soluciones Especiales Hospitalarias </h3>
 			<ol style="justify-content: space-around;padding-bottom: 5%;">
 				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
-					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/operacion/rayos-x.png" ><br>
+					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/proyectos/rayos-x.png" ><br>
 					Tele Enseñanza
 				</li>
 				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
-					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/operacion/monitor-de-computadora.png" ><br>
+					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/proyectos/monitor-de-computadora.png" ><br>
 					Tele Medicina
 				</li>
 				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
-					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/operacion/monitor-de-pulso-cardiaco.png" ><br>
+					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/proyectos/monitor-de-pulso-cardiaco.png" ><br>
 					Televisión fomento a la salud
 				</li>
 				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
-					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/operacion/bebe.png" ><br>
+					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/proyectos/bebe.png" ><br>
 					Control Neonatal
 				</li>
+
 			</ol>
 			
 		</div>
 	</div>
 	<br><br>
-</div>
+</div>	
 <hr class="barra-colores-01">
-
-
 

@@ -100,9 +100,10 @@
 
 <!-- SOLUCIONES Y ÁREAS -->
 <div class="square-09">
-	<h2>SOLUCIONES Y ÁREAS</h2>
+	<h2 style="color: #0000;">SOLUCIONES Y ÁREAS</h2>
 </div>
 <div class="square-12">
+	<h3 style=" font-weight: bold;color: #4dbed4; font-size: 1.5vw; font-weight: normal;" >SOLUCIONES Y ÁREAS</h3>
 	<ol>
 		<li style="width: 15%;" >
 			<br><br>

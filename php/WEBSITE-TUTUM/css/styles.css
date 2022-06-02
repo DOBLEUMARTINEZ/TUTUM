@@ -2959,6 +2959,7 @@
         background: #00000094;
         display: flex;
         justify-content: space-between;
+        position: relative;
     }
 
     .square-footer-index > ul{
@@ -3016,6 +3017,16 @@
         color: #000;
         background: #fff;
         transition: 0.3s;
+    }
+
+    .square-footer-index > div {
+        position: absolute;
+        left: 2vw;
+        bottom: -3vw;
+        color: #fff;
+        line-height: 1.5vw;
+        font-size: 0.9vw;
+        cursor: pointer;
     }
 
 /* PIE DE PAGINA */

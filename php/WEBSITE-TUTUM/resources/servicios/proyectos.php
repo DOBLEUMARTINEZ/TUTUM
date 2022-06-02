@@ -1,4 +1,4 @@
-<!-- -->
+<!-- DESARROLLO E IMPLEMNTACION DE SOLUCIONES EN TI​ -->
 <a id="start"></a>
 <div class="square-04" style="padding: 0 0 10% 0 ">
 	<ol>
@@ -14,7 +14,7 @@
 </div>
 <hr class="barra-colores-01">
 
-<!-- DESARROLLO E IMPLEMNTACION DE SOLUCIONES EN TI​ -->
+<!-- EXPERIENCIA EN DISEÑO E IMPLEMENTACION -->
 <div class="square-06">
 	<h2>EXPERIENCIA EN DISEÑO E <br>IMPLEMENTACION</h2>
 	<ol>
@@ -53,6 +53,7 @@
 		</li>
 	</ol>
 </div>
+<hr class="barra-colores-01">
 
 <!-- SERVICIOS -->
 <div class="square-04">
@@ -67,9 +68,7 @@
 		</li>
 	</ol>
 </div>
-<div class="square-06"><h2 style="color: #0000;">SERVICIOS</h2></div>
-<div class="square-12">
-	<h3 style="color: #4dbed4;">SERVICIOS</h3>
+<div class="square-12" style="background: #000;">
 	<ol style="justify-content: center;">
 		<li>
 			<br><br>
@@ -121,12 +120,13 @@
 		</li>
 	</ol>
 </div>
+<hr class="barra-colores-01">
 
 <!-- CATALOGO DE SOLUCIONES -->
 <div class="square-09">
-	<h2>CATALOGO DE SOLUCIONES</h2>
-	<div style="padding:2.5% 0%;">
+	<div>
 		<div>
+			<h4 style="width: 60%; margin-left: 20%; text-align: center; padding:10% 2%; background: #000;color: #fff;" >CATALOGO DE SOLUCIONES</h4>
 			<h3 style="text-transform: uppercase; font-weight: normal;" >Soluciones Infra estructura y Seguridad</h3>
 			<ol>
 				<li>
@@ -156,7 +156,7 @@
 			
 		</div>
 		<div>
-			<h3 style="text-transform: uppercase; font-weight: normal;text-align: center;" >Software especializado​</h3>
+			<h3 style="text-transform: uppercase; font-weight: normal;text-align: center; padding-top: 10%;" >Software especializado​</h3>
 			<ol style="padding: " >
 				<li style="position: relative; width: 33%;padding: 0;text-align: center;">
 					<img style="width: 40%;" src="<?php echo $url ?>images/icons/services/proyectos/cama-de-hospital.png" ><br>
@@ -172,7 +172,7 @@
 				</li>
 			</ol>
 
-			<h3 style="text-transform: uppercase; font-weight: normal;text-align: center;" >Soluciones Especiales Hospitalarias </h3>
+			<h3 style="text-transform: uppercase; font-weight: normal;text-align: center;padding-top: 10%;" >Soluciones Especiales Hospitalarias </h3>
 			<ol style="justify-content: space-around;padding-bottom: 5%;">
 				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
 					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/proyectos/rayos-x.png" ><br>
@@ -190,12 +190,13 @@
 					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/proyectos/bebe.png" ><br>
 					Control Neonatal
 				</li>
+
 			</ol>
 			
 		</div>
 	</div>
+	<br><br>
 </div>	
-
 <hr class="barra-colores-01">
 
 

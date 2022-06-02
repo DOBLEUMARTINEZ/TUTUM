@@ -143,7 +143,7 @@
             <!-- SLIDE 1 -->
             <div class="carousel-item">
             	<ul>
-            		<li><img src="images/icons/services/prensa/blog/TUTUM_TEMPLATE_ABRIL5.jpg" ></li>
+            		<li><img src="images/icons/services/prensa/blog/TUTUM_TEMPLATE_ABRILVIDEO.jpg" ></li>
             		<li><img src="images/icons/services/prensa/blog/TUTUM_TEMPLATE_ABRILVIDEO.jpg" ></li>	
             	</ul>
             </div>

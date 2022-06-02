@@ -72,7 +72,7 @@
 
 <!-- SERVICIOS -->
 <div class="square-04">
-	<ol >
+	<ol  style="padding-bottom: 5%;">
 		<li>
 			<h2>SERVICIOS</h2>
 		</li>
@@ -83,26 +83,7 @@
 		</li>
 	</ol>
 </div>
-<div class="square-11">
-	<ul>
-		<li>
-			<p><span style="font-size: 0.9vw;">Soporte técnico</span></p>
-			<img src="images/icons/cau.png" >
-		</li>
-		<li>
-			<p><span style="font-size: 0.9vw;">Gestión</span></p>
-			<img src="images/icons/TUTUM_Iconos/Tutum-iconos_0017_Layer-60.png" >
-		</li>
-		<li>
-			<p><span style="font-size: 0.9vw;">Centro de datos</span></p>
-			<img src="images/icons/suministro.png" >
-		</li>
-	</ul>
-</div>
-<div class="square-09">
-	<h2 style="color: #0000;">SERVICIOS</h2>
-</div>
-<div class="square-12">
+<div class="square-12" style="background: #000;">
 	<h3 style="color: #4dbed4;">SERVICIOS</h3>
 	<ol style="justify-content: center;">
 		<li style="width: 24%;" >
@@ -147,11 +128,9 @@
 		</li>
 	</ol>
 </div>
+<hr class="barra-colores-01">
 
 <!-- ACTIVIDADES DE GESTIÓN  -->
-<div class="square-09">
-	<h2 style="color: #0000;">ACTIVIDADES DE GESTIÓN </h2>
-</div>
 <div class="square-12">
 	<h3 style="color: #4dbed4;">ACTIVIDADES DE GESTIÓN</h3>
 	<ol style="justify-content: center;">
@@ -199,6 +178,7 @@
 		</li>
 	</ol>
 </div>
+<hr class="barra-colores-01">
 
 <!-- ACTIVIDADES DE SOPORTE -->
 <div class="square-09">

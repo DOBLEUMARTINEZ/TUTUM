@@ -79,36 +79,36 @@
 
 <!-- DATOS CIRCULO -->
 <div class="square-10">
-  <ul style="padding-bottom: 3%;">
-    <li>
+  <ul style="padding-bottom: 7%;">
+    <li style="position: relative;" >
       <img src="images/icons/hilo-2.png">
       <h3>+400K</h3>
-      <p>METROS DE FIBRA ÓPTICA CERTIFICADOS</p>
+      <p style="position: absolute; color: #fff; bottom: -5.5vw; " >METROS DE FIBRA ÓPTICA CERTIFICADOS</p>
     </li>
-    <li>
+    <li style="position: relative;" >
       <img src="images/icons/cable-de-red-2.png">
       <h3>+980K​</h3>
-      <p>METROS DE UTP CERTIFICADOS​</p>
+      <p style="position: absolute; color: #fff; bottom: -5.5vw; " >METROS DE UTP CERTIFICADOS​</p>
     </li>
-    <li>
+    <li style="position: relative;" >
       <img src="images/icons/camera-2.png">
       <h3>+40K​</h3>
-      <p>DISPOSITIVOS DE SEGURIDAD PERIMETRAL​</p>
+      <p style="position: absolute; color: #fff; bottom: -5.5vw; " >DISPOSITIVOS DE SEGURIDAD PERIMETRAL​</p>
     </li>
-    <li>
+    <li style="position: relative;" >
       <img src="images/icons/suministro.png">
       <h3>+1000</h3>
-      <p>EQUIPOS DE INFORMÁTICA Y SERVIDORES​</p>
+      <p style="position: absolute; color: #fff; bottom: -5.5vw; " >EQUIPOS DE INFORMÁTICA Y SERVIDORES​</p>
     </li>
-    <li>
+    <li style="position: relative;" >
       <img src="images/icons/desarrollo.png">
       <h3>+10K</h3>
-      <p>EQUIPOS DE COMPUTO IMPRESIÓN Y TELEFONÍA​</p>
+      <p style="position: absolute; color: #fff; bottom: -5.5vw; " >EQUIPOS DE COMPUTO IMPRESIÓN Y TELEFONÍA​</p>
     </li>
-    <li>
+    <li style="position: relative;" >
       <img src="images/icons/operacion.png">
       <h3>+600</h3>
-      <p>CUARTOS DE COMUNICACIÓN EQUIPADOS​</p>
+      <p style="position: absolute; color: #fff; bottom: -5.5vw; " >CUARTOS DE COMUNICACIÓN EQUIPADOS​</p>
     </li>
   </ul>
 </div>
@@ -183,65 +183,44 @@
 		</li>
 	</ol>
 </div>
-<div class="square-05">
-	<ol style="position: relative;padding: 0%; background: #fff;" >
-		<li style="width: 80%; background: #fff; padding: 1% 1%; margin: 0 10%;">
-			<img src="images/img/socios/logo-1.png" >
-			<img src="images/img/socios/logo-14.png" >
-			<img src="images/img/socios/logo-20.png" >
-			<img src="images/img/socios/logo-09.png" >
-			<img src="images/img/socios/logo-11.png" >
-			<img src="images/img/socios/logo-13.png" >
-			<img src="images/img/socios/logo-21.png" >
-			<img src="images/img/socios/logo-16.png" >
-			<img src="images/img/socios/logo-22.png" >
-			<img src="images/img/socios/logo-23.png" >
-			<img src="images/img/socios/logo-18.png" >
-			<img src="images/img/socios/logo-19.png" >
-			<img src="images/img/socios/logo-15.png" >
-			<img src="images/img/socios/logo00.png" >
-			<img src="images/img/socios/logo-3.png" >
-		</li>
-		<span></span>
-	</ol>
+<!-- SOCIOS DE NEGOCIO-->
+<div class="square-13">
+	<h3>SOCIOS DE NEGOCIO</h3>
+	<ul style="padding-bottom: 2%;">
+		<li style="background-image: url('images/icons/services/ciber/logos/cisco.png');"></li>
+		<li style="background-image: url('images/icons/services/ciber/logos/logo-14.png');"></li>
+		<li style="background-image: url('images/icons/services/ciber/logos/logo-20.png');"></li>
+		<li style="background-image: url('images/icons/services/ciber/logos/logo-7.png');"></li>
+		<li style="background-image: url('images/icons/services/ciber/logos/logo-11.png');"></li>
+		<li style="background-image: url('images/icons/services/ciber/logos/McAfee_Logo_2017.png');"></li>
+		<li style="background-image: url('images/icons/services/ciber/logos/logo-13.png');"></li>
+		<li style="background-image: url('images/icons/services/ciber/logos/logo-21.png');"></li>
+		<li style="background-image: url('images/icons/services/ciber/logos/logo-16.png');"></li>
+		<li style="background-image: url('images/icons/services/ciber/logos/logo-22.png');"></li>
+		<li style="background-image: url('images/icons/services/ciber/logos/logo-23.png');"></li>
+		<li style="background-image: url('images/icons/services/ciber/logos/bitdefender-logo.preview.png');"></li>
+		<li style="background-image: url('images/icons/services/ciber/logos/logo-18.png');"></li>
+		<li style="background-image: url('images/icons/services/ciber/logos/logo-19.png');"></li>
+		<li style="background-image: url('images/icons/services/ciber/logos/logo-10.png');"></li>
+		<li style="background-image: url('images/icons/services/ciber/logos/logo-12.png');"></li>
+		<li style="background-image: url('images/icons/services/ciber/logos/cylance.png');"></li>
+	</ul>
 </div>
 
 <!-- CLIENTES -->
 <div class="square-06">
 	<h2>CLIENTES</h2>
-    <div id="clientes" class="carousel slide clientes-slide" data-ride="carousel">    
-        <div class="carousel-inner" style="padding: 4% 0;">
-
-         	<!-- SLIDE 1 -->
-            <div class="carousel-item active">
-            	<ul>
-            		<li><img src="images/img/socios/logo-9.png" ></li>
-            		<li><img src="images/img/socios/logo-04.png" ></li>
-            		<li><img src="images/img/socios/logo-01.png" ></li>
-            		<li><img src="images/img/socios/logo-06.png" ></li>
-            	</ul>
-            </div>
-
-            <!-- SLIDE 1 -->
-            <div class="carousel-item">
-            	<ul>
-            		<li><img src="images/img/socios/logo-02.png" ></li>
-            		<li><img src="images/img/socios/logo-05.png" ></li>
-            		<li><img src="images/img/socios/logo-03.png" ></li>
-            		<li></li>
-            	</ul>
-            </div>
-
-            <!-- FLECHAS DE CAMBIO -->
-            <a class="slide-control-prev" href="#clientes" role="button" data-slide="prev">
-                <i class="fas fa-chevron-circle-left"></i>
-            </a>
-            <a class="slide-control-next" href="#clientes" role="button" data-slide="next">
-                <i class="fas fa-chevron-circle-right"></i>
-            </a>
-              
-        </div>
-    </div>  
-    <h2 style="color: #0000;">CLIENTES</h2>
 </div>
+<div class="square-13">
+	<ul style="padding: 3% 15%;">
+		<li style="background-image: url('images/img/socios/logo-9.png');"></li>
+		<li style="background-image: url('images/img/socios/logo-04.png');"></li>
+		<li style="background-image: url('images/img/socios/logo-01.png');"></li>
+		<li style="background-image: url('images/img/socios/logo-06.png');"></li>
+		<li style="background-image: url('images/img/socios/logo-02.png');"></li>
+		<li style="background-image: url('images/img/socios/logo-05.png');"></li>
+		<li style="background-image: url('images/img/socios/logo-03.png');"></li>
+	</ul>
+</div>
+
 <hr class="barra-colores-01">

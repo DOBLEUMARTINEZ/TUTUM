@@ -99,7 +99,7 @@ echo '<body>'; // INICIO CUERPO
 
           case 'identidad':
             include("resources/identidad/contenido.php"); // CONTENIDO
-            include("resources/servicios/download-pdf.php"); // PDF
+            include("resources/identidad/download-pdf.php"); // PDF
             break;
 
           case 'prensa':
