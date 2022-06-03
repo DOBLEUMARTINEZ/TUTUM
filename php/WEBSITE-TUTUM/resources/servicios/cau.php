@@ -1,4 +1,4 @@
-<!-- CENTRO DE ATENCIÓN A USUARIOS -->
+ 	<!-- CENTRO DE ATENCIÓN A USUARIOS -->
 <a id="start"></a>
 <div class="square-04">
 	<ol>
@@ -36,23 +36,23 @@
 			<p>
 				Contamos con experiencia ofreciendo <strong>servicios de mesa de ayuda</strong> para proyectos en seguridad, hospitalarios y corporativos, teniendo como objetivo el asegurar la continua operación de los sistemas de nuestros clientes​
 			</p>
-			<center style="text-align: center; font-weight: bold;color: #4dbed4; font-size: 1.5vw;" >SOPORTE</center>
-			<ul>
-				<li style="width: 25%; text-align: center;" >
-					<img style="width: 50%;" src="images/icons/services/cau/medicamento (1).gif"><br><br>
-					<span style="font-weight: bold;color: #4dbed4;font-size: 1.1vw;">Salud</span>
+			<center class=" sub-title-type-1" >SOPORTE</center>
+			<ul class="box-icons-1" >
+				<li >
+					<img  src="images/icons/services/cau/medicamento (1).gif"><br><br>
+					<span style="font-weight: bold;color: #4dbed4;">Salud</span>
 				</li>
-				<li style="width: 25%; text-align: center;" >
-					<img style="width: 50%;" src="images/icons/services/cau/alerta.gif"><br><br>
-					<span style="font-weight: bold;color: #4dbed4;font-size: 1.1vw;">Seguridad​</span>
+				<li >
+					<img  src="images/icons/services/cau/alerta.gif"><br><br>
+					<span style="font-weight: bold;color: #4dbed4;">Seguridad​</span>
 				</li>
-				<li style="width: 25%; text-align: center;" >
-					<img style="width: 50%;" src="images/icons/services/cau/grafico-de-linea.gif"><br><br>
-					<span style="font-weight: bold;color: #4dbed4;font-size: 1.1vw;">Corporativo</span>
+				<li >
+					<img  src="images/icons/services/cau/grafico-de-linea.gif"><br><br>
+					<span style="font-weight: bold;color: #4dbed4;">Corporativo</span>
 				</li>
-				<li style="width: 25%; text-align: center;" >
-					<img style="width: 50%;" src="images/icons/services/cau/grua.gif"><br><br>
-					<span style="font-weight: bold;color: #4dbed4;font-size: 1.1vw;">Industrial</span>
+				<li >
+					<img  src="images/icons/services/cau/grua.gif"><br><br>
+					<span style="font-weight: bold;color: #4dbed4;">Industrial</span>
 				</li>
 			</ul>
 			<p style="text-align: center; display: flex; justify-content: center;align-items: center; width: 100%">
@@ -64,7 +64,7 @@
 		</li>
 		<li>
 
-			<iframe style="width: 100%; height: 32vw; border-top: 15px solid #fff; border-bottom: 15px solid #fff;" src="https://www.youtube.com/embed/F3IM6aYDwLY?start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
+			<iframe class="iframe-video" src="https://www.youtube.com/embed/F3IM6aYDwLY?start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
 
 		</li>
 	</ol>
@@ -84,46 +84,46 @@
 	</ol>
 </div>
 <div class="square-12" style="background: #000;">
-	<h3 style="color: #4dbed4;">SERVICIOS</h3>
-	<ol style="justify-content: center;">
-		<li style="width: 24%;" >
+	<h3 class="tilte-type-2">SERVICIOS</h3>
+	<ol class="box-icon-type-2">
+		<li>
 			<br><br>
-			<img style="width: 25%;" src="images/icons/services/cau/proceso.png"><br><br>
+			<img src="images/icons/services/cau/proceso.png"><br><br>
 			<p>Administración​</p>
 		</li>
-		<li style="width: 24%;" >
+		<li>
 			<br><br>
-			<img style="width: 25%;" src="images/icons/services/cau/soporte-tecnico.png"><br><br>
+			<img src="images/icons/services/cau/soporte-tecnico.png"><br><br>
 			<p>Soporte a la operación en los 3 niveles</p>
 		</li>
-		<li style="width: 24%;" >
+		<li>
 			<br><br>
-			<img style="width: 25%;" src="images/icons/services/cau/configuraciones.png"><br><br>
+			<img src="images/icons/services/cau/configuraciones.png"><br><br>
 			<p>Refaccionamiento</p>
 		</li>
-		<li style="width: 24%;" >
+		<li>
 			<br><br>
-			<img style="width: 25%;" src="images/icons/services/cau/capacitacion.png"><br><br>
+			<img src="images/icons/services/cau/capacitacion.png"><br><br>
 			<p>Capacitación​</p>
 		</li>
-		<li style="width: 24%;" >
+		<li>
 			<br><br>
-			<img style="width: 25%;" src="images/icons/services/cau/solucion.png"><br><br>
+			<img src="images/icons/services/cau/solucion.png"><br><br>
 			<p>Soluciones empresariales​</p>
 		</li>
-		<li style="width: 24%;" >
+		<li>
 			<br><br>
-			<img style="width: 25%;" src="images/icons/services/cau/servidor-en-la-nube.png"><br><br>
+			<img src="images/icons/services/cau/servidor-en-la-nube.png"><br><br>
 			<p>Diseño distribuido​ en la nube</p>
 		</li>
-		<li style="width: 24%;" >
+		<li>
 			<br><br>
-			<img style="width: 25%;" src="images/icons/services/cau/data-center.png"><br><br>
+			<img src="images/icons/services/cau/data-center.png"><br><br>
 			<p>Data Center</p>
 		</li>
-		<li style="width: 24%;" >
+		<li>
 			<br><br>
-			<img style="width: 25%;" src="images/icons/services/cau/certificado-de-garantia.png"><br><br>
+			<img src="images/icons/services/cau/certificado-de-garantia.png"><br><br>
 			<p>Pólizas</p>
 		</li>
 	</ol>
@@ -132,47 +132,47 @@
 
 <!-- ACTIVIDADES DE GESTIÓN  -->
 <div class="square-12">
-	<h3 style="color: #4dbed4;">ACTIVIDADES DE GESTIÓN</h3>
-	<ol style="justify-content: center;">
-		<li style="width: 24%;" >
+	<h3 class="tilte-type-2">ACTIVIDADES DE GESTIÓN</h3>
+	<ol class="box-icon-type-2">
+		<li >
 			<br><br>
-			<img style="width: 25%;" src="images/icons/services/cau/cable-roto.png"><br><br>
+			<img src="images/icons/services/cau/cable-roto.png"><br><br>
 			<p>Soporte a las incidencias, problemáticas de los clientes</p>
 			<br><br>
 		</li>
-		<li style="width: 24%;" >
+		<li >
 			<br><br>
-			<img style="width: 25%;" src="images/icons/services/cau/capacitacion 12.png"><br><br>
+			<img src="images/icons/services/cau/capacitacion 12.png"><br><br>
 			<p>Oferta de​ Capacitación Técnica</p>
 			<br><br>
 		</li>
-		<li style="width: 24%;" >
+		<li >
 			<br><br>
-			<img style="width: 25%;" src="images/icons/services/cau/manual (1).png"><br><br>
+			<img src="images/icons/services/cau/manual (1).png"><br><br>
 			<p>Elaboración de ​reportes y manuales</p>
 			<br><br>
 		</li>
-		<li style="width: 24%;" >
+		<li >
 			<br><br>
-			<img style="width: 25%;" src="images/icons/services/cau/mantenimiento.png"><br><br>
+			<img src="images/icons/services/cau/mantenimiento.png"><br><br>
 			<p>Mantenimientos ​preventivos y correctivos</p>
 			<br><br>
 		</li>
-		<li style="width: 24%;" >
+		<li >
 			<br><br>
-			<img style="width: 25%;" src="images/icons/services/cau/cctv.png"><br><br>
+			<img src="images/icons/services/cau/cctv.png"><br><br>
 			<p>Administración de ​CCTV Corporativo</p>
 			<br><br>
 		</li>
-		<li style="width: 24%;" >
+		<li >
 			<br><br>
-			<img style="width: 25%;" src="images/icons/services/cau/control-de-accesso.png"><br><br>
+			<img src="images/icons/services/cau/control-de-accesso.png"><br><br>
 			<p>Implementación de ​soluciones de Seguridad</p>
 			<br><br>
 		</li>
-		<li style="width: 24%;" >
+		<li >
 			<br><br>
-			<img style="width: 25%;" src="images/icons/services/cau/mesa-de-ayuda.png"><br><br>
+			<img src="images/icons/services/cau/mesa-de-ayuda.png"><br><br>
 			<p>Seguimiento de tickets ​mediante la Mesa de Ayuda</p>
 			<br><br>
 		</li>
@@ -181,56 +181,54 @@
 <hr class="barra-colores-01">
 
 <!-- ACTIVIDADES DE SOPORTE -->
-<div class="square-09">
-	<h2>ACTIVIDADES DE SOPORTE</h2>
-</div>
 <div class="square-12" style="background: #000;" >
-	<ol style="text-align: center;">
-		<li style="width: 24%;color:#fff; " >
+	<h3 class="tilte-type-2" style="color: #fff;">ACTIVIDADES DE SOPORTE</h3>
+	<ol class="box-icon-type-2" >
+		<li>
 			<br><br>
-			<img style="width: 25%;" src="images/icons/services/cau/soporte-tecnico.png"><br><br>
+			<img src="images/icons/services/cau/soporte-tecnico.png"><br><br>
 			<p style="color: #fff;" >Asistencia a usuarios en los 3 niveles de soporte​</p>
 			<br><br>
 		</li>
-		<li style="width: 24%;color:#fff; " >
+		<li>
 			<br><br>
-			<img style="width: 25%;" src="images/icons/services/cau/computadora-personal.png"><br><br>
+			<img src="images/icons/services/cau/computadora-personal.png"><br><br>
 			<p style="color: #fff;" >Administración del Directorio Activo y licenciamiento</p>
 			<br><br>
 		</li>
-		<li style="width: 24%;color:#fff; " >
+		<li>
 			<br><br>
-			<img style="width: 25%;" src="images/icons/services/cau/inventario.png"><br><br>
+			<img src="images/icons/services/cau/inventario.png"><br><br>
 			<p style="color: #fff;" >Inventarios de equipo ​de computo  </p>
 			<br><br>
 		</li>
-		<li style="width: 24%;color:#fff; " >
+		<li>
 			<br><br>
-			<img style="width: 25%;" src="images/icons/services/cau/mantenimiento.png"><br><br>
+			<img src="images/icons/services/cau/mantenimiento.png"><br><br>
 			<p style="color: #fff;" >Mantenimientos ​preventivos</p>
 			<br><br>
 		</li>
-		<li style="width: 24%;color:#fff; " >
+		<li>
 			<br><br>
-			<img style="width: 25%;" src="images/icons/services/cau/mesa-de-ayuda.png"><br><br>
+			<img src="images/icons/services/cau/mesa-de-ayuda.png"><br><br>
 			<p style="color: #fff;" >Seguimiento de tickets​ mediante la Mesa de Ayuda.</p>
 			<br><br>
 		</li>
-		<li style="width: 24%;color:#fff; " >
+		<li>
 			<br><br>
-			<img style="width: 25%;" src="images/icons/services/cau/actualizar-pagina.png"><br><br>
+			<img src="images/icons/services/cau/actualizar-pagina.png"><br><br>
 			<p style="color: #fff;" >Actualización de​ sistemas</p>
 			<br><br>
 		</li>
-		<li style="width: 24%;color:#fff; " >
+		<li>
 			<br><br>
-			<img style="width: 25%;" src="images/icons/services/cau/copia-de-respaldo (1).png"><br><br>
+			<img src="images/icons/services/cau/copia-de-respaldo (1).png"><br><br>
 			<p style="color: #fff;" >Respaldos de ​información</p>
 			<br><br>
 		</li>
-		<li style="width: 24%;color:#fff; " >
+		<li>
 			<br><br>
-			<img style="width: 25%;" src="images/icons/services/cau/alerta.png"><br><br>
+			<img src="images/icons/services/cau/alerta.png"><br><br>
 			<p style="color: #fff;" >Diagnóstico en el mal funcionamiento​del hardware y el software</p>
 			<br><br>
 		</li>
@@ -242,7 +240,7 @@
 <div class="square-09">
 	<div>	
 		<div>
-			<h3>CENTRO DE DATOS​</h3>
+			<h3 >CENTRO DE DATOS​</h3>
 			<ol>
 				<li>
 					Garantiza la funcionalidad y desempeño de la Infraestructura & Telecomunicaciones.<br><br>
@@ -265,7 +263,7 @@
 		</div>
 		<div>
 			<h3>SERVICIOS CENTROS DE DATOS</h3>
-			<ol style="padding: " >
+			<ol class="box-icon-type-2">
 				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
 					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/cau/servidor.png" ><br>
 					<span style="font-weight: bold;color: #4dbed4;">Hiperconvergencia​</span>​

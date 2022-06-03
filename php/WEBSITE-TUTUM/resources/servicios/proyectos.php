@@ -126,7 +126,7 @@
 <div class="square-09">
 	<div>
 		<div>
-			<h4 style="width: 60%; margin-left: 20%; text-align: center; padding:10% 2%; background: #000;color: #fff;" >CATALOGO DE SOLUCIONES</h4>
+			<h4 class="tilte-type-1" >CATALOGO DE SOLUCIONES</h4>
 			<h3 style="text-transform: uppercase; font-weight: normal;" >Soluciones Infra estructura y Seguridad</h3>
 			<ol>
 				<li>

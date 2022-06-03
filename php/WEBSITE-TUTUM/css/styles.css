@@ -2095,6 +2095,7 @@
                 padding: 0;
                 display: flex;
                 flex-wrap: wrap;
+                justify-content: center;
 
             }
 
@@ -3189,6 +3190,89 @@
         width: 27%!important;
     }
 
+    .tilte-type-1{
+        width: 60%;
+        margin-left: 20%;
+        text-align: center;
+        padding:10% 2%;
+        background: #000;
+        color: #ffffffd1;
+        letter-spacing: 1.5px;
+    }
+
+    .sub-title-type-1{
+        text-align: center;
+        font-weight: normal;
+        color: #4dbed4;
+        font-size: 1.5vw;
+    }
+
+    /**/
+
+    .tilte-type-2{
+        color: #4dbed4;
+        text-align: left;
+    }   
+
+    .box-icon-type-2 {
+        justify-content: center!important;
+    }
+
+    .box-icon-type-2 > li{
+        width: 20%!important;
+    }
+
+
+    .box-icon-type-2 > li > img {
+        width: 31%!important;
+    }
+
+    .tilte-type-3 {
+        text-align: center;
+        font-weight: bold;
+        color: #4dbed4;
+        font-size: 1.5vw;
+    }
+
+    .box-icon-type-3 {
+        flex-wrap: wrap;
+        justify-content: center!important;
+    }
+
+
+    .box-icon-type-3 > li{
+        text-align: center;
+        width: 25%!important;
+    }
+
+    .box-icon-type-3 img{
+        width: 50%!important;
+        text-align: center;
+    }
+
+
+    .box-icon-type-3 span{
+        font-size: 1.1vw;
+        font-weight: bold;
+        color: #4dbed4;
+    }
+
+    .box-icon-type-4 li {
+        width: 12%!important;
+    }
+
+    .box-icons-5 li {
+        width: 15%!important;
+        text-align: center;
+    }
+
+    .square-06 ol > li > ul > li {
+        font-size: 1vw;
+        width: 33%;
+        padding: 3% 0%;
+        text-align: center;
+    }
+
     /**/
 
     @media(max-width: 2560px){
@@ -3488,6 +3572,7 @@
 
             .square-06 ol > li > p {
                 font-size: 2.5vw;
+                text-align: center;
             }
 
             /**/
@@ -3566,6 +3651,132 @@
                 width: 50%!important;
             }
 
+            /**/
+            .square-09 div > div {
+                width: 100%;
+            }
+
+            .square-09 div > div > h3 {
+                width: 100%;
+                text-align: center;
+                color: #4dbed4;
+                font-size: 2.5vw;
+            }
+
+            .square-09 div > div > ol > li {
+                width: 100%;
+                text-align: center;
+                font-size: 2.5vw;
+                padding: 0 10%;
+                line-height: 4.5vw;
+            }
+
+        /* OPERACIÓN */
+            .square-11 > ul {
+                justify-content: center;
+            }
+
+            .square-11 > ul > li {
+                width: 24vw;
+                height: 24vw;
+            }
+
+
+            .square-11 > ul > li > p {
+                font-size: 2vw;
+            }
+
+
+            .square-11 > ul > li > img {
+                width: 35%;
+                margin: 0;
+            }
+
+            .square-06 ol > li > ul > li {
+                font-size: 2.5vw;
+                width: 50%;
+                padding: 3% 0%;
+            }
+
+            .sub-title-type-1 {
+                font-size: 2.5vw;
+                font-weight: bold;
+            }
+
+            .tilte-type-2 {
+                color: #4dbed4;
+                text-align: center;
+                font-weight: bold;
+                letter-spacing: 1.5px;
+                font-size: 2.5vw;
+            }
+
+            .box-icon-type-2 > li {
+                width: 33%!important;
+            }
+
+            .box-icon-type-2 > li > img {
+                width: 50%!important;
+            }
+
+        /* SAP */
+
+            .tilte-type-3 {
+                font-size: 2.5vw;
+            }
+
+            .box-icon-type-3 img{
+                width: 60%!important;
+            }
+
+            .box-icon-type-3 span{
+                font-size: 2.5vw;
+                letter-spacing: 1.5px;
+                color: #4dbed4;
+            }
+
+             .box-icon-type-3 > li{
+                width: 25%!important;
+            }
+
+
+            .square-09 h2 {
+                color: #ffffffd1;
+                font-size: 3vw!important;
+                letter-spacing: 1.5px;
+                padding: 12% 0% 10% 0%;
+            }
+
+        /**/
+
+            .box-icon-type-4 li {
+                width: 25%!important;
+            }
+
+
+        /**/
+
+        .box-icons-5 li {
+            width: 20%!important;
+            text-align: center;
+        }
+
+        /**/
+
+            .square-06 ol > li > ul > li > p > img {
+                width: 60%;
+                margin: 0 37.5%;
+            }
+
+            .square-06 ol > li > ul > li > p {
+                font-size: 2.5vw;
+            }
+
+
+            .square-06 ol > li > ul > li > p > span {
+                font-size: 2.5vw;
+            }
+
         /*******/
 
         .square-12 {
@@ -3585,6 +3796,8 @@
             font-size: 2.5vw;
             margin-bottom: 0%;
         }
+
+
 
 
         /**/

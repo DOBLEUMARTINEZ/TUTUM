@@ -45,23 +45,23 @@
 				TUTUM a través de su servicio de Seguridad Gestionada permite la administración externa de infraestructura de seguridad de nuestros clientes, en el que nuestro equipo se encarga de la monitorización, gestión, control y soporte de dicha infraestructura de acuerdo a los Niveles de Servicio establecidos.
 			</p>
 			<ul style="flex-wrap: wrap; justify-content: center;">
-				<li style="text-align: center; width: 30%;" >
+				<li  >
 					<img style="width: 25%; margin: 1% 35%;" src="images/icons/services/ciber/programacion-web.png">
 					Asesoría y dimensionamiento​
 				</li>
-				<li style="text-align: center; width: 30%;" >
+				<li  >
 					<img style="width: 25%; margin: 1% 35%;" src="images/icons/services/ciber/consulta.png">
 					Puesta a Punto​
 				</li>
-				<li style="text-align: center; width: 30%;" >
+				<li  >
 					<img style="width: 25%; margin: 1% 35%;" src="images/icons/services/ciber/competencia.png">
 					Gestión de Capacidad​
 				</li>
-				<li style="text-align: center; width: 30%;" >
+				<li  >
 					<img style="width: 25%; margin: 1% 35%;" src="images/icons/services/ciber/reemplazo.png">
 					Gestión de Cambios​
 				</li>
-				<li style="text-align: center; width: 30%;" >
+				<li  >
 					<img style="width: 25%; margin: 1% 35%;" src="images/icons/services/ciber/seguro.png">
 					Aplicación de Hardering
 				</li>
@@ -69,7 +69,7 @@
 		</li>
 
 		<li>
-			<iframe style="width: 100%; height: 32vw; border-top: 15px solid #fff; border-bottom: 15px solid #fff;" src="https://www.youtube.com/embed/TedcHA-ZKsw?start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
+			<iframe class="iframe-video" src="https://www.youtube.com/embed/TedcHA-ZKsw?start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
 		</li>
 	</ol>
 </div>
@@ -88,34 +88,34 @@
 	</ol>
 </div>
 <div class="square-12" style="background: #000; padding: 1% 1%;" >
-	<ol>
-		<li style="width:20%;" >
+	<ol class="box-icons-5">
+		<li>
 			<br><br>
-			<img style="width: 24%;" src="images/icons/services/ciber/error-informatico.png"><br><br>
+			<img src="images/icons/services/ciber/error-informatico.png"><br><br>
 			<p style="color: #fff;font-weight: normal;">Detección de Análisis de Amenazas ​</p>
 			<br><br>
 		</li>
-		<li style="width:20%;" >
+		<li>
 			<br><br>
-			<img style="width: 24%;" src="images/icons/services/ciber/informatica.png"><br><br>
+			<img src="images/icons/services/ciber/informatica.png"><br><br>
 			<p style="color: #fff;font-weight: normal;">Gestión de Incidentes de Seguridad</p>
 			<br><br>
 		</li>
-		<li style="width:20%;" >
+		<li>
 			<br><br>
-			<img style="width: 24%;" src="images/icons/services/ciber/seguridad-informatica.png"><br><br>
+			<img src="images/icons/services/ciber/seguridad-informatica.png"><br><br>
 			<p style="color: #fff;font-weight: normal;">Respuesta a​ Incidentes </p>
 			<br><br>
 		</li>
-		<li style="width:20%;" >
+		<li>
 			<br><br>
-			<img style="width: 24%;" src="images/icons/services/ciber/virus (3).png"><br><br>
+			<img src="images/icons/services/ciber/virus (3).png"><br><br>
 			<p style="color: #fff;font-weight: normal;">Correlación de Eventos y Emisión de Alertas ​</p>
 			<br><br>
 		</li>
-		<li style="width:20%;" >
+		<li>
 			<br><br>
-			<img style="width: 24%;" src="images/icons/services/ciber/punto-de-mira.png"><br><br>
+			<img src="images/icons/services/ciber/punto-de-mira.png"><br><br>
 			<p style="color: #fff;font-weight: normal;">Caza de ​Amenazas</p>
 			<br><br>
 		</li>
@@ -137,7 +137,7 @@
 			
 		</div>
 		<div>
-			<ol style=" padding:5% 0%;">
+			<ol lass="box-icons-5">
 				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
 					<img style="width: 28%;" src="<?php echo $url ?>images/icons/services/ciber/console.png" ><br>
 					<span style="font-weight: bold;color: #4dbed4;">Análisis y Gestión de Vulnerabilidades </span>​
@@ -201,8 +201,8 @@
 				</li>
 			</ol>
 		</div>
-		<div>
-			<img style="height: 27vw; margin: 5% 0 0 0; " src="<?php echo $url ?>images/img/CAU_10.jpg" >
+		<div >
+			<img  class="desktop" style="height: 27vw; margin: 5% 0 0 0; " src="<?php echo $url ?>images/img/CAU_10.jpg" >
 		</div>
 	</div>
 	<br><br>
@@ -225,21 +225,24 @@
 	</ol>
 </div>
 <div class="square-12" style="background: #000; padding: 1% 1%;" >
-	<ol style="justify-content: center;">
+	<ol class="box-icons-5">
 		<li style="width:20%;" >
 			<br><br>
-			<img style="width: 25%;" src="images/icons/services/ciber/investigacion-del-consumidor.png"><br><br>
+			<img src="images/icons/services/ciber/investigacion-del-consumidor.png"><br><br>
 			<p style="color: #fff;font-weight: normal;">Ingeniería Social​</p>
+			<br><br>
 		</li>
 		<li style="width:20%;" >
 			<br><br>
-			<img style="width: 25%;" src="images/icons/services/ciber/buscar (1).png"><br><br>
+			<img src="images/icons/services/ciber/buscar (1).png"><br><br>
 			<p style="color: #fff;font-weight: normal;">OSINT<br>(Open Source Intelligence)​</p>
+			<br><br>
 		</li>
 		<li style="width:20%;" >
 			<br><br>
-			<img style="width: 25%;" src="images/icons/services/ciber/phishing (2).png"><br><br>
+			<img src="images/icons/services/ciber/phishing (2).png"><br><br>
 			<p style="color: #fff;font-weight: normal;">Pruebas de Phishing</p>
+			<br><br>
 		</li>
 	</ol>
 </div>
@@ -247,7 +250,7 @@
 <!-- INFORMÁTICA FORENSE​-->
 <div class="square-12">
 	<h4 style="color: #4dbed4;">INFORMÁTICA FORENSE​</h4>
-	<ol>
+	<ol class="box-icons-2" >
 		<li style="width: 24%;" >
 			<br><br>
 			<img style="width: 24%;" src="images/icons/services/cau/proceso.png"><br><br>
@@ -292,7 +295,7 @@
 	</ol>
 </div>
 <div class="square-12" style="background: #000;" >
-	<ol>
+	<ol class="box-icons-2" >
 		<li style="width: 24%;color:#fff; " >
 			
 			<img style="width: 25%;" src="images/icons/services/ciber/servidores.png"><br><br>

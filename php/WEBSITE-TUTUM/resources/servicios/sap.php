@@ -27,42 +27,42 @@
 			<p>
 				Contamos con experiencia en la implementación de proyectos en <strong>SAP BACKOFFICE</strong>, tenemos como objetivo el asegurar la continua operación de los sistemas de nuestros clientes.
 			</p>
-			<center style="text-align: center; font-weight: bold;color: #4dbed4; font-size: 1.5vw;" >SOPORTE</center>
-			<ul style="flex-wrap: wrap; justify-content: center;">
-				<li style="width: 25%; text-align: center;" >
-					<img style="width: 50%;" src="images/icons/services/sap/ordenador-portatil.gif"><br>
-					<span style="font-weight: bold;color: #4dbed4;font-size: 1.1vw;">Finanzas</span>
+			<center class="tilte-type-3" >SOPORTE</center>
+			<ul class="box-icon-type-3">
+				<li>
+					<img src="images/icons/services/sap/ordenador-portatil.gif"><br>
+					<span>Finanzas</span>
 				</li>
-				<li style="width: 25%; text-align: center;" >
-					<img style="width: 50%;" src="images/icons/services/sap/bolsa-de-dinero.gif"><br>
-					<span style="font-weight: bold;color: #4dbed4;font-size: 1.1vw;">Contabilidad</span>
+				<li>
+					<img src="images/icons/services/sap/bolsa-de-dinero.gif"><br>
+					<span>Contabilidad</span>
 				</li>
-				<li style="width: 25%; text-align: center;" >
-					<img style="width: 50%;" src="images/icons/services/sap/euro.gif"><br>
-					<span style="font-weight: bold;color: #4dbed4;font-size: 1.1vw;">Costos​</span>
+				<li>
+					<img src="images/icons/services/sap/euro.gif"><br>
+					<span>Costos​</span>
 				</li>
-				<li style="width: 25%; text-align: center;" >
-					<img style="width: 50%;" src="images/icons/services/sap/documento.gif"><br>
-					<span style="font-weight: bold;color: #4dbed4;font-size: 1.1vw;">Presupuestos​</span>
+				<li>
+					<img src="images/icons/services/sap/documento.gif"><br>
+					<span>Presupuestos​</span>
 				</li>
-				<li style="width: 25%; text-align: center;" >
-					<img style="width: 50%;" src="images/icons/services/sap/lista-de-verificacion.gif"><br>
-					<span style="font-weight: bold;color: #4dbed4;font-size: 1.1vw;">Inventarios</span>
+				<li>
+					<img src="images/icons/services/sap/lista-de-verificacion.gif"><br>
+					<span>Inventarios</span>
 				</li>
-				<li style="width: 25%; text-align: center;" >
-					<img style="width: 50%;" src="images/icons/services/sap/paleta.gif"><br>
-					<span style="font-weight: bold;color: #4dbed4;font-size: 1.1vw;">Compras​</span>
+				<li>
+					<img src="images/icons/services/sap/paleta.gif"><br>
+					<span>Compras​</span>
 				</li>
-				<li style="width: 25%; text-align: center;" >
-					<img style="width: 50%;" src="images/icons/services/sap/presentacion.gif"><br>
-					<span style="font-weight: bold;color: #4dbed4;font-size: 1.1vw;">BI​</span>
+				<li>
+					<img src="images/icons/services/sap/presentacion.gif"><br>
+					<span>BI​</span>
 				</li>
 			</ul>
 
 		</li>
 		<li>
 
-			<iframe style="width: 100%; height: 32vw; border-top: 15px solid #fff; border-bottom: 15px solid #fff;" src="https://www.youtube.com/embed/MxXB8wWU6vg?start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
+			<iframe class="iframe-video" src="https://www.youtube.com/embed/MxXB8wWU6vg?start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
 
 		</li>
 	</ol>
@@ -100,78 +100,78 @@
 
 <!-- SOLUCIONES Y ÁREAS -->
 <div class="square-09">
-	<h2 style="color: #0000;">SOLUCIONES Y ÁREAS</h2>
+	<h2   style="color: #0000;">SOLUCIONES Y ÁREAS</h2>
 </div>
 <div class="square-12">
-	<h3 style=" font-weight: bold;color: #4dbed4; font-size: 1.5vw; font-weight: normal;" >SOLUCIONES Y ÁREAS</h3>
-	<ol>
-		<li style="width: 15%;" >
+	<h3 class="tilte-type-2" >SOLUCIONES Y ÁREAS</h3>
+	<ol class="box-icon-type-2" >
+		<li>
 			<br><br>
 			<img src="images/icons/services/sap/finanzas.png"><br><br>
 			<p>Finanzas fiscal</p>
 			<br><br>
 		</li>
-		<li style="width: 15%;" >
+		<li>
 			<br><br>
 			<img src="images/icons/services/sap/ventas.png"><br><br>
 			<p>Compras y ​Ventas​</p>
 			<br><br>
 		</li>
-		<li style="width: 15%;" >
+		<li>
 			<br><br>
 			<img src="images/icons/services/sap/computadora.png"><br><br>
 			<p>Analíticos</p>
 			<br><br>
 		</li>
-		<li style="width: 15%;" >
+		<li>
 			<br><br>
 			<img src="images/icons/services/sap/cloud-data.png"><br><br>
 			<p>Cloud</p>
 			<br><br>
 		</li>
-		<li style="width: 15%;" >
+		<li>
 			<br><br>
 			<img src="images/icons/services/sap/produccion.png"><br><br>
 			<p>Manufactura y Producción</p>
 			<br><br>
 		</li>
-		<li style="width: 15%;" >
+		<li>
 			<br><br>
 			<img src="images/icons/services/sap/mantenimiento.png"><br><br>
 			<p>Mantenimiento</p>
 			<br><br>
 		</li>
-		<li style="width: 15%;" >
+		<li>
 			<br><br>
 			<img src="images/icons/services/sap/policia.png"><br><br>
 			<p>Seguridad</p>
 			<br><br>
 		</li>
-		<li style="width: 15%;" >
+		<li>
 			<br><br>
 			<img src="images/icons/services/sap/datos.png"><br><br>
 			<p>Migraciones</p>
 			<br><br>
 		</li>
-		<li style="width: 15%;" >
+		<li>
 			<br><br>
 			<img src="images/icons/services/sap/planificacion.png"><br><br>
 			<p>Implementación</p>
 			<br><br>
 		</li>
-		<li style="width: 15%;" >
+		<li>
 			<br><br>
 			<img src="images/icons/services/sap/servicio-al-cliente.png"><br><br>
 			<p>Soporte</p>
 			<br><br>
 		</li>
-		<li style="width: 15%;" >
+		<li>
 			<br><br>
 			<img src="images/icons/services/sap/ventas (1).png"><br><br>
 			<p>Mejora continua</p>
 			<br><br>
 		</li>
-		<li style="width: 15%;" >
+		<li>
 			<br><br>
 			<img src="images/icons/sap-4.png" style="width: 100%;padding-bottom: 10px;border-bottom: 10px solid #4dbed4;" >
 			<br><br>
@@ -186,52 +186,52 @@
 	<h2>SERVICIOS DE CONSULTORÍA </h2>
 </div>
 <div class="square-12">
-	<ol>
-		<li style="width: 24%;" >
+	<ol class="box-icon-type-2" > 
+		<li >
 			<br><br>
-			<img style="width: 24%;" src="images/icons/services/sap/bombilla.png"><br><br>
+			<img src="images/icons/services/sap/bombilla.png"><br><br>
 			<p>Implementación S/4HANA</p>
 			<br><br>
 		</li>
-		<li style="width: 24%;" >
+		<li >
 			<br><br>
-			<img style="width: 24%;" src="images/icons/services/sap/gear (1).png"><br><br>
+			<img src="images/icons/services/sap/gear (1).png"><br><br>
 			<p>Upgrade ECC - S/4 HANNA</p>
 			<br><br>
 		</li>
-		<li style="width: 24%;" >
+		<li >
 			<br><br>
-			<img style="width: 24%;" src="images/icons/services/sap/integracion.png"><br><br>
+			<img src="images/icons/services/sap/integracion.png"><br><br>
 			<p>ROLOUT integración de ​nuevas sociedades​</p>
 			<br><br>
 		</li>
-		<li style="width: 24%;" >
+		<li >
 			<br><br>
-			<img style="width: 24%;" src="images/icons/services/sap/migracion.png"><br><br>
+			<img src="images/icons/services/sap/migracion.png"><br><br>
 			<p>Migración ​ECC- S74 HANNA</p>
 			<br><br>
 		</li>
-		<li style="width: 24%;" >
+		<li >
 			<br><br>
-			<img style="width: 24%;" src="images/icons/services/sap/soporte-tecnico.png"><br><br>
+			<img src="images/icons/services/sap/soporte-tecnico.png"><br><br>
 			<p>Remediaciones ​TÉCNICA-FUNCIONAL</p>
 			<br><br>
 		</li>
-		<li style="width: 24%;" >
+		<li >
 			<br><br>
-			<img style="width: 24%;" src="images/icons/services/sap/sustentabilidad.png"><br><br>
+			<img src="images/icons/services/sap/sustentabilidad.png"><br><br>
 			<p>Desarrollo ​FABRICA DE SOFTWARE</p>
 			<br><br>
 		</li>
-		<li style="width: 24%;" >
+		<li >
 			<br><br>
-			<img style="width: 24%;" src="images/icons/services/sap/soporte-tecnico (1).png"><br><br>
+			<img src="images/icons/services/sap/soporte-tecnico (1).png"><br><br>
 			<p>Soporte AMS ON DEMAND ​y bolsas de horas</p>
 			<br><br>
 		</li>
-		<li style="width: 24%;" >
+		<li >
 			<br><br>
-			<img src="images/icons/sap-icon-3.png" style="width: 90%;padding-bottom: 10px;border-bottom: 10px solid #4dbed4;" >
+			<img src="images/icons/sap-icon-3.png" style="width: 100%;padding-bottom: 10px;border-bottom: 10px solid #4dbed4;" >
 			<br><br>
 		</li>
 	</ol>
@@ -242,54 +242,54 @@
 	<h2>FACTORES DE ÉXITO</h2>
 </div>
 <div class="square-12" style="background: #000;" >
-	<ol>
-		<li style="width:20%;" >
-			<img style="width:31%;" src="images/icons/services/sap/equipo.png"><br><br>
+	<ol class="box-icon-type-2" >
+		<li>
+			<img src="images/icons/services/sap/equipo.png"><br><br>
 			<p style="color: #fff;" >Armado del equipo <br><span style="color: #4dbed4" >100% ​</span><br>disponibilidad</p>
 			<br><br>
 		</li>
-		<li style="width:20%;" >
-			<img style="width:31%;" src="images/icons/services/sap/junta.png"><br><br>
+		<li>
+			<img src="images/icons/services/sap/junta.png"><br><br>
 			<p style="color: #fff;" >Compromiso de <span style="color: #4dbed4" >DIRECCIÓN</span> en todas las etapas del proyecto ​</p>
 			<br><br>
 		</li>
-		<li style="width:20%;" >
-			<img style="width:31%;" src="images/icons/services/sap/tablero.png"><br><br>
+		<li>
+			<img src="images/icons/services/sap/tablero.png"><br><br>
 			<p style="color: #fff;" >Datos limpios ​y <br>en tiempo​</p>
 			<br><br>
 		</li>
-		<li style="width:20%;" >
-			<img style="width:31%;" src="images/icons/services/sap/lapiz.png"><br><br>
+		<li>
+			<img src="images/icons/services/sap/lapiz.png"><br><br>
 			<p style="color: #fff;" >Evitar uso de sistemas alternos <span style="color: #4dbed4" >(EXCEL)​</span></p>
 			<br><br>
 		</li>
-		<li style="width:20%;" >
-			<img style="width:31%;" src="images/icons/services/sap/investigar.png"><br><br>
+		<li>
+			<img src="images/icons/services/sap/investigar.png"><br><br>
 			<p style="color: #fff;" >Apego a la metodología <br>de <span style="color: #4dbed4" >TUTUM​</span></p>
 			<br><br>
 		</li>
-		<li style="width:20%;" >
-			<img style="width:31%;" src="images/icons/services/sap/compromiso.png"><br><br>
+		<li>
+			<img src="images/icons/services/sap/compromiso.png"><br><br>
 			<p style="color: #fff;" ><span style="color: #4dbed4" >COMPROMISO</span> de usuarios en etapas de capacitación, entrenamiento y pruebas​</p>
 			<br><br>
 		</li>
-		<li style="width:20%;" >
-			<img style="width:31%;" src="images/icons/services/sap/estandar.png"><br><br>
+		<li>
+			<img src="images/icons/services/sap/estandar.png"><br><br>
 			<p style="color: #fff;" >Mantenerse en el <span style="color: #4dbed4" >ESTÁNDAR</span> y mejores <span style="color: #4dbed4" >PRÁCTICAS​</span></p>
 			<br><br>
 		</li>
-		<li style="width:20%;" >
-			<img style="width:31%;" src="images/icons/services/sap/retroalimentacion.png"><br><br>
+		<li>
+			<img src="images/icons/services/sap/retroalimentacion.png"><br><br>
 			<p style="color: #fff;" >El proyecto debe de ser <span style="color: #4dbed4" >COMUNICADO</span> a toda la empresa​</p>
 			<br><br>
 		</li>
-		<li style="width:20%;" >
-			<img style="width:31%;" src="images/icons/services/sap/plan-de-negocios.png"><br><br>
+		<li>
+			<img src="images/icons/services/sap/plan-de-negocios.png"><br><br>
 			<p style="color: #fff;" >Cumplimiento de <br><span style="color: #4dbed4" >PLAN</span> ​de trabajo​</p>
 			<br><br>
 		</li>
-		<li style="width:20%;" >
-			<img style="width:31%;" src="images/icons/services/sap/lupa.png"><br><br>
+		<li>
+			<img src="images/icons/services/sap/lupa.png"><br><br>
 			<p style="color: #fff;" >Evitar el excesivo <span style="color: #4dbed4" >ANÁLISIS</span> de cada definición que lleva a la parálisis y a la no toma decisiones​</p>
 			<br><br>
 		</li>	
@@ -301,7 +301,7 @@
 	<ol>
 		<li>
 
-			<p style="padding: 10% 0 0 15%;">
+			<p style="padding: 5% 10%;">
 				<span>PRODUCTOS SAP Y COMPLEMENTOS</span><br><br>
 				° eDocument ​<br>
 				° bank comunication  Managment​<br>

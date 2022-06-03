@@ -15,7 +15,7 @@
 <div class="square-11">
 	<ul>
 		<li>
-			<p>TUTUM<br><span style="font-size: 0.9vw;">HIS</span></p>
+			<p>TUTUM<br><span>HIS</span></p>
 			<img src="images/icons/HIS.png" >
 		</li>
 		<li>
@@ -37,21 +37,21 @@
 			<ul style="justify-content: center; padding-top: 0;">
 				<li>
 					<p style="text-align: center;">
-						<img style="width: 35%; margin:1% 25%;" src="images/icons/services/hospitales/medico-paciente.png" ><br><br>
-						Implementación​<span style="font-size: 0.9vw;"> HIS</span>
+						<img src="images/icons/services/hospitales/medico-paciente.png" ><br><br>
+						Implementación​<span> HIS</span>
 					</p>
 				</li>
 				<li>
 					<p style="text-align: center;">
 						
-						<img style="width: 35%; margin:1% 25%;" src="images/icons/services/hospitales/servidor-en-la-nube.png" ><br><br>
-						Software ​as a<span style="font-size: 0.9vw;"> Service</span>
+						<img src="images/icons/services/hospitales/servidor-en-la-nube.png" ><br><br>
+						Software ​as a<span> Service</span>
 					</p>
 				</li>
 				<li>
 					<p style="text-align: center;">
-						<img style="width: 35%; margin:1% 25%;" src="images/icons/services/hospitales/servidores.png" ><br><br>
-						<span style="font-size: 0.9vw;">On </span>Premise​
+						<img src="images/icons/services/hospitales/servidores.png" ><br><br>
+						<span>On </span>Premise​
 					</p>
 				</li>
 			</ul>
@@ -77,50 +77,50 @@
 	</ol>
 </div>
 <div class="square-12" style="background: #000; padding: 1% 1%;" >
-	<ol>
-		<li style="width:12%;" >
+	<ol class="box-icon-type-4">
+		<li>
 			<br><br>
 			<img src="images/icons/services/hospitales/laptop.png"><br><br>
 			<p >HIS​</p>
 			<br><br>
 		</li>
-		<li style="width:12%;" >
+		<li>
 			<br><br>
 			<img src="images/icons/services/hospitales/finanzas.png"><br><br>
 			<p>ERP​</p>
 			<br><br>
 		</li>
-		<li style="width:12%;" >
+		<li>
 			<br><br>
 			<img src="images/icons/services/hospitales/infraestructura.png"><br><br>
 			<p>Infraestructura​<br>tecnológica​</p>
 			<br><br>
 		</li>
-		<li style="width:12%;" >
+		<li>
 			<br><br>
 			<img src="images/icons/services/hospitales/operacion.png"><br><br>
 			<p>Operación ​</p>
 			<br><br>
 		</li>
-		<li style="width:12%;" >
+		<li>
 			<br><br>
 			<img src="images/icons/services/hospitales/equipo.png"><br><br>
 			<p>Capacitación​</p>
 			<br><br>
 		</li>
-		<li style="width:12%;" >
+		<li>
 			<br><br>
 			<img src="images/icons/services/hospitales/proceso.png"><br><br>
 			<p>PAET​</p>
 			<br><br>
 		</li>
-		<li style="width:12%;" >
+		<li>
 			<br><br>
 			<img src="images/icons/services/hospitales/servicio-al-cliente.png"><br><br>
 			<p>CAU​</p>
 			<br><br>
 		</li>
-		<li style="width:12%;" >
+		<li>
 			<br><br>
 			<img src="images/icons/services/hospitales/seguridad-informatica.png"><br><br>
 			<p>SOC</p>
@@ -191,26 +191,30 @@
 	</ol>
 </div>
 <div class="square-12" style="background: #000; padding: 1% 1%;" >
-	<ol style="justify-content: center;">
-		<li style="width:18%;" >
+	<ol class="box-icon-type-4">
+		<li>
 			<br><br>
-			<img style="width: 30%;" src="images/icons/services/hospitales/HIS.png"><br><br>
+			<img src="images/icons/services/hospitales/HIS.png"><br><br>
 			<p >TUTUM​ HIS ​</p>
-		</li>
-		<li style="width:18%;" >
 			<br><br>
-			<img style="width: 30%;" src="images/icons/services/hospitales/riesgo.png"><br><br>
+		</li>
+		<li>
+			<br><br>
+			<img src="images/icons/services/hospitales/riesgo.png"><br><br>
 			<p>Módulos Administrativos</p>
-		</li>
-		<li style="width:18%;" >
 			<br><br>
-			<img style="width: 30%;" src="images/icons/services/hospitales/salud.png"><br><br>
+		</li>
+		<li>
+			<br><br>
+			<img src="images/icons/services/hospitales/salud.png"><br><br>
 			<p>Módulos Clínicos</p>
-		</li>
-		<li style="width:18%;" >
 			<br><br>
-			<img style="width: 30%;" src="images/icons/services/hospitales/proceso123.png"><br><br>
+		</li>
+		<li>
+			<br><br>
+			<img src="images/icons/services/hospitales/proceso123.png"><br><br>
 			<p>Módulos de Configuración</p>
+			<br><br>
 		</li>
 	</ol>
 </div>
@@ -221,20 +225,20 @@
 				El objetivo de <strong>TUTUM SIH</strong> es implementar un Sistema Integral de Información Hospitalaria (SIH), mediante el cual se logre una comunicación permanente entre todas las áreas del Sistema Hospitalario, siendo éste capaz de transmitir texto, imágenes y videos permitiendo de esta forma, realizar por parte del Personal Médico y Administrativo una gestión oportuna, clara y efectiva, coadyuvando al logro de los indicadores de productividad y estándares de servicios.
 			</p>
 			<br><br>
-			<ul style="flex-wrap: wrap; justify-content: center;">
-				<li style="text-align: center; width: 25%;" >
+			<ul class="box-icon-type-3">
+				<li style="text-align: center;" >
 					<img style="width: 40%; margin: 1% 30%;" src="images/icons/services/hospitales/informatica.png">
 					<span style="color: #4dbed4;" >Sistema integral</span>
 				</li>
-				<li style="text-align: center; width: 25%;" >
+				<li style="text-align: center;" >
 					<img style="width: 40%; margin: 1% 30%;" src="images/icons/services/hospitales/rayos-x.png">
 					<span style="color: #4dbed4;" >Transmisión de datos</span>
 				</li>
-				<li style="text-align: center; width: 25%;" >
+				<li style="text-align: center;" >
 					<img style="width: 40%; margin: 1% 30%;" src="images/icons/services/hospitales/paciente.png">
 					<span style="color: #4dbed4;" >Operación</span>
 				</li>
-				<li style="text-align: center; width: 25%;" >
+				<li style="text-align: center;" >
 					<img style="width: 40%; margin: 1% 30%;" src="images/icons/services/hospitales/investigacion.png">
 					<span style="color: #4dbed4;" >Administración</span>
 				</li>
@@ -256,7 +260,7 @@
 <!-- MÓDULOS ADMINISTRATIVOS -->
 <div class="square-12" style="background: #000;" >
 	<h2 style="color: #4dbed4;">MÓDULOS ADMINISTRATIVOS</h2><br><br>
-	<ol style="justify-content: center;">
+	<ol class="box-icon-type-2">
 		<li style="width:25%;color:#fff; " >
 			<img style="width: 23%;" src="images/icons/services/hospitales/proveedor.png"><br><br>
 			<p style="color: #fff;" >Administración y proveedores</p>
@@ -304,7 +308,7 @@
 <!-- MÓDULOS CLÍNICOS -->
 <div class="square-12">
 	<h2 style="color: #4dbed4;">MÓDULOS CLÍNICOS</h2>
-	<ol style="justify-content: center;">
+	<ol  class="box-icon-type-2">
 		<li style="width:13%;">
 			<br><br>
 			<img style="width: 50%;" src="images/icons/services/hospitales/historial-medico.png"><br><br>
@@ -407,7 +411,7 @@
 <!-- MÓDULOS ADMINISTRATIVOS -->
 <div class="square-12" style="background: #000;" >
 	<h2 style="color: #4dbed4;">MÓDULOS ADMINISTRATIVOS<br><br><br></h2>
-	<ol style="justify-content: center;">
+	<ol class="box-icon-type-2">
 		<li style="width:25%;color:#fff; " >
 			<img style="width: 23%;" src="images/icons/services/hospitales/la-seguridad.png"><br><br>
 			<p style="color: #fff;" >Seguridad​</p>

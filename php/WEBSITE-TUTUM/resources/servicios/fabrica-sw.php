@@ -15,26 +15,26 @@
 	</ol>
 </div>
 <div class="square-12" style="background: #000; padding: 1% 1%;" >
-	<ol>
-		<li style="width:20%; text-align: center;" >
+	<ol class="box-icons-2" >
+		<li>
 			<br><br>
 			<img style="width: 26%;" src="images/icons/services/fw/seo.png"><br><br>
 			<p style="color: #fff;font-weight: normal;">Desarrollo WEB​ Personalizado</p>
 			<br><br>
 		</li>
-		<li style="width:20%; text-align: center;" >
+		<li>
 			<br><br>
 			<img style="width: 26%;" src="images/icons/services/fw/desarrollo-de-aplicaciones.png"><br><br>
 			<p style="color: #fff;font-weight: normal;">Mantenimiento ​de Aplicaciones</p>
 			<br><br>
 		</li>
-		<li style="width:20%; text-align: center;" >
+		<li>
 			<br><br>
 			<img style="width: 26%;" src="images/icons/services/fw/aplicaciones.png"><br><br>
 			<p style="color: #fff;font-weight: normal;">Aplicaciones Personalizadas</p>
 			<br><br>
 		</li>
-		<li style="width:20%; text-align: center;" >
+		<li>
 			<br><br>
 			<img style="width: 26%;" src="images/icons/services/fw/desarrollo-web.png"><br><br>
 			<p style="color: #fff;font-weight: normal;">Implementación ​y Despliegue</p>
@@ -92,20 +92,20 @@
 	</ol>
 </div>
 <div class="square-12" style="background: #000; padding: 1% 1%;" >
-	<ol>
-		<li style="width:20%;" >
+	<ol class="box-icons-2"> 
+		<li>
 			<br><br>
 			<img style="width: 26%;" src="images/icons/services/fw/mantenimiento-web.png"><br><br>
 			<p style="color: #fff;font-weight: normal;">Mantenimiento y modernización​</p>
 			<br><br>
 		</li>
-		<li style="width:20%;" >
+		<li>
 			<br><br>
 			<img style="width: 26%;" src="images/icons/services/fw/rendimiento.png"><br><br>
 			<p style="color: #fff;font-weight: normal;">Escalabilidad y rendimiento</p>
 			<br><br>
 		</li>
-		<li style="width:20%;" >
+		<li>
 			<br><br>
 			<img style="width: 26%;" src="images/icons/services/fw/ingenieria-de-software.png"><br><br>
 			<p style="color: #fff;font-weight: normal;">Infraestructura de software​</p>
@@ -168,26 +168,26 @@
 	</ol>
 </div>
 <div class="square-12" style="background: #000; padding: 1% 1%;" >
-	<ol>
-		<li style="width:20%;" >
+	<ol class="box-icons-2">
+		<li>
 			<br><br>
 			<img style="width: 28%;" src="images/icons/services/fw/ayudar.png"><br><br>
 			<p style="color: #fff;font-weight: normal;">Implementación en conjunto con mesa de ayuda</p>
 			<br><br>
 		</li>
-		<li style="width:20%;" >
+		<li>
 			<br><br>
 			<img style="width: 28%;" src="images/icons/services/fw/evaluacion.png"><br><br>
 			<p style="color: #fff;font-weight: normal;">Evaluación de necesidades</p>
 			<br><br>
 		</li>
-		<li style="width:20%;" >
+		<li>
 			<br><br>
 			<img style="width: 28%;" src="images/icons/services/fw/gestion-de-proyectos.png"><br><br>
 			<p style="color: #fff;font-weight: normal;">Tecnologías​ mejoradas</p>
 			<br><br>
 		</li>
-		<li style="width:20%;" >
+		<li>
 			<br><br>
 			<img style="width: 28%;" src="images/icons/services/fw/equipo.png"><br><br>
 			<p style="color: #fff;font-weight: normal;">Acompañamiento</p>

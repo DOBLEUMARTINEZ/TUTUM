@@ -28,7 +28,7 @@
 		</li>
 	</ul>
 </div>
-
+	
 <!-- EXPERIENCIA EN OPERACIÓN -->
 <div class="square-06">
 	<h2>EXPERIENCIA EN OPERACIÓN</h2>
@@ -38,26 +38,26 @@
 			<p>
 				Contamos con experiencia en la Operación de proyectos en seguridad, hospitalarios y corporativos, teniendo como objetivo el asegurar la continua operación de los sistemas de nuestros clientes
 			</p>
-			<center style="text-align: center; font-weight: bold;color: #4dbed4; font-size: 1.5vw;" >CONTRATOS</center>
+			<center class=" sub-title-type-1" >CONTRATOS</center>
 			<ul>
 				<li style=" width: 20%; text-align: center; font-weight: bold;color: #4dbed4;">
-					<img style="width: 80%;" src="images/icons/services/operacion/medicamento (1).gif">
+					<img style="width: 80%;" src="images/icons/services/operacion/medicamento (1).gif"><br>
 					Salud
 				</li>
 				<li style=" width: 20%; text-align: center; font-weight: bold;color: #4dbed4;">
-					<img style="width: 80%;" src="images/icons/services/operacion/alerta.gif">
+					<img style="width: 80%;" src="images/icons/services/operacion/alerta.gif"><br>
 					Seguridad​
 				</li>
 				<li style=" width: 20%; text-align: center; font-weight: bold;color: #4dbed4;">
-					<img style="width: 80%;" src="images/icons/services/operacion/grafico-de-linea.gif">
+					<img style="width: 80%;" src="images/icons/services/operacion/grafico-de-linea.gif"><br>
 					ERP​
 				</li>
 				<li style=" width: 20%; text-align: center; font-weight: bold;color: #4dbed4;">
-					<img style="width: 80%;" src="images/icons/services/operacion/latido-del-corazon.gif">
+					<img style="width: 80%;" src="images/icons/services/operacion/latido-del-corazon.gif"><br>
 					HIS​
 				</li>
 				<li style=" width: 20%; text-align: center; font-weight: bold;color: #4dbed4;">
-					<img style="width: 80%;" src="images/icons/services/operacion/6.- hacker.gif">
+					<img style="width: 80%;" src="images/icons/services/operacion/6.- hacker.gif"><br>
 					Ciber​ Seguridad​
 				</li>
 			</ul>
@@ -88,59 +88,60 @@
 	</ol>
 </div>
 <div class="square-12" style="background: #000;" >
-	<h3 style="color: #4dbed4;">SERVICIOS</h3>
-	<ol style="justify-content: center;">
-		<li style="width: 20%;" >
+	<h3 class="tilte-type-2">SERVICIOS</h3>
+
+	<ol class="box-icon-type-2">
+		<li >
 			<br><br>
-			<img style="width: 31%;" src="images/icons/services/operacion/infraestructura.png"><br><br>
+			<img src="images/icons/services/operacion/infraestructura.png"><br><br>
 			<p>Infraestructura​ tecnológica​</p>
 			<br><br>
 		</li>
-		<li style="width: 20%;" >
+		<li >
 			<br><br>
-			<img style="width: 31%;" src="images/icons/services/operacion/operacion.png"><br><br>
+			<img src="images/icons/services/operacion/operacion.png"><br><br>
 			<p>Operación ​</p>
 			<br><br>
 		</li>
-		<li style="width: 20%;" >
+		<li >
 			<br><br>
-			<img style="width: 31%;" src="images/icons/services/operacion/llave-inglesa.png"><br><br>
+			<img src="images/icons/services/operacion/llave-inglesa.png"><br><br>
 			<p>Refaccionamiento​</p>
 			<br><br>
 		</li>
-		<li style="width: 20%;" >
+		<li >
 			<br><br>
-			<img style="width: 31%;" src="images/icons/services/operacion/equipo.png"><br><br>
+			<img src="images/icons/services/operacion/equipo.png"><br><br>
 			<p>Capacitación​</p>
 			<br><br>
 		</li>
-		<li style="width: 20%;" >
+		<li >
 			<br><br>
-			<img style="width: 31%;" src="images/icons/services/operacion/proceso.png"><br><br>
+			<img src="images/icons/services/operacion/proceso.png"><br><br>
 			<p>PAET​</p>
 			<br><br>
 		</li>
-		<li style="width: 20%;" >
+		<li >
 			<br><br>
-			<img style="width: 31%;" src="images/icons/services/operacion/seguridad-informatica.png"><br><br>
+			<img src="images/icons/services/operacion/seguridad-informatica.png"><br><br>
 			<p>SOC</p>
 			<br><br>
 		</li>
-		<li style="width: 20%;" >
+		<li >
 			<br><br>
-			<img style="width: 31%;" src="images/icons/services/operacion/servicio-al-cliente.png"><br><br>
+			<img src="images/icons/services/operacion/servicio-al-cliente.png"><br><br>
 			<p>CAU</p>
 			<br><br>
 		</li>
-		<li style="width: 20%;" >
+		<li >
 			<br><br>
-			<img style="width: 31%;" src="images/icons/services/operacion/laptop.png"><br><br>
+			<img src="images/icons/services/operacion/laptop.png"><br><br>
 			<p>HIS​</p>
 			<br><br>
 		</li>
-		<li style="width: 20%;" >
+		<li >
 			<br><br>
-			<img style="width: 31%;" src="images/icons/services/operacion/finanzas.png"><br><br>
+			<img src="images/icons/services/operacion/finanzas.png"><br><br>
 			<p>ERP</p>
 			<br><br>
 		</li>
@@ -152,7 +153,7 @@
 <div class="square-09">
 	<div>
 		<div>
-			<h4 style="width: 60%; margin-left: 20%; text-align: center; padding:10% 2%; background: #000;color: #fff;" >ADMINISTRACION ​DE SOLUCIONES</h4>
+			<h4 class="tilte-type-1" >ADMINISTRACION ​DE SOLUCIONES</h4>
 			<h3 style="text-transform: uppercase; font-weight: normal;" >Soluciones Infra estructura y Seguridad</h3>
 			<ol>
 				<li>
@@ -181,7 +182,7 @@
 			</ol>
 			
 		</div>
-		<div>
+		<div> 
 			<h3 style="text-transform: uppercase; font-weight: normal;text-align: center; padding-top: 10%;" >Software especializado​</h3>
 			<ol style="padding: " >
 				<li style="position: relative; width: 33%;padding: 0;text-align: center;">
