@@ -36,6 +36,7 @@ echo '<body>'; // INICIO CUERPO
 
         switch ($servicio) {
           case 'proyectos':
+            $service = 'DESARROLLO DE PROYECTOS TI';
             include("resources/servicios/background.php"); // BACKGRAUND 
             include("resources/servicios/menu.php"); // MENU 
             include("resources/servicios/proyectos.php"); // CONTENIDO 
@@ -43,6 +44,7 @@ echo '<body>'; // INICIO CUERPO
             break;
 
           case 'operacion':
+            $service = 'OPERACIÓN DE PROYECTOS';
             include("resources/servicios/background.php"); // BACKGRAUND 
             include("resources/servicios/menu.php"); // MENU 
             include("resources/servicios/operacion.php"); // CONTENIDO 
@@ -50,6 +52,7 @@ echo '<body>'; // INICIO CUERPO
             break;
 
           case 'cau':
+            $service = 'CENTRO DE ATENCIÓN A USUARIOS​';
             include("resources/servicios/background.php"); // BACKGRAUND 
             include("resources/servicios/menu.php"); // MENU 
             include("resources/servicios/cau.php");  // CONTENIDO
@@ -57,6 +60,7 @@ echo '<body>'; // INICIO CUERPO
             break;
 
           case 'sap':
+            $service = 'SAP';
             include("resources/servicios/background.php"); // BACKGRAUND 
             include("resources/servicios/menu.php"); // MENU 
             include("resources/servicios/sap.php"); // CONTENIDO
@@ -64,6 +68,7 @@ echo '<body>'; // INICIO CUERPO
             break;
 
           case 'hospitales':
+            $service = 'SOLUCIONES HOSPITALARIAS​';
             include("resources/servicios/background.php"); // BACKGRAUND 
             include("resources/servicios/menu.php"); // MENU 
             include("resources/servicios/hospitales.php"); // CONTENIDO
@@ -71,6 +76,7 @@ echo '<body>'; // INICIO CUERPO
             break;
 
           case 'ciberseguridad':
+            $service = 'CIBERSEGURIDAD';
             include("resources/servicios/background.php"); // BACKGRAUND 
             include("resources/servicios/menu.php"); // MENU 
             include("resources/servicios/ciberseguridad.php");// CONTENIDO
@@ -78,16 +84,17 @@ echo '<body>'; // INICIO CUERPO
             break;
 
           case 'fabrica-sw':
+            $service = 'FABRICA DE SOFTWARE​';
             include("resources/servicios/background.php"); // BACKGRAUND 
             include("resources/servicios/menu.php"); // MENU 
             include("resources/servicios/fabrica-sw.php");// CONTENIDO
             include("resources/servicios/download-pdf.php"); // PDF
             break;
 
-
           
           default:
             $servicio='menu';
+            $service='menu';
             include("resources/servicios/background.php"); // BACKGROUND 
             include("resources/servicios/menu.php"); // MENU DE SERVICIOS
             break;

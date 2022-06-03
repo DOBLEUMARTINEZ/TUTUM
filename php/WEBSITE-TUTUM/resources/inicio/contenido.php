@@ -1,10 +1,10 @@
 
 <!-- BANNER INICIO -->
-<div style="position: relative;">
+<div id="square-banner-index">
 
   <!-- BACKGROUND VIDEO -->
-  <video class="video-slide" loading="lazy" style="position: fixed; width: 100%; z-index: -99" src="https://www.tutum.com.mx/video/SOLUCIONES.mp4" autoplay="" muted="" loop=""></video>
-  <video class="video-slide" loading="lazy" src="https://www.tutum.com.mx/video/SOLUCIONES.mp4" autoplay="" muted="" loop="" style="opacity: 0;"></video>
+  <video class="video-slide bann-fixed" loading="lazy" src="https://www.tutum.com.mx/video/SOLUCIONES.mp4" autoplay="" muted="" loop=""></video>
+  <video class="video-slide" loading="lazy" src="https://www.tutum.com.mx/video/SOLUCIONES.mp4" style="opacity: 0" autoplay="" muted="" loop=""></video>
 
   <!-- TUTU LOGO -->
   <div class="square-logo-big" >
@@ -71,9 +71,6 @@
 
 <!-- VISITA NUESTRAS REDES​ -->
 <div class="square-03" >
-
-  <br><br><br>
-
   <div>
     <h2>VISITA NUESTRAS REDES​</h2>
     <ul>
@@ -103,10 +100,10 @@
     </div>
   </div>
 
-  <div>
-    <div style="width: 100%; position: relative; padding-top: 45%;">
-     <iframe width="100%" height="300" src="https://www.youtube.com/embed/MxXB8wWU6vg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+  <div class="video-yt-1">
+    
+     <iframe src="https://www.youtube.com/embed/MxXB8wWU6vg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
   </div>
 </div>
 
@@ -115,17 +112,16 @@
   <ul>
     <li><img src="images/logo/LOGO-WHITE.png" onclick="window.location.href='./';" style="width: 100%;"></li>
     <li><h4>ISO 9001:2015​ <br>ISO/IEC 27001:2013</h4></li>
-    <li onclick="window.open('https://api.whatsapp.com/send?phone=525579591149&text=Hola!%20me%20pueden%20apoyar?');" ><i class="fab fa-whatsapp"></i></li>
   </ul>
   <ol>
-    <li>USUARIOS CAU</li>
-    <li onclick="window.location.href='./prensa';">PRENSA</li>
-    <li>CONTACTO</li>
-    <li>ACCEDER</li>
+    <li onclick="window.location.href='https://cau.tutum.com.mx/dwp/app/#/account/login?returnUrl=%2F';">USUARIOS CAU</li>
+    <li onclick="window.location.href='./prensa#start';">PRENSA</li>
+    <li onclick="window.location.href='./contacto#start';">CONTACTO</li>
+    <li onclick="window.location.href='./';">ACCEDER</li>
   </ol>
   <div>
-    <i class="fas fa-phone"></i> Of. +52 (55) 55 79 59 11 77<br>
-    <i class="fab fa-whatsapp"></i> Whatsapp 55 79 59 1149
+    <a style="color: #fff;" href="tel:+525579591177"><i class="fas fa-phone"></i> Of. +52 (55) 55 79 59 11 77</a><br>
+    <a style="color: #fff;" href="https://api.whatsapp.com/send?phone=525579591149&text=Hola!%20me%20pueden%20apoyar?"><i class="fab fa-whatsapp"></i> Whatsapp 55 79 59 1149</a>
   </div>
 </div>
 

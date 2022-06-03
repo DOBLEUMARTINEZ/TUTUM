@@ -21,7 +21,7 @@
 	  	<!-- CUADRO DE TEXTO -->
 	  	<div class="square-logo-big" >
 		    <img src="<?php echo $url;?>images/logo/LOGO-WHITE.png" onclick="window.location.href='./';">
-		    <h2>SERVICIOS</h2>
+		    <h2><?php echo  strtoupper($service); ?></h2>
 		    <i class="fas fa-chevron-down arrow-down" onclick="window.location.href='#start'"></i>
 	  	</div>
 

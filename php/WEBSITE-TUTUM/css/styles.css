@@ -3109,6 +3109,40 @@
         display: none!important;
     }
 
+    .bann-fixed{
+        position: fixed;
+        width: 100%;
+        z-index: -99
+    }
+
+    .desktop {
+
+    }
+
+    .mobil {
+        display: flex;
+    }
+
+    /**/
+
+    .video-yt-1{
+        position: relative;
+        padding-top: 12%;
+    }
+
+    .video-yt-1 iframe{
+        width: 100%;
+        height: 20vw;
+        margin: 0% 0%;
+    }
+
+
+    /**/
+
+   #square-banner-index{
+        position: relative;
+   }
+
     @media(max-width: 2560px){
 
     }
@@ -3155,9 +3189,26 @@
 
     @media(max-width: 990px ){
 
-        .hr-lateral-content {
-            height: 32em;
+        .desktop {
+            display: none;
         }
+
+        .mobil {
+            display: block;
+        }
+
+        /* BANNER INDEX */
+
+            #square-banner-index{
+                position: relative;
+                padding-bottom: 75%;
+            }
+
+           .bann-fixed{
+                height: 100%;
+                width: unset;
+                left: -80%;
+            }
 
         /* CABECERA */
             .container-header-mobil{
@@ -3171,18 +3222,18 @@
             .head{
                 padding: 0% 1%;
                 margin: 0;
+                background: #000;
+            }
+
+            .head:hover{
+                background: #000;
             }
 
         /* SILDER */
 
-            .video-slide{
-                width:auto;
-                height: 100%;
-            }
-
             .box-slider {
                 width: 100%;
-                bottom: 25%;
+                bottom: 100%;
                 border-left: 0px solid #26cfe0;
                 border-bottom: 5px solid #26cfe0;
                 padding: 2% 0;
@@ -3213,6 +3264,104 @@
                 display: block;
             }
 
+        /* CIRCULOS INFORMACION */
+            .square-02 ul {
+                flex-wrap: wrap;
+            }
+
+            .square-02 ul > li{
+                width: 26vw;
+                height: 26vw;
+                margin: 3vw 0vw;
+                border: 1vw solid #4DBED4;
+            }
+
+            .square-02 ul>li>h3 {
+                font-size: 5vw;
+            }
+
+            .square-02 ul>li>p {
+                font-size: 1.5vw;
+            }
+
+            .square-02 > p {
+                font-size: 2.5vw;
+            }
+
+        /* CUADROS  SECCIONES  */
+            .square-02 ol {
+                flex-wrap: wrap;
+            }
+
+            .square-02 ol > li {
+                background: #fff;
+                width: 40vw;
+                height: 30vw;
+                margin-bottom: 5vw;
+            }
+
+        /* BLOK SOCIAL MEDIA */
+
+            .square-03 > div {
+                width: 50%;
+            }
+
+            .square-03 h2 {
+                width: 100%;
+                background: #000;
+                color: #fff;
+                margin: 0% 0%;
+                padding: 19% 5%;
+                font-size: 2.3vw;
+            }
+
+            .square-03 div>ul {
+                padding: 10% 0%;
+            }
+
+            .square-03 div>ul>li {
+                width: 12vw;
+                height: 12vw;
+                font-size: 4.3vw;
+                margin: 1vw 0 1vw 0;
+            }
+
+            .video-yt-1 {
+                width: 100%!important;
+                position: relative;
+                padding-top: 0%;
+            }
+
+            .video-yt-1 iframe {
+                width: 100%;
+                height: 35vw;
+                margin: 0% 0%;
+            }
+
+            .square-footer-index {
+                padding-bottom: 4%;
+            }
+
+            .square-footer-index > ul > li {
+                width: 50%;
+            }
+
+            .square-footer-index > ul > li > h4 {
+                font-size: 2vw;
+            }
+
+            .square-footer-index > ol > li {
+                margin: 2% 0%;
+
+            }
+
+            .square-footer-index > div {
+                left: 2vw;
+                bottom: 1vw;
+                line-height: 2.8vw;
+                font-size: 2vw;
+            }
+
         /* MENU SERVICIOS CUADROS */
 
             .menu-services-1 {
@@ -3230,10 +3379,7 @@
             }
 
         /* BACKAGROUND DE SECCIONES  */
-            .video-slide{
-                width:auto;
-                height: 100%;
-            }
+            
 
             .background-section {
                 width: auto;
