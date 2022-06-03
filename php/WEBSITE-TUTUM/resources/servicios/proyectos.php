@@ -28,28 +28,28 @@
 				Desarrollamos soluciones integrales de TI con la mejor tecnología del mercado e implementada con la mas alta calidad.
 			</p>
 
-			<ul>
-				<li style="width: 25%; text-align: center;" >
-					<img style="width: 50%;" src="images/icons/services/proyectos/medicamento.gif"><br><br>
-					<span style="font-weight: bold;color: #4dbed4;font-size: 1.1vw;">Salud</span>
+			<ul class="box-icons-1" >
+				<li>
+					<img src="images/icons/services/proyectos/medicamento.gif"><br><br>
+					<span>Salud</span>
 				</li>
-				<li style="width: 25%; text-align: center;" >
-					<img style="width: 50%;" src="images/icons/services/proyectos/alerta.gif"><br><br>
-					<span style="font-weight: bold;color: #4dbed4;font-size: 1.1vw;">Seguridad​</span>
+				<li>
+					<img src="images/icons/services/proyectos/alerta.gif"><br><br>
+					<span>Seguridad​</span>
 				</li>
-				<li style="width: 25%; text-align: center;" >
-					<img style="width: 50%;" src="images/icons/services/proyectos/grafico-de-linea.gif"><br><br>
-					<span style="font-weight: bold;color: #4dbed4;font-size: 1.1vw;">Corporativo</span>
+				<li>
+					<img src="images/icons/services/proyectos/grafico-de-linea.gif"><br><br>
+					<span>Corporativo</span>
 				</li>
-				<li style="width: 25%; text-align: center;" >
-					<img style="width: 50%;" src="images/icons/services/proyectos/soleado.gif"><br><br>
-					<span style="font-weight: bold;color: #4dbed4;font-size: 1.1vw;">Residencial​</span>
+				<li>
+					<img src="images/icons/services/proyectos/soleado.gif"><br><br>
+					<span>Residencial​</span>
 				</li>
 			</ul>
 
 		</li>
 		<li>
-			<iframe style="width: 100%; height: 32vw; border-top: 15px solid #fff; border-bottom: 15px solid #fff;" src="https://www.youtube.com/embed/tndsN1sY0FQ?start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe class="iframe-video" src="https://www.youtube.com/embed/tndsN1sY0FQ?start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</li>
 	</ol>
 </div>
@@ -69,52 +69,52 @@
 	</ol>
 </div>
 <div class="square-12" style="background: #000;">
-	<ol style="justify-content: center;">
+	<ol class="box-icons-2">
 		<li>
 			<br><br>
-			<img style="width: 27%;" src="images/icons/services/proyectos/digital (1).png"><br><br>
+			<img src="images/icons/services/proyectos/digital (1).png"><br><br>
 			<p>Soluciones ​integrales en TI​</p>
 			<br><br>
 		</li>
 		<li>
 			<br><br>
-			<img style="width: 27%;" src="images/icons/services/proyectos/tecnologia (1).png"><br><br>
+			<img src="images/icons/services/proyectos/tecnologia (1).png"><br><br>
 			<p>Desarrollo de ​ingenierías</p>
 			<br><br>
 		</li>
 		<li>
 			<br><br>
-			<img style="width: 27%;" src="images/icons/services/proyectos/ordenador-portatil12.png"><br><br>
+			<img src="images/icons/services/proyectos/ordenador-portatil12.png"><br><br>
 			<p>Suministro de ​equipamiento</p>
 			<br><br>
 		</li>
 		<li>
 			<br><br>
-			<img style="width: 27%;" src="images/icons/services/proyectos/informatica (1).png"><br><br>
+			<img src="images/icons/services/proyectos/informatica (1).png"><br><br>
 			<p>Implementación de ​sistemas​</p>
 			<br><br>
 		</li>
 		<li>
 			<br><br>
-			<img style="width: 27%;" src="images/icons/services/proyectos/nube.png"><br><br>
+			<img src="images/icons/services/proyectos/nube.png"><br><br>
 			<p>Implementación ​SAP</p>
 			<br><br>
 		</li>
 		<li>
 			<br><br>
-			<img style="width: 27%;" src="images/icons/services/proyectos/cuidado-de-la-salud.png"><br><br>
+			<img src="images/icons/services/proyectos/cuidado-de-la-salud.png"><br><br>
 			<p>Implementación ​HIS</p>
 			<br><br>
 		</li>
 		<li>
 			<br><br>
-			<img style="width: 27%;" src="images/icons/services/proyectos/infraestructura.png"><br><br>
+			<img src="images/icons/services/proyectos/infraestructura.png"><br><br>
 			<p>Capacitación ​usuario final</p>
 			<br><br>
 		</li>
 		<li>
 			<br><br>
-			<img style="width: 27%;" src="images/icons/services/proyectos/ordenador-portatil.png"><br><br>
+			<img src="images/icons/services/proyectos/ordenador-portatil.png"><br><br>
 			<p>Pólizas</p>
 			<br><br>
 		</li>

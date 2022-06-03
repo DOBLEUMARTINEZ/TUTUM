@@ -1,7 +1,7 @@
 <!-- BANNER -->
-<div style="position: relative;">
+<div id="square-banner-index">
 	<!-- BACKGROUND IMAGEN -->
-	<img src="images/img/PASILLO.jpg" style="position: fixed; width: 100%; z-index: -99">
+	<img class="video-slide bann-fixed" src="images/img/PASILLO.jpg">
   	<img class="video-slide" src="images/img/PASILLO.jpg" style="opacity: 0;">
   	<!-- LOGO & TITULO -->
   	<div class="square-logo-big" >
@@ -58,7 +58,7 @@
 			<br><br>
 		</li>
 		<li >
-			<iframe style="width: 100%; height: 32vw; border-top: 15px solid #fff; border-bottom: 15px solid #fff;" src="https://www.youtube.com/embed/Dim5x51IDp4?start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe class="iframe-video" src="https://www.youtube.com/embed/Dim5x51IDp4?start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</li>
 	</ol>
 </div>
@@ -79,36 +79,36 @@
 
 <!-- DATOS CIRCULO -->
 <div class="square-10">
-  <ul style="padding-bottom: 7%;">
-    <li style="position: relative;" >
+  <ul>
+    <li>
       <img src="images/icons/hilo-2.png">
       <h3>+400K</h3>
-      <p style="position: absolute; color: #fff; bottom: -5.5vw; " >METROS DE FIBRA ÓPTICA CERTIFICADOS</p>
+      <p class="circle-info-ide" >METROS DE FIBRA ÓPTICA CERTIFICADOS</p>
     </li>
-    <li style="position: relative;" >
+    <li>
       <img src="images/icons/cable-de-red-2.png">
       <h3>+980K​</h3>
-      <p style="position: absolute; color: #fff; bottom: -5.5vw; " >METROS DE UTP CERTIFICADOS​</p>
+      <p class="circle-info-ide" >METROS DE UTP CERTIFICADOS​</p>
     </li>
-    <li style="position: relative;" >
+    <li>
       <img src="images/icons/camera-2.png">
       <h3>+40K​</h3>
-      <p style="position: absolute; color: #fff; bottom: -5.5vw; " >DISPOSITIVOS DE SEGURIDAD PERIMETRAL​</p>
+      <p class="circle-info-ide" >DISPOSITIVOS DE SEGURIDAD PERIMETRAL​</p>
     </li>
-    <li style="position: relative;" >
+    <li>
       <img src="images/icons/suministro.png">
       <h3>+1000</h3>
-      <p style="position: absolute; color: #fff; bottom: -5.5vw; " >EQUIPOS DE INFORMÁTICA Y SERVIDORES​</p>
+      <p class="circle-info-ide" >EQUIPOS DE INFORMÁTICA Y SERVIDORES​</p>
     </li>
-    <li style="position: relative;" >
+    <li>
       <img src="images/icons/desarrollo.png">
       <h3>+10K</h3>
-      <p style="position: absolute; color: #fff; bottom: -5.5vw; " >EQUIPOS DE COMPUTO IMPRESIÓN Y TELEFONÍA​</p>
+      <p class="circle-info-ide" >EQUIPOS DE COMPUTO IMPRESIÓN Y TELEFONÍA​</p>
     </li>
-    <li style="position: relative;" >
+    <li>
       <img src="images/icons/operacion.png">
       <h3>+600</h3>
-      <p style="position: absolute; color: #fff; bottom: -5.5vw; " >CUARTOS DE COMUNICACIÓN EQUIPADOS​</p>
+      <p class="circle-info-ide" >CUARTOS DE COMUNICACIÓN EQUIPADOS​</p>
     </li>
   </ul>
 </div>

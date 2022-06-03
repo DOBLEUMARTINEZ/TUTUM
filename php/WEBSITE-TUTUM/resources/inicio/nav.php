@@ -80,7 +80,7 @@
     <!-- NAV BAR MOVIL -->
     <nav class="container-header-mobil" >
       <ol>
-        <li style="width: 30%" ><img src="<?php echo $url;?>images/logo/logo2.png" onclick="window.location.href='<?php echo $url;?>/';"></li>
+        <li style="width: 30%" ><img src="<?php echo $url;?>images/logo/logo2.png" onclick="window.location.href='<?php echo $url;?>';"></li>
         <li style="width: 60%" >
           <ul >
             <li onclick="window.open('https://www.facebook.com/Tutum-Tech-515010355546588');" ><i class="fab fa-facebook-square"></i></li>
@@ -95,16 +95,16 @@
              <li onclick="window.location.href='<?php echo $url;?>';">
               INICIO
             </li>
-            <li onclick="window.location.href='<?php echo $url;?>identidad';">
+            <li onclick="window.location.href='<?php echo $url;?>identidad#start';">
               IDENTIDAD
             </li>
-            <li onclick="window.location.href='<?php echo $url;?>servicios';">
+            <li onclick="window.location.href='<?php echo $url;?>servicios#start';">
               SERVICIOS
             </li>
-            <li onclick="window.location.href='<?php echo $url;?>prensa';" >
+            <li onclick="window.location.href='<?php echo $url;?>prensa#start';" >
               PRENSA
             </li>
-            <li onclick="window.location.href='<?php echo $url;?>contacto';">
+            <li onclick="window.location.href='<?php echo $url;?>contacto#start';">
               CONTACTO
             </li>
           </ol>

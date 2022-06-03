@@ -12,11 +12,11 @@
 ?>
 
 	<!-- FONDO DE SECCION -->
-	<div style="position: relative;">
+	<div id="square-banner-index">
 
 		<!-- IMAGEN DE FONDO -->
-		<img src="<?php echo $url.$images[$servicio];?>" style="position: fixed; width: 100%; height: 100%; z-index: -99;">
-  		<img src="<?php echo $url.$images[$servicio];?>" style=" width: 100%; opacity: 0;">
+		<img class="video-slide bann-fixed" src="<?php echo $url.$images[$servicio];?>">
+  		<img class="video-slide" src="<?php echo $url.$images[$servicio];?>" style="opacity: 0;">
 
 	  	<!-- CUADRO DE TEXTO -->
 	  	<div class="square-logo-big" >
@@ -29,4 +29,6 @@
 	  	<span class="barra-negra"></span>
 
 	</div>
-	<a id="start"></a>
+	
+	<?php if ($service=='menu') { echo "<a id='start'></a>";} ?>
+	

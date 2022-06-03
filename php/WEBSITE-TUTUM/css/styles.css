@@ -393,7 +393,7 @@
                 right: 0;
                 top: 100%;
                 width: 100%;
-                background: #4e4e4ef2;
+                background: #000000a8;
                 text-transform: uppercase;
                 border-bottom: 1vw solid #4bbed387;
                 display: none;
@@ -402,9 +402,8 @@
             .container-header-mobil > ol > li > ol > li{
                 text-align: left;
                 padding: 2% 6%;
-                font-size: 2.5vw;
-                font-weight: bold;
-                letter-spacing: 1px;
+                font-size: 3vw;
+                letter-spacing: 1.5px;
             }
 
             .container-header-mobil > ol > li > ol >::before{
@@ -2144,7 +2143,7 @@
             .square-10 ul{
                 display: flex;
                 margin: 0% 0 0 0;
-                padding: 0% 1% 1% 1%;
+                padding: 0% 1% 7% 1%;
                 list-style: none;
                 background: #000;
                 flex-wrap: nowrap;
@@ -3136,12 +3135,61 @@
         margin: 0% 0%;
     }
 
+    /**/
+
+    .iframe-index{
+        position: absolute;
+        width: 60%;
+        height: 80%;
+        left: 19.5%;
+        top: 10%;
+        border-radius: 30px;
+        z-index: 2;
+    }
+
+    .iframe-video{
+        width: 100%;
+        height: 30vw;
+        border-top: 15px solid #fff;
+        border-bottom: 15px solid #fff;
+    }
+
+    /**/
+
+    .circle-info-ide {
+        position: absolute;
+        color: #fff;
+        bottom: -5.5vw; 
+    }
 
     /**/
 
    #square-banner-index{
         position: relative;
    }
+
+   /**/
+
+   .box-icons-1 li{
+        width: 25%!important;
+        text-align: center;
+    }
+
+    .box-icons-1 li > img {
+        width: 50%;
+    }
+
+    .box-icons-1 li > span{
+        font-weight: bold;
+        color: #4dbed4;
+        font-size: 1.1vw;
+    }
+
+    .box-icons-2 li > img {
+        width: 27%!important;
+    }
+
+    /**/
 
     @media(max-width: 2560px){
 
@@ -3201,13 +3249,32 @@
 
             #square-banner-index{
                 position: relative;
-                padding-bottom: 75%;
+                padding-bottom: 70%;
             }
 
            .bann-fixed{
-                height: 100%;
+                /*height: 100%;*/
                 width: unset;
                 left: -80%;
+            }
+
+            /**/
+
+            .square-logo-big img {
+                width: 35%;
+                display: none;
+            }
+
+            .square-logo-big h2 {
+                color: #ffffffd1;
+                font-size: 3vw!important;
+                letter-spacing: 1.5px;
+                margin-bottom: 5%;
+            }
+
+            .square-logo-big i {
+                color: #CBF41C;
+                border: 2px solid #CBF41C;
             }
 
         /* CABECERA */
@@ -3326,6 +3393,8 @@
                 margin: 1vw 0 1vw 0;
             }
 
+            /**/
+
             .video-yt-1 {
                 width: 100%!important;
                 position: relative;
@@ -3337,6 +3406,9 @@
                 height: 35vw;
                 margin: 0% 0%;
             }
+
+
+            /**/
 
             .square-footer-index {
                 padding-bottom: 4%;
@@ -3361,6 +3433,168 @@
                 line-height: 2.8vw;
                 font-size: 2vw;
             }
+
+            /*  IFRAME */
+                .iframe-index{
+                    display: none;
+                    opacity: 0;
+                }
+
+        /* IDENTIDAD */
+            .square-04 ol > li {
+                width: 100%;
+            }
+
+            .square-04 ol > li > p {
+                text-align: center;
+                font-size: 2.5vw;
+            }
+
+
+            .square-04 ol > li > h2 {
+                color: #ffffffd1;
+                font-size: 3vw!important;
+                letter-spacing: 1.5px;
+                margin-bottom: 5%
+            }
+
+            /**/
+            .square-05 > ul {
+                justify-content: center;
+            }
+
+            .square-05 > ul > li {
+                width: 19vw;
+                height: 19vw;
+            }
+
+
+            /**/
+            .square-06 h2 {
+                color: #ffffffd1;
+                font-size: 3vw!important;
+                letter-spacing: 1.5px;
+                padding: 12% 0% 10% 0%;
+            }
+
+            /**/
+            .square-06 ol {
+                flex-wrap: wrap;
+            }
+
+            .square-06 ol > li {
+                width: 100%;
+            }
+
+            .square-06 ol > li > p {
+                font-size: 2.5vw;
+            }
+
+            /**/
+            .square-10 {
+                padding: 0% 0 0 0;
+            }
+
+            .square-10 ul {
+                padding: 5% 5% 2.5% 5%;
+                flex-wrap: wrap;
+            }
+
+            .square-10 ul>li {
+                width: 30vw;
+                height: 30vw;
+                border: 5px solid #4DBED4;
+                margin: 0% 5% 20% 5%;
+                position: relative;
+            }
+
+            .square-10 ul>li>p {
+                font-size: 1.9vw;
+            }
+
+
+                .circle-info-ide {
+                    bottom: -13.5vw;
+                    letter-spacing: 1.5px!important;
+                    font-weight: normal!important;
+                }
+
+            .square-10 ul>li>img {
+                width: 35%;
+                margin-bottom: 10%;
+            }
+
+        /* MENU  SERVICES */
+            .square-07 ul {
+                margin: 2% 0 0 0;
+                padding: 5% 10%;
+                flex-wrap: wrap;
+            }
+
+            .square-07 ul>li {
+                width: 30vw;
+                height: 30vw;
+                margin-bottom: 20%;
+            }
+
+            .square-07 ul>li>h2 {
+                bottom: -45%;
+                font-size: 2.5vw;
+                letter-spacing: 1.5px;
+            }
+
+        /* PROYECTOS */
+            .iframe-video {
+                height: 60vw;
+            }
+
+            .box-icons-1 li{
+                width: 25%!important;
+                text-align: center;
+            }
+
+            .box-icons-1 li > img {
+                width: 60%!important;
+            }
+
+            .box-icons-1 li > span {
+                font-size: 2.5vw;
+                letter-spacing: 1.5px;
+            }
+
+            .box-icons-2 li > img {
+                width: 50%!important;
+            }
+
+        /*******/
+
+        .square-12 {
+            padding: 5% 10%;
+        }
+
+        .square-12 > ol > li {
+            width: 40%;
+            margin-bottom: 0%;
+        }
+
+        .square-12 > ol > li > img {
+            width: 60%;
+        }
+
+        .square-12 > ol > li > p {
+            font-size: 2.5vw;
+            margin-bottom: 0%;
+        }
+
+
+        /**/
+
+        .square-13 ul > li {
+            width: 25vw;
+            height: 15vw;
+        }
+
+
 
         /* MENU SERVICIOS CUADROS */
 
