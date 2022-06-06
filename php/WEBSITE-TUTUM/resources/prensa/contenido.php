@@ -1,65 +1,60 @@
-<div style="position: relative;">
-	<!-- -->
-	<img src="images/img/FOTO 02.jpg" style="position: fixed; width: 100%; z-index: -99">
+<!-- FONDO DE SECCION -->
+    <div id="square-banner-index">
+
+	<!-- IMAGEN DE FONDO -->
+	<img class="video-slide bann-fixed" src="images/img/FOTO 02.jpg" >
   	<img class="video-slide" src="images/img/FOTO 02.jpg" style="opacity: 0;">
 
-  	<!-- -->
+  	<!-- CUADRO DE TEXTO -->
   	<div class="square-logo-big" >
 	    <img src="images/logo/LOGO-WHITE.png" onclick="window.location.href='./';">
 	    <h2>PRENSA</h2>
-	    <a id="start"></a>
-	    <i class="fas fa-chevron-down arrow-down " onclick="window.location.href='./identidad#start'"></i>
+	    <i class="fas fa-chevron-down arrow-down " onclick="window.location.href='#start'"></i>
   	</div>
 
-  	<span style="
-    position: absolute;
-    width: 100%;
-    left: 0;
-    height: 30%;
-    background: #000;
-    bottom: 0;
-    z-index: -1;">
-  </span>
+  	<!-- barra negra -->
+    <span class="barra-negra"></span>
 
 </div>
 
-<!-- us -->
+<!-- COMUNICADOS DE PRENSA -->
+<a id="start"></a>
 <div class="square-04">
 	<ol>
 		<li>
 			<h2>COMUNICADOS DE PRENSA</h2>
 		</li>
 		<li style="background: #fff; padding: 0 5%;">
-			<iframe style="width: 100%; height: 30vw; border-top: 15px solid #fff; border-bottom: 15px solid #fff;" src="https://www.youtube.com/embed/79i9vo5Awno" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe class="iframe-video" src="https://www.youtube.com/embed/79i9vo5Awno" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</li>
 	</ol>
 </div>
 
-<!-- MISIÓN Y VISIÓN ​ -->
+<!-- NOTICIAS ​ -->
 <div class="square-06">
-	<h2 style="padding: 2% 10%;text-align: left;" > NOTICIAS</h2>
+	<h2> NOTICIAS</h2>
 	<ol>
 		<li style="width: 100%">
             <br><br>
-			<p class="pensa-notice" style="cursor: pointer;" onclick="window.open('https://laopcion.com.mx/nacional/amenaza-ciberseguridad-mundial-conflicto-entre-rusia-y-ucrania-20220303-376776.html');"  >
-				<img src="images/icons/services/prensa/hacker.png" style="width: 5%; padding:1%;" >
+			<p class="pensa-notice" onclick="window.open('https://laopcion.com.mx/nacional/amenaza-ciberseguridad-mundial-conflicto-entre-rusia-y-ucrania-20220303-376776.html');"  >
+				<img src="images/icons/services/prensa/hacker.png" >
 				Amenaza ciberseguridad mundial conflicto entre rusia y ucrania, <span>MARZO 3, 2022</span> 
-				<i style=" color: #c0c5d1;font-size: 1.1vw;" class="fas fa-chevron-circle-right"></i>
+				<i class="fas fa-chevron-circle-right"></i>
 			</p>
-			<p class="pensa-notice" style="cursor: pointer;" onclick="window.open('https://lideresmexicanos.com/noticias/sap-cumple-medio-siglo-de-historia-servicios-e-innovacion/');"  >
-				<img src="images/icons/services/prensa/finanzas.png" style="width: 5%; padding:1%;" >
+			<p class="pensa-notice" onclick="window.open('https://lideresmexicanos.com/noticias/sap-cumple-medio-siglo-de-historia-servicios-e-innovacion/');"  >
+				<img src="images/icons/services/prensa/finanzas.png" >
 				SAP cumple medio siglo de historia, servicios e innovación, <span>ABRIL 1, 2022 </span>
-				<i style=" color: #c0c5d1;font-size: 1.1vw;" class="fas fa-chevron-circle-right"></i>
+				<i class="fas fa-chevron-circle-right"></i>
 			</p>
-			<p class="pensa-notice" style="cursor: pointer;" onclick="window.open('https://cionoticias.tv/2022/04/25/se-agota-el-tiempo-para-que-contribuyentes-implementen-cfdi-4-0-y-eviten-multas-alertan-consultores/');"  >
-				<img src="images/icons/services/prensa/factura.png" style="width: 5%; padding:1%;" >
+			<p class="pensa-notice" onclick="window.open('https://cionoticias.tv/2022/04/25/se-agota-el-tiempo-para-que-contribuyentes-implementen-cfdi-4-0-y-eviten-multas-alertan-consultores/');"  >
+				<img src="images/icons/services/prensa/factura.png" >
 				Se agota el tiempo para que contribuyentes implementen CFDI 4.0 y eviten multas: alertan consultores, <span>ABRIL 25, 2022 </span>
-				<i style=" color: #c0c5d1;font-size: 1.1vw;" class="fas fa-chevron-circle-right"></i>
+				<i class="fas fa-chevron-circle-right"></i>
 			</p>
-			<p class="pensa-notice" style="cursor: pointer;" onclick="window.open('https://www.milenio.com/negocios/edificios-inteligentes-mejoraran-consumo-energetico-tutum-tech');"  >
-				<img src="images/icons/services/prensa/panel-de-administrador.png" style="width: 5%; padding:1%;" >
+			<p class="pensa-notice" onclick="window.open('https://www.milenio.com/negocios/edificios-inteligentes-mejoraran-consumo-energetico-tutum-tech');"  >
+				<img src="images/icons/services/prensa/panel-de-administrador.png" >
 				Edificios inteligentes sumarán en optimización de consumo energético: TUTUM Tech, <span>MAYO 22, 2022</span> 
-				<i style=" color: #c0c5d1;font-size: 1.1vw;" class="fas fa-chevron-circle-right"></i>
+				<i class="fas fa-chevron-circle-right"></i>
 			</p>
 			<br><br>
 		</li>
@@ -67,10 +62,9 @@
 	</ol>
 </div>
 
-<!-- -->
+<!-- PUBLICACIONES  -->
 <div class="square-06">
 	<h2 style="padding: 2% 10%;text-align: left;" > PUBLICACIONES ​</h2>
-
     <div id="clientes" class="carousel slide blog-slide" data-ride="carousel">    
         <div class="carousel-inner" style="padding: 0 10%;">
 

@@ -85,8 +85,19 @@
     .pensa-notice{
         width: 90%;
         padding: 1% 1%!important;
-        margin: 0 5%!important;
+        margin: 0 5% 2% 5%!important;
         position: relative;
+        cursor: pointer;
+        border: 3px solid #0000002e;
+    }
+
+    .pensa-notice:hover {
+        border: 3px solid #4dbed4b8;
+        background: #c0c5d17a;
+    }
+
+    .pensa-notice:hover i {
+        color: #4dbed4b8!important;
     }
 
     .pensa-notice::before{
@@ -108,6 +119,16 @@
                 bottom: 0;
                 right: 0;
             }
+
+    .pensa-notice img{
+        width: 5%;
+        padding: 1%;
+    }
+
+    .pensa-notice i {
+        color: #c0c5d1;
+        font-size: 1.1vw;
+    }
 
 /* MODAL */
 
@@ -1873,8 +1894,8 @@
             }
 
             .square-07 ul>li {
-                width: 13vw;
-                height: 13vw;
+                width: 12vw;
+                height: 12vw;
                 background: #fff;
                 border-radius: 50%;
                 display: flex;
@@ -1884,6 +1905,7 @@
                 border:0.5vw solid #4DBED4;
                 position: relative;
                 cursor: pointer;
+                margin: 0 1%;
             }
 
             .square-07 ul>li>img {
@@ -2392,6 +2414,8 @@
                 list-style: none;
                 text-align: center;
                 color: #fff;
+                margin: 0;
+                padding: 0;
             }
 
             .square-contact-02 ul li{
@@ -2403,133 +2427,157 @@
                 margin-left: -15px: 
             }
 
+            /* SQUARE */
 
-            .square-contact-03 {
-                width: 100%;
-                padding: 4% 1%;
-                background: #fff;
-            }
+                .square-contact-03 {
+                    width: 100%;
+                    padding: 4% 1%;
+                    background: #fff;
+                }
 
-            .square-contact-03 ul{
-                width: 100%;
-                margin: 0;
-                padding: 0;
-                list-style: none;
-                display: flex;
-                justify-content: space-around;
-                align-items: flex-start;
-            }
+                .square-contact-03 ul{
+                    width: 100%;
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: flex-start;
+                }
 
-            .square-contact-03 ul > li{
-                text-align: center;
-            }
+                .li-1{
+                    width: 20%;
+                }
 
-            .square-contact-03 ul > li > h2{
-                color: #4dbed4;
-            }
+                .li-2{
+                    width: 60%;
+                }
 
-            .square-contact-03 ul > li > img{
-                width: 35%;
-            }
+                .li-3{
+                    width: 20%;           
+                }
 
-            .square-contact-03 ul > li > button{
-                width: 80%;
-                border: none;
-                margin-top: 15px;
-                padding: 3%;
-                background: #000;
-                color: #fff;
-                letter-spacing: 0.5px;
-                transition: 0.3s;
-                font-size: 1.2vw;
-            }
+                .li-3 img {
+                    width: 80%!important;           
+                }
 
-            .square-contact-03 ul > li > button:hover{
-                color: #000;
-                background: #ffc107;
-                transition: 0.3s;
-            }
+                .square-contact-03 ul > li{
+                    text-align: center;
+                }
 
-            .square-contact-03 ul > li > ol{
-                width: 100%;
-                margin: 0;
-                padding: 0;
-                display: flex;
-                justify-content: space-around;
-                align-items: flex-start;
-                list-style: none;
-            }
+                .square-contact-03 ul > li > h2{
+                    color: #4dbed4;
+                }
 
-            .square-contact-03 ul > li > ol > li{
-                width: 50%;
-                text-align: left;
-            }
+                .square-contact-03 ul > li > img{
+                    width: 35%;
+                }
 
-            .square-contact-03 ul > li > ol > li > label{
-                width: 95%;
-                text-align: left;
-                padding: 2%;
-                text-transform: uppercase;
-                font-weight: bold;
-            }
+                .square-contact-03 ul > li > button{
+                    width: 80%;
+                    border: none;
+                    margin-top: 15px;
+                    padding: 3%;
+                    background: #000;
+                    color: #fff;
+                    letter-spacing: 0.5px;
+                    transition: 0.3s;
+                    font-size: 1.2vw;
+                }
 
-            .square-contact-03 ul > li > ol > li > input{
-                width: 95%;
-                text-align: left;
-                padding: 2%;
-                border: 4px solid #4dbed4;
-            }
+                .square-contact-03 ul > li > button:hover{
+                    color: #000;
+                    background: #ffc107;
+                    transition: 0.3s;
+                }
 
-            .square-contact-03 ul > li > ol > li > select{
-                width: 95%;
-                text-align: left;
-                padding: 2%;
-                border: 4px solid #4dbed4;
-            }
+                .square-contact-03 ul > li > ol{
+                    width: 100%;
+                    margin: 0;
+                    padding: 0;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: flex-start;
+                    list-style: none;
+                }
 
-            .square-contact-03 ul > li > ol > li > textarea{
-                width: 95%;
-                height: 15vw;
-                text-align: left;
-                padding: 2%;
-                border: 4px solid #4dbed4;
-            }
+                .square-contact-03 ul > li > ol > li{
+                    width: 50%;
+                    text-align: left;
+                }
 
-            .inputfile {
-                width: 0.1px;
-                height: 0.1px;
-                opacity: 0;
-                overflow: hidden;
-                position: absolute;
-                z-index: -1;
-            }
+                .square-contact-03 ul > li > ol > li > label{
+                    width: 95%;
+                    text-align: left;
+                    padding: 2%;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                }
 
-            .inputfile + label {
-                font-size: 1.25em;
-                font-weight: 700;
-                color: white;
-                background-color: black;
-                display: inline-block;
-                background: #cfcfcf;
-                text-align: center!important;
-                position: relative;
-                width: 40%!important;
-                margin-left: 55%;
-            }
+                .square-contact-03 ul > li > ol > li > input{
+                    width: 95%;
+                    text-align: left;
+                    padding: 2%;
+                    border: 4px solid #4dbed4;
+                }
+
+                .square-contact-03 ul > li > ol > li > select{
+                    width: 95%;
+                    text-align: left;
+                    padding: 2%;
+                    border: 4px solid #4dbed4;
+                    text-transform: uppercase;
+                }
+
+                .square-contact-03 ul > li > ol > li > textarea{
+                    width: 95%;
+                    height: 15vw;
+                    text-align: left;
+                    padding: 2%;
+                    border: 4px solid #4dbed4;
+                }
+
+                .input-radio{
+                    width: 3vw!important;
+                }
+
+                /* INPUT TYPE FILE */
+
+                    .inputfile {
+                        width: 0.1px;
+                        height: 0.1px;
+                        opacity: 0;
+                        overflow: hidden;
+                        position: absolute;
+                        z-index: -1;
+                    }
+
+                    .inputfile + label {
+                        font-size: 1.25em;
+                        font-weight: 700;
+                        color: white;
+                        background-color: black;
+                        display: inline-block;
+                        background: #cfcfcf;
+                        text-align: center!important;
+                        position: relative;
+                        width: 40%!important;
+                        margin-left: 55%;
+                    }
 
 
-            .inputfile + label {
-                cursor: pointer; /* "hand" cursor */
-            }
+                    .inputfile + label {
+                        cursor: pointer; /* "hand" cursor */
+                    }
 
-            .inputfile:focus + label {
-                outline: 1px dotted #cfcfcf;
-                outline: -webkit-focus-ring-color auto 5px;
-            }
+                    .inputfile:focus + label {
+                        outline: 1px dotted #cfcfcf;
+                        outline: -webkit-focus-ring-color auto 5px;
+                    }
 
-            .inputfile + label * {
-                pointer-events: none;
-            }
+                    .inputfile + label * {
+                        pointer-events: none;
+                    }
 
         /**/
             .clientes-slide {
@@ -3620,6 +3668,8 @@
                 width: 30vw;
                 height: 30vw;
                 margin-bottom: 20%;
+                margin-left: 5%;
+                margin-right: 5%;
             }
 
             .square-07 ul>li>h2 {
@@ -3777,38 +3827,103 @@
                 font-size: 2.5vw;
             }
 
+
+        /* PRENSA  */
+            .pensa-notice {
+                padding: 4% 2%!important;
+                margin: 0 5% 2% 5%!important;
+            }
+
+        /* CONTACTO  */
+
+            .li-1{
+                width: 90%;
+            }
+
+            .li-2{
+                width: 90%;
+            }
+
+            .li-3{
+                width: 90%;           
+            }
+
+            .square-contact-03 ul {
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+
+            .square-contact-02 iframe {
+                width: 80vw;
+                height: 45vw;
+                margin-top: 0%;
+            }
+
+            .square-contact-02 ul li {
+                font-size: 2.5vw;
+            }
+
+            .square-contact-03 ul > li > img {
+                width: 20%;
+            }
+
+
+            .square-contact-03 ul > li > ol {
+                flex-wrap: wrap;
+            }
+
+            .square-contact-03 ul > li > ol > li {
+                width: 100%;
+                text-align: center;
+            }
+
+            .square-contact-03 ul > li > ol > li > label {
+                font-size: 2.5vw;
+            }
+
+            .square-contact-03 ul > li > ol > li > input {
+                font-size: 2.5vw;
+            }
+
+            .li-3 img {
+                display: none;           
+            }
+
+            .square-contact-03 ul > li > button {
+                width: 100%;
+                letter-spacing: 1.5px;
+                font-size: 3.5vw;
+            }
+
         /*******/
 
-        .square-12 {
-            padding: 5% 10%;
-        }
+            .square-12 {
+                padding: 5% 10%;
+            }
 
-        .square-12 > ol > li {
-            width: 40%;
-            margin-bottom: 0%;
-        }
+            .square-12 > ol > li {
+                width: 40%;
+                margin-bottom: 0%;
+            }
 
-        .square-12 > ol > li > img {
-            width: 60%;
-        }
+            .square-12 > ol > li > img {
+                width: 60%;
+            }
 
-        .square-12 > ol > li > p {
-            font-size: 2.5vw;
-            margin-bottom: 0%;
-        }
-
-
-
-
-        /**/
-
-        .square-13 ul > li {
-            width: 25vw;
-            height: 15vw;
-        }
+            .square-12 > ol > li > p {
+                font-size: 2.5vw;
+                margin-bottom: 0%;
+            }
 
 
 
+
+            /**/
+
+            .square-13 ul > li {
+                width: 25vw;
+                height: 15vw;
+            }
         /* MENU SERVICIOS CUADROS */
 
             .menu-services-1 {
