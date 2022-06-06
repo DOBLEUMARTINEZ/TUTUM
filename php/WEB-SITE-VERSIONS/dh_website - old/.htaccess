@@ -1,0 +1,12 @@
+<IfModule mod_headers.c>
+Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
+Header set Pragma "no-cache"
+Header set Expires "max-age=A10368000, public"
+Header unset ETag
+Header set Connection keep-alive
+Header edit Set-Cookie ^(.*)$ $1;HttpOnly;Secure
+Header set Strict-Transport-Security "max-age=31536000; includeSubDomains" env=HTTPS
+Header always set X-XSS-Protection "1;  mode=block"
+Header edit Set-Cookie ^(.*)$ $1;HttpOnly;Secure
+Header set X-Frame-Options: "sameorigin"
+</IfModule>
