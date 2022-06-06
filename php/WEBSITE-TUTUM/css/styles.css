@@ -4083,6 +4083,152 @@
                 margin: 10% 0;
             }
 
+        /*  INDEX */
+
+            .square-logo-big h2 {
+                font-size: 4vw!important;
+            }
+
+            .square-02 ul>li>p {
+                font-size: 2vw;
+            }
+
+            .square-02 > p {
+                font-size: 4vw;
+            }
+
+            .square-02 ol > li {
+                width: 85vw;
+                height: 45vw;
+            }
+
+            .square-03 > div {
+                width: 100%;
+            }
+
+            .square-03 h2 {
+                font-size: 4vw;
+            }
+
+            .square-03 div>ul {
+                padding: 10% 0% 0% 0%;
+            }
+
+            .square-03 div>ul>li {
+                width: 23vw;
+                height: 23vw;
+                font-size: 9vw;
+                margin: 2vw 0 2vw 0;
+            }
+
+            .video-yt-1 iframe {
+                width: 100%;
+                height: 50vw;
+                margin: 0% 0%;
+            }
+
+            .square-footer-index {
+                flex-wrap: wrap;
+            }
+
+            .square-footer-index > ul {
+                width: 100%;
+            }
+
+            .square-footer-index > ul > li > h4 {
+                font-size: 4vw;
+            }
+
+            .square-footer-index > ol {
+                width: 100%;
+            }
+
+            .square-footer-index > div {
+                display: none;
+            }
+
+            .copyrigt {
+                font-size: 3vw;
+            }
+
+        /* IDENTIDAD */
+
+            .square-04 ol > li > h2 {
+                font-size: 4vw!important;;
+            }
+
+            .square-04 ol > li > p {
+                font-size: 4vw;
+            }
+
+            .square-06 h2 {
+                font-size: 4vw!important;
+            }
+
+            .square-06 ol > li > p {
+                font-size: 4vw;;
+            }
+
+            .square-10 ul>li>p {
+                font-size: 2.5vw;
+                bottom: -20vw;
+            }
+
+            .square-12 > ol > li > p {
+                font-size: 4vw;
+            }
+
+            .tilte-type-1 {
+                width: 80%;
+                margin-left: 10%;
+                font-size: 4vw;
+            }
+
+            .square-09 div > div > h3 {
+                font-size: 4vw;
+            }
+
+            .square-09 div > div > ol > li {
+                font-size: 4vw;
+                line-height: 5.5vw;
+            }
+
+            .tilte-type-3 {
+                font-size: 4vw;
+            }
+
+            .box-icon-type-3 > li {
+                width: 40%!important;
+            }
+
+            .box-icon-type-3 span {
+                font-size: 4vw;
+            }
+
+            .tilte-type-2 {
+                font-size: 4vw;
+            }
+
+            .square-09 h2 {
+                font-size: 4vw!important;
+            }
+
+            .box-icon-type-2 > li {
+                width: 50%!important;
+            }
+
+            .box-icon-type-4 li {
+                width: 45%!important;
+            }
+
+            .square-06 ol > li > ul > li {
+                font-size: 4vw;
+            }
+
+            .box-icons-5 li {
+                width: 45%!important;
+            }
+
         /* MENU SERVICIOS CUADROS*/
 
             .menu-services-1 li {
@@ -4176,25 +4322,25 @@
 
         /**/
 
-        .movil-wm {
-            display: flex!important;
-            justify-content: space-around;
-            flex-wrap: wrap;
-        }
+            .movil-wm {
+                display: flex!important;
+                justify-content: space-around;
+                flex-wrap: wrap;
+            }
 
-        .squre-us li > img {
-            width: 40%!important;
-            margin: 0% 0%!important;
-            padding: 0%!important;
-        }
+            .squre-us li > img {
+                width: 40%!important;
+                margin: 0% 0%!important;
+                padding: 0%!important;
+            }
 
-        /**/
+            /**/
 
-        .squre-mision-vision > li {
-            width: 94.5vw!important;
-            padding: 5%!important;
-            margin-left: 2.5vw!important;
-        }
+            .squre-mision-vision > li {
+                width: 94.5vw!important;
+                padding: 5%!important;
+                margin-left: 2.5vw!important;
+            }
 
         /* RESPOSIVE TABLE ICONS SLIDER */
 

@@ -251,27 +251,27 @@
 <div class="square-12">
 	<h4 style="color: #4dbed4;">INFORMÁTICA FORENSE​</h4>
 	<ol class="box-icons-2" >
-		<li style="width: 24%;" >
+		<li >
 			<br><br>
-			<img style="width: 24%;" src="images/icons/services/cau/proceso.png"><br><br>
+			<img src="images/icons/services/cau/proceso.png"><br><br>
 			<p>Administración​</p>
 			<br><br>
 		</li>
-		<li style="width: 24%;" >
+		<li >
 			<br><br>
-			<img style="width: 24%;" src="images/icons/services/cau/soporte-tecnico.png"><br><br>
+			<img src="images/icons/services/cau/soporte-tecnico.png"><br><br>
 			<p>Soporte a la operación en los 3 niveles</p>
 			<br><br>
 		</li>
-		<li style="width: 24%;" >
+		<li >
 			<br><br>
-			<img style="width: 24%;" src="images/icons/services/cau/configuraciones.png"><br><br>
+			<img src="images/icons/services/cau/configuraciones.png"><br><br>
 			<p>Refaccionamiento</p>
 			<br><br>
 		</li>
-		<li style="width: 24%;" >
+		<li >
 			<br><br>
-			<img style="width: 24%;" src="images/icons/services/cau/capacitacion.png"><br><br>
+			<img src="images/icons/services/cau/capacitacion.png"><br><br>
 			<p>Capacitación​</p>
 			<br><br>
 		</li>
@@ -296,43 +296,43 @@
 </div>
 <div class="square-12" style="background: #000;" >
 	<ol class="box-icons-2" >
-		<li style="width: 24%;color:#fff; " >
+		<li style="color:#fff; " >
 			
 			<img style="width: 25%;" src="images/icons/services/ciber/servidores.png"><br><br>
 			<p style="color: #fff;" >Ciber amenazas que pudieran afectar la infraestructura​</p>
 			<br><br>
 		</li>
-		<li style="width: 24%;color:#fff; " >
+		<li style="color:#fff; " >
 			
 			<img style="width: 25%;" src="images/icons/services/ciber/tramposo.png"><br><br>
 			<p style="color: #fff;" >Actividades fraudulentas</p>
 			<br><br>
 		</li>
-		<li style="width: 24%;color:#fff; " >
+		<li style="color:#fff; " >
 			
 			<img style="width: 25%;" src="images/icons/services/ciber/publicacion.png"><br><br>
 			<p style="color: #fff;" >Información Publicada por colaboradores​</p>
 			<br><br>
 		</li>
-		<li style="width: 24%;color:#fff; " >
+		<li style="color:#fff; " >
 			
 			<img style="width: 25%;" src="images/icons/services/ciber/mala-resena.png"><br><br>
 			<p style="color: #fff;" >Menciones negativas</p>
 			<br><br>
 		</li>
-		<li style="width: 24%;color:#fff; " >
+		<li style="color:#fff; " >
 			
 			<img style="width: 25%;" src="images/icons/services/ciber/computadora-portatil.png"><br><br>
 			<p style="color: #fff;" >Vulnerabilidades Dirigidas.</p>
 			<br><br>
 		</li>
-		<li style="width: 24%;color:#fff; " >
+		<li style="color:#fff; " >
 			
 			<img style="width: 25%;" src="images/icons/services/ciber/fraude.png"><br><br>
 			<p style="color: #fff;" >Usurpación de identidad</p>
 			<br><br>
 		</li>
-		<li style="width: 24%;color:#fff; " >
+		<li style="color:#fff; " >
 			
 			<img style="width: 25%;" src="images/icons/services/ciber/fuga-de-datos.png"><br><br>
 			<p style="color: #fff;" >Fuga de Información</p>

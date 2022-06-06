@@ -80,32 +80,32 @@
 <!-- DATOS CIRCULO -->
 <div class="square-10">
   <ul>
-    <li>
+    <li style="position: relative;">
       <img src="images/icons/hilo-2.png">
       <h3>+400K</h3>
       <p class="circle-info-ide" >METROS DE FIBRA ÓPTICA CERTIFICADOS</p>
     </li>
-    <li>
+    <li style="position: relative;">
       <img src="images/icons/cable-de-red-2.png">
       <h3>+980K​</h3>
       <p class="circle-info-ide" >METROS DE UTP CERTIFICADOS​</p>
     </li>
-    <li>
+    <li style="position: relative;">
       <img src="images/icons/camera-2.png">
       <h3>+40K​</h3>
       <p class="circle-info-ide" >DISPOSITIVOS DE SEGURIDAD PERIMETRAL​</p>
     </li>
-    <li>
+    <li style="position: relative;">
       <img src="images/icons/suministro.png">
       <h3>+1000</h3>
       <p class="circle-info-ide" >EQUIPOS DE INFORMÁTICA Y SERVIDORES​</p>
     </li>
-    <li>
+    <li style="position: relative;">
       <img src="images/icons/desarrollo.png">
       <h3>+10K</h3>
       <p class="circle-info-ide" >EQUIPOS DE COMPUTO IMPRESIÓN Y TELEFONÍA​</p>
     </li>
-    <li>
+    <li style="position: relative;">
       <img src="images/icons/operacion.png">
       <h3>+600</h3>
       <p class="circle-info-ide" >CUARTOS DE COMUNICACIÓN EQUIPADOS​</p>
