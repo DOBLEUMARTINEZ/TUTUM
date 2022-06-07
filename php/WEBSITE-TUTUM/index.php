@@ -15,8 +15,8 @@ echo '<!DOCTYPE html><html lang="es">';
   // HEAD
     include("resources/inicio/head.php"); 
 
-  // ALERTAS DE CONFIRMACIÓN
-  //include('resources/alertas/alertas_01.php'); 
+  // ENVIO DE CORREO
+    include('resources/send.php'); 
 
 echo '<body>'; // INICIO CUERPO
 

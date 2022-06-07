@@ -65,7 +65,7 @@
 </div>
 
 <!-- FORMULARIO -->
-<form>
+<form action="./" method="POST" enctype="multipart/form-data">
     <div class="square-contact-03">
         <ul>
             <li class="li-1">
@@ -76,15 +76,15 @@
                 <ol>
                     <li>
                         <label>NOMBRE*</label>
-                        <input type="text" name="nombre" placeholder="Escribe tu nombre">
+                        <input type="text" name="nombre" placeholder="Escribe tu nombre" required>
                         <label>CORREO ELECTRONICO*</label>
-                        <input type="email" name="email" placeholder="example@tutum.com.mx">
+                        <input type="email" name="email" placeholder="example@tutum.com.mx" required>
                         <label>TELEFONO* ​</label>
-                        <input type="phone" name="telefono" placeholder="5523654965">
+                        <input type="phone" name="telefono" placeholder="5523654965" required>
                         <label>EMPRESA*</label>
-                        <input type="text" name="empresa" placeholder="Empresa">
+                        <input type="text" name="empresa" placeholder="Empresa" required>
                         <label>CIUDAD* </label>
-                        <select name="estado">
+                        <select name="ciudad">
                             <option value ="nada">-- SELECCIONA --</option>
                             <option value="Aguascalientes">Aguascalientes</option>
                             <option value="Baja California">Baja California</option>
@@ -122,32 +122,31 @@
                     </li>
                     <li>
                         <label>SERVICIO* </label>
-                        <select>
-                            <option>-- SELECCIONA --</option>
-                            <option>DESARROLLO DE PROYECTOS</option>
-                            <option>OPERACION DE PROYECTOS</option>
-                            <option>CAU</option>
-                            <option>SAP</option>
-                            <option>CIBERSEGURIDAD</option>
-                            <option>HOSPITALES</option>
-                            <option>FABRICA DE SOFTWARE</option>
+                        <select name="servicio">
+                            <option value="none" >-- SELECCIONA --</option>
+                            <option value="DESARROLLO DE PROYECTOS" >DESARROLLO DE PROYECTOS</option>
+                            <option value="OPERACION DE PROYECTOS" >OPERACION DE PROYECTOS</option>
+                            <option value="CAU" >CAU</option>
+                            <option value="SAP" >SAP</option>
+                            <option value="CIBERSEGURIDAD" >CIBERSEGURIDAD</option>
+                            <option value="HOSPITALES" >HOSPITALES</option>
+                            <option value="FABRICA DE SOFTWARE" >FABRICA DE SOFTWARE</option>
                         </select>
                         <label>¿MEDIO DE CONTACTO?</label><br>
-                        <select>
-                            <option>-- SELECCIONA --</option>
-                            <option>MAIL</option>
-                            <option>TELÉFONO</option>
-                            <option>WHATSAPP</option>
+                        <select name="contacto">
+                            <option value="none">-- SELECCIONA --</option>
+                            <option value="MAIL">MAIL</option>
+                            <option value="TELÉFONO">TELÉFONO</option>
+                            <option value="WHATSAPP">WHATSAPP</option>
                         </select>
                         <label>COMENTARIOS</label>
-                        <textarea placeholder="Escribe tus comentarios adicionales"></textarea>
-                        
+                        <textarea name="comentarios" placeholder="Escribe tus comentarios adicionales"></textarea>
                     </li>
                 </ol>
             </li>
             <li class="li-3" >
                 <img src="images/logo/LOGO TUTUM-FULL COLOR-RGB-03.png"><br>
-                <button>ENVIAR</button>
+                <button name="action" value="new_contact">ENVIAR</button>
             </li>
         </ul>
     </div>

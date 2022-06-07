@@ -64,7 +64,7 @@
 </div>-->
 
 <!-- FORMULARIO -->
-<form>
+<form action="./" method="POST" enctype="multipart/form-data" >
     <div class="square-contact-03">
         <ul>
             <li class="li-1">
@@ -75,16 +75,23 @@
                 <ol>
                     <li>
                         <label>NOMBRE*</label>
-                        <input type="text" name="nombre" placeholder="Escribe tu nombre">
+                        <input type="text" name="nombre" placeholder="Escribe tu nombre" required>
                         <label>CORREO ELECTRONICO*</label>
-                        <input type="email" name="email" placeholder="example@tutum.com.mx">
+                        <input type="email" name="email" placeholder="example@tutum.com.mx" required>
                         <label>TELEFONO* ​</label>
-                        <input type="phone" name="telefono" placeholder="5523654965">
+                        <input type="phone" name="telefono" placeholder="5523654965" required>
                     </li>
                     <li style="position: relative;">
                         <label>ESPECIALIDAD* </label>
-                        <select>
-                            <option>-- SELECCIONA --</option>
+                        <select name="especialidad">
+                            <option value="none" >-- SELECCIONA --</option>
+                            <option value="DESARROLLO DE PROYECTOS" >DESARROLLO DE PROYECTOS</option>
+                            <option value="OPERACION DE PROYECTOS" >OPERACION DE PROYECTOS</option>
+                            <option value="CAU" >CAU</option>
+                            <option value="SAP" >SAP</option>
+                            <option value="CIBERSEGURIDAD" >CIBERSEGURIDAD</option>
+                            <option value="HOSPITALES" >HOSPITALES</option>
+                            <option value="FABRICA DE SOFTWARE" >FABRICA DE SOFTWARE</option>
                         </select>
                         <br><br>
                         <input  type="file" name="cv" id="cv" class="inputfile" data-multiple-caption="{count} files selected" multiple>
@@ -94,7 +101,7 @@
             </li>
             <li class="li-3" >
                 <img src="images/logo/LOGO TUTUM-FULL COLOR-RGB-03.png"><br>
-                <button>ENVIAR</button>
+                <button name="action" value="bolsa">ENVIAR</button>
             </li>
         </ul>
     </div>
