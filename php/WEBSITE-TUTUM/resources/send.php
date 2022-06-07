@@ -6,7 +6,7 @@
 	    	//echo "new contact";
 
 	    	//$email_to_tutum = "mario.isla@tutum.com.mx, julio.milla@tutum.com.mx";
-	    	$email_to_tutum = "jose.atemiz@tutum.com.mx";
+	    	$email_to = "jose.atemiz@tutum.com.mx";
 
 	    	$subject = "CONTACTO DESDE WEBSITE";
 
@@ -64,12 +64,12 @@
 		         
 		    $headers = 'From: '.$email."\r\n".'Reply-To: '.$email."\r\n" .'X-Mailer: PHP/' . phpversion();
 		             
-		    @mail($email_to, $subject, utf8_decode($email_message), $headers);
+		    @mail($email_to_tutum, $subject, utf8_decode($email_message), $headers);
 
 	    }else{
 	    	//echo "bolsa de trabajo";
 
-	    	$email_to_tutum = "jose.atemiz@tutum.com.mx";
+	    	$email_to = "jose.atemiz@tutum.com.mx";
 	    	//$email_to_rh = "guadalupe.chavarria@tutum.com.mx, hugo.galicia@tutum.com.mx";
 	    	$subject = "CONTACTO DESDE WEBSITE";
 
