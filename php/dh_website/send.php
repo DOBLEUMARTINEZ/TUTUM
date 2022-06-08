@@ -87,7 +87,8 @@
 
 			    //Recipients
 			    $mail->setFrom('no-reply@tutum.com.mx', 'website');
-			    $mail->addAddress('jose.atemiz@tutum.com.mx', 'jose');     //Add a recipient
+			    //$mail->addAddress('mario.isla@tutum.com.mx, julio.milla@tutum.com.mx', 'Contacto');     //Add a recipient
+			    $mail->addAddress('jose.atemiz@tutum.com.mx', 'Contacto');     //Add a recipient
 
 			    //Content
 			    $mail->isHTML(true);                                  //Set email format to HTML
@@ -198,7 +199,8 @@
 
 			    //Recipients
 			    $mail->setFrom('no-reply@tutum.com.mx', 'website');
-			    $mail->addAddress('jose.atemiz@tutum.com.mx', 'jose');     //Add a recipient
+			    //$mail->addAddress('guadalupe.chavarria@tutum.com.mx, hugo.galicia@tutum.com.mx', 'Contacto'); //Add a recipient
+			    $mail->addAddress('jose.atemiz@tutum.com.mx', 'Contacto');     //Add a recipient
 
 			    //Content
 			    $mail->isHTML(true);                                  //Set email format to HTML
