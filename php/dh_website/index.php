@@ -17,7 +17,7 @@ echo '<!DOCTYPE html><html lang="es">';
     include("resources/inicio/head.php"); 
 
   // PHP MAIL
-  include("send.php");  
+  include("send.php"); 
 
 echo '<body>'; // INICIO CUERPO
 
