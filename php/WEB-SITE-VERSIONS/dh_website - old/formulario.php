@@ -49,7 +49,8 @@ if($arrResponse["success"] == '1' && $arrResponse["action"] == $action && $arrRe
     // show error message
 }
 
-         $nombre = $_POST['nombre'];
+       
+       $mensaje  = $_POST['mensaje'];  $nombre = $_POST['nombre'];
          $apellido = $_POST['apellido'];
          $email  = $_POST['email'];
          $telefono  = $_POST['telefono'];
@@ -57,7 +58,6 @@ if($arrResponse["success"] == '1' && $arrResponse["action"] == $action && $arrRe
          $puesto  = $_POST['puesto'];
          $lugar  = $_POST['lugar'];
          $asunto  = $_POST['asunto'];
-       $mensaje  = $_POST['mensaje'];
 
  $body = "Nombre:" . $nombre . "<br> Apellido: ". $apellido . "<br>Correo: ". $email . "<br>Teléfono: ". $telefono  
 . "<br>Empresa: ". $empresa . "<br>Puesto: ". $puesto . "<br>País o Ciudad: ". $lugar . "<br>Asunto: ". $asunto . "<br>Mensaje: ". $mensaje ;

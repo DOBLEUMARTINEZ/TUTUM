@@ -1,5 +1,7 @@
 <?php
 
+	require 'PHPMailer/PHPMailerAutoload.php';
+
 	if (isset($_POST['action'])) {
 
 	    if ($_POST['action']=='new_contact') {
@@ -62,9 +64,42 @@
 		    $email_message .= "contacto: ".clean_string($contacto)."\n";
 		    $email_message .= "comentarios: ".clean_string($comentarios)."\n";
 		         
-		    $headers = 'From: '.$email."\r\n".'Reply-To: '.$email."\r\n" .'X-Mailer: PHP/' . phpversion();
+		    //$headers = 'From: '.$email."\r\n".'Reply-To: '.$email."\r\n" .'X-Mailer: PHP/' . phpversion();
 		             
-		    @mail($email_to_tutum, $subject, utf8_decode($email_message), $headers);
+		    //@mail($email_to, $subject, utf8_decode($email_message), $headers);
+
+
+		    //Create a new PHPMailer instance
+			$mail = new PHPMailer();
+			$mail->IsSMTP();
+			 
+			//Configuracion servidor mail
+			$mail->From = "jose.atemiz@tutum.com.mx"; //remitente
+			$mail-> CharSet = 'UTF-8';
+			$mail->Encoding = 'base64';
+			$mail->SMTPAuth = true;
+			$mail->SMTPSecure = 'tls'; //seguridad
+			$mail->Host = "smtp.office365.com"; // servidor smtp
+			$mail->Port = 587; //puerto
+			$mail->Username ='no-reply@tutum.com.mx'; //nombre usuario
+			$mail->Password = 'FqW9#dX07u1yKjLp0p2'; //contraseña
+			 
+			//Agregar destinatario
+			$mail->AddAddress($email);
+			$mail->Subject = 'CONTACTO DESDE WEBSITE';
+			$mail->Body = $email_message;
+			 
+			//Avisar si fue enviado o no y dirigir al index
+			if ($mail->Send()) {
+			    echo'<script type="text/javascript">
+			           alert("Enviado Correctamente");
+			        </script>';
+			} else {
+			    echo'<script type="text/javascript">
+			           alert("NO ENVIADO, intentar de nuevo");
+			           window.location.href = "./";
+			        </script>';
+			}
 
 	    }else{
 	    	//echo "bolsa de trabajo";
@@ -113,9 +148,43 @@
 		    $email_message .= "Teléfono: ".clean_string($telefono)."\n";
 		    $email_message .= "Especialidad: ".clean_string($especialidad)."\n";
 		         
-		    $headers = 'From: '.$email."\r\n".'Reply-To: '.$email."\r\n" .'X-Mailer: PHP/' . phpversion();
+		    //$headers = 'From: '.$email."\r\n".'Reply-To: '.$email."\r\n" .'X-Mailer: PHP/' . phpversion();
 		             
-		    @mail($email_to, $subject, utf8_decode($email_message), $headers);
+		    ///@mail($email_to, $subject, utf8_decode($email_message), $headers);
+
+
+		     //Create a new PHPMailer instance
+			$mail = new PHPMailer();
+			$mail->IsSMTP();
+			 
+			//Configuracion servidor mail
+			$mail->From = "jose.atemiz@tutum.com.mx"; //remitente
+			$mail-> CharSet = 'UTF-8';
+			$mail->Encoding = 'base64';
+			$mail->SMTPAuth = true;
+			$mail->SMTPSecure = 'tls'; //seguridad
+			$mail->Host = "smtp.office365.com"; // servidor smtp
+			$mail->Port = 587; //puerto
+			$mail->Username ='no-reply@tutum.com.mx'; //nombre usuario
+			$mail->Password = 'FqW9#dX07u1yKjLp0p2'; //contraseña
+			 
+			//Agregar destinatario
+			$mail->AddAddress($email);
+			$mail->Subject = 'CONTACTO DESDE WEBSITE';
+			$mail->Body = $email_message;
+			 
+			//Avisar si fue enviado o no y dirigir al index
+			if ($mail->Send()) {
+			    echo'<script type="text/javascript">
+			           alert("Enviado Correctamente");
+			        </script>';
+			} else {
+			    echo'<script type="text/javascript">
+			           alert("NO ENVIADO, intentar de nuevo");
+			           window.location.href = "./";
+			        </script>';
+			}
+		    
 	    }
 
 	}

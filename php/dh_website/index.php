@@ -1,4 +1,5 @@
 <?php
+
 echo '<!DOCTYPE html><html lang="es">';
 
   // URL
@@ -15,8 +16,8 @@ echo '<!DOCTYPE html><html lang="es">';
   // HEAD
     include("resources/inicio/head.php"); 
 
-  // ENVIO DE CORREO
-    include('resources/send.php'); 
+  // PHP MAIL
+  include("send.php");  
 
 echo '<body>'; // INICIO CUERPO
 
