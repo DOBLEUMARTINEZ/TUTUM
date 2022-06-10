@@ -25,6 +25,36 @@
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
 
   <!--jquery-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-187877163-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-187877163-1');
+    </script>
+
+    <!-- Recaptcha -->
+   <script src="https://www.google.com/recaptcha/api.js"></script>
+
+    <script>
+      function miFuncion() {
+
+        var response = grecaptcha.getResponse();
+
+        if(response.length == 0){
+          //alert('Algo salio mal');
+        } else {
+            //alert('correto');
+            document.getElementById("re-capcha").value=1;
+        }
+      }
+  </script>
+
+  
 </head>

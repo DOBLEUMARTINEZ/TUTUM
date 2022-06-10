@@ -9,133 +9,290 @@
 
 	if (isset($_POST['action'])) {
 
-	    if ($_POST['action']=='new_contact') {
-	    
-		
-			//Create an instance; passing `true` enables exceptions
-			$mail = new PHPMailer(true);
-			try {
-			    //Server settings
-			    $mail->SMTPDebug = 0;                      //Enable verbose debug output
-			    $mail->isSMTP(true);
-			    $mail-> CharSet = 'UTF-8';                                           //Send using SMTP
-			    $mail->Encoding = 'base64';
-			    $mail->Host       = 'smtp.office365.com';                     //Set the SMTP server to send through
-			    $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-			    $mail->Username   = 'no-reply@tutum.com.mx';                     //SMTP username
-			    $mail->Password   = 'FqW9#dX07u1yKjLp0p2';                               //SMTP password
-			    $mail->SMTPSecure = 'tls';            //Enable implicit TLS encryption
-			    $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+		$recapcha = $_POST['recapcha'];
 
-			    //Recipients
-			    $mail->setFrom('no-reply@tutum.com.mx', 'website');
-			    $mail->addAddress('jose.atemiz@tutum.com.mx', 'jose');     //Add a recipient
+	    if ($recapcha==1) {
+	    	if ($_POST['action']=='new_contact') {
 
-			    //Content
-			    $mail->isHTML(true);                                  //Set email format to HTML
-			    $mail->Subject = 'Formulario de Página Web | TUTUM ';
-			    //$subject = "=?UTF-8?B?".base64_decode($subject)."=?=";
-			    //$body = "=?UTF-8?B?".base64_decode($body)."=?=";
-			    $mail->Body    = ' cuerpo de email';
-			    $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+		    	$nombre = $_POST['nombre'];
+		    	$email = $_POST['email'];
+		    	$telefono = $_POST['telefono'];
+		    	$empresa = $_POST['empresa'];
+		    	$ciudad = $_POST['ciudad'];
+		    	$servicio = $_POST['servicio'];
+		    	$contacto = $_POST['contacto'];
+		    	$comentarios = $_POST['comentarios'];
 
-			    $mail->send();
-			    echo '<script> alert ("Correo enviado correctamente") </script>';
+		    	
 
-			} catch (Exception $e) {
+		    	$mensaje = '
+					<html>
+					<head>
+					  <title>FORULARIO DE CONTACTO TUTUM</title>
+					</head>
+					<body>
+					  <table style="width:80%;margin-left:10%;font-size:15px;text-align:left;">
+					  	<tr>
+					  		<th colspan="2" style="background:#000;color:#fff;font-size:25px;padding:10px;" > SOLICITUD DE SERVICIOS </th>
+					  	</tr>
+					    <tr>
+					      <td style="padding:10px;" >NOMBRE </td>
+					      <td style="padding:10px;" >'.$nombre.'</td>
+					    </tr>
+					    <tr>
+					      <td style="padding:10px;">EMAIL </td>
+					      <td style="padding:10px;">'.$email.'</td>
+					    </tr>
+					    <tr>
+					      <td style="padding:10px;">TELÉFONO </td>
+					      <td style="padding:10px;">'.$telefono.'</td>
+					    </tr>
+					    <tr>
+					      <td style="padding:10px;">EMPRESA </td>
+					      <td style="padding:10px;">'.$empresa.'</td>
+					    </tr>
+					    <tr>
+					      <td style="padding:10px;">CIUDAD </td>
+					      <td style="padding:10px;">'.$ciudad.'</td>
+					    </tr>
+					    <tr>
+					      <td style="padding:10px;">SERVICIO </td>
+					      <td style="padding:10px;">'.$servicio.'</td>
+					    </tr>
+					    <tr>
+					      <td style="padding:10px;">MEDIO DE CONTACTO</td>
+					      <td style="padding:10px;">'.$contacto.'</td>
+					    </tr>
+					    <tr>
+					      <td style="padding:10px;">COMENTARIOS</td>
+					      <td style="padding:10px;">'.$comentarios.'</td>
+					    </tr>
+					    <tr>
+					    	<td colspan="2" style="background:#000;color:#fff;font-size:15px;text-align:center;padding:10px;" >Copyright © 2022 tutum.com.mx, Todos los derechos reservados.</td>
+					    </tr>
+					  </table>
+					</body>
+					</html>
+					';
+		    
+				//Create an instance; passing `true` enables exceptions
+				$mail = new PHPMailer(true);
+				try {
+				    //Server settings
+				    $mail->SMTPDebug = 0;                      //Enable verbose debug output
+				    $mail->isSMTP(true);
+				    $mail-> CharSet = 'UTF-8';                                           //Send using SMTP
+				    $mail->Encoding = 'base64';
+				    $mail->Host       = 'smtp.office365.com';                     //Set the SMTP server to send through
+				    $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
+				    $mail->Username   = 'no-reply@tutum.com.mx';                     //SMTP username
+				    $mail->Password   = 'FqW9#dX07u1yKjLp0p2';                               //SMTP password
+				    $mail->SMTPSecure = 'tls';            //Enable implicit TLS encryption
+				    $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
-			    echo '<script> alert ("Lo sentimos, algo ocurrio") </script>';
+				    //Recipients
+				    $mail->setFrom('no-reply@tutum.com.mx', 'website');
+				    //$mail->addAddress('mario.isla@tutum.com.mx, julio.milla@tutum.com.mx', 'Contacto');     //Add a recipient
+				    $mail->addAddress('jose.atemiz@tutum.com.mx', 'Contacto');     //Add a recipient
 
-			}
+				    //Content
+				    $mail->isHTML(true);                                  //Set email format to HTML
+				    $mail->Subject = 'Formulario de Página Web | TUTUM ';
+				    //$subject = "=?UTF-8?B?".base64_decode($subject)."=?=";
+				    //$body = "=?UTF-8?B?".base64_decode($body)."=?=";
+				    $mail->Body    = $mensaje;
+				    $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
-			///echo "string";
+				    $mail->send();
+				    ?>
+					  <script type="text/javascript">
+					      $( document ).ready(function() {
+					      Swal.fire({
+					          icon: 'success',
+					          title:'Gracias por contactarnos',
+					          text: 'Un ejecutivo se comunicará contigo lo antes posible.',
+					          /*showCloseButton: true,*/
+					          focusConfirm: false,
+					          timerProgressBar: true,
+					          confirmButtonText:
+					          'Continuar',
+					          confirmButtonAriaLabel: 'Send'
+					        });
+					        });
+					    </script>
+					<?php
 
+				} catch (Exception $e) {
+
+				    ?>
+					  <script type="text/javascript">
+					      $( document ).ready(function() {
+					      Swal.fire({
+					          icon: 'error',
+					          title:'Algo salio mal',
+					          text: 'Porfavor vuelve a intentarlo',
+					          /*showCloseButton: true,*/
+					          focusConfirm: false,
+					          timerProgressBar: true,
+					          confirmButtonText:
+					          'Continuar',
+					          confirmButtonAriaLabel: 'Send'
+					        });
+					        });
+					    </script>
+					<?php
+
+				}
+
+		    }else{
+		    	//echo "bolsa de trabajo";
+
+		    	$nombre = $_POST['nombre'];
+		    	$email = $_POST['email'];
+		    	$telefono = $_POST['telefono'];
+		    	$especialidad = $_POST['especialidad'];
+
+		    	if (!empty($_FILES['cv']['name'])) {
+
+		    		$name_file  = $_FILES['cv']['name'];
+		            $file       = $_FILES['cv']['tmp_name'];
+		            $type       = $_FILES['cv']['type'];
+		            $size       = $_FILES['cv']['size'];
+
+		            $uploads_dir = 'uploads';
+		            $upload_file = move_uploaded_file($file,"$uploads_dir/$name_file");
+		            $uploads_dir = 'uploads/'.$name_file;
+		            $img = $uploads_dir;
+		    	}
+
+		    	$mensaje = '
+					<html>
+					<head>
+					  <title>FORULARIO DE BOLSA DE TRABAJO</title>
+					</head>
+					<body>
+					  <table style="width:80%;margin-left:10%;font-size:15px;text-align:left;">
+					  	<tr>
+					  		<th colspan="2" style="background:#000;color:#fff;font-size:25px;padding:10px;" > INFORMACIÓN DEL INTERESADO </th>
+					  	</tr>
+					    <tr>
+					      <td style="padding:10px;" >NOMBRE </td>
+					      <td style="padding:10px;" >'.$nombre.'</td>
+					    </tr>
+					    <tr>
+					      <td style="padding:10px;">EMAIL </td>
+					      <td style="padding:10px;">'.$email.'</td>
+					    </tr>
+					    <tr>
+					      <td style="padding:10px;">TELÉFONO </td>
+					      <td style="padding:10px;">'.$telefono.'</td>
+					    </tr>
+					    <tr>
+					      <td style="padding:10px;">ESPECIALIDAD </td>
+					      <td style="padding:10px;">'.$especialidad.'</td>
+					    </tr>
+					    <tr>
+					    	<td colspan="2" style="background:#000;color:#fff;font-size:15px;text-align:center;padding:10px;" >Copyright © 2022 tutum.com.mx, Todos los derechos reservados.</td>
+					    </tr>
+					  </table>
+					</body>
+					</html>
+					';
+
+		    	//Create an instance; passing `true` enables exceptions
+				$mail = new PHPMailer(true);
+				try {
+				    //Server settings
+				    $mail->SMTPDebug = 0;                      //Enable verbose debug output
+				    $mail->isSMTP(true);
+				    $mail-> CharSet = 'UTF-8';                                           //Send using SMTP
+				    $mail->Encoding = 'base64';
+				    $mail->Host       = 'smtp.office365.com';                     //Set the SMTP server to send through
+				    $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
+				    $mail->Username   = 'no-reply@tutum.com.mx';                     //SMTP username
+				    $mail->Password   = 'FqW9#dX07u1yKjLp0p2';                               //SMTP password
+				    $mail->SMTPSecure = 'tls';            //Enable implicit TLS encryption
+				    $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+
+				    //Recipients
+				    $mail->setFrom('no-reply@tutum.com.mx', 'website');
+				    //$mail->addAddress('guadalupe.chavarria@tutum.com.mx, hugo.galicia@tutum.com.mx', 'Contacto'); //Add a recipient
+				    $mail->addAddress('jose.atemiz@tutum.com.mx', 'Contacto');     //Add a recipient
+
+				    //Content
+				    $mail->isHTML(true);                                  //Set email format to HTML
+				    $mail->Subject = 'Formulario de Página Web | TUTUM ';
+				    //$subject = "=?UTF-8?B?".base64_decode($subject)."=?=";
+				    //$body = "=?UTF-8?B?".base64_decode($body)."=?=";
+				    $mail->Body    = $mensaje;
+				    $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+
+				    if (!empty($_FILES['cv']['name'])) {
+				    	$mail->AddAttachment($img,$name_file);
+				    }
+				    $mail->send();
+				    ?>
+					  <script type="text/javascript">
+					      $( document ).ready(function() {
+					      Swal.fire({
+					          icon: 'success',
+					          title:'Gracias por contactarnos',
+					          text: 'Un ejecutivo se comunicará contigo lo antes posible.',
+					          /*showCloseButton: true,*/
+					          focusConfirm: false,
+					          timerProgressBar: true,
+					          confirmButtonText:
+					          'Continuar',
+					          confirmButtonAriaLabel: 'Send'
+					        });
+					        });
+					    </script>
+					<?php
+
+				} catch (Exception $e) {
+
+				     ?>
+					  <script type="text/javascript">
+					      $( document ).ready(function() {
+					      Swal.fire({
+					          icon: 'error',
+					          title:'Algo salio mal',
+					          text: 'Porfavor vuelve a intentarlo',
+					          /*showCloseButton: true,*/
+					          focusConfirm: false,
+					          timerProgressBar: true,
+					          confirmButtonText:
+					          'Continuar',
+					          confirmButtonAriaLabel: 'Send'
+					        });
+					        });
+					    </script>
+					<?php
+
+				}
+
+		    }
 	    }else{
-	    	//echo "bolsa de trabajo";
+	    	?>
 
-	    	$email_to = "jose.atemiz@tutum.com.mx";
-	    	//$email_to_rh = "guadalupe.chavarria@tutum.com.mx, hugo.galicia@tutum.com.mx";
-	    	$subject = "CONTACTO DESDE WEBSITE";
+	    	<script type="text/javascript">
+					      $( document ).ready(function() {
+					      Swal.fire({
+					          icon: 'error',
+					          title:'Algo salio mal',
+					          text: 'Porfavor vuelve a intentarlo',
+					          /*showCloseButton: true,*/
+					          focusConfirm: false,
+					          timerProgressBar: true,
+					          confirmButtonText:
+					          'Continuar',
+					          confirmButtonAriaLabel: 'Send'
+					        });
+					        });
+					    </script>
 
-	    	function died($error) {  
-			    echo "Lo sentimos, hubo un error en sus datos y el formulario no puede ser enviado en este momento. ";
-			    echo "Detalle de los errores.<br /><br />";
-			    echo $error."<br /><br />";
-			    echo "Porfavor corrija estos errores e inténtelo de nuevo.<br /><br />";
-			   	die();
-			}
-
-			if(!isset($_POST['nombre']) || 
-		    	!isset($_POST['email']) || 
-		    	!isset($_POST['telefono']) || 
-		    	!isset($_POST['especialidad']))
-		    {
-		    	die('Lo sentimos pero parece haber un problema con los datos enviados.');
-		    }
-
-		    $nombre   = $_POST['nombre']; 
-	    	$email   = $_POST['email']; 
-	    	$telefono        = $_POST['telefono'];
-	    	$especialidad      = $_POST['especialidad']; 
-	    	$error_message = "";
-
-	    	// mensae de error
-		    if(strlen($error_message) > 0) {
-		        die($error_message);
-		    }
-
-		    // envio de email 
-		    $email_message = "Contenido del Mensaje.\n\n";
-		      
-		    function clean_string($string) {
-		        $bad = array("content-type","bcc:","to:","cc:","href");
-		        return str_replace($bad,"",$string);
-		    }
-
-		    $email_message .= "Nombre: ".clean_string($nombre)."\n";
-		    $email_message .= "Email: ".clean_string($email)."\n";
-		    $email_message .= "Teléfono: ".clean_string($telefono)."\n";
-		    $email_message .= "Especialidad: ".clean_string($especialidad)."\n";
-		         
-		    //$headers = 'From: '.$email."\r\n".'Reply-To: '.$email."\r\n" .'X-Mailer: PHP/' . phpversion();
-		             
-		    ///@mail($email_to, $subject, utf8_decode($email_message), $headers);
-
-
-		     //Create a new PHPMailer instance
-			$mail = new PHPMailer();
-			$mail->IsSMTP();
-			 
-			//Configuracion servidor mail
-			$mail->From = "jose.atemiz@tutum.com.mx"; //remitente
-			$mail-> CharSet = 'UTF-8';
-			$mail->Encoding = 'base64';
-			$mail->SMTPAuth = true;
-			$mail->SMTPSecure = 'tls'; //seguridad
-			$mail->Host = "smtp.office365.com"; // servidor smtp
-			$mail->Port = 587; //puerto
-			$mail->Username ='no-reply@tutum.com.mx'; //nombre usuario
-			$mail->Password = 'FqW9#dX07u1yKjLp0p2'; //contraseña
-			 
-			//Agregar destinatario
-			$mail->AddAddress($email);
-			$mail->Subject = 'CONTACTO DESDE WEBSITE';
-			$mail->Body = $email_message;
-			 
-			//Avisar si fue enviado o no y dirigir al index
-			if ($mail->Send()) {
-			    echo'<script type="text/javascript">
-			           alert("Enviado Correctamente");
-			        </script>';
-			} else {
-			    echo'<script type="text/javascript">
-			           alert("NO ENVIADO, intentar de nuevo");
-			           window.location.href = "./";
-			        </script>';
-			}
-
+	    	<?php
 	    }
-
 	}
 	 
 ?>

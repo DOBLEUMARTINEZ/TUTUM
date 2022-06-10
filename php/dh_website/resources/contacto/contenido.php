@@ -76,13 +76,13 @@
                 <ol>
                     <li>
                         <label>NOMBRE*</label>
-                        <input type="text" name="nombre" placeholder="Escribe tu nombre" required>
+                        <input type="text" name="nombre" placeholder="Escribe tu nombre" required maxlength="30" onkeypress="return soloLetras(event)">
                         <label>CORREO ELECTRONICO*</label>
                         <input type="email" name="email" placeholder="example@tutum.com.mx" required>
                         <label>TELEFONO* ​</label>
-                        <input type="phone" name="telefono" placeholder="5523654965" required>
+                        <input type="phone" name="telefono" placeholder="5523654965" required maxlength="10" onkeypress="return soloNumeros(event)">
                         <label>EMPRESA*</label>
-                        <input type="text" name="empresa" placeholder="Empresa" required>
+                        <input type="text" name="empresa" placeholder="Empresa" required maxlength="20" onkeypress="return soloLetras(event)">
                         <label>CIUDAD* </label>
                         <select name="ciudad">
                             <option value ="nada">-- SELECCIONA --</option>
@@ -140,15 +140,22 @@
                             <option value="WHATSAPP">WHATSAPP</option>
                         </select>
                         <label>COMENTARIOS</label>
-                        <textarea name="comentarios" placeholder="Escribe tus comentarios adicionales"></textarea>
+                        <textarea name="comentarios" placeholder="Escribe tus comentarios adicionales" ></textarea>
                     </li>
                 </ol>
             </li>
             <li class="li-3" >
-                <img src="images/logo/LOGO TUTUM-FULL COLOR-RGB-03.png"><br>
-                <button name="action" value="new_contact">ENVIAR</button>
+                <img src="images/logo/LOGO TUTUM-FULL COLOR-RGB-03.png"><br>    
+
+                <div class="g-recaptcha" data-sitekey="6LdfL14gAAAAAEuvne6SqZUsgDxEpo02_znAUzNj" data-callback="verifyCaptcha" ></div>
+
+                <input id="re-capcha" name="recapcha" value="0" type="hidden">
+
+                <button name="action" value="new_contact" onclick ="miFuncion()" >ENVIAR</button>
             </li>
         </ul>
     </div>
 </form>
+
+
 <hr class="barra-colores-01">

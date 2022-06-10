@@ -8,7 +8,7 @@
       <div>
         <ol id="social-media-icons">
           <li onclick="window.open('https://www.facebook.com/Tutum-Tech-515010355546588');" ><i class="fab fa-facebook-square"></i></li>
-          <li onclick="window.open('https://www.instagram.com/tutumtech/');" ><i class="fab fa-instagram"></i></li>
+          <li onclick="window.open('https://www.instagram.com/tutum.tech/');" ><i class="fab fa-instagram"></i></li>
           <li onclick="window.open('https://www.linkedin.com/company/tutum-tech/mycompany/verification/');" ><i class="fab fa-linkedin"></i></li>
           <li onclick="window.open('https://twitter.com/TutumTech');" ><i class="fab fa-twitter-square"></i></li>
         </ol>

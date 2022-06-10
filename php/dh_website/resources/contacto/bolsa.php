@@ -64,7 +64,7 @@
 </div>-->
 
 <!-- FORMULARIO -->
-<form action="./" method="POST" enctype="multipart/form-data" >
+<form action="./" method="POST" enctype="multipart/form-data" onsubmit="miFuncion()">
     <div class="square-contact-03">
         <ul>
             <li class="li-1">
@@ -75,11 +75,11 @@
                 <ol>
                     <li>
                         <label>NOMBRE*</label>
-                        <input type="text" name="nombre" placeholder="Escribe tu nombre" required>
+                        <input type="text" name="nombre" placeholder="Escribe tu nombre" required maxlength="30" onkeypress="return soloLetras(event)">
                         <label>CORREO ELECTRONICO*</label>
                         <input type="email" name="email" placeholder="example@tutum.com.mx" required>
                         <label>TELEFONO* ​</label>
-                        <input type="phone" name="telefono" placeholder="5523654965" required>
+                        <input type="phone" name="telefono" placeholder="5523654965" required maxlength="10" onkeypress="return soloNumeros(event)">
                     </li>
                     <li style="position: relative;">
                         <label>ESPECIALIDAD* </label>
@@ -101,7 +101,9 @@
             </li>
             <li class="li-3" >
                 <img src="images/logo/LOGO TUTUM-FULL COLOR-RGB-03.png"><br>
-                <button name="action" value="bolsa">ENVIAR</button>
+                <div class="g-recaptcha" data-sitekey="6LdfL14gAAAAAEuvne6SqZUsgDxEpo02_znAUzNj" data-callback="verifyCaptcha"></div>
+                <input id="re-capcha" name="recapcha" value="0" type="hidden" >
+                <button name="action" value="bolsa" onclick ="miFuncion()" >ENVIAR</button>
             </li>
         </ul>
     </div>

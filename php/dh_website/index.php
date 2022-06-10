@@ -14,10 +14,10 @@ echo '<!DOCTYPE html><html lang="es">';
     }
   
   // HEAD
-    include("resources/inicio/head.php"); 
+    include("resources/inicio/head.php");
 
-  // PHP MAIL
-  include("send.php");  
+  //EMAIL
+    include("send.php"); 
 
 echo '<body>'; // INICIO CUERPO
 
@@ -140,6 +140,11 @@ echo '<body>'; // INICIO CUERPO
 
   include 'resources/inicio/footer.php'; // PIE DE PAGINA
 
-echo '</body></html>';// FIN CUERPO
-
 ?>
+</body>
+
+</html>
+
+  
+
+
