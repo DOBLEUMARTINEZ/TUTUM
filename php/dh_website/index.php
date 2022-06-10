@@ -16,13 +16,8 @@ echo '<!DOCTYPE html><html lang="es">';
   // HEAD
     include("resources/inicio/head.php");
 
-<<<<<<< HEAD
   //EMAIL
     include("send.php"); 
-=======
-  // PHP MAIL
-  include("send.php"); 
->>>>>>> e92a485d81a85f8cc376027bca1f71ab0b78203b
 
 echo '<body>'; // INICIO CUERPO
 
