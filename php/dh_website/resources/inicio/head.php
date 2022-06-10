@@ -38,6 +38,7 @@
 
         gtag('config', 'UA-187877163-1');
     </script>
+<<<<<<< HEAD
 
     <!-- Recaptcha -->
    <script src="https://www.google.com/recaptcha/api.js"></script>
@@ -56,5 +57,7 @@
       }
   </script>
 
+=======
+>>>>>>> e92a485d81a85f8cc376027bca1f71ab0b78203b
   
 </head>
