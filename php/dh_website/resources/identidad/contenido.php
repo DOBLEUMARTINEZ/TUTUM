@@ -1,8 +1,8 @@
 <!-- BANNER -->
 <div id="square-banner-index">
 	<!-- BACKGROUND IMAGEN -->
-	<img class="video-slide bann-fixed" src="images/img/PASILLO.jpg">
-  	<img class="video-slide" src="images/img/PASILLO.jpg" style="opacity: 0;">
+	<img class="video-slide bann-fixed" src="images/img/identidad.jpg">
+  	<img class="video-slide" src="images/img/identidad.jpg" style="opacity: 0;">
   	<!-- LOGO & TITULO -->
   	<div class="square-logo-big" >
 	    <img src="images/logo/LOGO-WHITE.png" onclick="window.location.href='./';">
@@ -22,7 +22,7 @@
 		</li>
 		<li>
 			<p>
-				Somos una empresa, dinámica, innovadora y 100% mexicana; dedicada a brindar servicios de consultoría tecnológica y soluciones integrales de TI. Estamos comprometidos con el desarrollo económico y social del país, así como con nuestros clientes, socios y colaboradores.​
+				Somos una empresa dinámica, innovadora y 100% mexicana; dedicada a brindar servicios de consultoría tecnológica y soluciones integrales de TI. Estamos comprometidos con el desarrollo económico y social del país, así como con nuestros clientes, socios y colaboradores.​
 			</p>
 		</li>
 	</ol>
@@ -120,13 +120,13 @@
 		<li>
 			<br><br>
 			<img src="images/icons/Identidad/medicamento.gif">
-			<p>Salud Publica</p>
+			<p>Salud Pública</p>
 			<br><br>
 		</li>
 		<li>
 			<br><br>
 			<img src="images/icons/Identidad/edificio.gif">
-			<p>Obra Publica</p>
+			<p>Obra Pública</p>
 			<br><br>
 		</li>
 		<li>
@@ -144,7 +144,7 @@
 		<li>
 			<br><br>
 			<img src="images/icons/Identidad/alerta.gif">
-			<p>Seguridad Publica</p>
+			<p>Seguridad Pública</p>
 			<br><br>
 		</li>
 		<li>

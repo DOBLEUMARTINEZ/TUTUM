@@ -112,7 +112,7 @@
   </ol>
   <div>
     <a style="color: #fff;" href="tel:+525579591177"><i class="fas fa-phone"></i> Of. +52 (55) 55 79 59 11 77</a><br>
-    <a style="color: #fff;" href="https://api.whatsapp.com/send?phone=525579591149&text=Hola!%20me%20pueden%20apoyar?"><i class="fab fa-whatsapp"></i> Whatsapp 55 79 59 1149</a>
+    <a style="color: #fff;" href="https://api.whatsapp.com/send?phone=525579591149&text=Hola!%20me%20pueden%20apoyar?"><i class="fab fa-whatsapp"></i> Whatsapp 55 79 59 11 49</a>
   </div>
 </div>
 

@@ -7,7 +7,7 @@
 		</li>
 		<li>
 			<p>
-				En Tutum, tenemos el objetivo de proteger los sistemas, redes y programas de nuestros clientes, de ataques digitales. Por medio de un monitoreando continuo, evitamos ciberataques los cuales apuntan a acceder, modificar o destruir la información confidencial, para después Extorsionar  a los usuarios o interrumpir la continuidad del negocio.​
+				En TUTUM, tenemos el objetivo de proteger los sistemas, redes y programas de nuestros clientes, de ataques digitales. Por medio de un monitoreando continuo, evitamos ciberataques los cuales apuntan a acceder, modificar o destruir la información confidencial, para después Extorsionar  a los usuarios o interrumpir la continuidad del negocio.​
 				<br>
 				Actualmente, la implementación de medidas de seguridad digital se debe a que hay más dispositivos conectados que personas, y los atacantes son cada vez más creativos.
 			</p>
@@ -82,7 +82,7 @@
 		</li>
 		<li>
 			<p>
-				Tutum a través de su Centro de Operaciones de Ciberseguridad <span style="color: #4dbed4;">(7x24x365)</span> monitoriza la actividad y los eventos en los sistemas de nuestros clientes, para asegurar que los comportamientos anómalos sean detectados, identificados, clasificados y gestionados.
+				TUTUM a través de su Centro de Operaciones de Ciberseguridad <span style="color: #4dbed4;">(7x24x365)</span> monitoriza la actividad y los eventos en los sistemas de nuestros clientes, para asegurar que los comportamientos anómalos sean detectados, identificados, clasificados y gestionados.
 			</p>
 		</li>
 	</ol>
@@ -129,7 +129,7 @@
 			<h3 style="text-transform: uppercase;" >Hacking Ético </h3>
 			<ol>
 				<li>
-					TUTUM a El equipo de Tutum evalúa los diferentes mecanismos de seguridad implementados por el cliente para proteger sus activos, con la finalidad de conocer el estado actual de la ciberseguridad de su organización y las posibles consecuencias que derivarían de las brechas de seguridad detectadas. ​
+					TUTUM a El equipo de TUTUM evalúa los diferentes mecanismos de seguridad implementados por el cliente para proteger sus activos, con la finalidad de conocer el estado actual de la ciberseguridad de su organización y las posibles consecuencias que derivarían de las brechas de seguridad detectadas. ​
 					<br><br>
 					Las actividades realizadas durante los ejercicios simulan un ataque real, lo que permite determinar el diseño y la madurez de los mecanismos de protección implementados por el cliente.
 				</li>

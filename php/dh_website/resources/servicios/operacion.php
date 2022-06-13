@@ -1,4 +1,4 @@
-<!--OPERACIÓN DE PROYECTOS​ -->
+	<!--OPERACIÓN DE PROYECTOS​ -->
 <a id="start"></a>
 <div class="square-04">
 	<ol>
@@ -7,7 +7,7 @@
 		</li>
 		<li>
 			<p>
-				TUTUM TECH, asegura la continuidad de la operación de la infraestructura de TI de sus clientes. A través de los diversos servicios especializados de TUTUM en servicios administrados y operación, logramos que la organización se enfoque en el desarrollo del negocio, mejorando la eficiencia y la confiabilidad de las operaciones de tecnología
+				TUTUM TECH, asegura la continuidad de la operación de la infraestructura de TI de sus clientes. A través de los diversos servicios especializados de TUTUM en servicios administrados y operación, logramos que la organización se enfoque en el desarrollo del negocio, mejorando la eficiencia y la confiabilidad de las operaciones de tecnología.
 			</p>
 		</li>
 	</ol>
@@ -36,7 +36,7 @@
 		<li>
 
 			<p>
-				Contamos con experiencia en la Operación de proyectos en seguridad, hospitalarios y corporativos, teniendo como objetivo el asegurar la continua operación de los sistemas de nuestros clientes
+				Contamos con experiencia en la Operación de proyectos en seguridad, hospitalarios y corporativos, teniendo como objetivo el asegurar la continua operación de los sistemas de nuestros clientes.
 			</p>
 			<center class=" sub-title-type-1" >CONTRATOS</center>
 			<ul>
@@ -58,7 +58,7 @@
 				</li>
 				<li style=" width: 20%; text-align: center; font-weight: bold;color: #4dbed4;">
 					<img style="width: 80%;" src="images/icons/services/operacion/6.- hacker.gif"><br>
-					Ciber​ Seguridad​
+					Ciber​seguridad​
 				</li>
 			</ul>
 			<p style="text-align: center;">
@@ -82,7 +82,7 @@
 		</li>
 		<li>
 			<p>
-				Mantenemos la continua operación de los sistemas de nuestros clientes,  ofreciendo servicios, profesionales, personalizados y de la mas alta calidad, teniendo como prioridad la atención a los servicios de nuestros clientes
+				Mantenemos la continua operación de los sistemas de nuestros clientes,  ofreciendo servicios, profesionales, personalizados y de la más alta calidad, teniendo como prioridad la atención a los servicios de nuestros clientes.
 			</p>
 		</li>
 	</ol>
@@ -153,25 +153,25 @@
 <div class="square-09">
 	<div>
 		<div>
-			<h4 class="tilte-type-1" >ADMINISTRACION ​DE SOLUCIONES</h4>
-			<h3 style="text-transform: uppercase; font-weight: normal;" >Soluciones Infra estructura y Seguridad</h3>
+			<h4 class="tilte-type-1" >ADMINISTRACIÓN ​DE SOLUCIONES</h4>
+			<h3 style="text-transform: uppercase; font-weight: normal;" >Soluciones Infraestructura y Seguridad</h3>
 			<ol>
 				<li>
 					° Cableado Estructurado​<br>
 					° Telefonía e Informática​<br>
-					° Computo e Impresión​<br>
-					° Sistema de Redes Y Wifi​<br>
+					° Cómputo e Impresión​<br>
+					° Sistema de Redes y Wifi​<br>
 					° Circuito Cerrado De Televisión​<br>
 					° Detección de Incendios​<br>
 					° Control de Acceso​<br>
 					° Voceo y Sonorización​<br>
 					° Intercomunicación<br>
 					° Voceo IP​<br>
-					° Detección De Sustancias Y Objetos​<br>
+					° Detección De Sustancias y Objetos​<br>
 					° Sensores Perimetrales​<br>
 					° Videoconferencias​<br>
 					° Inhibición Celular​<br>
-					° Control, Y Monitoreo (BMS)​<br>
+					° Control, y Monitoreo (BMS)​<br>
 					° Integración De Sistemas ​<br>
 					° Radiocomunicación Segura<br>
 					<img src="<?php echo $url ?>images/icons/services/proyectos/camara-de-cctv.png" >
@@ -207,7 +207,7 @@
 				</li>
 				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
 					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/proyectos/monitor-de-computadora.png" ><br>
-					Tele Medicina
+					Telemedicina
 				</li>
 				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
 					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/proyectos/monitor-de-pulso-cardiaco.png" ><br>

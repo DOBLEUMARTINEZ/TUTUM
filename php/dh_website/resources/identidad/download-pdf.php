@@ -3,8 +3,8 @@
 	<ol >
 		<li>
 			<h2 style="padding: 10% 0%;">
-				¿QUIERES SABER MAS<br>SOBRE NOSOTROS?<br><br>
-				<span>Descarga nuestro​ CV</span><br><br>
+				¿QUIERES SABER MÁS <br>SOBRE NOSOTROS?<br><br>
+				<span>DESCARGA NUESTRO CV</span><br><br>
 				<img style="width: 15%; cursor: pointer;" src="<?php echo $url ?>images/icons/pdf.png" class="arrow-down" onclick="window.open('resources/Presentacion TTM .pdf');" >
 			</h2>
 		</li>

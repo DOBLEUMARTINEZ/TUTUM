@@ -1,13 +1,13 @@
 <?php
 	$images = array(
-		'proyectos' => 'images/img/serv.jpg',
+		'proyectos' => 'images/img/proyectos.jpg',
 		'operacion' => 'images/img/operacion.jpg',
 		'cau' => 'images/img/cau.jpg',
 		'sap' => 'images/img/sap.jpg',
 		'hospitales' => 'images/img/hospitales.jpg',
 		'ciberseguridad' => 'images/img/ciberseguridad.jpg',
 		'fabrica-sw' => 'images/img/fabrica-sw.jpg',
-		'menu' => 'images/img/Foto para inicio de servicios.jpg'
+		'menu' => 'images/img/menu.jpg'
 	);
 ?>
 

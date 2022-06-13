@@ -9,35 +9,35 @@ switch ($servicio) {
 				<li id="proyectos-active" class="service-menu-color service-active" onclick="window.location.href='servicios-proyectos#start';">
 					<img src="<?php echo $url ?>images/icons/services/1.- ordenador-portatil.gif" class="icon-menu-black" style="opacity: 0;">
 					<img src="<?php echo $url ?>images/icons/laptop-2.png" class="icon-menu-white" >
-					<h2>DESARROLLO DE PROYECTOS TI</h2>
+					<h2>DESARROLLO DE<br> PROYECTOS TI</h2>
 				</li>
 
 				<li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-operacion#start';">
 					<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/operacion.jpg">
 					<img src="<?php echo $url ?>images/icons/services/2.- apreton-de-manos.gif" class="icon-menu-black">
 					<img src="<?php echo $url;?>images/icons/services/handshake.png" class="icon-menu-white">
-					<h2>OPERACIÓN DE PROYECTOS​</h2>
+					<h2>OPERACIÓN DE<br> PROYECTOS​</h2>
 				</li>
 
 				<li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-cau#start';">
 					<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/cau.jpg">
 					<img src="<?php echo $url ?>images/icons/services/3.- apoyo-tecnico.gif" class="icon-menu-black">
 					<img src="<?php echo $url;?>images/icons/services/tech-support.png" class="icon-menu-white" >
-					<h2>CENTRO DE ATENCIÓN A USUARIOS​</h2>
+					<h2>CENTRO DE ATENCIÓN<br> A USUARIOS​</h2>
 				</li>
 
 				<li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-sap#start';" >
 					<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/sap.jpg">
 					<img src="<?php echo $url ?>images/icons/services/4.- presentacion.gif" class="icon-menu-black">
 					<img src="<?php echo $url;?>images/icons/services/presentation.png" class="icon-menu-white" >
-					<h2>SAP​</h2>
+					<h2>SAP​<br><br></h2>
 				</li>
 
 				<li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-hospitales#start';" >
 					<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/hospitales.jpg">
 					<img src="<?php echo $url ?>images/icons/services/5.- medicamento.gif" class="icon-menu-black">
 					<img src="<?php echo $url;?>images/icons/services/medicine.png" class="icon-menu-white" >
-					<h2>SOLUCIONES HOSPITALARIAS​</h2>
+					<h2>SOLUCIONES<br> HOSPITALARIAS​</h2>
 				</li>
 
 				<li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-ciberseguridad#start';" >
@@ -51,7 +51,7 @@ switch ($servicio) {
 					<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/fabrica-sw.jpg">
 					<img src="<?php echo $url ?>images/icons/services/7.- idea.gif" class="icon-menu-black">
 					<img src="<?php echo $url;?>images/icons/services/idea.png" class="icon-menu-white">
-					<h2>FABRICA DE SOFTWARE​</h2>
+					<h2>FÁBRICA DE<br> SOFTWARE​</h2>
 				</li>
 
 			</ul>
@@ -72,35 +72,35 @@ switch ($servicio) {
 					<img src="<?php echo $url ?>images/icons/services/1.- ordenador-portatil.gif" class="icon-menu-black">
 					<img src="<?php echo $url ?>images/icons/laptop-2.png" class="icon-menu-white" >
 
-					<h2>DESARROLLO DE PROYECTOS TI</h2>
+					<h2>DESARROLLO DE<br> PROYECTOS TI</h2>
 
 				</li>
 
 				<li id="proyectos-active" class="service-menu-color service-active" onclick="window.location.href='servicios-operacion#start';">
 					<img src="<?php echo $url ?>images/icons/services/2.- apreton-de-manos.gif" class="icon-menu-black" style="opacity: 0;">
 					<img src="<?php echo $url;?>images/icons/services/handshake.png" class="icon-menu-white">
-					<h2>OPERACIÓN DE PROYECTOS​</h2>
+					<h2>OPERACIÓN DE<br> PROYECTOS​</h2>
 				</li>
 
 				<li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-cau#start';">
 					<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/cau.jpg">
 					<img src="<?php echo $url ?>images/icons/services/3.- apoyo-tecnico.gif" class="icon-menu-black">
 					<img src="<?php echo $url;?>images/icons/services/tech-support.png" class="icon-menu-white" >
-					<h2>CENTRO DE ATENCIÓN A USUARIOS​</h2>
+					<h2>CENTRO DE ATENCIÓN<br> A USUARIOS​</h2>
 				</li>
 
 				<li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-sap#start';" >
 					<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/sap.jpg">
 					<img src="<?php echo $url ?>images/icons/services/4.- presentacion.gif" class="icon-menu-black">
 					<img src="<?php echo $url;?>images/icons/services/presentation.png" class="icon-menu-white" >
-					<h2>SAP​</h2>
+					<h2>SAP​<br><br></h2>
 				</li>
 
 				<li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-hospitales#start';" >
 					<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/hospitales.jpg">
 					<img src="<?php echo $url ?>images/icons/services/5.- medicamento.gif" class="icon-menu-black">
 					<img src="<?php echo $url;?>images/icons/services/medicine.png" class="icon-menu-white" >
-					<h2>SOLUCIONES HOSPITALARIAS​</h2>
+					<h2>SOLUCIONES<br> HOSPITALARIAS​</h2>
 				</li>
 
 				<li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-ciberseguridad#start';" >
@@ -114,7 +114,7 @@ switch ($servicio) {
 					<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/fabrica-sw.jpg">
 					<img src="<?php echo $url ?>images/icons/services/7.- idea.gif" class="icon-menu-black">
 					<img src="<?php echo $url;?>images/icons/services/idea.png" class="icon-menu-white">
-					<h2>FABRICA DE SOFTWARE​</h2>
+					<h2>FÁBRICA DE<br> SOFTWARE​</h2>
 				</li>
 
 			</ul>
@@ -135,7 +135,7 @@ switch ($servicio) {
 					<img src="<?php echo $url ?>images/icons/services/1.- ordenador-portatil.gif" class="icon-menu-black">
 					<img src="<?php echo $url ?>images/icons/laptop-2.png" class="icon-menu-white" >
 
-					<h2>DESARROLLO DE PROYECTOS TI</h2>
+					<h2>DESARROLLO DE<br> PROYECTOS TI</h2>
 
 				</li>
 
@@ -143,27 +143,27 @@ switch ($servicio) {
 					<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/operacion.jpg">
 					<img src="<?php echo $url ?>images/icons/services/2.- apreton-de-manos.gif" class="icon-menu-black">
 					<img src="<?php echo $url;?>images/icons/services/handshake.png" class="icon-menu-white">
-					<h2>OPERACIÓN DE PROYECTOS​</h2>
+					<h2>OPERACIÓN DE<br> PROYECTOS​</h2>
 				</li>
 
 				<li id="proyectos-active" class="service-menu-color service-active" onclick="window.location.href='servicios-cau#start';">
 					<img src="<?php echo $url ?>images/icons/services/3.- apoyo-tecnico.gif" class="icon-menu-black" style="opacity: 0;">
 					<img src="<?php echo $url;?>images/icons/services/tech-support.png" class="icon-menu-white" >
-					<h2>CENTRO DE ATENCIÓN A USUARIOS​</h2>
+					<h2>CENTRO DE ATENCIÓN<br> A USUARIOS​</h2>
 				</li>
 
 				<li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-sap#start';" >
 					<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/sap.jpg">
 					<img src="<?php echo $url ?>images/icons/services/4.- presentacion.gif" class="icon-menu-black">
 					<img src="<?php echo $url;?>images/icons/services/presentation.png" class="icon-menu-white" >
-					<h2>SAP​</h2>
+					<h2>SAP​<br><br></h2>
 				</li>
 
 				<li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-hospitales#start';" >
 					<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/hospitales.jpg">
 					<img src="<?php echo $url ?>images/icons/services/5.- medicamento.gif" class="icon-menu-black">
 					<img src="<?php echo $url;?>images/icons/services/medicine.png" class="icon-menu-white" >
-					<h2>SOLUCIONES HOSPITALARIAS​</h2>
+					<h2>SOLUCIONES<br> HOSPITALARIAS​</h2>
 				</li>
 
 				<li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-ciberseguridad#start';" >
@@ -177,7 +177,7 @@ switch ($servicio) {
 					<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/fabrica-sw.jpg">
 					<img src="<?php echo $url ?>images/icons/services/7.- idea.gif" class="icon-menu-black">
 					<img src="<?php echo $url;?>images/icons/services/idea.png" class="icon-menu-white">
-					<h2>FABRICA DE SOFTWARE​</h2>
+					<h2>FÁBRICA DE<br> SOFTWARE​</h2>
 				</li>
 
 			</ul>
@@ -198,7 +198,7 @@ switch ($servicio) {
 					<img src="<?php echo $url ?>images/icons/services/1.- ordenador-portatil.gif" class="icon-menu-black">
 					<img src="<?php echo $url ?>images/icons/laptop-2.png" class="icon-menu-white" >
 
-					<h2>DESARROLLO DE PROYECTOS TI</h2>
+					<h2>DESARROLLO DE<br> PROYECTOS TI</h2>
 
 				</li>
 
@@ -206,27 +206,27 @@ switch ($servicio) {
 					<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/operacion.jpg">
 					<img src="<?php echo $url ?>images/icons/services/2.- apreton-de-manos.gif" class="icon-menu-black">
 					<img src="<?php echo $url;?>images/icons/services/handshake.png" class="icon-menu-white">
-					<h2>OPERACIÓN DE PROYECTOS​</h2>
+					<h2>OPERACIÓN DE<br> PROYECTOS​</h2>
 				</li>
 
 				<li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-cau#start';">
 					<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/cau.jpg">
 					<img src="<?php echo $url ?>images/icons/services/3.- apoyo-tecnico.gif" class="icon-menu-black">
 					<img src="<?php echo $url;?>images/icons/services/tech-support.png" class="icon-menu-white" >
-					<h2>CENTRO DE ATENCIÓN A USUARIOS​</h2>
+					<h2>CENTRO DE ATENCIÓN<br> A USUARIOS​</h2>
 				</li>
 
 				<li id="proyectos-active" class="service-menu-color service-active" onclick="window.location.href='servicios-sap#start';" >
 					<img src="<?php echo $url ?>images/icons/services/4.- presentacion.gif" class="icon-menu-black" style="opacity: 0;">
 					<img src="<?php echo $url;?>images/icons/services/presentation.png" class="icon-menu-white" >
-					<h2>SAP​</h2>
+					<h2>SAP​<br><br></h2>
 				</li>
 
 				<li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-hospitales#start';" >
 					<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/hospitales.jpg">
 					<img src="<?php echo $url ?>images/icons/services/5.- medicamento.gif" class="icon-menu-black">
 					<img src="<?php echo $url;?>images/icons/services/medicine.png" class="icon-menu-white" >
-					<h2>SOLUCIONES HOSPITALARIAS​</h2>
+					<h2>SOLUCIONES<br> HOSPITALARIAS​</h2>
 				</li>
 
 				<li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-ciberseguridad#start';" >
@@ -240,7 +240,7 @@ switch ($servicio) {
 					<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/fabrica-sw.jpg">
 					<img src="<?php echo $url ?>images/icons/services/7.- idea.gif" class="icon-menu-black">
 					<img src="<?php echo $url;?>images/icons/services/idea.png" class="icon-menu-white">
-					<h2>FABRICA DE SOFTWARE​</h2>
+					<h2>FÁBRICA DE<br> SOFTWARE​</h2>
 				</li>
 
 			</ul>
@@ -261,7 +261,7 @@ switch ($servicio) {
 					<img src="<?php echo $url ?>images/icons/services/1.- ordenador-portatil.gif" class="icon-menu-black">
 					<img src="<?php echo $url ?>images/icons/laptop-2.png" class="icon-menu-white" >
 
-					<h2>DESARROLLO DE PROYECTOS TI</h2>
+					<h2>DESARROLLO DE<br> PROYECTOS TI</h2>
 
 				</li>
 
@@ -269,27 +269,27 @@ switch ($servicio) {
 					<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/operacion.jpg">
 					<img src="<?php echo $url ?>images/icons/services/2.- apreton-de-manos.gif" class="icon-menu-black">
 					<img src="<?php echo $url;?>images/icons/services/handshake.png" class="icon-menu-white">
-					<h2>OPERACIÓN DE PROYECTOS​</h2>
+					<h2>OPERACIÓN DE<br> PROYECTOS​</h2>
 				</li>
 
 				<li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-cau#start';">
 					<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/cau.jpg">
 					<img src="<?php echo $url ?>images/icons/services/3.- apoyo-tecnico.gif" class="icon-menu-black">
 					<img src="<?php echo $url;?>images/icons/services/tech-support.png" class="icon-menu-white" >
-					<h2>CENTRO DE ATENCIÓN A USUARIOS​</h2>
+					<h2>CENTRO DE ATENCIÓN<br> A USUARIOS​</h2>
 				</li>
 
 				<li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-sap#start';" >
 					<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/sap.jpg">
 					<img src="<?php echo $url ?>images/icons/services/4.- presentacion.gif" class="icon-menu-black">
 					<img src="<?php echo $url;?>images/icons/services/presentation.png" class="icon-menu-white" >
-					<h2>SAP​</h2>
+					<h2>SAP​<br><br></h2>
 				</li>
 
 				<li id="proyectos-active" class="service-menu-color service-active" onclick="window.location.href='servicios-hospitales#start';" >
 					<img src="<?php echo $url ?>images/icons/services/5.- medicamento.gif" class="icon-menu-black" style="opacity: 0;">
 					<img src="<?php echo $url;?>images/icons/services/medicine.png" class="icon-menu-white" >
-					<h2>SOLUCIONES HOSPITALARIAS​</h2>
+					<h2>SOLUCIONES<br> HOSPITALARIAS​</h2>
 				</li>
 
 				<li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-ciberseguridad#start';" >
@@ -303,7 +303,7 @@ switch ($servicio) {
 					<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/fabrica-sw.jpg">
 					<img src="<?php echo $url ?>images/icons/services/7.- idea.gif" class="icon-menu-black">
 					<img src="<?php echo $url;?>images/icons/services/idea.png" class="icon-menu-white">
-					<h2>FABRICA DE SOFTWARE​</h2>
+					<h2>FÁBRICA DE<br> SOFTWARE​</h2>
 				</li>
 
 			</ul>
@@ -324,7 +324,7 @@ switch ($servicio) {
 					<img src="<?php echo $url ?>images/icons/services/1.- ordenador-portatil.gif" class="icon-menu-black">
 					<img src="<?php echo $url ?>images/icons/laptop-2.png" class="icon-menu-white" >
 
-					<h2>DESARROLLO DE PROYECTOS TI</h2>
+					<h2>DESARROLLO DE<br> PROYECTOS TI</h2>
 
 				</li>
 
@@ -332,28 +332,28 @@ switch ($servicio) {
 					<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/operacion.jpg">
 					<img src="<?php echo $url ?>images/icons/services/2.- apreton-de-manos.gif" class="icon-menu-black">
 					<img src="<?php echo $url;?>images/icons/services/handshake.png" class="icon-menu-white">
-					<h2>OPERACIÓN DE PROYECTOS​</h2>
+					<h2>OPERACIÓN DE<br> PROYECTOS​</h2>
 				</li>
 
 				<li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-cau#start';">
 					<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/cau.jpg">
 					<img src="<?php echo $url ?>images/icons/services/3.- apoyo-tecnico.gif" class="icon-menu-black">
 					<img src="<?php echo $url;?>images/icons/services/tech-support.png" class="icon-menu-white" >
-					<h2>CENTRO DE ATENCIÓN A USUARIOS​</h2>
+					<h2>CENTRO DE ATENCIÓN<br> A USUARIOS​</h2>
 				</li>
 
 				<li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-sap#start';" >
 					<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/sap.jpg">
 					<img src="<?php echo $url ?>images/icons/services/4.- presentacion.gif" class="icon-menu-black">
 					<img src="<?php echo $url;?>images/icons/services/presentation.png" class="icon-menu-white" >
-					<h2>SAP​</h2>
+					<h2>SAP​<br><br></h2>
 				</li>
 
 				<li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-hospitales#start';" >
 					<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/hospitales.jpg">
 					<img src="<?php echo $url ?>images/icons/services/5.- medicamento.gif" class="icon-menu-black">
 					<img src="<?php echo $url;?>images/icons/services/medicine.png" class="icon-menu-white" >
-					<h2>SOLUCIONES HOSPITALARIAS​</h2>
+					<h2>SOLUCIONES<br> HOSPITALARIAS​</h2>
 				</li>
 
 				<li id="proyectos-active" class="service-menu-color service-active" onclick="window.location.href='servicios-ciberseguridad#start';" >
@@ -366,7 +366,7 @@ switch ($servicio) {
 					<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/fabrica-sw.jpg">
 					<img src="<?php echo $url ?>images/icons/services/7.- idea.gif" class="icon-menu-black">
 					<img src="<?php echo $url;?>images/icons/services/idea.png" class="icon-menu-white">
-					<h2>FABRICA DE SOFTWARE​</h2>
+					<h2>FÁBRICA DE<br> SOFTWARE​</h2>
 				</li>
 
 			</ul>
@@ -387,7 +387,7 @@ switch ($servicio) {
 					<img src="<?php echo $url ?>images/icons/services/1.- ordenador-portatil.gif" class="icon-menu-black">
 					<img src="<?php echo $url ?>images/icons/laptop-2.png" class="icon-menu-white" >
 
-					<h2>DESARROLLO DE PROYECTOS TI</h2>
+					<h2>DESARROLLO DE<br> PROYECTOS TI</h2>
 
 				</li>
 
@@ -395,28 +395,28 @@ switch ($servicio) {
 					<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/operacion.jpg">
 					<img src="<?php echo $url ?>images/icons/services/2.- apreton-de-manos.gif" class="icon-menu-black">
 					<img src="<?php echo $url;?>images/icons/services/handshake.png" class="icon-menu-white">
-					<h2>OPERACIÓN DE PROYECTOS​</h2>
+					<h2>OPERACIÓN DE<br> PROYECTOS​</h2>
 				</li>
 
 				<li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-cau#start';">
 					<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/cau.jpg">
 					<img src="<?php echo $url ?>images/icons/services/3.- apoyo-tecnico.gif" class="icon-menu-black">
 					<img src="<?php echo $url;?>images/icons/services/tech-support.png" class="icon-menu-white" >
-					<h2>CENTRO DE ATENCIÓN A USUARIOS​</h2>
+					<h2>CENTRO DE ATENCIÓN<br> A USUARIOS​</h2>
 				</li>
 
 				<li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-sap#start';" >
 					<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/sap.jpg">
 					<img src="<?php echo $url ?>images/icons/services/4.- presentacion.gif" class="icon-menu-black">
 					<img src="<?php echo $url;?>images/icons/services/presentation.png" class="icon-menu-white" >
-					<h2>SAP​</h2>
+					<h2>SAP​<br><br></h2>
 				</li>
 
 				<li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-hospitales#start';" >
 					<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/hospitales.jpg">
 					<img src="<?php echo $url ?>images/icons/services/5.- medicamento.gif" class="icon-menu-black">
 					<img src="<?php echo $url;?>images/icons/services/medicine.png" class="icon-menu-white" >
-					<h2>SOLUCIONES HOSPITALARIAS​</h2>
+					<h2>SOLUCIONES<br> HOSPITALARIAS​</h2>
 				</li>
 
 				<li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-ciberseguridad#start';" >
@@ -429,7 +429,7 @@ switch ($servicio) {
 				<li id="proyectos-active" class="service-menu-color service-active" onclick="window.location.href='servicios-fabrica-sw#start';">
 					<img src="<?php echo $url ?>images/icons/services/7.- idea.gif" class="icon-menu-black" style="opacity: 0;">
 					<img src="<?php echo $url;?>images/icons/services/idea.png" class="icon-menu-white">
-					<h2>FABRICA DE SOFTWARE​</h2>
+					<h2>FÁBRICA DE<br> SOFTWARE​</h2>
 				</li>
 
 			</ul>
@@ -451,7 +451,7 @@ switch ($servicio) {
 					<img src="<?php echo $url ?>images/icons/services/1.- ordenador-portatil.gif" class="icon-menu-black">
 					<img src="<?php echo $url ?>images/icons/laptop-2.png" class="icon-menu-white" >
 
-					<h2>DESARROLLO DE PROYECTOS TI</h2>
+					<h2>DESARROLLO DE<br> PROYECTOS TI</h2>
 
 				</li>
 
@@ -459,28 +459,28 @@ switch ($servicio) {
 					<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/operacion.jpg">
 					<img src="<?php echo $url ?>images/icons/services/2.- apreton-de-manos.gif" class="icon-menu-black">
 					<img src="<?php echo $url;?>images/icons/services/handshake.png" class="icon-menu-white">
-					<h2>OPERACIÓN DE PROYECTOS​</h2>
+					<h2>OPERACIÓN DE<br> PROYECTOS​</h2>
 				</li>
 
 				<li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-cau#start';">
 					<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/cau.jpg">
 					<img src="<?php echo $url ?>images/icons/services/3.- apoyo-tecnico.gif" class="icon-menu-black">
 					<img src="<?php echo $url;?>images/icons/services/tech-support.png" class="icon-menu-white" >
-					<h2>CENTRO DE ATENCIÓN A USUARIOS​</h2>
+					<h2>CENTRO DE ATENCIÓN<br> A USUARIOS​</h2>
 				</li>
 
 				<li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-sap#start';" >
 					<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/sap.jpg">
 					<img src="<?php echo $url ?>images/icons/services/4.- presentacion.gif" class="icon-menu-black">
 					<img src="<?php echo $url;?>images/icons/services/presentation.png" class="icon-menu-white" >
-					<h2>SAP​</h2>
+					<h2>SAP​<br><br></h2>
 				</li>
 
 				<li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-hospitales#start';" >
 					<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/hospitales.jpg">
 					<img src="<?php echo $url ?>images/icons/services/5.- medicamento.gif" class="icon-menu-black">
 					<img src="<?php echo $url;?>images/icons/services/medicine.png" class="icon-menu-white" >
-					<h2>SOLUCIONES HOSPITALARIAS​</h2>
+					<h2>SOLUCIONES<br> HOSPITALARIAS​</h2>
 				</li>
 
 				<li id="proyectos-active" class="service-menu-color" onclick="window.location.href='servicios-ciberseguridad#start';" >
@@ -494,7 +494,7 @@ switch ($servicio) {
 					<img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/fabrica-sw.jpg">
 					<img src="<?php echo $url ?>images/icons/services/7.- idea.gif" class="icon-menu-black">
 					<img src="<?php echo $url;?>images/icons/services/idea.png" class="icon-menu-white">
-					<h2>FABRICA DE SOFTWARE​</h2>
+					<h2>FÁBRICA DE <br>SOFTWARE​</h2>
 				</li>
 
 			</ul>

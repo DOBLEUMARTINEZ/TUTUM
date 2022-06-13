@@ -84,15 +84,15 @@
 <div class="square-11">
 	<ul>
 		<li>
-			<p><span style="font-size: 0.9vw;">Soporte</span></p>
+			<p><span>Soporte</span></p>
 			<img src="images/icons/cau.png" >
 		</li>
 		<li>
-			<p><span style="font-size: 0.9vw;">Migración</span></p>
+			<p><span>Migración</span></p>
 			<img src="images/icons/servers.png" >
 		</li>
 		<li>
-			<p><span style="font-size: 0.9vw;">Implementación</span></p>
+			<p><span>Implementación</span></p>
 			<img src="images/icons/suministro.png" >
 		</li>
 	</ul>
@@ -304,7 +304,8 @@
 			<p style="padding: 5% 10%;">
 				<span>PRODUCTOS SAP Y COMPLEMENTOS</span><br><br>
 				° eDocument ​<br>
-				° bank comunication  Managment​<br>
+				° Bank <br>
+				° Comunication Managment​<br>
 				° CFDIs Implementación y Upgrade Localización Mexicana​<br>
 				° Contabilidad Electrónica​<br>
 				° SAC Analytics Cloud​<br>

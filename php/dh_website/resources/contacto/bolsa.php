@@ -2,8 +2,8 @@
     <div id="square-banner-index">
 
     	<!-- IMAGEN DE FONDO -->
-    	<img class="video-slide bann-fixed" src="images/img/PERSONAL_9.jpg">
-      	<img class="video-slide" src="images/img/PERSONAL_9.jpg" style="opacity: 0;">
+    	<img class="video-slide bann-fixed" src="images/img/bolsa-de-trbajo.jpg">
+      	<img class="video-slide" src="images/img/bolsa-de-trbajo.jpg" style="opacity: 0;">
 
       	<!-- CUADRO DE TEXTO -->
       	<div class="square-logo-big" >

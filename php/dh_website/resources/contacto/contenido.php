@@ -2,8 +2,8 @@
     <div id="square-banner-index">
 
 	<!-- IMAGEN DE FONDO -->
-	<img class="video-slide bann-fixed" src="images/img/ANTONIO_SENALA.jpg">
-  	<img class="video-slide" src="images/img/ANTONIO_SENALA.jpg" style="opacity: 0;">
+	<img class="video-slide bann-fixed" src="images/img/contacto.jpg">
+  	<img class="video-slide" src="images/img/contacto.jpg" style="opacity: 0;">
 
   	<!-- CUADRO DE TEXTO -->
   	<div class="square-logo-big" >

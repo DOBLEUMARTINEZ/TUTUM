@@ -3,7 +3,7 @@
 <div class="square-04">
 	<ol style=" background: #fff;">
 		<li>
-			<h2>FABRICA DE SOFTWARE</h2>
+			<h2>FÁBRICA DE SOFTWARE</h2>
 		</li>
 		<li>
 			<p>

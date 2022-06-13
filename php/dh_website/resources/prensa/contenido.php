@@ -2,8 +2,8 @@
     <div id="square-banner-index">
 
 	<!-- IMAGEN DE FONDO -->
-	<img class="video-slide bann-fixed" src="images/img/FOTO 02.jpg" >
-  	<img class="video-slide" src="images/img/FOTO 02.jpg" style="opacity: 0;">
+	<img class="video-slide bann-fixed" src="images/img/prensa.jpg" >
+  	<img class="video-slide" src="images/img/prensa.jpg" style="opacity: 0;">
 
   	<!-- CUADRO DE TEXTO -->
   	<div class="square-logo-big" >
@@ -138,14 +138,13 @@
             <div class="carousel-item">
             	<ul>
             		<li><img src="images/icons/services/prensa/blog/TUTUM_TEMPLATE_ABRILVIDEO.jpg" ></li>
-            		<li><img src="images/icons/services/prensa/blog/TUTUM_TEMPLATE_ABRILVIDEO.jpg" ></li>	
+            		<li><img src="images/icons/services/prensa/blog/TUTUM_TEMPLATE_ABRILVIDEO2.jpg" ></li>	
             	</ul>
             </div>
 
             <!-- SLIDE 1 -->
             <div class="carousel-item">
             	<ul>
-            		<li><img src="images/icons/services/prensa/blog/TUTUM_TEMPLATE_ABRILVIDEO2.jpg" ></li>
             		<li><img src="images/icons/services/prensa/blog/TUTUM_TEMPLATE_ABRILVIDEO3.jpg" ></li>	
             	</ul>
             </div>

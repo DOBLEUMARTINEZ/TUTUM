@@ -3,11 +3,11 @@
 <div class="square-04" style="padding: 0 0 10% 0 ">
 	<ol>
 		<li>
-			<h2>DESARROLLO E<br> IMPLEMNTACION DE<br> SOLUCIONES EN TI​</h2>
+			<h2>DESARROLLO E<br> IMPLEMNTACIÓN DE<br> SOLUCIONES EN TI​</h2>
 		</li>
 		<li>
 			<p>
-				Ofrecemos nuestra experiencia y confiablidad generada a través de los años para ofrecerte soluciones completas tanto de hardware como de software que incluyen el diseño, suministro, desarrollo e implementación de soluciones que mejor se adapte a tus necesidades, garantizando en todo momento la puesta en funcionamiento de la misma.
+				Ofrecemos nuestra experiencia y confiabilidad generada a través de los años para ofrecerte soluciones completas tanto de hardware como de software que incluyen el diseño, suministro, desarrollo e implementación de soluciones que mejor se adapte a tus necesidades, garantizando en todo momento la puesta en funcionamiento de la misma.
 			</p>
 		</li>
 	</ol>
@@ -16,7 +16,7 @@
 
 <!-- EXPERIENCIA EN DISEÑO E IMPLEMENTACION -->
 <div class="square-06">
-	<h2>EXPERIENCIA EN DISEÑO E <br>IMPLEMENTACION</h2>
+	<h2>EXPERIENCIA EN DISEÑO E <br>IMPLEMENTACIÓN</h2>
 	<ol>
 		<li>
 
@@ -25,7 +25,7 @@
 				<br><br>
 				<span>PROYECTOS</span>
 				<br><br>
-				Desarrollamos soluciones integrales de TI con la mejor tecnología del mercado e implementada con la mas alta calidad.
+				Desarrollamos soluciones integrales de TI con la mejor tecnología del mercado e implementada con la más alta calidad.
 			</p>
 
 			<ul class="box-icons-1" >
@@ -63,7 +63,7 @@
 		</li>
 		<li>
 			<p>
-				Ofrecemos servicios de diseño e implementación de soluciones tecnológicas y modernas,  tanto de hardware como de software, lo cual nos permite implementar sistemas que mejoran la operación de los proyectos de nuestros clientes, teniendo como beneficio, proyectos mas seguros, inteligentes y 100% gestionables.
+				Ofrecemos servicios de diseño e implementación de soluciones tecnológicas y modernas,  tanto de hardware como de software, lo cual nos permite implementar sistemas que mejoran la operación de los proyectos de nuestros clientes, teniendo como beneficio, proyectos más seguros, inteligentes y 100% gestionables.
 			</p>
 		</li>
 	</ol>
@@ -126,13 +126,13 @@
 <div class="square-09">
 	<div>
 		<div>
-			<h4 class="tilte-type-1" >CATALOGO DE SOLUCIONES</h4>
-			<h3 style="text-transform: uppercase; font-weight: normal;" >Soluciones Infra estructura y Seguridad</h3>
+			<h4 class="tilte-type-1" >CATÁLOGO DE SOLUCIONES</h4>
+			<h3 style="text-transform: uppercase; font-weight: normal;" >Soluciones Infraestructura y Seguridad</h3>
 			<ol>
 				<li>
 					° Cableado Estructurado​<br>
 					° Telefonía e Informática​<br>
-					° Computo e Impresión​<br>
+					° Cómputo e Impresión​<br>
 					° Sistema de Redes Y Wifi​<br>
 					° Circuito Cerrado De Televisión​<br>
 					° Detección de Incendios​<br>
@@ -180,7 +180,7 @@
 				</li>
 				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
 					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/proyectos/monitor-de-computadora.png" ><br>
-					Tele Medicina
+					Telemedicina
 				</li>
 				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
 					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/proyectos/monitor-de-pulso-cardiaco.png" ><br>

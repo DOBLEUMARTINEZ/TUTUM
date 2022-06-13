@@ -34,27 +34,27 @@
 				Contamos con experiencia en proyectos Hospitalarios para el sector salud del país, desarrollamos e implementamos soluciones especializadas con tecnología moderna y de la más alta calidad​.<br><br>
 				Tenemos como objetivo desarrollar soluciones a la medida que nos permitan implementar sistemas que hagan los procesos de nuestros clientes más eficientes permitiendo la mejora en la operación y administración de sus proyectos.
 			</p>
-			<ul style="justify-content: center; padding-top: 0;">
+			<ol class="box-icon-type-3">
 				<li>
 					<p style="text-align: center;">
-						<img src="images/icons/services/hospitales/medico-paciente.png" ><br><br>
+						<img style="width: 50%;" src="images/icons/services/hospitales/medico-paciente.png" ><br><br>
 						Implementación​<span> HIS</span>
 					</p>
 				</li>
 				<li>
 					<p style="text-align: center;">
 						
-						<img src="images/icons/services/hospitales/servidor-en-la-nube.png" ><br><br>
+						<img style="width: 50%;" src="images/icons/services/hospitales/servidor-en-la-nube.png" ><br><br>
 						Software ​as a<span> Service</span>
 					</p>
 				</li>
 				<li>
 					<p style="text-align: center;">
-						<img src="images/icons/services/hospitales/servidores.png" ><br><br>
+						<img style="width: 50%;" src="images/icons/services/hospitales/servidores.png" ><br><br>
 						<span>On </span>Premise​
 					</p>
 				</li>
-			</ul>
+			</ol>
 
 			
 
@@ -181,7 +181,7 @@
 <div class="square-04">
 	<ol style="padding-bottom: 1%;"	>
 		<li>
-			<h2>SISTEMAS DE INFORMACION <br>HOSPITALARIA <br>TUTUM <span style="font-weight: bold;color: #4dbed4;">HIS</span></h2>
+			<h2>SISTEMAS DE INFORMACIÓN <br>HOSPITALARIA <br>TUTUM <span style="font-weight: bold;color: #4dbed4;">HIS</span></h2>
 		</li>
 		<li>
 			<p>
@@ -225,24 +225,24 @@
 				El objetivo de <strong>TUTUM SIH</strong> es implementar un Sistema Integral de Información Hospitalaria (SIH), mediante el cual se logre una comunicación permanente entre todas las áreas del Sistema Hospitalario, siendo éste capaz de transmitir texto, imágenes y videos permitiendo de esta forma, realizar por parte del Personal Médico y Administrativo una gestión oportuna, clara y efectiva, coadyuvando al logro de los indicadores de productividad y estándares de servicios.
 			</p>
 			<br><br>
-			<ul class="box-icon-type-3">
+			<ol class="box-icon-type-3">
 				<li style="text-align: center;" >
-					<img style="width: 40%; margin: 1% 30%;" src="images/icons/services/hospitales/informatica.png">
-					<span style="color: #4dbed4;" >Sistema integral</span>
+					<img style="width: 30%;" src="images/icons/services/hospitales/informatica.png"><br>
+					<span style="color: #4dbed4;" >Sistema <br>integral</span>
 				</li>
 				<li style="text-align: center;" >
-					<img style="width: 40%; margin: 1% 30%;" src="images/icons/services/hospitales/rayos-x.png">
-					<span style="color: #4dbed4;" >Transmisión de datos</span>
+					<img style="width: 30%;" src="images/icons/services/hospitales/rayos-x.png"><br>
+					<span style="color: #4dbed4;" >Transmisión <br>de datos</span>
 				</li>
 				<li style="text-align: center;" >
-					<img style="width: 40%; margin: 1% 30%;" src="images/icons/services/hospitales/paciente.png">
+					<img style="width: 30%;" src="images/icons/services/hospitales/paciente.png"><br>
 					<span style="color: #4dbed4;" >Operación</span>
 				</li>
 				<li style="text-align: center;" >
-					<img style="width: 40%; margin: 1% 30%;" src="images/icons/services/hospitales/investigacion.png">
+					<img style="width: 30%;" src="images/icons/services/hospitales/investigacion.png"><br>
 					<span style="color: #4dbed4;" >Administración</span>
 				</li>
-			</ul>
+			</ol>
 			<br><br>
 		</li>
 

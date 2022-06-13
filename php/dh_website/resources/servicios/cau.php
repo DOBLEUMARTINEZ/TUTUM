@@ -15,14 +15,13 @@
 <div class="square-11">
 	<ul>
 		<li>
-			<p>PROCESOS</p>
-			<p><span>ITIL</span></p>
+			<p>PROCESOS<br><span>ITIL</span></p>
 		</li>
 		<li>
-			<p>SOPORTE​ TÉCNICO​ VÍA​<span style="font-size: 0.9vw;">REMEDY ​SERVICE DESK</span></p>
+			<p>SOPORTE​ TÉCNICO​ VÍA​<br><span >REMEDY ​SERVICE DESK</span></p>
 		</li>
 		<li>
-			<p>Certificación <span style="font-size: 0.9vw;">BMC hélix ITSM</span><br> ​Etapa 1</p>
+			<p>Certificación<br><span>BMC hélix ITSM</span><br>Etapa 1</p>
 		</li>
 	</ul>
 </div>
@@ -57,7 +56,7 @@
 			</ul>
 			<p style="text-align: center; display: flex; justify-content: center;align-items: center; width: 100%">
 				<img style="width: 15%; margin-right: 5%;" src="images/icons/services/cau/carne-de-identidad.gif" > 
-				<span style="margin-right: 5%; font-size: 2vw;">+40</span>Especialistas dan soporte a nuestros clientes<br>24x7
+				<span>+40</span>Especialistas dan soporte a nuestros clientes<br>24x7
 				<img style="width: 15%; margin-right: 5%;" src="images/icons/services/cau/24-horas.gif" > 
 			</p>
 
@@ -263,28 +262,29 @@
 		</div>
 		<div>
 			<h3>SERVICIOS CENTROS DE DATOS</h3>
-			<ol class="box-icon-type-2">
-				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
-					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/cau/servidor.png" ><br>
+			<ol class="box-icon-type-6">
+				<li>
+					<img src="<?php echo $url ?>images/icons/services/cau/servidor.png" ><br>
 					<span style="font-weight: bold;color: #4dbed4;">Hiperconvergencia​</span>​
 				</li>
-				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
-					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/cau/infraestructura.png" ><br><span style="font-weight: bold;color: #4dbed4;">Infraestructura de red</span>​
+				<li>
+					<img src="<?php echo $url ?>images/icons/services/cau/infraestructura.png" ><br>
+					<span style="font-weight: bold;color: #4dbed4;">Infraestructura de red</span>​
 				</li>
-				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
-					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/cau/servidor (1).png" ><br>
+				<li>
+					<img src="<?php echo $url ?>images/icons/services/cau/servidor (1).png" ><br>
 					<span style="font-weight: bold;color: #4dbed4;">Servidores</span>
 				</li>
-				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
-					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/cau/phishing.png" ><br>
+				<li>
+					<img src="<?php echo $url ?>images/icons/services/cau/phishing.png" ><br>
 					<span style="font-weight: bold;color: #4dbed4;">Hardering</span>
 				</li>
-				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
-					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/cau/apoyo-tecnico.png" ><br>
+				<li>
+					<img src="<?php echo $url ?>images/icons/services/cau/apoyo-tecnico.png" ><br>
 					<span style="font-weight: bold;color: #4dbed4;">Soporte de ​misión critica</span>
 				</li>
-				<li style="position: relative; width: 45%;padding: 0;text-align: center;">
-					<img style="width: 30%;" src="<?php echo $url ?>images/icons/services/cau/vigilancia.png" ><br>
+				<li>
+					<img src="<?php echo $url ?>images/icons/services/cau/vigilancia.png" ><br>
 					<span style="font-weight: bold;color: #4dbed4;">Monitoreo de ​disponibilidad</span>
 				</li>
 			</ol>

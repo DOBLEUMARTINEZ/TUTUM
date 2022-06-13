@@ -28,7 +28,7 @@
 
           <ol >
             <li onclick="window.location.href='<?php echo $url;?>servicios-proyectos#start';">
-              PROYECTOS INTEGRALES TI
+              DESARROLLO DE PROYECTOS TI
             </li>
             <li onclick="window.location.href='<?php echo $url;?>servicios-operacion#start';">
               OPERACIÓN DE PROYECTOS​
@@ -46,7 +46,7 @@
               CIBERSEGURIDAD
             </li>
             <li onclick="window.location.href='<?php echo $url;?>servicios-fabrica-sw#start';" >
-              Fabrica de software
+              Fábrica de software
             </li>
           </ol>
         </li>
@@ -67,7 +67,7 @@
             <li onclick="window.location.href='https://cau.tutum.com.mx/dwp/app/#/account/login?returnUrl=%2F';">
               CAU
             </li>
-            <li onclick="window.location.href='<?php echo $url;?>';">
+            <li style="display: none;"> onclick="window.location.href='<?php echo $url;?>';">
               INTRANET
             </li>
           </ol>
