@@ -18,7 +18,7 @@ function soloLetras(e) {
     }
   }
 
-  function soloNumeros(e) {
+function soloNumeros(e) {
     var key = e.keyCode || e.which,
       tecla = String.fromCharCode(key).toLowerCase(),
       letras = " 0123456789",
@@ -37,30 +37,9 @@ function soloLetras(e) {
     }
   }
 
-
-/**/
-
-$( "#btn-login" ).click(function() {
-
-	$("#btn-login").addClass("login-btn-active");
-	$("#btn-register").removeClass("login-btn-active");
-
-	$("#login").addClass("active-form");
-	$("#register").removeClass("active-form");
-
-});
-
-$( "#btn-register" ).click(function() {
-
-	$("#btn-register").addClass("login-btn-active");
-	$("#btn-login").removeClass("login-btn-active");
-
-	$("#register").addClass("active-form");
-	$("#login").removeClass("active-form");
-
-});
-
+/* CONTADOR DE NUMEROS */
 $(document).ready(function($) {
+
     //Check if an element was in a screen
     function isScrolledIntoView(elem){
         var docViewTop = $(window).scrollTop();
@@ -69,6 +48,7 @@ $(document).ready(function($) {
         var elemBottom = elemTop + $(elem).height();
         return ((elemBottom <= docViewBottom));
     }
+
     //Count up code
     function countUp() {
         $('.counter').each(function() {
@@ -94,10 +74,12 @@ $(document).ready(function($) {
         }
         });
     }
+
     //Start animation on page-load
     if ( isScrolledIntoView(".counter") ) {
         countUp();
     }
+
     //Start animation on screen
     $(document).scroll(function() {
         if ( isScrolledIntoView(".counter") ) {
@@ -105,3 +87,43 @@ $(document).ready(function($) {
         }
     });
 });
+
+/* FLECHA DE IR ARRIBA */
+$(document).ready(function(){ 
+  irArriba();//Hacia arriba
+});
+
+function irArriba(){
+
+  $('.ir-arriba').click(function(){ $('body,html').animate({ scrollTop:'0px' },1000); });
+
+  $(window).scroll(function(){
+
+    if($(this).scrollTop() > 0){
+
+    $('.ir-arriba').slideDown(600);
+    $('.head').addClass('enable-head');
+
+    //INCONS FLOAT
+    $('#social-media-icons').addClass('hidden-icons');
+
+    // ACTIVE LI NAV
+    $('.dropdown-menu-ttm').addClass('active-li-nav');
+
+    }else{
+
+     $('.ir-arriba').slideUp(600); 
+      $('.head').removeClass('enable-head');
+
+      //INCONS FLOAT
+    $('#social-media-icons').removeClass('hidden-icons');
+
+    // DESACTIVE LI NAV
+    $('.dropdown-menu-ttm').removeClass('active-li-nav');
+
+   }
+
+  });
+
+  $('.ir-abajo').click(function(){ $('body,html').animate({ scrollTop:'1000px' },1000); });
+}
