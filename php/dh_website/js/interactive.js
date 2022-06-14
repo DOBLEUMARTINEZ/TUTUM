@@ -1,4 +1,8 @@
 
+$('.fa-bars').click(function(){
+    $('.menu-mobil').toggle();
+});
+
 function soloLetras(e) {
     var key = e.keyCode || e.which,
       tecla = String.fromCharCode(key).toLowerCase(),

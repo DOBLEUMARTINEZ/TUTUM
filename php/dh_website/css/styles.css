@@ -344,10 +344,9 @@
 
         .enable-head{
             transition: 0.3s!important;
-            background: #00000085!important;
+            background: #000000a8!important;
             opacity: 1!important;
             top: 0;
-            box-shadow: 0 5px 30px #00000069;
         }
 
         .active-li-nav {
@@ -3980,6 +3979,8 @@
                 width: 90%;
             }
 
+            
+
         /* CONTENEDOR LATERAL*/
 
             .lateral-content {
@@ -4080,7 +4081,10 @@
 
     @media( max-width: 768px ){
 
-
+        .fondos {
+            left: -45vw;
+            width: unset!important;
+        }
     }
 
     @media (max-width: 425px){
@@ -4109,6 +4113,7 @@
                 font-weight: bold;
                 margin: 10% 0;
             }
+
 
         /*  INDEX */
 

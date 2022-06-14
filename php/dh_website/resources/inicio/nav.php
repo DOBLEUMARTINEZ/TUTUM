@@ -90,8 +90,8 @@
           </ul>
         </li>
         <li style="width: 10%" >
-          <i class="fas fa-bars"></i><br>
-          <ol class="menu-mobil">
+          <i class="fas fa-bars" ></i><br>
+          <ol class="menu-mobil" >
              <li onclick="window.location.href='<?php echo $url;?>';">
               INICIO
             </li>
