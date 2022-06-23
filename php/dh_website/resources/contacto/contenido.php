@@ -59,7 +59,7 @@
     </center>
     <ul>
         <li><i class="fas fa-map-marker-alt"></i> Av. de los Insurgentes Sur 1811-piso 5,Guadalupe Inn,<br>  Álvaro Obregón, 01020 Ciudad de México, CDMX</li>
-        <li><i class="fas fa-phone"></i> Of. +52 (55) 55 79 59 11 77</li>
+        <li><i class="fas fa-phone"></i> Of. +52 (55) 55 86 23 06 60</li>
         <li>​<i class="fab fa-whatsapp"></i> Whatsapp 55 79 59 1149</li>
     </ul>
 </div>

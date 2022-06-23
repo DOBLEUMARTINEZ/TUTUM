@@ -215,7 +215,7 @@
 
 				    //Recipients
 				    $mail->setFrom('no-reply@tutum.com.mx', 'website');
-				    $mail->addAddress('guadalupe.chavarria@tutum.com.mx, hugo.galicia@tutum.com.mx', 'Contacto'); //Add a recipient
+				   	$mail->addAddress('guadalupe.chavarria@tutum.com.mx, hugo.galicia@tutum.com.mx', 'Contacto'); //Add a recipient
 				    //$mail->addAddress('jose.atemiz@tutum.com.mx', 'Contacto');     //Add a recipient
 
 				    //Content
