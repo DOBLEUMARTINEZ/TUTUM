@@ -1,0 +1,41 @@
+
+
+.btn-basico {
+    background-color: #8aecf9;
+    color : #0e2944;
+}
+
+
+.barra {
+    height: 20px;
+    line-height: 200px;
+}
+
+.barra-azul {
+    background-color: #4DBED4;
+}
+
+.barra-gris {
+    background-color: #cfd2d2;
+}
+
+
+.btn-primary {
+    background-color: #8aecf9;
+    color : #0e2944;
+}
+
+
+.grid th {
+    background-color: #c0c5d1;
+    color : #0e2944;
+}
+
+.grid tr td {
+    background-color: #c0c5d1;
+    border: lightgray ;
+    color: darkgray;
+}
+
+
+
