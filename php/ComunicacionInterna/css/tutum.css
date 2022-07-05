@@ -116,7 +116,7 @@ body {
 
 .footer ol{
     margin: 0;
-    padding: 0;
+    padding: 0 2%;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -127,7 +127,7 @@ body {
 }
 
 .footer ol > li{
-    width: 45%;
+    width: 48%;
     padding: 0.5%;
     margin-bottom: 1%;
     text-align: center;
