@@ -1,0 +1,82 @@
+<div id="data-table-v1">
+	<table>
+		
+		<tr>
+			<th width="3%">ID</th>
+			<th width="52%">Objetivo</th>
+			<th width="15%">Fecha inicio</th> 
+			<th width="15%">Estatus</th>
+			<th style="background:#444444de;">
+				{% if (rol == 1) or (rol == 2) %}
+					<i onclick="window.location.href='{{ asset('nuevo/minuta') }}';" class="fas fa-plus" style="color:#fff;" alt="Nuevo" title="Nuevo"></i>
+				{% endif %}
+			</th>
+		</tr>
+
+		{% for minuta in Minutas %}
+
+			<tr>
+				<td>{{ minuta.id }}</td>
+				<td>{{ minuta.objetivo }}</td>
+				<td>{{ minuta.fechaInicio|date("d/m/Y") }}</td>
+				<td>
+					{% if minuta.estatus == 1 %}
+						Publicada
+					{% else %}	
+						No publicada
+					{% endif %}
+				</td>
+
+				<!-- BOTONES DE ACCION -->
+					<td class="action-icons" style="display: revert;text-align: center;">
+
+						<!-- VER -->
+						<i onclick="window.location.href='{{ asset('ver/minuta/') }}{{ minuta.id }}';" 
+							style="color: #333; margin-bottom:10px; margin-right:0px;" 
+							class="fas fa-eye"
+							title="ver">
+						</i>
+
+						{% if (rol == 1) or (rol == 2) %}
+
+							<i onclick="window.location.href='{{ asset('ver/temas-minuta/') }}{{ minuta.id }}';"
+								class="fas fa-list"
+								style="color:#eb814f; margin-bottom:10px; margin-right:0px;"
+								title="Temas">
+							</i>
+
+							<!-- AUDIENCIA -->
+							<i onclick="window.location.href='{{ asset('ver/audiencia/') }}{{ minuta.id }}';"
+								style="color: #009550; margin-bottom:10px; margin-right:0px;"
+								class="fas fa-users"
+								title="Asistencias">
+								
+							</i>
+
+							<!-- ACTUALIZAR -->
+							<i onclick="window.location.href='{{ asset('actualizar/minuta/') }}{{ minuta.id }}';" 
+								style="color: #053a76; margin-bottom:10px; margin-right:0px;" 
+								class="fas fa-edit"
+								title="Actualizar">
+							</i>
+
+							{% if (rol == 1)%}
+
+								<!-- BORRAR -->
+								<i onclick="window.location.href='{{ asset('borrar/minuta/') }}{{ minuta.id }}';" 
+									style="color:red; margin-top:5px; margin-right:0px;" 
+									class="fas fa-trash"
+									title="Eliminar">
+								</i>
+
+							{% endif %}
+
+						{% endif %}
+
+					</td>
+			</tr>
+
+		{% endfor %}
+
+	</table>
+</div>

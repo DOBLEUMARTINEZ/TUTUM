@@ -1,0 +1,69 @@
+{% extends 'layout/layoutBase.html.twig' %}
+
+{% block tituloPagina %} 
+	{{title}}
+{% endblock %}
+
+{% block contenido %}
+
+	<br><br><br><br>
+
+	<div id="data-table-v1">
+			<table style="width:80%; margin-left:10%;" >
+				{{ form_start(form, {'attr': {'class': 'form-control'}}) }}
+				<tr>
+					<th colspan="2"> {{title}} minuta </th>
+			  	</tr>
+
+			  	<tr>
+			  		<td width="20%;" ><strong>Objetivo</strong></td>
+			  		<td>{{ form_widget(form.objetivo) }}</td>
+			  	</tr>
+
+			  	<tr>
+			  		<td width="20%;" ><strong>Fecha inicio</strong></td>
+			  		<td>{{ form_widget(form.fecha_inicio) }}</td>
+			  	</tr>
+
+			  	<tr>
+			  		<td width="20%;" ><strong>Fecha Fin</strong></td>
+			  		<td>{{ form_widget(form.fecha_fin) }}</td>
+			  	</tr>
+
+			  	<tr>
+			  		<td width="20%;" ><strong>Proxima reunión</strong></td>
+			  		<td>{{ form_widget(form.proxima_reunion) }}</td>
+			  	</tr>
+
+			  	<tr>
+			  		<td width="20%;" ><strong>Itinerario</strong></td>
+			  		<td>{{ form_widget(form.itinerario) }}</td>
+			  	</tr>
+
+			  	<tr>
+			  		<td colspan="2" >
+			  			<strong>Asistentes</strong>
+			  			<hr class="hr-red" >
+			  			{{ form_widget(form.asistentes) }}
+			  		</td>
+			  	</tr>
+
+			  	<tr>
+			  		<td colspan="2" >
+			  			<strong>Ultimos temas revisados</strong>
+			  			<hr class="hr-red" >
+			  			{{ form_widget(form.Temas_minuta) }}
+			  		</td>
+			  	</tr>
+
+			  	<tr>
+			  		<td colspan="2">{{ form_widget(form.submit) }}</td>
+			  	</tr>
+				{{ form_end(form) }}
+			</table>	
+			
+	
+	</div>
+
+
+{% endblock %}

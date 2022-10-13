@@ -1,0 +1,63 @@
+<?php //App%255CEntity%255CTemaMinuta
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Doctrine\\ORM\\Mapping\\Table'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Table')),
+        clone ($p['Doctrine\\ORM\\Mapping\\Index'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Index')),
+        clone $p['Doctrine\\ORM\\Mapping\\Index'],
+        clone $p['Doctrine\\ORM\\Mapping\\Index'],
+        clone $p['Doctrine\\ORM\\Mapping\\Index'],
+        clone $p['Doctrine\\ORM\\Mapping\\Index'],
+        clone $p['Doctrine\\ORM\\Mapping\\Index'],
+        clone ($p['Doctrine\\ORM\\Mapping\\Entity'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\Entity')),
+    ],
+    null,
+    [
+        'stdClass' => [
+            'name' => [
+                'tema_minuta',
+                'IDX_9D40DE1B6BF700BD',
+                'IDX_9D40DE1B12469DE2',
+                'id_reunion_2',
+                'id_reunion_3',
+                'IDX_9D40DE1B67433D9C',
+                'id_reunion',
+            ],
+            'indexes' => [
+                [
+                    $o[1],
+                    $o[2],
+                    $o[3],
+                    $o[4],
+                    $o[5],
+                    $o[6],
+                ],
+            ],
+            'columns' => [
+                1 => [
+                    'id_estatus',
+                ],
+                [
+                    'id_categoria',
+                ],
+                [
+                    'id_reunion',
+                ],
+                [
+                    'id_reunion',
+                ],
+                [
+                    'id_reunion',
+                ],
+                [
+                    'id_reunion',
+                ],
+            ],
+        ],
+    ],
+    [
+        $o[0],
+        $o[7],
+    ],
+    []
+); }];

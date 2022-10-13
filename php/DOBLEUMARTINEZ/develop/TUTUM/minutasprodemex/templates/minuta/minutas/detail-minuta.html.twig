@@ -1,0 +1,22 @@
+{% extends 'layout/layoutBase.html.twig' %}
+
+{% block tituloPagina %} 
+	{{title}}
+{% endblock %}
+
+{% block contenido %}
+
+	<br><br>
+
+	<!-- TITULO Y FINTRO DE BUSUQEDA -->
+	<div id="fitro-busqueda-minuta">
+		<h1><span>{{title}} correspondiente a la junta del {{ MinutaDetalle.fechaInicio|date('d-m-Y') }}</span></h1>
+	</div>
+
+	<br>
+	<hr>
+
+	<!-- TABLA DE MINUTA -->
+	{{ include('minuta/minutas/minuta-only-data.html.twig') }}
+
+{% endblock %}

@@ -1,0 +1,31 @@
+{% extends 'layout/layoutBase.html.twig' %}
+
+{% block tituloPagina %} 
+	{{title}}
+{% endblock %}
+
+{% block contenido %}
+
+	<!-- TITULO Y FINTRO DE BUSUQEDA -->
+	<div id="fitro-busqueda-minuta">
+		<h1>{{title}}</h1>
+		<ol>
+			<li>
+				{{ form_start(form) }}
+				{{ form_widget(form) }}
+				{{ form_end(form) }}
+			</li>	
+		</ol>
+	</div>
+
+	<hr class="hr-red">
+
+	{% if MinutaDetalle is defined %}
+		<!-- DETALLE MINUTA -->
+		{{ include('minuta/minutas/detail-minuta.html.twig') }}
+	{% else %}
+		<!-- TODAS LAS MINUTAS -->	
+		{{ include('minuta/minutas/all-minutas.html.twig') }}
+	{% endif %}
+
+{% endblock %}

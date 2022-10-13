@@ -1,0 +1,98 @@
+{% extends 'layout/layoutBase.html.twig' %}
+
+{% block tituloPagina %} 
+	{{title}}
+{% endblock %}
+
+{% block contenido %}
+	
+	<div id="fitro-busqueda-minuta">
+		<h1>{{title}}</h1>
+		<ol>
+			<li>
+				{{ form_start(form) }}
+				{{ form_widget(form) }}
+				{{ form_end(form) }}
+			</li>	
+		</ol>
+	</div>
+
+	<hr class="hr-red">
+
+	<div id="data-table-v1">
+	<table>
+
+		<tr>
+			<th width="3%">ID</th>
+			<th width="50%">Titulo</th>
+			<th width="15%">Fecha inicio</th>
+			<th width="15%">Fecha fin</th>
+			<th style="background:#444444de;">
+			{% if (rol == 1) or (rol == 2) %}
+				<i onclick="window.location.href='{{ asset('nuevo/tema/') }}';" class="fas fa-plus" style="color:#fff;" alt="Nuevo" title="Nuevo"></i>
+			{% endif %}
+			</th>
+		</tr>
+
+		{% for temas in TemasMinutas %}
+
+
+			<tr>
+				<!-- ID -->
+				<td style="text-align:center;">{{ temas.id }}</td>
+
+				<!-- TITULO -->
+				<td >{{ temas.titulo }}</td>
+
+				<!-- USUARIO EXPOSITOR DE TEMA -->
+				
+
+				<!-- FECHA INICIO DE COMPROMISO -->
+				<td >{{ temas.compromisoinicio|date('d-m-Y') }}</td>
+
+				<!-- FECHA FIN DE COMPROMISO -->
+				<td >{{ temas.compromisofin|date('d-m-Y') }}</td>
+
+				<!-- BOTONES DE ACCION -->
+				<td class="action-icons" style="display: revert;text-align: center;">
+					<!-- VER -->
+					<i onclick="window.location.href='{{ asset('ver/tema/') }}{{ temas.idReunion.id }}/{{ temas.id }}';" 
+						style="color: #333; margin-bottom:10px; margin-right:0px;"
+						class="fas fa-eye">
+					</i>
+
+					{% if (rol == 1) or (rol == 2) %}
+
+						<!-- ACTUALIZAR -->
+						<i onclick="window.location.href='{{ asset('actualizar/tema/') }}{{ temas.idReunion.id }}/{{ temas.id }}';" 
+							style="color: #053a76; margin-bottom:10px; margin-right:0px;" 
+							class="fas fa-edit">
+						</i>
+
+						{% if (rol == 1)%}
+
+							<!-- BORRAR -->
+							<i onclick="window.location.href='{{ asset('borrar/tema/') }}{{ temas.idReunion.id }}/{{ temas.id }}';" 
+								style="color:red; margin-top:5px; margin-right:0px;" 
+								class="fas fa-trash">
+							</i>
+
+						{% endif %}
+
+					{% endif %}
+
+				</td>
+				
+			</tr>
+
+						
+		{% endfor %}
+	</table>
+
+</div>
+
+{% endblock %}
+
+
+
+

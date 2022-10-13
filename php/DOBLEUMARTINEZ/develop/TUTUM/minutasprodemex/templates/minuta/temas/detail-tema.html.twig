@@ -1,0 +1,107 @@
+{% extends 'layout/layoutBase.html.twig' %}
+
+{% block tituloPagina %} 
+	{{title}}
+{% endblock %}
+
+{% block contenido %}
+
+	<br><br><br><br>
+
+	<div id="data-table-v1">
+
+		<table>
+			<tr>
+				<th colspan="4" width="100%;">Tema: {{ Tema.id }} | {{ Tema.titulo }}</th>
+			</tr>
+			<tr>
+				<td colspan="1" width="25%" class="title-strog" >Titulo</td>
+				<td colspan="3" width="75%" >{{ Tema.titulo }}</td>
+			</tr>
+			<tr>
+				<td width="25%" class="title-strog">Compromiso inicio</td>
+				<td width="25%" >{{ Tema.compromisoinicio|date('d-m-Y') }}</td>
+				<td width="25%" class="title-strog">Compromiso Fin</td>
+				<td width="25%" >{{ Tema.compromisofin|date('d-m-Y') }}</td>
+			</tr>
+
+			<!-- ESTATUS -->
+			<tr>
+				<td width="25%" class="title-strog">Estatus</td>
+				{% if (Tema.idEstatus!=null) %}
+					<td width="25%" style="background:{{ Tema.idEstatus.color }};">
+						{{ Tema.idEstatus.nombre}}
+					</td>
+				{% else %}
+					<td width="25%">
+						No
+					</td>
+				{% endif %}
+
+				<td  width="25%" class="title-strog">id Minuta</td>
+				<td  width="25%" >{{ Tema.idReunion.id }}</td>
+
+			</tr>
+
+			<!-- CATEGORIA  -->
+			<tr>
+				<td width="25%" class="title-strog">Categoria</td>
+				{% if (Tema.idCategoria!=null) %}
+					<td colspan="3" style="background:{{ Tema.idCategoria.color }};" >{{ Tema.idCategoria.nombre }}</td>
+				{% else %}
+					<td colspan="3" width="25%">
+						No
+					</td>
+				{% endif %}
+			</tr>
+
+			<!-- REQUERIMINETO -->
+			<tr>
+				<td colspan="4">
+					<span class="title-strog">Requeriemeinto</span>
+					<hr class="hr-red">
+					{{ Tema.requerimiento|raw }}
+				</td>
+			</tr>
+
+			<!-- LINEAMIENTOS -->
+			<tr>
+				<td colspan="4">
+					<span class="title-strog">Lineamientos</span>
+					<hr class="hr-red">
+					{{ Tema.lineaguia|raw }}
+				</td>
+			</tr>
+
+			<!-- ACCIONES -->
+			<tr>
+				<td colspan="4">
+					<span class="title-strog">Acciones</span>
+					<hr class="hr-red">
+					{{ Tema.compromisoaccion|raw }}
+				</td>
+			</tr>
+
+			<!-- ACUERDOS -->
+			<tr>
+				<td colspan="4">
+					<span class="title-strog">Acuerdos</span>
+					<hr class="hr-red">
+					{{ Tema.compromiso|raw }}
+				</td>
+			</tr>
+
+			<!-- OBSERVACION -->
+			<tr>
+				<td colspan="4">
+					<span class="title-strog">Observación</span>
+					<hr class="hr-red">
+					{{ Tema.observacion|raw }}
+				</td>
+			</tr>
+
+		</table>
+
+	</div>
+
+{% endblock %}

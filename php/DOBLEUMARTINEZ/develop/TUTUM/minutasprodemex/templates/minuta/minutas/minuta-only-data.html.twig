@@ -1,0 +1,361 @@
+<!-- TABLA DE MINUTA -->
+	<div id="data-table-v1"> 
+
+		<!-- DATOS GENERALES -->
+			<table>
+				<tr>
+			    	<th rowspan="3" style="background-color:#00000014; width:25%;">
+			    		<img width="60%" src='{{ asset('images/prodemex-2.png') }}'>
+			    	</th>
+					<th colspan="3"> MINUTA  </th>
+			  	</tr>
+
+			  	<tr>
+			  		<td colspan="3" style="width:75%;"><center><strong>Reunión Semanal de Construcción con Áreas Transversales</strong></center></td>
+			  	</tr>
+
+			  	<tr>
+			  		<td colspan="3" style="width:75%;"><center><strong>Objetivo:</strong> {{ MinutaDetalle.objetivo }}</center></td>
+			  	</tr>
+				
+
+			  	<tr>
+			  		<td style="width:25%;text-align:center;" >Fecha de reunión:<br><strong>{{ MinutaDetalle.fechaInicio|date('d-m-Y') }}</strong></td>
+			  		<td style="width:25%;text-align:center;" >Inicio de Reunión:<br><strong>{{ MinutaDetalle.fechaInicio|date('H:i') }} hrs</strong></td>
+			  		<td style="width:25%;text-align:center;" >Fin de reunión:<br><strong>{{ MinutaDetalle.fechaFin|date('H:i') }} hrs</strong></td>
+			  		<td style="width:25%;text-align:center;" >Fecha de Próxima Reunión:<br><strong>{{ MinutaDetalle.proximaReunion|date('d-m-Y') }}</strong></td>
+			  	</tr>
+			</table>
+
+			<br><br>
+
+		<!-- ASISTENTES -->
+			<table>
+				<tr>
+					<th colspan="4" style="border-bottom: 2px solid #000; width:100%;"> ASISTENTES </th>
+				</tr>
+				<tr>
+					<th style="width:30%; text-align:center;" >Nombre</th>
+					<th style="width:10%; text-align:center;" >Iniciales </th>
+					<th style="width:30%; text-align:center;" >Área / Empresa</th>
+					<th style="width:30%; text-align:center;" >Firma</th>
+				</tr>
+
+				
+					{% for audiencia in MinutaDetalle.audiencia %}
+						{% if (audiencia.asistencia == true) %}
+
+							<tr>
+								<!-- NOMBRE -->
+								<td style="width:30%; text-align:center;">
+									{{ audiencia.idusuario.nombre }} {{ audiencia.idusuario.apellido }}
+								</td>
+
+								<!-- INICIALES -->
+								<td style="width:10%; text-align:center;">
+									{{ audiencia.idusuario.iniciales }}
+								</td>
+
+								<!-- AREA -->
+								<td style="width:30%; text-align:center;">
+									{{ audiencia.idusuario.area }}
+								</td>
+
+								<!-- ESTATUS -->
+								{% if (audiencia.estatus != null) and (audiencia.estatus.id == 2) %}
+
+									<td style="width:30%; text-align:center;" class="estatus-asistencia-on" >
+										<center><i class="fas fa-check-circle"></i></center>
+									</td>
+
+								{% else %}
+
+									<td style="width:30%; text-align:center;" class="estatus-asistencia-neutro" >
+										<center><i class="fas fa-minus"></i></center>
+									</td>
+									
+								{% endif %}
+							</tr>
+
+						{% endif %}
+					{% endfor %}
+
+
+			</table>
+
+			<br><br>
+
+		<!-- AUSENTES -->
+			<table>
+				<tr>
+					<th colspan="4" class="th-ausentes" style="border-bottom: 2px solid #000; width:100%;" ><strong>AUSENTES</strong></th>
+				</tr>
+				<tr>
+					<th style="width:30%; text-align:center;" class="th-ausentes">Nombre</th>
+					<th style="width:10%; text-align:center;" class="th-ausentes">Iniciales </th>
+					<th style="width:30%; text-align:center;" class="th-ausentes">Área / Empresa</th>
+					<th style="width:30%; text-align:center;" class="th-ausentes">Firma</th>
+				</tr>
+
+				
+					{% for audiencia in MinutaDetalle.audiencia %}
+						{% if (audiencia.asistencia == false) %}
+
+							<tr>
+								<!-- NOMBRE -->
+								<td style="width:30%; text-align:center;">
+									{{ audiencia.idusuario.nombre }} {{ audiencia.idusuario.apellido }}
+								</td>
+
+								<!-- INICIALES -->
+								<td style="width:10%; text-align:center;">
+									{{ audiencia.idusuario.iniciales }}
+								</td>
+
+								<!-- AREA -->
+								<td style="width:30%; text-align:center;">
+									{{ audiencia.idusuario.area }}
+								</td>
+
+								<!-- ESTATUS -->
+								{% if (audiencia.estatus != null) and (audiencia.estatus.id == 2) %}
+
+									<td style="width:30%; text-align:center;" class="estatus-asistencia-on" >
+										<center><i class="fas fa-check-circle"></i></center>
+									</td>
+
+								{% else %}
+
+									<td style="width:30%; text-align:center;" class="estatus-asistencia-neutro" >
+										<center><i class="fas fa-minus"></i></center>
+									</td>
+
+								{% endif %}
+							</tr>
+
+						{% endif %}
+					{% endfor %}
+				
+			</table>
+
+			<br><br>
+
+		<!-- AGENDA DE MINUTA -->
+			<table style="width: 80%;margin: 0 auto;">
+			  	<tr>
+			    	<th> AGENDA </th>
+			  	</tr>
+				<tr>
+					<td>{{ MinutaDetalle.itinerario|raw }}</td>
+				</tr>
+			</table>
+
+			<br><br>
+
+		<!-- PRINCIPALES ACUERDOS -->
+			{%  set num_temas_b1 = 0 %}
+			{% for temas in MinutaDetalle.temasMinuta %}
+				{% if (temas.titulo == 'Principales acuerdos de la reunión') or ((temas.bloque == 1) and (temas.idCategoria == null)) %}
+					{%  set num_temas_b1 = num_temas_b1 + 1 %}
+				{% endif %}		
+			{% endfor %}
+
+			{% if (num_temas_b1 >= 1) %}
+
+				<table>
+					<tr>
+						<th colspan="3" style="background-color:#00000014;color:#000;">
+						    ACUERDOS PRINCIPALES DE LA REUNIÓN 
+						</th>
+					</tr>
+				</table>
+
+				<table style="border-top: 15px solid #861717; border-bottom: 15px solid #861717;" >
+					{% for temas in MinutaDetalle.temasMinuta %}
+						{% if (temas.titulo == 'Principales acuerdos de la reunión') or ((temas.bloque == 1) and (temas.idCategoria == null)) %}
+							
+						  		<tr>
+						  			<td valign="top">
+						  				{{ temas.observacion|raw }}
+						  			</td>
+						  		</tr>
+						  	
+						{% endif %}
+					{% endfor %}
+				</table>
+				<br><br>
+
+			{% endif %}
+				
+		<!-- AGENDA DIRECCION GENERAL-->
+			{%  set num_temas_b2 = 0 %}
+			{% for temas in MinutaDetalle.temasMinuta %}
+				{% if (temas.bloque == 2) or ((temas.idCategoria != null) and (temas.idCategoria.id != 9)) %}
+					{%  set num_temas_b2 = num_temas_b2 + 1 %}
+				{% endif %}		
+			{% endfor %}
+
+			{% if (num_temas_b2 >= 1 ) %}
+
+				<table>
+					<tr>
+					    <th colspan="3" style="background-color:#00000014;color:#000; width:100%;" >AGENDA DE DIRECCIÓN GENERAL</th>
+					</tr>
+				</table>
+
+				{% for categoria in Categorias %}
+
+					{% if (categoria.id != 9) %}
+
+						{% set cont_temas = false %}
+
+						<!--TEMAS -->
+						{% for temas in MinutaDetalle.temasMinuta %}
+
+							{% if (temas.bloque == 2) or ((temas.idCategoria != null) and (temas.idCategoria.id != 9)) %}
+
+								{% if ( temas.idCategoria.id == categoria.id ) %}
+
+									<!-- CATEGORIA -->
+									{% if ( cont_temas == 0) %}
+										<table>
+											<tr>
+												<td colspan="4"
+													style="
+													background-color:{{ categoria.color }};
+													color:#fff;
+															">
+													<strong>{{ categoria.nombre }}</strong>
+												</td>
+											</tr>
+										</table>
+									{% endif %}
+
+									<!-- INFO BASICA -->
+									<table style="border-top: 15px solid #861717;" >
+
+										<tr>
+											<!-- TITULO -->
+											<th colspan="3" width="50%">{{ temas.titulo }}</th>
+
+											<!-- ESTATUS -->
+											{% if (temas.idEstatus!=null)%}
+												<td style="background-color: {{ temas.idEstatus.color }}; width:50%; " colspan="1">
+												  	<strong>{{ temas.idEstatus.nombre }}</strong>
+												</td>
+											{% else %}
+												<td style=" width:50%; " colspan="1">
+												  	<strong></strong>
+												</td>
+											{% endif %}
+
+										</tr>
+
+										<tr>
+											<!-- RESPONSABLE -->
+											<td colspan="2" width="50%"><strong>Responsable: </strong>
+
+												{% for temaUsuario in MinutaDetalle.temasUsuarios %}
+													{% if (temas.id == temaUsuario.idTema.id) %}
+														-{{ temaUsuario.idUsuario.nombre }} {{ temaUsuario.idUsuario.apellido }}
+													{% endif %}
+												{% endfor %}			
+											</td>
+
+											<!-- FECHA -->
+											<td colspan="1" width="25%"><strong>Inicio: </strong> {{ temas.compromisoinicio|date('d-m-Y') }}</td>
+											<td colspan="1" width="25%"><strong>Conclusión: </strong>Actualización Semanal</td>
+
+										</tr>	
+									</table>
+
+									<!-- DETALLE DEL TEMA -->
+									<table>
+										<tr>
+										  	<td width="50%" valign="top">
+										  		<h3>Requerimeintos</h3>
+										  			{{ temas.requerimiento|raw}}
+										  	</td>
+										  	<td width="50%" valign="top">
+										  		<h3>Acuerdos</h3>
+										  		{{ temas.compromiso|raw }}
+										  	</td>
+										</tr>
+										<tr>
+										  	<td valign="top">
+										  		<h3>Lineamientos</h3>
+										  		{{ temas.lineaguia|raw}}
+										  	</td>
+										  	<td valign="top">
+										  		<h3>Acciones</h3>
+										  		{{ temas.compromisoaccion|raw}}
+										  	</td>
+										</tr>
+
+										<tr>
+										  	<td colspan="2" valign="top">
+										  		<h3>Observaciónes / Comentarios</h3>
+										  		{{ temas.observacion|raw}}
+										  	</td>
+										</tr>
+									</table>
+
+									{% set cont_temas = cont_temas + 1 %}
+
+								{% endif %}	
+
+							{% endif %}
+
+						{% endfor %}
+
+					{% endif %}
+				{% endfor %}
+
+
+			{% endif %}	
+			
+			<br><br>
+
+		<!-- REVISIÓN DE TEMAS -->
+			{%  set num_temas_b3 = 0 %}
+			{% for temas in MinutaDetalle.temasMinuta %}
+				{% if (temas.bloque == 3) or ((temas.idCategoria != null) and (temas.idCategoria.id == 9)) %}
+					{%  set num_temas_b3 = num_temas_b3 + 1 %}
+				{% endif %}		
+			{% endfor %}
+
+			{% if (num_temas_b3 >= 1) %}
+				<table>
+					<tr>
+					    <th colspan="3" style="background-color:#00000014;color:#000; width:100%;" >REVISIÓN DE TEMAS</th>
+					</tr>
+				</table>
+
+				<!-- TEMAS -->
+				{% for temas in MinutaDetalle.temasMinuta %}
+					{% if (temas.bloque == 3) or ((temas.idCategoria != null) and (temas.idCategoria.id == 9)) %}
+
+						<!-- INFO BASICA -->
+						<table style="border-top: 15px solid #861717;" >
+							<tr>
+								<!-- TITULO -->
+								<th colspan="3" width="100%">{{ temas.titulo }}</th>
+							</tr>
+						</table>
+
+						<!-- DETALLE DEL TEMA -->
+						<table>
+							<tr>
+							  	<td width="100%" valign="top">
+							  		{{ temas.observacion|raw}}
+							  		{{ temas.requerimiento|raw}}
+							  	</td>
+							</tr>
+						</table>
+
+					{% endif %}
+				{% endfor %}
+
+			{% endif %}
+			
+	</div>

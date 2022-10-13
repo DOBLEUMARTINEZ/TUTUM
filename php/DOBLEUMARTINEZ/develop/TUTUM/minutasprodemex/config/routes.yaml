@@ -1,0 +1,68 @@
+principal:
+    path: /
+    controller: App\Controller\HomeController::login
+
+login:
+    path: /login/{alerta?}
+    controller: App\Controller\HomeController::login
+
+index:
+    path: /inicio
+    controller: App\Controller\HomeController::index
+
+minuta:
+    path: /minuta
+    controller: App\Controller\MinutaController::index
+
+usuario:
+    path: /usuario/{id_user?}
+    controller: App\Controller\UsuarioController::index
+
+tema:
+    path: /tema/{busqueda?}/{id_registro?}
+    controller: App\Controller\MinutaController::tema
+
+nuevo:
+    path: /nuevo/{tabla?}
+    controller: App\Controller\MinutaController:nuevo
+
+ver:
+    path: /ver/{tabla?}/{id_minuta?}/{id_registro?}
+    controller: App\Controller\MinutaController:ver  
+
+actualizar:
+    path: /actualizar/{tabla?}/{id_minuta?}/{id_registro?}
+    controller: App\Controller\MinutaController:actualizar
+
+borrar:
+    path: /borrar/{tabla?}/{id_minuta?}/{id_registro?}
+    controller: App\Controller\MinutaController:borrar
+
+configuraciones:
+    path: /configuraciones
+    controller: App\Controller\MinutaController::configuraciones
+
+buscar_minuta:
+    path: /minuta/{id_minuta}
+    controller: App\Controller\MinutaController::buscarMinuta
+
+update_minuta:
+    path: /minuta-update/{id_minuta?}/{tema?}
+    controller: App\Controller\MinutaController::update
+
+audiencia_minuta:
+    path: /audiencia
+    controller: App\Controller\MinutaController::configuraciones
+
+log_minuta:
+    path: /huella-digital
+    controller: App\Controller\MinutaController::huella
+
+updatepos:
+    path: /updatepos
+    controller: App\Controller\MinutaController::updatepos
+    methods: [GET] 
+
+resetpassword:
+    path: /resetpassword
+    controller: App\Controller\HomeController::resetpassword

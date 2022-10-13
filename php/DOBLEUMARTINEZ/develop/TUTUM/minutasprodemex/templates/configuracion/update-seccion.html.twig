@@ -1,0 +1,31 @@
+{% extends 'layout/layoutBase.html.twig' %}
+
+{% block tituloPagina %} 
+	{{title}}
+{% endblock %}
+
+{% block contenido %}
+
+	<br><br><br><br>
+
+	<div id="data-table-v1">
+			<table style="width:80%; margin-left:10%;" >
+				{{ form_start(form, {'attr': {'class': 'form-control'}}) }}
+				<tr>
+					<th colspan="2"> {{title}} seccion </th>
+			  	</tr>
+
+			  	<tr>
+			  		<td width="20%;" ><strong>Nombre</strong></td>
+			  		<td>{{ form_widget(form.nombre) }}</td>
+			  	</tr>
+
+			  	<tr>
+			  		<td  colspan="2">{{ form_widget(form.submit) }}</td>
+			  	</tr>
+				{{ form_end(form) }}
+			</table>	
+	
+	</div>
+
+{% endblock %}

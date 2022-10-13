@@ -4,7 +4,7 @@
 		<div>
 			<h2><span>DOBLEU MARTINEZ</span><br>Desarrollo Web</h2>
 			<p class="p-black">Diseñamos poderosos proyectos web atractivos que resalten la identidad de tu empresa o negocio.</p>
-			<p>Trabajamos extrictamente con funciones especiales, integraciones, forms, procesos o conexiones especializadas con otras tecnologías.</p>
+			<p>Trabajamos estrictamente con funciones especiales, integraciones, forms, procesos o conexiones especializadas con otras tecnologías.</p>
 		</div>
 		<div>
 			<img src="resources/images/4169292.jpg" title="DOBLEU MARTINEZ - Desarrollo Web" alt="DOBLEU MARTINEZ - Desarrollo Web">
@@ -16,7 +16,7 @@
 		<span></span>
 		<div>
 			<h2>Conoce alguna de las soluciones que <br>nuestros equipo puede desarrollar para ti</h2>
-			<button>Contactanos</button>
+			<button onclick="window.location.href='https://api.whatsapp.com/send?phone=+525541422177&text=Me%20interesa%20conocer%20mas%20a%20detalle%20los%20servicios';" >Contactanos</button>
 		</div>
 	</div>
 

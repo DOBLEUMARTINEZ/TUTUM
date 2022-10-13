@@ -1,0 +1,64 @@
+{% extends 'layout/layoutBase.html.twig' %}
+
+{% block tituloPagina %} 
+	{{title}}
+{% endblock %}
+
+{% block contenido %}
+
+	<br><br><br><br>
+
+	<div id="data-table-v1">
+		<table style="width:80%; margin-left:10%;" >
+			{{ form_start(form, {'attr': {'class': 'form-control'}}) }}
+				<tr>
+					<th colspan="2">{{title}} usuario </th>
+			  	</tr>
+
+			  	<tr>
+			  		<td width="20%;" ><strong>Nombre</strong></td>
+			  		<td>{{ form_widget(form.nombre) }}</td>
+			  	</tr>
+
+			  	<tr>
+			  		<td><strong>Apellido</strong></td>
+			  		<td>{{ form_widget(form.apellido) }}</td>
+			  	</tr>
+
+			  	<tr>
+			  		<td > <strong>Email</strong></td>
+			  		<td >{{ form_widget(form.email) }}</td>
+			  	</tr>
+
+			  	<tr>
+			  		<td><strong>Usuario</strong></td>
+			  		<td>{{ form_widget(form.user) }}</td>
+			  	</tr>
+			  	<tr>
+			  		<td><strong>Contraseña</strong></td>
+			  		<td>{{ form_widget(form.password) }}</td>
+			  	</tr>
+
+			  	<tr>
+			  		<td><strong>Area</strong></td>
+			  		<td>{{ form_widget(form.area) }}</td>
+			  	</tr>
+
+			  	<tr>
+			  		<td><strong>Rol</strong></td>
+			  		<td>{{ form_widget(form.rol) }}</td>
+			  	</tr>
+
+			  	<tr>
+			  		<td ><strong>iniciales</strong></td>
+			  		<td >{{ form_widget(form.iniciales) }}</td>
+			  	</tr>
+
+			  	<tr>
+			  		<td  colspan="2">{{ form_widget(form.submit) }}</td>
+			  	</tr>
+			{{ form_end(form) }}
+		</table>	
+	</div>
+
+{% endblock %}

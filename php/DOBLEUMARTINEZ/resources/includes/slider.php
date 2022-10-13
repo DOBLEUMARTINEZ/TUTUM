@@ -15,7 +15,7 @@
 
 	<h1>Te ayudamos con la mejor solución para tu Proyecto Web</h1><br>
 	<p>Diseñamos poderosos Desarrollos web<br> atractivos que resalten la identidad <br>de tu empresa o negocio</p><br>
-	<button>Contactanos</button>
+	<button onclick="window.location.href='https://api.whatsapp.com/send?phone=+525541422177&text=Me%20interesa%20conocer%20mas%20a%20detalle%20los%20servicios';" >Contactanos</button>
 </div>
 
 <div class="slider-auto" style="display: none;">

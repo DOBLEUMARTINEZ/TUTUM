@@ -1,0 +1,142 @@
+<!-- PUBLICAR MINUTA -->
+{% if (rol == 2 ) and (MinutaDetalle.estatus == 0) %}
+	<!-- PUBLICAR MINUTA -->
+	<div id="enviar-minuta" onclick="activeModal('send')"> 
+		Publicar<br><i class="fas fa-envelope"></i>
+	</div>
+
+	<!-- MODAL  -->
+	<div id="content-modals" >
+		<div id="body-modal">
+
+			<span onclick="desactiveModal()" > <i class="fas fa-times-circle"></i> </span>
+			
+			{{ form_start(publicarMinuta, {'attr': {'class': 'form-control'}}) }}
+
+				<div id="send" >
+					<div id="data-table-v1">
+						<table>
+							<tr>
+								<th>Publicar minuta</th>
+							</tr>
+							<tr>
+								  <td>
+								  	<div class="btn btn-danger btn-full-width" onclick="desactiveModal()" >CANCELAR</div>
+								  </td>
+							</tr>
+							<tr>
+								<td>{{ form_widget(publicarMinuta.aceptarbtn) }}</td>
+							</tr>
+						</table>	
+					</div>
+				</div>
+
+			{{ form_end(publicarMinuta) }}
+			
+		</div>
+
+	</div>
+
+<!-- FIRMAR -->
+{% elseif rol == 3 %}
+
+	{% for audiencia in MinutaDetalle.audiencia %}
+
+		{% if (userid == audiencia.idUsuario.id) %}
+
+			{% if (audiencia.estatus !=null ) and (audiencia.estatus.id == 1) %}
+
+				<!-- FIRMA DE MINUTA -->
+				<div id="firma-minuta"> 
+					Firmar<br><i onclick="activeModal('signature')" class="fas fa-check-circle"></i>
+					<br>
+					Rechazar<br><i onclick="activeModal('reject')" class="fas fa-times-circle"></i>
+				</div>
+
+			{% endif %}
+
+			<!-- MODAL  -->
+			<div id="content-modals" >
+
+				<div id="body-modal">
+
+					<span onclick="desactiveModal()" > <i class="fas fa-times-circle"></i> </span>
+
+					{{ form_start(logFirmaFormMail, {'attr': {'class': 'form-control'}}) }}
+
+						<div id="signature" >
+							
+							<div id="data-table-v1">
+								<table>
+									<tr>
+										<th>Firmar minuta</th>
+									</tr>
+									<tr>
+								  		<td>{{ form_widget(logFirmaFormMail.firmar) }}</td>
+								  	</tr>
+								  	<tr>
+								  		<td><div class="btn btn-danger btn-full-width" onclick="desactiveModal()" >CANCELAR</div></td>	
+								  	</tr>
+								</table>	
+							</div>
+						</div>
+
+						<div id="reject" >
+							<div id="data-table-v1">
+								<table >
+									<tr>
+										<th>Comentario</th>
+									</tr>
+									<tr>
+								  		<td>{{ form_widget(logFirmaFormMail.comentarios) }}</td>
+								  	</tr>
+								  	<tr>
+								  		<td>{{ form_widget(logFirmaFormMail.rechazar) }}</td>
+								  	</tr>
+								</table>	
+							</div>
+						</div>
+
+					{{ form_end(logFirmaFormMail) }}
+
+				</div>
+				 
+			</div>
+
+		{% endif %}
+
+	{% endfor %}
+
+{% endif %}
+
+<script>
+	function activeModal($content) {
+		document.getElementById("body-modal").style.display = 'block';
+
+		switch($content){
+
+			case 'signature':
+			 	$("#signature").css("display","block");
+			 	$("#send, #reject").css("display","none");
+			break;
+
+			case 'reject':
+			 	$("#reject").css("display","block");
+			 	$("#send, #signature").css("display","none");
+			break;
+
+			case 'send':
+			 	$("#send").css("display","block");
+			 	$("#signature, #reject").css("display","none");
+			break;
+
+		}
+
+	}
+
+	// MODAL OFF
+ 	function desactiveModal(){
+ 		document.getElementById("body-modal").style.display = 'none';
+ 	}
+
+</script>

@@ -1,0 +1,150 @@
+{% extends 'layout/layoutBase.html.twig' %}
+
+{% block tituloPagina %}
+	{{title}}
+{% endblock %}
+
+{% block contenido %}
+
+	<div id="fitro-busqueda-minuta">
+		<h1>{{title}}</h1>
+	</div>
+	<hr class="hr-red"><br><br>
+
+	<!-- SECCIONES -->
+	<h2>Secciones de la minuta</h2>
+	<hr class="hr-red">
+	<div id="data-table-v1">
+		<table>
+		  	<tr>
+		    	<th width="3%">ID</th>
+				<th width="85%">Nombre de seccion</th>
+				<th style="background:#444444de;">
+					<i onclick="window.location.href='{{ asset('nuevo/seccion') }}';" class="fas fa-plus" style="color:#fff; display: none;" alt="Nuevo" title="Nuevo"></i>
+				</th>
+		  	</tr>
+		  	{% for seccion in Secciones %}
+				<tr>
+					<td><center>{{ seccion.id }}</center></td>
+					<td>{{ seccion.nombre }}</td>
+					<td class="action-icons">
+						<i onclick="window.location.href='{{ asset('actualizar/seccion/0/') }}{{ seccion.id }}';" style="color: #053a76;" class="fas fa-edit"></i>
+						{% if rol == 1 %}
+							<i onclick="window.location.href='{{ asset('borrar/seccion/0/') }}{{ seccion.id }}';" style="color:red;" class="fas fa-trash"></i>
+						{% endif %}
+					</td>
+				</tr>
+			{% endfor %}
+		</table>
+	</div>
+	<br><br>
+
+	<!-- CATEGORIAS -->
+	<h2>Categorias</h2>
+	<hr class="hr-red">
+	<div id="data-table-v1">
+		<table>
+		  	<tr>
+		    	<th width="3%">ID</th>
+				<th width="35%">Categoria</th>
+				<th width="30%">Sección asignada</th>
+				<th width="10%">Orden</th>
+				<th width="10%">Color</th>
+				<th style="background:#444444de;">
+					<i onclick="window.location.href='{{ asset('nuevo/categoria') }}';" class="fas fa-plus" style="color:#fff;display: none;" alt="Nuevo" title="Nuevo"></i>
+				</th>
+		  	</tr>
+		  	{% for categoria in Categorias %}
+				<tr>
+					<td><center>{{ categoria.id }}</center></td>
+					<td>{{ categoria.nombre }}</td>
+					<td>{{ categoria.seccion.nombre}}</td>
+					<td>{{ categoria.ordencategoria }}</td>
+					<td style="background:{{ categoria.color }};" >{{ categoria.color }}</td>
+					<td class="action-icons">
+						<i onclick="window.location.href='{{ asset('actualizar/categoria/0/') }}{{ categoria.id }}';" style="color: #053a76;" class="fas fa-edit"></i>
+						{% if rol == 1 %}
+							<i onclick="window.location.href='{{ asset('borrar/categoria/0/') }}{{ categoria.id }}';" style="color:red;" class="fas fa-trash"></i>
+						{% endif %}
+					</td>
+				</tr>
+			{% endfor %}
+		</table>
+	</div>
+	<br><br>
+
+	<!-- ESTATUS MINUTA -->
+	<h2>Estatus de minuta</h2>
+	<hr class="hr-red">
+	<div id="data-table-v1">
+
+		<table>
+
+		  	<tr>
+		    	<th width="3%">ID</th>
+				<th width="75%">Estatus</th>
+				<th width="10%">Color</th>
+				<th style="background:#444444de;">
+					<i onclick="window.location.href='{{ asset('nuevo/estatusminuta') }}';" class="fas fa-plus" style="color:#fff;display: none;" alt="Nuevo" title="Nuevo"></i>
+				</th>
+		  	</tr>
+
+		  	{% for estatus in EstatusMinuta %}
+
+				<tr>
+					<td><center>{{ estatus.id }}</center></td>
+					<td>{{ estatus.nombre }}</td>
+					<td style="background:{{ estatus.color }};" >{{ estatus.color }}</td>
+					<td class="action-icons">
+						<i onclick="window.location.href='{{ asset('actualizar/estatusminuta/0/') }}{{ estatus.id }}';" style="color: #053a76;" class="fas fa-edit"></i>
+						{% if rol == 1 %}
+							<i onclick="window.location.href='{{ asset('borrar/estatusminuta/0/') }}{{ estatus.id }}';" style="color:red;" class="fas fa-trash"></i>
+						{% endif %}
+					</td>
+				</tr>
+
+			{% endfor %}
+
+		</table>
+
+	</div>
+	<br><br>
+
+	<!-- ESTATUS FIRMA MINUTA -->
+	<h2>Estatus de firma</h2>
+	<hr class="hr-red">
+	<div id="data-table-v1">
+
+		<table>
+
+		  	<tr>
+		    	<th width="3%">ID</th>
+				<th width="40%">Opciones</th>
+				<th width="45%">Respuestas</th>
+				<th style="background:#444444de;">
+					<i onclick="window.location.href='{{ asset('nuevo/firma') }}';" class="fas fa-plus" style="color:#fff;display: none;" alt="Nuevo" title="Nuevo"></i>
+				</th>
+		  	</tr>
+
+		  	{% for estatusfirma in EstatusFirma %}
+
+				<tr>
+					<td><center>{{ estatusfirma.id }}</center></td>
+					<td>{{ estatusfirma.opcion }}</td>
+					<td>{{ estatusfirma.respuesta }}</td>
+					<td class="action-icons">
+						<i onclick="window.location.href='{{ asset('actualizar/firma/0/') }}{{ estatusfirma.id }}';" style="color: #053a76;" class="fas fa-edit"></i>
+						{% if rol == 1 %}
+							<i onclick="window.location.href='{{ asset('borrar/firma/0/') }}{{ estatusfirma.id }}';" style="color:red;" class="fas fa-trash"></i>
+						{% endif %}
+					</td>
+				</tr>
+
+			{% endfor %}
+
+		</table>
+
+	</div>
+	<br><br>
+
+{% endblock %}

@@ -1,0 +1,19 @@
+<?php //getProperties.a%253A2%253A%257Bi%253A0%253Bs%253A33%253A%2522Proxies%255C__CG__%255CApp%255CEntity%255CUsuario%2522%253Bi%253A1%253Ba%253A0%253A%257B%257D%257D
+
+return [PHP_INT_MAX, [
+    '__initializer__',
+    '__cloner__',
+    '__isInitialized__',
+    'lazyPropertiesNames',
+    'lazyPropertiesDefaults',
+    'id',
+    'user',
+    'email',
+    'password',
+    'nombre',
+    'apellido',
+    'area',
+    'iniciales',
+    'status',
+    'rol',
+]];

@@ -1,0 +1,119 @@
+{% extends 'layout/layoutBase.html.twig' %}
+
+{% block tituloPagina %} 
+	{{title}}
+{% endblock %}
+
+{% block contenido %}
+
+	<br><br>
+
+	<!-- TITULO Y FINTRO DE BUSUQEDA -->
+	<div id="fitro-busqueda-minuta">
+		<h1>{{title}}</h1>
+	</div>
+
+	<hr class="hr-red">
+
+	<div id="data-table-v1">
+
+		<!-- JQUERY DRAG AND DROP -->
+  		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+	        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+		<!-- ALERTAS -->
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+		<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+		<table>
+
+		  	<tr>
+		    	<th width="10%">Posición</th>
+				<th width="20%">Nombre</th>
+				<th width="20%">Área</th>
+				<th width="10%">Rol</th>
+				<th width="10%">Iniciales</th>
+				<th style="background:#444444de; width:12%; ">
+					{% if (rol == 1) or (rol == 2) %}
+						<i onclick="window.location.href='./nuevo/usuario/';" class="fas fa-plus" style="color:#fff;" alt="Nuevo" title="Nuevo"></i>
+					{% endif %}
+				</th>
+		  	</tr>
+
+		  	<tbody class="row_position">
+
+		  	{% for posicion in posiciones %}
+
+		  		<tr id="{{ posicion.idUsuario.id }}" >
+		  			<td>{{ posicion.posicion }}</td>
+		  			<td>{{ posicion.idUsuario.nombre }} {{ posicion.idUsuario.apellido }}</td>
+		  			<td>{{ posicion.idUsuario.area }}</td>
+					<td>{{ posicion.idUsuario.rol.rol }}</td>
+					<td>{{ posicion.idUsuario.iniciales }}</td>
+
+					<!-- BOTONES DE ACCION -->
+					<td class="action-icons" style="display: revert;text-align: center;">
+
+						<!-- VER -->
+						<i onclick="window.location.href='{{ asset('ver/usuario/0') }}/{{ posicion.idUsuario.id }}';" 
+							style="color: #333; margin-bottom:10px; margin-right:0px;" 
+							class="fas fa-eye">
+						</i>
+
+						{% if (rol == 1) or (rol == 2) %}
+
+							<!-- ACTUALIZAR -->
+							<i onclick="window.location.href='{{ asset('actualizar/usuario/0') }}/{{ posicion.idUsuario.id }}';" 
+								style="color: #053a76; margin-bottom:10px; margin-right:0px;" 
+								class="fas fa-edit">
+							</i>
+
+							
+							<!-- BORRAR -->
+							<i onclick="window.location.href='{{ asset('borrar/usuario/0') }}/{{ posicion.idUsuario.id }}';" 
+								style="color:red; margin-top:5px; margin-right:0px;" 
+								class="fas fa-trash">
+							</i>
+							
+
+						{% endif %}
+
+					</td>
+
+		  		</tr>
+
+		  	{% endfor %}
+			
+			</tbody>
+
+		</table>
+
+	</div>
+
+	<!-- javascript DRAG AND DROP -->
+  	<script type="text/javascript">
+
+	    $(document).ready(function(){
+	    	$("#mytable").DataTable();
+	    });
+
+	    $(".row_position").sortable({
+	    	delay:150,
+	    	stop:function(){
+	    		var selectedData = new Array();
+	    		$(".row_position>tr").each(function(){
+	    			selectedData.push($(this).attr("id"));
+	    		});
+	    		updateOrder(selectedData);
+	    	}
+	    });
+	    function updateOrder(aData) {
+        window.location.href = 'updatepos?newpos='+aData;
+    }
+
+	</script>
+	
+{% endblock %}

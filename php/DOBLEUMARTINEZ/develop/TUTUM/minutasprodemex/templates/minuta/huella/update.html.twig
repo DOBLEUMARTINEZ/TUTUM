@@ -1,0 +1,113 @@
+{% extends 'layout/layoutBase.html.twig' %}
+
+{% block tituloPagina %} 
+	{{title}}
+{% endblock %}
+
+{% block contenido %}
+
+	<br><br><br><br>
+
+	<div id="data-table-v1">
+			<table style="width:90%; margin-left:5%;" >
+				{{ form_start(form, {'attr': {'class': 'form-control'}}) }}
+
+				<tr>
+					<th colspan="2"> {{title}} tema </th>
+			  	</tr>
+
+			  	<tr>
+			  		<td colspan="2">
+			  			<strong>Tema</strong>
+			  			{{ form_widget(form.titulo) }}
+			  		</td>
+			  	</tr>
+
+			  	<tr>
+			  		<td>
+			  			<strong>Minuta</strong>
+			  			{{ form_widget(form.id_reunion) }}
+			  		</td>
+			  		<td>
+			  			<strong>Bloque de minuta</strong>
+			  			{{ form_widget(form.seccion) }}
+			  		</td>			  		
+			  	</tr>
+
+			  	<tr>
+			  		<td width="50%">
+			  			<strong>Fecha inicio</strong>
+			  			{{ form_widget(form.compromiso_inicio) }}
+			  		</td>
+
+			  		<td>
+			  			<strong>Fecha fin</strong>
+			  			{{ form_widget(form.compromiso_fin) }}
+			  		</td>
+			  	</tr>
+
+			  	<tr>
+			  		<td>
+			  			<strong>Categoria</strong>
+			  			{{ form_widget(form.id_categoria) }}
+			  		</td>
+			  		<td>
+			  			<strong>Estatus</strong>
+			  			{{ form_widget(form.id_estatus) }}
+			  		</td>
+			  	</tr>
+
+			  	<tr>
+			  		<td colspan="2">
+			  			<strong>Responsables</strong>
+			  			{{ form_widget(form.usuario) }}
+			  		</td>
+			  	</tr>
+
+			  	<tr>
+			  		<td colspan="2">
+			  			<strong>Requerimeintos</strong>
+			  			{{ form_widget(form.requerimiento) }}
+			  		</td>
+			  	</tr>
+
+			  	<tr>
+			  		<td colspan="2">
+			  			<strong>Lineamientos</strong>
+			  			{{ form_widget(form.linea_guia) }}
+			  		</td>
+			  	</tr>
+
+			  	<tr>
+			  		<td colspan="2">
+			  			<strong>Acciones</strong>
+			  			{{ form_widget(form.compromiso_accion) }}
+			  		</td>
+			  	</tr>
+
+			  	<tr>
+			  		<td colspan="2">
+			  			<strong>Acuerdos</strong>
+			  			{{ form_widget(form.compromiso) }}
+			  		</td>
+			  	</tr>
+
+			  	<tr>
+			  		<td colspan="2">
+			  			<strong>Observaciones / comentarios</strong>
+			  			{{ form_widget(form.observacion) }}
+			  		</td>
+			  	</tr>
+
+			  	<tr>
+			  		<td colspan="2">{{ form_widget(form.submit) }}</td>
+			  	</tr>
+
+				{{ form_end(form) }}
+			</table>	
+			
+	
+	</div>
+
+
+{% endblock %}

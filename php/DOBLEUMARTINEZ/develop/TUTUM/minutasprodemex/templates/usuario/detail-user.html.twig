@@ -1,0 +1,64 @@
+{% extends 'layout/layoutBase.html.twig' %}
+
+{% block tituloPagina %} 
+	{{title}}
+{% endblock %}
+
+{% block contenido %}
+
+	<br><br><br><br>
+
+	<div id="data-table-v1">
+
+		<!-- DATOS GENERALES -->
+		{% for usuario in Usuario %}
+			<table style="width:80%; margin-left:10%;" >
+				<tr>
+					<th colspan="2">USUARIO : {{ usuario.id }}</th>
+			  	</tr>
+
+			  	<tr>
+			  		<td width="20%;"> <strong>Nombre</strong></td>
+			  		<td width="80%;">{{ usuario.nombre }}</td>
+			  	</tr>
+
+			  	<tr>
+			  		<td width="20%;"> <strong>Apellido</strong></td>
+			  		<td width="80%;">{{ usuario.apellido }}</td>
+			  	</tr>
+
+			  	<tr>
+			  		<td > <strong>Email</strong></td>
+			  		<td >{{ usuario.email }}</td>
+			  	</tr>
+
+			  	<tr>
+			  		<td><strong>Usuario</strong></td>
+			  		<td>{{ usuario.user }}</td>
+			  	</tr>
+			  	<tr>
+			  		<td><strong>Contraseña</strong></td>
+			  		<td>{{ usuario.password }}</td>
+			  	</tr>
+
+			  	<tr>
+			  		<td><strong>Rol</strong></td>
+			  		<td>{{ usuario.rol.rol }}</td>
+			  	</tr>
+
+			  	<tr>
+			  		<td><strong>Area</strong></td>
+			  		<td>{{ usuario.area }}</td>
+			  	</tr>
+
+			  	<tr>
+			  		<td ><strong>iniciales</strong></td>
+			  		<td >{{ usuario.iniciales }}</td>
+			  	</tr>
+				
+			</table>
+		{% endfor %}
+	
+	</div>
+
+{% endblock %}

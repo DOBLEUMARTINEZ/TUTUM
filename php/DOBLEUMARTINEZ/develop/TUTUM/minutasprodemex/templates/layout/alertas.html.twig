@@ -1,0 +1,117 @@
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+{% if alerta is defined %}
+
+	<span style="display: none;">yes</span>
+
+	<!-- ACCESO PERMITIDO -->
+   	{% if alerta == 'success' %}
+	   	<script type="text/javascript">
+			      Swal.fire({
+			          icon: 'success',
+			          title:'Acceso permitido',
+			          text: 'Bienvenido al Sistema de Minutas Prodemex',
+			          /*showCloseButton: true,*/
+			          focusConfirm: false,
+			          timerProgressBar: true,
+			          confirmButtonText:
+			          'Continuar',
+			          confirmButtonAriaLabel: 'Send'
+			        });
+		</script>
+
+	<!-- ACCESO DENEGADO -->
+	{% elseif alerta == 'error' %}
+			<script type="text/javascript">
+		      Swal.fire({
+		          icon: 'error',
+		          title:'Upps, Algo salio mal',
+		          text: 'Ingresa las credenciales correctas',
+		          /*showCloseButton: true,*/
+		          focusConfirm: false,
+		          timerProgressBar: true,
+		          confirmButtonText:
+		          'Continuar',
+		          confirmButtonAriaLabel: 'Send'
+		        });
+		    </script>
+
+	<!-- NUEVO REGISTRO -->
+	{% elseif alerta == 'new-success' %}
+		<script type="text/javascript">
+			Swal.fire({
+			    icon: 'success',
+			    title:'Registro guardado',
+			    text: 'El registro se agrego con exito',
+			    /*showCloseButton: true,*/
+			    focusConfirm: false,
+			    timerProgressBar: true,
+			    confirmButtonText:'Continuar',
+			    confirmButtonAriaLabel: 'Send'
+			});
+		</script>
+
+	<!-- ELIMINAR REGISTRO -->
+	{% elseif alerta == 'delete-success' %}
+		<script type="text/javascript">
+			Swal.fire({
+			    icon: 'success',
+			    title:'Registro eliminado',
+			    text: 'El registro se elimino con exito',
+			    /*showCloseButton: true,*/
+			    focusConfirm: false,
+			    timerProgressBar: true,
+			    confirmButtonText:'Continuar',
+			    confirmButtonAriaLabel: 'Send'
+			});
+		</script>
+
+	<!-- ACTUALIZAR REGISTRO -->
+	{% elseif alerta == 'update-success' %}
+		<script type="text/javascript">
+			Swal.fire({
+			    icon: 'success',
+			    title:'Registro actualizado',
+			    text: 'El registro se actualizo con exito',
+			    /*showCloseButton: true,*/
+			    focusConfirm: false,
+			    timerProgressBar: true,
+			    confirmButtonText:'Continuar',
+			    confirmButtonAriaLabel: 'Send'
+			});
+		</script>
+
+   	<!-- MINUTA PUBLICADA -->
+	{% elseif alerta == 'public-success' %}
+		<script type="text/javascript">
+			Swal.fire({
+			    icon: 'success',
+			    title:'Minuta publicada',
+			    text: 'La minuta se publico con exito',
+			    /*showCloseButton: true,*/
+			    focusConfirm: false,
+			    timerProgressBar: true,
+			    confirmButtonText:'Continuar',
+			    confirmButtonAriaLabel: 'Send'
+			});
+		</script>
+
+	<!-- MINUTA FIRMADA -->
+	{% elseif alerta == 'firma-success' %}
+		<script type="text/javascript">
+			Swal.fire({
+			    icon: 'success',
+			    title:'Minuta firmada',
+			    text: 'La minuta se firmo con exito',
+			    /*showCloseButton: true,*/
+			    focusConfirm: false,
+			    timerProgressBar: true,
+			    confirmButtonText:'Continuar',
+			    confirmButtonAriaLabel: 'Send'
+			});
+		</script>
+		
+   	{% endif %}
+
+{% endif %}

@@ -1,0 +1,2025 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');*/
+
+@font-face {
+    font-family: 'Cocomat';
+    src:  url('Cocomat Ultralight-trial.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Eight One';
+    src:  url('Eight One.ttf') format('truetype');
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Cocomat', sans-serif!important;
+    background-image: url(../images/img/texture.jpg);
+    background-size: 100%;
+}
+
+/* FX */
+    @keyframes moviendrew {
+      0% {
+        transform: translateY(0px);
+      }
+      100% {
+        transform: translateY(20px);
+      }
+    }
+
+    .flecha {
+      animation-name: moviendrew;
+        animation-duration: 0.6s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    .second-font{
+        font-family: 'Eight One'!important;
+    }
+
+/* NAV */
+    
+    .ir-arriba{
+        position: fixed;
+        bottom: 9%;
+        right: 3%;
+        height: 40px;
+        width: 40px;
+        background: #066;
+        display: none;;
+        text-align: center;
+        font-size: 1.5em;
+        border-radius: 50%;
+        color: #fff;
+        cursor: pointer;
+        padding: 5px 0 0 0;
+    }
+
+    .ir-arriba:hover{
+        color: #066;
+        background: #999999 ;
+    }
+
+    .desktop{
+        display: initial;
+    }
+
+    .mobil{
+        display: none;
+    }
+
+    .desktop-2{
+        display: initial;
+    }
+
+    .mobil-2{
+        display: none;
+    }
+
+    .nav-bar{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        box-shadow: 0px 2px 5px 0px #99cccc;
+        z-index: 99;
+        position: fixed;
+    }
+
+    .nav-bar > .container-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #ffffffe0;
+        padding: 0% 2%;
+    }
+
+    .nav-bar > .container-header > div{
+        width: 10%;
+    }
+
+    .nav-bar > .container-header > div > img{
+        width: 100%;
+    }
+
+    .nav-bar > .container-header > ul{
+        width: 80%;
+        display: flex;
+        justify-content: flex-end;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-bar > .container-header > ul > li{
+        font-size: 1.2em;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+        margin-left: 1em;
+        color: #006666;
+        cursor: pointer;
+        border-top: 4px solid #0000;
+        padding: 1% 1% 2.2% 1%;
+        transition: 0.5s;
+        margin-top: 1%;
+    }
+
+    .nav-bar > .container-header > ul > li:hover {
+        border-top: 4px solid #CC6633;
+        transition: 0.5s;
+    }
+
+    .active-section{
+        border-top: 4px solid #CC6633!important ;
+        transition: 0.5s;
+    }
+
+        /* MENU DESPLEGABLE TUTUM */
+            .dropdown-menu-ttm {
+                position: relative;
+            }
+
+            .dropdown-menu-ttm > ol{
+                position: absolute;
+                list-style: none;
+                margin: 0;
+                padding: 15% 0%;
+                left: 0;
+                top: -19vw;
+                background: #99cccc;
+                text-align: left;
+                transition: 0.3s;
+                z-index: -99;
+                opacity: 0;
+            }
+
+
+            .dropdown-menu-ttm:hover > ol{
+                top: 3.9vw;
+                transition: 0.3s;
+                z-index: 1;
+                opacity: 1;
+            }
+
+            .dropdown-menu-ttm >ol>li{
+                width: 20vw;
+                padding: 2% 0% 2% 10%;
+                font-weight: bold;
+                font-size: 1em;
+                transition: 0.2s;
+                background: #0000;
+                position: relative;
+                color: #006666;
+            }
+
+            .dropdown-menu-ttm >ol>li:hover{
+                transition: 0.2s;
+                transform: scale(1.06);
+                box-shadow: 3px 2px 4px -2px #11111138;
+                background: #fff;
+            }
+
+    /* NAV BAR MOBIL */
+    .nav-bar > .container-header-mobil{
+        display: none;
+        background: #ffffffe0;
+        position: fixed;
+        top: 0;
+        box-shadow: 0px 2px 5px 0px #99cccc;
+    }
+
+    .nav-bar > .container-header-mobil > ol{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+    }
+
+    .nav-bar > .container-header-mobil > ol > li{
+        width: 50%;
+        text-align: right;
+        padding: 0 5%;
+    }
+
+    .nav-bar > .container-header-mobil > ol > li > i{
+        font-weight: bold;
+        font-size: 1.5em;
+        color: #006666;
+    }
+
+    .nav-bar > .container-header-mobil > ol > li > img{
+        width: 60%;
+        margin-right: 40%;
+    }
+
+    .nav-bar > .container-header-mobil > ol > li > .menu-mobil{
+        position: absolute;
+        list-style: none;
+        margin: 0;
+        padding: 2% 10% 2% 10%;
+        right: 0%;
+        width: 200%;
+        text-align: left;
+        background: #99cccc;
+        top: 2em;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+        font-size: 1.1em;
+        display: none;
+    }
+
+    .nav-bar > .container-header-mobil > ol > li > .menu-mobil > li{
+        padding: 3% 0;
+    }
+
+/* INDEX -BANNER INICIO */
+    #square-banner-index{
+        width: 100%;
+        position: relative;
+    }
+
+    #square-banner-index img{
+        width: 100%;
+    }
+
+    #square-banner-index > div{
+        width: 100%;
+        position: absolute;
+        top: 15em;
+        text-align: center;
+    }
+
+    #square-banner-index > div > i{
+        font-size: 3em;
+        color: #006666;
+        background: #ffffffa1;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    #square-banner-index > div > i:hover{
+        color: #999999;
+        transition: 0.3s;
+    }
+
+    #square-banner-index > div > img {
+        width: 35%;
+    }
+
+    #modulo-index-content > .bloque-1 > h1 {
+        width: 100%;
+        font-size: 4em;
+        font-weight: bold;
+        color: #CC6633;
+        font-family: 'Eight One', sans-serif;
+        letter-spacing: 0.5px;
+        position: relative;
+        text-align: center;
+        margin: 5% 0% 2% 0% ;
+    }
+
+    #modulo-index-content > .bloque-1 > p {
+        width: 100%;
+        text-align: center;
+        padding: 0% 10% 5% 10%;
+        font-size: 1.5em;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        color: #006666;
+    }
+
+/* QUIENES SOMOS - BLOQUE 1 */
+    #quienes-somos-content > .bloque-1{
+        width: 100%;
+        margin:0;
+        padding:0;
+    }
+
+    #quienes-somos-content > .bloque-1 > ul{
+        width: 100%;
+        margin:0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+    }
+
+    #quienes-somos-content > .bloque-1 > ul >li{
+        position: relative;
+        width: 50%;
+    }
+
+    #quienes-somos-content > .bloque-1 > ul > li > img{
+        width: 100%;
+        opacity: 0.7;
+    }
+
+    #quienes-somos-content > .bloque-1 > ul > li > div{
+        width: 80%;
+        position: absolute;
+        top: 40%;
+        right: 5%;
+        z-index: 10;
+        text-align: right;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        align-content: flex-end;
+    }
+
+    #quienes-somos-content > .bloque-1 > ul > li > div > h1{    
+        width: 100%;
+        font-size: 5em;
+        font-weight: bold;
+        color: #CC6633;
+        font-family: 'Eight One', sans-serif;
+        letter-spacing: 0.5px;
+        position: relative;
+        text-align: center;
+        margin-bottom: 5%;  
+    }
+
+    #quienes-somos-content > .bloque-1 > ul > li > div > h1 > img{
+        position: absolute;
+        top: -125%;
+        width: 35%;
+        left: -3%;
+        border-radius: 50%;
+        opacity: 0.5;
+        z-index: -1;
+    }
+
+    #quienes-somos-content > .bloque-1 > ul > li > div > p {
+        text-align: center;
+        padding: 1% 12% 0 12%;
+        font-size: 1.5em;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        color: #006666;
+    }
+
+    #quienes-somos-content > .bloque-1 > ul > li > div span {
+        font-family: 'Cocomat', sans-serif!important;
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+
+/* SANET - BLOQUE 1 */
+
+    #sanet-content > .bloque-1{
+        width: 100%;
+        margin:0;
+        padding:0;
+        position: relative;
+        margin-bottom: 10%;
+    }
+
+    #sanet-content > .bloque-1 > div{
+        position: absolute;
+        top: 25%;
+        left: 20%;
+        width: 60%;
+        padding: 2% 2% 2% 2%;
+        background: #fff;
+        z-index: 1;
+    }
+
+    #sanet-content > .bloque-1 > div > p{
+        width: 100%;
+        text-align: left;
+        font-size: 1.5em;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        color: #006666;
+        position: absolute;
+        top: 15%;
+        left: 0%;
+        padding: 0 2%;
+        margin: 0;
+    }
+
+    #sanet-content > .bloque-1 > div > p > a{
+        margin-right: 13%;
+    }
+
+    #sanet-content > .bloque-1 >div::before{
+        content: 'SANET';
+        background: #fff;
+        padding: 0% 4% 0% 4%;
+        font-size: 8em;
+        color: #CC6633;
+        font-family: 'Eight One', sans-serif;
+        letter-spacing: 0.5px;
+        font-weight: 100;
+        position: absolute;
+        top: -6%;
+        left: -20%;
+     }
+
+    #sanet-content > .bloque-1 > img{
+        width: 100%;
+        opacity: 0.7;
+    }
+
+/* NUESTRA EXPERIENCIA - BLOQUE 1 */
+    #nuestra-experiencia-content > .bloque-1{
+        width: 100%;
+        margin:0;
+        padding:0;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    #nuestra-experiencia-content > .bloque-1 > div{
+        width: 60%;
+        position: relative;
+    }
+
+    #nuestra-experiencia-content > .bloque-1 > div > img{
+        width: 100%;
+        opacity: 0.6;
+    }
+
+    #nuestra-experiencia-content > .bloque-1 > div::before{
+        content: 'sanet';
+        position: absolute;
+        left: 30%;
+        top: 0;
+        height: 100%;
+        background: #fff;
+        z-index: 1;
+        color: #0000;
+    }
+
+    #nuestra-experiencia-content > .bloque-1 > div::after{
+        content: 'sanet';
+        position: absolute;
+        right: 30%;
+        top: 0;
+        height: 100%;
+        background: #fff;
+        z-index: 1;
+        color: #0000;
+    }
+
+    #nuestra-experiencia-content > .bloque-1 > ul{
+        width: 40%;
+        margin:8% 0 0 0;
+        padding:0;
+        position: relative;
+        list-style: none;
+    }
+
+    #nuestra-experiencia-content > .bloque-1 > ul > li > h1{
+        font-size: 5em;
+        color: #CC6633;
+        font-family: 'Eight One', sans-serif;
+        letter-spacing: 0.5px;
+        font-weight: bold;
+        margin-left: -30%;
+    }
+
+    #nuestra-experiencia-content > .bloque-1 > ul > li > p{
+        text-align: left;
+        padding: 1% 45% 0 5%;
+        font-size: 1.5em;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        color: #006666;
+    }
+
+    #nuestra-experiencia-content > .bloque-1 > ul > img{
+        position: absolute;
+        width: 65%;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+        opacity: 0.5;
+    }
+
+/* MODULOS SIH */
+    
+    /* BLOQUE 1 */
+        #modulo-sih-content > .bloque-1{
+            width: 100%;
+            margin: 0%;
+            padding: 0%;
+            position: relative;
+        }
+
+        #modulo-sih-content > .bloque-1 > .video{
+            width: 50%;
+            position: absolute;
+            left: 5%;
+            top: 15%;
+            z-index: 1;
+        }
+
+        #modulo-sih-content > .bloque-1 > div{
+            width: 45%;
+            position: absolute;
+            right: 10%;
+            top: 25%;
+            background: #fff;
+            padding: 2% 2% 2% 2%;
+            z-index: 2;
+        }
+
+        #modulo-sih-content > .bloque-1 > div > h1 {
+            width: 100%;
+            font-size: 8em;
+            font-weight: bold;
+            color: #CC6633;
+            font-family: 'Eight One', sans-serif;
+            letter-spacing: 0.5px;
+            position: relative;
+            text-align: center;
+            margin: 0%; 
+        }
+
+        #modulo-sih-content > .bloque-1 > div > h1 > span {
+            font-family: 'Cocomat', sans-serif!important;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        #modulo-sih-content > .bloque-1 > div > p {
+            text-align: center;
+            padding: 0% 12% 0 12%;
+            font-size: 1.5em;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            color: #006666;
+            margin: 0;
+        }
+
+        #modulo-sih-content > .bloque-1 > div > p > span {
+            font-family: 'Eight One', sans-serif!important;
+            font-weight: bold!important;
+            font-size: 1.2em;
+            color: #c63;
+        }
+
+        #modulo-sih-content > .bloque-1 > div > p > i {
+            font-size: 2em;
+            color: #006666;
+            background: #ffffffa1;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        #modulo-sih-content > .bloque-1 > div > p > i:hover{
+            color: #999999;
+            transition: 0.3s;
+        }
+
+        #modulo-sih-content > .bloque-1 > img{
+            width: 100%;
+            opacity: 0.7;
+        }
+
+    /* BLOQUE 2 */
+
+        #modulo-sih-content > .bloque-2 {
+            width: 100%;
+            margin:0;
+            padding: 8% 0 2% 0;
+            position: relative;
+            background-position: center;
+            background-size: cover;
+        }
+
+        #modulo-sih-content > .bloque-2 > ul {
+            width: 80%;
+            list-style: none;
+            margin-left: 10%;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #modulo-sih-content > .bloque-2 > ul > li{
+            width: 25%;
+            background: #fff;
+            position: relative;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 0 0 25px 0;
+        }
+
+        #modulo-sih-content > .bloque-2 > ul > .modulos-clinicos{
+            width: 48%;
+        }
+
+        #modulo-sih-content > .bloque-2 > ul > .modulos-clinicos ul{
+            width: 100%;
+            margin: 0%;
+            padding: 0%;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #modulo-sih-content > .bloque-2 > ul > .modulos-clinicos ul > li{
+            width: 50%;
+        }
+
+        #modulo-sih-content > .bloque-2 > ul > li > span{
+            width: 150px;
+            height: 150px;
+            margin-top: -80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #99CCCC;
+            border-radius: 50%;
+            padding: 30px;
+        }
+        
+        #modulo-sih-content > .bloque-2 > ul > li > h2 {
+            width: 100%;
+            margin: 25px 0 20px 0;
+            padding: 0;
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #CC6633;
+            font-family: 'Eight One', sans-serif;
+            letter-spacing: 0.5px;
+            position: relative;
+            text-align: center;
+        }
+
+        #modulo-sih-content > .bloque-2 > ul > li  ol{
+            list-style: none;
+            width: 100%;
+            margin: 0%;
+            padding: 0%;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+
+        }
+
+        #modulo-sih-content > .bloque-2 > ul > li  ol > li{
+            text-align: left;    
+            padding: 0% 5% 0% 20%;
+            font-size: 1.5em;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            color: #006666;
+            margin: 0;
+            position: relative;
+            cursor: pointer;
+        }
+
+        #modulo-sih-content > .bloque-2 > ul > li  ol > li:hover{
+            transition: 0.3s;
+            color: #cc6633;
+        }
+
+        #modulo-sih-content > .bloque-2 > ul > li  ol > li > i {
+            position: absolute;
+            left: 10%;
+            top: 10%;
+        }
+
+        #modulo-sih-content > .bloque-2 > ul > li > span > img{
+            width: 90%;
+        }
+
+        #modulo-sih-content > .bloque-2 > img{
+            width: 100%;
+            opacity: 0.7;
+        }
+
+    /* BLOQUE 3 */
+
+        #modulo-sih-content > .bloque-3{
+            width: 100%;
+            margin: 0%;
+            padding: 0%;
+            position: relative;
+        }
+
+        #modulo-sih-content > .bloque-3 > div {
+            position: absolute;
+            width: 50%;
+            bottom: 10%;
+            right: 10%;
+            padding: 2%;
+            background:#fff;
+            z-index: 1;
+        }
+
+        #modulo-sih-content > .bloque-3 > div > h2 {
+            width: 100%;
+            font-size: 5em;
+            font-weight: bold;
+            color: #CC6633;
+            font-family: 'Eight One', sans-serif;
+            letter-spacing: 0.5px;
+            position: relative;
+            text-align: center;
+            margin: 0%;
+        }
+
+        #modulo-sih-content > .bloque-3 > div > p {
+            text-align: center;
+            padding: 0% 12% 0 12%;
+            font-size: 1.5em;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            color: #006666;
+            margin: 0;
+        }
+
+        #modulo-sih-content > .bloque-3 > video{
+            width: 100%;
+            opacity: 0.7;
+        }
+
+    /* BLOQUE 4 */
+
+        #modulo-sih-content > .bloque-4{
+            width: 100%;
+            margin: 0%;
+            padding: 0%;
+            position: relative;
+        }
+
+        #modulo-sih-content > .bloque-4 .content-slider {
+            position: relative;
+        }
+
+        #modulo-sih-content > .bloque-4 .content-slider > video{
+            opacity: 0.7;
+        }
+
+        #modulo-sih-content > .bloque-4 .content-slider > img{
+            opacity: 0.7;
+            width: 100%;
+        }
+
+        #modulo-sih-content > .bloque-4 .content-slider > div{
+            height: 80%;
+            position: absolute;
+            width: 82%;
+            top: 10%;
+            left: 9%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            z-index: 1;
+        }
+
+
+        /* ol */
+
+            #modulo-sih-content > .bloque-4 .content-slider > div > ol{
+                width: 50%;
+                margin: 0%;
+                padding: 0%;
+                list-style: none;
+                display: flex;
+            }
+
+            #modulo-sih-content > .bloque-4 .content-slider > div > ol > li {
+                width: 40em;
+                height: 40em;
+                border-radius: 50%;
+                background: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column
+            }
+
+            #modulo-sih-content > .bloque-4 .content-slider > div > ol > li > h2 {
+                width: 100%;
+                font-size: 5em;
+                font-weight: bold;
+                color: #CC6633;
+                font-family: 'Eight One', sans-serif;
+                letter-spacing: 0.5px;
+                text-align: center;
+                margin: 0% 0 2% 0;
+                line-height: 0.8em;
+            }
+
+            #modulo-sih-content > .bloque-4 .content-slider > div > ol > li > p {
+                text-align: center;
+                padding: 0% 12% 0% 12%;
+                font-size: 1.2em;
+                font-weight: 600;
+                letter-spacing: 0.5px;
+                color: #006666;
+                margin: 0;
+            }
+
+            #modulo-sih-content > .bloque-4 .content-slider > div > ol > li > p > span {
+                font-family: 'Eight One', sans-serif!important;
+                font-weight: bold!important;
+                font-size: 1.2em;
+                color: #c63;
+            }
+
+        /* ul */
+
+            #modulo-sih-content > .bloque-4 .content-slider > div > ul{
+                width: 50%;
+                margin: 0%;
+                padding: 0%;
+                list-style: none;
+                display: flex;
+                flex-direction: column-reverse;
+                align-items: flex-end;
+            }
+
+            #modulo-sih-content > .bloque-4 .content-slider > div > ul > li{
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                height: fit-content;
+                width: 80%;
+                margin: 0;
+                padding: 0;
+                position: relative;
+            }
+
+
+            #modulo-sih-content > .bloque-4 .content-slider > div > ul > li > ul{
+                background: #fff;
+                width: 100%;
+                margin: 0%;
+                padding: 2% 2% 3% 2%;
+                list-style: none;
+            }
+
+            #modulo-sih-content > .bloque-4 .content-slider > div > ul > li > ul > li{
+                text-align: left;
+                font-size: 1.2em;
+                font-weight: 600;
+                letter-spacing: 0.5px;
+                color: #006666;
+                margin: 0;
+                padding-left: 5%;
+            }
+
+            #modulo-sih-content > .bloque-4 .content-slider > div > ul > li > ul > li > h3{
+                font-size: 3em;
+                font-weight: bold;
+                color: #CC6633;
+                font-family: 'Eight One', sans-serif;
+                letter-spacing: 0.5px;
+                margin: 0;
+                padding: 0;
+            }
+
+/* CONTACTO */
+    #modulo-contact-content {
+        width: 100%;
+    }
+
+    #modulo-contact-content > .bloque-1 {
+        width: 100%;
+        margin: 0;
+        padding: 0% 0 0% 0 ;
+    }
+
+    /* ol */
+        #modulo-contact-content > .bloque-1 > ol{
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #modulo-contact-content > .bloque-1 > ol > li{
+            padding: 0.5% 1%;
+            width: 25%;
+            margin: 2.5% 2.5%;
+            text-align: center;
+            background: #cc6633;
+            color: #fff;
+            font-size: 2em;
+            font-weight: bold;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        #modulo-contact-content > .bloque-1 > ol > li > i{
+            transition: 0.3s;
+        }
+
+        #modulo-contact-content > .bloque-1 > ol > li:hover{
+            box-shadow: -4px 4px 1px 1px #999999;
+            transform:translateY(-15px);
+            
+        }
+
+        #modulo-contact-content > .bloque-1 > ol > li:hover i{
+            transform:translateX(15px);
+            transition: 0.3s;
+        }
+
+    /* ul */
+
+        #modulo-contact-content > .bloque-1 > ul {
+            width: 90%;
+            margin: 2.5% 5%;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        #modulo-contact-content > .bloque-1 > ul > li{
+            width: 30%;
+        }
+
+        #modulo-contact-content > .bloque-1 > ul > li > h2{
+           width: 100%;
+            font-size: 4em;
+            font-weight: bold;
+            color: #CC6633;
+            font-family: 'Eight One', sans-serif;
+            letter-spacing: 0.5px;
+            position: relative;
+            text-align: center;
+            margin: 5% 0 5% 0;
+        }
+
+        #modulo-contact-content > .bloque-1 > ul > li > p {
+            width: 100%;
+            text-align: center;
+            font-size: 1.5em;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            color: #006666;
+            padding: 0 0 5% 0;
+            margin: 0;
+            cursor: pointer;
+        }
+
+        #modulo-contact-content > .bloque-1 > ul > li > p a:hover {
+            color: #CC6633!important;
+        }
+
+        #modulo-contact-content > .bloque-1 > ul > li > p span{
+            font-family: 'century gothic';
+            font-weight: 100;
+        }
+
+/* MODALES */
+
+    #modales-content {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 999;
+        left: -100%;
+        transition: 0.5s;
+    }
+
+    .modal-active {
+        left: 0%!important;
+    }
+
+    #modales-content > .modal-sanet{
+        width: 100%;
+        position: relative;
+    }
+
+    #modales-content > .modal-sanet > span{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background: #1111116e;
+        top: 0;
+    }
+
+    #modales-content > .modal-sanet > div{
+        width: 70%;
+        background: #fff;
+        margin: 10% 0 10% 15%;
+        position: relative;
+        padding: 2%;
+        border-radius: 5px;
+    }
+
+    #modales-content > .modal-sanet > div > span{
+        color: #fff;
+        position: absolute;
+        top: -18px;
+        right: -15px;
+        width: 35px;
+        height: 35px;
+        background: #e65f1b;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2em;
+        cursor: pointer;
+    }
+
+    #modales-content > .modal-sanet > div > ol {
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+        list-style: none;
+    }
+
+    #modales-content > .modal-sanet > div > ol > li > h3 {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-size: 4em;
+        font-weight: bold;
+        color: #CC6633;
+        font-family: 'Eight One', sans-serif;
+        letter-spacing: 0.5px;
+        position: relative;
+    }
+
+    #modales-content > .modal-sanet > div > ol > li > p {
+        padding: 2% 2% 2% 2%;
+        font-size: 1.3em;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        color: #006666;
+        margin: 0;
+        position: relative;
+        width: 50%;
+    }
+
+    #modales-content > .modal-sanet > div > ol > li > p > a {
+        font-family: 'Eight One', sans-serif!important;
+        font-weight: bold!important;
+        font-size: 1.2em;
+        color: #c63;
+       }
+
+    #modales-content > .modal-sanet > div > ol > li > p > button{
+        background: #99CCCC;
+        border: none;
+        outline: none;
+        font-size: 1.4em;
+        font-weight: bold;
+        letter-spacing: 1px;
+        margin-top: 20px;
+        width: 50%;
+        color: #006666;
+        border-radius: 5px;
+        padding:1%;
+        transition: 0.1s;
+    }
+
+    #modales-content > .modal-sanet > div > ol > li > p > button > i{
+        transition: 0.2s;
+        color: #006666;
+    }
+
+    #modales-content > .modal-sanet > div > ol > li > p > button:hover{
+        box-shadow: -4px 4px 1px 1px #cc6633;
+        color: #cc6633;
+    }
+
+    #modales-content > .modal-sanet > div > ol > li > p > button:hover i{
+        color: #cc6633;
+        transform:translateX(10px);
+    }
+
+    #modales-content > .modal-sanet > div > ol > li > p > span {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: -100%;
+        background-size: cover;
+    }
+
+    #modales-content > .modal-sanet > div > ol > li > p > img {
+        width: 100%;
+        margin: 2% 0 3% 0;
+    }
+
+    /* FORMULARIO */
+        #modales-content > .modal-sanet > div > ol > li > form{
+            width: 100%;
+            margin: 0%;
+            padding: 0%;
+        }
+
+        #modales-content > .modal-sanet > div > ol > li > form > h3 {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            font-size: 4em;
+            font-weight: bold;
+            color: #CC6633;
+            font-family: 'Eight One', sans-serif;
+            letter-spacing: 0.5px;
+            position: relative;
+        }
+
+        #modales-content > .modal-sanet > div > ol > li > form > p {
+            padding: 1%;
+            font-size: 1.3em;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            color: #006666;
+            margin: 0;
+            position: relative;
+            width: 100%;
+        }
+
+        #modales-content > .modal-sanet > div > ol > li > form > ul{
+            display: flex;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+
+        #modales-content > .modal-sanet > div > ol > li > form > ul > li {
+            padding: 1%;
+            font-size: 1.3em;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            color: #006666;
+            margin: 0;
+            width: 50%;
+        }
+
+        #modales-content > .modal-sanet > div > ol > li > form > ul > li > input, textarea {
+            width: 100%;
+            padding: 5px 10px;
+            border: 2px solid #00666630;
+            border-radius: 3px;
+        }
+
+        #modales-content > .modal-sanet > div > ol > li > form > button{
+            padding: 0.5% 1%;
+            width: 30%;
+            margin: 3% 0% 0% 35%;
+            text-align: center;
+            background: #28a745;
+            color: #fff;
+            font-size: 2em;
+            font-weight: bold;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: 0.3s;
+            outline: none;
+            border: none;
+        }
+
+        #modales-content > .modal-sanet > div > ol > li > form > button:hover{
+            box-shadow: -4px 4px 1px 1px #999999;
+            transform:translateY(-15px);
+            
+        }
+
+
+    /**/
+
+    #modulo-contacto , .modulo-off{
+        display: none;
+    }
+
+/* PIE DE PAGINA */
+    .footer{
+        width: 100%;
+        background: #006666;
+        padding: 1%;
+        margin-top: 0%;
+        text-align: center;
+    }
+
+    .footer > p{ 
+        padding: 0;
+        margin: 0;
+        font-weight: bold;
+        font-size: 1em;
+        letter-spacing: 0.5px;
+        color: #ffffff9c;
+    }
+
+    .footer > p > span {
+        font-family: 'Eight One';
+    }
+
+    .footer > p > a {
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .footer > p > a:hover {
+        color: #CC6633!important;
+    }
+
+/* RESPOSIVE */
+@media(max-width: 1440px){
+
+    /*  */
+        #modulo-index-content > .bloque-1 > h1 {
+            font-size: 3em;
+        }
+
+        #modulo-index-content > .bloque-1 > p {
+            font-size: 1em;
+        }
+
+    /*QUIENES SOMOS - bloque 1*/
+        #quienes-somos-content > .bloque-1 > ul > li > div > h1 {
+            font-size: 4em;
+            margin-bottom: 2.5%;
+        }
+
+        #quienes-somos-content > .bloque-1 > ul > li > div > p {
+            font-size: 1em;
+            padding: 1% 10% 0 10%;
+        }
+
+    /* SANET - BLOQUE 1 */
+        #sanet-content > .bloque-1 > div{
+            top: 25%;
+        }
+
+        #sanet-content > .bloque-1 > div > p {
+            top: 10%;
+            left: 0%;
+            padding: 0 4%;
+            font-size: 1em;
+        }
+
+        #sanet-content > .bloque-1 > div > p > a{
+            margin-right: 15%;
+        }
+
+        #sanet-content > .bloque-1 >div::before {
+            font-size: 7em;
+            top: -20%;
+            left: -25%;
+        }
+
+    /* NUESTRA EXPERIENCIA - BLOQUE 1 */
+        #nuestra-experiencia-content > .bloque-1 > ul > li > h1 {
+            font-size: 4em;
+        }
+
+        #nuestra-experiencia-content > .bloque-1 > ul > li > p {
+            padding: 1% 25% 0 5%;
+            font-size: 1em;
+        }
+
+    /* MODULOS SIH */
+
+        /* BLOQUE 1 */
+
+            #modulo-sih-content > .bloque-1 > div > h1 {
+                font-size: 6em;
+            }
+
+            #modulo-sih-content > .bloque-1 > div > p {
+                padding: 0% 5% 0 5%;
+                font-size: 1em;
+            }
+
+        /* BLOQUE 2 */
+
+            #modulo-sih-content > .bloque-2 > ul {
+                width: 90%;
+                margin-left: 5%;
+            }
+
+            #modulo-sih-content > .bloque-2 > ul > li > h2 {
+                font-size: 2em;
+            }
+
+            #modulo-sih-content > .bloque-2 > ul > li ol > li { 
+                font-size: 1em;
+            }
+
+        /* BLOQUE 3 */
+
+            #modulo-sih-content > .bloque-3 > div > h2 {
+                font-size: 4em;
+            }
+
+            #modulo-sih-content > .bloque-3 > div > p {
+                font-size: 1em;
+            }
+
+        /* BLOQUE 4 */
+
+            #modulo-sih-content > .bloque-4 .content-slider > div > ol > li {
+                width: 30em;
+                height: 30em;
+            }
+
+            #modulo-sih-content > .bloque-4 .content-slider > div > ol > li > h2 {
+                font-size: 3.5em;
+            }
+
+            #modulo-sih-content > .bloque-4 .content-slider > div > ol > li > p {
+                font-size: 1em;
+            }
+
+            #modulo-sih-content > .bloque-4 .content-slider > div > ul > li > a {
+                top: -47px;
+                font-size: 3em;
+            }
+
+            #modulo-sih-content > .bloque-4 .content-slider > div > ul > li > ul >li {
+                font-size: 1em;
+            }
+
+    /* MODALES */ 
+
+        #modales-content > .modal-sanet > div {
+            margin: 5% 0 5% 15%;
+        }
+
+        #modales-content > .modal-sanet > div > ol > li > h3 {
+            font-size: 3em;
+        }
+
+        #modales-content > .modal-sanet > div > ol > li > p {
+            font-size: 1em;
+        }
+
+    /* CONTACTO */
+        #modulo-contact-content > .bloque-1 > ul > li > h2 {
+            font-size: 3em;
+        }
+
+        #modulo-contact-content > .bloque-1 > ul > li > p {
+            font-size: 1em;
+        }
+
+        /* FORM */
+            #modulo-contact-content > .bloque-1 > ol > li {
+                font-size: 1.5em;
+            }
+}
+
+@media(max-width: 1024px){
+    
+    /* NAV */
+        .nav-bar > .container-header > ul > li {
+            font-size: 0.9em;
+        }
+
+    /* QUIENES SOMOS -BLOQUE 1 */
+        #quienes-somos-content > .bloque-1 > ul > li > div > h1 {
+            font-size: 3em;
+            margin-bottom: 2%;
+        }
+
+        #quienes-somos-content > .bloque-1 > ul > li > div > p {
+            font-size: 1em;
+            padding: 1% 10% 0 10%;
+        }
+
+    /* SANET - BLOQUE 1 */
+        #sanet-content > .bloque-1 > div{
+            top: 25%;
+        }
+
+        #sanet-content > .bloque-1 > div > p {
+            top: 10%;
+            left: 0%;
+            padding: 0 4%;
+            font-size: 1em;
+        }
+
+        #sanet-content > .bloque-1 > div > p > a{
+            margin-right: 15%;
+        }
+
+        #sanet-content > .bloque-1 >div::before {
+            font-size: 5em;
+            top: -6%;
+            left: -22%;
+        }
+
+    /* NUESTRA EXPERIENCIA - BLOQUE 1 */
+        #nuestra-experiencia-content > .bloque-1 > ul > li > h1 {
+            font-size: 3em;
+        }
+
+        #nuestra-experiencia-content > .bloque-1 > ul > li > p {
+            padding: 1% 25% 0 5%;
+            font-size: 1em;
+        }
+
+    /* MODULOS SIH */
+
+        /* BLOQUE 1 */
+
+            #modulo-sih-content > .bloque-1 > div > h1 {
+                font-size: 5em;
+            }
+
+            #modulo-sih-content > .bloque-1 > div > p {
+                padding: 0% 10% 0 10%;
+                font-size: 1em;
+            }
+
+        /* BLOQUE 2 */
+
+            #modulo-sih-content > .bloque-2 {
+                padding: 13% 0 3% 0;
+            }
+
+            #modulo-sih-content > .bloque-2 > ul > li > h2 {
+                font-size: 1.5em;
+            }
+
+            #modulo-sih-content > .bloque-2 > ul > li ol > li { 
+                font-size: 1em;
+            }
+
+        /* BLOQUE 3 */
+
+            #modulo-sih-content > .bloque-3 > div > h2 {
+                font-size: 3em;
+            }
+
+            #modulo-sih-content > .bloque-3 > div > p {
+                font-size: 1em;
+            }
+
+        /* BLOQUE 4 */
+
+            #modulo-sih-content > .bloque-4 .content-slider > div > ol > li {
+                width: 25em;
+                height: 25em;
+            }
+
+            #modulo-sih-content > .bloque-4 .content-slider > div > ol > li > h2 {
+                font-size: 2.5em;
+            }
+
+            #modulo-sih-content > .bloque-4 .content-slider > div > ol > li > p {
+                font-size: 0.8em;
+            }
+
+            #modulo-sih-content > .bloque-4 .content-slider > div > ul > li > a {
+                top: -30px;
+                font-size: 2em;
+            }
+
+            #modulo-sih-content > .bloque-4 .content-slider > div > ul > li > ul >li {
+                font-size: 0.8em;
+            }
+
+    /* MODAL */
+
+        #modales-content > .modal-sanet > div {
+            margin: 7% 0 5% 15%;
+        }
+
+        #modales-content > .modal-sanet > div > ol > li > p > button {
+            width: 100%;
+        }
+
+    /* CONTACTO */
+
+        #modulo-contact-content > .bloque-1 > ul > li > h2 {
+            font-size: 2em;
+        }
+
+        #modulo-contact-content > .bloque-1 > ol > li {
+            width: 35%;
+        }
+}
+
+@media(max-width: 768px){
+
+    /* NAV */
+
+        .desktop-2{
+            display: none;
+        }
+
+        .mobil-2{
+            display: initial;
+        }
+
+        .nav-bar > .container-header{
+            display: none;
+        }
+
+        .nav-bar > .container-header-mobil{
+            display: block;
+            width: 100%;
+        } 
+
+        .nav-bar > .container-header-mobil > ol > li > img {
+            width: 30%;
+            margin-right: 70%;
+        }  
+
+    /* INDEX - BANNER INICIO */
+        #square-banner-index > div {
+            top: 10em;
+        }
+
+    /* QUIENES SOMOS- bloque 1 */
+        #quienes-somos-content > .bloque-1 > ul > li > div {
+            width: 90%;
+            top: 25%;
+        }
+
+        #quienes-somos-content > .bloque-1 > ul > li > div > h1 {
+            font-size: 2.3em;
+            margin-bottom: 1%;
+        }
+
+        #quienes-somos-content > .bloque-1 > ul > li > div > p {
+            font-size: 1em;
+            padding: 1% 5% 0 5%;
+            margin-bottom: 10%;
+        }
+
+    /* SANET - BLOQUE 1 */
+        #sanet-content > .bloque-1 > div{
+            top: 50%;
+            width: 80%;
+            left: 10%;
+            border: 2px solid #cc66334f;
+        }
+
+        #sanet-content > .bloque-1 > div > p {
+            top: 5%;
+        }
+
+        #sanet-content > .bloque-1 > div > p > a{
+            margin-right: 0%;
+        }
+
+        #sanet-content > .bloque-1 >div::before {
+            top: -39%;
+            left: 27%;
+        }
+
+    /* NUESTRA EXPERIENCIA - BLOQUE 1 */
+        #nuestra-experiencia-content > .bloque-1 {
+            flex-direction: column-reverse;
+        }
+
+        #nuestra-experiencia-content > .bloque-1 > div {
+            width: 100%;
+            margin-top: 5%;
+        }
+
+        #nuestra-experiencia-content > .bloque-1 > div::before {
+            font-size: 0.5em;
+        }
+
+        #nuestra-experiencia-content > .bloque-1 > div::after {
+            font-size: 0.5em;
+        }
+
+        #nuestra-experiencia-content > .bloque-1 > ul {
+            width: 100%;
+            margin: 15% 0 0 0;
+        }
+
+        #nuestra-experiencia-content > .bloque-1 > ul > li > h1 {
+            font-size: 2.3em;
+            margin-left: 5%;
+        }
+
+        #nuestra-experiencia-content > .bloque-1 > ul > li > p {
+            padding: 1% 10% 5% 5%;
+            font-size: 1em;
+        }
+
+        #nuestra-experiencia-content > .bloque-1 > ul > img {
+            width: 50%;
+            opacity: 0.3;
+        }
+
+    /* MODULOS SIH */
+
+        /* BLOQUE 1 */
+
+            #modulo-sih-content > .bloque-1 > div {
+                width: 60%;
+                right: 5%;
+                top: 30%;
+            }
+
+            #modulo-sih-content > .bloque-1 > img {
+                height: 500px;
+            }
+
+            #modulo-sih-content > .bloque-1 > div > h1 {
+                font-size: 4em;
+            }
+
+            #modulo-sih-content > .bloque-1 > div > p {
+                padding: 0% 5% 0 5%;
+                font-size: 1em;
+            }
+
+        /* BLOQUE 2 */
+
+            #modulo-sih-content > .bloque-2 {
+                padding: 15% 0 3% 0;
+            }
+
+            #modulo-sih-content > .bloque-2 > ul {
+                justify-content: flex-start;
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-items: center;
+            }
+
+            #modulo-sih-content > .bloque-2 > ul > .modulos-clinicos {
+                width: 90%;
+                margin: 15% 0%;
+            }
+
+            #modulo-sih-content > .bloque-2 > ul > li {
+                width: 50%;
+            }
+
+
+            #modulo-sih-content > .bloque-2 > ul > li > h2 {
+                font-size: 2em;
+            }
+
+        /* BLOQUE 3 */
+
+            #modulo-sih-content > .bloque-3 > div > h2 {
+                font-size: 2.5em;
+                margin-bottom: 2%;
+            }
+
+            #modulo-sih-content > .bloque-3 > div {
+                width: 80%;
+            }
+
+        /* BLOQUE 4 */
+
+            #modulo-sih-content > .bloque-4 .content-slider > div > ol > li {
+                width: 100%;
+                height: 100%;
+                border-radius: 0%;
+            }
+
+            #modulo-sih-content > .bloque-4 .content-slider > div > ol > li > h2 {
+                font-size: 2em;
+            }
+
+            #modulo-sih-content > .bloque-4 .content-slider > div > ol > li > p {
+                padding: 0% 5% 0% 5%;
+            }
+
+            #modulo-sih-content > .bloque-4 .content-slider > div > ul > li {
+                width: 95%;
+            }
+
+            #modulo-sih-content > .bloque-4 .content-slider > div > ul > li > a {
+                font-size: 1.5em;
+                left: 0;
+            }
+
+            #modulo-sih-content > .bloque-4 .content-slider > div > ul > li > ul >li {
+                padding-left: 3%;
+            }
+
+    /* MODAL */
+        #modales-content > .modal-sanet > div {
+            margin: 5% 0 5% 5%;
+            width: 90%;
+        }
+
+        #modales-content > .modal-sanet > div > ol > li > p {
+            width: 100%;
+        }
+
+    /* CONTACTO */
+
+        #modulo-contact-content > .bloque-1 > ul {  
+            flex-direction: column-reverse;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        #modulo-contact-content > .bloque-1 > ul > li{  
+            width: 100%;
+        }
+
+        #modulo-contact-content > .bloque-1 > ul > li > h2 {
+            font-size: 2.3em;
+        }
+
+        /* BUTTONS */
+            #modulo-contact-content > .bloque-1 > ol > li {
+                width: 45%;
+            }
+
+}
+
+@media(max-width: 425px){
+    
+    /* INDEX */
+        #modulo-index-content > .bloque-1 > h1 {
+            font-size: 2em;
+        }
+
+    /* NAV BAR MOBIL */
+        .desktop{
+            display: none;
+        }
+
+        .mobil{
+            display: initial;
+        }
+
+        #square-banner-index > div > img {
+            width: 100%;
+            padding: 10% 0%;
+            background: #ffffffb8;
+        }
+
+        #square-banner-index > div > i {
+            margin-top: -10%;
+        }
+
+        .nav-bar > .container-header-mobil > ol > li > img {
+            width: 70%;
+            margin-right: 30%;
+        }
+    
+    /* QUIENES SOMOS - BLOQUE 1 */
+        #quienes-somos-content > .bloque-1 > ul {
+            flex-direction: column;
+            flex-wrap: wrap;
+            margin-top: 20%;
+        }
+
+        #quienes-somos-content > .bloque-1 > ul >li {
+            width: 100%;
+        }
+
+        #quienes-somos-content > .bloque-1 > ul > li > div {
+            width: 100%;
+            position: initial;
+        }
+
+        #quienes-somos-content > .bloque-1 > ul > li > div > h1 > img {
+            display: none;  
+        }
+
+    /* QUIENES SOMOS - BLOQUE 2*/
+
+        #quienes-somos-content > .bloque-2 > h2{    
+            font-size: 2em; 
+            margin: 10% 0% 5% 0%;
+        }
+
+        #quienes-somos-content > .bloque-2 >  p {
+            font-size: 1em;
+            padding: 1% 5% 0 5%;
+        }
+
+        #quienes-somos-content > .bloque-2 > img {
+            width: 80%;
+            margin: 0% 10%;
+        }
+
+    /* SANET - BLOQUE 1 */
+
+        #sanet-content > .bloque-1 > div {
+            top: 29%;
+            width: 90%;
+            left: 5%;
+        }
+
+        #sanet-content > .bloque-1 >div::before {
+            top: -30%;
+            left: 17%;
+        }
+
+    /* NUESTRA EXPERIENCIA - BLOQUE 1 */
+        #nuestra-experiencia-content > .bloque-1 > ul {
+            margin: 22% 0 0 0;
+        }
+
+    /* MODULOS SIH */
+
+        /* BLOQUE 1 */
+
+            #modulo-sih-content > .bloque-1 > img {
+                display: none;
+            }
+
+            #modulo-sih-content > .bloque-1 > div {
+                width: 90%;
+                position: unset;
+                margin: 20% 0 5% 5%;
+            }
+
+
+            #modulo-sih-content > .bloque-1 > .video {
+                display: none;
+            }
+
+            #modulo-sih-content > .bloque-1 > div > h1 {
+                font-size: 2.3em;
+                margin-bottom: 5%;
+            }
+
+            #modulo-sih-content > .bloque-1 > div > p {
+                padding: 0% 0% 0% 0%;
+                font-size: 1em;
+            }
+
+        /* BLOQUE 2 */
+
+            #modulo-sih-content > .bloque-2 {
+                padding: 25% 0 3% 0;
+            }
+
+            #modulo-sih-content > .bloque-2 > ul > .modulos-clinicos {
+                margin: 30% 0%;
+            }
+
+            #modulo-sih-content > .bloque-2 > ul > .modulos-clinicos ul {
+                flex-wrap: wrap;
+                flex-direction: column;
+            }
+
+            #modulo-sih-content > .bloque-2 > ul > .modulos-clinicos ul > li {
+                width: 100%;
+            }
+
+            #modulo-sih-content > .bloque-2 > ul > li {
+                width: 90%;
+            }
+
+        /* BLOQUE 3 */
+            #modulo-sih-content > .bloque-3 > div{
+                position: unset;
+                margin: 10% 0 5% 10%;
+            }
+
+            #modulo-sih-content > .bloque-3 > div > h2 {
+                font-size: 2em;
+                margin-bottom: 5%;
+            }
+
+            #modulo-sih-content > .bloque-3 > div > p {
+                padding: 0;
+            }
+
+        /* BLOQUE 4*/
+
+            #modulo-sih-content > .bloque-4 .content-slider {
+                height: 800px;
+            }
+
+            #modulo-sih-content > .bloque-4 .content-slider > img {
+                width: unset;
+                height:100%;
+            }
+
+            #modulo-sih-content > .bloque-4 .content-slider > div {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            #modulo-sih-content > .bloque-4 .content-slider > div > ol {
+                width: 90%;
+                margin-bottom: 10%;
+            }
+
+            #modulo-sih-content > .bloque-4 .content-slider > div > ul {
+                width: 90%;
+            }
+
+            #modulo-sih-content > .bloque-4 .content-slider > div > ul > li {
+                width: 100%;
+            }
+
+            #modulo-sih-content > .bloque-4 .content-slider > div > ol > li > h2 {
+                font-size: 2em;
+                padding: 5% 0 2% 0;
+            }
+
+            #modulo-sih-content > .bloque-4 .content-slider > div > ol > li > p {
+                padding: 0% 5% 5% 5%;
+            }
+
+    /*CONTACTO */
+
+        #modulo-contact-content > .bloque-1 > ol {
+            flex-direction: column;
+            margin-top: 20%;
+        }
+
+        #modulo-contact-content > .bloque-1 > ol > li {
+            width: 80%;
+            padding: 2%;
+            font-size: 1.3em;
+        }
+
+    /**/
+
+        #modales-content > .modal-sanet > div > ol > li > h3 {
+            font-size: 2em;     
+        }
+
+        #modales-content > .modal-sanet > div > ol > li > form > h3 {
+            font-size: 2em;
+        }
+
+        #modales-content > .modal-sanet > div > ol > li > form > p {
+            font-size: 1em;
+        }
+
+        #modales-content > .modal-sanet > div > ol > li > form > ul > li {
+            font-size: 1em;
+            width: 100%;
+        }
+
+        #modales-content > .modal-sanet > div > ol > li > form > button {
+            padding: 3% 1%;
+            width: 50%;
+            margin: 3% 0% 0% 25%;
+            font-size: 1.5em;
+        }
+}
+
+@media (max-width: 375px){
+
+    /* SANET - BLOQUE 1 */
+        #sanet-content > .bloque-1 > div {
+            padding: 5% 2% 5% 2%;
+        }
+
+        #sanet-content > .bloque-1 > div > p {
+            top: 2%;
+        }
+
+        #sanet-content > .bloque-1 >div::before {
+            top: -25%;
+            left: 13%;
+        }
+}
+
+@media (max-width: 375px){
+
+    /* SANET - BLOQUE 1 */
+        #sanet-content > .bloque-1 {
+            margin-bottom: 65%;
+        }
+
+        #sanet-content > .bloque-1 >div::before {
+            top: -17%;
+            left: 15%;
+            font-size: 4em;
+        }
+
+     /* MODULOS SIH */
+
+        /* BLOQUE 2 */
+
+            #modulo-sih-content > .bloque-2 {
+                padding: 35% 0 3% 0;
+            }
+}
+

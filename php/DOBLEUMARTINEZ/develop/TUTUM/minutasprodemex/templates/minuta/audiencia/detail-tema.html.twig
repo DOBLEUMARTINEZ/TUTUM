@@ -1,0 +1,104 @@
+{% extends 'layout/layoutBase.html.twig' %}
+
+{% block tituloPagina %} 
+	{{title}}
+{% endblock %}
+
+{% block contenido %}
+
+	<br><br><br><br>
+
+	<div id="data-table-v1">
+
+		<table>
+			<tr>
+				<th colspan="2" width="100%;">Tema: {{ Tema.id }} | {{ Tema.titulo }}</th>
+			</tr>
+			<tr>
+				<td width="20%" >Titulo</td>
+				<td width="80%" >{{ Tema.titulo }}</td>
+			</tr>
+			<tr>
+				<td width="20%" >Compromiso inicio</td>
+				<td width="80%" >{{ Tema.compromisoinicio|date('Y-m-d') }}</td>
+			</tr>
+			<tr>
+				<td width="20%" >Compromiso Fin</td>
+				<td width="80%" >{{ Tema.compromisofin|date('Y-m-d') }}</td>
+			</tr>
+			<tr>
+				<td width="20%" >Requeriemeinto</td>
+				<td width="80%" >{{ Tema.requerimiento|raw }}</td>
+			</tr>
+			<tr>
+				<td width="20%" >linea guia</td>
+				<td width="80%" >{{ Tema.lineaguia|raw }}</td>
+			</tr>
+			<tr>
+				<td width="20%" >Compromiso acción</td>
+				<td width="80%" >{{ Tema.compromisoaccion|raw }}</td>
+			</tr>
+			<tr>
+				<td width="20%" >Compromiso</td>
+				<td width="80%" >{{ Tema.compromiso|raw }}</td>
+			</tr>
+			<tr>
+				<td width="20%" >Observación</td>
+				<td width="80%" >{{ Tema.compromiso|raw }}</td>
+			</tr>
+
+			<!-- ESTATUS  -->
+			<tr>
+				<td width="20%" >Estatus</td>
+				{% for Estatus in CatEstatus %}
+					{% if Estatus.id == Tema.idestatus %}
+						<td style="background:{{ Estatus.color }};">
+							{{ Estatus.nombre }}
+						</td>
+					{% endif %}
+				{% endfor %}
+			</tr>
+
+			<tr>
+				<td width="20%" >Minuta</td>
+				<td width="80%" >{{ Tema.idreunion }}</td>
+			</tr>
+
+			<!-- CATEGORIA  -->
+			<tr>
+				<td width="20%" >Categoria</td>
+				{% for Categoria in CatCategorias %}
+					{% if Tema.idcategoria == Categoria.id %}
+						<td style="background:{{ Categoria.color }};" >{{ Categoria.nombre }}</td>
+					{% endif %}
+				{% endfor %}
+			</tr>
+
+			<tr>
+				<td width="20%" >Ultimo tema ingresado</td>
+				<td width="80%" >{{ Tema.ultimotemaingresado }}</td>
+			</tr>
+			<tr>
+				<td width="20%" >Ultima modificación</td>
+				<td width="80%" >{{ Tema.ultimomodificacion|date('Y-m-d') }}</td>
+			</tr>
+			<tr>
+				<td width="20%" >Ultima modificación</td>
+				<td width="80%" >{{ Tema.parent|date('Y-m-d') }}</td>
+			</tr>
+
+			<tr>
+				<td width="20%" >Ultimo root</td>
+				<td width="80%" >{{ Tema.ultimoroot }}</td>
+			</tr>
+
+			<tr>
+				<td width="20%" >Bloque</td>
+				<td width="80%" >{{ Tema.bloque }}</td>
+			</tr>
+
+		</table>
+
+	</div>
+
+{% endblock %}
