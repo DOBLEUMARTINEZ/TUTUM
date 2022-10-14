@@ -1,4 +1,17 @@
 
+
+function modalInfo($a){
+
+    $(".content-modal").addClass("content-modal-active");
+    $(".modal").addClass("modal-active");
+
+    var a = $a;
+
+    $("#modal-"+a).addClass("active-modal-info");
+
+}
+
+
 function modalCliente($a){
   //alert('modal cliente'+$a);
   $(".content-modal").addClass("content-modal-active");
@@ -9,6 +22,7 @@ function modalCliente($a){
 function closeModal(){
   $(".content-modal").removeClass("content-modal-active");
   $(".modal").removeClass("modal-active");
+  $(".modal-wm").removeClass("active-modal-info");
 }
 
 

@@ -11,7 +11,7 @@
 		</li>
 	</ul>
 	<ul style="justify-content: flex-end;">
-		<li onclick="window.location.href='https://api.whatsapp.com/send?phone=+525541422177&text=Me%20interesa%20conocer%20mas%20a%20detalle%20los%20servicios';" >
+		<li onclick="window.location.href='https://www.behance.net/salvadorat0ed4/projects';" >
 			<i class="fab fa-behance"></i>
 		</li>
 		<li onclick="window.location.href='https://api.whatsapp.com/send?phone=+525541422177&text=Me%20interesa%20conocer%20mas%20a%20detalle%20los%20servicios';" >
@@ -24,7 +24,7 @@
 </div>
 
 <nav class="header">
-	<div onclick="window.location.href='https://dobleumartinez.com/';" >DOBLEU MARTINEZ</div>
+	<div onclick="window.location.href='./';" >DOBLEU MARTINEZ</div>
 	<ul>
 		<li>
 			<button onclick="window.location.href='https://api.whatsapp.com/send?phone=+525541422177&text=Me%20interesa%20conocer%20mas%20a%20detalle%20los%20servicios';" >

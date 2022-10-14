@@ -7,6 +7,18 @@ body{
 	font-family: 'Roboto', sans-serif;
 }
 
+/**  desktop mobil  **/
+ .desktop{
+    display: unset;
+ }
+
+ .tablet{
+    display: none;
+ }
+
+ .mobil{
+    display: none;
+ }
 /** EFECTOS DE TEXTO  **/
     .ml11 {
       font-weight: 700;
@@ -118,7 +130,7 @@ body{
         font-weight: bold;
         background: #ffd400eb;
         font-size: 1.4em;
-        padding: 5px 10px;
+        padding: 10px 30px;
         margin: 0px;
         border: none;
         width: 100%;
@@ -180,23 +192,44 @@ body{
 
 /**/
     .slider{
-    	background-image: url(../images/banners/banner-1.jpg);
-        background-position: center;
-        background-size: cover;
-        height: 550px;
-        padding: 5%;
+        width: 100%;
+        position: relative;
     }
 
-    .slider > h1{
-    	width: 100%;
+    .slider > span {
+        background: #000;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        opacity: 0.7;
+    }
+
+    .slider > img{
+        width: 100%;
+    }
+
+    .slider > div {
+        width: 90%;
+        left: 5%;
+        top: 25%;
+        position: absolute;
+        z-index: 2;
+    }
+
+    .slider > div > h1{
+    	width: 70%;
         font-family: 'Poppins', sans-serif;
         font-size: 3em;
         margin: 0;
         padding: 0;
         color: #fff;
+
     }
 
-    .slider > p{
+    .slider > div > p{
     	width: 100%;
     	font-family: 'Poppins', sans-serif;
     	font-size: 2em;
@@ -205,24 +238,37 @@ body{
         color: #fff;
     }
 
-    .slider button{
+    .slider > div > button{
     	font-family: 'Poppins', sans-serif;
         font-weight: bold;
         background: #ecc401;
         border: none;
-        font-size: 1.5em;
-        padding: 5px 15px;
+        font-size: 1.7em;
+        padding: 10px 20px;
         cursor: pointer;
         color: #111;
         letter-spacing: 1px;
-        transition: 0.4s;
+        transition: 0.3s;
         border-radius: 3px;
+        box-shadow: -9px 9px -1px 1px #ecc401;
     }
 
-    .slider button:hover{
+    .slider > div > button > i{
+        transition: 0.3s;
+        color: #111;
+    }
+
+    .slider > div > button:hover{
         background: #111;
         color: #fff;
-        transition: 0.4s;
+        transition: 0.3s;
+        box-shadow: -9px 9px 1px 1px #ecc401;
+    }
+
+    .slider > div > button:hover > i{
+        transition: 0.3s;
+        color: #ecc401;
+        transform: translateX(5px);
     }
 
 /**/
@@ -231,11 +277,11 @@ body{
     	width: 100%;
     	margin: 0%;
     	padding: 0% 0%;
-        background-image: url(../images/backgroun-texture-01.png);
+        background-image: url(../images/backgroun-texture-02.png);
         background-size: contain;
     }
 
-/***/
+/* CONTENEDOR 01 */
 
     .content-01{
     	width: 90%;
@@ -253,7 +299,7 @@ body{
 
     .content-01>div>h2{
     	font-family: 'Poppins', sans-serif;
-        font-size: 3.1em;
+        font-size: 3.5em;
         margin: 0;
         padding: 0;
         line-height: 55px;
@@ -276,6 +322,12 @@ body{
         color: #fff;
         padding: 20px!important;
         margin-bottom: 18px!important;
+        transition: 0.3s;
+    }
+
+    .p-black:hover{
+        transform: translateX(10px);
+        transition: 0.3s;
     }
 
     .content-01>div>img{
@@ -306,13 +358,13 @@ body{
         top: 0;
         left: 0;
         z-index: 0;
-        opacity: .3;
+        opacity: .5;
     }
 
     .content-02>div{
     	width: 100%;
     	margin: 0;
-    	padding: 2% 5%;
+    	padding: 3% 5%;
     	text-align: center;
     	z-index: 1;
     }
@@ -322,7 +374,7 @@ body{
     	font-family: 'Poppins', sans-serif;
     	color: #fff;
         font-size: 2.1em;
-        margin: 0;
+        margin: 0% 0 2% 0;
         padding: 0% 0%;
         line-height: 50px;
     }
@@ -332,21 +384,21 @@ body{
         font-weight: bold;
         background: #ecc401;
         border: none;
-        font-size: 1.5em;
-        padding: 5px 15px;
-        margin-top: 15px;
+        font-size: 1.7em;
+        padding: 10px 20px;
         cursor: pointer;
         color: #111;
         letter-spacing: 1px;
-        transition: 0.4s;
+        transition: 0.3s;
         border-radius: 3px;
+
     }
 
-    .content-02>div>button:hover{
+    .content-02>div> button:hover{
         background: #111;
         color: #fff;
-        transition: 0.4s;
-
+        transition: 0.3s;
+        box-shadow: 0px 1px 1px 5px #ecc401;
     }
 /**/
     .content-03{
@@ -392,6 +444,11 @@ body{
         cursor: pointer;
         transition: 0.3s;
         transform: translateY(0px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        align-content: center;
     }
 
     .content-03>ul>li:hover{
@@ -402,8 +459,7 @@ body{
     }
 
     .content-03>ul>li>img{
-    	width: 50%;
-        width: 45%;
+    	width: 30%;
         padding: 5%;
     }
 
@@ -417,7 +473,7 @@ body{
         font-family: 'Poppins', sans-serif;
         font-weight: bold;
         font-size: 0.9em;
-        padding: 5% 0%;
+        padding: 5% 10%;
         color: #111111bf;
         margin: 0%;
     }
@@ -428,14 +484,20 @@ body{
         background: #ecc401;
         border: none;
         font-size: 1.2em;
-        padding: 5px 15px;
+        padding: 5px;
         margin-top: 5px;
         cursor: pointer;
         color: #111;
         letter-spacing: 1px;
         transition: 0.4s;
         border-radius: 3px;
+        margin-bottom: 4%;
     }
+
+     .content-03 button:hover{
+        background: #111;
+        color: #ecc401;
+     }
 
 /**/
 
@@ -635,9 +697,10 @@ body{
         position: fixed;
         width: 100%;
         top: 0;
+        left: -100%;
         height: 100%;
         background: #111111a8;
-        z-index: -99;
+        z-index: 0;
         opacity: 0;
         justify-content: center;
         align-items: center;
@@ -645,8 +708,9 @@ body{
     }
 
     .content-modal-active{
-        z-index: 99;
+        z-index: 5;
         opacity: 1;
+        left: 0;
         transition: 0.3s;
     }
 
@@ -657,16 +721,27 @@ body{
         border-radius: 5px;
         transition: 0.3s;
         opacity: 0;
-        padding: 1em;
+        padding: 2%;
     }
 
     .modal > span{
         position: absolute;
-        right: 0.8em;
-        top: 0.5em;
-        font-size: 1.5em;
-        color: #ff1212;
+        right: -16px;
+        top: -16px;
+        font-size: 1.6em;
+        color: #ecc401;
         cursor: pointer;
+        background: #111;
+        width: 30px;
+        height: 30px;
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .modal > span:hover{
+        color: #ff0000;
     }
 
 
@@ -675,17 +750,72 @@ body{
     }
 
     .modal >div>h3{
-        margin: 0;
-        padding: 0;
-        font-size: 1.3em;
-        padding-bottom: 5px;
-        margin-bottom: 5px;
-        border-bottom: 2px solid #0000002e;
+        text-align: left;
+        font-family: 'Poppins', sans-serif;
+        color: #111;
+        font-size: 2.1em;
+        margin: 0 0 10px 0 ;
+        padding: 0% 0%;
+        line-height: 50px;
     }
 
-    .modal >div>img{
+    .modal >div>h3>span {
+        color: #ffd400eb;
+    }
+
+    .modal >div>ul{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .modal >div>ul>li{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .modal >div>ul>li>img{
+        width: 50%;
+    }
+
+    .modal >div>ul>li>p{
+        font-size: 1.3em;
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .modal >div>ul>li>button{
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        background: #ecc401;
+        border: none;
+        font-size: 1.2em;
+        padding: 8px 20px;
+        margin-top: 20px;
+        cursor: pointer;
+        color: #111;
+        letter-spacing: 1px;
+        transition: 0.4s;
+        border-radius: 3px;
+        /* margin-bottom: 0%; */
         width: 100%;
     }
+
+     .modal >div>ul>li> button:hover{
+        background: #111;
+        color: #ecc401;
+     }
 
     .modal-active{
         transition: 0.3s;
@@ -697,7 +827,85 @@ body{
     }
 
 /* MEDIAS QUERY */
+
+@media(max-width: 1440px){
+
+    /* SLIDER - INICIO */
+        .slider > div {
+            width: 90%;
+            left: 5%;
+            top: 10%;
+            position: absolute;
+            z-index: 2;
+        }
+
+        .slider > div > h1 {
+            width: 100%;
+        }
+
+        .slider > div > p {
+            font-size: 1.5em;
+        }
+
+    /* */
+    .content-03 button {
+        font-size: 1em;
+    }
+
+}
+
+@media(max-width: 1290px){
+    .modal {
+        width: 73%;
+    }
+}
+
+@media(max-width: 1024px){
+    .content-01 {
+        padding: 5%;
+    }
+
+    .content-01>div>h2 {
+        font-size: 2.5em;
+    }
+
+    .content-03>ul>li {
+        width: 22%;
+    }
+
+    .content-03>ul>li>p {
+        padding: 5% 5%;
+    }
+
+    /* SLIDER - INICIO */
+        .slider > div > h1 {
+            font-size: 2.5em;
+           
+        }
+
+    /**/
+
+    .modal >div>ul>li>p {
+        font-size: 1em;
+    }
+
+    /**/
+    .footer ul>li {
+        width: 30%;
+    }
+
+    
+}
+
 @media(max-width: 768px){
+
+    /**  desktop mobil  **/
+     .desktop{
+        display: none;
+     }
+     .tablet{
+        display: unset;
+     }
 
     /**/
     .header-00 ul>li {
@@ -718,10 +926,6 @@ body{
         width: 50%;
     }
 
-    /**/
-    .slider {
-        padding: 25% 5%;
-    }
     /**/
 
     .content-01 {
@@ -747,6 +951,10 @@ body{
         margin: 0 0 5% 0;
     }
 
+    .content-03 button {
+        width: 90%;
+    }
+
     /**/
     .carousel li{
         flex-wrap: wrap;
@@ -766,9 +974,24 @@ body{
         width: 30%;
     }
 
+    /**/
+        .modal {
+            width: 80%;
+        }
+
 }
 
 @media( max-width: 425px ){
+
+    /**  desktop mobil  **/
+     .tablet{
+        display: none;
+     }
+     .mobil{
+        display: unset;
+     }
+
+
     /**/
     .header-00 ul>li>i {
         font-size: 0.8em;
@@ -793,21 +1016,22 @@ body{
     }
 
     /**/
-    .slider {
-        padding: 20% 5%;
-    }
+        .slider > div > h1 {
+            font-size: 2em;
+        }
 
-    .slider > h1 {
-        font-size: 2.3em;
-    }
+        .slider > div > p {
+            font-size: 1.3em;
+        }
 
-    .slider > p {
-        font-size: 1.2em;
-    }
-
+        .slider > div > button {
+            font-size: 1.5em;
+        }
+ 
     /**/
     .content-01>div>h2 {
-        font-size: 2.5em;
+        font-size: 2.3em;
+        line-height: 1em;
     }
 
     .content-02>div {
@@ -848,6 +1072,24 @@ body{
 
     .footer ul>li {
         width: 90%;
+    }
+
+    /*  */
+
+    .modal {
+        padding: 2% 2% 3% 2%;
+    }
+
+    .modal >div>ul {
+        flex-direction: column;
+    }
+
+    .modal >div>ul>li {
+        width: 90%;
+    }
+
+    .modal >div>ul>li>button {
+        margin-bottom: 15px;
     }
 
 }

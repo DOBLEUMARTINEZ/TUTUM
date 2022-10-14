@@ -8,9 +8,23 @@
 
 		include('resources/includes/nav.php'); // navbar
 
-		include('resources/includes/slider.php'); // slider
+		if (isset($_GET['seccion'])) {
+			switch ($_GET['seccion']) {
+				case 'musica':
+					# code...
+					break;
 
-		include('resources/includes/desarrollo-web.php'); // contenido de la pagina
+				case 'desarrollo-web':
+					include('resources/includes/desarrollo-web/desarrollo-web.php'); 
+					break;
+				
+				default:
+					include('resources/includes/error-404.php'); // error-404
+					break;
+			}
+		}else{
+			include('resources/includes/inicio.php'); // contenido del index
+ 		}
 
 		include('resources/includes/footer.php'); // footer
 
