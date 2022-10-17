@@ -104,16 +104,37 @@
 		</div>
 
 		<div id="modal-Formulario" class="modal-wm">
-			<h3><span>| </span>Déjanos tus datos y te llamaremos</h3>
+			<h3><span>| </span>Déjanos tus datos y te contactaremos</h3>
 			<form>
-				<label>nombre</label>
-				<input type="text" name="nombre">
-				<label>nombre</label>
-				<input type="text" name="nombre">
-				<label>nombre</label>
-				<input type="text" name="nombre">
-				<label>nombre</label>
-				<input type="text" name="nombre">
+				<ul>
+					<li>
+						<label>Nombre</label>
+						<input type="text" name="Nombre">
+					</li>
+					<li>
+						<label>Teléfono</label>
+						<input type="tel" name="Teléfono">
+					</li>
+					<li>
+						<label>Email</label>
+						<input type="email" name="Email">
+					</li>
+					<li>
+						<label>Soluciones</label>
+						<select name="servicios">
+							<option value="Landig Page">Landig Page</option>
+							<option value="Página Web">Página Web</option>
+							<option value="Sitio Web">Sitio Web</option>
+							<option value="Desarrollos Especiales">Desarrollos Especiales</option>
+						</select>
+					</li>
+					<li style="width: 98%">
+						<textarea placeholder="Escribenos" ></textarea>
+					</li>
+					<li>
+						<button >Empezar ahora  <i class="fas fa-angle-double-right"></i></button>
+					</li>
+				</ul>
 			</form>
 		</div>
 		

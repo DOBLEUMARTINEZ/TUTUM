@@ -2,11 +2,11 @@
 	
 	echo "<!DOCTYPE html><html>";
 
-	include('resources/includes/head.php'); // head
+	include('resources/includes/principal/head.php'); // head
 
 	echo "<body>";
 
-		include('resources/includes/nav.php'); // navbar
+		include('resources/includes/principal/nav.php'); // navbar
 
 		if (isset($_GET['seccion'])) {
 			switch ($_GET['seccion']) {
@@ -17,16 +17,20 @@
 				case 'desarrollo-web':
 					include('resources/includes/desarrollo-web/desarrollo-web.php'); 
 					break;
+
+				case 'gracias':
+					include('resources/includes/notice/gracias-wm.php'); // error-404
+					break;
 				
 				default:
-					include('resources/includes/error-404.php'); // error-404
+					include('resources/includes/notice/error-404.php'); // error-404
 					break;
 			}
 		}else{
-			include('resources/includes/inicio.php'); // contenido del index
+			include('resources/includes/principal/inicio.php'); // contenido del index
  		}
 
-		include('resources/includes/footer.php'); // footer
+		include('resources/includes/principal/footer.php'); // footer
 
 	echo "</body></html>";
 

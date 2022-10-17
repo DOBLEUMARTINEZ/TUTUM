@@ -8,17 +8,18 @@ body{
 }
 
 /**  desktop mobil  **/
- .desktop{
-    display: unset;
- }
+    .desktop{
+        display: unset;
+    }
 
- .tablet{
-    display: none;
- }
+    .tablet{
+        display: none;
+    }
 
- .mobil{
-    display: none;
- }
+    .mobil{
+        display: none;
+    }
+
 /** EFECTOS DE TEXTO  **/
     .ml11 {
       font-weight: 700;
@@ -690,6 +691,130 @@ body{
         color:#fff;
     }
 
+/*  */
+    .thank-you {
+        width: 80%;
+        padding: 5% 10%;
+    }
+
+    .thank-you > h1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 3.5em;
+        margin: 0;
+        padding: 0;
+        line-height: 55px;
+        margin-bottom: 5%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .thank-you > h1 > span {
+        color: #ffd400eb;
+    }
+
+    .thank-you > p {
+        width: 100%;
+        text-align: center;
+        font-size: 1.3em;
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .thank-you > ul > li > h2 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5em;
+        margin: 0;
+        padding: 0;
+        line-height: 35px;
+        margin-bottom: 2%;
+        width: 100%;
+        text-align: left;
+    }
+
+    .content-01>div>p {
+        font-size: 1.3em;
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .thank-you > ul {
+        width: 100%;
+        margin: 0;
+        padding: 2%;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #111;
+        color: #fff;
+    }
+
+    .thank-you > ul > li{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .thank-you > ul > li > ol{
+        list-style: none;
+    }
+
+    .thank-you > ul > li > ol > li{
+        font-size: 1.3em;
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        background: #111;
+        color: #fff;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+
+    .thank-you > ul > li > button {
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        background: #ecc401;
+        border: none;
+        font-size: 1.7em;
+        padding: 10px 20px;
+        cursor: pointer;
+        color: #111;
+        letter-spacing: 1px;
+        transition: 0.3s;
+        margin: 2% 0%;
+        border-radius: 3px;
+    }
+
+    .thank-you > ul > li > button > i{
+        transition: 0.3s;
+        color: #111;
+    }
+
+    .thank-you > ul > li > button:hover{
+        background: #fff;
+        color: #111;
+        transition: 0.3s;
+        box-shadow: -9px 9px 1px 1px #ecc401;
+    }
+
+    .thank-you > ul > li > button:hover > i{
+        transition: 0.3s;
+        color: #111;
+        transform: translateX(5px);
+    }
+
+    .thank-you > ul > li > ol > li:hover {
+        color: #ecc401;
+    }
+
+
+
+
+
 /* MODAL */
 
     .content-modal{
@@ -763,6 +888,90 @@ body{
         color: #ffd400eb;
     }
 
+    /* FORM */
+        .modal > div > form{
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .modal >div>form>ul{
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-content: space-around;
+            align-items: flex-start;
+        }
+
+        .modal >div>form>ul>li{
+            width: 48%;
+            margin: 0 0 15px 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .modal >div>form>ul>li> label, input, select, textarea{
+            width: 100%;
+            font-size: 1.2em;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .modal >div>form>ul>li> textarea {
+            height: 100px;
+        }
+
+        .modal >div>form>ul>li> input, select, textarea {
+            border-radius: 3px;
+            border: 2px solid #11111112;
+            background: #1111110a;
+        }
+
+
+        .modal >div>form>ul>li>button {
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+            background: #ecc401;
+            border: none;
+            font-size: 1.3em;
+            padding: 8px 20px;
+            margin-top: 20px;
+            cursor: pointer;
+            color: #111;
+            letter-spacing: 1px;
+            transition: 0.4s;
+            border-radius: 3px;
+            width: 100%;
+        }
+
+        .modal >div>form>ul>li> button > i{
+            transition: 0.3s;
+            color: #111;
+        }
+
+        .modal >div>form>ul>li> button:hover{
+            background: #111;
+            color: #fff;
+            transition: 0.3s;
+            box-shadow: -9px 9px 1px 1px #ecc401;
+        }
+
+        .modal >div>form>ul>li> button:hover > i{
+            transition: 0.3s;
+            color: #ecc401;
+            transform: translateX(5px);
+        }
+
+
+
+
+    /*  */
     .modal >div>ul{
         width: 100%;
         margin: 0;
@@ -812,10 +1021,10 @@ body{
         width: 100%;
     }
 
-     .modal >div>ul>li> button:hover{
+    .modal >div>ul>li> button:hover{
         background: #111;
         color: #ecc401;
-     }
+    }
 
     .modal-active{
         transition: 0.3s;
@@ -851,7 +1060,6 @@ body{
     .content-03 button {
         font-size: 1em;
     }
-
 }
 
 @media(max-width: 1290px){
@@ -894,7 +1102,14 @@ body{
         width: 30%;
     }
 
-    
+    /**/
+    .thank-you > ul {
+        flex-direction: column;
+    }
+
+    .thank-you > ul > li{
+        width: 100%;
+    } 
 }
 
 @media(max-width: 768px){
@@ -978,6 +1193,11 @@ body{
         .modal {
             width: 80%;
         }
+
+    .thank-you > h1 {
+        font-size: 2.5em;
+    }
+
 
 }
 
@@ -1077,7 +1297,7 @@ body{
     /*  */
 
     .modal {
-        padding: 2% 2% 3% 2%;
+        padding: 4%;
     }
 
     .modal >div>ul {
@@ -1090,6 +1310,45 @@ body{
 
     .modal >div>ul>li>button {
         margin-bottom: 15px;
+    }
+
+
+    .modal >div>h3 {
+        font-size: 1.5em;
+        line-height: 30px;
+    }
+
+    .modal >div>form>ul {
+        justify-content: space-evenly;
+        align-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .modal >div>form>ul>li {
+        width: 98%;
+        margin: 0 0 10px 0;
+    }
+
+    .thank-you > h1 {
+        font-size: 1.5em;
+        line-height: 31px;
+    }
+
+    .thank-you > ul > li > h2 {
+        font-size: 1.3em;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    .thank-you > ul > li > ol {
+        text-align: center;
+        list-style: none;
+        padding: 0;
+    }
+
+    .thank-you > ul > li > button {
+        font-size: 1.2em;
     }
 
 }
