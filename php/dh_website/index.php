@@ -8,9 +8,11 @@ echo '<!DOCTYPE html><html lang="es">';
 
   // VALIDAR SECCION - TITULO DE SECCION
     if (isset($_GET['seccion'])){ 
-      $name_seccion = 'TUTUM | '.$_GET['seccion'];  
+      $name_seccion = 'TUTUM | '.ucfirst(strtolower(str_replace('-', ' ', $_GET['seccion'])));
+      $descripcion = "Experiencia y confiabilidad generada a través de los años para ofrecerte soluciones completas en ".str_replace('-', ' ', $_GET['seccion']);
     }else{ 
-      $name_seccion = 'TUTUM | Consultoría tecnológica y soluciones integrales de TI'; 
+      $name_seccion = 'TUTUM | Consultoría tecnológica y soluciones integrales de TI';
+      $descripcion = ucfirst(strtolower(str_replace('-', ' ', 'ESPECIALISTAS EN IMPLEMENTACIÓN DE SOLUCIONES EN TECNOLOGÍAS DE LA INFORMACIÓN')));
     }
   
   // HEAD

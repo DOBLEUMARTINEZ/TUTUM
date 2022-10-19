@@ -5,7 +5,6 @@
 </div>
 
 <!-- JS -->
+<script src="js/jquery.min.js"></script>  
 <script src="js/interactive.js"></script>
 
-<!-- Bootstrap core JavaScript -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>

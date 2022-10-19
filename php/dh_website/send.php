@@ -272,24 +272,10 @@
 
 		    }
 	    }else{
-	    	?>
-
+	    	?> 
 	    	<script type="text/javascript">
-					      $( document ).ready(function() {
-					      Swal.fire({
-					          icon: 'error',
-					          title:'Algo salio mal',
-					          text: 'Porfavor vuelve a intentarlo',
-					          /*showCloseButton: true,*/
-					          focusConfirm: false,
-					          timerProgressBar: true,
-					          confirmButtonText:
-					          'Continuar',
-					          confirmButtonAriaLabel: 'Send'
-					        });
-					        });
-					    </script>
-
+				window.location.href='./contactar';
+			</script>
 	    	<?php
 	    }
 	}

@@ -98,9 +98,7 @@
 					<img src="resources/images/desarrollos/TUTUM.png" loading="lazy" >
 				</li>
 			</ul>
-		</div>
-
-		
+		</div>	
 
 	</div>
 

@@ -1,9 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(fonts/monserrat.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(fonts/roboto.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 
 /* CONTROLS */
 
     html{
         scroll-behavior: smooth;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
     }
 
     body{
@@ -14,14 +34,62 @@
         font-family: 'Montserrat', sans-serif!important;
     }
 
-    h1, h3, h4, h5, h6 {
+    html,body {
+        font-size: 15px;
+        line-height: 1.5
+    }
+
+    h2 {
+        font-size: 30px
+    }
+
+    h3 {
+        font-size: 24px
+    }
+
+    h4 {
+        font-size: 20px
+    }
+
+    h1,h2,h3,h4,h5,h6 {
         font-family: 'Roboto', sans-serif!important;
+        font-weight: 400;
+        margin: 10px 0
     }
 
     p{
         font-size: 0.7em;
         font-family: 'Montserrat', sans-serif!important;
     }
+
+    a {
+        background-color: transparent;
+         color: inherit;
+    }
+
+    figure {
+        margin: 1em 40px
+    }
+
+    img {
+        border-style: none;
+        vertical-align: middle;
+    }
+
+    article,aside,details,figcaption,figure,footer,header,main,menu,nav,section {
+        display: block
+    }
+
+    audio,canvas,progress,video {
+        display: inline-block
+    }
+
+    *,*:before,*:after {
+        box-sizing: inherit
+    }
+
+
+/* empiezan las clases  */
 
     .arrow-down {
       animation: slide1 1s ease-in-out infinite;
@@ -1294,7 +1362,7 @@
             right: 0;
         }
 
-
+    /* square-02 */
         .square-02{
             position: relative;
             border-top: 15px solid #fff;

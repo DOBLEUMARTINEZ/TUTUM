@@ -3,44 +3,6 @@ $('.fa-bars').click(function(){
     $('.menu-mobil').toggle();
 });
 
-function soloLetras(e) {
-    var key = e.keyCode || e.which,
-      tecla = String.fromCharCode(key).toLowerCase(),
-      letras = " ABCDEFGHIJKLMNOPQRSTUVWXYZÁÉÍÓÚabcdefghijklmnopqrstuvwxyzáéíóú",
-      especiales = [8, 37, 39, 46],
-      tecla_especial = false;
-
-    for (var i in especiales) {
-      if (key == especiales[i]) {
-        tecla_especial = true;
-        break;
-      }
-    }
-
-    if (letras.indexOf(tecla) == -1 && !tecla_especial) {
-      return false;
-    }
-  }
-
-function soloNumeros(e) {
-    var key = e.keyCode || e.which,
-      tecla = String.fromCharCode(key).toLowerCase(),
-      letras = " 0123456789",
-      especiales = [8, 37, 39, 46],
-      tecla_especial = false;
-
-    for (var i in especiales) {
-      if (key == especiales[i]) {
-        tecla_especial = true;
-        break;
-      }
-    }
-
-    if (letras.indexOf(tecla) == -1 && !tecla_especial) {
-      return false;
-    }
-  }
-
 /* CONTADOR DE NUMEROS */
 $(document).ready(function($) {
 
@@ -129,5 +91,5 @@ function irArriba(){
 
   });
 
-  $('.ir-abajo').click(function(){ $('body,html').animate({ scrollTop:'1000px' },1000); });
+  
 }

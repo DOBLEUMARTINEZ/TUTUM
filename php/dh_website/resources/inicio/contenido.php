@@ -51,19 +51,19 @@
   </p>
   <ol>
     <li onclick="window.location.href='./identidad';" >
-      <img src="images/icons/1.- cliente.gif">
+      <img src="images/icons/identidad.gif">
       <h3>IDENTIDAD</h3>
     </li>
     <li onclick="window.location.href='./servicios';" >
-      <img src="images/icons/2.- red-en-la-nube.gif">
+      <img src="images/icons/servicios.gif">
       <h3>SERVICIOS​</h3>
     </li>
     <li onclick="window.location.href='./prensa';">
-      <img src="images/icons/3.- television.gif">
+      <img src="images/icons/prensa.gif">
       <h3>PRENSA​</h3>
     </li>
     <li onclick="window.location.href='./';">
-      <img src="images/icons/4.- telefono.gif">
+      <img src="images/icons/contact.gif">
       <h3>CONTACTO</h3>
     </li>
   </ol>

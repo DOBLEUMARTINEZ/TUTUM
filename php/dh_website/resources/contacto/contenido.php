@@ -1,3 +1,30 @@
+<!-- Recaptcha -->
+  <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script>
+      function miFuncion() {
+
+        var response = grecaptcha.getResponse();
+
+        if(response.length == 0){
+          $( document ).ready(function() {
+            Swal.fire({
+                icon: 'error',
+                title:'Algo salio mal',
+                text: 'Porfavor intenta llenando todos los campos requeridos',
+                /*showCloseButton: true,*/
+                focusConfirm: false,
+                timerProgressBar: true,
+                confirmButtonText:'Continuar',
+                confirmButtonAriaLabel: 'Send'
+            });
+          });
+        } else {
+            document.getElementById("re-capcha").value=1;
+            document.getElementById("security-form").value=1;
+        }
+      }
+  </script>
+
 <!-- FONDO DE SECCION -->
     <div id="square-banner-index">
 
@@ -150,6 +177,7 @@
                 <div class="g-recaptcha" data-sitekey="6LdfL14gAAAAAEuvne6SqZUsgDxEpo02_znAUzNj" data-callback="verifyCaptcha" ></div>
 
                 <input id="re-capcha" name="recapcha" value="0" type="hidden">
+                <input id="security-form" type="text" name="security" required style="opacity: ;">
 
                 <button name="action" value="new_contact" onclick ="miFuncion()" >ENVIAR</button>
             </li>
@@ -157,5 +185,49 @@
     </div>
 </form>
 
+<script type="text/javascript">
+    function soloLetras(e) {
+        var key = e.keyCode || e.which,
+          tecla = String.fromCharCode(key).toLowerCase(),
+          letras = " ABCDEFGHIJKLMNOPQRSTUVWXYZÁÉÍÓÚabcdefghijklmnopqrstuvwxyzáéíóú",
+          especiales = [8, 37, 39, 46],
+          tecla_especial = false;
+
+        for (var i in especiales) {
+          if (key == especiales[i]) {
+            tecla_especial = true;
+            break;
+          }
+        }
+
+        if (letras.indexOf(tecla) == -1 && !tecla_especial) {
+          return false;
+        }
+
+      }
+
+    function soloNumeros(e) {
+        var key = e.keyCode || e.which,
+          tecla = String.fromCharCode(key).toLowerCase(),
+          letras = " 0123456789",
+          especiales = [8, 37, 39, 46],
+          tecla_especial = false;
+
+        for (var i in especiales) {
+          if (key == especiales[i]) {
+            tecla_especial = true;
+            break;
+          }
+        }
+
+        if (letras.indexOf(tecla) == -1 && !tecla_especial) {
+          return false;
+        }
+
+      }
+</script>
+
+<script src="js/sweetalert2.js"></script>
+<script src="js/sweetalert.min.js"></script>
 
 <hr class="barra-colores-01">
