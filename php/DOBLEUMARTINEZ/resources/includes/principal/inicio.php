@@ -15,7 +15,7 @@
 	<div>
 		<h1>Te ayudamos con la mejor solución para tus Proyectos Digitales</h1><br>
 		<p>Diseñamos poderosos desarrollos digitales<br> atractivos que resalten la identidad <br>de tu empresa o negocio</p><br>
-		<button onclick="window.location.href='https://api.whatsapp.com/send?phone=+525541422177&text=Me%20interesa%20conocer%20mas%20a%20detalle%20los%20servicios';" >Empezar ahora <i class="fas fa-angle-double-right"></i></button>
+		<button onclick="modalInfo('Formulario')" >Empezar ahora <i class="fas fa-angle-double-right"></i></button>
 	</div>
 
 	<!-- IMG - BANNER  -->
@@ -34,7 +34,7 @@
 			<p>Trabajamos estrictamente con funciones especiales, integraciones, forms, procesos o conexiones especializadas con otras tecnologías.</p>
 		</div>
 		<div>
-			<img src="resources/images/4169292.jpg" title="DOBLEU MARTINEZ - Desarrollo Web" alt="DOBLEU MARTINEZ - Desarrollo Web">
+			<img src="resources/images/4169292.jpg" title="DOBLEU MARTINEZ - Desarrollo Web" alt="DOBLEU MARTINEZ - Desarrollo Web" loading="lazy">
 		</div>
 	</div>
 
@@ -43,7 +43,7 @@
 		<span></span>
 		<div>
 			<h2>Conoce alguna de las soluciones que <br>podemos desarrollar para ti</h2>
-			<button onclick="window.location.href='https://api.whatsapp.com/send?phone=+525541422177&text=Me%20interesa%20conocer%20mas%20a%20detalle%20los%20servicios';" >Obtén una propuesta gratis</button>
+			<button onclick="modalInfo('Formulario')" >Obtén una propuesta gratis</button>
 		</div>
 	</div>
 
@@ -53,25 +53,25 @@
 		<p>Desarrollo de Proyectos Atractivos, Rápidos, Funcionales y Modernos</p>
 		<ul>
 			<li>
-				<img src="resources/images/landing-page-seo.png" title="DOBLEU MARTINEZ - Landing page" alt="DOBLEU MARTINEZ - Landing page">
+				<img src="resources/images/landing-page-seo.png" title="DOBLEU MARTINEZ - Landing page" alt="DOBLEU MARTINEZ - Landing page" loading="lazy">
 				<h3>Landing page</h3>
 				<p>Orientada a ventas directas de algun producto o servicio</p>
 				<button onclick="modalInfo('LandigPage')">¡Quiero saber más!</button>
 			</li>
 			<li>
-				<img src="resources/images/pagina-web-seo.png" title="DOBLEU MARTINEZ - Pagina Web" alt="DOBLEU MARTINEZ - Pagina Web">
+				<img src="resources/images/pagina-web-seo.png" title="DOBLEU MARTINEZ - Pagina Web" alt="DOBLEU MARTINEZ - Pagina Web" loading="lazy">
 				<h3>Pagina Web</h3>
 				<p>Ideal para empezar a darte a conocer en la Internet</p>
 				<button onclick="modalInfo('PaginaWeb')">¡Quiero saber más!</button>
 			</li>
 			<li>
-				<img src="resources/images/sitio-web-seo.png" title="DOBLEU MARTINEZ - Sitio Web" alt="DOBLEU MARTINEZ - Sitio Web">
+				<img src="resources/images/sitio-web-seo.png" title="DOBLEU MARTINEZ - Sitio Web" alt="DOBLEU MARTINEZ - Sitio Web" loading="lazy">
 				<h3>Sitio Web</h3>
 				<p>Empieza a competir contra los mejores</p>
 				<button onclick="modalInfo('SitioWeb')">¡Quiero saber más!</button>
 			</li>
 			<li>
-				<img src="resources/images/desarrollos-especiales-seo.png" title="DOBLEU MARTINEZ - Desarrollos Especiales" alt="DOBLEU MARTINEZ - Desarrollos Especiales">
+				<img src="resources/images/desarrollos-especiales-seo.png" title="DOBLEU MARTINEZ - Desarrollos Especiales" alt="DOBLEU MARTINEZ - Desarrollos Especiales" loading="lazy">
 				<h3>Desarrollos Especiales</h3>
 				<p>Volvemos realidad todas tus ideas</p>
 				<button onclick="modalInfo('DesarrollosEspeciales')">¡Quiero saber más!</button>
@@ -85,17 +85,17 @@
 		<div class="carousel">
 			<ul>
 				<li>
-					<img src="resources/images/desarrollos/CUVITALENTO.png">
-					<img src="resources/images/desarrollos/QHIMPRESIONES.png">
-					<img src="resources/images/desarrollos/SIPLA.png">
-					<img src="resources/images/desarrollos/kadcreativo.png">
-					<img src="resources/images/desarrollos/ATS.png">
-					<img src="resources/images/desarrollos/TUTUM.png">
+					<img src="resources/images/desarrollos/CUVITALENTO.png" loading="lazy" >
+					<img src="resources/images/desarrollos/QHIMPRESIONES.png" loading="lazy" >
+					<img src="resources/images/desarrollos/SIPLA.png" loading="lazy" >
+					<img src="resources/images/desarrollos/kadcreativo.png" loading="lazy" >
+					<img src="resources/images/desarrollos/ATS.png" loading="lazy" >
+					<img src="resources/images/desarrollos/TUTUM.png" loading="lazy" >
 				</li>
 				<li style="display: none;">
-					<img src="resources/images/desarrollos/kadcreativo.png">
-					<img src="resources/images/desarrollos/ATS.png">
-					<img src="resources/images/desarrollos/TUTUM.png">
+					<img src="resources/images/desarrollos/kadcreativo.png" loading="lazy" >
+					<img src="resources/images/desarrollos/ATS.png" loading="lazy" >
+					<img src="resources/images/desarrollos/TUTUM.png" loading="lazy" >
 				</li>
 			</ul>
 		</div>

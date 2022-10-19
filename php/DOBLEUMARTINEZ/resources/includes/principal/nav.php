@@ -15,10 +15,7 @@
 			<i class="fab fa-behance"></i>
 		</li>
 		<li onclick="window.location.href='https://api.whatsapp.com/send?phone=+525541422177&text=Me%20interesa%20conocer%20mas%20a%20detalle%20los%20servicios';" >
-			<i class="fab fa-linkedin-in"></i>
-		</li>
-		<li onclick="window.location.href='https://api.whatsapp.com/send?phone=+525541422177&text=Me%20interesa%20conocer%20mas%20a%20detalle%20los%20servicios';" >
-			<i class="fab fa-instagram"></i>
+			<i class="fab fa-whatsapp"></i>
 		</li>
 	</ul>
 </div>
@@ -27,7 +24,7 @@
 	<div onclick="window.location.href='./';" >DOBLEU MARTINEZ</div>
 	<ul>
 		<li>
-			<button onclick="window.location.href='https://api.whatsapp.com/send?phone=+525541422177&text=Me%20interesa%20conocer%20mas%20a%20detalle%20los%20servicios';" >
+			<button onclick="modalInfo('Formulario')" >
 			Contactanos
 			</button>
 		</li>

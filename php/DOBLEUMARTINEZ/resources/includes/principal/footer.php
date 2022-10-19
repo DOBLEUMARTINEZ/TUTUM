@@ -22,9 +22,7 @@
 		<li>
 			<h3>Redes Sociales</h3>
 			<ol>
-				<li onclick="window.location.href='https://api.whatsapp.com/send?phone=+525541422177&text=Me%20interesa%20conocer%20mas%20a%20detalle%20los%20servicios';" >Behance</li>
-				<li onclick="window.location.href='https://api.whatsapp.com/send?phone=+525541422177&text=Me%20interesa%20conocer%20mas%20a%20detalle%20los%20servicios';" >Instagram</li>
-				<li onclick="window.location.href='https://api.whatsapp.com/send?phone=+525541422177&text=Me%20interesa%20conocer%20mas%20a%20detalle%20los%20servicios';" >Facebook</li>
+				<li onclick="window.location.href='https://www.behance.net/salvadorat0ed4/projects';" >Behance</li>
 			</ol>
 		</li>
 		
@@ -105,19 +103,19 @@
 
 		<div id="modal-Formulario" class="modal-wm">
 			<h3><span>| </span>Déjanos tus datos y te contactaremos</h3>
-			<form>
+			<form method="POST" action="./send.php">
 				<ul>
 					<li>
 						<label>Nombre</label>
-						<input type="text" name="Nombre">
+						<input type="text" name="nombre" placeholder="Escribe tu nombre" required maxlength="30" onkeypress="return soloLetras(event)">
 					</li>
 					<li>
 						<label>Teléfono</label>
-						<input type="tel" name="Teléfono">
+						<input type="phone" name="telefono" placeholder="5523654965" required maxlength="10" onkeypress="return soloNumeros(event)">
 					</li>
 					<li>
 						<label>Email</label>
-						<input type="email" name="Email">
+						<input type="email" name="email" placeholder="example@tutum.com.mx" required>
 					</li>
 					<li>
 						<label>Soluciones</label>
@@ -129,10 +127,11 @@
 						</select>
 					</li>
 					<li style="width: 98%">
-						<textarea placeholder="Escribenos" ></textarea>
+						<textarea name="comentarios" placeholder="Escribe tus comentarios adicionales"></textarea>
 					</li>
-					<li>
-						<button >Empezar ahora  <i class="fas fa-angle-double-right"></i></button>
+					<li style="width: 98%" >
+						<button type="submit" name="action" value="new_contact" >Enviar un formulario  <i class="far fa-envelope"></i></button>
+						<button type="submit" name="action" value="new_whatsapp" >Mensaje de WhatsApp  <i class="fab fa-whatsapp"></i></button>
 					</li>
 				</ul>
 			</form>
