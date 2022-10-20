@@ -64,6 +64,10 @@
 
 <!-- PUBLICACIONES  -->
 <div class="square-06">
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+
 	<h2 style="padding: 2% 10%;text-align: left;" > PUBLICACIONES ​</h2>
     <div id="clientes" class="carousel slide blog-slide" data-ride="carousel">    
         <div class="carousel-inner" style="padding: 0 10%;">
@@ -151,14 +155,17 @@
 
             <!-- FLECHAS DE CAMBIO -->
             <a class="slide-control-prev" href="#clientes" role="button" data-slide="prev">
-                <i class="fas fa-chevron-circle-left"></i>
+                <i class="fas fa-chevron-up" style="transform: rotate(270deg);"></i>
             </a>
             <a class="slide-control-next" href="#clientes" role="button" data-slide="next">
-                <i class="fas fa-chevron-circle-right"></i>
+                <i class="fas fa-chevron-up" style="transform: rotate(90deg);"></i>
             </a>
               
         </div>
-    </div>  
+    </div> 
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+
 </div>
 
 

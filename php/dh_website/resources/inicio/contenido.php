@@ -3,12 +3,12 @@
 <div id="square-banner-index">
 
   <!-- BACKGROUND VIDEO -->
-  <video class="video-slide bann-fixed" loading="lazy" src="images/SOLUCIONES.mp4" autoplay="" muted="" loop=""></video>
-  <video class="video-slide" loading="lazy" src="images/SOLUCIONES.mp4" style="opacity: 0" autoplay="" muted="" loop=""></video>
+  <video class="video-slide bann-fixed" loading="lazy" src="images/SOLUCIONES.mp4" autoplay="" muted="" loop="" title="Implementación de Soluciones en Tecnologías de la Información - TUTUM" alt="Implementación de Soluciones en Tecnologías de la Información - TUTUM"></video>
+  <video class="video-slide" loading="lazy" src="images/SOLUCIONES.mp4" style="opacity: 0" autoplay="" muted="" loop="" title="Implementación de Soluciones en Tecnologías de la Información - TUTUM" alt="Implementación de Soluciones en Tecnologías de la Información - TUTUM"></video>
 
   <!-- TUTU LOGO -->
   <div class="square-logo-big" >
-    <img src="images/logo/LOGO-TUTUM.png" onclick="window.location.href='./';">
+    <img src="images/logo/LOGO-TUTUM.png" onclick="window.location.href='./';" title="Implementación de Soluciones en Tecnologías de la Información - TUTUM" alt="Implementación de Soluciones en Tecnologías de la Información - TUTUM">
     <h2 style="font-size: 0.8vw;">ESPECIALISTAS EN IMPLEMENTACIÓN DE SOLUCIONES EN TECNOLOGÍAS DE LA INFORMACIÓN</h2>
     <a id="start"></a>
     <i class="fas fa-chevron-down arrow-down"  onclick="window.location.href='./#start'"></i>
@@ -51,18 +51,18 @@
   </p>
   <ol>
     <li onclick="window.location.href='./identidad';" >
-      <img src="images/icons/identidad.gif">
+      <img src="images/icons/identidad.gif" title="Identidad icono - TUTUM" alt="Identidad icono - TUTUM">
       <h3>IDENTIDAD</h3>
     </li>
-    <li onclick="window.location.href='./servicios';" >
+    <li onclick="window.location.href='./servicios';"  title="Servicios icono - TUTUM" alt="Servicios icono - TUTUM">
       <img src="images/icons/servicios.gif">
       <h3>SERVICIOS​</h3>
     </li>
-    <li onclick="window.location.href='./prensa';">
+    <li onclick="window.location.href='./prensa';" title="Prensa icono - TUTUM" alt="Prensa icono - TUTUM">
       <img src="images/icons/prensa.gif">
       <h3>PRENSA​</h3>
     </li>
-    <li onclick="window.location.href='./';">
+    <li onclick="window.location.href='./contacto';" title="Contacto icono - TUTUM" alt="Contacto icono - TUTUM">
       <img src="images/icons/contact.gif">
       <h3>CONTACTO</h3>
     </li>
@@ -85,7 +85,7 @@
 
   <div>
     <div style="position: relative;" >
-        <img src="images/img/phone.png" style="width: 80%;margin: 10% 10%;">
+        <img src="images/img/phone.png" style="width: 80%;margin: 10% 10%;" title="Teléfono celular - TUTUM " alt="Teléfono celular - TUTUM ">
         <iframe scrolling="no" class="iframe-index"  src="https://www.linkedin.com/embed/feed/update/urn:li:share:6924842538818293760"  frameborder="0" allowfullscreen="" title="Publicación integrada">
         </iframe>
     </div>
@@ -93,7 +93,7 @@
 
   <div class="video-yt-1">
     
-     <iframe src="https://www.youtube.com/embed/MxXB8wWU6vg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     <iframe src="https://www.youtube.com/embed/MxXB8wWU6vg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Implementación de Soluciones en Tecnologías de la Información - TUTUM " alt="Implementación de Soluciones en Tecnologías de la Información - TUTUM "></iframe>
     
   </div>
 </div>
@@ -101,7 +101,7 @@
 <!-- FOOTER INDEX -->
 <div class="square-footer-index" style="position: relative;">
   <ul>
-    <li><img src="images/logo/LOGO-WHITE.png" onclick="window.location.href='./';" style="width: 100%;"></li>
+    <li><img src="images/logo/LOGO-WHITE.png" onclick="window.location.href='./';" style="width: 100%;" title="Implementación de Soluciones en Tecnologías de la Información - TUTUM" alt="Implementación de Soluciones en Tecnologías de la Información - TUTUM"></li>
     <li><h4>ISO 9001:2015​ <br>ISO/IEC 27001:2013</h4></li>
   </ul>
   <ol>

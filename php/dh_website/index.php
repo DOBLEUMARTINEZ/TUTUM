@@ -8,11 +8,11 @@ echo '<!DOCTYPE html><html lang="es">';
 
   // VALIDAR SECCION - TITULO DE SECCION
     if (isset($_GET['seccion'])){ 
-      $name_seccion = 'TUTUM | '.ucfirst(strtolower(str_replace('-', ' ', $_GET['seccion'])));
-      $descripcion = "Experiencia y confiabilidad generada a través de los años para ofrecerte soluciones completas en ".str_replace('-', ' ', $_GET['seccion']);
+      $name_seccion = ucfirst(strtolower(str_replace('-', ' ', $_GET['seccion']))).' | TUTUM';
+      $descripcion = "Experiencia y confiabilidad en la Soluciones Integrales de TI y en ".str_replace('-', ' ', $_GET['seccion']);
     }else{ 
-      $name_seccion = 'TUTUM | Consultoría tecnológica y soluciones integrales de TI';
-      $descripcion = ucfirst(strtolower(str_replace('-', ' ', 'ESPECIALISTAS EN IMPLEMENTACIÓN DE SOLUCIONES EN TECNOLOGÍAS DE LA INFORMACIÓN')));
+      $name_seccion = 'Consultoría Tecnológica y Soluciones Integrales de TI | TUTUM';
+      $descripcion = 'Especialistas en Implementación de Soluciones en Tecnologías de la Información';
     }
   
   // HEAD
@@ -118,7 +118,8 @@ echo '<body>'; // INICIO CUERPO
             break;
 
           case 'contacto':
-            include("resources/contacto/menu.php"); // CONTENIDO 
+            include("resources/contacto/contenido.php"); // CONTENIDO 
+            //include("resources/contacto/menu.php"); // CONTENIDO 
             break;
 
           case 'contactar':
@@ -127,6 +128,10 @@ echo '<body>'; // INICIO CUERPO
 
           case 'bolsa-de-trabajo':
             include("resources/contacto/bolsa.php"); // CONTENIDO 
+            break;
+
+          case 'gracias':
+            include("resources/gracias.php"); // gracias
             break;
                 
           default:
@@ -142,11 +147,5 @@ echo '<body>'; // INICIO CUERPO
 
   include 'resources/inicio/footer.php'; // PIE DE PAGINA
 
+echo '</body></html>';
 ?>
-</body>
-
-</html>
-
-  
-
-

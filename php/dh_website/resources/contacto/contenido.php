@@ -28,68 +28,20 @@
 <!-- FONDO DE SECCION -->
     <div id="square-banner-index">
 
-	<!-- IMAGEN DE FONDO -->
-	<img class="video-slide bann-fixed" src="images/img/contacto.jpg">
-  	<img class="video-slide" src="images/img/contacto.jpg" style="opacity: 0;">
+    	<!-- IMAGEN DE FONDO -->
+    	<img class="video-slide bann-fixed" src="images/img/contacto.jpg">
+      	<img class="video-slide" src="images/img/contacto.jpg" style="opacity: 0;">
 
-  	<!-- CUADRO DE TEXTO -->
-  	<div class="square-logo-big" >
-	    <img src="images/logo/LOGO-WHITE.png" onclick="window.location.href='./';">
-	    <h2>CONTACTO</h2>
-	    <i class="fas fa-chevron-down arrow-down " onclick="window.location.href='#start'"></i>
-  	</div>
+      	<!-- CUADRO DE TEXTO -->
+      	<div class="square-logo-big" >
+    	    <img src="images/logo/LOGO-WHITE.png" onclick="window.location.href='./';">
+    	    <h2>CONTACTO</h2>
+    	    <i class="fas fa-chevron-down arrow-down " onclick="window.location.href='#start'"></i>
+      	</div>
 
-  	<!-- barra negra -->
-        <span class="barra-negra"></span>
-
-</div>
-
-<!-- MENU -->
-<div class="square-07">
-     <ul style="justify-content: center;">
-        <li id="proyectos-active" class="service-menu-color service-active" onclick="window.location.href='contactar#start';">
-            <img src="<?php echo $url ?>images/icons/contacto/menu/telefono.gif" class="icon-menu-black" style="opacity: 0;">
-            <img src="<?php echo $url ?>images/icons/contacto/menu/telefono.png" class="icon-menu-white" >
-            <h2>CONTACTO</h2>
-        </li>
-        <li id="proyectos-active" class="service-menu-color" onclick="window.location.href='bolsa-de-trabajo#start';">
-            <img class="fondos fondo-proyectos" src="<?php echo $url ?>images/img/PERSONAL_9.jpg">
-            <img src="<?php echo $url ?>images/icons/contacto/menu/maletin.gif" class="icon-menu-black">
-            <img src="<?php echo $url;?>images/icons/contacto/menu/maletin.png" class="icon-menu-white">
-            <h2>BOLSA DE TRABAJO</h2>
-        </li>
-        <li id="proyectos-active" class="service-menu-color" onclick="window.location.href='https://cau.tutum.com.mx/dwp/app/#/account/login?returnUrl=%2F';">
-            <img src="<?php echo $url ?>images/icons/contacto/menu/apoyo-tecnico.gif" class="icon-menu-black">
-            <img src="<?php echo $url;?>images/icons/contacto/menu/apoyo-tecnico.png" class="icon-menu-white" >
-            <h2>CAU</h2>
-        </li><!--
-        <li style="margin: 0 2%;" id="proyectos-active" class="service-menu-color" onclick="window.location.href='./';" >
-            <img src="<?php echo $url ?>images/icons/contacto/menu/acceso.gif" class="icon-menu-black">
-            <img src="<?php echo $url;?>images/icons/contacto/menu/acceso.png" class="icon-menu-white" >
-            <h2>INTRANET</h2>
-        </li>-->
-    </ul>
-</div>
-
+    </div>
 
 <a id="start"></a>
-<hr class="barra-colores-01">
-
-<!-- UBICACION -->
-<div class="square-contact-01">
-    <img src="images/icons/contacto/contacto/marcador-de-posicion.png">
-    <h2>UBICACION</h2>
-</div>
-<div class="square-contact-02">
-    <center>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15057.159107917738!2d-99.1847676!3d19.3566015!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb8cb7dd5f0cfd095!2sTUTUM%20TECH%2C%20S.A.%20DE%20C.V.!5e0!3m2!1ses-419!2smx!4v1654112849588!5m2!1ses-419!2smx" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </center>
-    <ul>
-        <li><i class="fas fa-map-marker-alt"></i> Av. de los Insurgentes Sur 1811-piso 5,Guadalupe Inn,<br>  Álvaro Obregón, 01020 Ciudad de México, CDMX</li>
-        <li><i class="fas fa-phone"></i> Of. +52 (55) 55 86 23 06 60</li>
-        <li>​<i class="fab fa-whatsapp"></i> Whatsapp 55 79 59 1149</li>
-    </ul>
-</div>
 
 <!-- FORMULARIO -->
 <form action="./" method="POST" enctype="multipart/form-data">
@@ -177,13 +129,31 @@
                 <div class="g-recaptcha" data-sitekey="6LdfL14gAAAAAEuvne6SqZUsgDxEpo02_znAUzNj" data-callback="verifyCaptcha" ></div>
 
                 <input id="re-capcha" name="recapcha" value="0" type="hidden">
-                <input id="security-form" type="text" name="security" required style="opacity: ;">
+                <input id="security-form" type="text" name="security" required style="opacity: 0;">
 
                 <button name="action" value="new_contact" onclick ="miFuncion()" >ENVIAR</button>
             </li>
         </ul>
     </div>
 </form>
+
+<!-- UBICACION -->
+<div class="square-contact-01">
+    <img src="images/icons/contacto/contacto/marcador-de-posicion.png">
+    <h2>UBICACION</h2>
+</div>
+<div class="square-contact-02">
+    <center>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15057.159107917738!2d-99.1847676!3d19.3566015!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb8cb7dd5f0cfd095!2sTUTUM%20TECH%2C%20S.A.%20DE%20C.V.!5e0!3m2!1ses-419!2smx!4v1654112849588!5m2!1ses-419!2smx" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </center>
+    <ul>
+        <li><i class="fas fa-map-marker-alt"></i> Av. de los Insurgentes Sur 1811-piso 5,Guadalupe Inn,<br>  Álvaro Obregón, 01020 Ciudad de México, CDMX</li>
+        <li><i class="fas fa-phone"></i> Of. +52 (55) 55 86 23 06 60</li>
+        <li>​<i class="fab fa-whatsapp"></i> Whatsapp 55 79 59 1149</li>
+    </ul>
+</div>
+
+
 
 <script type="text/javascript">
     function soloLetras(e) {

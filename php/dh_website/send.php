@@ -122,24 +122,12 @@
 					<?php
 
 				} catch (Exception $e) {
+				    ?> 
+				    	<script type="text/javascript">
+							window.location.href='./gracias';
+						</script>
 
-				    ?>
-					  <script type="text/javascript">
-					      $( document ).ready(function() {
-					      Swal.fire({
-					          icon: 'error',
-					          title:'Algo salio mal',
-					          text: 'Porfavor vuelve a intentarlo',
-					          /*showCloseButton: true,*/
-					          focusConfirm: false,
-					          timerProgressBar: true,
-					          confirmButtonText:
-					          'Continuar',
-					          confirmButtonAriaLabel: 'Send'
-					        });
-					        });
-					    </script>
-					<?php
+				    <?php
 
 				}
 

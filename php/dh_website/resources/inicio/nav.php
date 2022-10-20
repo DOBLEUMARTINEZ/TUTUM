@@ -56,9 +56,9 @@
         </li>
 
         <li  class="dropdown-menu-ttm">
-          <a onclick="window.location.href='<?php echo $url;?>contacto#start';" >Contacto</a>
+          <a onclick="window.location.href='<?php echo $url;?>contacto';" >Contacto</a>
            <ol >
-            <li onclick="window.location.href='<?php echo $url;?>contactar#start';">
+            <li onclick="window.location.href='<?php echo $url;?>contacto';">
               CONTACTO
             </li>
             <li onclick="window.location.href='<?php echo $url;?>bolsa-de-trabajo#start';">
