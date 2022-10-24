@@ -7,8 +7,9 @@
 
   <title><?php echo $name_seccion;?></title>
 
-  <link href="images/logo/icon.png" rel="shortcut icon"/>
+  <link rel="canonical" href="https://www.tutum.com.mx/<?php echo $canonical_name; ?>"> 
 
+  <link href="images/logo/icon.png" rel="shortcut icon"/>
   <link rel="manifest" href="https://www.tutum.com.mx/images/logo/icon.png">
   <link rel="icon" type="images/logo/icon.png" sizes="32x32" href="https://www.tutum.com.mx/images/logo/icon.png">
   <link rel="icon" type="images/logo/icon.png" sizes="16x16" href="https://www.tutum.com.mx/images/logo/icon.png">

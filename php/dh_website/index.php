@@ -7,10 +7,12 @@ echo '<!DOCTYPE html><html lang="es">';
     $url = './';
 
   // VALIDAR SECCION - TITULO DE SECCION
-    if (isset($_GET['seccion'])){ 
+    if (isset($_GET['seccion'])){
+      $canonical_name = str_replace('-', ' ', $_GET['seccion']);
       $name_seccion = ucfirst(strtolower(str_replace('-', ' ', $_GET['seccion']))).' | TUTUM';
       $descripcion = "Experiencia y confiabilidad en la Soluciones Integrales de TI y en ".str_replace('-', ' ', $_GET['seccion']);
-    }else{ 
+    }else{
+      $canonical_name = '';
       $name_seccion = 'Consultoría Tecnológica y Soluciones Integrales de TI | TUTUM';
       $descripcion = 'Especialistas en Implementación de Soluciones en Tecnologías de la Información';
     }
