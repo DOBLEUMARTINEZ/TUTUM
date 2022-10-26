@@ -1,6 +1,79 @@
 <div class="footer">
+
+  <ol>
+    <li>
+      <h3><span>|</span> Menu</h3>
+      <ul>
+        <li>
+          Inicio
+        </li>
+        <li>
+          Quiénes somos
+        </li>
+        <li>
+          Sanet
+        </li>
+        <li>
+          Contacto
+        </li>
+      </ul>
+    </li>
+    <li>
+      <h3><span>|</span> Soluciónes</h3>
+      <ul>
+        <li>
+          Sanet
+        </li>
+        <li>
+          Módulos administrativos
+        </li>
+        <li>
+          Módulos clínicos
+        </li>
+        <li>
+          Módulos de configuración
+        </li>
+      </ul>
+    </li>
+    <li>
+      <h3><span>|</span> Contacto</h3>
+      <ul>
+        <li>
+          Email
+        </li>
+        <li>
+          Teléfono
+        </li>
+        <li>
+          Whatsapp
+        </li>      </ul>
+    </li>
+    <li>
+      <h3><span>|</span> Ubicación</h3>
+      <ul>
+        <li>
+          México
+        </li>
+      </ul>
+    </li>
+    <li>
+      <img src="images/logo/logo-white.png">
+      <ol>
+        <li>
+          <i class="fab fa-facebook-square"></i>
+        </li>
+        <li>
+          <i class="fab fa-linkedin"></i>
+        </li>
+        <li>
+          <i class="fab fa-twitter-square"></i>
+        </li>
+      </ol>
+    </li>
+  </ol>
+
 	<p class="copyrigt">
-		Copyright © <span>2022</span> <a onclick="window.open('http://www.tutum.com.mx/')">sanet.com.mx</a>, Todos los derechos reservados.<a>Términos y Condiciones.</a>, <a>Aviso de Privacidad</a>.
+		Copyright © <span>2022</span> <a onclick="window.open('http://www.tutum.com.mx/')">sanet.com.mx</a>, Todos los derechos reservados.<a>Términos y Condiciones.</a> <a>Aviso de Privacidad</a>.
 	</p>
 </div>
 
