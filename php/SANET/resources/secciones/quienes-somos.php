@@ -25,6 +25,28 @@
    </ul>
  </div>
 
+  <div class="bloque-2">
+    <h2>Nestros valores</h2>
+    <ol>
+      <li>
+        <img src="images/icons/modulos sih/shield.png">
+        <h3>Confianza</h3>
+      </li>
+      <li>
+        <img src="images/icons/modulos sih/apreton-de-manos.png">
+        <h3>Compromiso</h3>
+      </li>
+      <li>
+        <img src="images/icons/modulos sih/pasion.png">
+        <h3>Pasión</h3>
+      </li>
+      <li>
+        <img src="images/icons/modulos sih/disciplina.png">
+        <h3>Disciplina</h3>
+      </li>
+    </ol>
+  </div>
+
 </div>
 
 <div id="nuestra-experiencia-content">

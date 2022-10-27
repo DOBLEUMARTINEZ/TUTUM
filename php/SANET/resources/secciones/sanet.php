@@ -1,4 +1,4 @@
-<!-- BANNER INICIO -->
+<!-- SANET  -->
 <div id="sanet-content">
 
  <div class="bloque-1">
@@ -25,93 +25,46 @@
 
 </div>
 
-<a name="modulos-his"></a>
-<div id="modulo-sih-content">
+<br><br>
 
-  <div class="bloque-1">
+<div id="modulo-index-content">
 
-    <video class="video" loading="lazy" src="images/SOLUCIONES.mp4" autoplay="" muted="" loop=""></video>
-
-    <div>
-      <h1>Módulos HIS</h1>
-      <p>
-        <span>sanet</span> cuenta con diferentes módulos y áreas asistenciales, lo que permite que la solución clínica sea el eje principal de la herramienta, se centra en dar soporte a los procesos de trabajo esenciales de la práctica clínica y asistencial dando cobertura a los procesos de trabajo comunes en los distintos ámbitos hospitalarios.<br>
-        <i onclick="window.location.href='#modulos-sanet';" class="fas fa-chevron-circle-down flecha"></i>
-      </p>
-    </div>
-
-    <img src="images/img/modulos-sih-1.jpg">
-
-  </div>
-
-  <a name="modulos-sanet"></a>
-  <div class="bloque-2" style="background-image: url(images/img/modulos-sih-2.jpg);" >
+  <div class="bloque-2" >
     
     <ul>
       <li>
-        <span><img src="images/icons/modulos sih/pantalla-del-monitor.png"></span>
+        <span><img src="images/icons/modulos sih/investigacion.png"></span>
         <h2>Módulos administrativos</h2>
-        <ol>
-          <li onclick="modalSanet(1, '#modulo-1')"><i class="fas fa-chevron-right"></i> Administración y proveedores</li>
-          <li onclick="modalSanet(1, '#modulo-2')"><i class="fas fa-chevron-right"></i> Almacén</li>
-          <li onclick="modalSanet(1, '#modulo-3')"><i class="fas fa-chevron-right"></i> Cuentas por pagar</li>
-          <li onclick="modalSanet(1, '#modulo-4')"><i class="fas fa-chevron-right"></i> Cuentas por cobrar</li>
-          <li onclick="modalSanet(1, '#modulo-5')"><i class="fas fa-chevron-right"></i> Compras</li>
-          <li onclick="modalSanet(1, '#modulo-6')"><i class="fas fa-chevron-right"></i> Caja y facturación</li>
-          <li onclick="modalSanet(1, '#modulo-7')"><i class="fas fa-chevron-right"></i> Costos</li>
-          <li onclick="modalSanet(1, '#modulo-8')"><i class="fas fa-chevron-right"></i> Contabilidad</li>
-        </ol>
-      </li>
-      <li class="modulos-clinicos" >
-        <span><img src="images/icons/modulos sih/pantalla-del-monitor.png"></span>
-        <h2>Módulos clínicos</h2>
-        <ul>
-          <li>
-            <ol>
-              <li onclick="modalSanet(1, '#modulo-9')"><i class="fas fa-chevron-right"></i> Admisión hospitalaria</li>
-              <li onclick="modalSanet(1, '#modulo-10')"><i class="fas fa-chevron-right"></i> Urgencias</li>
-              <li onclick="modalSanet(1, '#modulo-11')"><i class="fas fa-chevron-right"></i> Laboratorio</li>
-              <li onclick="modalSanet(1, '#modulo-12')"><i class="fas fa-chevron-right"></i> Banco de sangre</li>
-              <li onclick="modalSanet(1, '#modulo-13')"><i class="fas fa-chevron-right"></i> Imagenología</li>
-              <li onclick="modalSanet(1, '#modulo-14')"><i class="fas fa-chevron-right"></i> Consulta externa</li>
-              <li onclick="modalSanet(1, '#modulo-15')"><i class="fas fa-chevron-right"></i> Trabajo social</li>
-              <li onclick="modalSanet(1, '#modulo-16')"><i class="fas fa-chevron-right"></i> Administración de quirófanos</li>
-              <li onclick="modalSanet(1, '#modulo-17')"><i class="fas fa-chevron-right"></i> Enfermería</li>
-              <li onclick="modalSanet(1, '#modulo-18')"><i class="fas fa-chevron-right"></i> Defunciones</li>
-            </ol>
-          </li>
-          <li>
-            <ol >
-              <li onclick="modalSanet(1, '#modulo-19')"><i class="fas fa-chevron-right"></i> Indicaciones médicas </li>
-              <li onclick="modalSanet(1, '#modulo-20')"><i class="fas fa-chevron-right"></i> Expediente clínico electrónico</li>
-              <li onclick="modalSanet(1, '#modulo-21')"><i class="fas fa-chevron-right"></i> Control de activos</li>    
-              <li onclick="modalSanet(1, '#modulo-12')"><i class="fas fa-chevron-right"></i> Biblio hemeroteca y videoteca</li>
-              <li onclick="modalSanet(1, '#modulo-23')"><i class="fas fa-chevron-right"></i> Medio ambiente</li>
-              <li onclick="modalSanet(1, '#modulo-24')"><i class="fas fa-chevron-right"></i> Referencia y contrarreferencia</li>
-              <li onclick="modalSanet(1, '#modulo-25')"><i class="fas fa-chevron-right"></i> Donación de órganos</li>
-              <li onclick="modalSanet(1, '#modulo-26')"><i class="fas fa-chevron-right"></i> Investigación</li>
-            </ol>
-          </li>
-        </ul>
+        <p>
+          sanet cuenta con diferentes módulos y áreas asistenciales, lo que permite que la solución clínica sea el eje principal de la herramienta
+        </p>
+        <button>ver más detalles <i class="fas fa-angle-double-right"></i></button>
       </li>
       <li>
-        <span><img src="images/icons/modulos sih/pantalla-del-monitor.png"></span>
+        <span><img src="images/icons/modulos sih/medical-record.png"></span>
+        <h2>Módulos clínicos</h2>
+        <p>
+          sanet cuenta con diferentes módulos y áreas asistenciales, lo que permite que la solución clínica sea el eje principal de la herramienta
+        </p>
+        <button>ver más detalles <i class="fas fa-angle-double-right"></i></button>
+      </li>
+      <li>
+        <span><img src="images/icons/modulos sih/settings.png"></span>
         <h2>Módulos de configuración</h2>
-        <ol>
-          <li onclick="modalSanet(1, '#modulo-27')"><i class="fas fa-chevron-right"></i> Seguridad</li>
-          <li onclick="modalSanet(1, '#modulo-28')"><i class="fas fa-chevron-right"></i> Importador de datos</li>
-          <li onclick="modalSanet(1, '#modulo-29')"><i class="fas fa-chevron-right"></i> Administración del sistema</li>
-          <li onclick="modalSanet(1, '#modulo-30')"><i class="fas fa-chevron-right"></i> Flujo de trabajo</li>
-          <li onclick="modalSanet(1, '#modulo-31')"><i class="fas fa-chevron-right"></i> Cuestionarios</li>
-          <li onclick="modalSanet(1, '#modulo-32')"><i class="fas fa-chevron-right"></i> Formas</li>
-          <li onclick="modalSanet(1, '#modulo-33')"><i class="fas fa-chevron-right"></i> Interoperabilidad</li>
-        </ol>
+        <p>
+          sanet cuenta con diferentes módulos y áreas asistenciales, lo que permite que la solución clínica sea el eje principal de la herramienta
+        </p>
+        <button>ver más detalles <i class="fas fa-angle-double-right"></i></button>
       </li>
     </ul>
 
   </div>
 
-  <div class="bloque-3">
+</div>
+
+<div id="modulo-sih-content">
+
+  <div class="bloque-3" style="display: none;">
     <div>
       <h2>Expediente clínico electrónico</h2>
       <p>El expediente electrónico es la columna vertebral de la información del paciente, ya que contiene todos los eventos del paciente como son consultas médicas, urgencias, estudios ambulatorios e internamiento en hospital para tratamientos y/o cirugías.</p>
@@ -317,6 +270,18 @@
   </div>
 
 </div>
+
+<div id="modulo-index-content">
+
+  <div class="bloque-4">
+    <div>
+      <h2>Mejora la atención del paciente y resguarda de una manera segura los expedientes clínicos</h2>
+      <button onclick="window.location.href='./modulos-his';" >¡Quiero saber más!</button>
+    </div>
+  </div>
+
+</div>
+
 
 
 

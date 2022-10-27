@@ -24,13 +24,16 @@
         <li onclick="window.location.href='./sanet';">
           Sanet
         </li>
-        <li onclick="window.location.href='./sanet';">
+        <li onclick="window.location.href='./modulos-his';">
+          Módulos HIS
+        </li>
+        <li onclick="window.location.href='./modulos-his#modulos-administrativos';">
           Módulos administrativos
         </li>
-        <li onclick="window.location.href='./sanet';">
+        <li onclick="window.location.href='./modulos-his#modulos-clinicos';">
           Módulos clínicos
         </li>
-        <li onclick="window.location.href='./sanet';">
+        <li onclick="window.location.href='./modulos-his#modulos-configuracion';">
           Módulos de configuración
         </li>
       </ul>
@@ -128,7 +131,7 @@
         </li>
 
         <?php 
-        	if (isset($_GET['seccion']) && $_GET['seccion']=='sanet' ){
+        	if (isset($_GET['seccion']) && $_GET['seccion']=='modulos-his' ){
         		include("resources/secciones/modales/modales-sanet.php"); // MODALES - SANET
         	}
         ?>

@@ -23,8 +23,15 @@
         <li class="dropdown-menu-ttm <?php if(isset($_GET['seccion'])&&($_GET['seccion'])=='sanet'){echo 'active-section';} ?>">
           <a onclick="window.location.href='<?php echo $url;?>sanet';" >Sanet</a>
           <ol>
-            <li onclick="window.location.href='./sanet#modulos-his';" >Módulos HIS</li>
+            <li onclick="window.location.href='./modulos-his';" >Módulos HIS</li>
+            <li onclick="window.location.href='./modulos-his#modulos-administrativos';" >Módulos administrativos</li>
+            <li onclick="window.location.href='./modulos-his#modulos-clinicos';" >Módulos clínicos</li>
+            <li onclick="window.location.href='./modulos-his#modulos-configuracion';" >Módulos de configuración</li>
           </ol>
+        </li>
+
+        <li class="<?php if(isset($_GET['seccion'])&&($_GET['seccion'])=='precios'){echo 'active-section';} ?>">
+          <a onclick="window.location.href='<?php echo $url;?>precios';" >Precios</a>
         </li>
 
         <li class="<?php if(isset($_GET['seccion'])&&($_GET['seccion'])=='contacto'){echo 'active-section';} ?>">
@@ -54,11 +61,11 @@
             <li onclick="window.location.href='<?php echo $url;?>';">Inicio</li>
 
             <li>
-              <a onclick="window.location.href='<?php echo $url;?>quienes-somos';" >Quiénes somos</a>
+              <a onclick="window.location.href='<?php echo $url;?>quienes-somos';" >Sanet</a>
             </li>
 
             <li>
-              <a onclick="window.location.href='<?php echo $url;?>sanet';" >Sanet</a>
+              <a onclick="window.location.href='<?php echo $url;?>sanet';" >Módulos HIS</a>
             </li>
 
             <li>

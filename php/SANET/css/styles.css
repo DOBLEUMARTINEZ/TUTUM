@@ -790,6 +790,57 @@
             font-size: 1.2em;
         }
 
+    /* BLLQUE 1 */
+        #quienes-somos-content > .bloque-2{
+            width: 100%;
+            margin: 2% 0%;
+            padding: 5% 5%;
+        }
+
+        #quienes-somos-content > .bloque-2 > h2 {
+            width: 100%;
+            font-size: 3.2em;
+            font-weight: bold;
+            color: #CC6633;
+            letter-spacing: 0.5px;
+            position: relative;
+            text-align: center;
+            margin: 0% 0% 5% 0%;
+        }
+
+        #quienes-somos-content > .bloque-2 > ol{
+            width: 100%;
+            margin:0;
+            padding:0;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            list-style: none;
+        }
+
+        #quienes-somos-content > .bloque-2 > ol > li{
+            width: 25%;
+            text-align: center;
+        }
+
+        #quienes-somos-content > .bloque-2 > ol > li > h3{
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #CC6633;
+            font-family: 'Cocomat';
+            letter-spacing: 0.5px;
+        }
+
+        #quienes-somos-content > .bloque-2 > ol > li > img{
+            width: 30%;
+            transition: 0.3s;
+        }
+
+        #quienes-somos-content > .bloque-2 > ol > li > img:hover {
+            transform: translateY(-15px);
+        }
+
 /* SANET - BLOQUE 1 */
 
     #sanet-content > .bloque-1{
@@ -960,14 +1011,14 @@
 
         #modulo-sih-content > .bloque-1 > div > h1 {
             width: 100%;
-            font-size: 8em;
+            font-size: 4em;
             font-weight: bold;
             color: #CC6633;
-            font-family: 'Cocomat';
             letter-spacing: 0.5px;
             position: relative;
             text-align: center;
-            margin: 0%; 
+            margin: 0 0 5% 0;
+            line-height: 1.3em; 
         }
 
         #modulo-sih-content > .bloque-1 > div > h1 > span {
@@ -1313,6 +1364,257 @@
                 margin: 0;
                 padding: 0;
             }
+
+    /* BLOQUE 5 */
+
+        #modulo-sih-content > .bloque-5{
+            width: 100%;
+            margin: 0%;
+            padding: 0%;
+            position: relative;
+        }
+
+        #modulo-sih-content > .bloque-5 > div{
+            width: 100%;
+            padding: 7% 10%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            align-items: flex-start;
+        }
+
+        #modulo-sih-content > .bloque-5 > div > h2 {
+            width: 100%;
+            font-size: 3.2em;
+            font-weight: bold;
+            color: #CC6633;
+            letter-spacing: 0.5px;
+            position: relative;
+            margin: 2% 0% 2% 0%;
+        }
+
+        #modulo-sih-content > .bloque-5 > div > p {
+            width: 35%;
+            padding: 0%;
+            margin: 0;
+            font-size: 1.5em;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            color: #006666;
+        }
+
+        #modulo-sih-content > .bloque-5 > div > p> button {
+            margin: 30px 0 0 0;
+            padding: 2% 3%;
+            font-family: 'Cocomat';
+            font-weight: bold;
+            font-size: 1.1em;
+            background: #222;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            letter-spacing: 1.5px;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+
+        #modulo-sih-content > .bloque-5 > div > p> button:hover{
+            background: #CC6633; 
+        }
+
+        #modulo-sih-content > .bloque-5 > div > ol {
+            width: 35%;
+            list-style: none;
+            margin: 0;
+            position: 0;
+        }
+
+        #modulo-sih-content > .bloque-5 > div > ol > li {
+            font-size: 1.5em;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            color: #006666;
+            padding: 5px 30px;
+            position: relative;
+            cursor: pointer;
+        }
+
+        #modulo-sih-content > .bloque-5 > div > ol > li > i{
+            position: absolute;
+            left: -15px;
+            top: 10px;
+            
+        }
+
+        #modulo-sih-content > .bloque-5 > div > ol > li:hover {
+            color: #CC6633;
+        }
+
+        #modulo-sih-content > .bloque-5 > div > ol > li:hover i{
+            transform: translateX(5px);
+            transition: 0.3s;
+        }
+
+        #modulo-sih-content > .bloque-5 > div > div {
+            width: 20%;
+        }
+
+        #modulo-sih-content > .bloque-5 > div > div > img{
+            width: 100%;
+        }
+
+    /* BLOQUE 6 */
+
+        #modulo-sih-content > .bloque-6{
+            width: 100%;
+            margin: 0%;
+            padding: 0%;
+            position: relative;
+        }
+
+        #modulo-sih-content > .bloque-6 > ul{
+            width: 100%;
+            padding: 9% 5% 5% 5%;
+            margin:0;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            list-style: none;
+        }
+
+        #modulo-sih-content > .bloque-6 > ul > li{
+            width: 30%;
+            background: #ffffffe0;
+            padding: 1%;
+            border-radius: 3px;
+            box-shadow: 0px 0px 15px -7px #222222bf;
+        }
+
+        #modulo-sih-content > .bloque-6 > ul > li > h2{
+            width: 100%;
+            font-size: 3.2em;
+            font-weight: bold;
+            color: #CC6633;
+            letter-spacing: 0.5px;
+            position: relative;
+            margin: 2% 0% 2% 0%;
+        }
+
+        #modulo-sih-content > .bloque-6 > ul > li > p{
+            border-radius: 3px;
+            font-size: 1.5em;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            color: #006666;
+        }
+
+        #modulo-sih-content > .bloque-6 > ul > li > p > button {
+            margin: 0;
+            padding: 2% 2%;
+            font-family: 'Cocomat';
+            font-weight: bold;
+            font-size: 1.1em;
+            background: #006666;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            letter-spacing: 1.5px;
+            transition: 0.3s;
+            cursor: pointer;
+            border: 2px solid #0000;
+            margin-top: 20px;
+        }
+
+        #modulo-sih-content > .bloque-6 > ul > li > p > button:hover{
+            background: #fff;
+            border: 2px solid #006666;
+            color: #CC6633;
+        }
+
+        #modulo-sih-content > .bloque-6 > ul > li > ol{
+            list-style: none;
+            margin: 0;
+        }
+
+        #modulo-sih-content > .bloque-6 > ul > li > ol > li{
+            font-size: 1.5em;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            color: #006666;
+            padding: 5px 30px;
+            position: relative;
+            cursor: pointer;
+        }
+
+        #modulo-sih-content > .bloque-6 > ul > li > ol > li > i{
+            position: absolute;
+            left: -15px;
+            top: 10px;
+            
+        }
+
+        #modulo-sih-content > .bloque-6 > ul > li > ol > li:hover {
+            color: #CC6633;
+        }
+
+        #modulo-sih-content > .bloque-6 > ul > li > ol > li:hover i{
+            transform: translateX(5px);
+            transition: 0.3s;
+        }
+
+    /* BLOQUE 7 */
+
+        #modulo-sih-content > .bloque-7{
+            width: 100%;
+            margin: 0%;
+            padding: 0%;
+            position: relative;
+        }
+
+        #modulo-sih-content > .bloque-7 > div {
+            width: 100%;
+            margin: 0%;
+            padding: 3% 5%;
+            position: relative;
+            background: #999999;
+            text-align: center;
+        }
+
+        #modulo-sih-content > .bloque-7 > div > h2{
+            font-size: 3.5em;
+            font-weight: bold;
+            color: #fff;
+            letter-spacing: 0.5px;
+        }
+
+        #modulo-sih-content > .bloque-7 > div > p{
+            font-size: 1.8em;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            color: #ffffff;
+        }
+
+        #modulo-sih-content > .bloque-7 > div > button{
+            margin: 0;
+            padding: 1% 2%;
+            font-family: 'Cocomat';
+            font-weight: bold;
+            font-size: 1.5em;
+            background: #cc6633;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            letter-spacing: 1.5px;
+            transition: 0.3s;
+            cursor: pointer;
+            border: 2px solid #0000;
+            margin-top: 20px;
+        }
+
+        #modulo-sih-content > .bloque-7 > div > button:hover{
+            background: #222;
+        }
 
 /* CONTACTO */
     #modulo-contact-content {

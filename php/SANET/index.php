@@ -44,7 +44,7 @@ echo '<body>'; // INICIO CUERPO
             include("resources/secciones/nuestra-experiencia.php"); // NUESTRA EXPERIENCIA
           break;  
 
-        case 'modulos-sih':
+        case 'modulos-his':
           include("resources/secciones/modulos-sih.php"); // MODULOS SIH
           break;
 
