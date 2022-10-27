@@ -4,16 +4,16 @@
     <li>
       <h3><span>|</span> Menu</h3>
       <ul>
-        <li>
+        <li onclick="window.location.href='./';">
           Inicio
         </li>
-        <li>
+        <li onclick="window.location.href='./quienes-somos';" >
           Quiénes somos
         </li>
-        <li>
+        <li onclick="window.location.href='./sanet';">
           Sanet
         </li>
-        <li>
+        <li onclick="window.location.href='./contacto';">
           Contacto
         </li>
       </ul>
@@ -21,16 +21,16 @@
     <li>
       <h3><span>|</span> Soluciónes</h3>
       <ul>
-        <li>
+        <li onclick="window.location.href='./sanet';">
           Sanet
         </li>
-        <li>
+        <li onclick="window.location.href='./sanet';">
           Módulos administrativos
         </li>
-        <li>
+        <li onclick="window.location.href='./sanet';">
           Módulos clínicos
         </li>
-        <li>
+        <li onclick="window.location.href='./sanet';">
           Módulos de configuración
         </li>
       </ul>
@@ -38,20 +38,24 @@
     <li>
       <h3><span>|</span> Contacto</h3>
       <ul>
-        <li>
+        <li onclick="window.location.href='./';" >
           Email
         </li>
-        <li>
+        <li onclick="window.location.href='./';" >
           Teléfono
         </li>
-        <li>
+        <li onclick="window.location.href='./';" >
           Whatsapp
-        </li>      </ul>
+        </li>
+        <li onclick="modalSanet(1, 'contacto')">
+          Formulario de contacto
+        </li>
+      </ul>
     </li>
     <li>
       <h3><span>|</span> Ubicación</h3>
       <ul>
-        <li>
+        <li onclick="window.location.href='./';">
           México
         </li>
       </ul>
@@ -59,13 +63,13 @@
     <li>
       <img src="images/logo/logo-white.png">
       <ol>
-        <li>
+        <li onclick="window.location.href='./';">
           <i class="fab fa-facebook-square"></i>
         </li>
-        <li>
+        <li onclick="window.location.href='./';">
           <i class="fab fa-linkedin"></i>
         </li>
-        <li>
+        <li onclick="window.location.href='./';">
           <i class="fab fa-twitter-square"></i>
         </li>
       </ol>
@@ -73,7 +77,7 @@
   </ol>
 
 	<p class="copyrigt">
-		Copyright © <span>2022</span> <a onclick="window.open('http://www.tutum.com.mx/')">sanet.com.mx</a>, Todos los derechos reservados.<a>Términos y Condiciones.</a> <a>Aviso de Privacidad</a>.
+		Copyright © <span>2022</span> <a onclick="window.location.href='./';" >sanet.com.mx</a>, Todos los derechos reservados.<a>Términos y Condiciones.</a> <a>Aviso de Privacidad</a>.
 	</p>
 </div>
 

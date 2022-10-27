@@ -1,3 +1,8 @@
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-THNMQ4L"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
 
 <div class="slider">
 	
@@ -98,7 +103,9 @@
 					<img src="resources/images/desarrollos/TUTUM.png" loading="lazy" >
 				</li>
 			</ul>
-		</div>	
+		</div>
+
+		
 
 	</div>
 

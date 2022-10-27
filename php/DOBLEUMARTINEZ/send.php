@@ -3,7 +3,6 @@
 if (isset($_POST['action'])||isset($_GET['action'])) {
 
   if ($_POST['action']=='new_contact') { // new contact
-
     echo "new contact";
     
     $email_to = "contacto@dobleumartinez.com";
@@ -71,7 +70,9 @@ if (isset($_POST['action'])||isset($_GET['action'])) {
 
             echo "<script>window.location.href='./gracias';</script>";
             exit();
-  }else{
+   
+    }else{
+
       if(!isset($_POST['nombre']) ||
           !isset($_POST['email']) ||
           !isset($_POST['telefono']) ||
