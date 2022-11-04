@@ -61,11 +61,27 @@
             <li onclick="window.location.href='<?php echo $url;?>';">Inicio</li>
 
             <li>
-              <a onclick="window.location.href='<?php echo $url;?>quienes-somos';" >Sanet</a>
+              <a onclick="window.location.href='<?php echo $url;?>quienes-somos';" >Quiénes somos</a>
             </li>
 
             <li>
-              <a onclick="window.location.href='<?php echo $url;?>sanet';" >Módulos HIS</a>
+              <a onclick="window.location.href='./sanet';" >Sanet</a>
+            </li>
+
+            <li>
+              <a onclick="window.location.href='./modulos-his';" >Módulos HIS</a>
+            </li>
+
+            <li onclick="window.location.href='./modulos-his#modulos-administrativos';" >
+              Módulos administrativos
+            </li>
+
+            <li onclick="window.location.href='./modulos-his#modulos-clinicos';" >
+              Módulos clínicos
+            </li>
+
+            <li onclick="window.location.href='./modulos-his#modulos-configuracion';" >
+              Módulos de configuración
             </li>
 
             <li>

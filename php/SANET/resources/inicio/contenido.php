@@ -10,6 +10,7 @@
   </div>
 
   <img src="images/img/banner-2.jpg"  class="desktop" style="opacity: 0.6;">
+  <img src="images/img/banner-2-tablet.jpg" class="tablet">
   <img src="images/img/banner-2-mobil.jpg" class="mobil">
 
   <!-- BACKGROUND VIDEO 
@@ -37,7 +38,7 @@
         <p>
           sanet cuenta con diferentes módulos y áreas asistenciales, lo que permite que la solución clínica sea el eje principal de la herramienta
         </p>
-        <button>ver más detalles <i class="fas fa-angle-double-right"></i></button>
+        <button onclick="window.location.href='./modulos-his#modulos-administrativos';">ver más detalles <i class="fas fa-angle-double-right"></i></button>
       </li>
       <li>
         <span><img src="images/icons/modulos sih/medical-record.png"></span>
@@ -45,7 +46,7 @@
         <p>
           sanet cuenta con diferentes módulos y áreas asistenciales, lo que permite que la solución clínica sea el eje principal de la herramienta
         </p>
-        <button>ver más detalles <i class="fas fa-angle-double-right"></i></button>
+        <button onclick="window.location.href='./modulos-his#modulos-clinicos';">ver más detalles <i class="fas fa-angle-double-right"></i></button>
       </li>
       <li>
         <span><img src="images/icons/modulos sih/settings.png"></span>
@@ -53,7 +54,7 @@
         <p>
           sanet cuenta con diferentes módulos y áreas asistenciales, lo que permite que la solución clínica sea el eje principal de la herramienta
         </p>
-        <button>ver más detalles <i class="fas fa-angle-double-right"></i></button>
+        <button onclick="window.location.href='./modulos-his#modulos-configuracion';" >ver más detalles <i class="fas fa-angle-double-right"></i></button>
       </li>
     </ul>
 
@@ -68,7 +69,9 @@
       <button onclick="modalSanet(1, 'contacto')" >Solicita una reunión</button>
     </div>
     <div>
-      <img src="images/img/inicio-2.jpg">
+      <img src="images/img/inicio-2.jpg" class="desktop">
+      <img src="images/img/inicio-2-tablet.jpg" class="tablet">
+      <img src="images/img/inicio-2-tablet.jpg" class="mobil">
     </div>
   </div>
 

@@ -112,7 +112,7 @@
     <div>
       <h2>Un verdadero sistema hospitalario</h2>
       <p>Seguridad de la información, Modular y flexible adapdable a las necesidades de cada hospital.</p>
-      <button>Haz crecer tu hospital</button>
+      <button onclick="modalSanet(1, 'contacto')" >Haz crecer tu hospital</button>
     </div>
   </div>
 

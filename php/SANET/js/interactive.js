@@ -14,7 +14,7 @@ function modalSanet(a, b){
 
     if ('contacto'==b) {
 
-      $('#modulo-contacto').toggle();
+      $('#modulo-contacto').removeClass('modulo-off');
 
     }else{
 
@@ -25,8 +25,8 @@ function modalSanet(a, b){
 
     element.classList.remove("modal-active");
 
-    //
-    $('#modulo-contacto').toggle();
+    //close 
+    $('#modulo-contacto').addClass('modulo-off');
 
     for (var i = 1; i <= 33; i++) {
       $('#modulo-'+i).addClass('modulo-off');
@@ -40,6 +40,7 @@ function modalclose(){
   $('#modulo-contacto').toggle();
 }
 
+/**/
 function soloLetras(e) {
     var key = e.keyCode || e.which,
       tecla = String.fromCharCode(key).toLowerCase(),

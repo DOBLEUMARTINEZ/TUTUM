@@ -324,15 +324,15 @@
             width: 200%;
             text-align: left;
             background: #99cccc;
-            top: 2em;
+            top: 50px;
             font-weight: bold;
             letter-spacing: 0.5px;
-            font-size: 1.1em;
+            font-size: 1.5em;
             display: none;
         }
 
         .nav-bar > .container-header-mobil > ol > li > .menu-mobil > li{
-            padding: 3% 0;
+            padding: 2% 0;
         }
 
 /* INDEX -BANNER INICIO */
@@ -531,7 +531,7 @@
         
         #modulo-index-content > .bloque-2 > ul > li > h2 {
             width: 100%;
-            margin: 30px 0 0 0;
+            margin: 20px 0 15px 0;
             padding: 0;
             font-size: 2.5em;
             font-weight: bold;
@@ -2027,7 +2027,7 @@
 
     /**/
 
-    #modulo-contacto , .modulo-off{
+    .modulo-off{
         display: none;
     }
 
@@ -2042,12 +2042,13 @@
 
     .footer > ol{
         width: 100%;
-        margin: 0%;
+        margin: 0% 0% 3% 0%;
         padding: 0%;
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
         list-style: none;
+        flex-wrap: wrap;
     }
 
     .footer > ol > li{
@@ -2080,6 +2081,7 @@
         padding: 0%;
         text-align: left;
         list-style: none;
+        line-height: 3em;
     }
 
     .footer > ol > li > ul > li{
@@ -2102,7 +2104,7 @@
     .footer > ol > li > ol{
         width: 100%;
         list-style: none;
-        margin: 2% 0% 0% 0%;
+        margin: 15% 0% 0% 0%;
         padding: 0%;
         display: flex;
         justify-content: space-around;
@@ -2145,25 +2147,82 @@
 /* RESPOSIVE */
 @media(max-width: 1440px){
 
-    /*  */
+    /* INICIO */
         #modulo-index-content > .bloque-1 > h1 {
             font-size: 3em;
         }
 
         #modulo-index-content > .bloque-1 > p {
-            font-size: 1em;
+            font-size: 1.2em;
         }
 
-    /*QUIENES SOMOS - bloque 1*/
-        #quienes-somos-content > .bloque-1 > ul > li > div > h1 {
-            font-size: 4em;
-            margin-bottom: 2.5%;
-        }
+    /*QUIENES SOMOS */
 
-        #quienes-somos-content > .bloque-1 > ul > li > div > p {
-            font-size: 1em;
-            padding: 1% 10% 0 10%;
-        }
+        /* BLOQUE 0 */
+            #modulo-index-content > .bloque-0 > div > h2 {
+                line-height: 1.2em;
+                font-size: 3.2em;
+            }
+
+            #modulo-index-content > .bloque-0 > div > p {
+                font-size: 1.2em;
+            }
+
+        /* BLOQUE 1 */
+            #quienes-somos-content > .bloque-1 > ul > li > div > h1 {
+                font-size: 3.2em;
+                margin-bottom: 0%;
+            }
+
+            #quienes-somos-content > .bloque-1 > ul > li > div > p {
+                font-size: 1.2em;
+                padding: 0% 10% 0 10%;
+            }
+
+            #nuestra-experiencia-content > .bloque-1 > ul > li > h1 {
+                font-size: 3.2em;
+            }
+
+            #nuestra-experiencia-content > .bloque-1 > ul > li > p {
+                padding: 1% 25% 0 5%;
+                font-size: 1.2em;
+            }
+
+        /* BLOQUE 2 */
+            #modulo-index-content > .bloque-2 > ul > li > h2 {
+                font-size: 2em;
+            }
+
+            #quienes-somos-content > .bloque-2 > h2 {
+                font-size: 3.2em;
+                margin: 0% 0% 2% 0%;
+            }
+
+            #quienes-somos-content > .bloque-2 > ol > li > h3 {
+                font-size: 2em;
+            }
+
+            #modulo-index-content > .bloque-2 > ul > li > p {
+                font-size: 1em;
+            }
+
+        /* BLOQUE 3 */
+            #modulo-index-content > .bloque-3 > div > h2 {
+                font-size: 3em;
+            }
+
+            #modulo-index-content > .bloque-3 > div > p {
+                font-size: 1.2em;
+            }
+
+            #modulo-index-content > .bloque-3 > div > ol > li {
+                font-size: 1em;
+            }
+
+        /* BLOQUE 4 */
+            #modulo-index-content > .bloque-4 > div > h2 {
+                font-size: 3em;
+            }
 
     /* SANET - BLOQUE 1 */
         #sanet-content > .bloque-1 > div{
@@ -2174,7 +2233,7 @@
             top: 10%;
             left: 0%;
             padding: 0 4%;
-            font-size: 1em;
+            font-size: 1.2em;
         }
 
         #sanet-content > .bloque-1 > div > p > a{
@@ -2183,18 +2242,8 @@
 
         #sanet-content > .bloque-1 >div::before {
             font-size: 7em;
-            top: -20%;
-            left: -25%;
-        }
-
-    /* NUESTRA EXPERIENCIA - BLOQUE 1 */
-        #nuestra-experiencia-content > .bloque-1 > ul > li > h1 {
-            font-size: 4em;
-        }
-
-        #nuestra-experiencia-content > .bloque-1 > ul > li > p {
-            padding: 1% 25% 0 5%;
-            font-size: 1em;
+            top: -12%;
+            left: -21%;
         }
 
     /* MODULOS SIH */
@@ -2202,12 +2251,12 @@
         /* BLOQUE 1 */
 
             #modulo-sih-content > .bloque-1 > div > h1 {
-                font-size: 6em;
+                font-size: 3em;
             }
 
             #modulo-sih-content > .bloque-1 > div > p {
                 padding: 0% 5% 0 5%;
-                font-size: 1em;
+                font-size: 1.2em;
             }
 
         /* BLOQUE 2 */
@@ -2243,7 +2292,7 @@
             }
 
             #modulo-sih-content > .bloque-4 .content-slider > div > ol > li > h2 {
-                font-size: 3.5em;
+                font-size: 3em;
             }
 
             #modulo-sih-content > .bloque-4 .content-slider > div > ol > li > p {
@@ -2259,7 +2308,37 @@
                 font-size: 1em;
             }
 
+        /* BLOQUE 5 */
+            #modulo-sih-content > .bloque-5 > div > h2 {
+                font-size: 3em;
+            }
+
+            #modulo-sih-content > .bloque-5 > div > p {
+                font-size: 1.2em;
+            }
+
+            #modulo-sih-content > .bloque-5 > div > ol > li {
+                font-size: 1.2em;
+            }
+
+        /* BLOQUE 6 */
+            #modulo-sih-content > .bloque-6 > ul > li > h2 {
+                font-size: 3em;
+            }
+
+            #modulo-sih-content > .bloque-6 > ul > li > p {
+                font-size: 1.2em;
+            }
+
+            #modulo-sih-content > .bloque-6 > ul > li > ol > li {
+                font-size: 1.2em;
+            }
+
     /* MODALES */ 
+
+        #modales-content > .modal-sanet > div > ol > li > form > h3 {
+            font-size: 3em;
+        }
 
         #modales-content > .modal-sanet > div {
             margin: 5% 0 5% 15%;
@@ -2275,16 +2354,16 @@
 
     /* CONTACTO */
         #modulo-contact-content > .bloque-1 > ul > li > h2 {
-            font-size: 3em;
+            font-size: 2.5em;
         }
 
         #modulo-contact-content > .bloque-1 > ul > li > p {
-            font-size: 1em;
+            font-size: 1.2em;
         }
 
         /* FORM */
             #modulo-contact-content > .bloque-1 > ol > li {
-                font-size: 1.5em;
+                font-size: 1.2em;
             }
 
     /**/
@@ -2302,6 +2381,10 @@
             margin: 5% 0% 0% 0%;
         }
 
+    /* FOOTER */
+        .footer{
+            padding: 3% 5% 1% 5%;
+        }
 }
 
 @media(max-width: 1024px){
@@ -2311,14 +2394,102 @@
             font-size: 0.9em;
         }
 
-    /* QUIENES SOMOS -BLOQUE 1 */
-        #quienes-somos-content > .bloque-1 > ul > li > div > h1 {
-            font-size: 3em;
-            margin-bottom: 2%;
+        #square-banner-index > div > i {
+            font-size: 2em;
         }
 
-        #quienes-somos-content > .bloque-1 > ul > li > div > p {
+    /* INICIO */
+        #square-banner-index > div {
+            top: 10em;
+        }
+
+        /* BLOQUE 0 */
+            #modulo-index-content > .bloque-0 > div > h2 {
+                line-height: 1.2em;
+                font-size: 2em;
+            }
+
+            #modulo-index-content > .bloque-0 > div > p {
+                font-size: 1em;
+            }
+
+            #modulo-index-content > .bloque-0 > div > button {
+                font-size: 1.2em;
+            }
+
+        /* BLOQUE 1 */
+            #modulo-index-content > .bloque-1 > h2 {
+                font-size: 2em;
+            }
+
+            #modulo-index-content > .bloque-1 > p {
+                font-size: 1em;
+            }
+
+        /* BLOQUE 2 */
+            #modulo-index-content > .bloque-2 > ul {
+                width: 90%;
+                margin-left: 5%;
+            }
+
+            #modulo-index-content > .bloque-2 > ul > li {
+                width: 32%;
+            }
+
+        /* BLOQUE 3 */
+
+            #modulo-index-content > .bloque-3 {
+                justify-content: space-around;
+                flex-direction: column-reverse;
+                align-items: center;
+            }
+
+            #modulo-index-content > .bloque-3 > div {
+                width: 90%;
+                position: relative;
+            }
+
+            #modulo-index-content > .bloque-3 > div > h2 {
+                font-size: 2em;
+                text-align: center;
+            }
+
+            #modulo-index-content > .bloque-3 > div > p {
+                font-size: 1em;
+                text-align: center;
+                padding: 0 0;
+            }
+
+            #modulo-index-content > .bloque-3 > div > ol {
+                padding: 5% 5% 0% 5%;
+            }
+
+            #modulo-index-content > .bloque-3 > div >img {
+                width: 50%;
+                position: absolute;
+                right: 0;
+                bottom: -30px;
+            }
+
+        /* BLOQUE 4 */
+
+            #modulo-index-content > .bloque-4 > div > h2 {
+                font-size: 2em;
+            }
+
+            #modulo-index-content > .bloque-4 > div > button {
+                font-size: 1.2em;
+            }
+
+    /* QUIENES SOMOS -BLOQUE 1 */
+        #quienes-somos-content > .bloque-1 > ul > li > div > h1 {
+            font-size: 2em;
+            margin-bottom: 1%;
+        }
+
+       #quienes-somos-content > .bloque-1 > ul > li > div > p {
             font-size: 1em;
+            margin: 0;
             padding: 1% 10% 0 10%;
         }
 
@@ -2344,9 +2515,20 @@
             left: -22%;
         }
 
+        /* BLOQUE 2 */
+            #quienes-somos-content > .bloque-2 > h2 {
+                font-size: 2em;
+                margin: 0% 0% 5% 0%;
+            }
+
+            #quienes-somos-content > .bloque-2 > ol > li > h3 {
+                font-size: 1.5em;
+            }
+
     /* NUESTRA EXPERIENCIA - BLOQUE 1 */
         #nuestra-experiencia-content > .bloque-1 > ul > li > h1 {
-            font-size: 3em;
+            font-size: 2em;
+            margin-left: 5%;
         }
 
         #nuestra-experiencia-content > .bloque-1 > ul > li > p {
@@ -2357,9 +2539,8 @@
     /* MODULOS SIH */
 
         /* BLOQUE 1 */
-
             #modulo-sih-content > .bloque-1 > div > h1 {
-                font-size: 5em;
+                font-size: 2em;
             }
 
             #modulo-sih-content > .bloque-1 > div > p {
@@ -2415,11 +2596,64 @@
                 font-size: 0.8em;
             }
 
+        /* BLOQUE 5  */
+            #modulo-sih-content > .bloque-5 > div > h2 {
+                font-size: 2em;
+            }
+
+            #modulo-sih-content > .bloque-5 > div > p {
+                font-size: 1em;
+            }
+
+            #modulo-sih-content > .bloque-5 > div > ol > li {
+                font-size: 1em;
+            }
+
+        /* BLOQUE 6 */
+            #modulo-sih-content > .bloque-6 > ul > li > h2 {
+                font-size: 2em;
+            }
+
+            #modulo-sih-content > .bloque-6 > ul > li > p {
+                font-size: 1em;
+            }
+
+            #modulo-sih-content > .bloque-6 > ul > li > ol > li {
+                font-size: 1em;
+            }
+
+        /* BLOQUE 7 */
+            #modulo-sih-content > .bloque-7 > div > h2 {
+                font-size: 3em;
+            }
+
+            #modulo-sih-content > .bloque-7 > div > p {
+                font-size: 1.2em;
+            }
+
     /* MODAL */
+
+        #modales-content > .modal-sanet > div > ol > li > form > h3 {
+            font-size: 2em;
+        }
+
+        #modales-content > .modal-sanet > div > ol > li > form > p {
+            font-size: 1em;
+        }
+
+        #modales-content > .modal-sanet > div > ol > li > form > ul > li {
+            font-size: 1em;
+        } 
+
+        #modales-content > .modal-sanet > div > ol > li > form button {
+            font-size: 1.5em;
+        }
 
         #modales-content > .modal-sanet > div {
             margin: 7% 0 5% 15%;
         }
+
+
 
         #modales-content > .modal-sanet > div > ol > li > p > button {
             width: 100%;
@@ -2431,8 +2665,29 @@
             font-size: 2em;
         }
 
+        #modulo-contact-content > .bloque-1 > ul > li > p {
+            font-size: 1em;
+        }
+
         #modulo-contact-content > .bloque-1 > ol > li {
             width: 35%;
+        }
+
+    /* FOOTER */
+        .footer > ol > li > ul {
+            line-height: 2em;
+        }
+
+        .footer > ol > li > ul > li {
+            font-size: 1em;
+        }
+
+        .footer > ol > li > h3 {
+            font-size: 1.2em;
+        }
+
+        .footer > p {
+            font-size: 0.8em;
         }
 }
 
@@ -2466,32 +2721,111 @@
             width: 100%;
         } 
 
+        .nav-bar > .container-header-mobil > ol > li > i {
+            font-weight: bold;
+            font-size: 2em;
+            color: #006666;
+        }
+
         .nav-bar > .container-header-mobil > ol > li > img {
-            width: 30%;
-            margin-right: 70%;
-        }  
+            width: 50%;
+            margin: 2% 50% 2% 0%;
+        } 
 
     /* INDEX - BANNER INICIO */
+
+
         #square-banner-index > div {
-            top: 10em;
+            top: 25em;
         }
 
-    /* QUIENES SOMOS- bloque 1 */
-        #quienes-somos-content > .bloque-1 > ul > li > div {
-            width: 90%;
-            top: 25%;
+        #square-banner-index > div > img {
+            width: 60%;
         }
 
-        #quienes-somos-content > .bloque-1 > ul > li > div > h1 {
-            font-size: 2.3em;
-            margin-bottom: 1%;
+        #square-banner-index > div > i {
+            font-size: 3em;
         }
+        /* BLOQUE 0*/
 
-        #quienes-somos-content > .bloque-1 > ul > li > div > p {
-            font-size: 1em;
-            padding: 1% 5% 0 5%;
-            margin-bottom: 10%;
-        }
+            #modulo-index-content > .bloque-0 {
+                flex-direction: column;
+            }
+
+            #modulo-index-content > .bloque-0 > div {
+                width: 100%;
+                text-align: center;
+            }
+
+            #modulo-index-content > .bloque-0 > div > button {
+                margin: 2% 0 2% 0%;
+                padding: 1% 3%;
+            }
+
+        /* BLOQUE 2 */
+
+            #modulo-index-content > .bloque-2 {
+                padding: 0% 0 5% 0;
+            }
+
+            #modulo-index-content > .bloque-2 > ul {
+                justify-content: space-between;
+                flex-wrap: wrap;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            #modulo-index-content > .bloque-2 > ul > li {
+                width: 80%;
+                margin-top: 15%;
+            }
+
+        /* BLOQUE 3 */
+            #modulo-index-content > .bloque-3 > div >img {
+                width: 100%;
+                margin-top: 5%;
+                position: unset;
+            }
+
+        /* BLOQUE 4 */
+            #modulo-index-content > .bloque-4 {
+                padding: 0% 0% 5% 0;
+            }
+
+            #modulo-index-content > .bloque-4 > div {
+                width: 80%;
+                margin: 5% 0% 0% 10%;
+                padding: 2%;
+            }
+
+            #modulo-index-content > .bloque-4 > div > h2 {
+                font-size: 1.8em;
+            }
+
+    /* QUIENES SOMOS */
+
+        /* BLOQUE 1 */
+            #quienes-somos-content > .bloque-1 {
+                width: 100%;
+                margin: 10% 0 0 0;
+                padding: 0;
+            }
+
+            #quienes-somos-content > .bloque-1 > ul > li > div {
+                width: 90%;
+                top: 25%;
+            }
+
+            #quienes-somos-content > .bloque-1 > ul > li > div > h1 {
+                font-size: 2.3em;
+                margin-bottom: 1%;
+            }
+
+            #quienes-somos-content > .bloque-1 > ul > li > div > p {
+                font-size: 1em;
+                padding: 1% 5% 0 5%;
+                margin-bottom: 10%;
+            }
 
     /* SANET - BLOQUE 1 */
         #sanet-content > .bloque-1 > div{
@@ -2534,7 +2868,7 @@
 
         #nuestra-experiencia-content > .bloque-1 > ul {
             width: 100%;
-            margin: 15% 0 0 0;
+            margin: 0% 0 0 0;
         }
 
         #nuestra-experiencia-content > .bloque-1 > ul > li > h1 {
@@ -2567,7 +2901,7 @@
             }
 
             #modulo-sih-content > .bloque-1 > div > h1 {
-                font-size: 4em;
+                font-size: 2em;
             }
 
             #modulo-sih-content > .bloque-1 > div > p {
@@ -2643,6 +2977,43 @@
                 padding-left: 3%;
             }
 
+        /* BLOQUE 5 */
+
+            #modulo-sih-content > .bloque-5 > div > h2 {
+                font-size: 2em;
+                text-align: center;
+            }
+
+            #modulo-sih-content > .bloque-5 > div > p {
+                font-size: 1em;
+                width: 100%;
+                text-align: center;
+            }
+
+            #modulo-sih-content > .bloque-5 > div > p> button {
+                margin: 20px 0 20px 0;
+            }
+
+            #modulo-sih-content > .bloque-5 > div > ol {
+                width: 60%;
+            }
+
+            #modulo-sih-content > .bloque-5 > div > div {
+                width: 40%;
+            }
+
+        /*  BLOQUE 6 */
+
+            #modulo-sih-content > .bloque-6 > ul {
+                justify-content: center;
+            }
+
+            #modulo-sih-content > .bloque-6 > ul > li {
+                width: 85%;
+                padding: 3%;
+                margin: 2% 0;
+            }
+
     /* MODAL */
         #modales-content > .modal-sanet > div {
             margin: 5% 0 5% 5%;
@@ -2690,6 +3061,10 @@
             margin: 5% 0% 0% 0%;
         }
 
+    /* FOOTER */
+        .footer > ol > li {
+            width: 33%;
+        }
 }
 
 @media(max-width: 425px){
@@ -2713,27 +3088,44 @@
         }
 
 
+        /**/
 
-        #square-banner-index > div > img {
-            width: 100%;
-            padding: 10% 0%;
-            background: #ffffffb8;
-        }
+            #square-banner-index > div {
+                top: 10em;
+                background: #ffffffdb;
+            }
 
-        #square-banner-index > div > i {
-            margin-top: -10%;
-        }
+            #square-banner-index > div > img {
+                width: 90%;
+                padding: 5% 0%;
+            }
 
-        .nav-bar > .container-header-mobil > ol > li > img {
-            width: 70%;
-            margin-right: 30%;
-        }
+            #square-banner-index > div > i {
+                margin-top: -10%;
+            }
+
+            .nav-bar > .container-header-mobil > ol > li > img {
+                width: 70%;
+                margin-right: 30%;
+            }
+
+        /* BLOQUE 2 */
+            #modulo-index-content > .bloque-2 > ul > li {
+                width: 80%;
+                margin-top: 30%;
+            }
     
     /* QUIENES SOMOS - BLOQUE 1 */
+        #quienes-somos-content > .bloque-1 {
+            width: 100%;
+            margin: 20% 0 0 0;
+            padding: 0;
+        }
+
         #quienes-somos-content > .bloque-1 > ul {
             flex-direction: column;
             flex-wrap: wrap;
-            margin-top: 20%;
+            margin-top: 0%;
         }
 
         #quienes-somos-content > .bloque-1 > ul >li {
@@ -2766,6 +3158,14 @@
             margin: 0% 10%;
         }
 
+        /**/
+
+            #quienes-somos-content > .bloque-2 > ol > li {
+                width: 50%;
+                text-align: center;
+                margin-top: 10%;
+            }
+
     /* SANET - BLOQUE 1 */
 
         #sanet-content > .bloque-1 > div {
@@ -2780,8 +3180,21 @@
         }
 
     /* NUESTRA EXPERIENCIA - BLOQUE 1 */
+
         #nuestra-experiencia-content > .bloque-1 > ul {
-            margin: 22% 0 0 0;
+            margin: 0% 0 0 0;
+        }
+
+        #nuestra-experiencia-content > .bloque-1 > ul > li > h1 {
+            font-size: 2.3em;
+            margin-left: 0;
+            text-align: center;
+        }
+
+        #nuestra-experiencia-content > .bloque-1 > ul > li > p {
+            padding: 1% 5% 5% 5%;
+            font-size: 1em;
+            text-align: center;
         }
 
     /* MODULOS SIH */
@@ -2889,6 +3302,26 @@
                 padding: 0% 5% 5% 5%;
             }
 
+        /* BLOQUE 6 */
+
+            #modulo-sih-content > .bloque-5 > div > ol {
+                width: 100%;
+            }
+
+            #modulo-sih-content > .bloque-5 > div > div {
+                width: 100%;
+            }
+
+            #modulo-sih-content > .bloque-5 > div > div > img {
+                width: 50%;
+                margin-left: 25%;
+            }
+
+        /* BLOQUE 7 */
+            #modulo-sih-content > .bloque-7 > div > h2 {
+                font-size: 2em;
+            }
+
     /*CONTACTO */
 
         #modulo-contact-content > .bloque-1 > ol {
@@ -2943,6 +3376,11 @@
 
         .thank-you > ol > li > ul > li {
             margin: 4% 0%;
+        }
+
+    /* FOOTER */
+        .footer > ol > li {
+            width: 100%;
         }
 }
 

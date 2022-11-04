@@ -95,7 +95,7 @@
 
       <ol>
         
-        <li id="modulo-contacto">
+        <li id="modulo-contacto" class="modulo-off">
           <form action="./" method="POST" enctype="multipart/form-data" >
             <h3>Contáctanos</h3>
           <p>

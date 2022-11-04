@@ -26,7 +26,7 @@
  </div>
 
   <div class="bloque-2">
-    <h2>Nestros valores</h2>
+    <h2>Nuestros valores</h2>
     <ol>
       <li>
         <img src="images/icons/modulos sih/shield.png">
