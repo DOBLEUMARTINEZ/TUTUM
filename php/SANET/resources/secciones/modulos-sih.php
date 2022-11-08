@@ -2,7 +2,7 @@
 
   <div class="bloque-1">
 
-    <video class="video" loading="lazy" src="images/SOLUCIONES.mp4" autoplay="" muted="" loop=""></video>
+    <video class="video desktop" loading="lazy" src="images/SOLUCIONES.mp4" autoplay="" muted="" loop=""></video>
 
     <div>
       <h1>Los módulos con los que trabaja nuestro HIS</h1>

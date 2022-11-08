@@ -97,7 +97,7 @@
         
         <li id="modulo-contacto" class="modulo-off">
           <form action="./" method="POST" enctype="multipart/form-data" >
-            <h3>Contáctanos</h3>
+            <h2>Contáctanos</h2>
           <p>
             Llena el formulario de contacto para conocer más de alguna de nuestras soluciones.
           </p>

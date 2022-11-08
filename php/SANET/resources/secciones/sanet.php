@@ -72,7 +72,7 @@
     <video class="video" loading="lazy" src="images/SOLUCIONES.mp4" autoplay="" muted="" loop=""></video>
   </div>
 
-  <div class="bloque-4">
+  <div class="bloque-4 desktop">
 
     <!-- Bootstrap core CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">

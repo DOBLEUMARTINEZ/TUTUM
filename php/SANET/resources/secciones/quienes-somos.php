@@ -21,7 +21,7 @@
 
      </li>
 
-     <li><img src="images/img/quienes-somos.jpg"></li>
+     <li><img src="images/img/quienes-somos.jpg" class="desktop"></li>
    </ul>
  </div>
 
@@ -47,11 +47,7 @@
     </ol>
   </div>
 
-</div>
-
-<div id="nuestra-experiencia-content">
-
-  <div class="bloque-1">
+  <div class="bloque-3">
 
     <div>
       <img src="images/img/nuestra-experiencia-1.jpg">
@@ -59,7 +55,7 @@
 
     <ul>
       <li>
-        <h1>Nuestra experiencia</h1>
+        <h2>Nuestra experiencia</h2>
       </li>
       <li>
         <p>

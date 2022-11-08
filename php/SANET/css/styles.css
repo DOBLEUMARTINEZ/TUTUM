@@ -30,32 +30,35 @@
         background-size: 100%;    }
 
     html,body {
-        font-size: 15px;
+        font-size: 18px;
         line-height: 1.5
     }
 
+    h1 {
+        font-size: 42px;
+    }
+
     h2 {
-        font-size: 30px
+        font-size: 38px;
     }
 
     h3 {
-        font-size: 24px
+        font-size: 24px;
     }
 
     h4 {
-        font-size: 20px
-    }
-
-    h1,h2,h3,h4,h5,h6 {
-        font-family: 'Cocomat', sans-serif!important;
-        font-weight: 400;
-        margin: 10px 0
+        font-size: 22px;
     }
 
     p{
-        font-size: 0.7em;
+        font-size: 20px;
+    }
+
+    h1,h2,h3,h4,h5,h6,p {
         font-family: 'Cocomat', sans-serif!important;
     }
+
+    
 
     a {
         background-color: transparent;
@@ -139,7 +142,7 @@
         bottom: 9%;
         right: 3%;
         display: none;
-        font-size: 2.5em;
+        font-size: 42px;
         color: #066;
         cursor: pointer;
     }
@@ -192,16 +195,15 @@
         }
 
         .nav-bar > .container-header > ul > li{
-            font-size: 1.2em;
+            font-size: 18px;
             font-weight: bold;
             letter-spacing: 0.5px;
-            margin-left: 1em;
+            margin: 1% 0 0 1% ;
             color: #006666;
             cursor: pointer;
             border-top: 4px solid #0000;
             padding: 1% 1% 2.2% 1%;
             transition: 0.5s;
-            margin-top: 1%;
         }
 
         .nav-bar > .container-header > ul > li:hover {
@@ -214,7 +216,7 @@
             padding: 2px 10px;
             font-family: 'Cocomat';
             font-weight: bold;
-            font-size: 1.1em;
+            font-size: 18px;
             background: #066;
             color: #fff;
             border: none;
@@ -265,7 +267,7 @@
                 width: 20vw;
                 padding: 2% 0% 2% 10%;
                 font-weight: bold;
-                font-size: 1em;
+                font-size: 18px;
                 transition: 0.2s;
                 background: #0000;
                 position: relative;
@@ -306,7 +308,7 @@
 
         .nav-bar > .container-header-mobil > ol > li > i{
             font-weight: bold;
-            font-size: 1.5em;
+            font-size: 18px;
             color: #006666;
         }
 
@@ -327,7 +329,7 @@
             top: 50px;
             font-weight: bold;
             letter-spacing: 0.5px;
-            font-size: 1.5em;
+            font-size: 18px;
             display: none;
         }
 
@@ -356,10 +358,8 @@
 
         #square-banner-index > div > h1 {
             width: 100%;
-            font-size: 2em;
             font-weight: bold;
             color: #006666;
-            font-family: 'Cocomat';
             letter-spacing: 0.5px;
             position: relative;
             text-align: center;
@@ -367,7 +367,7 @@
         }
 
         #square-banner-index > div > i{
-            font-size: 3em;
+            font-size: 38px;
             color: #006666;
             background: #ffffffa1;
             border-radius: 50%;
@@ -406,10 +406,8 @@
 
         #modulo-index-content > .bloque-0 >  div > h2 {
             width: 100%;
-            font-size: 3.2em;
             font-weight: bold;
             color: #CC6633;
-            font-family: 'Cocomat';
             letter-spacing: 0.5px;
             position: relative;
             margin: 0% 0% 0% 0%;
@@ -420,7 +418,6 @@
             width: 100%;
             padding: 0% 10% 2% 10%;
             margin: 0;
-            font-size: 1.5em;
             font-weight: 600;
             letter-spacing: 0.5px;
             color: #006666;
@@ -431,7 +428,7 @@
             padding: 1% 3%;
             font-family: 'Cocomat';
             font-weight: bold;
-            font-size: 1.5em;
+            font-size: 22px;
             background: #222;
             color: #fff;
             border: none;
@@ -449,10 +446,8 @@
 
         #modulo-index-content > .bloque-1 > h2 {
             width: 100%;
-            font-size: 3.2em;
             font-weight: bold;
             color: #CC6633;
-            font-family: 'Cocomat';
             letter-spacing: 0.5px;
             position: relative;
             text-align: center;
@@ -463,7 +458,7 @@
             width: 100%;
             text-align: center;
             padding: 0% 10% 2% 10%;
-            font-size: 1.5em;
+            margin: 0;
             font-weight: 600;
             letter-spacing: 0.5px;
             color: #006666;
@@ -531,23 +526,21 @@
         
         #modulo-index-content > .bloque-2 > ul > li > h2 {
             width: 100%;
-            margin: 20px 0 15px 0;
-            padding: 0;
-            font-size: 2.5em;
+            margin: 5% 0 0 0;
+            padding: 0 15%;
             font-weight: bold;
             color: #CC6633;
-            font-family: 'Cocomat';
             letter-spacing: 0.5px;
             position: relative;
             text-align: center;
-            line-height: 40px;
+            line-height: 45px;
         }
 
         #modulo-index-content > .bloque-2 > ul > li > p {
             width: 100%;
             text-align: center;
-            padding: 0% 10% 0% 10%;
-            font-size: 1.2em;
+            margin: 0;
+            padding: 5% 10% 5% 10%;
             font-weight: 600;
             letter-spacing: 0.5px;
             color: #006666;
@@ -564,7 +557,7 @@
             padding: 5px 15px;
             font-family: 'Cocomat';
             font-weight: bold;
-            font-size: 1.1em;
+            font-size: 20px;
             background: #c63;
             color: #fff;
             border: none;
@@ -609,10 +602,8 @@
 
         #modulo-index-content > .bloque-3 > div > h2 {
             width: 100%;
-            font-size: 3.2em;
             font-weight: bold;
             color: #CC6633;
-            font-family: 'Cocomat';
             letter-spacing: 0.5px;
             position: relative;
             margin: 5% 0% 2% 0%;
@@ -621,7 +612,6 @@
         #modulo-index-content > .bloque-3 > div > p {
             width: 100%;
             padding: 0% 10% 0% 15%;
-            font-size: 1.5em;
             font-weight: 600;
             letter-spacing: 0.5px;
             color: #006666;
@@ -636,7 +626,7 @@
 
         #modulo-index-content > .bloque-3 > div > ol > li {
             width: 100%;
-            font-size: 1.3em;
+            font-size: 18px;
             font-weight: 600;
             letter-spacing: 0.5px;
             color: #006666;
@@ -646,7 +636,7 @@
         }
 
         #modulo-index-content > .bloque-3 > div > ol > li > i{
-            font-size: 1.3em;
+            font-size: 18px;
             color: #cc6633;
             position: absolute;
             left: -10px;
@@ -679,13 +669,12 @@
 
         #modulo-index-content > .bloque-4 > div > h2 {
             width: 100%;
-            font-size: 3.2em;
             font-weight: bold;
             color: #CC6633;
-            font-family: 'Cocomat';
             letter-spacing: 0.5px;
             position: relative;
-            margin: 0% 0% 2% 0%;
+            margin: 0% 0% 0% 0%;
+            padding: 0% 10% 2% 10%;
         }
 
         #modulo-index-content > .bloque-4 > div > button {
@@ -693,7 +682,7 @@
             padding: 1% 2%;
             font-family: 'Cocomat';
             font-weight: bold;
-            font-size: 1.6em;
+            font-size: 22px;
             background: #006666;
             color: #fff;
             border: none;
@@ -755,14 +744,13 @@
 
         #quienes-somos-content > .bloque-1 > ul > li > div > h1{    
             width: 100%;
-            font-size: 5em;
             font-weight: bold;
             color: #CC6633;
-            font-family: 'Cocomat';
             letter-spacing: 0.5px;
             position: relative;
-            text-align: center;
-            margin-bottom: 5%;  
+            text-align: revert;
+            margin-bottom: 5%;
+            padding: 0%; 
         }
 
         #quienes-somos-content > .bloque-1 > ul > li > div > h1 > img{
@@ -776,9 +764,9 @@
         }
 
         #quienes-somos-content > .bloque-1 > ul > li > div > p {
-            text-align: center;
-            padding: 1% 12% 0 12%;
-            font-size: 1.5em;
+            text-align: right;
+            padding: 0% 0% 0% 25%;
+            margin: 0;
             font-weight: 600;
             letter-spacing: 0.5px;
             color: #006666;
@@ -787,7 +775,7 @@
         #quienes-somos-content > .bloque-1 > ul > li > div span {
             font-family: 'Cocomat', sans-serif!important;
             font-weight: bold;
-            font-size: 1.2em;
+            font-size: 18px;
         }
 
     /* BLLQUE 1 */
@@ -799,7 +787,6 @@
 
         #quienes-somos-content > .bloque-2 > h2 {
             width: 100%;
-            font-size: 3.2em;
             font-weight: bold;
             color: #CC6633;
             letter-spacing: 0.5px;
@@ -825,7 +812,6 @@
         }
 
         #quienes-somos-content > .bloque-2 > ol > li > h3{
-            font-size: 2.5em;
             font-weight: bold;
             color: #CC6633;
             font-family: 'Cocomat';
@@ -841,6 +827,81 @@
             transform: translateY(-15px);
         }
 
+        #quienes-somos-content > .bloque-3{
+            width: 100%;
+            margin:0;
+            padding:0;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        /* BLOQUE 3 */
+            #quienes-somos-content > .bloque-3 > div{
+                width: 60%;
+                position: relative;
+            }
+
+            #quienes-somos-content > .bloque-3 > div > img{
+                width: 100%;
+                opacity: 0.6;
+            }
+
+            #quienes-somos-content > .bloque-3 > div::before{
+                content: 'sanet';
+                position: absolute;
+                left: 30%;
+                top: 0;
+                height: 100%;
+                background: #fff;
+                z-index: 1;
+                color: #0000;
+            }
+
+            #quienes-somos-content > .bloque-3 > div::after{
+                content: 'sanet';
+                position: absolute;
+                right: 30%;
+                top: 0;
+                height: 100%;
+                background: #fff;
+                z-index: 1;
+                color: #0000;
+            }
+
+            #quienes-somos-content > .bloque-3 > ul{
+                width: 40%;
+                margin:8% 0 0 0;
+                padding:0;
+                position: relative;
+                list-style: none;
+            }
+
+            #quienes-somos-content > .bloque-3 > ul > li > h2{
+                color: #CC6633;
+                letter-spacing: 0.5px;
+                font-weight: bold;
+                margin: 5% 5% 5% 5%;
+            }
+
+            #quienes-somos-content > .bloque-3 > ul > li > p{
+                text-align: left;
+                padding: 0% 5% 0% 5%;
+                font-weight: 600;
+                letter-spacing: 0.5px;
+                color: #006666;
+                margin: 0%;
+            }
+
+            #quienes-somos-content > .bloque-3 > ul > img{
+                position: absolute;
+                width: 75%;
+                bottom: 0;
+                right: 0;
+                z-index: -1;
+                opacity: 0.5;
+            }
+
 /* SANET - BLOQUE 1 */
 
     #sanet-content > .bloque-1{
@@ -853,7 +914,7 @@
 
     #sanet-content > .bloque-1 > div{
         position: absolute;
-        top: 25%;
+        top: 30%;
         left: 20%;
         width: 60%;
         padding: 2% 2% 2% 2%;
@@ -864,7 +925,6 @@
     #sanet-content > .bloque-1 > div > p{
         width: 100%;
         text-align: left;
-        font-size: 1.5em;
         font-weight: 600;
         letter-spacing: 0.5px;
         color: #006666;
@@ -889,96 +949,19 @@
         content: 'SANET';
         background: #fff;
         padding: 0% 4% 0% 4%;
-        font-size: 8em;
+        font-size: 100px;
         color: #CC6633;
         font-family: 'Eight One', sans-serif;
         letter-spacing: 0.5px;
         font-weight: 100;
         position: absolute;
-        top: -6%;
-        left: -20%;
+        top: -20px;
+        left: -160px;
      }
 
     #sanet-content > .bloque-1 > img{
         width: 100%;
         opacity: 0.7;
-    }
-
-/* NUESTRA EXPERIENCIA - BLOQUE 1 */
-    #nuestra-experiencia-content > .bloque-1{
-        width: 100%;
-        margin:0;
-        padding:0;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-
-    #nuestra-experiencia-content > .bloque-1 > div{
-        width: 60%;
-        position: relative;
-    }
-
-    #nuestra-experiencia-content > .bloque-1 > div > img{
-        width: 100%;
-        opacity: 0.6;
-    }
-
-    #nuestra-experiencia-content > .bloque-1 > div::before{
-        content: 'sanet';
-        position: absolute;
-        left: 30%;
-        top: 0;
-        height: 100%;
-        background: #fff;
-        z-index: 1;
-        color: #0000;
-    }
-
-    #nuestra-experiencia-content > .bloque-1 > div::after{
-        content: 'sanet';
-        position: absolute;
-        right: 30%;
-        top: 0;
-        height: 100%;
-        background: #fff;
-        z-index: 1;
-        color: #0000;
-    }
-
-    #nuestra-experiencia-content > .bloque-1 > ul{
-        width: 40%;
-        margin:8% 0 0 0;
-        padding:0;
-        position: relative;
-        list-style: none;
-    }
-
-    #nuestra-experiencia-content > .bloque-1 > ul > li > h1{
-        font-size: 5em;
-        color: #CC6633;
-        font-family: 'Cocomat';
-        letter-spacing: 0.5px;
-        font-weight: bold;
-        margin-left: -30%;
-    }
-
-    #nuestra-experiencia-content > .bloque-1 > ul > li > p{
-        text-align: left;
-        padding: 1% 45% 0 5%;
-        font-size: 1.5em;
-        font-weight: 600;
-        letter-spacing: 0.5px;
-        color: #006666;
-    }
-
-    #nuestra-experiencia-content > .bloque-1 > ul > img{
-        position: absolute;
-        width: 65%;
-        bottom: 0;
-        right: 0;
-        z-index: -1;
-        opacity: 0.5;
     }
 
 /* MODULOS SIH */
@@ -1011,26 +994,22 @@
 
         #modulo-sih-content > .bloque-1 > div > h1 {
             width: 100%;
-            font-size: 4em;
             font-weight: bold;
             color: #CC6633;
             letter-spacing: 0.5px;
             position: relative;
             text-align: center;
             margin: 0 0 5% 0;
-            line-height: 1.3em; 
         }
 
         #modulo-sih-content > .bloque-1 > div > h1 > span {
             font-family: 'Cocomat', sans-serif!important;
             font-weight: bold;
-            font-size: 1.2em;
         }
 
         #modulo-sih-content > .bloque-1 > div > p {
             text-align: center;
-            padding: 0% 12% 0 12%;
-            font-size: 1.5em;
+            padding: 0% 10% 0 10%;
             font-weight: 600;
             letter-spacing: 0.5px;
             color: #006666;
@@ -1040,12 +1019,11 @@
         #modulo-sih-content > .bloque-1 > div > p > span {
             font-family: 'Eight One', sans-serif!important;
             font-weight: bold!important;
-            font-size: 1.2em;
             color: #c63;
         }
 
         #modulo-sih-content > .bloque-1 > div > p > i {
-            font-size: 2em;
+            font-size: 38px;
             color: #006666;
             background: #ffffffa1;
             border-radius: 50%;
@@ -1129,7 +1107,6 @@
             width: 100%;
             margin: 25px 0 20px 0;
             padding: 0;
-            font-size: 2.5em;
             font-weight: bold;
             color: #CC6633;
             font-family: 'Cocomat';
@@ -1152,7 +1129,7 @@
         #modulo-sih-content > .bloque-2 > ul > li  ol > li{
             text-align: left;    
             padding: 0% 5% 0% 20%;
-            font-size: 1.5em;
+            font-size: 20px;
             font-weight: 600;
             letter-spacing: 0.5px;
             color: #006666;
@@ -1273,8 +1250,8 @@
             }
 
             #modulo-sih-content > .bloque-4 .content-slider > div > ol > li {
-                width: 40em;
-                height: 40em;
+                width: 35em;
+                height: 35em;
                 border-radius: 50%;
                 background: #fff;
                 display: flex;
@@ -1285,7 +1262,6 @@
 
             #modulo-sih-content > .bloque-4 .content-slider > div > ol > li > h2 {
                     width: 100%;
-                    font-size: 4.5em;
                     font-weight: bold;
                     color: #CC6633;
                     font-family: 'Cocomat';
@@ -1299,7 +1275,6 @@
             #modulo-sih-content > .bloque-4 .content-slider > div > ol > li > p {
                 text-align: center;
                 padding: 0% 12% 0% 12%;
-                font-size: 1.2em;
                 font-weight: 600;
                 letter-spacing: 0.5px;
                 color: #006666;
@@ -1309,7 +1284,7 @@
             #modulo-sih-content > .bloque-4 .content-slider > div > ol > li > p > span {
                 font-family: 'Eight One', sans-serif!important;
                 font-weight: bold!important;
-                font-size: 1.2em;
+                font-size: 18px;
                 color: #c63;
             }
 
@@ -1341,22 +1316,21 @@
                 background: #fff;
                 width: 100%;
                 margin: 0%;
-                padding: 2% 2% 3% 2%;
+                padding: 5%;
                 list-style: none;
             }
 
             #modulo-sih-content > .bloque-4 .content-slider > div > ul > li > ul > li{
                 text-align: left;
-                font-size: 1.2em;
+                font-size: 18px;
                 font-weight: 600;
                 letter-spacing: 0.5px;
                 color: #006666;
                 margin: 0;
-                padding-left: 5%;
+                padding: 0%;
             }
 
             #modulo-sih-content > .bloque-4 .content-slider > div > ul > li > ul > li > h3{
-                font-size: 3em;
                 font-weight: bold;
                 color: #CC6633;
                 font-family: 'Cocomat';
@@ -1376,7 +1350,7 @@
 
         #modulo-sih-content > .bloque-5 > div{
             width: 100%;
-            padding: 7% 10%;
+            padding: 5% 10%;
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
@@ -1385,7 +1359,6 @@
 
         #modulo-sih-content > .bloque-5 > div > h2 {
             width: 100%;
-            font-size: 3.2em;
             font-weight: bold;
             color: #CC6633;
             letter-spacing: 0.5px;
@@ -1397,7 +1370,6 @@
             width: 35%;
             padding: 0%;
             margin: 0;
-            font-size: 1.5em;
             font-weight: 600;
             letter-spacing: 0.5px;
             color: #006666;
@@ -1408,7 +1380,7 @@
             padding: 2% 3%;
             font-family: 'Cocomat';
             font-weight: bold;
-            font-size: 1.1em;
+            font-size: 22px;
             background: #222;
             color: #fff;
             border: none;
@@ -1430,7 +1402,7 @@
         }
 
         #modulo-sih-content > .bloque-5 > div > ol > li {
-            font-size: 1.5em;
+            font-size: 20px;
             font-weight: 600;
             letter-spacing: 0.5px;
             color: #006666;
@@ -1486,14 +1458,13 @@
         #modulo-sih-content > .bloque-6 > ul > li{
             width: 30%;
             background: #ffffffe0;
-            padding: 1%;
+            padding: 1% 2%;
             border-radius: 3px;
             box-shadow: 0px 0px 15px -7px #222222bf;
         }
 
         #modulo-sih-content > .bloque-6 > ul > li > h2{
             width: 100%;
-            font-size: 3.2em;
             font-weight: bold;
             color: #CC6633;
             letter-spacing: 0.5px;
@@ -1503,7 +1474,6 @@
 
         #modulo-sih-content > .bloque-6 > ul > li > p{
             border-radius: 3px;
-            font-size: 1.5em;
             font-weight: 600;
             letter-spacing: 0.5px;
             color: #006666;
@@ -1514,7 +1484,7 @@
             padding: 2% 2%;
             font-family: 'Cocomat';
             font-weight: bold;
-            font-size: 1.1em;
+            font-size: 22px;
             background: #006666;
             color: #fff;
             border: none;
@@ -1535,10 +1505,11 @@
         #modulo-sih-content > .bloque-6 > ul > li > ol{
             list-style: none;
             margin: 0;
+            padding: 0 5%;
         }
 
         #modulo-sih-content > .bloque-6 > ul > li > ol > li{
-            font-size: 1.5em;
+            font-size: 20px;
             font-weight: 600;
             letter-spacing: 0.5px;
             color: #006666;
@@ -1582,14 +1553,12 @@
         }
 
         #modulo-sih-content > .bloque-7 > div > h2{
-            font-size: 3.5em;
             font-weight: bold;
             color: #fff;
             letter-spacing: 0.5px;
         }
 
         #modulo-sih-content > .bloque-7 > div > p{
-            font-size: 1.8em;
             font-weight: 600;
             letter-spacing: 0.5px;
             color: #ffffff;
@@ -1600,7 +1569,7 @@
             padding: 1% 2%;
             font-family: 'Cocomat';
             font-weight: bold;
-            font-size: 1.5em;
+            font-size: 22px;
             background: #cc6633;
             color: #fff;
             border: none;
@@ -1645,7 +1614,7 @@
             text-align: center;
             background: #cc6633;
             color: #fff;
-            font-size: 2em;
+            font-size: 22px;
             font-weight: bold;
             border-radius: 3px;
             cursor: pointer;
@@ -1685,7 +1654,6 @@
 
         #modulo-contact-content > .bloque-1 > ul > li > h2{
            width: 100%;
-            font-size: 4em;
             font-weight: bold;
             color: #CC6633;
             font-family: 'Cocomat';
@@ -1698,7 +1666,6 @@
         #modulo-contact-content > .bloque-1 > ul > li > p {
             width: 100%;
             text-align: center;
-            font-size: 1.5em;
             font-weight: 600;
             letter-spacing: 0.5px;
             color: #006666;
@@ -1868,11 +1835,10 @@
         list-style: none;
     }
 
-    #modales-content > .modal-sanet > div > ol > li > h3 {
+    #modales-content > .modal-sanet > div > ol > li > h2 {
         width: 100%;
         margin: 0;
         padding: 0;
-        font-size: 4em;
         font-weight: bold;
         color: #CC6633;
         font-family: 'Cocomat';
@@ -1882,7 +1848,6 @@
 
     #modales-content > .modal-sanet > div > ol > li > p {
         padding: 2% 2% 2% 2%;
-        font-size: 1.3em;
         font-weight: 600;
         letter-spacing: 0.5px;
         color: #006666;
@@ -1894,7 +1859,7 @@
     #modales-content > .modal-sanet > div > ol > li > p > a {
         font-family: 'Eight One', sans-serif!important;
         font-weight: bold!important;
-        font-size: 1.2em;
+        font-size: 18px;
         color: #c63;
        }
 
@@ -1902,7 +1867,7 @@
         background: #99CCCC;
         border: none;
         outline: none;
-        font-size: 1.4em;
+        font-size: 22px;
         font-weight: bold;
         letter-spacing: 1px;
         margin-top: 20px;
@@ -1949,11 +1914,10 @@
             padding: 0%;
         }
 
-        #modales-content > .modal-sanet > div > ol > li > form > h3 {
+        #modales-content > .modal-sanet > div > ol > li > form > h2 {
             width: 100%;
             margin: 0;
             padding: 0;
-            font-size: 4em;
             font-weight: bold;
             color: #CC6633;
             font-family: 'Cocomat';
@@ -1963,7 +1927,6 @@
 
         #modales-content > .modal-sanet > div > ol > li > form > p {
             padding: 1%;
-            font-size: 1.3em;
             font-weight: 600;
             letter-spacing: 0.5px;
             color: #006666;
@@ -1985,7 +1948,7 @@
 
         #modales-content > .modal-sanet > div > ol > li > form > ul > li {
             padding: 1%;
-            font-size: 1.3em;
+            font-size: 20px;
             font-weight: 600;
             letter-spacing: 0.5px;
             color: #006666;
@@ -2009,18 +1972,20 @@
             text-align: center;
             background: #28a745;
             color: #fff;
-            font-size: 2em;
+            font-size: 22px;
             font-weight: bold;
             border-radius: 3px;
             cursor: pointer;
             transition: 0.3s;
             outline: none;
             border: none;
+            font-family: 'Cocomat';
         }
 
         #modales-content > .modal-sanet > div > ol > li > form  button:hover{
             box-shadow: -4px 4px 1px 1px #999999;
             transform:translateY(-15px);
+
             
         }
 
@@ -2086,7 +2051,7 @@
 
     .footer > ol > li > ul > li{
         width: 100%;
-        font-size: 1.2em;
+        font-size: 18px;
         font-weight: 600;
         letter-spacing: 0.5px;
         color: #f9f9f9c2;
@@ -2126,7 +2091,7 @@
         padding: 0;
         margin: 0;
         font-weight: bold;
-        font-size: 1em;
+        font-size: 16px;
         letter-spacing: 0.5px;
         color: #ffffff9c;
     }
@@ -2148,82 +2113,31 @@
 @media(max-width: 1440px){
 
     /* INICIO */
-        #modulo-index-content > .bloque-1 > h1 {
-            font-size: 3em;
+        #modulo-index-content > .bloque-2 > ul {
+            width: 90%;
+            margin-left: 5%;
         }
 
-        #modulo-index-content > .bloque-1 > p {
-            font-size: 1.2em;
+        #modulo-index-content > .bloque-2 > ul > li {
+            width: 32%;
         }
 
     /*QUIENES SOMOS */
 
         /* BLOQUE 0 */
-            #modulo-index-content > .bloque-0 > div > h2 {
-                line-height: 1.2em;
-                font-size: 3.2em;
-            }
-
-            #modulo-index-content > .bloque-0 > div > p {
-                font-size: 1.2em;
-            }
+          
 
         /* BLOQUE 1 */
-            #quienes-somos-content > .bloque-1 > ul > li > div > h1 {
-                font-size: 3.2em;
-                margin-bottom: 0%;
-            }
 
-            #quienes-somos-content > .bloque-1 > ul > li > div > p {
-                font-size: 1.2em;
-                padding: 0% 10% 0 10%;
-            }
-
-            #nuestra-experiencia-content > .bloque-1 > ul > li > h1 {
-                font-size: 3.2em;
-            }
-
-            #nuestra-experiencia-content > .bloque-1 > ul > li > p {
-                padding: 1% 25% 0 5%;
-                font-size: 1.2em;
-            }
 
         /* BLOQUE 2 */
-            #modulo-index-content > .bloque-2 > ul > li > h2 {
-                font-size: 2em;
-            }
 
-            #quienes-somos-content > .bloque-2 > h2 {
-                font-size: 3.2em;
-                margin: 0% 0% 2% 0%;
-            }
-
-            #quienes-somos-content > .bloque-2 > ol > li > h3 {
-                font-size: 2em;
-            }
-
-            #modulo-index-content > .bloque-2 > ul > li > p {
-                font-size: 1em;
-            }
 
         /* BLOQUE 3 */
-            #modulo-index-content > .bloque-3 > div > h2 {
-                font-size: 3em;
-            }
-
-            #modulo-index-content > .bloque-3 > div > p {
-                font-size: 1.2em;
-            }
-
-            #modulo-index-content > .bloque-3 > div > ol > li {
-                font-size: 1em;
-            }
+           
 
         /* BLOQUE 4 */
-            #modulo-index-content > .bloque-4 > div > h2 {
-                font-size: 3em;
-            }
-
+            
     /* SANET - BLOQUE 1 */
         #sanet-content > .bloque-1 > div{
             top: 25%;
@@ -2233,7 +2147,6 @@
             top: 10%;
             left: 0%;
             padding: 0 4%;
-            font-size: 1.2em;
         }
 
         #sanet-content > .bloque-1 > div > p > a{
@@ -2241,23 +2154,13 @@
         }
 
         #sanet-content > .bloque-1 >div::before {
-            font-size: 7em;
-            top: -12%;
-            left: -21%;
+            top: -33px;
+            left: -164px;
         }
 
     /* MODULOS SIH */
 
         /* BLOQUE 1 */
-
-            #modulo-sih-content > .bloque-1 > div > h1 {
-                font-size: 3em;
-            }
-
-            #modulo-sih-content > .bloque-1 > div > p {
-                padding: 0% 5% 0 5%;
-                font-size: 1.2em;
-            }
 
         /* BLOQUE 2 */
 
@@ -2266,23 +2169,7 @@
                 margin-left: 5%;
             }
 
-            #modulo-sih-content > .bloque-2 > ul > li > h2 {
-                font-size: 2em;
-            }
-
-            #modulo-sih-content > .bloque-2 > ul > li ol > li { 
-                font-size: 1em;
-            }
-
         /* BLOQUE 3 */
-
-            #modulo-sih-content > .bloque-3 > div > h2 {
-                font-size: 4em;
-            }
-
-            #modulo-sih-content > .bloque-3 > div > p {
-                font-size: 1em;
-            }
 
         /* BLOQUE 4 */
 
@@ -2291,79 +2178,30 @@
                 height: 30em;
             }
 
-            #modulo-sih-content > .bloque-4 .content-slider > div > ol > li > h2 {
-                font-size: 3em;
-            }
-
-            #modulo-sih-content > .bloque-4 .content-slider > div > ol > li > p {
-                font-size: 1em;
-            }
-
-            #modulo-sih-content > .bloque-4 .content-slider > div > ul > li > a {
-                top: -47px;
-                font-size: 3em;
-            }
-
-            #modulo-sih-content > .bloque-4 .content-slider > div > ul > li > ul >li {
-                font-size: 1em;
-            }
-
         /* BLOQUE 5 */
-            #modulo-sih-content > .bloque-5 > div > h2 {
-                font-size: 3em;
-            }
-
-            #modulo-sih-content > .bloque-5 > div > p {
-                font-size: 1.2em;
-            }
 
             #modulo-sih-content > .bloque-5 > div > ol > li {
-                font-size: 1.2em;
+                font-size: 18px;
             }
 
         /* BLOQUE 6 */
-            #modulo-sih-content > .bloque-6 > ul > li > h2 {
-                font-size: 3em;
-            }
-
-            #modulo-sih-content > .bloque-6 > ul > li > p {
-                font-size: 1.2em;
-            }
 
             #modulo-sih-content > .bloque-6 > ul > li > ol > li {
-                font-size: 1.2em;
-            }
+                font-size: 18px;
+            }          
 
     /* MODALES */ 
-
-        #modales-content > .modal-sanet > div > ol > li > form > h3 {
-            font-size: 3em;
-        }
 
         #modales-content > .modal-sanet > div {
             margin: 5% 0 5% 15%;
         }
 
-        #modales-content > .modal-sanet > div > ol > li > h3 {
-            font-size: 3em;
-        }
-
-        #modales-content > .modal-sanet > div > ol > li > p {
-            font-size: 1em;
-        }
 
     /* CONTACTO */
-        #modulo-contact-content > .bloque-1 > ul > li > h2 {
-            font-size: 2.5em;
-        }
-
-        #modulo-contact-content > .bloque-1 > ul > li > p {
-            font-size: 1.2em;
-        }
 
         /* FORM */
             #modulo-contact-content > .bloque-1 > ol > li {
-                font-size: 1.2em;
+                font-size:18px;
             }
 
     /**/
@@ -2387,15 +2225,78 @@
         }
 }
 
-@media(max-width: 1024px){
-    
-    /* NAV */
-        .nav-bar > .container-header > ul > li {
-            font-size: 0.9em;
+@media(max-width: 1366px){
+
+    /* fuente */
+        h1 {
+            font-size: 38px;
         }
 
-        #square-banner-index > div > i {
-            font-size: 2em;
+        h2 {
+            font-size: 32px!important;
+        }
+
+        h3 {
+            font-size: 22px!important;
+        }
+
+        h4 {
+            font-size: 20px;
+        }
+
+        p{
+            font-size: 18px;
+        }
+
+    /* FOOTER */
+        .footer > ol > li > ul > li {
+            font-size: 16px;
+        }
+}
+
+@media(max-width: 1024px){
+
+    /* fuente */
+        h1 {
+            font-size: 32px;
+        }
+
+        h2 {
+            font-size: 24px!important;
+        }
+
+        h3 {
+            font-size: 20px!important;
+        }
+
+        h4 {
+            font-size: 18px;
+        }
+
+        p{
+            font-size: 16px;
+        }
+
+    /* NAV */
+        .nav-bar > .container-header > div{
+            width: 15%;
+        }
+
+        .nav-bar > .container-header > div > img {
+            width: 100%;
+            padding: 5% 0;
+        }
+
+        .nav-bar > .container-header > ul > li {
+            font-size: 16px;
+        }
+
+        .dropdown-menu-ttm >ol>li {
+            font-size: 16px;
+        }
+
+        .nav-bar > .container-header > ul > li > button {
+            font-size: 16px;
         }
 
     /* INICIO */
@@ -2404,27 +2305,12 @@
         }
 
         /* BLOQUE 0 */
-            #modulo-index-content > .bloque-0 > div > h2 {
-                line-height: 1.2em;
-                font-size: 2em;
-            }
-
-            #modulo-index-content > .bloque-0 > div > p {
-                font-size: 1em;
-            }
 
             #modulo-index-content > .bloque-0 > div > button {
-                font-size: 1.2em;
+                font-size: 18px;
             }
 
         /* BLOQUE 1 */
-            #modulo-index-content > .bloque-1 > h2 {
-                font-size: 2em;
-            }
-
-            #modulo-index-content > .bloque-1 > p {
-                font-size: 1em;
-            }
 
         /* BLOQUE 2 */
             #modulo-index-content > .bloque-2 > ul {
@@ -2450,18 +2336,20 @@
             }
 
             #modulo-index-content > .bloque-3 > div > h2 {
-                font-size: 2em;
                 text-align: center;
             }
 
             #modulo-index-content > .bloque-3 > div > p {
-                font-size: 1em;
                 text-align: center;
                 padding: 0 0;
             }
 
             #modulo-index-content > .bloque-3 > div > ol {
                 padding: 5% 5% 0% 5%;
+            }
+
+            #modulo-index-content > .bloque-3 > div > ol > li {
+                font-size: 16px;;
             }
 
             #modulo-index-content > .bloque-3 > div >img {
@@ -2472,25 +2360,17 @@
             }
 
         /* BLOQUE 4 */
-
-            #modulo-index-content > .bloque-4 > div > h2 {
-                font-size: 2em;
-            }
-
             #modulo-index-content > .bloque-4 > div > button {
-                font-size: 1.2em;
+                font-size: 18px;
             }
 
     /* QUIENES SOMOS -BLOQUE 1 */
-        #quienes-somos-content > .bloque-1 > ul > li > div > h1 {
-            font-size: 2em;
-            margin-bottom: 1%;
+        #quienes-somos-content > .bloque-1 > ul > li > div {
+            top: 30%;
         }
 
-       #quienes-somos-content > .bloque-1 > ul > li > div > p {
-            font-size: 1em;
-            margin: 0;
-            padding: 1% 10% 0 10%;
+        #quienes-somos-content > .bloque-1 > ul > li > div > h1 {
+            margin-bottom: 0;
         }
 
     /* SANET - BLOQUE 1 */
@@ -2502,7 +2382,6 @@
             top: 10%;
             left: 0%;
             padding: 0 4%;
-            font-size: 1em;
         }
 
         #sanet-content > .bloque-1 > div > p > a{
@@ -2510,9 +2389,9 @@
         }
 
         #sanet-content > .bloque-1 >div::before {
-            font-size: 5em;
-            top: -6%;
-            left: -22%;
+            font-size: 80px;
+            top: -25px;
+            left: -140px;
         }
 
         /* BLOQUE 2 */
@@ -2527,25 +2406,19 @@
 
     /* NUESTRA EXPERIENCIA - BLOQUE 1 */
         #nuestra-experiencia-content > .bloque-1 > ul > li > h1 {
-            font-size: 2em;
             margin-left: 5%;
         }
 
         #nuestra-experiencia-content > .bloque-1 > ul > li > p {
             padding: 1% 25% 0 5%;
-            font-size: 1em;
         }
 
     /* MODULOS SIH */
 
         /* BLOQUE 1 */
-            #modulo-sih-content > .bloque-1 > div > h1 {
-                font-size: 2em;
-            }
 
             #modulo-sih-content > .bloque-1 > div > p {
-                padding: 0% 10% 0 10%;
-                font-size: 1em;
+                padding: 0% 5% 0 5%;
             }
 
         /* BLOQUE 2 */
@@ -2554,23 +2427,12 @@
                 padding: 13% 0 3% 0;
             }
 
-            #modulo-sih-content > .bloque-2 > ul > li > h2 {
-                font-size: 1.5em;
-            }
-
             #modulo-sih-content > .bloque-2 > ul > li ol > li { 
-                font-size: 1em;
+                font-size: 16px;
             }
 
         /* BLOQUE 3 */
 
-            #modulo-sih-content > .bloque-3 > div > h2 {
-                font-size: 3em;
-            }
-
-            #modulo-sih-content > .bloque-3 > div > p {
-                font-size: 1em;
-            }
 
         /* BLOQUE 4 */
 
@@ -2579,95 +2441,57 @@
                 height: 25em;
             }
 
-            #modulo-sih-content > .bloque-4 .content-slider > div > ol > li > h2 {
-                font-size: 2.5em;
-            }
-
-            #modulo-sih-content > .bloque-4 .content-slider > div > ol > li > p {
-                font-size: 0.8em;
-            }
-
             #modulo-sih-content > .bloque-4 .content-slider > div > ul > li > a {
                 top: -30px;
-                font-size: 2em;
+                font-size: 18px;
             }
 
             #modulo-sih-content > .bloque-4 .content-slider > div > ul > li > ul >li {
-                font-size: 0.8em;
+                font-size: 16px;
             }
 
         /* BLOQUE 5  */
-            #modulo-sih-content > .bloque-5 > div > h2 {
-                font-size: 2em;
-            }
-
-            #modulo-sih-content > .bloque-5 > div > p {
-                font-size: 1em;
-            }
 
             #modulo-sih-content > .bloque-5 > div > ol > li {
-                font-size: 1em;
+                font-size: 16px;
+            }
+
+            #modulo-sih-content > .bloque-5 > div > p> button {
+                font-size: 18px;
             }
 
         /* BLOQUE 6 */
-            #modulo-sih-content > .bloque-6 > ul > li > h2 {
-                font-size: 2em;
-            }
-
-            #modulo-sih-content > .bloque-6 > ul > li > p {
-                font-size: 1em;
-            }
 
             #modulo-sih-content > .bloque-6 > ul > li > ol > li {
-                font-size: 1em;
+                font-size: 16px;
             }
 
-        /* BLOQUE 7 */
-            #modulo-sih-content > .bloque-7 > div > h2 {
-                font-size: 3em;
+            #modulo-sih-content > .bloque-6 > ul > li > p > button {
+                font-size: 18px;
             }
 
-            #modulo-sih-content > .bloque-7 > div > p {
-                font-size: 1.2em;
-            }
+        /* BLOQUE 7 */  
 
     /* MODAL */
 
-        #modales-content > .modal-sanet > div > ol > li > form > h3 {
-            font-size: 2em;
-        }
-
-        #modales-content > .modal-sanet > div > ol > li > form > p {
-            font-size: 1em;
-        }
 
         #modales-content > .modal-sanet > div > ol > li > form > ul > li {
-            font-size: 1em;
+            font-size: 16px;
         } 
 
         #modales-content > .modal-sanet > div > ol > li > form button {
-            font-size: 1.5em;
+            font-size: 18px;
         }
 
         #modales-content > .modal-sanet > div {
             margin: 7% 0 5% 15%;
         }
 
-
-
         #modales-content > .modal-sanet > div > ol > li > p > button {
             width: 100%;
         }
 
     /* CONTACTO */
-
-        #modulo-contact-content > .bloque-1 > ul > li > h2 {
-            font-size: 2em;
-        }
-
-        #modulo-contact-content > .bloque-1 > ul > li > p {
-            font-size: 1em;
-        }
 
         #modulo-contact-content > .bloque-1 > ol > li {
             width: 35%;
@@ -2679,15 +2503,15 @@
         }
 
         .footer > ol > li > ul > li {
-            font-size: 1em;
+            font-size: 12px;
         }
 
-        .footer > ol > li > h3 {
-            font-size: 1.2em;
+        .footer > ol > li > ol> li {
+            font-size: 28px;
         }
 
         .footer > p {
-            font-size: 0.8em;
+            font-size: 10px;
         }
 }
 
@@ -2700,6 +2524,27 @@
 
         .tablet{
             display: unset;
+        }
+
+    /* fuente */
+        h1 {
+            font-size: 38px;
+        }
+
+        h2 {
+            font-size: 32px!important;
+        }
+
+        h3 {
+            font-size: 22px!important;
+        }
+
+        h4 {
+            font-size: 20px;
+        }
+
+        p{
+            font-size: 20px;
         }
 
     /* NAV */
@@ -2734,7 +2579,6 @@
 
     /* INDEX - BANNER INICIO */
 
-
         #square-banner-index > div {
             top: 25em;
         }
@@ -2746,6 +2590,7 @@
         #square-banner-index > div > i {
             font-size: 3em;
         }
+
         /* BLOQUE 0*/
 
             #modulo-index-content > .bloque-0 {
@@ -2781,6 +2626,11 @@
             }
 
         /* BLOQUE 3 */
+
+            #modulo-index-content > .bloque-3 > div > ol > li {
+                font-size: 18px;
+            }
+
             #modulo-index-content > .bloque-3 > div >img {
                 width: 100%;
                 margin-top: 5%;
@@ -2798,10 +2648,6 @@
                 padding: 2%;
             }
 
-            #modulo-index-content > .bloque-4 > div > h2 {
-                font-size: 1.8em;
-            }
-
     /* QUIENES SOMOS */
 
         /* BLOQUE 1 */
@@ -2811,20 +2657,48 @@
                 padding: 0;
             }
 
-            #quienes-somos-content > .bloque-1 > ul > li > div {
-                width: 90%;
-                top: 25%;
+            #quienes-somos-content > .bloque-1 > ul {
+                flex-wrap: wrap;
             }
 
-            #quienes-somos-content > .bloque-1 > ul > li > div > h1 {
-                font-size: 2.3em;
-                margin-bottom: 1%;
+            #quienes-somos-content > .bloque-1 > ul >li {
+                width: 100%;
+            }
+
+            #quienes-somos-content > .bloque-1 > ul > li > div {
+                width: 100%;
+                right: 0;
+                text-align: center;
+                position: unset;
+                padding: 5% 0 0% 0;
             }
 
             #quienes-somos-content > .bloque-1 > ul > li > div > p {
-                font-size: 1em;
-                padding: 1% 5% 0 5%;
-                margin-bottom: 10%;
+                padding: 1% 5% 2% 5%;
+                margin: 0%;
+                text-align: center;
+            }
+
+        /* BLOQUE 3 */
+
+            #quienes-somos-content > .bloque-3 > div {
+                width: 100%;
+                position: relative;
+            }
+
+            #quienes-somos-content > .bloque-3 > ul {
+                width: 100%;
+                margin: 5% 0 5% 0;
+                padding: 0;
+            }
+
+            #quienes-somos-content > .bloque-3 > ul > li > h2 {
+                margin: 5% 5% 2% 5%;
+                text-align: center;
+            }
+
+            #quienes-somos-content > .bloque-3 > ul > li > p {
+                text-align: center;
             }
 
     /* SANET - BLOQUE 1 */
@@ -2891,9 +2765,9 @@
         /* BLOQUE 1 */
 
             #modulo-sih-content > .bloque-1 > div {
-                width: 60%;
+                width: 90%;
                 right: 5%;
-                top: 30%;
+                top: 22%;
             }
 
             #modulo-sih-content > .bloque-1 > img {
@@ -3064,6 +2938,10 @@
     /* FOOTER */
         .footer > ol > li {
             width: 33%;
+        }
+
+        .footer > ol > li > ul > li {
+            font-size: 16px;
         }
 }
 

@@ -17,11 +17,12 @@
 		<ul>
 			<li>
 				<h2>Dirección</h2>
-				<p></p>
+				<p>México</p>
 			</li>
 			<li>
-				<h2>Teléfono</h2>
+				<h2>Contacto</h2>
 				<p>
+					<a>Email <span></span></a><br>
 					<a>Teléfono <span></span></a><br>
 					<a>Whatsapp <span></span></a>
 				</p>	
