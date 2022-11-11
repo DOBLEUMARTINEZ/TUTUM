@@ -18,8 +18,12 @@
 					include('resources/includes/desarrollo-web/desarrollo-web.php'); 
 					break;
 
+				case 'tattoo':
+					include('resources/includes/notice/error-404.php'); // Tatuajes
+					break;
+
 				case 'gracias':
-					include('resources/includes/notice/gracias-wm.php'); // error-404
+					include('resources/includes/notice/gracias-wm.php'); // Gracias
 					break;
 				
 				default:
