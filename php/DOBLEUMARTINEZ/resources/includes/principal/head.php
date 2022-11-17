@@ -17,6 +17,9 @@
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="resources/css/style.css">
   <link rel='stylesheet' href='resources/css/fontawesome-free-5.7.0-web/css/all.css'>
+
+  <!-- JS -->
+  <script src="resources/js/jquery.min.js"></script>
 	
   <!-- Google tag (gtag.js) -->
   

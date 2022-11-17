@@ -14,7 +14,7 @@
         </h1>
 
         <p>
-          Somos una empresa, dinámica, innovadora y cienporciento mexicana; dedicada a brindar servicios de consultoría tecnológica y soluciones integrales de TI. Estamos comprometidos con el desarrollo económico y social del país, así como con nuestros clientes, socios y colaboradores.
+          Somos una empresa, dinámica, innovadora y 100% mexicana; dedicada a brindar servicios de consultoría tecnológica y soluciones integrales de TI. Estamos comprometidos con el desarrollo económico y social del país, así como con nuestros clientes, socios y colaboradores.
         </p>
 
       </div>

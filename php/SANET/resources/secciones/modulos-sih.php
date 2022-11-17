@@ -5,9 +5,9 @@
     <video class="video desktop" loading="lazy" src="images/SOLUCIONES.mp4" autoplay="" muted="" loop=""></video>
 
     <div>
-      <h1>Los módulos con los que trabaja nuestro HIS</h1>
+      <h1>Descubre los beneficios de trabajar con los módulos de nuestro HIS</h1>
       <p>
-        <span>sanet</span> cuenta con diferentes módulos y áreas asistenciales, lo que permite que la solución clínica sea el eje principal de la herramienta, se centra en dar soporte a los procesos de trabajo esenciales de la práctica clínica y asistencial dando cobertura a los procesos de trabajo comunes en los distintos ámbitos hospitalarios.<br>
+        <span>sanet</span> cuenta con diferentes módulos especializados en cada área, lo que permite que la solución sea completa, está siendo el eje principal de la herramienta, cada módulo tiene como objetivo dar soporte a los procesos de trabajo esenciales de la práctica clínica y asistencial, dando cobertura a los procesos de trabajo comunes en los distintos ámbitos hospitalarios.<br>
         <i onclick="window.location.href='#modulos-administrativos';" class="fas fa-chevron-circle-down flecha"></i>
       </p>
     </div>

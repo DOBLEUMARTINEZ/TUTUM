@@ -6,7 +6,7 @@
 
       <!-- LOGO -->
       <div onclick="window.location.href='<?php echo $url;?>';">
-        <img src="images/logo/logo.png" title="sistema de información hospitalaria - sanet" alt="sistema de información hospitalaria - sanet" >
+        <img src="images/logo/logo.png" title="Sistema de Información Hospitalaria sanet logo" alt="Sistema de Información Hospitalaria sanet logo" >
       </div>
 
       <!-- RUTAS -->
@@ -38,7 +38,7 @@
           <a onclick="window.location.href='<?php echo $url;?>contacto';" >Contacto</a>
         </li>
 
-        <li style="border-top: 4px solid #0000!important;">
+        <li style="border-top: 4px solid #0000!important; padding: 0%;">
           <button onclick="modalSanet(1, 'contacto')" >¡Comenzar ahora!</button>
         </li>
 

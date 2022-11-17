@@ -8,12 +8,12 @@ echo '<!DOCTYPE html><html lang="es">';
 
   // VALIDAR SECCION - TITULO DE SECCION
     if (isset($_GET['seccion'])){ 
-      $name_seccion = $_GET['seccion'].' | SANET';
-      $desc="Sistema de Información Hospitalaria SANET diseñado para administrar y controlar todas las áreas que componen un hospital o clínica desde un solo lugar.";
+      $name_seccion = ucfirst(str_replace('-', ' ', $_GET['seccion'])).' | SANET';
+      $desc = "Sistema Integral de Información Hospitalaria diseñado para Administrar y Controlar todas las áreas que componen un Hospital o Clínica."; 
       $canonical_name = $url.$_GET['seccion'];
     }else{ 
-      $name_seccion = 'Sistema de Información Hospitalaria | SANET ';
-      $desc="Sistema de Información Hospitalaria SANET diseñado para administrar y controlar todas las áreas que componen un hospital o clínica desde un solo lugar.";
+      $name_seccion = 'Sistema Integral de Información Hospitalaria (SIH) | SANET';
+      $desc = "SANET es el Sistema Integral de Información Hospitalaria diseñado para Administrar y Controlar todas las áreas que componen un Hospital o Clínica.";
       $canonical_name = $url; 
     }
   
