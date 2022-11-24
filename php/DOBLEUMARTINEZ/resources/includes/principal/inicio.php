@@ -18,8 +18,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 	<!-- CONTENT BANNER  -->
 	<div>
-		<h1>Te ayudamos con la mejor solución para tus Proyectos Digitales</h1><br>
-		<p>Diseñamos poderosos desarrollos digitales<br> atractivos que resalten la identidad <br>de tu empresa o negocio</p><br>
+		<h1>Te ayudamos con la mejor Estrategia de Marketing Digital</h1><br>
+		<p>Diseñamos poderosas Estrategias de Marketing Digital <br>que resalten la identidad de tu empresa o negocio.</p><br>
 		<button onclick="modalInfo('Formulario')" >Empezar ahora <i class="fas fa-angle-double-right"></i></button>
 	</div>
 
@@ -34,8 +34,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 	<div class="content-01">
 		<div>
-			<h2><span>| </span>DOBLEU MARTINEZ</h2>
-			<p class="p-black">Diseñamos, desarrollamos y gestionamos poderosos proyectos atractivos que resalten la identidad de tu empresa o negocio.</p>
+			<h2><span>| </span>DEMARKETING DIGITAL</h2>
+			<p class="p-black">
+				Nos encargamos de Diseñar, Desarrollar y Gestionar poderosas Estrategias Digitales coordinadas por expertos, con el fin de cumplir los objetivos de tu empresa o negocio.
+			</p>
 			<p>Trabajamos estrictamente con funciones especiales, integraciones, forms, procesos o conexiones especializadas con otras tecnologías.</p>
 		</div>
 		<div>
@@ -47,7 +49,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<div class="content-02">
 		<span></span>
 		<div>
-			<h2>Conoce alguna de las soluciones que <br>podemos desarrollar para ti</h2>
+			<h2>Conoce alguna de las soluciones que <BR>nuestro equipo tiene para ti</h2>
 			<button onclick="modalInfo('Formulario')" >Obtén una propuesta gratis</button>
 		</div>
 	</div>
@@ -55,7 +57,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 	<div class="content-03">
 		<h2>Desarrollo Web</h2>
-		<p>Desarrollo de Proyectos Atractivos, Rápidos, Funcionales y Modernos</p>
+		<p>Desarrollo de Proyectos Web Atractivos, Rápidos, Funcionales, Modernos y cumpliendo con las mejores prácticas</p>
 		<ul>
 			<li>
 				<img src="resources/images/landing-page-seo.png" title="DOBLEU MARTINEZ - Landing page" alt="DOBLEU MARTINEZ - Landing page" loading="lazy">

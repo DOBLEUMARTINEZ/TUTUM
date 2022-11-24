@@ -3,7 +3,7 @@
 
 	<div class="bloque-1">
 
-		<img src="images/img/contacto-1.jpg"  class="desktop" style="width: 100%;">
+		<img src="images/img/contacto-1.jpg" class="desktop" style="width: 100%;" title="Contacto sanet" alt="Mujer Escribiendo en Laptop en Escritorio Y Teléfono">
 
   		<ol>
   			<li style="background: #28a745;">

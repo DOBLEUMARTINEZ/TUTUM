@@ -7,19 +7,19 @@
 
       <p style="opacity:0;position: relative;padding: 0;margin: 0;">
         es una solución diseñada para administrar y controlar todas y cada una de las áreas que componen un hospital o clínica; esta solución permite la seguridad hacia el paciente y la precisión diagnóstica, optimizando los procesos asistenciales, colaborando en la reducción de costos de la atención en salud.<br><br>
-        El objetivo de <span>sanet</span> es implementar un Sistema Integral de Información Hospitalaria (SIH), mediante el cual se logre una comunicación permanente entre todas las áreas del Sistema Hospitalario, siendo éste capaz de transmitir texto, imágenes y videos permitiendo de esta forma, realizar por parte del Personal Médico y Administrativo una gestión oportuna, clara y efectiva, coadyuvando al logro de los indicadores de productividad y estándares de servicios.<br><br>
+        El objetivo de <span>sanet</span> es implementar un Sistema Integral de Información Hospitalaria (SIH), mediante el cual se logre una comunicación permanente entre todas las áreas del sistema hospitalario, siendo este capaz de transmitir texto, imágenes y videos, permitiendo, de esta forma, realizar por parte del personal médico y administrativo una gestión oportuna, clara y efectiva, coadyuvando al logro de los indicadores de productividad y estándares de servicios.<br><br>
       </p>
 
       <p>
         <a></a>es una solución diseñada para administrar y controlar todas y cada una de las áreas que componen un hospital o clínica; esta solución permite la seguridad hacia el paciente y la precisión diagnóstica, optimizando los procesos asistenciales, colaborando en la reducción de costos de la atención en salud.<br><br>
-        El objetivo de <span>sanet</span> es implementar un Sistema Integral de Información Hospitalaria (SIH), mediante el cual se logre una comunicación permanente entre todas las áreas del sistema hospitalario, siendo éste capaz de transmitir texto, imágenes y videos permitiendo de esta forma, realizar por parte del personal médico y administrativo una gestión oportuna, clara y efectiva, coadyuvando al logro de los indicadores de productividad y estándares de servicios.<br><br>
+        El objetivo de <span>sanet</span> es implementar un Sistema Integral de Información Hospitalaria (SIH), mediante el cual se logre una comunicación permanente entre todas las áreas del sistema hospitalario, siendo este capaz de transmitir texto, imágenes y videos, permitiendo, de esta forma, realizar por parte del personal médico y administrativo una gestión oportuna, clara y efectiva, coadyuvando al logro de los indicadores de productividad y estándares de servicios.<br><br>
       </p>
 
     </div>
     
-    <img src="images/img/banner-sanet-1.jpg"  class="desktop">
-    <img src="images/img/banner-sanet-3.jpg"  class="tablet">
-    <img src="images/img/banner-sanet-2.jpg" class="mobil">
+    <img src="images/img/banner-sanet-1.jpg"  class="desktop" title="sanet" alt="Doctores en Quirófano en Cirugía utilizando Tablet con Sistema Hospitalario sanet">
+    <img src="images/img/banner-sanet-3.jpg"  class="tablet" title="sanet" alt="Doctores en Quirófano en Cirugía utilizando Tablet con Sistema Hospitalario sanet">
+    <img src="images/img/banner-sanet-2.jpg" class="mobil" title="sanet" alt="Doctores en Quirófano en Cirugía utilizando Tablet con Sistema Hospitalario sanet">
 
  </div>
 
@@ -33,28 +33,28 @@
     
     <ul>
       <li>
-        <span><img src="images/icons/modulos sih/investigacion.png"></span>
+        <span><img src="images/icons/modulos sih/investigacion.png" title="Módulos administrativos" alt="icono adminstrativo de color"></span>
         <h2>Módulos administrativos</h2>
         <p>
           sanet cuenta con diferentes módulos y áreas asistenciales, lo que permite que la solución clínica sea el eje principal de la herramienta
         </p>
-        <button>ver más detalles <i class="fas fa-angle-double-right"></i></button>
+        <button onclick="window.location.href='./modulos-his#modulos-administrativos';">ver más detalles <i class="fas fa-angle-double-right"></i></button>
       </li>
       <li>
-        <span><img src="images/icons/modulos sih/medical-record.png"></span>
+        <span><img src="images/icons/modulos sih/medical-record.png" title="Módulos clínicos" alt="icono reporte clínico de color"></span>
         <h2>Módulos clínicos</h2>
         <p>
           sanet cuenta con diferentes módulos y áreas asistenciales, lo que permite que la solución clínica sea el eje principal de la herramienta
         </p>
-        <button>ver más detalles <i class="fas fa-angle-double-right"></i></button>
+        <button onclick="window.location.href='./modulos-his#modulos-clinicos';">ver más detalles <i class="fas fa-angle-double-right"></i></button>
       </li>
       <li>
-        <span><img src="images/icons/modulos sih/settings.png"></span>
+        <span><img src="images/icons/modulos sih/settings.png" title="Módulos de configuración" alt="icono de configuración clínica de color"></span>
         <h2>Módulos de configuración</h2>
         <p>
           sanet cuenta con diferentes módulos y áreas asistenciales, lo que permite que la solución clínica sea el eje principal de la herramienta
         </p>
-        <button>ver más detalles <i class="fas fa-angle-double-right"></i></button>
+        <button onclick="window.location.href='./modulos-his#modulos-configuracion';" >ver más detalles <i class="fas fa-angle-double-right"></i></button>
       </li>
     </ul>
 
@@ -69,7 +69,7 @@
       <h2>Expediente clínico electrónico</h2>
       <p>El expediente electrónico es la columna vertebral de la información del paciente, ya que contiene todos los eventos del paciente como son consultas médicas, urgencias, estudios ambulatorios e internamiento en hospital para tratamientos y/o cirugías.</p>
     </div>
-    <video class="video" loading="lazy" src="images/SOLUCIONES.mp4" autoplay="" muted="" loop=""></video>
+    <video class="video" loading="lazy" src="images/HOSPITAL.mp4" autoplay="" muted="" loop=""></video>
   </div>
 
   <div class="bloque-4 desktop">
@@ -112,7 +112,7 @@
               </li>
             </ul>
           </div>
-          <img src="images/img/modulos-sih-hospitalizacion-3.jpg">
+          <img src="images/img/modulos-sih-hospitalizacion-3.jpg" title="sanet" alt="Enfermera atendiendo a Paciente Hospitalizado en Camilla en Hospital con Sistema Hospitalario sanet">
         </div>
 
         <div class="carousel-item content-slider">
@@ -145,7 +145,7 @@
               </li>
             </ul>
           </div>
-          <img src="images/img/modulos-sih-urgencias.jpg">
+          <img src="images/img/modulos-sih-urgencias.jpg" title="Urgencias" alt="Dotores con Paciente en Urgencias en Hospital con Sistema Hospitalario sanet">
         </div>
 
         <div class="carousel-item content-slider">
@@ -177,7 +177,7 @@
               </li>
             </ul>
           </div>
-          <img src="images/img/modulos-sih-consulta-externa-2.jpg">
+          <img src="images/img/modulos-sih-consulta-externa-2.jpg" title="Consulta externa" alt="Escritorio de Doctor con Laptop y cosas médicas">
         </div>
 
         <div class="carousel-item content-slider">
@@ -211,7 +211,8 @@
               </li>
             </ul>
           </div>
-          <img src="images/img/modulos-sih-tococirugia-2.jpg">
+          <img src="images/img/modulos-sih-tococirugia-2.jpg" 
+         title="Tococirugía" alt="Doctores en Cuarto de Cirugía Atendiendo a Paciente Recostado en Camilla">
         </div>
 
         <div class="carousel-item content-slider">
@@ -239,7 +240,7 @@
               </li>
             </ul>
           </div>
-          <img src="images/img/modulos-sih-quirofano.jpg">
+          <img src="images/img/modulos-sih-quirofano.jpg" title="Quirófano" alt="Quirófano Preparado para Cirugía con Cama de Quirófano en el Centro de Color azul">
         </div>
 
       </div>

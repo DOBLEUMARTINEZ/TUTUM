@@ -2,7 +2,7 @@
 
   <div class="bloque-1">
 
-    <video class="video desktop" loading="lazy" src="images/SOLUCIONES.mp4" autoplay="" muted="" loop=""></video>
+    <video class="video desktop" loading="lazy" src="images/HOSPITAL.mp4" autoplay="" muted="" loop=""></video>
 
     <div>
       <h1>Descubre los beneficios de trabajar con los módulos de nuestro HIS</h1>
@@ -12,7 +12,7 @@
       </p>
     </div>
 
-    <img src="images/img/modulos-sih-1.jpg">
+    <img src="images/img/modulos-sih-1.jpg" title="Módulos HIS sanet" alt="Enfermera y Doctor en Hospital Utilizando una Tablet con Sistema Hospitalario sanet" >
 
   </div>
 
@@ -36,7 +36,7 @@
         <li onclick="modalSanet(1, '#modulo-8')"><i class="fas fa-angle-double-right"></i> Contabilidad</li>
       </ol>
       <div>
-        <img src="images/icons/modulos sih/investigacion.png">
+        <img src="images/icons/modulos sih/investigacion.png" title="Módulos administrativos" alt="icono adminstrativo de color">
       </div>
     </div>
 
@@ -102,7 +102,7 @@
         <li onclick="modalSanet(1, '#modulo-33')"><i class="fas fa-angle-double-right"></i> Interoperabilidad</li>
       </ol>
       <div>
-        <img src="images/icons/modulos sih/settings.png">
+        <img src="images/icons/modulos sih/settings.png" title="Módulos de configuración" alt="icono de configuración clínica de color">
       </div>
     </div>
 
