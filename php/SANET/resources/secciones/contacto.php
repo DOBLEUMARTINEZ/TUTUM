@@ -1,3 +1,30 @@
+<!-- VALIDAR FORM -->
+<script src="https://www.google.com/recaptcha/api.js"></script>
+    <script>
+      function miFuncion() {
+
+        var response = grecaptcha.getResponse();
+
+        if(response.length == 0){
+          $( document ).ready(function() {
+            Swal.fire({
+                icon: 'error',
+                title:'Algo salio mal',
+                text: 'Porfavor intenta llenando todos los campos requeridos',
+                /*showCloseButton: true,*/
+                focusConfirm: false,
+                timerProgressBar: true,
+                confirmButtonText:'Continuar',
+                confirmButtonAriaLabel: 'Send'
+            });
+          });
+        } else {
+            document.getElementById("re-capcha").value=1;
+            document.getElementById("security-form").value=1;
+        }
+      }
+</script>
+
 <!-- CONTACTO -->
 <div id="modulo-contact-content">
 

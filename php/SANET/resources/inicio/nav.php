@@ -10,18 +10,17 @@
       </div>
 
       <!-- RUTAS -->
-
       <ul class="color-font-menu">
 
         <li class="<?php if(!isset($_GET['seccion'])){echo 'active-section';} ?>" 
-          onclick="window.location.href='<?php echo $url;?>';">Inicio</li>
+          onclick="window.location.href='./';">Inicio</li>
 
         <li class="<?php if(isset($_GET['seccion'])&&($_GET['seccion'])=='quienes-somos'){echo 'active-section';} ?>">
-          <a onclick="window.location.href='<?php echo $url;?>quienes-somos';" >Quiénes somos</a>
+          <a onclick="window.location.href='./quienes-somos';" >Quiénes somos</a>
         </li>
 
         <li class="dropdown-menu-ttm <?php if(isset($_GET['seccion'])&&($_GET['seccion'])=='sanet'){echo 'active-section';} ?>">
-          <a onclick="window.location.href='<?php echo $url;?>sanet';" >Sanet</a>
+          <a onclick="window.location.href='./sanet';" >Sanet</a>
           <ol>
             <li onclick="window.location.href='./modulos-his';" >Módulos HIS</li>
             <li onclick="window.location.href='./modulos-his#modulos-administrativos';" >Módulos administrativos</li>
@@ -31,15 +30,15 @@
         </li>
 
         <li class="<?php if(isset($_GET['seccion'])&&($_GET['seccion'])=='precios'){echo 'active-section';} ?>">
-          <a onclick="window.location.href='<?php echo $url;?>precios';" >Precios</a>
+          <a onclick="window.location.href='./precios';" >Precios</a>
         </li>
 
         <li class="<?php if(isset($_GET['seccion'])&&($_GET['seccion'])=='contacto'){echo 'active-section';} ?>">
-          <a onclick="window.location.href='<?php echo $url;?>contacto';" >Contacto</a>
+          <a onclick="window.location.href='./contacto';" >Contacto</a>
         </li>
 
         <li style="border-top: 4px solid #0000!important; padding: 0%;">
-          <button onclick="modalSanet(1, 'contacto')" >¡Comenzar ahora!</button>
+          <button onclick="window.location.href='./contacto';" >¡Comenzar ahora!</button>
         </li>
 
       </ul>
@@ -50,7 +49,7 @@
     <nav class="container-header-mobil">
       <ol>
 
-        <li><img src="<?php echo $url;?>images/logo/logo.png" onclick="window.location.href='<?php echo $url;?>';"></li>
+        <li><img src="<?php echo $url;?>images/logo/logo.png" onclick="window.location.href='./';"></li>
 
         <li style="position: relative;" >
 
@@ -58,10 +57,10 @@
 
           <ul class="menu-mobil">
 
-            <li onclick="window.location.href='<?php echo $url;?>';">Inicio</li>
+            <li onclick="window.location.href='./';">Inicio</li>
 
             <li>
-              <a onclick="window.location.href='<?php echo $url;?>quienes-somos';" >Quiénes somos</a>
+              <a onclick="window.location.href='./quienes-somos';" >Quiénes somos</a>
             </li>
 
             <li>
@@ -85,7 +84,7 @@
             </li>
 
             <li>
-              <a onclick="window.location.href='<?php echo $url;?>contacto';" >Contacto</a>
+              <a onclick="window.location.href='./contacto';" >Contacto</a>
             </li>
           </ul>
 
@@ -100,30 +99,3 @@
     </div>
 
   </div>
-
-<!-- VALIDAR FORM -->
-<script src="https://www.google.com/recaptcha/api.js"></script>
-    <script>
-      function miFuncion() {
-
-        var response = grecaptcha.getResponse();
-
-        if(response.length == 0){
-          $( document ).ready(function() {
-            Swal.fire({
-                icon: 'error',
-                title:'Algo salio mal',
-                text: 'Porfavor intenta llenando todos los campos requeridos',
-                /*showCloseButton: true,*/
-                focusConfirm: false,
-                timerProgressBar: true,
-                confirmButtonText:'Continuar',
-                confirmButtonAriaLabel: 'Send'
-            });
-          });
-        } else {
-            document.getElementById("re-capcha").value=1;
-            document.getElementById("security-form").value=1;
-        }
-      }
-  </script>

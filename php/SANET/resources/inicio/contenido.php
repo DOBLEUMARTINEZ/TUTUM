@@ -36,7 +36,7 @@
         <span><img src="images/icons/modulos sih/investigacion.png" title="Módulos administrativos" alt="icono adminstrativo de color"></span>
         <h2>Módulos administrativos</h2>
         <p>
-          sanet cuenta con diferentes módulos y áreas asistenciales, lo que permite que la solución clínica sea el eje principal de la herramienta
+          sanet cuenta con todos los módulos necesarios para la gestión administrativa de tu hospital, incluyendo la gestión de almacenes, proveedores, cuentas de pacientes y facturación.
         </p>
         <button onclick="window.location.href='./modulos-his#modulos-administrativos';">ver más detalles <i class="fas fa-angle-double-right"></i></button>
       </li>
@@ -44,7 +44,7 @@
         <span><img src="images/icons/modulos sih/medical-record.png" title="Módulos clínicos" alt="icono reporte clínico de color"></span>
         <h2>Módulos clínicos</h2>
         <p>
-          sanet cuenta con diferentes módulos y áreas asistenciales, lo que permite que la solución clínica sea el eje principal de la herramienta
+          sanet cuenta con módulos de atención clínica para todas las áreas hospitalarias, teniendo siempre en el centro de atención al paciente.
         </p>
         <button onclick="window.location.href='./modulos-his#modulos-clinicos';">ver más detalles <i class="fas fa-angle-double-right"></i></button>
       </li>
@@ -52,7 +52,7 @@
         <span><img src="images/icons/modulos sih/settings.png" title="Módulos de configuración" alt="icono de configuración clínica de color"></span>
         <h2>Módulos de configuración</h2>
         <p>
-          sanet cuenta con diferentes módulos y áreas asistenciales, lo que permite que la solución clínica sea el eje principal de la herramienta
+          sanet cuenta con módulos para la configuración de diversos aspectos del hospital, permitiendo un alto grado de adaptación de acuerdo a sus necesidades.
         </p>
         <button onclick="window.location.href='./modulos-his#modulos-configuracion';" >ver más detalles <i class="fas fa-angle-double-right"></i></button>
       </li>
@@ -66,7 +66,7 @@
       <p>
         El sistema hospitalario <span>sanet</span> esta orientado a la seguridad de la información y del paciente. Modular y flexible para adaptarse a las necesidades de cada hospital. Gestiona todos los procesos clínicos, administrativos, financieros y gerenciales de tu hospital en un solo sistema, y cuenta con toda la información en tiempo real, con trazabilidad completa de la atención en los servicios.
       </p>
-      <button onclick="modalSanet(1, 'contacto')" >Solicita una reunión</button>
+      <button onclick="window.location.href='./contacto';" >Solicita una reunión</button>
     </div>
     <div>
       <img src="images/img/inicio-2.jpg" class="desktop" title="Sanet dipositivos moviles" alt="Enfermera sosteniendo una tablet de un sistema hospitalario">
@@ -78,19 +78,19 @@
   <div class="bloque-3">
 
     <div>
-      <img src="images/img/vercor-his-2.png" title="Sanet dipositivos moviles" alt="Enfermera sosteniendo una tablet de un sistema hospitalario">
+      <img src="images/img/vercor-his-2.jpg" title="Sanet dipositivos moviles" alt="Enfermera sosteniendo una tablet de un sistema hospitalario">
     </div>
 
     <div>
       <h2>¿Por qué implementar un sistema de información hospitalario?</h2>
       <p>
-        De esta forma se permite una gestión oportuna, clara y efectiva, obteniendo como resultado los mejores indicadores de productividad y estándares de servicios.
+        Contar con un sistema hospitalario eficaz resuelve muchas de las problemáticas propias de la gestión de un hospital, además de contar con múltiples ventajas:
       </p>
       <ol>
-        <li><i class="fas fa-check-square"></i>Seguridad hacia el paciente</li>
-        <li><i class="fas fa-check-square"></i>Precisión diagnóstica</li>
-        <li><i class="fas fa-check-square"></i>Optimizando los procesos asistenciales </li>
-        <li><i class="fas fa-check-square"></i>Reducción de costos de la atención en salud.</li>
+        <li><i class="fas fa-check-square"></i>Disponibilidad inmediata de información</li>
+        <li><i class="fas fa-check-square"></i>Seguridad del paciente</li>
+        <li><i class="fas fa-check-square"></i>Trazabilidad completa de la atención</li>
+        <li><i class="fas fa-check-square"></i>Gestión de la atención clínica en un único sistema centralizado</li>
       </ol>
     </div>
     
@@ -98,8 +98,8 @@
 
   <div class="bloque-4">
     <div>
-      <h2>Mejora la atención del paciente y resguarda de una manera segura los expedientes clínicos</h2>
-      <button onclick="modalSanet(1, 'contacto')" >¡Quiero una propuesta!</button>
+      <h2>Mejora la atención de tus pacientes y resguarda de manera segura toda su información.</h2>
+      <button onclick="window.location.href='./contacto';" >¡Quiero una propuesta!</button>
     </div>
   </div>
 
