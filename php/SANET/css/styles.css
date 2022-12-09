@@ -1375,6 +1375,12 @@
             color: #006666;
         }
 
+        #modulo-sih-content > .bloque-5 > div > p > span {
+            font-family: 'Eight One', sans-serif!important;
+            font-weight: bold!important;
+            color: #c63;
+        }
+
         #modulo-sih-content > .bloque-5 > div > p> button {
             margin: 30px 0 0 0;
             padding: 2% 3%;
@@ -1477,6 +1483,12 @@
             font-weight: 600;
             letter-spacing: 0.5px;
             color: #006666;
+        }
+
+        #modulo-sih-content > .bloque-6 > ul > li > p > span {
+            font-family: 'Eight One', sans-serif!important;
+            font-weight: bold!important;
+            color: #c63;
         }
 
         #modulo-sih-content > .bloque-6 > ul > li > p > button {
@@ -1634,6 +1646,17 @@
         #modulo-contact-content > .bloque-1 > ol > li:hover i{
             transform:translateX(15px);
             transition: 0.3s;
+        }
+
+    /* box-form */
+
+        #modulo-contact-content > .bloque-1 > div {
+            width: 90%;
+            margin: 2.5% 5%;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
         }
 
     /* ul */

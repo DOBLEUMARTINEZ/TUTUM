@@ -6,13 +6,13 @@
     <div>
 
       <p style="opacity:0;position: relative;padding: 0;margin: 0;">
-        es una solución diseñada para administrar y controlar todas y cada una de las áreas que componen un hospital o clínica; esta solución permite la seguridad hacia el paciente y la precisión diagnóstica, optimizando los procesos asistenciales, colaborando en la reducción de costos de la atención en salud.<br><br>
-        El objetivo de <span>sanet</span> es implementar un Sistema Integral de Información Hospitalaria (SIH), mediante el cual se logre una comunicación permanente entre todas las áreas del sistema hospitalario, siendo este capaz de transmitir texto, imágenes y videos, permitiendo, de esta forma, realizar por parte del personal médico y administrativo una gestión oportuna, clara y efectiva, coadyuvando al logro de los indicadores de productividad y estándares de servicios.<br><br>
+        es una solución integral, diseñada para administrar todas las áreas que integran a un hospital o clínica, centrada en la seguridad del paciente por medio de la optimización de los procesos asistenciales y colaborando en la reducción de costos de la atención en salud.<br><br>
+        El objetivo de <span>sanet</span> es implementar el Sistema de Información Hospitalario (SIH), mediante el cual se logra una comunicación permanente entre todas las áreas hospitalarias. Por medio del SIH el personal médico y administrativo logrará tener una gestión oportuna, clara y efectiva de sus actividades, coadyuvando al logro de los indicadores de productividad y estándares de calidad en los servicios.<br><br>
       </p>
 
       <p>
-        <a></a>es una solución diseñada para administrar y controlar todas y cada una de las áreas que componen un hospital o clínica; esta solución permite la seguridad hacia el paciente y la precisión diagnóstica, optimizando los procesos asistenciales, colaborando en la reducción de costos de la atención en salud.<br><br>
-        El objetivo de <span>sanet</span> es implementar un Sistema Integral de Información Hospitalaria (SIH), mediante el cual se logre una comunicación permanente entre todas las áreas del sistema hospitalario, siendo este capaz de transmitir texto, imágenes y videos, permitiendo, de esta forma, realizar por parte del personal médico y administrativo una gestión oportuna, clara y efectiva, coadyuvando al logro de los indicadores de productividad y estándares de servicios.<br><br>
+        <a></a>es una solución integral, diseñada para administrar todas las áreas que integran a un hospital o clínica, centrada en la seguridad del paciente por medio de la optimización de los procesos asistenciales y colaborando en la reducción de costos de la atención en salud.<br><br>
+        El objetivo de <span>sanet</span> es implementar el Sistema de Información Hospitalario (SIH), mediante el cual se logra una comunicación permanente entre todas las áreas hospitalarias. Por medio del SIH el personal médico y administrativo logrará tener una gestión oportuna, clara y efectiva de sus actividades, coadyuvando al logro de los indicadores de productividad y estándares de calidad en los servicios.<br><br>
       </p>
 
     </div>
@@ -36,7 +36,7 @@
         <span><img src="images/icons/modulos sih/investigacion.png" title="Módulos administrativos" alt="icono adminstrativo de color"></span>
         <h2>Módulos administrativos</h2>
         <p>
-          sanet cuenta con diferentes módulos y áreas asistenciales, lo que permite que la solución clínica sea el eje principal de la herramienta
+          <span>sanet</span> cuenta con todos los módulos necesarios para la gestión administrativa de tu hospital, incluyendo la gestión de almacenes, proveedores, cuentas de pacientes y facturación.
         </p>
         <button onclick="window.location.href='./modulos-his#modulos-administrativos';">ver más detalles <i class="fas fa-angle-double-right"></i></button>
       </li>
@@ -44,7 +44,7 @@
         <span><img src="images/icons/modulos sih/medical-record.png" title="Módulos clínicos" alt="icono reporte clínico de color"></span>
         <h2>Módulos clínicos</h2>
         <p>
-          sanet cuenta con diferentes módulos y áreas asistenciales, lo que permite que la solución clínica sea el eje principal de la herramienta
+          <span>sanet</span> cuenta con módulos de atención clínica para todas las áreas hospitalarias, teniendo siempre en el centro de atención al paciente.
         </p>
         <button onclick="window.location.href='./modulos-his#modulos-clinicos';">ver más detalles <i class="fas fa-angle-double-right"></i></button>
       </li>
@@ -52,7 +52,7 @@
         <span><img src="images/icons/modulos sih/settings.png" title="Módulos de configuración" alt="icono de configuración clínica de color"></span>
         <h2>Módulos de configuración</h2>
         <p>
-          sanet cuenta con diferentes módulos y áreas asistenciales, lo que permite que la solución clínica sea el eje principal de la herramienta
+          <span>sanet</span> cuenta con módulos para la configuración de diversos aspectos del hospital, permitiendo un alto grado de adaptación de acuerdo a sus necesidades.
         </p>
         <button onclick="window.location.href='./modulos-his#modulos-configuracion';" >ver más detalles <i class="fas fa-angle-double-right"></i></button>
       </li>

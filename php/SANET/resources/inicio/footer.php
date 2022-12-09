@@ -50,7 +50,7 @@
         <li onclick="window.location.href='./';" >
           Whatsapp
         </li>
-        <li onclick="modalSanet(1, 'contacto')">
+        <li onclick="window.location.href='./contacto';">
           Formulario de contacto
         </li>
       </ul>

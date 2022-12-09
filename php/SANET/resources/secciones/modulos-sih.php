@@ -7,7 +7,7 @@
     <div>
       <h1>Descubre los beneficios de trabajar con los módulos de nuestro HIS</h1>
       <p>
-        <span>sanet</span> cuenta con diferentes módulos especializados en cada área, lo que permite que la solución sea completa, está siendo el eje principal de la herramienta, cada módulo tiene como objetivo dar soporte a los procesos de trabajo esenciales de la práctica clínica y asistencial, dando cobertura a los procesos de trabajo comunes en los distintos ámbitos hospitalarios.<br>
+        <span>sanet</span> cuenta con módulos para la atención de pacientes en distintos ámbitos hospitalarios conectados entre sí, permitiendo de esta manera que la atención a los pacientes se reflejen en todo momento en el sistema. Al ser modular, <span>sanet</span> se adapta a las necesidades de cada hospital o clínica.<br>
         <i onclick="window.location.href='#modulos-administrativos';" class="fas fa-chevron-circle-down flecha"></i>
       </p>
     </div>
@@ -22,18 +22,18 @@
     <div>
       <h2>Módulos administrativos</h2>
       <p>
-        sanet cuenta con diferentes módulos y áreas asistenciales, lo que permite que la solución clínica sea el eje principal de la herramienta.
-        <button onclick="modalSanet(1, 'contacto')">¡Quiero una propuesta!</button>
+        Con los módulos de gestión administrativa de <span>sanet</span> se podrán gestionar todos los temas relacionados a la administración de cuentas, proveedores, almacenes y costos de la unidad.<br>
+        <button onclick="window.location.href='./contacto';">¡Quiero una propuesta!</button>
       </p>
       <ol>
-        <li onclick="modalSanet(1, '#modulo-1')"><i class="fas fa-angle-double-right"></i> Administración y proveedores</li>
-        <li onclick="modalSanet(1, '#modulo-2')"><i class="fas fa-angle-double-right"></i> Almacén</li>
-        <li onclick="modalSanet(1, '#modulo-3')"><i class="fas fa-angle-double-right"></i> Cuentas por pagar</li>
-        <li onclick="modalSanet(1, '#modulo-4')"><i class="fas fa-angle-double-right"></i> Cuentas por cobrar</li>
-        <li onclick="modalSanet(1, '#modulo-5')"><i class="fas fa-angle-double-right"></i> Compras</li>
-        <li onclick="modalSanet(1, '#modulo-6')"><i class="fas fa-angle-double-right"></i> Caja y facturación</li>
-        <li onclick="modalSanet(1, '#modulo-7')"><i class="fas fa-angle-double-right"></i> Costos</li>
-        <li onclick="modalSanet(1, '#modulo-8')"><i class="fas fa-angle-double-right"></i> Contabilidad</li>
+        <li onclick="modalSanet-(1, '#modulo-1')"><i class="fas fa-angle-double-right"></i> Administración y proveedores</li>
+        <li onclick="modalSanet-(1, '#modulo-2')"><i class="fas fa-angle-double-right"></i> Almacén</li>
+        <li onclick="modalSanet-(1, '#modulo-3')"><i class="fas fa-angle-double-right"></i> Cuentas por pagar</li>
+        <li onclick="modalSanet-(1, '#modulo-4')"><i class="fas fa-angle-double-right"></i> Cuentas por cobrar</li>
+        <li onclick="modalSanet-(1, '#modulo-5')"><i class="fas fa-angle-double-right"></i> Compras</li>
+        <li onclick="modalSanet-(1, '#modulo-6')"><i class="fas fa-angle-double-right"></i> Caja y facturación</li>
+        <li onclick="modalSanet-(1, '#modulo-7')"><i class="fas fa-angle-double-right"></i> Costos</li>
+        <li onclick="modalSanet-(1, '#modulo-8')"><i class="fas fa-angle-double-right"></i> Contabilidad</li>
       </ol>
       <div>
         <img src="images/icons/modulos sih/investigacion.png" title="Módulos administrativos" alt="icono adminstrativo de color">
@@ -49,34 +49,34 @@
       <li>
         <h2>Módulos clínicos</h2>
         <p>
-          sanet cuenta con diferentes módulos y áreas asistenciales, lo que permite que la solución clínica sea el eje principal de la herramienta.
-          <button onclick="modalSanet(1, 'contacto')">¡Quiero una propuesta!</button>
+          <span>sanet</span> cuenta con módulos clínicos para el registro y seguimiento del paciente en cada área de la unidad hospitalaria, asegurando la completa trazabilidad de cada atención otorgada.<br>
+          <button onclick="window.location.href='./contacto';">¡Quiero una propuesta!</button>
         </p>
       </li>
       <li>
         <ol>
-          <li onclick="modalSanet(1, '#modulo-9')"><i class="fas fa-angle-double-right"></i> Admisión hospitalaria</li>
-          <li onclick="modalSanet(1, '#modulo-10')"><i class="fas fa-angle-double-right"></i> Urgencias</li>
-          <li onclick="modalSanet(1, '#modulo-11')"><i class="fas fa-angle-double-right"></i> Laboratorio</li>
-          <li onclick="modalSanet(1, '#modulo-12')"><i class="fas fa-angle-double-right"></i> Banco de sangre</li>
-          <li onclick="modalSanet(1, '#modulo-13')"><i class="fas fa-angle-double-right"></i> Imagenología</li>
-          <li onclick="modalSanet(1, '#modulo-14')"><i class="fas fa-angle-double-right"></i> Consulta externa</li>
-          <li onclick="modalSanet(1, '#modulo-15')"><i class="fas fa-angle-double-right"></i> Trabajo social</li>
-          <li onclick="modalSanet(1, '#modulo-16')"><i class="fas fa-angle-double-right"></i> Administración de quirófanos</li>
-          <li onclick="modalSanet(1, '#modulo-17')"><i class="fas fa-angle-double-right"></i> Enfermería</li>
+          <li onclick="modalSanet-(1, '#modulo-9')"><i class="fas fa-angle-double-right"></i> Admisión hospitalaria</li>
+          <li onclick="modalSanet-(1, '#modulo-10')"><i class="fas fa-angle-double-right"></i> Urgencias</li>
+          <li onclick="modalSanet-(1, '#modulo-11')"><i class="fas fa-angle-double-right"></i> Laboratorio</li>
+          <li onclick="modalSanet-(1, '#modulo-12')"><i class="fas fa-angle-double-right"></i> Banco de sangre</li>
+          <li onclick="modalSanet-(1, '#modulo-13')"><i class="fas fa-angle-double-right"></i> Imagenología</li>
+          <li onclick="modalSanet-(1, '#modulo-14')"><i class="fas fa-angle-double-right"></i> Consulta externa</li>
+          <li onclick="modalSanet-(1, '#modulo-15')"><i class="fas fa-angle-double-right"></i> Trabajo social</li>
+          <li onclick="modalSanet-(1, '#modulo-16')"><i class="fas fa-angle-double-right"></i> Administración de quirófanos</li>
+          <li onclick="modalSanet-(1, '#modulo-17')"><i class="fas fa-angle-double-right"></i> Enfermería</li>
         </ol>
       </li>
       <li>
         <ol >
-          <li onclick="modalSanet(1, '#modulo-18')"><i class="fas fa-angle-double-right"></i> Defunciones</li>
-          <li onclick="modalSanet(1, '#modulo-19')"><i class="fas fa-angle-double-right"></i> Indicaciones médicas </li>
-          <li onclick="modalSanet(1, '#modulo-20')"><i class="fas fa-angle-double-right"></i> Expediente clínico electrónico</li>
-          <li onclick="modalSanet(1, '#modulo-21')"><i class="fas fa-angle-double-right"></i> Control de activos</li>    
-          <li onclick="modalSanet(1, '#modulo-12')"><i class="fas fa-angle-double-right"></i> Biblio hemeroteca y videoteca</li>
-          <li onclick="modalSanet(1, '#modulo-23')"><i class="fas fa-angle-double-right"></i> Medio ambiente</li>
-          <li onclick="modalSanet(1, '#modulo-24')"><i class="fas fa-angle-double-right"></i> Referencia y contrarreferencia</li>
-          <li onclick="modalSanet(1, '#modulo-25')"><i class="fas fa-angle-double-right"></i> Donación de órganos</li>
-          <li onclick="modalSanet(1, '#modulo-26')"><i class="fas fa-angle-double-right"></i> Investigación</li>
+          <li onclick="modalSanet-(1, '#modulo-18')"><i class="fas fa-angle-double-right"></i> Defunciones</li>
+          <li onclick="modalSanet-(1, '#modulo-19')"><i class="fas fa-angle-double-right"></i> Indicaciones médicas </li>
+          <li onclick="modalSanet-(1, '#modulo-20')"><i class="fas fa-angle-double-right"></i> Expediente clínico electrónico</li>
+          <li onclick="modalSanet-(1, '#modulo-21')"><i class="fas fa-angle-double-right"></i> Control de activos</li>    
+          <li onclick="modalSanet-(1, '#modulo-12')"><i class="fas fa-angle-double-right"></i> Biblio hemeroteca y videoteca</li>
+          <li onclick="modalSanet-(1, '#modulo-23')"><i class="fas fa-angle-double-right"></i> Medio ambiente</li>
+          <li onclick="modalSanet-(1, '#modulo-24')"><i class="fas fa-angle-double-right"></i> Referencia y contrarreferencia</li>
+          <li onclick="modalSanet-(1, '#modulo-25')"><i class="fas fa-angle-double-right"></i> Donación de órganos</li>
+          <li onclick="modalSanet-(1, '#modulo-26')"><i class="fas fa-angle-double-right"></i> Investigación</li>
         </ol>
       </li>
     </ul>
@@ -89,8 +89,8 @@
     <div>
       <h2>Módulos de configuración</h2>
       <p>
-        sanet cuenta con diferentes módulos y áreas asistenciales, lo que permite que la solución clínica sea el eje principal de la herramienta.
-        <button onclick="modalSanet(1, 'contacto')">¡Quiero una propuesta!</button>
+        Los módulos para configuración de <span>sanet</span> permiten que el sistema se adapte a las realidades y cambios de cada unidad hospitalaria, sin necesidad de desarrollos adicionales y permitiendo una alta personalización de la herramienta.<br>
+        <button onclick="window.location.href='./contacto';">¡Quiero una propuesta!</button>
       </p>
       <ol>
         <li onclick="modalSanet(1, '#modulo-27')"><i class="fas fa-angle-double-right"></i> Seguridad</li>
@@ -112,7 +112,7 @@
     <div>
       <h2>Un verdadero sistema hospitalario</h2>
       <p>Seguridad de la información, Modular y flexible adapdable a las necesidades de cada hospital.</p>
-      <button onclick="modalSanet(1, 'contacto')" >Haz crecer tu hospital</button>
+      <button onclick="window.location.href='./contacto';" >Haz crecer tu hospital</button>
     </div>
   </div>
 

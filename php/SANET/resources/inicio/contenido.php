@@ -36,7 +36,7 @@
         <span><img src="images/icons/modulos sih/investigacion.png" title="Módulos administrativos" alt="icono adminstrativo de color"></span>
         <h2>Módulos administrativos</h2>
         <p>
-          sanet cuenta con todos los módulos necesarios para la gestión administrativa de tu hospital, incluyendo la gestión de almacenes, proveedores, cuentas de pacientes y facturación.
+          <span>sanet</span> cuenta con todos los módulos necesarios para la gestión administrativa de tu hospital, incluyendo la gestión de almacenes, proveedores, cuentas de pacientes y facturación.
         </p>
         <button onclick="window.location.href='./modulos-his#modulos-administrativos';">ver más detalles <i class="fas fa-angle-double-right"></i></button>
       </li>
@@ -44,7 +44,7 @@
         <span><img src="images/icons/modulos sih/medical-record.png" title="Módulos clínicos" alt="icono reporte clínico de color"></span>
         <h2>Módulos clínicos</h2>
         <p>
-          sanet cuenta con módulos de atención clínica para todas las áreas hospitalarias, teniendo siempre en el centro de atención al paciente.
+          <span>sanet</span> cuenta con módulos de atención clínica para todas las áreas hospitalarias, teniendo siempre en el centro de atención al paciente.
         </p>
         <button onclick="window.location.href='./modulos-his#modulos-clinicos';">ver más detalles <i class="fas fa-angle-double-right"></i></button>
       </li>
@@ -52,7 +52,7 @@
         <span><img src="images/icons/modulos sih/settings.png" title="Módulos de configuración" alt="icono de configuración clínica de color"></span>
         <h2>Módulos de configuración</h2>
         <p>
-          sanet cuenta con módulos para la configuración de diversos aspectos del hospital, permitiendo un alto grado de adaptación de acuerdo a sus necesidades.
+          <span>sanet</span> cuenta con módulos para la configuración de diversos aspectos del hospital, permitiendo un alto grado de adaptación de acuerdo a sus necesidades.
         </p>
         <button onclick="window.location.href='./modulos-his#modulos-configuracion';" >ver más detalles <i class="fas fa-angle-double-right"></i></button>
       </li>
