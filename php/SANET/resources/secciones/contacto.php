@@ -84,9 +84,11 @@
 			<li>
 				<h2>Contacto</h2>
 				<p>
-					<a>Email <span></span></a><br>
+					<a onclick="window.location.href='mailto:contacto@sanet.com.mx';">
+            contacto<span style="font-family: 'Eight One';font-weight: lighter;font-size: 25px;">@</span>sanet.com.mx <span></span>
+          </a><br>
 					<a>Teléfono <span></span></a><br>
-					<a>Whatsapp <span></span></a>
+					<a>Whatsapp <span></span></a><br>
 				</p>	
 			</li>
 			<li>

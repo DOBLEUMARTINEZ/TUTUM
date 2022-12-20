@@ -41,8 +41,8 @@
     <li>
       <h3><span>|</span> Contacto</h3>
       <ul>
-        <li onclick="window.location.href='./';" >
-          Email
+        <li onclick="window.location.href='mailto:contacto@sanet.com.mx';" >
+          contacto<span style="font-family: 'Eight One';font-weight: lighter;font-size: 25px;">@</span>sanet.com.mx
         </li>
         <li onclick="window.location.href='./';" >
           Teléfono

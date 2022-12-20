@@ -29,8 +29,8 @@
           </ol>
         </li>
 
-        <li class="<?php if(isset($_GET['seccion'])&&($_GET['seccion'])=='precios'){echo 'active-section';} ?>">
-          <a onclick="window.location.href='./precios';" >Precios</a>
+        <li class="<?php if(isset($_GET['seccion'])&&($_GET['seccion'])=='licencias'){echo 'active-section';} ?>">
+          <a onclick="window.location.href='./licencias';" >Licencias</a>
         </li>
 
         <li class="<?php if(isset($_GET['seccion'])&&($_GET['seccion'])=='contacto'){echo 'active-section';} ?>">

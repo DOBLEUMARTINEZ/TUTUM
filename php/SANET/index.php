@@ -48,6 +48,10 @@ echo '<body>'; // INICIO CUERPO
           include("resources/secciones/modulos-sih.php"); // MODULOS SIH
           break;
 
+        case 'licencias':
+          include("resources/secciones/licencias.php"); // LICENCIAS
+          break;
+   
         case 'contacto':
           include("resources/secciones/contacto.php"); // CONTACTO
           break;
