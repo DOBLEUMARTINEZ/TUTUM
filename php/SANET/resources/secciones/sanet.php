@@ -245,14 +245,12 @@
 
       </div>
 
-      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev" style="    font-size: 6em;
-    font-weight: bold;
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev" style="font-size: 6em;font-weight: bold;
     color: #ffc107;">
         <
       </a>
 
-      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next" style="    font-size: 6em;
-    font-weight: bold;
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next" style="font-size: 6em;font-weight: bold;
     color: #ffc107;">
         >
       </a>
