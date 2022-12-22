@@ -22,7 +22,7 @@
         <li class="dropdown-menu-ttm <?php if(isset($_GET['seccion'])&&($_GET['seccion'])=='sanet'){echo 'active-section';} ?>">
           <a onclick="window.location.href='./sanet';" >Sanet</a>
           <ol>
-            <li onclick="window.location.href='./modulos-his';" >Módulos HIS</li>
+            <li onclick="window.location.href='./modulos-his';" >Módulos SIH</li>
             <li onclick="window.location.href='./modulos-his#modulos-administrativos';" >Módulos administrativos</li>
             <li onclick="window.location.href='./modulos-his#modulos-clinicos';" >Módulos clínicos</li>
             <li onclick="window.location.href='./modulos-his#modulos-configuracion';" >Módulos de configuración</li>
@@ -81,6 +81,10 @@
 
             <li onclick="window.location.href='./modulos-his#modulos-configuracion';" >
               Módulos de configuración
+            </li>
+
+            <li>
+              <a onclick="window.location.href='./licencias';" >Licencias</a>
             </li>
 
             <li>

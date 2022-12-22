@@ -8,6 +8,14 @@
     line-height: 1
 }
 
+.fa-paper-plane:before {
+    content: "\f1d8"
+}
+
+.fa-envelope:before {
+    content: "\f0e0"
+}
+
 .fa-angle-double-right:before {
     content: "\f101"
 }

@@ -59,7 +59,7 @@
       </li>
       <li>
         <p>
-          Tenemos experiencia en los sectores de salud, gestión hospitalaria, seguridad nacional, finanzas, infraestructura e industrial. Para brindar un alcance y soporte a nivel nacional, contamos con una cobertura de centros de atención a usuarios y distribución en seis regiones estratégicamente ubicadas en la república mexicana.
+          Tenemos experiencia en los sectores de salud publica y privada gestionando hospitales a nivel nacional, contamos con una cobertura de centros de atención a usuarios y distribución en seis regiones estratégicamente ubicadas en la república mexicana.
         </p>
       </li>
       <img src="images/img/nuestra-experiencia-2.jpg" title="Quiénes somos" alt="Experiencia de sanet en Mapa de la Republica Mexicana png ">

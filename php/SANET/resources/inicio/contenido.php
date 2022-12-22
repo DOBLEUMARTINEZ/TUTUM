@@ -25,7 +25,7 @@
 	<div class="bloque-1">
 		<h2>Un verdadero Sistema Integral de Información para Hospitales</h2>
 		<p>
-			El Sistema Hospitalario <span>sanet</span> es una solución diseñada para Administrar y Controlar todas las áreas que componen un Hospital o Clínica; mediante una comunicación permanente entre todas las áreas del Sistema Hospitalario, siendo este capaz de transmitir texto, imágenes y videos. De esta forma permitiendo una gestión oportuna, clara y efectiva, obteniendo como resultado los mejores indicadores de productividad y estándares de servicios.
+			El Sistema Hospitalario <span>sanet</span> es una solución diseñada para administrar y controlar todas las áreas que componen un Hospital o Clínica; mediante una comunicación permanente entre todas las áreas del Sistema Hospitalario, siendo este capaz de transmitir texto, imágenes y videos. De esta forma permitiendo una gestión oportuna, clara y efectiva, obteniendo como resultado los mejores indicadores de productividad y estándares de servicios.
 		</p>
 	</div>
 
@@ -64,7 +64,7 @@
     <div>
       <h2>No más errores administrativos en tu hospital o clínica</h2>
       <p>
-        El sistema hospitalario <span>sanet</span> esta orientado a la seguridad de la información y del paciente. Modular y flexible para adaptarse a las necesidades de cada hospital. Gestiona todos los procesos clínicos, administrativos, financieros y gerenciales de tu hospital en un solo sistema, y cuenta con toda la información en tiempo real, con trazabilidad completa de la atención en los servicios.
+        El sistema hospitalario <span>sanet</span> está orientado a la seguridad de la información y del paciente. Comunicación modular y flexible para adaptarse a las necesidades de cada hospital. Gestiona todos los procesos clínicos, administrativos, financieros y gerenciales de tu hospital en un solo sistema, y cuenta con toda la información en tiempo real, con trazabilidad completa de la atención en los servicios.
       </p>
       <button onclick="window.location.href='./contacto';" >Solicita una reunión</button>
     </div>

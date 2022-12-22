@@ -5,7 +5,7 @@
     <video class="video desktop" loading="lazy" src="images/HOSPITAL.mp4" autoplay="" muted="" loop=""></video>
 
     <div>
-      <h1>Descubre los beneficios de trabajar con los módulos de nuestro HIS</h1>
+      <h1>Descubre los beneficios de trabajar con los módulos de nuestro SIH</h1>
       <p>
         <span>sanet</span> cuenta con módulos para la atención de pacientes en distintos ámbitos hospitalarios conectados entre sí, permitiendo de esta manera que la atención a los pacientes se reflejen en todo momento en el sistema. Al ser modular, <span>sanet</span> se adapta a las necesidades de cada hospital o clínica.<br>
         <i onclick="window.location.href='#modulos-administrativos';" class="fas fa-chevron-circle-down flecha"></i>

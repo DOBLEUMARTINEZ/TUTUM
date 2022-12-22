@@ -13,13 +13,16 @@
         <li onclick="window.location.href='./sanet';">
           Sanet
         </li>
+        <li onclick="window.location.href='./licencias';">
+          Licencias
+        </li>
         <li onclick="window.location.href='./contacto';">
           Contacto
         </li>
       </ul>
     </li>
     <li>
-      <h3><span>|</span> Soluciónes</h3>
+      <h3><span>|</span> Soluciones</h3>
       <ul>
         <li onclick="window.location.href='./sanet';">
           Sanet
@@ -42,16 +45,16 @@
       <h3><span>|</span> Contacto</h3>
       <ul>
         <li onclick="window.location.href='mailto:contacto@sanet.com.mx';" >
-          contacto<span style="font-family: 'Eight One';font-weight: lighter;font-size: 25px;">@</span>sanet.com.mx
+          <i class="fas fa-envelope"></i> contacto<span style="font-family: 'Eight One';font-weight: lighter;font-size: 25px;">@</span>sanet.com.mx
         </li>
-        <li onclick="window.location.href='./';" >
-          Teléfono
+        <li onclick="window.location.href='tel:525579285696';" >
+          <span style="font-family: 'arial';font-weight: lighter;font-size: 20px;"><i class="fas fa-phone"></i> 55 7928 5696</span>
         </li>
-        <li onclick="window.location.href='./';" >
-          Whatsapp
+        <li onclick="window.location.href='https://api.whatsapp.com/send?phone=525579285696&text=Estoy%20interesado%20en%20conocer%20mas%20sobre%20sanet';" >
+          <i class="fab fa-whatsapp"></i> Whatsapp
         </li>
         <li onclick="window.location.href='./contacto';">
-          Formulario de contacto
+          <i class="far fa-paper-plane"></i> Formulario de contacto
         </li>
       </ul>
     </li>

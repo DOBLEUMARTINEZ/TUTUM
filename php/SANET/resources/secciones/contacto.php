@@ -33,7 +33,7 @@
 		<img src="images/img/contacto-1.jpg" class="desktop" style="width: 100%;" title="Contacto sanet" alt="Mujer Escribiendo en Laptop en Escritorio Y Teléfono">
 
   	<ol>
-  		<li style="background: #28a745;">
+  		<li style="background: #28a745;" onclick="window.location.href='https://api.whatsapp.com/send?phone=525579285696&text=Estoy%20interesado%20en%20conocer%20mas%20sobre%20sanet';">
   			Mensaje de WhatsApp <i class="fas fa-chevron-right"></i>
   		</li>
   		<li onclick="modalSanet(1, 'contacto')" >
@@ -50,19 +50,19 @@
             <ul>
               <li>
                 <label>Nombre</label><br>
-                <input type="text" name="nombre" placeholder="Escribe tu nombre" required maxlength="30" onkeypress="return soloLetras(event)">
+                <input type="text" name="nombre" placeholder="" required maxlength="30" onkeypress="return soloLetras(event)">
               </li>
               <li>
                 <label>Teléfono</label><br>
-                <input type="phone" name="telefono" placeholder="5523654965" required maxlength="10" onkeypress="return soloNumeros(event)" >
+                <input type="phone" name="telefono" placeholder="" required maxlength="10" onkeypress="return soloNumeros(event)" >
               </li>
               <li>
                 <label>Email</label><br>
-                <input type="email" name="email" placeholder="example@sanet.com.mx" required>
+                <input type="email" name="email" placeholder="" required>
               </li>
               <li>
-                <label>Escribe tu mensaje</label><br>
-                <textarea name="comentarios" placeholder="Escribe tus comentarios adicionales"></textarea>
+                <label>Escribe tus comentarios adicionales</label><br>
+                <textarea name="comentarios" placeholder=""></textarea>
               </li>
               <li>
                 <div class="g-recaptcha" data-sitekey="6LfDOY8iAAAAAOkh2mDFH80NQ7DTcbEkW3jnEJeC" data-callback="verifyCaptcha" ></div>
@@ -87,8 +87,8 @@
 					<a onclick="window.location.href='mailto:contacto@sanet.com.mx';">
             contacto<span style="font-family: 'Eight One';font-weight: lighter;font-size: 25px;">@</span>sanet.com.mx <span></span>
           </a><br>
-					<a>Teléfono <span></span></a><br>
-					<a>Whatsapp <span></span></a><br>
+					<a onclick="window.location.href='tel:525579285696';"> <span>55 7928 5696</span></a><br>
+					<a onclick="window.location.href='https://api.whatsapp.com/send?phone=525579285696&text=Estoy%20interesado%20en%20conocer%20mas%20sobre%20sanet';" >Whatsapp <span></span></a><br>
 				</p>	
 			</li>
 			<li>
