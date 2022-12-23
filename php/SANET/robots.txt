@@ -1,0 +1,9 @@
+User-Agent: *
+Disallow: 
+Disallow: /css
+Disallow: /images
+Disallow: /js
+Disallow: /resources
+Disallow: /phpmailer
+
+Sitemap: https://sanet.dobleumartinez.com/sitemap.xml
