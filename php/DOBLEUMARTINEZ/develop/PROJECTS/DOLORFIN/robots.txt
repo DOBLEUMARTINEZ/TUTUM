@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: 
+Disallow: /resources
+
+Sitemap: https://dolorfin.dobleumartinez.com/sitemap.xml

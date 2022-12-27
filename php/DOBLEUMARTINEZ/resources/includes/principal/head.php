@@ -5,6 +5,7 @@
   <meta name="description" content="Agencia de Marketing Digital especializada en Estrategias Digitales, Paginas web, Landig Pages, Google Ads, Diseño Grafico y mucho más | Dobleu Martinez">
   <meta name="author" content="Dobleu Martinez">
   <meta name="theme-color" content="#111">
+  <link rel="canonical" href="dobleumartinez.com"> 
   
   <title>Agencia de Marketing Digital | Dobleu Martinez </title>
 
