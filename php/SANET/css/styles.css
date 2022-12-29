@@ -3480,8 +3480,12 @@
         }
 
         #sanet-content > .bloque-1 >div::before {
-            top: -30%;
+            top: -20%;
             left: 17%;
+        }
+
+        #modulo-index-content > .bloque-2 {
+            padding: 30% 0 5% 0;
         }
 
     /* NUESTRA EXPERIENCIA - BLOQUE 1 */

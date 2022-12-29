@@ -132,6 +132,10 @@ echo '<body>'; // INICIO CUERPO
             include("resources/contacto/bolsa.php"); // CONTENIDO 
             break;
 
+          case 'aviso-de-privacidad':
+            include("resources/aviso-de-privacidad.php"); // CONTENIDO 
+            break;
+
           case 'gracias':
             include("resources/gracias.php"); // gracias
             break;

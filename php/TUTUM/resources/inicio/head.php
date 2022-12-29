@@ -21,9 +21,24 @@
   <link rel="stylesheet" href="<?php echo $url;?>css/fontawesome-free-5.7.0-web/css/all.css">
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
- 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-187877163-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+        gtag('config', 'UA-187877163-1');
+    </script>
+    
+ <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2SVY5SCEG4"></script>
+    <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+
+     gtag('config', 'G-2SVY5SCEG4');
+    </script>
 
   
 </head>

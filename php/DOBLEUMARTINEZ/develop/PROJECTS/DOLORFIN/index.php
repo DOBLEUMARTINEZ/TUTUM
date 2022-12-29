@@ -17,11 +17,10 @@ echo '<!DOCTYPE html><html lang="es">';
   // EMAIL
     include("send.php");
 
-
 echo '<body>'; // INICIO CUERPO
 
-  include("resources/inicio/nav.php"); // BARRRA DE NAVEGACIÓN
-   exit();
+  include("resources/sections/inicio/nav.php"); // BARRRA DE NAVEGACIÓN
+   
   // CONTENIDO
     if (isset($_GET['seccion'])) {
 
@@ -61,10 +60,10 @@ echo '<body>'; // INICIO CUERPO
       }
 
     }else{
-      include("resources/inicio/contenido.php"); // INDEX
+      include("resources/sections/inicio/contenido.php"); // INDEX
     }
 
-  include 'resources/inicio/footer.php'; // PIE DE PAGINA
+  //include 'resources/inicio/footer.php'; // PIE DE PAGINA
 
 echo "</body></html>";
 
