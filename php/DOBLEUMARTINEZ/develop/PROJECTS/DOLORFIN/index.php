@@ -17,10 +17,9 @@ echo '<!DOCTYPE html><html lang="es">';
   // EMAIL
     include("send.php");
 
-
 echo '<body>'; // INICIO CUERPO
 
-  include("resources/inicio/nav.php"); // BARRRA DE NAVEGACIÓN
+  include("resources/sections/inicio/nav.php"); // BARRRA DE NAVEGACIÓN
    exit();
   // CONTENIDO
     if (isset($_GET['seccion'])) {
