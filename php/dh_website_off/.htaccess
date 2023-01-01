@@ -1,0 +1,9 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+RewriteRule ^/$ index.php
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+)/?$ index.php?seccion=$1&%{QUERY_STRING} [L]
+
