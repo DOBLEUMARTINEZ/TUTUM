@@ -22,12 +22,11 @@ echo '<body>'; // INICIO CUERPO
   // BARRRA DE NAVEGACIÓN
   include("resources/sections/inicio/nav.php");
 
-<<<<<<< HEAD
   include("resources/sections/inicio/nav.php"); // BARRRA DE NAVEGACIÓN
 
   // CONTENIDO
     if (isset($_GET['seccion'])) {
-=======
+
   if (isset($_GET['seccion'])) {
     // GRACIAS
     include("resources/sections/inicio/gracias.php");
@@ -35,7 +34,6 @@ echo '<body>'; // INICIO CUERPO
     // CONTENIDO
     include("resources/sections/inicio/contenido.php");
   }
->>>>>>> 9f6640954cf5cfe62c11c5ee7706cb30acfad585
 
   // PIE DE PAGINA
   include 'resources/sections/inicio/footer.php'; 
