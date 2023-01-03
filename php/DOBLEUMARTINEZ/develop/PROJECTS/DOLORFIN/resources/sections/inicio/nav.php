@@ -6,7 +6,7 @@
     </li>
     <li onclick="window.location.href='mailto:contacto@dolorfinzonaesmeralda.com';" ><i class="fas fa-envelope"></i> contacto@dolorfinzonaesmeralda.com</li>
     <li onclick="window.location.href='tel:5529574690';" ><i class="fas fa-phone"></i> 55 2957 4690</li>
-    <li onclick="window.location.href='<?php echo $url;?>#agendar-cita';" class="cta-nav" >AGENDA TU CITA</li>
+    <li onclick="window.location.href='<?php echo $url;?>#agendar-cita';" class="cta-nav" >Agenda una cita</li>
   </ul>
 </nav>
 

@@ -4,7 +4,7 @@
   <div>
     <h1>SOLUCIONA<br> TU DOLOR DE<br> ESPALDA</h1>
     <p>Dolorfin especialista Quiropráctico, <br>Fisioterapeuta y Masajista.</p>
-    <button onclick="window.open('https://api.whatsapp.com/send?phone=5529574690&text=Me%20interesa%20agendar%20una%20cita%20en%20Dolorfin%20Zona%20Esmeralda');">AGENDA TU CITA</button>
+    <button onclick="window.open('https://api.whatsapp.com/send?phone=5529574690&text=Me%20interesa%20agendar%20una%20cita%20en%20Dolorfin%20Zona%20Esmeralda');">Agenda una cita</button>
   </div>
 
   <span class="mouse-icon" onclick="window.location.href='#dolorfin';">
@@ -12,8 +12,8 @@
   </span>
 
   <img src="<?php echo $url; ?>resources/images/banner-1.jpg" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
-
 </div>
+
 <a id="dolorfin"></a>
 <div class="bloque-1">
 	<h2><span>Dolorfin</span> Zona Esmeralda</h2>
@@ -36,9 +36,10 @@
 	</ul>
 	<div>
 		<h2>Dale una segunda oportunidad a tu cuerpo</h2>
-		<button onclick="window.open('https://api.whatsapp.com/send?phone=5529574690&text=Me%20interesa%20agendar%20una%20cita%20en%20Dolorfin%20Zona%20Esmeralda');">AGENDA TU CITA Y DALE FIN AL <span>DOLOR</span></button>
+		<button onclick="window.open('https://api.whatsapp.com/send?phone=5529574690&text=Me%20interesa%20agendar%20una%20cita%20en%20Dolorfin%20Zona%20Esmeralda');">AGENDA UNA CITA Y DALE FIN AL <span>DOLOR</span></button>
 	</div>
 </div>
+
 <a id="proceso-dolorfin"></a>
 <div class="bloque-2">
 	<ul>
@@ -70,16 +71,25 @@
 </div>
 
 <div class="bloque-3">
-	<h3>Nos importa diseñar un tratamiento adecuado para ti, porque entendemos lo que representa aliviar el dolor en tu vida.</h3>
-	<button onclick="window.open('https://api.whatsapp.com/send?phone=5529574690&text=Me%20interesa%20agendar%20una%20cita%20en%20Dolorfin%20Zona%20Esmeralda');">AGENDA TU CITA</button>
+	<h2>Nos encargaremos de diseñar un tratamiento <br>adecuado para la salud de tu espalda</h2>
+	<button onclick="window.open('https://api.whatsapp.com/send?phone=5529574690&text=Me%20interesa%20agendar%20una%20cita%20en%20Dolorfin%20Zona%20Esmeralda');">Agenda tu cita via WhatsApp</button>
 </div>
 
 <div class="bloque-1">
 	<h2>Tener una mejor salud siempre será tu decisión, por ellos estamos comprometidos en apoyarte en cada paso.</h2>
 	<ul>
-		<li></li>
-		<li></li>
-		<li></li>
+		<li onclick="window.location.href='#proceso-dolorfin';">
+			<img src="<?php echo $url; ?>resources/images/mexico.png" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
+		    <h3>Más de 12 clínicas en todo Mexico</h3>
+		</li>
+		<li onclick="window.location.href='#proceso-dolorfin';">
+			<img src="<?php echo $url; ?>resources/images/pacientes.png" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
+		    <h3>Más de 12,000 pacientes por año</h3>
+		</li>
+		<li onclick="window.location.href='#proceso-dolorfin';">
+			<img src="<?php echo $url; ?>resources/images/alta-calidad.png" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
+		    <h3>Servicio de calidad</h3>
+		</li>
 	</ul>
 </div>
 
