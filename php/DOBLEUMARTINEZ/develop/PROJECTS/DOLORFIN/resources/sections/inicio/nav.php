@@ -11,6 +11,6 @@
 </nav>
 
 <!-- CTA - WHATSAPP -->
-<button class="cta-wha-flotante" onclick="window.location.href='https://api.whatsapp.com/send?phone=5529574690&text=Me%20interesa%20saber%20mas%20sobre%20Dolorfin%20Zona%20Esmeralda';" >
+<button class="cta-wha-flotante" onclick="window.open('https://api.whatsapp.com/send?phone=5529574690&text=Me%20interesa%20agendar%20una%20cita%20en%20Dolorfin%20Zona%20Esmeralda');" >
 	<i class="fab fa-whatsapp"></i>
 </button>

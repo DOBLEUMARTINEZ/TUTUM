@@ -103,7 +103,15 @@
 				    $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
 				    $mail->send();
+
+
 				    ?>
+
+				    <script type="text/javascript">
+							window.location.href='./gracias';
+						</script>
+
+
 					  <script type="text/javascript">
 					      $( document ).ready(function() {
 					      Swal.fire({
