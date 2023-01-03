@@ -22,11 +22,7 @@ echo '<body>'; // INICIO CUERPO
   // BARRRA DE NAVEGACIÓN
   include("resources/sections/inicio/nav.php");
 
-  include("resources/sections/inicio/nav.php"); // BARRRA DE NAVEGACIÓN
-
   // CONTENIDO
-    if (isset($_GET['seccion'])) {
-
   if (isset($_GET['seccion'])) {
     // GRACIAS
     include("resources/sections/inicio/gracias.php");
