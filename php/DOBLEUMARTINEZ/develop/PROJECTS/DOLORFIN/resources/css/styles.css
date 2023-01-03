@@ -320,8 +320,9 @@
         width: 100%;
         display: flex;
         justify-content: space-between;
-        align-items: flex-start;
+        align-items: center;
         list-style: none;
+        flex-wrap: wrap;
     }
 
     .bloque-2 > ul > li{
@@ -330,7 +331,7 @@
 
     .bloque-2 > ul > li > ol {
         list-style: none;
-        line-height: 50px;
+        line-height: 25px;
     }
 
     .bloque-2 > ul > li > ol > li {
