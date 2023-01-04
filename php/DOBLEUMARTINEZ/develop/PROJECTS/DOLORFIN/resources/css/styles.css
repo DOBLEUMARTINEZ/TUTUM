@@ -48,6 +48,10 @@
         font-family: 'Poppins', sans-serif!important;
     }
 
+    input {
+        font-family: 'Poppins', sans-serif!important;
+    }
+
     a {
         background-color: transparent;
          color: inherit;
@@ -273,6 +277,11 @@
         cursor: pointer;
     }
 
+    .bloque-1 ul > li:hover img{
+        transition: 0.3s;
+        transform: translateY(-15px);
+    }
+
     .bloque-1 ul > li:hover h3{
         transition: 0.2s;
         color:#138872;
@@ -380,7 +389,7 @@
         border-radius: 10px;
     }
 
-/* Bloque 3 */
+/* BLOQUE 3 */
     .bloque-3{
         width: 80%;
         padding: 3% 10% 3% 10%;
@@ -408,3 +417,73 @@
         transition: 0.2s;
         border: 3px solid #0000;
     }
+
+/* BLOQUE 4  */
+    .parallas {
+      margin: 0 auto;
+    }
+
+    .parallax {
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 18rem;
+      max-width: 100%;
+      position: relative;
+    }
+
+    .texto-interior {
+      color: #fff;
+      font-size: 2rem;
+      font-weight: bold;
+      left: 10%;
+      position: absolute;
+      text-align: center;
+      top: 40%;
+      width: 80%;
+    }
+
+    .img-uno {
+      background-image: url("../images/parallax.jpg");
+    }
+
+/* BLOQUE 5 */ 
+    .bloque-5{
+        width: 80%;
+        padding: 3% 10% 5% 10%;
+        text-align: center;
+    }
+
+    .bloque-5 > form > ol{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        list-style: none;
+    }
+
+    .bloque-5 > form > ol > li{
+        margin-bottom: 2%;
+        text-align: left;
+    }
+
+    .bloque-5 > form label, input{
+        width: 100%;
+        text-align: left;
+    }
+
+    .bloque-5 > form {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+
+    .bloque-5 > form > ol {
+        width: 50%;
+    }
+
+
+
+

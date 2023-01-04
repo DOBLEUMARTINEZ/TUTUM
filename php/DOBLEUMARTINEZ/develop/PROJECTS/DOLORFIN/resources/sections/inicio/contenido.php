@@ -77,44 +77,96 @@
 
 <div class="bloque-1">
 	<h2>Tener una mejor salud siempre será tu decisión, por ellos estamos comprometidos en apoyarte en cada paso.</h2>
-	<ul>
+	<ul style="margin-bottom: 3%;">
 		<li onclick="window.location.href='#proceso-dolorfin';">
 			<img src="<?php echo $url; ?>resources/images/mexico.png" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
-		    <h3>Más de 12 clínicas en todo Mexico</h3>
+		    <h3>Más de 12 clínicas<br>en todo Mexico</h3>
 		</li>
 		<li onclick="window.location.href='#proceso-dolorfin';">
 			<img src="<?php echo $url; ?>resources/images/pacientes.png" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
-		    <h3>Más de 12,000 pacientes por año</h3>
+		    <h3>Más de 12,000<br>pacientes por año</h3>
 		</li>
 		<li onclick="window.location.href='#proceso-dolorfin';">
 			<img src="<?php echo $url; ?>resources/images/alta-calidad.png" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
-		    <h3>Servicio de calidad</h3>
+		    <h3>Servicio de <br>alta calidad</h3>
 		</li>
 	</ul>
 </div>
 
 <div class="bloque-4">
-	<img src="<?php echo $url; ?>resources/images/dolorfin-1.jpg" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
+  <div class="parallax img-uno" id="m">
+    <div class="texto-interior">
+      <h2 id="m"></h2>
+    </div>
+ </div>
 </div>
 
 <div class="bloque-5">
-	<h2>¡No esperes más tiempo! Agenda una cita de valoración con nuestros especialistas.</h2>
+	<h2>
+		¡No esperes más tiempo!<br>Agenda una cita de valoración con nuestros especialistas
+	</h2>
 	<form>
 		<ol>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
+			<li >
+				<label>Nombre</label><br>
+				<input type="" name="">
+			</li>
+			<li >
+				<label>Apellido</label><br>
+				<input type="" name="">
+			</li>
+			<li >
+				<label>Teléfono</label><br>
+				<input type="" name="">
+			</li>
+			<li >
+				<label>Correo electronico</label><br>
+				<input type="" name="">
+			</li>
+		</ol>
+		<ol>
+			<li>
+				<label>Nombre</label><br>
+				<input type="" name="">
+			</li>
+			<li >
+				<label>Apellido</label><br>
+				<input type="" name="">
+			</li>
+			<li >
+				<label>Indica el nivel de tensión y/o dolor actual:</label><br>
+				<input type="" name="">
+			</li>
+			<li >
+				<label>Teléfono</label><br>
+				<input type="" name="">
+			</li>
+			<li >
+				<label>Del 1 al 10, ¿qué tan importante es tu salud?</label><br>
+				<input type="" name="">
+			</li>
+			<li >
+				<label>Correo electronico</label><br>
+				<input type="" name="">
+			</li>
+			<li >
+				<label>Si requieres contarnos más ¿Cómo podemos ayudarte?</label><br>
+				<input type="" name="">
+			</li>
+			<li >
+				<label>¿Dónde está la mayor fuente de tu dolor?</label><br>
+				<input type="" name="">
+			</li>
+			<li >
+				<button>
+					Enviar
+				</button>
+			</li>
 		</ol>
 	</form>
-	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15038.980500082007!2d-99.290477!3d19.552553!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8a0ab928d4b98f1!2sDolorfin%20Zona%20Esmeralda%20-%20Quiropr%C3%A1cticos!5e0!3m2!1ses!2sus!4v1672691860255!5m2!1ses!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15038.980500082007!2d-99.290477!3d19.552553!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8a0ab928d4b98f1!2sDolorfin%20Zona%20Esmeralda%20-%20Quiropr%C3%A1cticos!5e0!3m2!1ses!2sus!4v1672691860255!5m2!1ses!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 
 
