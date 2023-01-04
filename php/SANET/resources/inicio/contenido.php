@@ -4,7 +4,7 @@
   <div style="z-index: 1">
     <img src="images/logo/logo.png" title="Sistema de Información Hospitalaria sanet" alt="sanet logo png">
     <br>
-    <h1>El mejor Sistema de Información Hospitalaria</h1>
+    <h1>El mejor Sistema de Información Hospitalario</h1>
     <br>
     <i onclick="window.location.href='#sanet';" class="flecha fas fa-chevron-circle-down"></i>
   </div>
@@ -25,7 +25,7 @@
 	<div class="bloque-1">
 		<h2>Un verdadero Sistema Integral de Información para Hospitales</h2>
 		<p>
-			El Sistema Hospitalario <span>sanet</span> es una solución diseñada para administrar y controlar todas las áreas que componen un Hospital o Clínica; mediante una comunicación permanente entre todas las áreas del Sistema Hospitalario, siendo este capaz de transmitir texto, imágenes y videos. De esta forma permitiendo una gestión oportuna, clara y efectiva, obteniendo como resultado los mejores indicadores de productividad y estándares de servicios.
+			El Sistema Hospitalario <span>sanet</span> es una solución diseñada para administrar y controlar todas las áreas que componen un Hospital o Clínica; mediante una comunicación permanente entre todas las áreas del Sistema Hospitalario, siendo esté  capaz de transmitir texto, imágenes y videos. De esta forma permitiendo una gestión oportuna, clara y efectiva, obteniendo como resultado los mejores indicadores de productividad y estándares de servicios.
 		</p>
 	</div>
 

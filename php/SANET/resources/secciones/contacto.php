@@ -95,7 +95,7 @@
 			<li>
 				<h2>Horarios</h2>
 				<p>
-					Lunes - Viernes <span>8:00</span> am - <span>8:00</span> pm<br>
+					Lunes - Viernes <span>9:00</span> am - <span>7:00</span> pm<br>
 				</p>	
 			</li>
 		</ul>

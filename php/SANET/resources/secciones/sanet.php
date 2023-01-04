@@ -276,7 +276,7 @@
 
   <div class="bloque-4">
     <div>
-      <h2>Mejora la atención del paciente y resguarda de una manera segura los expedientes clínicos</h2>
+      <h2>Mejora la atención de tus pacientes y resguarda de manera segura toda su información.</h2>
       <button onclick="window.location.href='./modulos-his';" >¡Quiero saber más!</button>
     </div>
   </div>
