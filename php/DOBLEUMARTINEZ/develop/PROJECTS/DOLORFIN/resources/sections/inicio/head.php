@@ -18,8 +18,16 @@
   <link rel="stylesheet" href="<?php echo $url;?>/resources/css/styles.css"/>
   <link rel="stylesheet" href="<?php echo $url;?>/resources/css/fontawesome-free-5.7.0-web/css/all.css">
 
-  <!--jquery-->
-  <script src="<?php echo $url;?>/resources/js/jquery.min.js"></script> 
+  <!--jquery
+  <script src="<?php echo $url;?>/resources/js/jquery.min.js"></script> -->
+
+  <!-- -->
+   <script src="https://www.google.com/recaptcha/api.js"></script>
+   <script>
+     function onSubmit(token) {
+       document.getElementById("demo-form").submit();
+     }
+   </script>
   
   <!-- Google Analytics -->
   

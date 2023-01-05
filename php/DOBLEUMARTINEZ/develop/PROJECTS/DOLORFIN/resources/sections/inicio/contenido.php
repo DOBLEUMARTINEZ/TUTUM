@@ -105,7 +105,8 @@
 	<h2>
 		¡No esperes más tiempo!<br>Agenda una cita de valoración con nuestros especialistas
 	</h2>
-	<form>
+	<p></p><br>
+	<form name="demo-form" action="./" method="POST" enctype="multipart/form-data">
 		<ol>
 			<li >
 				<label>Nombre</label><br>
@@ -122,48 +123,54 @@
 			<li >
 				<label>Correo electronico</label><br>
 				<input type="" name="">
+			</li>
+			<li>
+				<label>¿Dónde está la mayor fuente de tu dolor?</label>
+				<div class="checkbox-list">
+					<label><input type="checkbox" id="cbox1" value="first_checkbox"> Cuello</label>
+					<label><input type="checkbox" id="cbox1" value="first_checkbox"> Espalda</label>
+					<label><input type="checkbox" id="cbox1" value="first_checkbox"> Rodillas</label>
+					<label><input type="checkbox" id="cbox1" value="first_checkbox"> Hombros</label>
+					<label><input type="checkbox" id="cbox1" value="first_checkbox"> Ciatica</label>
+					<label><input type="checkbox" id="cbox1" value="first_checkbox"> Piernas</label>
+					<label><input type="checkbox" id="cbox1" value="first_checkbox"> Cabeza</label>
+				</div>
 			</li>
 		</ol>
 		<ol>
-			<li>
-				<label>Nombre</label><br>
-				<input type="" name="">
-			</li>
-			<li >
-				<label>Apellido</label><br>
-				<input type="" name="">
-			</li>
 			<li >
 				<label>Indica el nivel de tensión y/o dolor actual:</label><br>
-				<input type="" name="">
-			</li>
-			<li >
-				<label>Teléfono</label><br>
-				<input type="" name="">
+				<div class="input-rango"  >
+					<div class="etiqueta"></div>
+					<input id="input3" type="range" min="0" max="10" value="5">
+					<div class="btn-gradient-1"></div>
+				</div>
 			</li>
 			<li >
 				<label>Del 1 al 10, ¿qué tan importante es tu salud?</label><br>
-				<input type="" name="">
-			</li>
-			<li >
-				<label>Correo electronico</label><br>
-				<input type="" name="">
+				<div class="input-rango" >
+					<div class="etiqueta4"></div>
+					<input id="input4" type="range" min="0" max="10" value="5">
+					<div class="btn-gradient-2"></div>
+				</div>
 			</li>
 			<li >
 				<label>Si requieres contarnos más ¿Cómo podemos ayudarte?</label><br>
-				<input type="" name="">
+				<textarea></textarea>
 			</li>
-			<li >
-				<label>¿Dónde está la mayor fuente de tu dolor?</label><br>
-				<input type="" name="">
-			</li>
-			<li >
-				<button>
+			<li>
+				<button class="g-recaptcha" 
+			        data-sitekey="6LfextAjAAAAABCxA7r7NyM-cReBY9oU-JpOphn0" 
+			        data-callback='onSubmit' 
+			        data-action='submit'>Submit</button>
+				<button type="submit" name="action" value="form">
 					Enviar
 				</button>
 			</li>
 		</ol>
+
 	</form>
+
 </div>
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15038.980500082007!2d-99.290477!3d19.552553!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8a0ab928d4b98f1!2sDolorfin%20Zona%20Esmeralda%20-%20Quiropr%C3%A1cticos!5e0!3m2!1ses!2sus!4v1672691860255!5m2!1ses!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

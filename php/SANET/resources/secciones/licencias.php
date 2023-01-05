@@ -36,7 +36,7 @@
     <ul>
 
       <li>
-        <img src="images/img/nuestra-experiencia-1.jpg" title="Modelos de licenciamiento" alt="Enfermera con uniforme en Hospital con Estetoscopio en las manos">
+        <img src="images/img/cloud-3.jpg" title="Modelos de licenciamiento" alt="Enfermera con uniforme en Hospital con Estetoscopio en las manos">
         <h3>SAAS(Software as a Service)</h3>
         <p>
           Por medio del servicio SAAS se cuenta con un importante ahorro en inversión y mantenimiento de la infraestructura necesaria para almacenar el SIH.
