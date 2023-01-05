@@ -106,7 +106,7 @@
 		¡No esperes más tiempo!<br>Agenda una cita de valoración con nuestros especialistas
 	</h2>
 	<p></p><br>
-	<form action="./" method="POST" enctype="multipart/form-data">
+	<form name="demo-form" action="./" method="POST" enctype="multipart/form-data">
 		<ol>
 			<li >
 				<label>Nombre</label><br>
@@ -159,6 +159,10 @@
 				<textarea></textarea>
 			</li>
 			<li>
+				<button class="g-recaptcha" 
+			        data-sitekey="6LfextAjAAAAABCxA7r7NyM-cReBY9oU-JpOphn0" 
+			        data-callback='onSubmit' 
+			        data-action='submit'>Submit</button>
 				<button type="submit" name="action" value="form">
 					Enviar
 				</button>
