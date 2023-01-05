@@ -456,8 +456,8 @@
         text-align: center;
     }
 
-    .bloque-5 > form > ol{
-        width: 50%;
+    .bloque-5 > form {
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
