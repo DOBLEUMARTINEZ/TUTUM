@@ -458,7 +458,6 @@
 
     .bloque-5 > form > ol{
         width: 50%;
-
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
