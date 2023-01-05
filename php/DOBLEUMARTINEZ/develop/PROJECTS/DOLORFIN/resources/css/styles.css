@@ -456,10 +456,10 @@
     }
 
     .bloque-5 > form > ol{
-        width: 100%;
+        width: 50%;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-around;
         list-style: none;
     }
 
