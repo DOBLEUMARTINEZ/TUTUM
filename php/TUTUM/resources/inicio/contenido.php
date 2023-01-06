@@ -3,15 +3,15 @@
 <div id="square-banner-index">
 
   <!-- BACKGROUND VIDEO -->
-  <video class="video-slide bann-fixed" loading="lazy" src="images/SOLUCIONES.mp4" autoplay="" muted="" loop="" title="Implementación de Soluciones en Tecnologías de la Información - TUTUM" alt="Implementación de Soluciones en Tecnologías de la Información - TUTUM"></video>
-  <video class="video-slide" loading="lazy" src="images/SOLUCIONES.mp4" style="opacity: 0" autoplay="" muted="" loop="" title="Implementación de Soluciones en Tecnologías de la Información - TUTUM" alt="Implementación de Soluciones en Tecnologías de la Información - TUTUM"></video>
+  <video class="video-slide bann-fixed" loading="lazy" src="images/SOLUCIONES.mp4" autoplay="" muted="" loop="" title="TUTUM" alt="Tutum Tech video mp4"></video>
+  <video class="video-slide" loading="lazy" src="images/SOLUCIONES.mp4" style="opacity: 0" autoplay="" muted="" loop="" title="TUTUM" alt="Tutum Tech video mp4"></video>
 
   <!-- TUTU LOGO -->
   <div class="square-logo-big" >
-    <img src="images/logo/LOGO-TUTUM.png" onclick="window.location.href='./';" title="Implementación de Soluciones en Tecnologías de la Información - TUTUM" alt="Implementación de Soluciones en Tecnologías de la Información - TUTUM">
+    <img src="images/logo/LOGO-TUTUM.png" onclick="window.location.href='https://www.tutum.com.mx/';" title="TUTUM" alt="Tutum Tech logo png">
     <h2 style="font-size: 0.8vw;">ESPECIALISTAS EN IMPLEMENTACIÓN DE SOLUCIONES EN TECNOLOGÍAS DE LA INFORMACIÓN</h2>
-    <a id="start"></a>
-    <i class="fas fa-chevron-down arrow-down"  onclick="window.location.href='./#start'"></i>
+    <a id="start" href="https://www.tutum.com.mx/"></a>
+    <i class="fas fa-chevron-down arrow-down" onclick="window.location.href='./#start'"></i>
   </div>
 
   <!-- barra negra -->
@@ -22,27 +22,27 @@
 <div class="square-02">
   <ul>
     <li>
-      <h3><a class="counter" data-count="100" >0</a>%</h3>
+      <h3><a href="./" class="counter" data-count="100" >0</a>%</h3>
       <p>MEXICANA</p>
     </li>
     <li>
-      <h3><a class="counter" data-count="6" >0</a></h3>
+      <h3><a href="./" class="counter" data-count="6" >0</a></h3>
       <p>AÑOS DE EXPERIENCIA</p>
     </li>
     <li>
-      <h3>+<a class="counter" data-count="30" >0</a></h3>
+      <h3>+<a href="./" class="counter" data-count="30" >0</a></h3>
       <p>PROYECTOS​ EXITOSOS</p>
     </li>
     <li>
-      <h3>+<a class="counter" data-count="40" >0</a>k</h3>
+      <h3>+<a href="./" class="counter" data-count="40" >0</a>k</h3>
       <p>DISPOSITIVOS MONITOREADOS</p>
     </li>
     <li>
-      <h3>+<a class="counter" data-count="300" >0</a></h3>
+      <h3>+<a href="./" class="counter" data-count="300" >0</a></h3>
       <p>ESPECIALISTAS​ CERTIFICADOS</p>
     </li>
     <li>
-      <h3>+<a class="counter" data-count="300" >0</a></h3>
+      <h3>+<a href="./" class="counter" data-count="300" >0</a></h3>
       <p>CUARTOS DE COMUNICACIÓN EQUIPADOS</p>
     </li>
   </ul>
@@ -50,20 +50,20 @@
     En TUTUM buscamos la excelencia y la obtenemos a través de la implementación de estándares nacionales e internacionales, acompañados de un alto nivel de servicio. Nuestra filosofía de mejora continua nos permite alcanzar el máximo beneficio tecnológico para nuestros clientes y acompañarlos en el desarrollo de su proyecto 
   </p>
   <ol>
-    <li onclick="window.location.href='./identidad';" >
+    <li onclick="window.location.href='identidad';" >
       <img src="images/icons/identidad.gif" title="Identidad icono - TUTUM" alt="Identidad icono - TUTUM">
       <h3>IDENTIDAD</h3>
     </li>
-    <li onclick="window.location.href='./servicios';"  title="Servicios icono - TUTUM" alt="Servicios icono - TUTUM">
-      <img src="images/icons/servicios.gif">
+    <li onclick="window.location.href='servicios';"  >
+      <img src="images/icons/servicios.gif" title="Servicios icono - TUTUM" alt="Servicios icono - TUTUM">
       <h3>SERVICIOS​</h3>
     </li>
-    <li onclick="window.location.href='./prensa';" title="Prensa icono - TUTUM" alt="Prensa icono - TUTUM">
-      <img src="images/icons/prensa.gif">
+    <li onclick="window.location.href='prensa';">
+      <img src="images/icons/prensa.gif"  title="Prensa icono - TUTUM" alt="Prensa icono - TUTUM">
       <h3>PRENSA​</h3>
     </li>
-    <li onclick="window.location.href='./contacto';" title="Contacto icono - TUTUM" alt="Contacto icono - TUTUM">
-      <img src="images/icons/contact.gif">
+    <li onclick="window.location.href='contacto';" >
+      <img src="images/icons/contact.gif" title="Contacto icono - TUTUM" alt="Contacto icono - TUTUM">
       <h3>CONTACTO</h3>
     </li>
   </ol>
@@ -86,8 +86,8 @@
   <div>
     <div style="position: relative;" >
         <img src="images/img/phone.png" style="width: 80%;margin: 10% 10%;" title="Teléfono celular - TUTUM " alt="Teléfono celular - TUTUM ">
-        <iframe scrolling="no" class="iframe-index"  src="https://www.linkedin.com/embed/feed/update/urn:li:share:6924842538818293760"  frameborder="0" allowfullscreen="" title="Publicación integrada">
-        </iframe>
+        <!--<iframe scrolling="no" class="iframe-index"  src="https://www.linkedin.com/embed/feed/update/urn:li:share:6924842538818293760"  frameborder="0" allowfullscreen="" title="Publicación integrada">
+        </iframe>--->
     </div>
   </div>
 
@@ -106,9 +106,9 @@
   </ul>
   <ol>
     <li onclick="window.location.href='https://cau.tutum.com.mx/dwp/app/#/account/login?returnUrl=%2F';">USUARIOS CAU</li>
-    <li onclick="window.location.href='./prensa#start';">PRENSA</li>
-    <li onclick="window.location.href='./contacto#start';">CONTACTO</li>
-    <li onclick="window.location.href='./';">ACCEDER</li>
+    <li onclick="window.location.href='<?php echo $url;?>prensa#start';">PRENSA</li>
+    <li onclick="window.location.href='<?php echo $url;?>contacto#start';">CONTACTO</li>
+    <li onclick="window.location.href='<?php echo $url;?>';">ACCEDER</li>
   </ol>
   <div>
     <a style="color: #fff;" href="tel:+525586230660"><i class="fas fa-phone"></i> Of. +52 (55) 55 86 23 06 60</a><br>

@@ -17,51 +17,50 @@
       <!-- RUTAS -->
       <ul class="color-font-menu">
 
-        <li  class="dropdown-menu-ttm" onclick="window.location.href='<?php echo $url;?>';">Inicio</li>
+        <li  class="dropdown-menu-ttm" onclick="window.location.href='./';">Inicio</li>
 
         <li  class="dropdown-menu-ttm">
-          <a onclick="window.location.href='<?php echo $url;?>identidad#start';" >Identidad</a>
+          <a href='identidad' >Identidad</a>
         </li>
 
         <li  class="dropdown-menu-ttm">
-          <a onclick="window.location.href='<?php echo $url;?>servicios#start';" >Servicios</a>
-
+          <a href='servicios' >Servicios</a>
           <ol >
-            <li onclick="window.location.href='<?php echo $url;?>servicios-proyectos#start';">
+            <li onclick="window.location.href='servicios-proyectos';">
               DESARROLLO DE PROYECTOS TI
             </li>
-            <li onclick="window.location.href='<?php echo $url;?>servicios-operacion#start';">
+            <li onclick="window.location.href='servicios-operacion';">
               OPERACIÓN DE PROYECTOS​
             </li>
-            <li onclick="window.location.href='<?php echo $url;?>servicios-cau#start';">
+            <li onclick="window.location.href='servicios-cau';">
               CENTRO DE ATENCIÓN A USUARIOS​
             </li>
-            <li onclick="window.location.href='<?php echo $url;?>servicios-sap#start';">
+            <li onclick="window.location.href='servicios-sap';">
               SA​P
             </li>
-            <li onclick="window.location.href='<?php echo $url;?>servicios-hospitales#start';">
+            <li onclick="window.location.href='servicios-hospitales';">
               SOLUCIONES HOSPITALARIAS​
             </li>
-            <li onclick="window.location.href='<?php echo $url;?>servicios-ciberseguridad#start';">
+            <li onclick="window.location.href='servicios-ciberseguridad';">
               CIBERSEGURIDAD
             </li>
-            <li onclick="window.location.href='<?php echo $url;?>servicios-fabrica-sw#start';" >
+            <li onclick="window.location.href='servicios-fabrica-sw';" >
               Fábrica de software
             </li>
           </ol>
         </li>
 
         <li  class="dropdown-menu-ttm">
-          <a onclick="window.location.href='<?php echo $url;?>prensa#start';" >Prensa </a>
+          <a href='prensa' >Prensa </a>
         </li>
 
         <li  class="dropdown-menu-ttm">
-          <a onclick="window.location.href='<?php echo $url;?>contacto';" >Contacto</a>
+          <a href='contacto' >Contacto</a>
            <ol >
-            <li onclick="window.location.href='<?php echo $url;?>contacto';">
+            <li onclick="window.location.href='contacto';">
               CONTACTO
             </li>
-            <li onclick="window.location.href='<?php echo $url;?>bolsa-de-trabajo#start';">
+            <li onclick="window.location.href='bolsa-de-trabajo';">
               BOLSA DE TRABAJO
             </li>
             <li onclick="window.location.href='https://cau.tutum.com.mx/dwp/app/#/account/login?returnUrl=%2F';">
@@ -80,7 +79,9 @@
     <!-- NAV BAR MOVIL -->
     <nav class="container-header-mobil" >
       <ol>
-        <li style="width: 30%" ><img src="<?php echo $url;?>images/logo/LOGO-TUTUM.png" onclick="window.location.href='<?php echo $url;?>';"></li>
+        <li style="width: 30%" >
+          <img src="<?php echo $url;?>images/logo/LOGO-TUTUM.png" onclick="window.location.href='https://www.tutum.com.mx/';" title="TUTUM" alt="Tutum Tech logo png">
+        </li>
         <li style="width: 60%" >
           <ul >
             <li onclick="window.open('https://www.facebook.com/Tutum-Tech-515010355546588');" ><i class="fab fa-facebook-square"></i></li>
@@ -92,19 +93,19 @@
         <li style="width: 10%" >
           <i class="fas fa-bars" ></i><br>
           <ol class="menu-mobil" >
-             <li onclick="window.location.href='<?php echo $url;?>';">
+             <li onclick="window.location.href='./';">
               INICIO
             </li>
-            <li onclick="window.location.href='<?php echo $url;?>identidad#start';">
+            <li onclick="window.location.href='identidad';">
               IDENTIDAD
             </li>
-            <li onclick="window.location.href='<?php echo $url;?>servicios#start';">
+            <li onclick="window.location.href='servicios';">
               SERVICIOS
             </li>
-            <li onclick="window.location.href='<?php echo $url;?>prensa#start';" >
+            <li onclick="window.location.href='prensa';" >
               PRENSA
             </li>
-            <li onclick="window.location.href='<?php echo $url;?>contacto#start';">
+            <li onclick="window.location.href='contacto';">
               CONTACTO
             </li>
           </ol>

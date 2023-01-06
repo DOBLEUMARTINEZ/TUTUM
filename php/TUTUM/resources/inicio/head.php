@@ -11,8 +11,8 @@
 
   <link href="images/logo/icon.png" rel="shortcut icon"/>
   <link rel="manifest" href="https://www.tutum.com.mx/images/logo/icon.png">
-  <link rel="icon" type="images/logo/icon.png" sizes="32x32" href="https://www.tutum.com.mx/images/logo/icon.png">
-  <link rel="icon" type="images/logo/icon.png" sizes="16x16" href="https://www.tutum.com.mx/images/logo/icon.png">
+  <link rel="icon" type="icon" sizes="32x32" href="https://www.tutum.com.mx/images/logo/icon.png">
+  <link rel="icon" type="icon" sizes="16x16" href="https://www.tutum.com.mx/images/logo/icon.png">
 
   <!-- css -->
   <link rel="stylesheet" href="<?php echo $url;?>css/styles.css"/>

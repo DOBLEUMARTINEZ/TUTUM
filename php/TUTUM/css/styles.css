@@ -636,6 +636,10 @@
                 color: #fff;
             }
 
+            .dropdown-menu-ttm a{
+                text-decoration: none;
+            }
+
             .dropdown-menu-ttm >ol>li::before{
                 content:'◼';
                 float: left;
