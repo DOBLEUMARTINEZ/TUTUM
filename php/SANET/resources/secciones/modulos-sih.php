@@ -55,20 +55,20 @@
       </li>
       <li>
         <ol>
-          <li onclick="modalSanet-(1, '#modulo-9')"><i class="fas fa-angle-double-right"></i> Admisión hospitalaria</li>
+          <li onclick="modalSanet-(1, '#modulo-9')"><i class="fas fa-angle-double-right"></i> Hospitalización</li>
           <li onclick="modalSanet-(1, '#modulo-10')"><i class="fas fa-angle-double-right"></i> Urgencias</li>
           <li onclick="modalSanet-(1, '#modulo-11')"><i class="fas fa-angle-double-right"></i> Laboratorio</li>
           <li onclick="modalSanet-(1, '#modulo-12')"><i class="fas fa-angle-double-right"></i> Banco de sangre</li>
           <li onclick="modalSanet-(1, '#modulo-13')"><i class="fas fa-angle-double-right"></i> Imagenología</li>
           <li onclick="modalSanet-(1, '#modulo-14')"><i class="fas fa-angle-double-right"></i> Consulta externa</li>
           <li onclick="modalSanet-(1, '#modulo-15')"><i class="fas fa-angle-double-right"></i> Trabajo social</li>
-          <li onclick="modalSanet-(1, '#modulo-16')"><i class="fas fa-angle-double-right"></i> Administración de quirófanos</li>
+          <li onclick="modalSanet-(1, '#modulo-16')"><i class="fas fa-angle-double-right"></i> Quirófanos</li>
           <li onclick="modalSanet-(1, '#modulo-17')"><i class="fas fa-angle-double-right"></i> Enfermería</li>
         </ol>
       </li>
       <li>
         <ol >
-          <li onclick="modalSanet-(1, '#modulo-18')"><i class="fas fa-angle-double-right"></i> Defunciones</li>
+          <li onclick="modalSanet-(1, '#modulo-18')"><i class="fas fa-angle-double-right"></i> Tococirugía</li>
           <li onclick="modalSanet-(1, '#modulo-19')"><i class="fas fa-angle-double-right"></i> Indicaciones médicas </li>
           <li onclick="modalSanet-(1, '#modulo-20')"><i class="fas fa-angle-double-right"></i> Expediente clínico electrónico</li>
           <li onclick="modalSanet-(1, '#modulo-21')"><i class="fas fa-angle-double-right"></i> Control de activos</li>    
