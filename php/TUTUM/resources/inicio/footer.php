@@ -4,7 +4,7 @@
 		<span onclick="window.open('http://www.tutum.com.mx/')">tutum.com.mx</span>, 
 		Todos los derechos reservados.
 		<span >Términos y Condiciones.</span>, 
-		<span onclick="window.open('http://www.tutum.com.mx/resources/aviso-de-privacidad.pdf')">Aviso de Privacidad</span>.
+		<span onclick="window.open('http://www.tutum.com.mx/aviso-de-privacidad')">Aviso de Privacidad</span>.
 	</p>
 </div>
 

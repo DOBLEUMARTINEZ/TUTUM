@@ -133,12 +133,7 @@ echo '<body>'; // INICIO CUERPO
             break;
 
           case 'aviso-de-privacidad':
-            ?>
-            <script type="text/javascript">
-              window.location.href='http://www.tutum.com.mx/resources/aviso-de-privacidad.pdf';
-            </script>
-            <?php
-            //include("resources/aviso-de-privacidad.php"); // CONTENIDO 
+            include("resources/aviso-de-privacidad.php"); // CONTENIDO 
             break;
 
           case 'gracias':

@@ -94,8 +94,8 @@
 
     .cta-wha-flotante{
         position: fixed;
-        bottom: 7%;
-        right: 2%;
+        bottom: 15%;
+        right: 0.5%;
         background: #25D366;
         border-radius: 50%;
         border: none;
@@ -499,6 +499,12 @@
         border-radius: 0 0 5px 6px;
     }
 
+    .bloque-5 > form > ol .buttons-form{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
     .bloque-5 > form > ol > li > button{
         width: 49%;
         font-size: 22px;
@@ -512,7 +518,6 @@
         cursor: pointer;
         transition: 0.2s;
         border: 3px solid #0000;
-        margin-left: 51%;
     }
 
     .bloque-5 > form > ol > li > button:hover {
@@ -640,12 +645,14 @@
         padding: 0.5% 0;
         margin: 0;
         text-align: center;
-        background: #138872;
+        background: #111;
     }
 
     .footer > h5 {
         text-align: center;
+        font-weight: 500;
         color: #ffffffbf;
+        letter-spacing: 0.5px;
     }
 
     .footer > h5 > a {
@@ -656,3 +663,7 @@
         color: #ecd71d;
     }
 
+/** MEDIAS QUERYES **/
+@media(max-width: 1024px){
+
+}

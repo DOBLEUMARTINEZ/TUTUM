@@ -8,11 +8,11 @@
 
   <title><?php echo $title_tag;?></title>
 
-  <link href="<?php echo $url;?>/resources/images/logo/icon.png" rel="shortcut icon"/>
+  <link href="<?php echo $url;?>/resources/images/icon.png" rel="shortcut icon"/>
 
-  <link rel="manifest" href="<?php echo $url;?>/resources/images/logo/icon.png">
-  <link rel="icon" type="<?php echo $url;?>/resources/images/logo/icon.png" sizes="32x32" href="<?php echo $url;?>/resources/images/logo/icon.png">
-  <link rel="icon" type="<?php echo $url;?>/resources/images/logo/icon.png" sizes="16x16" href="<?php echo $url;?>/resources/images/logo/icon.png">
+  <link rel="manifest" href="<?php echo $url;?>/resources/images/icon.png">
+  <link rel="icon" type="<?php echo $url;?>/resources/images/icon.png" sizes="32x32" href="<?php echo $url;?>/resources/images/icon.png">
+  <link rel="icon" type="<?php echo $url;?>/resources/images/icon.png" sizes="16x16" href="<?php echo $url;?>/resources/images/icon.png">
 
   <!-- css -->
   <link rel="stylesheet" href="<?php echo $url;?>/resources/css/styles.css"/>
