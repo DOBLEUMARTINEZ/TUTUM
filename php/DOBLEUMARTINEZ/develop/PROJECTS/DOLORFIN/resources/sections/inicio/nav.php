@@ -2,11 +2,17 @@
 <nav class="nav-bar">
   <ul>
     <li onclick="window.location.href='<?php echo $url;?>';" >
-      <img src="<?php echo $url;?>resources/images/LOGO-DOLORFIN.png" title="Dolorfin Zona Esperalda" alt="Logotipo dolordin zona ezperalda color blanco png">
+      <img width="200" height="67" src="<?php echo $url;?>/resources/images/LOGO-DOLORFIN.png" title="Dolorfin Zona Esperalda" alt="Logotipo dolordin zona ezperalda color blanco png">
     </li>
-    <li onclick="window.location.href='mailto:contacto@dolorfinzonaesmeralda.com';" ><i class="fas fa-envelope"></i> contacto@dolorfinzonaesmeralda.com</li>
-    <li onclick="window.location.href='tel:5529574690';" ><i class="fas fa-phone"></i> 55 2957 4690</li>
-    <li onclick="window.location.href='<?php echo $url;?>#agendar-cita';" class="cta-nav" >Agenda una cita</li>
+    <li onclick="window.location.href='mailto:contacto@dolorfinzonaesmeralda.com';" >
+    	<i class="fas fa-envelope"></i> <span>contacto@dolorfinzonaesmeralda.com</span>
+    </li>
+    <li onclick="window.location.href='tel:5529574690';" >
+    	<i class="fas fa-phone"></i> <span>55 2957 4690</span>
+    </li>
+    <li onclick="window.location.href='<?php echo $url;?>#agendar-cita';" class="cta-nav" >
+    	Agenda una cita
+   	</li>
   </ul>
 </nav>
 

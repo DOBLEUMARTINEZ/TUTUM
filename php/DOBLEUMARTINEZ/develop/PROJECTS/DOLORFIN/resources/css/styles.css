@@ -163,7 +163,6 @@
     }
 
 	.nav-bar > ul > li > img {
-	    width: 60%;
         padding: 2% 0%;
 	}
 
@@ -182,6 +181,18 @@
     }
 
 /* BANNER - INDEX */
+    .desktop{
+        display: initial;
+    }
+
+    .tablet{
+        display: none;
+    }
+
+    .mobile{
+        display: none;
+    }
+
     .box-banner-index{
         width: 100%;
         position: relative;
@@ -240,7 +251,6 @@
     }
 
     .mouse-icon > img{
-        width: 100px;
         cursor: pointer;
     }
 
@@ -263,7 +273,7 @@
         width: 100%;
         margin: 10% 0% 10% 0%;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
         flex-wrap: wrap;
         list-style: none;
@@ -274,7 +284,6 @@
     }
 
     .bloque-1 ul > li > img{
-        width: 35%;
         cursor: pointer;
     }
 
@@ -648,22 +657,108 @@
         background: #111;
     }
 
-    .footer > h5 {
+    .footer > p {
         text-align: center;
         font-weight: 500;
         color: #ffffffbf;
         letter-spacing: 0.5px;
     }
 
-    .footer > h5 > a {
+    .footer > p > a {
         cursor: pointer;
     }
 
-    .footer > h5 > a:hover {
+    .footer > p > a:hover {
         color: #ecd71d;
     }
 
 /** MEDIAS QUERYES **/
 @media(max-width: 1024px){
+
+    /* NAV */
+        .nav-bar > ul > li {
+            font-size: 25px;
+            width: 25%;
+        }
+
+        .nav-bar > ul > li span{
+            display: none;
+        }
+
+        .nav-bar > ul > .cta-nav {
+            font-size: 20px;
+        }
+
+    /* BLOQUE 1 */
+    .bloque-1 ul > li{
+        width: 50%;
+    }
+
+}
+
+@media(max-width: 768px){
+
+    /* BANNER 1 */
+        .desktop{
+            display: none;
+        }
+
+        .tablet{
+            display: initial;
+        }
+
+        .mobile{
+            display: none;
+        }
+}
+
+@media(max-width: 425px){
+
+    /* NAV */
+        .nav-bar > ul{
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .nav-bar > ul > .cta-nav {
+            font-size: 22px;
+            width: 100%; 
+            padding: 2% 0;
+        }
+
+        .nav-bar > ul > li {
+            font-size: 25px;
+            width: auto;
+        }
+
+    /* BANNER 1 */
+
+        .desktop{
+            display: none;
+        }
+
+        .tablet{
+            display: none;
+        }
+
+        .mobile{
+            display: initial;
+        }
+
+        .box-banner-index > div > h1 {
+            font-family: 'Poppins', sans-serif!important;
+            font-size: 50px;
+            line-height: 55px;
+            margin-bottom: 0%;
+        }
+
+        .mouse-icon {
+            bottom: 5%;
+        }
+
+    /* BLOQUE 1 */
+    .bloque-1 ul > li{
+        width: 100%;
+    }
 
 }

@@ -11,8 +11,8 @@
   <link href="<?php echo $url;?>/resources/images/icon.png" rel="shortcut icon"/>
 
   <link rel="manifest" href="<?php echo $url;?>/resources/images/icon.png">
-  <link rel="icon" type="<?php echo $url;?>/resources/images/icon.png" sizes="32x32" href="<?php echo $url;?>/resources/images/icon.png">
-  <link rel="icon" type="<?php echo $url;?>/resources/images/icon.png" sizes="16x16" href="<?php echo $url;?>/resources/images/icon.png">
+  <link rel="icon" type="resources/images/icon.png" sizes="32x32" href="<?php echo $url;?>/resources/images/icon.png">
+  <link rel="icon" type="resources/images/icon.png" sizes="16x16" href="<?php echo $url;?>/resources/images/icon.png">
 
   <!-- css -->
   <link rel="stylesheet" href="<?php echo $url;?>/resources/css/styles.css"/>
@@ -21,7 +21,7 @@
   <!--jquery
   <script src="<?php echo $url;?>/resources/js/jquery.min.js"></script> -->
 
-  <!-- -->
+  <!-- Recapcha -->
    <script src="https://www.google.com/recaptcha/api.js"></script>
    <script>
      function onSubmit(token) {
