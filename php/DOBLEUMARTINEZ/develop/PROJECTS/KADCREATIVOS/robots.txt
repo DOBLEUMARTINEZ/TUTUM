@@ -1,6 +1,5 @@
 User-Agent: *
 Disallow: 
-Disallow: /develop
 Disallow: /resources
 
-Sitemap: https://dobleumartinez.com/sitemap.xml
+Sitemap: https://kadcreativos.com/sitemap.xml
