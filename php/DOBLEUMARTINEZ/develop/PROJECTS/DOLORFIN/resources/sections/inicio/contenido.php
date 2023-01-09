@@ -78,7 +78,7 @@
 </div>
 
 <div class="bloque-1">
-	<h2>Tener una mejor salud siempre será tu decisión, por ellos estamos comprometidos en apoyarte en cada paso.</h2>
+	<h2>Estamos comprometidos en apoyarte en cada paso</h2>
 	<ul style="margin-bottom: 3%;">
 		<li onclick="window.location.href='#proceso-dolorfin';">
 			<img width="160" height="160" src="<?php echo $url; ?>/resources/images/mexico.png" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
@@ -98,16 +98,18 @@
 <div class="bloque-4">
   <div class="parallax img-uno" id="m">
     <div class="texto-interior">
-      <h2 id="m"></h2>
+      <h2 id="m">Tener una mejor salud siempre será tu decisión</h2>
     </div>
  </div>
 </div>
 
 <div class="bloque-5">
+	<a id="contacto" href="<?php echo $url; ?>" style="color: #0000; outline: none;text-decoration: none;">
+		Dolorfin Zona Esmeralda
+	</a>
 	<h2>
 		¡No esperes más tiempo!<br>Agenda una cita de valoración con nuestros especialistas
 	</h2>
-	<p></p><br>
 	<form id="demo-form" action="./send.php" method="POST" enctype="multipart/form-data">
 		<ol>
 			<li >

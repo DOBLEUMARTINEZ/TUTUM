@@ -298,8 +298,8 @@
     }
 
     .bloque-1 div{
-        width: 100%;
-        padding: 4% 0%;
+        width: 92%;
+        padding: 4% 4%;
         background: #025cae3b;
         border-radius: 5px;
     }
@@ -402,7 +402,7 @@
 /* BLOQUE 3 */
     .bloque-3{
         width: 80%;
-        padding: 3% 10% 3% 10%;
+        padding: 4% 10% 4% 10%;
         text-align: center;
         background: #0A8D76;
         color: #fff;
@@ -444,14 +444,14 @@
     }
 
     .texto-interior {
-      color: #fff;
-      font-size: 2rem;
-      font-weight: bold;
-      left: 10%;
-      position: absolute;
-      text-align: center;
-      top: 40%;
-      width: 80%;
+        color: #fbfbfb;
+        font-size: 2rem;
+        font-weight: bold;
+        left: 10%;
+        position: absolute;
+        text-align: center;
+        top: 26%;
+        width: 80%;
     }
 
     .img-uno {
@@ -689,10 +689,63 @@
             font-size: 20px;
         }
 
+    /* BANNER 1  */
+
+        .box-banner-index > div > h1 {
+            font-size: 55px;
+            line-height: 60px;
+        }
+
+        .box-banner-index > div > p {
+            font-size: 22px;
+        }
+
+        .mouse-icon {
+            bottom: 10%;
+        }
+
     /* BLOQUE 1 */
-    .bloque-1 ul > li{
-        width: 50%;
-    }
+        .bloque-1 ul > li{
+            width: 50%;
+        }
+
+    /* BLOQUE 2 */
+
+        .bloque-2 > ul > li {
+            width: 100%;
+            text-align: center;
+        }
+
+        .bloque-2 > ul > li > ol {
+            list-style: none;
+            line-height: 25px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            margin-bottom: 5%;
+        }
+
+        .bloque-2 > ul > li > ol > li {
+            padding-left: 0%;
+            position: relative;
+            width: 30%;
+        }
+
+        .bloque-2 > ul > li > ol > li > i {
+            position: absolute;
+            left: -5%;
+            top: 26%;
+            font-weight: bold;
+            font-size: 25px;
+            color: #138872;
+            transition: 0.2s;
+        }
+
+    /* BLOQUE 5 */
+        .checkbox-list label {
+            width: 33%;
+            margin: 2% 0%;
+        }
 
 }
 
@@ -709,6 +762,23 @@
 
         .mobile{
             display: none;
+        }
+
+    /* BLOQUE 5  */
+        .bloque-5 > form > ol {
+            width: 100%;
+        }
+
+        .bloque-5 > form > ol > li {
+            width: 100%;
+        }
+
+        .bloque-5 > form > ol > li input {
+            width: 100%;
+        }
+
+        .checkbox-list {
+            width: 95%;
         }
 }
 
@@ -757,8 +827,28 @@
         }
 
     /* BLOQUE 1 */
-    .bloque-1 ul > li{
-        width: 100%;
-    }
+        .bloque-1 ul > li{
+            width: 100%;
+        }
+
+    /* BLOQUE 2  */
+        .bloque-2 > ul > li > ol > li {
+            width: 80%;
+        }
+
+    /* BLOQUE 4  */
+        .texto-interior {
+            top: 10%;
+        }
+
+    /* BLOQUE 5 */
+        .checkbox-list label {
+            width: 50%;
+        }
+
+        .bloque-5 > form > ol > li > button {
+            width: 100%;
+            margin-bottom: 5%;
+        }   
 
 }

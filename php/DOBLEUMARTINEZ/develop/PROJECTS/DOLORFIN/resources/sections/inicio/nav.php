@@ -10,7 +10,7 @@
     <li onclick="window.location.href='tel:5529574690';" >
     	<i class="fas fa-phone"></i> <span>55 2957 4690</span>
     </li>
-    <li onclick="window.location.href='<?php echo $url;?>#agendar-cita';" class="cta-nav" >
+    <li onclick="window.location.href='<?php echo $url;?>#contacto';" class="cta-nav" >
     	Agenda una cita
    	</li>
   </ul>
