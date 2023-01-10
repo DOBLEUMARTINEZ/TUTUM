@@ -38,7 +38,7 @@
         </li>
 
         <li style="border-top: 4px solid #0000!important; padding: 0%;">
-          <button onclick="window.location.href='./contacto';" >¡Comenzar ahora!</button>
+          <button onclick="window.location.href='./contacto';" ><i class="fab fa-whatsapp" ></i> Whatsapp</button>
         </li>
 
       </ul>

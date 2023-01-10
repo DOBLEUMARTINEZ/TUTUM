@@ -2,20 +2,29 @@
 <div id="square-banner-index">
 
   <div style="z-index: 1">
-    <img src="images/logo/logo.png" title="Sistema de Información Hospitalaria sanet" alt="sanet logo png">
+    <!-- LOGO -->
+    <img src="images/logo/logo.png" title="Sistema de Información Hospitalaria sanet" alt="sanet logo png" width="600px">
+
+
     <br>
-    <h1>El mejor Sistema de Información Hospitalario</h1>
+    <!-- LETRAS MOVING -->
+    <h1 class="ml11">
+      <span class="text-wrapper">
+        <span class="line line1"></span>
+        <span class="letters">El mejor Sistema de Información Hospitalario</span>
+      </span>
+    </h1>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
     <br>
-    <i onclick="window.location.href='#sanet';" class="flecha fas fa-chevron-circle-down"></i>
+    <!-- ICONO RATON -->
+    <img onclick="window.location.href='#sanet';"  width="64px" class="flecha" src="images/icons/raton-0.png">
+
   </div>
 
-  <img src="images/img/banner-2.jpg"  class="desktop" style="opacity: 0.6;" title="Sanet dipositivos moviles" alt="Doctor con tablet en las manos">
-  <img src="images/img/banner-2-tablet.jpg" class="tablet" title="Sanet dipositivos moviles" alt="Doctor con tablet en las manos">
-  <img src="images/img/banner-2-mobil.jpg" class="mobil" title="Sanet dipositivos moviles" alt="Doctor con tablet en las manos">
-
-  <!-- BACKGROUND VIDEO 
-  <video class="video-slide bann-fixed" loading="lazy" src="images/SOLUCIONES.mp4" autoplay="" muted="" loop=""></video>
-  <video class="video-slide" loading="lazy" src="images/SOLUCIONES.mp4" style="opacity: 0" autoplay="" muted="" loop=""></video>-->
+  <!-- VIDEO -->
+  <span></span>
+  <video width="100%" class="video-slide bann-fixed" loading="lazy" src="images/HOSPITAL.mp4" autoplay="" muted="" loop=""></video>
 
 </div>
 
