@@ -67,7 +67,7 @@
       </ul>
     </li>
     <li>
-      <img src="images/logo/logo-white.png">
+      <img src="images/logo/logo-white.png" title="logo sanet blanco " alt="Logo blanco Sanet png">
       <ol>
         <li onclick="window.location.href='./';">
           <i class="fab fa-facebook-square"></i>
@@ -83,7 +83,7 @@
   </ol>
 
 	<p class="copyrigt">
-		Copyright © <span>2022</span> <a onclick="window.location.href='./';" >sanet.com.mx</a>, Todos los derechos reservados.<a>Términos y Condiciones.</a> <a>Aviso de Privacidad</a>.
+		Copyright © <span>2022</span> <a href="./" >sanet.com.mx</a>, Todos los derechos reservados.<a href="./">Términos y Condiciones.</a> <a href="./">Aviso de Privacidad</a>.
 	</p>
 </div>
 

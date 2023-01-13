@@ -16,7 +16,7 @@
           onclick="window.location.href='./';">Inicio</li>
 
         <li class="<?php if(isset($_GET['seccion'])&&($_GET['seccion'])=='quienes-somos'){echo 'active-section';} ?>">
-          <a onclick="window.location.href='./quienes-somos';" >Quiénes somos</a>
+          <a href="quienes-somos" >Quiénes somos</a>
         </li>
 
         <li class="dropdown-menu-ttm <?php if(isset($_GET['seccion'])&&($_GET['seccion'])=='sanet'){echo 'active-section';} ?>">
@@ -30,11 +30,11 @@
         </li>
 
         <li class="<?php if(isset($_GET['seccion'])&&($_GET['seccion'])=='licencias'){echo 'active-section';} ?>">
-          <a onclick="window.location.href='./licencias';" >Licencias</a>
+          <a href="licencias" >Licencias</a>
         </li>
 
         <li class="<?php if(isset($_GET['seccion'])&&($_GET['seccion'])=='contacto'){echo 'active-section';} ?>">
-          <a onclick="window.location.href='./contacto';" >Contacto</a>
+          <a href="contacto" >Contacto</a>
         </li>
 
         <li style="border-top: 4px solid #0000!important; padding: 0%;">
@@ -49,7 +49,7 @@
     <nav class="container-header-mobil">
       <ol>
 
-        <li><img src="<?php echo $url;?>images/logo/logo.png" onclick="window.location.href='./';"></li>
+        <li><img src="<?php echo $url;?>images/logo/logo.png" onclick="window.location.href='./';" title="logo sanet" alt="Logo Sanet png"></li>
 
         <li style="position: relative;" >
 
@@ -60,15 +60,15 @@
             <li onclick="window.location.href='./';">Inicio</li>
 
             <li>
-              <a onclick="window.location.href='./quienes-somos';" >Quiénes somos</a>
+              <a href="quienes-somos" >Quiénes somos</a>
             </li>
 
             <li>
-              <a onclick="window.location.href='./sanet';" >Sanet</a>
+              <a href="sanet">Sanet</a>
             </li>
 
             <li>
-              <a onclick="window.location.href='./modulos-sih';" >Módulos sih</a>
+              <a href="modulos-sih" >Módulos sih</a>
             </li>
 
             <li onclick="window.location.href='./modulos-sih#modulos-administrativos';" >
@@ -84,11 +84,11 @@
             </li>
 
             <li>
-              <a onclick="window.location.href='./licencias';" >Licencias</a>
+              <a href="icencias" >Licencias</a>
             </li>
 
             <li>
-              <a onclick="window.location.href='./contacto';" >Contacto</a>
+              <a href="contacto"2>Contacto</a>
             </li>
           </ul>
 

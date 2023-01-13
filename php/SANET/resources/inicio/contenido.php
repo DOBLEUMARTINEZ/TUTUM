@@ -28,6 +28,26 @@
 
 </div>
 
+<!-- BANNER INICIO 
+<div id="square-banner-index">
+
+  <div style="z-index: 1">
+    <img src="images/logo/logo.png" title="Sistema de Información Hospitalaria sanet" alt="sanet logo png">
+    <br>
+    <h1>El mejor Sistema de Información Hospitalario</h1>
+    <br>
+    <i onclick="window.location.href='#sanet';" class="flecha fas fa-chevron-circle-down"></i>
+  </div>
+
+  <img src="images/img/banner-2.jpg"  class="desktop" style="opacity: 0.6;" title="Sanet dipositivos moviles" alt="Doctor con tablet en las manos">
+  <img src="images/img/banner-2-tablet.jpg" class="tablet" title="Sanet dipositivos moviles" alt="Doctor con tablet en las manos">
+  <img src="images/img/banner-2-mobil.jpg" class="mobil" title="Sanet dipositivos moviles" alt="Doctor con tablet en las manos">
+
+  <video class="video-slide bann-fixed" loading="lazy" src="images/SOLUCIONES.mp4" autoplay="" muted="" loop=""></video>
+  <video class="video-slide" loading="lazy" src="images/SOLUCIONES.mp4" style="opacity: 0" autoplay="" muted="" loop=""></video>
+
+</div>-->
+
 <a name="sanet"></a>
 <div id="modulo-index-content">
 

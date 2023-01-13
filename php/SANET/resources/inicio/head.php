@@ -3,7 +3,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="<?php echo $desc;?>">
-  <link rel="canonical" href="sanet.dobleumartinez.com"> 
+  <link rel="canonical" href="sanet.com.mx"> 
   <meta name="theme-color" content="#111">
 
   <title><?php echo $name_seccion;?></title>
@@ -20,8 +20,16 @@
 
   <!--jquery-->
   <script src="js/jquery.min.js"></script> 
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-30ZFQMQZJR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
   
-  <!-- Google Analytics -->
+    gtag('config', 'G-30ZFQMQZJR');
+  </script>
   
   
 </head>
