@@ -30,7 +30,7 @@
 
 	<div class="bloque-1">
 
-		<img src="images/img/contacto-1.jpg" class="desktop" style="width: 100%;" title="Contacto sanet" alt="Mujer Escribiendo en Laptop en Escritorio Y Teléfono">
+		<img src="images/img/contacto-1.jpg" class="desktop-3" style="width: 100%;" title="Contacto sanet" alt="Mujer Escribiendo en Laptop en Escritorio Y Teléfono">
 
   	<ol>
   		<li style="background: #28a745;" onclick="window.location.href='https://api.whatsapp.com/send?phone=525579285696&text=Estoy%20interesado%20en%20conocer%20mas%20sobre%20sanet';">

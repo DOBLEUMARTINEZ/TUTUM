@@ -101,6 +101,7 @@
         animation-duration: 0.6s;
         animation-iteration-count: infinite;
         animation-direction: alternate;
+        cursor: pointer;
     }
 
     .second-font{
@@ -113,6 +114,10 @@
 
     .desktop-2{
         display: none;
+    }
+
+    .desktop-3{
+        display: initial;
     }
 
     .tablet{
@@ -142,7 +147,7 @@
     /* letras banner */
     .ml11 {
       font-weight: 700;
-      font-size: 3.5em;
+      font-size: 3em;
     }
 
     .ml11 .text-wrapper {
@@ -173,8 +178,6 @@
       line-height: 1em;
     }
 
-/* NAV */
-    
     .ir-arriba{
         position: fixed;
         bottom: 9%;
@@ -189,13 +192,11 @@
         color: #999999;
     }
 
-    .desktop-2{
-        display: initial;
-    }
-
     .mobil-2{
         display: none;
     }
+
+/* NAV */
 
     /* BARRA DE NAVEGACIÓN */
         .nav-bar{
@@ -363,21 +364,28 @@
         .nav-bar > .container-header-mobil > ol > li > .menu-mobil{
             position: absolute;
             list-style: none;
+            text-decoration: none;
             margin: 0;
             padding: 2% 10% 2% 10%;
             right: 0%;
             width: 200%;
             text-align: left;
-            background: #99cccc;
-            top: 45px;
+            background: #006666;
+            color: #fff;
+            top: 55px;
             font-weight: bold;
             letter-spacing: 0.5px;
-            font-size: 18px;
+            font-size: 20px;
             display: none;
         }
 
         .nav-bar > .container-header-mobil > ol > li > .menu-mobil > li{
             padding: 2% 0;
+        }
+
+        .nav-bar > .container-header-mobil > ol > li > .menu-mobil > li > a{
+            text-decoration: none;
+            color: inherit;
         }
 
 /* INDEX -BANNER INICIO */
@@ -394,8 +402,9 @@
 
         #square-banner-index > div{
             width: 100%;
+            height: 50%;
             position: absolute;
-            top: 15em;
+            top: 25%;
             text-align: center;
         }
 
@@ -2603,9 +2612,12 @@
         }
 }
 
-@media(max-width: 1366px){
+@media(max-width: 1300px){
 
-    /* fuente */
+    .desktop{ display: none; }
+    .desktop-2{ display: initial; }
+
+    /* FUENTES */
         h1 {
             font-size: 38px;
         }
@@ -2626,6 +2638,23 @@
             font-size: 18px;
         }
 
+    /* FX */
+         /* letras banner */
+            .ml11 {
+              font-size: 2.5em;
+            }
+
+    /* NAV */
+
+        .nav-bar > .container-header > ul > li{
+            font-size: 18px;
+        }
+
+        .nav-bar > .container-header > ul > li > button {
+            padding: 10px 20px;
+            font-size: 20px;
+        }
+
     /* FOOTER */
         .footer > ol > li > ul > li {
             font-size: 16px;
@@ -2633,10 +2662,6 @@
 }
 
 @media(max-width: 1024px){
-
-    .desktop{
-        display: none;
-    }
 
     /* FX */
 
@@ -2688,9 +2713,6 @@
         }
 
     /* INICIO */
-        #square-banner-index > div {
-            top: 7em;
-        }
 
         /* BLOQUE 0 */
 
@@ -2922,6 +2944,10 @@
             display: none;
         }
 
+        .desktop-3{
+            display: none;
+        }
+
         .tablet{
             display: unset;
         }
@@ -2979,19 +3005,21 @@
 
     /* INDEX - BANNER INICIO */
 
-        #square-banner-index > div {
-            top: 25em;
+        #square-banner-index > div > h1 {
+            width: 80%;
+            margin: 2% 5% 2% 10%;
+            padding-top: 5%;
         }
 
-        #square-banner-index > div > img {
-            width: 60%;
+        #square-banner-index video{
+            display: none;
         }
 
-        #square-banner-index > div > i {
-            font-size: 3em;
-        }
+     /* BLOQUE 0*/
 
-        /* BLOQUE 0*/
+            #modulo-index-content > .bloque-0 > div > .desktop-3 {
+                display: none;
+            }
 
             #modulo-index-content > .bloque-0 {
                 flex-direction: column;
@@ -2999,18 +3027,34 @@
 
             #modulo-index-content > .bloque-0 > div {
                 width: 100%;
-                text-align: center;
+                text-align: left;
+                padding: 5% 0 0 0;
             }
 
             #modulo-index-content > .bloque-0 > div > button {
-                margin: 2% 0 2% 0%;
-                padding: 1% 3%;
+                margin: 2% 0 2% 10%;
+                padding: 2% 3%;
+                font-size: 22px;
+            }
+
+        /* BLOQUE 1 */
+
+            #modulo-index-content > .bloque-1 > h2 {
+                width: 80%;
+                text-align: left;
+                margin: 10% 0% 2% 10%;
+                font-size: 35px!important;
+            }
+
+            #modulo-index-content > .bloque-1 > p {
+                font-size: 20px;
+                text-align: left!important;
             }
 
         /* BLOQUE 2 */
 
             #modulo-index-content > .bloque-2 {
-                padding: 0% 0 5% 0;
+                padding: 5%;
             }
 
             #modulo-index-content > .bloque-2 > ul {
@@ -3018,14 +3062,20 @@
                 flex-wrap: wrap;
                 flex-direction: column;
                 align-items: center;
+                width: 100%;
+                margin: 0;
             }
 
             #modulo-index-content > .bloque-2 > ul > li {
-                width: 80%;
-                margin-top: 15%;
+                width: 100%;
+                margin-top: 20%;
             }
 
         /* BLOQUE 3 */
+
+            #modulo-index-content > .bloque-3 > div {
+                width: 80%;
+            }
 
             #modulo-index-content > .bloque-3 > div > ol > li {
                 font-size: 18px;
@@ -3042,10 +3092,20 @@
                 padding: 0% 0% 5% 0;
             }
 
+            #modulo-index-content > .bloque-4 > div > h2 {
+                margin: 0% 0% 0% 0%;
+                padding: 0% 1% 4% 1%;
+            }
+
             #modulo-index-content > .bloque-4 > div {
                 width: 80%;
                 margin: 5% 0% 0% 10%;
                 padding: 2%;
+            }
+
+            #modulo-index-content > .bloque-4 > div > button {
+                font-size: 24px;
+                padding: 2% 5%;
             }
 
     /* QUIENES SOMOS */
@@ -3084,6 +3144,15 @@
             #quienes-somos-content > .bloque-3 > div {
                 width: 100%;
                 position: relative;
+            }
+
+            #modulo-index-content > .bloque-3 > div > h2 {
+                text-align: left;
+            }
+
+            #modulo-index-content > .bloque-3 > div > p {
+                text-align: left;
+                padding: 0 0;
             }
 
             #quienes-somos-content > .bloque-3 > ul {
@@ -3405,10 +3474,10 @@
             }
 
 
-         /* INDEX */
-
+        /* INDEX */
             #modulo-index-content > .bloque-1 > h2 {
-                margin: 10% 0% 5% 0%;
+                margin: 10% 0% 5% 5%;
+                width: 90%;
             }
 
             #modulo-index-content > .bloque-1 > p {
@@ -3416,33 +3485,25 @@
             }
 
         /* INDEX */
-            #square-banner-index > div {
-                top: 10em;
-                background: #ffffffdb;
-            }
-
-            #square-banner-index > div > img {
-                width: 60%;
-                padding: 5% 0%;
-            }
-
-            #square-banner-index > div > i {
-                margin-top: -10%;
-                font-size: 38px;
+            .ml11{
+                font-size: 2.4em;
             }
 
         /* BLOQUE 0 */
             #modulo-index-content > .bloque-0 > div > h2 {
-                padding: 5%;
+                padding: 5% 10% 5% 10%;
             }
 
             #modulo-index-content > .bloque-0 > div > button {
-                margin: 5% 0 5% 0%;
-                padding: 2% 5%;
+                margin: 5% 0% 5% 10%;
+                padding: 3% 7%;
                 font-size: 20px;
             }
 
+        /* */
         /* BLOQUE 2 */
+
+
             #modulo-index-content > .bloque-2 > ul > li {
                 width: 100%;
                 margin-top: 30%;
@@ -3460,6 +3521,10 @@
             #modulo-index-content > .bloque-4 > div > button {
                 font-size: 20px;
                 padding: 2% 5%;
+            }
+
+            #modulo-index-content > .bloque-4 > div > h2 {
+                font-size: 25px!important;
             }
 
 
@@ -3528,9 +3593,7 @@
             left: 17%;
         }
 
-        #modulo-index-content > .bloque-2 {
-            padding: 30% 0 5% 0;
-        }
+    
 
     /* NUESTRA EXPERIENCIA - BLOQUE 1 */
 

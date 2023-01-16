@@ -21,7 +21,7 @@
 
      </li>
 
-     <li><img src="images/img/quienes-somos.jpg" class="desktop" title="Quiénes somos" alt="Enfermera con uniforme en Hospital con Estetoscopio en las manos"></li>
+     <li><img src="images/img/quienes-somos.jpg" class="desktop-3" title="Quiénes somos" alt="Enfermera con uniforme en Hospital con Estetoscopio en las manos"></li>
    </ul>
  </div>
 

@@ -2,13 +2,15 @@
 <div id="square-banner-index">
 
   <div style="z-index: 1">
+
     <!-- LOGO BANNER -->
     <img src="images/logo/logo.png" class="desktop" title="Sistema de Información Hospitalaria sanet" alt="sanet logo png" width="600px">
-    <img src="images/logo/logo.png" class="deesktop-2" title="Sistema de Información Hospitalaria sanet" alt="sanet logo png" width="400px">
-    <img src="images/logo/logo.png" class="tablet" title="Sistema de Información Hospitalaria sanet" alt="sanet logo png" width="300px">
-    <img src="images/logo/logo.png" class="mobil" title="Sistema de Información Hospitalaria sanet" alt="sanet logo png" width="200px">
+    <img src="images/logo/logo.png" class="desktop-2" title="Sistema de Información Hospitalaria sanet" alt="sanet logo png" width="400px">
+    <img src="images/logo/logo-white.png" class="tablet" title="Sistema de Información Hospitalaria sanet" alt="sanet logo png" width="300px">
+    <img src="images/logo/logo-white.png" class="mobil" title="Sistema de Información Hospitalaria sanet" alt="sanet logo png" width="300px">
 
     <br>
+
     <!-- LETRAS MOVING -->
     <h1 class="ml11">
       <span class="text-wrapper">
@@ -18,14 +20,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
     <br>
+
     <!-- ICONO RATON -->
-    <img onclick="window.location.href='#sanet';"  width="64px" class="flecha" src="images/icons/raton-0.png">
+    <img onclick="window.location.href='#sanet';" width="64px" class="flecha Desktop-2" src="images/icons/raton-0.png" title="Mouse icon" alt="mouse icon png">
 
   </div>
 
-  <!-- VIDEO -->
+  <!-- IMAGEN Y VIDEO BACKGROUND -->
   <span></span>
-  <video width="100%" class="video-slide bann-fixed" loading="lazy" src="images/HOSPITAL.mp4" autoplay="" muted="" loop=""></video>
+  <video width="100%" class="video-slide bann-fixed" loading="lazy" src="images/HOSPITAL.mp4" autoplay="" muted="" loop="" title="Sanet dipositivos moviles" alt="Doctor con tablet en las manos"></video>
+  <img src="images/img/banner-2-tablet.jpg" class="tablet" title="Sanet dipositivos moviles" alt="Doctor con tablet en las manos">
+  <img src="images/img/banner-2-mobil.jpg" class="mobil" title="Sanet dipositivos moviles" alt="Doctor con tablet en las manos">
 
 </div>
 
@@ -55,7 +60,9 @@
 	<div class="bloque-1">
 		<h2>Un verdadero Sistema Integral de Información para Hospitales</h2>
 		<p>
-			El Sistema Hospitalario <span>sanet</span> es una solución diseñada para administrar y controlar todas las áreas que componen un Hospital o Clínica; mediante una comunicación permanente entre todas las áreas del Sistema Hospitalario, siendo esté  capaz de transmitir texto, imágenes y videos. De esta forma permitiendo una gestión oportuna, clara y efectiva, obteniendo como resultado los mejores indicadores de productividad y estándares de servicios.
+			El Sistema Hospitalario <span>sanet</span> es una solución diseñada para administrar y controlar todas las áreas que componen un Hospital o Clínica.
+      <br><br>
+      <span>sanet</span> trabaja mediante una comunicación permanente entre todas las áreas del Sistema Hospitalario siendo esté  capaz de transmitir texto, imágenes y videos. De esta forma permitiendo una gestión oportuna, clara y efectiva, obteniendo como resultado los mejores indicadores de productividad y estándares de servicios.
 		</p>
 	</div>
 
@@ -94,12 +101,12 @@
     <div>
       <h2>No más errores administrativos en tu hospital o clínica</h2>
       <p>
-        El sistema hospitalario <span>sanet</span> está orientado a la seguridad de la información y del paciente. Comunicación modular y flexible para adaptarse a las necesidades de cada hospital. Gestiona todos los procesos clínicos, administrativos, financieros y gerenciales de tu hospital en un solo sistema, y cuenta con toda la información en tiempo real, con trazabilidad completa de la atención en los servicios.
+        El sistema hospitalario <span>sanet</span> está orientado a la seguridad de la información y del paciente. Comunicación modular y flexible para adaptarse a las necesidades de cada hospital.<br><br>Gestiona todos los procesos clínicos, administrativos, financieros y gerenciales de tu hospital en un solo sistema, y cuenta con toda la información en tiempo real, con trazabilidad completa de la atención en los servicios.
       </p>
       <button onclick="window.location.href='./contacto';" >Solicita una reunión</button>
     </div>
     <div>
-      <img src="images/img/inicio-2.jpg" class="desktop" title="Sanet dipositivos moviles" alt="Enfermera sosteniendo una tablet de un sistema hospitalario">
+      <img src="images/img/inicio-2.jpg" class="desktop-3" title="Sanet dipositivos moviles" alt="Enfermera sosteniendo una tablet de un sistema hospitalario">
       <img src="images/img/inicio-2-tablet.jpg" class="tablet" title="Sanet dipositivos moviles" alt="Enfermera sosteniendo una tablet de un sistema hospitalario">
       <img src="images/img/inicio-2-tablet.jpg" class="mobil" title="Sanet dipositivos moviles" alt="Enfermera sosteniendo una tablet de un sistema hospitalario">
     </div>
@@ -129,7 +136,7 @@
   <div class="bloque-4">
     <div>
       <h2>Mejora la atención de tus pacientes y resguarda de manera segura toda su información.</h2>
-      <button onclick="window.location.href='./contacto';" >¡Quiero una propuesta!</button>
+      <button onclick="window.location.href='contacto';" >¡Quiero una propuesta!</button>
     </div>
   </div>
 

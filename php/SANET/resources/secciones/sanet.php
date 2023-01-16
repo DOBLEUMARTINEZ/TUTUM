@@ -17,7 +17,7 @@
 
     </div>
     
-    <img src="images/img/modulos-sih-1.jpg"  class="desktop" title="sanet" alt="Doctores en Quirófano en Cirugía utilizando Tablet con Sistema Hospitalario sanet">
+    <img src="images/img/modulos-sih-1.jpg"  class="desktop-3" title="sanet" alt="Doctores en Quirófano en Cirugía utilizando Tablet con Sistema Hospitalario sanet">
     <img src="images/img/banner-2-tablet.jpg"  class="tablet" title="sanet" alt="Doctores en Quirófano en Cirugía utilizando Tablet con Sistema Hospitalario sanet">
     <img src="images/img/modulos-sih-mobil.jpg" class="mobil" title="sanet" alt="Doctores en Quirófano en Cirugía utilizando Tablet con Sistema Hospitalario sanet">
 

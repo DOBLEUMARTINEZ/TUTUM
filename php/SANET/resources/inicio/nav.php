@@ -38,7 +38,7 @@
         </li>
 
         <li style="border-top: 4px solid #0000!important; padding: 0%;">
-          <button onclick="window.location.href='./contacto';" ><i class="fab fa-whatsapp" ></i> Whatsapp</button>
+          <button onclick="window.location.href='https://api.whatsapp.com/send?phone=525579285696&text=Estoy%20interesado%20en%20conocer%20mas%20sobre%20sanet';" ><i class="fab fa-whatsapp" ></i> Whatsapp</button>
         </li>
 
       </ul>
@@ -71,15 +71,15 @@
               <a href="modulos-sih" >Módulos sih</a>
             </li>
 
-            <li onclick="window.location.href='./modulos-sih#modulos-administrativos';" >
+            <li onclick="window.location.href='modulos-sih#modulos-administrativos';" >
               Módulos administrativos
             </li>
 
-            <li onclick="window.location.href='./modulos-sih#modulos-clinicos';" >
+            <li onclick="window.location.href='modulos-sih#modulos-clinicos';" >
               Módulos clínicos
             </li>
 
-            <li onclick="window.location.href='./modulos-sih#modulos-configuracion';" >
+            <li onclick="window.location.href='modulos-sih#modulos-configuracion';" >
               Módulos de configuración
             </li>
 
@@ -88,7 +88,7 @@
             </li>
 
             <li>
-              <a href="contacto"2>Contacto</a>
+              <a href="contacto" >Contacto</a>
             </li>
           </ul>
 
