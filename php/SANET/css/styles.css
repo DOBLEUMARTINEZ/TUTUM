@@ -111,6 +111,10 @@
         display: initial;
     }
 
+    .desktop-2{
+        display: none;
+    }
+
     .tablet{
         display: none;
     }
@@ -2630,6 +2634,16 @@
 
 @media(max-width: 1024px){
 
+    .desktop{
+        display: none;
+    }
+
+    /* FX */
+
+        .ml11{
+           font-size: 2em; 
+        }
+
     /* fuente */
         h1 {
             font-size: 32px;
@@ -2675,7 +2689,7 @@
 
     /* INICIO */
         #square-banner-index > div {
-            top: 10em;
+            top: 7em;
         }
 
         /* BLOQUE 0 */
