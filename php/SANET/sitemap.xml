@@ -41,6 +41,16 @@
 		<priority>0.80</priority>
 	</url>
 	<url>
+		<loc>https://sanet.com.mx/terminos-y-condiciones</loc>
+		<lastmod>2022-10-27T15:33:01+00:00</lastmod>
+		<priority>0.80</priority>
+	</url>
+	<url>
+		<loc>https://sanet.com.mx/aviso-de-provacidad</loc>
+		<lastmod>2022-10-27T15:33:01+00:00</lastmod>
+		<priority>0.80</priority>
+	</url>
+	<url>
 		<loc>https://sanet.com.mx/contacto</loc>
 		<lastmod>2022-10-27T15:33:01+00:00</lastmod>
 		<priority>0.80</priority>

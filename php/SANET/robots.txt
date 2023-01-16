@@ -6,4 +6,4 @@ Disallow: /js
 Disallow: /resources
 Disallow: /phpmailer
 
-Sitemap: https://sanet.dobleumartinez.com/sitemap.xml
+Sitemap: https://sanet.com.mx/sitemap.xml

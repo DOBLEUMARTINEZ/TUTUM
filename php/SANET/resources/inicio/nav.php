@@ -84,7 +84,7 @@
             </li>
 
             <li>
-              <a href="icencias" >Licencias</a>
+              <a href="licencias" >Licencias</a>
             </li>
 
             <li>

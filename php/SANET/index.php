@@ -59,6 +59,14 @@ echo '<body>'; // INICIO CUERPO
         case 'gracias':
           include("resources/secciones/gracias.php"); // GRACIAS
           break;
+
+        case 'terminos-y-condiciones':
+          include("resources/terminos-y-condiciones.php"); // TERMINOS Y CONDICIONES
+          break;
+
+        case 'aviso-de-privacidad':
+          include("resources/aviso-de-privacidad.php"); // AVISO DE PRIVACIDAD
+          break;
         
         default:
           include("resources/secciones/not-found.php"); // ERROR 404
