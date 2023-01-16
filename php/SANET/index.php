@@ -10,11 +10,11 @@ echo '<!DOCTYPE html><html lang="es">';
     if (isset($_GET['seccion'])){ 
       $name_seccion = ucfirst(str_replace('-', ' ', $_GET['seccion'])).' | SANET';
       $desc = "Sistema Integral de Información Hospitalaria diseñado para Administrar y Controlar todas las áreas que componen un Hospital o Clínica."; 
-      $canonical_name = $url.$_GET['seccion'];
+      $canonical_name = 'https://sanet.com.mx/'.$_GET['seccion'];
     }else{ 
       $name_seccion = 'Sistema Integral de Información Hospitalaria (SIH) | SANET';
       $desc = "SANET es el Sistema Integral de Información Hospitalaria diseñado para Administrar y Controlar todas las áreas que componen un Hospital o Clínica.";
-      $canonical_name = $url; 
+      $canonical_name = 'https://sanet.com.mx/'; 
     }
   
   // HEAD

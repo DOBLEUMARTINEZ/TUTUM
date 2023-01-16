@@ -20,7 +20,7 @@
         </li>
 
         <li class="dropdown-menu-ttm <?php if(isset($_GET['seccion'])&&($_GET['seccion'])=='sanet'){echo 'active-section';} ?>">
-          <a onclick="window.location.href='./sanet';" >Sanet</a>
+          <a href="sanet" >Sanet</a>
           <ol>
             <li onclick="window.location.href='./modulos-sih';" >Módulos SIH</li>
             <li onclick="window.location.href='./modulos-sih#modulos-administrativos';" >Módulos administrativos</li>
