@@ -258,6 +258,25 @@
         cursor: pointer;
     }
 
+/* BOX SLIDER  */
+
+    .box-slider h2{
+        position: absolute;
+        width: 80%;
+        height: 50%;
+        top: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0 10%;
+        color: #fff;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+        font-size: 90px
+
+    }
+
 /* BOX BANNER 2 */
 
     .box-banner-2{
