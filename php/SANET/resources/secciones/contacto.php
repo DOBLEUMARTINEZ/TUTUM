@@ -66,7 +66,7 @@
                 <textarea name="comentarios" placeholder=""></textarea>
               </li>
               <li>
-                <div class="g-recaptcha" data-sitekey="6LfDOY8iAAAAAOkh2mDFH80NQ7DTcbEkW3jnEJeC" data-callback="verifyCaptcha" ></div>
+                <div class="g-recaptcha" data-sitekey="6Lfac-QjAAAAAHia0JzxA2rddjdllDlOsCmETaUD" data-callback="verifyCaptcha" ></div>
                 <input id="re-capcha" name="recapcha" value="0" type="hidden">
                 <input id="security-form" type="text" name="security" required style="opacity: 0;">
               </li> 
