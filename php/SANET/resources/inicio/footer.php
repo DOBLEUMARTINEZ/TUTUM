@@ -83,7 +83,7 @@
   </ol>
 
 	<p class="copyrigt">
-		Copyright © <span>2022</span> <a href="./" >sanet.com.mx</a>, Todos los derechos reservados.<a href="./">Términos y Condiciones.</a> <a href="./">Aviso de Privacidad</a>.
+		Copyright © <span>2022</span> <a href="https://sanet.com.mx/" >sanet.com.mx</a>, Todos los derechos reservados.<a href="terminos-y-condiciones">Términos y Condiciones.</a> <a href="aviso-de-privacidad">Aviso de Privacidad</a>.
 	</p>
 </div>
 

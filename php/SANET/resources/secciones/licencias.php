@@ -18,7 +18,7 @@
       </li>
 
       <li>
-        <img src="images/img/nuestra-experiencia-1.jpg" class="desktop" title="Modelos de licenciamiento" alt="Enfermera con uniforme en Hospital con Estetoscopio en las manos">
+        <img src="images/img/nuestra-experiencia-1.jpg" class="desktop-3" title="Modelos de licenciamiento" alt="Enfermera con uniforme en Hospital con Estetoscopio en las manos">
         <img src="images/img/modulos-sih-1.jpg" class="tablet" title="Modelos de licenciamiento" alt="Enfermera con uniforme en Hospital con Estetoscopio en las manos">
         <img src="images/img/nuestra-experiencia-1.jpg" class="mobil" title="Modelos de licenciamiento" alt="Enfermera con uniforme en Hospital con Estetoscopio en las manos">
       </li>

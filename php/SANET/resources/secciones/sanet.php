@@ -17,7 +17,7 @@
 
     </div>
     
-    <img src="images/img/modulos-sih-1.jpg"  class="desktop" title="sanet" alt="Doctores en Quirófano en Cirugía utilizando Tablet con Sistema Hospitalario sanet">
+    <img src="images/img/modulos-sih-1.jpg"  class="desktop-3" title="sanet" alt="Doctores en Quirófano en Cirugía utilizando Tablet con Sistema Hospitalario sanet">
     <img src="images/img/banner-2-tablet.jpg"  class="tablet" title="sanet" alt="Doctores en Quirófano en Cirugía utilizando Tablet con Sistema Hospitalario sanet">
     <img src="images/img/modulos-sih-mobil.jpg" class="mobil" title="sanet" alt="Doctores en Quirófano en Cirugía utilizando Tablet con Sistema Hospitalario sanet">
 
@@ -33,28 +33,28 @@
     
     <ul>
       <li>
-        <span><img src="images/icons/modulos sih/investigacion.png" title="Módulos administrativos" alt="icono adminstrativo de color"></span>
+        <span><img width="90px" height="90px" src="images/icons/modulos sih/investigacion.png" title="Módulos administrativos" alt="icono adminstrativo de color"></span>
         <h2>Módulos administrativos</h2>
         <p>
           <span>sanet</span> cuenta con todos los módulos necesarios para la gestión administrativa de tu hospital, incluyendo la gestión de almacenes, proveedores, cuentas de pacientes y facturación.
         </p>
-        <button onclick="window.location.href='./modulos-his#modulos-administrativos';">ver más detalles <i class="fas fa-angle-double-right"></i></button>
+        <button onclick="window.location.href='modulos-sih#modulos-administrativos';">ver más detalles <i class="fas fa-angle-double-right"></i></button>
       </li>
       <li>
-        <span><img src="images/icons/modulos sih/medical-record.png" title="Módulos clínicos" alt="icono reporte clínico de color"></span>
+        <span><img width="90px" height="90px" src="images/icons/modulos sih/medical-record.png" title="Módulos clínicos" alt="icono reporte clínico de color"></span>
         <h2>Módulos clínicos</h2>
         <p>
           <span>sanet</span> cuenta con módulos de atención clínica para todas las áreas hospitalarias, teniendo siempre en el centro de atención al paciente.
         </p>
-        <button onclick="window.location.href='./modulos-his#modulos-clinicos';">ver más detalles <i class="fas fa-angle-double-right"></i></button>
+        <button onclick="window.location.href='modulos-sih#modulos-clinicos';">ver más detalles <i class="fas fa-angle-double-right"></i></button>
       </li>
       <li>
-        <span><img src="images/icons/modulos sih/settings.png" title="Módulos de configuración" alt="icono de configuración clínica de color"></span>
+        <span><img width="90px" height="90px" src="images/icons/modulos sih/settings.png" title="Módulos de configuración" alt="icono de configuración clínica de color"></span>
         <h2>Módulos de configuración</h2>
         <p>
           <span>sanet</span> cuenta con módulos para la configuración de diversos aspectos del hospital, permitiendo un alto grado de adaptación de acuerdo a sus necesidades.
         </p>
-        <button onclick="window.location.href='./modulos-his#modulos-configuracion';" >ver más detalles <i class="fas fa-angle-double-right"></i></button>
+        <button onclick="window.location.href='modulos-sih#modulos-configuracion';" >ver más detalles <i class="fas fa-angle-double-right"></i></button>
       </li>
     </ul>
 
@@ -277,7 +277,7 @@
   <div class="bloque-4">
     <div>
       <h2>Mejora la atención de tus pacientes y resguarda de manera segura toda su información.</h2>
-      <button onclick="window.location.href='./modulos-his';" >¡Quiero saber más!</button>
+      <button onclick="window.location.href='modulos-sih';" >¡Quiero saber más!</button>
     </div>
   </div>
 
