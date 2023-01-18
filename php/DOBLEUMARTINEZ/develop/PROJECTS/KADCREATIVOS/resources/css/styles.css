@@ -496,6 +496,15 @@
     }
 
 /** MEDIAS QUERYES **/
+@media(max-width: 1300px){
+
+    /**/
+        .box-banner-2 div > p {
+            width: 60%;
+        }
+
+}
+
 @media(max-width: 1024px){
 
     /* NAV */

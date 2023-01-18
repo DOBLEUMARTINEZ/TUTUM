@@ -58,31 +58,31 @@
 	<div>
 		<ol>
 			<li>
-				<img src="./resources/images/ourwork-1.png">
+				<img src="./resources/images/ourwork-1.png" width="100%">
 			</li>
 			<li>
-				<img src="./resources/images/ourwork-1.png">
+				<img src="./resources/images/ourwork-1.png" width="100%">
 			</li>
 			<li>
-				<img src="./resources/images/ourwork-1.png">
+				<img src="./resources/images/ourwork-1.png" width="100%">
 			</li>
 			<li>
-				<img src="./resources/images/ourwork-1.png">
+				<img src="./resources/images/ourwork-1.png" width="100%">
 			</li>
 			<li>
-				<img src="./resources/images/ourwork-1.png">
+				<img src="./resources/images/ourwork-1.png" width="100%">
 			</li>
 			<li>
-				<img src="./resources/images/ourwork-1.png">
+				<img src="./resources/images/ourwork-1.png" width="100%">
 			</li>
 			<li>
-				<img src="./resources/images/ourwork-1.png">
+				<img src="./resources/images/ourwork-1.png" width="100%">
 			</li>
 			<li>
-				<img src="./resources/images/ourwork-1.png">
+				<img src="./resources/images/ourwork-1.png" width="100%">
 			</li>
 			<li>
-				<img src="./resources/images/ourwork-1.png">
+				<img src="./resources/images/ourwork-1.png" width="100%">
 			</li>
 		</ol>
 	</div>
