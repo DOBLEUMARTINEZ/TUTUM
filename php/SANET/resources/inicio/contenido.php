@@ -5,7 +5,7 @@
 
     <!-- LOGO BANNER -->
     <img src="images/logo/logo.png" class="desktop" title="Sistema de Información Hospitalaria sanet" alt="sanet logo png" width="600px">
-    <img src="images/logo/logo-desktop-2.png" class="desktop-2" title="Sistema de Información Hospitalaria sanet" alt="sanet logo png" width="400px">
+    <img src="images/logo/logo.png" class="desktop-2" title="Sistema de Información Hospitalaria sanet" alt="sanet logo png" width="400px">
     <img src="images/logo/logo-white-tablet.png" class="tablet" title="Sistema de Información Hospitalaria sanet" alt="sanet logo png" width="300px">
     <img src="images/logo/logo-white-tablet.png" class="mobil" title="Sistema de Información Hospitalaria sanet" alt="sanet logo png" width="300px" height="134">
 

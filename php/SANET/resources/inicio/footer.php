@@ -28,15 +28,15 @@
           Sanet
         </li>
         <li onclick="window.location.href='./modulos-sih';">
-          Módulos HIS
+          Módulos SIH
         </li>
-        <li onclick="window.location.href='./modulos-sih#modulos-administrativos';">
+        <li onclick="window.location.href='https://sanet.com.mx/modulos-sih#modulos-administrativos';">
           Módulos administrativos
         </li>
-        <li onclick="window.location.href='./modulos-sih#modulos-clinicos';">
+        <li onclick="window.location.href='https://sanet.com.mx/modulos-sih#modulos-clinicos';">
           Módulos clínicos
         </li>
-        <li onclick="window.location.href='./modulos-sih#modulos-configuracion';">
+        <li onclick="window.location.href='https://sanet.com.mx/modulos-sih#modulos-configuracion';">
           Módulos de configuración
         </li>
       </ul>

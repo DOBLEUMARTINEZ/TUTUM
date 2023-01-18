@@ -23,9 +23,9 @@
           <a href="sanet" >Sanet</a>
           <ol>
             <li onclick="window.location.href='./modulos-sih';" >Módulos SIH</li>
-            <li onclick="window.location.href='./modulos-sih#modulos-administrativos';" >Módulos administrativos</li>
-            <li onclick="window.location.href='./modulos-sih#modulos-clinicos';" >Módulos clínicos</li>
-            <li onclick="window.location.href='./modulos-sih#modulos-configuracion';" >Módulos de configuración</li>
+            <li onclick="window.location.href='https://sanet.com.mx/modulos-sih#modulos-administrativos';" >Módulos administrativos</li>
+            <li onclick="window.location.href='https://sanet.com.mx/modulos-sih#modulos-clinicos';" >Módulos clínicos</li>
+            <li onclick="window.location.href='https://sanet.com.mx/modulos-sih#modulos-configuracion';" >Módulos de configuración</li>
           </ol>
         </li>
 
