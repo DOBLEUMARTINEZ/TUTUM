@@ -8,6 +8,10 @@
     line-height: 1
 }
 
+.fa-images:before {
+    content: "\f302"
+}
+
 .fa-paper-plane:before {
     content: "\f1d8"
 }

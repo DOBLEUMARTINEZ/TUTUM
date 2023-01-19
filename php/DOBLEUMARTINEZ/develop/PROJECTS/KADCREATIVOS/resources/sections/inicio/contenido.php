@@ -12,7 +12,7 @@
 			Somos una agencia especialista en la fusión de estrategia y diseño digital para tu marca, dedicada a proponer estrategias integrales y de valor para cada uno de nuestros clientes.
 		</p>
 	</div>
-	<img class="desktop" src="<?php echo $url; ?>/resources/images/banner-2.jpg" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
+	<img  src="<?php echo $url; ?>/resources/images/banner-2.jpg" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
 </div>
 
 <div class="box-slider">
@@ -20,21 +20,26 @@
     <!-- Bootstrap core CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
 
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="box-shadow: 0px 0px 10px 2px #7f3f98ab;">
 
 	  	<div class="carousel-inner">
+
 		    <div class="carousel-item active">
-		    	<h2>CONTENIDO WEB</h2>
+		    	<h2 class="contenido-web" >CONTENIDO WEB</h2>
 		      	<img class="d-block w-100" src="resources/images/banner-3.jpg" alt="First slide">
 		    </div>
+
+		    <!-- desactive -->
 		    <div class="carousel-item">
-		    	<h2>BRANDING</h2>
+		    	<h2 class="branding" >BRANDING</h2>
 		      	<img class="d-block w-100" src="resources/images/banner-4.jpg" alt="Second slide">
 		    </div>
+
 		    <div class="carousel-item">
-		    	<h2>REDES SOCIALES</h2>
+		    	<h2 class="redes-sociales	" >REDES SOCIALES</h2>
 		      	<img class="d-block w-100" src="resources/images/banner-5.jpg" alt="Third slide">
 		    </div>
+
 	  	</div>
 
 	  	<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -58,31 +63,49 @@
 	<div>
 		<ol>
 			<li>
-				<img src="./resources/images/ourwork-1.png" width="100%">
+				<i class="far fa-images"></i>
+				<img src="./resources/images/ourwork-1.png">
+				<span></span>
 			</li>
 			<li>
-				<img src="./resources/images/ourwork-1.png" width="100%">
+				<i class="far fa-images"></i>
+				<img src="./resources/images/ourwork-1.png">
+				<span></span>
 			</li>
 			<li>
-				<img src="./resources/images/ourwork-1.png" width="100%">
+				<i class="far fa-images"></i>
+				<img src="./resources/images/ourwork-1.png">
+				<span></span>
 			</li>
 			<li>
-				<img src="./resources/images/ourwork-1.png" width="100%">
+				<i class="far fa-images"></i>
+				<img src="./resources/images/ourwork-1.png">
+				<span></span>
 			</li>
 			<li>
-				<img src="./resources/images/ourwork-1.png" width="100%">
+				<i class="far fa-images"></i>
+				<img src="./resources/images/ourwork-1.png">
+				<span></span>
 			</li>
 			<li>
-				<img src="./resources/images/ourwork-1.png" width="100%">
+				<i class="far fa-images"></i>
+				<img src="./resources/images/ourwork-1.png">
+				<span></span>
 			</li>
 			<li>
-				<img src="./resources/images/ourwork-1.png" width="100%">
+				<i class="far fa-images"></i>
+				<img src="./resources/images/ourwork-1.png">
+				<span></span>
 			</li>
 			<li>
-				<img src="./resources/images/ourwork-1.png" width="100%">
+				<i class="far fa-images"></i>
+				<img src="./resources/images/ourwork-1.png">
+				<span></span>
 			</li>
 			<li>
-				<img src="./resources/images/ourwork-1.png" width="100%">
+				<i class="far fa-images"></i>
+				<img src="./resources/images/ourwork-1.png">
+				<span></span>
 			</li>
 		</ol>
 	</div>

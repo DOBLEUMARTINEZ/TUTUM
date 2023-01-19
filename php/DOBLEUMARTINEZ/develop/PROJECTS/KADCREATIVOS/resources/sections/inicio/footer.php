@@ -1,6 +1,10 @@
 <div class="footer">
 	<p class="copyrigt">
-		Copyright © <span>2023</span> <a onclick="window.location.href='https://kadcreativos.com/';" >kadcreativos.com</a>, Todos los derechos reservados.<a>Términos y Condiciones.</a> <a>Aviso de Privacidad</a>.
+		Copyright © 2023, 
+		<a onclick="window.location.href='https://kadcreativos.com/';" >kadcreativos.com</a>, 
+		Todos los derechos reservados. 
+		<a>Términos y Condiciones</a>. 
+		<a>Aviso de Privacidad</a>.
 	</p>
 </div>
 

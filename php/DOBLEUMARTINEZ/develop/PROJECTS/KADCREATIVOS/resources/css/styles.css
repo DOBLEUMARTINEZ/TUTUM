@@ -25,7 +25,7 @@
     }
 
     h1 {
-        font-size: 42px;
+        font-size: 42px!important;
     }
 
     h2 {
@@ -100,7 +100,7 @@
         border-radius: 50%;
         border: none;
         outline: none;
-        color: #fff;
+        color: #ffffffe3;
         font-size: 40px;
         display: flex;
         justify-content: center;
@@ -239,7 +239,7 @@
         transform: scale(1.03);
         box-shadow: 0px 0px 10px -1px #333;
         background: #138872;
-        color: #fff;
+        color: #ffffffe3;
     }
 
     .box-banner-index > img{
@@ -270,12 +270,40 @@
         align-items: center;
         text-align: center;
         margin: 0 10%;
-        color: #fff;
+        color: #ffffffe3;
         font-weight: bold;
         letter-spacing: 0.5px;
-        font-size: 90px
-
+        font-size: 130px;
+        transition: 0.2s;
+        cursor: pointer;
     }
+
+    .box-slider h2:hover{
+        color: #ffc107;
+        text-shadow: #7f3f98ab -7px 6px 0px;
+    }
+
+    /*
+        .contenido-web::before {
+            content: 'CONTENIDO WEB';
+            font-size: 90px;
+            left: 0;
+            top: 0;
+            position: absolute;
+            color: #7f3f98ab;
+            transition: 0.2s;
+        } 
+
+        .box-slider .contenido-web::after {
+            content: 'CONTENIDO WEB';
+            font-size: 90px;
+            right: 0;
+            bottom: 0;
+            position: absolute;
+            color: #00a79d;
+            transition: 0.2s;
+        }
+    */
 
 /* BOX BANNER 2 */
 
@@ -298,13 +326,14 @@
     }
 
     .box-banner-2 div > h1 {
-        color: #fff;
+        color: #ffffffe3;
         background: #111;
         width: fit-content;
+        font-weight: bold;
     }
 
     .box-banner-2 div > p {
-        color: #fff;
+        color: #ffffffe3;
         background: #111111a3;
         padding: 2%;
         width: 45%;
@@ -326,7 +355,7 @@
     .box-services-1 h2{
         height: 100%;
         position: absolute;
-        color: #fff;
+        color: #ffffffe3;
         font-weight: bold;
         font-size: 100px;
         left: 0%;
@@ -337,6 +366,7 @@
         justify-content: center;
         align-items: center;
     }
+
 
     .box-services-1::before {
         width: 250px;
@@ -359,35 +389,101 @@
         align-items: center;
     }
 
+    .box-services-2::after{
+        width: 250px;
+        content: url(../images/logo-2.png);
+        height: 250px;
+        position: absolute;
+        z-index: 9;
+        top: -15%;
+        right: 0%;
+    }
+
     .box-services-2 > div {
         width: 50%;
     }
 
     .box-services-2 > div > h2{
-        font-size: 90px;
+        font-size: 135px;
         text-align: center;
+        font-weight: bold;
+        text-shadow: #111 0px 0px;
+        transition: 0.2s;
+        cursor: pointer;
+    }
+
+    .box-services-2 > div > h2:hover {
+        transition: 0.2s;
+        text-shadow: #ffc107 -67px 25px;
     }
 
     .box-services-2 > div > ol{
         width: 100%;
-        margin: 0;
+        margin: 5% 0;
         padding: 0;
         display: flex;
-        justify-content: space-between;
         flex-wrap: wrap;
         list-style: none;
+        align-content: space-around;
+        justify-content: center;
     }
 
     .box-services-2 > div > ol > li{
         width: 30%;
+        margin: 1%;
+        padding: 0;
+        cursor: pointer;
+        position: relative;
+        border-radius: 3px;
+        transition: 0.3s;
+    }
+
+    .box-services-2 > div > ol > li > img{
+        width: 100%;
+        border-radius: 3px;
+    }
+
+    .box-services-2 > div > ol > li > span{
+        position: absolute;
+        width: 100%;
+        height: 0%;
+        background-color: #111111ad;
+        border-radius: 3px;
+        z-index: 1;
+        left: 0;
+        bottom: 0;
+        transition: 0.3s; 
+
+    }
+
+    .box-services-2 > div > ol > li > i{
+        position: absolute;
+        top: 5%;
+        right: 5%;
+        font-size: 30px;
+        color: #111; 
+        z-index: 9;
+        transition: 0.3s;
+    }
+
+    .box-services-2 > div > ol > li:hover span{
+        height: 100%;
+    }
+
+    .box-services-2 > div > ol > li:hover i{
+        color: #ffc107;
+        top: 29%;
+        right: 29%;
+        font-size: 100px;
     }
 
 /* BOX SERVICES 3 */
     .box-services-3{
-        width: 92%;
+        width: 100%;
         padding: 4% 4%;
         background: #111;
         position: relative;
+        box-shadow: 0px 0px 10px 2px #7f3f98ab;
     }
 
     .box-services-3 ol {
@@ -408,18 +504,18 @@
 
     .box-services-3 ol > li > h2 {
         background-color: #111;
-        color: #fff;
+        color: #ffffffe3;
         margin: 0;
         padding: 0;
         font-size: 95px;
         transition: 0.3s;
+        font-weight: bold;
     }
 
     .box-services-3 ol > li:hover h2{
         transform: translateY(25px);
-        color: #fab205;
+        color: #fff;
         box-shadow: 13px -33px 0px 7px #7f3f98;transform: translateY(25px);
-        color: #fab205;
     }
 
     .box-services-3 ol > .y-mas{
@@ -430,25 +526,40 @@
     }
 
     .box-services-3::before {
+        width: 450px;
+        content: url(../images/taza-2.png);
+        position: absolute;
+        z-index: 9;
+        top: -5%;
+        right: 10%;
+        animation-name: moviendrew;
+        animation-duration: 0.6s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    .box-services-3::after {
         width: 250px;
         content: url(../images/logo-2.png);
         height: 250px;
         position: absolute;
         z-index: 9;
-        bottom: -30%;
+        bottom: -22%;
         left: 1%;
+        transform: rotate(239deg);
     }
 
 /* CONTACTO */
     .box-contact {
         width: 100%;
-        padding: 0% 0%;
+        padding: 2% 0% 0% 0%;
     }
 
     .box-contact h2{
         text-align: right;
         font-size: 60px;
-        margin-right: 4%;  
+        margin: 3% 4% 2% 0;
+        font-weight: bold;  
     }
 
     .box-contact ol{
@@ -474,17 +585,16 @@
 /* FOOTER */
     .footer{
         width: 100%;
-        padding: 0.5% 0;
+        padding: 0;
         margin: 0;
-        text-align: center;
-        background: #111;
     }
 
     .footer > p {
         text-align: center;
         font-weight: 500;
-        color: #ffffffbf;
+        color: #111;
         letter-spacing: 0.5px;
+        font-size: 15px;
     }
 
     .footer > p > a {
@@ -492,25 +602,74 @@
     }
 
     .footer > p > a:hover {
-        color: #ecd71d;
+        color: #fab205!important;
     }
 
 /** MEDIAS QUERYES **/
-@media(max-width: 1300px){
+@media(max-width: 1440px){
 
     /**/
         .box-banner-2 div > p {
             width: 60%;
         }
 
+    /* BOX SLIDER */
+        .box-slider h2 {
+            font-size: 100px;
+        }
+
+    /* BOX SERVICES 2 */
+        .box-services-2 > div > h2 {
+            font-size: 100px;
+        }
+
+        .box-services-2 > div > ol > li:hover i {
+            font-size: 75px;
+        }
+
+    /* BOX SERVICES 3 */
+
+        .box-services-3::before {
+            width: 300px;
+            content: url(../images/taza-3.png);
+            top: -5%;
+            right: 10%;
+        }
+
+}
+
+@media(max-width: 1320px){
+
+    /* BOX SLIDER */
+        .box-slider h2 {
+            font-size: 80px;
+        }
+
+    /* BOX SERVICES 2 */
+
+        .box-services-2 > div > h2 {
+            font-size: 80px;
+        }
+
+    /* BOX SERVICES 3 */
+        .box-services-3 ol > li > h2 {
+            font-size: 85px;
+        }
+}
+
+@media(max-width: 1220px){
+    
+    /* BOX SERVICES 3 */
+        .box-services-3 ol > li > h2 {
+            font-size: 70px;
+        }
 }
 
 @media(max-width: 1024px){
 
     /* NAV */
         .nav-bar > ul > li {
-            font-size: 25px;
-            width: 25%;
+            font-size: 20px;
         }
 
         .nav-bar > ul > li span{
@@ -535,9 +694,81 @@
         .mouse-icon {
             bottom: 10%;
         }
+
+    /* BOX SERVICES 2 */
+        .box-services-2::after{
+            width: 150px;
+            content: url(../images/logo-3.png);
+            height: 150px;
+        }
+
+        .box-services-2 > div > ol > li:hover i {
+            color: #ffc107;
+            top: 29%;
+            right: 29%;
+            font-size: 55px;
+        }
+
+    /* BOX SERVICES 3 */
+        .box-services-3::after {
+            width: 150px;
+            content: url(../images/logo-3.png);
+            height: 150px;
+        }
+
+    /**/
+        .box-services-3::before {
+            width: 250px;
+            content: url(../images/taza-4.png);
+            top: -5%;
+            right: 5%;
+        }
 }
 
 @media(max-width: 768px){
+
+    /* NAV BAR */
+        .nav-bar {
+            width: 50%;
+            right: -40%;
+            top: 0.5%;
+            background: #0000!important;   
+            box-shadow: 0px 5px 10px -5px #0000!important;
+            border-bottom: none!important;
+            z-index: 99;
+            transition: 0.3s;
+        }
+
+        .nav-bar:hover {
+            right: 0%;
+        }
+
+        .nav-bar::before {
+            content: '<';
+            background-color: #111;
+            color: #ffffff;
+            font-size: 50px;
+            position: absolute;
+            left: -1%;
+            padding: 0px 25px;
+            font-weight: bold;
+        }
+
+        .nav-bar > ul {
+            width: 80%;
+            margin-left: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            padding: 5% 5% 5% 0;
+            flex-direction: column;
+            background-color: #111;
+        }
+
+        .nav-bar > ul > li {
+            font-size: 24px;
+            color: #fff;
+        }
 
     /* BANNER 1 */
         .desktop{
@@ -551,6 +782,72 @@
         .mobile{
             display: none;
         }
+
+
+
+    /**/
+
+        .box-banner-2 div {
+            position: absolute;
+            width: 90%;
+            right: 5%;
+            top: 15%;
+            text-align: left;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            flex-direction: row;
+        }
+
+    /* BOX SLIDER*/
+        .box-slider h2 {
+            font-size: 60px;
+        }
+
+    /* */
+
+        .box-services-2 > div > h2 {
+            font-size: 60px;
+        }
+
+        .box-services-2 > div > ol > li:hover i {;
+            font-size: 42px;
+        }
+
+    /* */
+        .box-services-3 ol > li > h2 {
+            font-size: 50px;
+        }
+
+        .box-services-3::before {
+            width: 200px;
+            content: url(../images/taza-5.png);
+            top: -5%;
+            right: 5%;
+        }
+
+    /* BOX CONTACT */
+
+        .box-contact ol > li {
+            cursor: pointer;
+            width: 50%;
+        }
+
+}
+
+@media(max-width: 720px){
+
+    /**/
+    .box-services-3 ol > li > h2 {
+        font-size: 45px;
+    }
+
+    .box-services-3 ol > .y-mas {
+        writing-mode: vertical-lr;
+        transform: rotate(180deg);
+        margin-bottom: 0%;
+        margin-left: 0%;
+    }
 }
 
 @media(max-width: 425px){
