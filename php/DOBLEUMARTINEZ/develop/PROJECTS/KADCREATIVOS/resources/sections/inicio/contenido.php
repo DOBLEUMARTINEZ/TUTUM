@@ -12,7 +12,8 @@
 			Somos una agencia especialista en la fusión de estrategia y diseño digital para tu marca, dedicada a proponer estrategias integrales y de valor para cada uno de nuestros clientes.
 		</p>
 	</div>
-	<img  src="<?php echo $url; ?>/resources/images/banner-2.jpg" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
+	<img  src="resources/images/banner-2.jpg" class="desktop" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
+	<img  src="resources/images/banner-2-mobile.jpg" class="mobil" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
 </div>
 
 <div class="box-slider">

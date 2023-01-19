@@ -852,21 +852,16 @@
 
 @media(max-width: 425px){
 
+    /**/
+
+        h1 {
+            font-size: 40px!important;
+        }
+
     /* NAV */
-        .nav-bar > ul{
-            flex-wrap: wrap;
-            justify-content: space-around;
-        }
-
-        .nav-bar > ul > .cta-nav {
-            font-size: 22px;
-            width: 100%; 
-            padding: 2% 0;
-        }
-
-        .nav-bar > ul > li {
-            font-size: 25px;
-            width: auto;
+        .nav-bar {
+            width: 80%;
+            right: -65%;
         }
 
     /* BANNER 1 */
@@ -893,4 +888,83 @@
         .mouse-icon {
             bottom: 5%;
         }
+
+    /* BANNER 2 */
+        .box-banner-2 div {
+            flex-direction: column;
+        }
+
+        .box-banner-2 div > p {
+            width: 100%;
+            background: #111111d9;
+        }
+
+    /* BOX SILDER */
+        .box-slider h2 {
+            font-size: 35px;
+        }
+
+    /* BLOQUE SERVICE 2 */
+        .box-services-2 > div {
+            width: 100%;
+        }
+
+        .box-services-2 {
+            width: 100%;
+            padding: 0 0%;
+            flex-direction: column-reverse;
+        }
+
+        .box-services-2 > div > h2 {
+            font-size: 45px;
+            margin-top: 10%;
+        }
+
+        .box-services-2::after {
+            width: 80px;
+            height: 00px;
+            content: url(../images/logo-4.png);
+            top: -10%;
+            
+        }
+
+    /* BLOQUE SERVICES 3 */
+        .box-services-3 ol > li {
+            writing-mode: initial;
+            transform: rotate(0deg);
+            width: 100%;
+        }
+
+        .box-services-3 ol > .y-mas {
+            writing-mode: initial;
+            transform: rotate(0deg);
+        }
+
+        .box-services-3::before {
+            width: 150px;
+            content: url(../images/taza-6.png);
+            top: 10%;
+            right: 5%;
+        }
+
+        .box-services-3::after {
+            width: 80px;
+            content: url(../images/logo-4.png);
+            height: 80px;
+            bottom: -5%;
+        }
+
+
+    /* FOOTER  */
+        .box-contact h2 {
+            font-size: 45px;
+            margin: 5% 4% 2% 0;
+        }
+
+        .box-contact ol > li {
+            width: 80%;
+            margin: 2% 0;
+        }
+
+
 }
