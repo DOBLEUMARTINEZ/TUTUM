@@ -13,7 +13,7 @@
 		</p>
 	</div>
 	<img  src="resources/images/banner-2.jpg" class="desktop" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
-	<img  src="resources/images/banner-2-mobile.jpg" class="mobil" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
+	<img  src="resources/images/banner-2-mobile.jpg" class="mobile" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
 </div>
 
 <div class="box-slider">
@@ -26,20 +26,26 @@
 	  	<div class="carousel-inner">
 
 		    <div class="carousel-item active">
-		    	<h2 class="contenido-web" >CONTENIDO WEB</h2>
-		      	<img class="d-block w-100" src="resources/images/banner-3.jpg" alt="First slide">
+		      	<img class="d-block w-100" src="resources/images/CONTENIDO_WEB_BANNER_1.jpg" alt="First slide">
 		    </div>
 
 		    <!-- desactive -->
 		    <div class="carousel-item">
-		    	<h2 class="branding" >BRANDING</h2>
-		      	<img class="d-block w-100" src="resources/images/banner-4.jpg" alt="Second slide">
+		      	<img class="d-block w-100" src="resources/images/FOTO_VIDEO_BANNER1.jpg" alt="Second slide">
 		    </div>
 
 		    <div class="carousel-item">
-		    	<h2 class="redes-sociales	" >REDES SOCIALES</h2>
-		      	<img class="d-block w-100" src="resources/images/banner-5.jpg" alt="Third slide">
+		      	<img class="d-block w-100" src="resources/images/IMAGEN_CORPORATIVA_BANNER1.jpg" alt="Third slide">
 		    </div>
+
+		    <div class="carousel-item">
+		      	<img class="d-block w-100" src="resources/images/IMPRESION_BANNER1.jpg" alt="Third slide">
+		    </div>
+
+		    <div class="carousel-item">
+		      	<img class="d-block w-100" src="resources/images/REDES_SOCIALES_BANNER2.jpg" alt="Third slide">
+		    </div>
+
 
 	  	</div>
 
@@ -57,7 +63,6 @@
 
     <!-- Bootstrap core JavaScript -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
-
 </div>
 
 <div class="box-services-2" >
