@@ -1,10 +1,14 @@
 <?php
 
+//EMAIL
+  include("send.php");
+
 echo '<!DOCTYPE html><html lang="es">';
 
   // URL
     //$url = $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
     $url = './';
+    //$url = 'https://www.tutum.com.mx/';
 
   // VALIDAR SECCION - TITULO DE SECCION
     if (isset($_GET['seccion'])){
@@ -20,8 +24,7 @@ echo '<!DOCTYPE html><html lang="es">';
   // HEAD
     include("resources/inicio/head.php");
 
-  //EMAIL
-    include("send.php"); 
+  ; 
 
 echo '<body>'; // INICIO CUERPO
 
