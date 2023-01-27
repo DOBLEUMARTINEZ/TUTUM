@@ -131,7 +131,7 @@
                 <input id="re-capcha" name="recapcha" value="0" type="hidden">
                 <input id="security-form" type="text" name="security" required style="opacity: 0;">
 
-                <button name="action" value="new_contact" onclick ="miFuncion()" >ENVIAR</button>
+                <button name="action" value="new_contact" onclick ="mi-Funcion()" >ENVIAR</button>
             </li>
         </ul>
     </div>

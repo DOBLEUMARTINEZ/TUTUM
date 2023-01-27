@@ -29,7 +29,7 @@
 		//trigger exception in a "try" block
 		try {
 
-		  	checkblacklist('Crytosurdy');
+		  	checkblacklist($_POST['nombre']);
 
 		  	//If the exception is thrown, this text will not be shown
 		  	echo "ES SPAM";
