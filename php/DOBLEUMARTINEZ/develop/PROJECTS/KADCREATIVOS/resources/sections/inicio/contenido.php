@@ -13,7 +13,7 @@
 		</p>
 	</div>
 	<img  src="resources/images/banner-2.jpg" class="desktop" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
-	<img  src="resources/images/banner-2-mobile.jpg" class="mobil" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
+	<img  src="resources/images/banner-2-mobile.jpg" class="mobile" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
 </div>
 
 <div class="box-slider">
