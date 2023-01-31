@@ -65,7 +65,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
 </div>
 
-<div class="box-services-2" >
+<div class="box-services-2" style="display: none;">
 	<div>
 		<ol>
 			<li>

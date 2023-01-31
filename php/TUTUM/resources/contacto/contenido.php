@@ -126,12 +126,12 @@
             <li class="li-3" >
                 <img src="images/logo/LOGO TUTUM-FULL COLOR-RGB-03.png"><br>    
 
-                <div class="g-recaptcha" data-sitekey="6LdfL14gAAAAAEuvne6SqZUsgDxEpo02_znAUzNj" data-callback="verifyCaptcha" ></div>
+                <div class="g-recaptcha" data-sitekey="6Lfac-QjAAAAAHia0JzxA2rddjdllDlOsCmETaUD" data-callback="verifyCaptcha"   ></div>
 
                 <input id="re-capcha" name="recapcha" value="0" type="hidden">
                 <input id="security-form" type="text" name="security" required style="opacity: 0;">
 
-                <button name="action" value="new_contact" onclick ="miFuncion()" >ENVIAR</button>
+                <button name="action" value="new_contact" onclick ="mi-Funcion()" >ENVIAR</button>
             </li>
         </ul>
     </div>
@@ -153,9 +153,8 @@
     </ul>
 </div>
 
-
-
 <script type="text/javascript">
+
     function soloLetras(e) {
         var key = e.keyCode || e.which,
           tecla = String.fromCharCode(key).toLowerCase(),
