@@ -1,22 +1,19 @@
 <!-- NAV BAR -->
 <nav class="nav-bar">
   <ul>
-    <li onclick="window.location.href='';" >
+    <li onclick="window.location.href='<?php echo $url?>';" >
       Inicio
     </li>
-    <li onclick="window.location.href='';" >
+    <li onclick="window.location.href='<?php echo $url?>#quienes-somos';" >
       Quienes somos
     </li>
-    <li onclick="window.location.href='';" >
+    <li onclick="window.location.href='<?php echo $url?>#servicios';" >
       Servicios
     </li>
-    <li onclick="window.location.href='';" >
-    	Nuestro trabajo
-    </li>
-    <li onclick="window.location.href='';" >
+    <li onclick="window.location.href='<?php echo $url?>#otros-servicios';" >
     	Otros servicios
     </li>
-    <li onclick="window.location.href='';" >
+    <li onclick="window.location.href='<?php echo $url?>#contacto';" >
     	Contacto
    	</li>
   </ul>

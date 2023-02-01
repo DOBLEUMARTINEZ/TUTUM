@@ -3,7 +3,7 @@
 echo '<!DOCTYPE html><html lang="es">';
 
   // URL
-    //$url = $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+    //$url = 'https://kadcreativos.com/';
     $url = './';
 
   // VALIDAR SECCION - TITULO DE SECCION 
@@ -20,11 +20,38 @@ echo '<body>'; // INICIO CUERPO
   include("resources/sections/inicio/nav.php");
 
   // CONTENIDO
-  if (isset($_GET['seccion'])) {
+  if ( isset($_GET['seccion']) && !empty($_GET['seccion']) ) {
 
-    // GRACIAS
-    //include("resources/sections/inicio/gracias.php");
-    include("resources/sections/inicio/contenido.php");
+    switch ($_GET['seccion']) {
+      case 'impresion':
+        include("resources/sections/inicio/impresion.php");
+        break;
+
+      case 'stickers':
+        include("resources/sections/inicio/stickers.php");
+        break;
+
+      case 'banners':
+        include("resources/sections/inicio/banners.php");
+        break;
+
+      case 'cuadros':
+        include("resources/sections/inicio/cuadros.php");
+        break;
+
+      case 'tarjetas':
+        include("resources/sections/inicio/tarjetas.php");
+        break;
+
+      case 'promocionales':
+        include("resources/sections/inicio/promocionales.php");
+        break;
+      
+      default:
+        include("resources/sections/inicio/not-foud.php");
+        break;
+    }
+    
   }else{
     // CONTENIDO
     include("resources/sections/inicio/contenido.php");

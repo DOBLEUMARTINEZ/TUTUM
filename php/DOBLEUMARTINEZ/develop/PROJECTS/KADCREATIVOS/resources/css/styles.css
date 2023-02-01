@@ -404,8 +404,8 @@
     }
 
     .box-services-2 > div > h2{
-        font-size: 135px;
-        text-align: center;
+        font-size: 40px;
+        text-align: left;
         font-weight: bold;
         text-shadow: #111 0px 0px;
         transition: 0.2s;
@@ -414,7 +414,7 @@
 
     .box-services-2 > div > h2:hover {
         transition: 0.2s;
-        text-shadow: #ffc107 -67px 25px;
+        text-shadow: #ffc107 -40px 15px;
     }
 
     .box-services-2 > div > ol{
