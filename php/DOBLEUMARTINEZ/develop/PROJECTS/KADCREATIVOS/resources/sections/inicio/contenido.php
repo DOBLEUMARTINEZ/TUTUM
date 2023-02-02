@@ -124,15 +124,15 @@
 
 <div class="box-services-3" >
 	<ol>
-		<li><h2>IMPRESIÓN</h2></li>
-		<li><h2>STICKERS</h2></li>
-		<li><h2>LONAS</h2></li>
-		<li><h2>CUADROS</h2></li>
-		<li><h2>BANNERS</h2></li>
-		<li><h2>TARJETAS</h2></li>
-		<li><h2>PLAYERAS</h2></li>
-		<li><h2>TAZAS</h2></li>
-		<li class="y-mas"><h2>Y MAS...</h2></li>
+		<li onclick="window.location.href='impresion';" ><h2>IMPRESIÓN</h2></li>
+		<li onclick="window.location.href='impresion';" ><h2>STICKERS</h2></li>
+		<li onclick="window.location.href='impresion';" ><h2>LONAS</h2></li>
+		<li onclick="window.location.href='impresion';" ><h2>CUADROS</h2></li>
+		<li onclick="window.location.href='impresion';" ><h2>BANNERS</h2></li>
+		<li onclick="window.location.href='impresion';" ><h2>TARJETAS</h2></li>
+		<li onclick="window.location.href='impresion';" ><h2>PLAYERAS</h2></li>
+		<li onclick="window.location.href='impresion';" ><h2>TAZAS</h2></li>
+		<li onclick="window.location.href='impresion';"  class="y-mas"><h2>Y MAS...</h2></li>
 	</ol>
 </div>
 

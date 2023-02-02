@@ -20,14 +20,25 @@ echo '<body>'; // INICIO CUERPO
   include("resources/sections/inicio/nav.php");
 
   // CONTENIDO
-  if (isset($_GET['seccion'])) {
+  if ( isset($_GET['seccion']) && !empty($_GET['seccion'])) {
 
-    // GRACIAS
-    //include("resources/sections/inicio/gracias.php");
-    include("resources/sections/inicio/contenido.php");
+    switch ($_GET['seccion']){
+
+      case 'impresion':
+        include("resources/sections/inicio/impresion.php");
+        break;
+
+      default:
+        // CONTENIDO
+        include("resources/sections/inicio/contenido.php");
+        break;
+    }
+
   }else{
+
     // CONTENIDO
     include("resources/sections/inicio/contenido.php");
+  
   }
 
   // PIE DE PAGINA
