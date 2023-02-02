@@ -131,13 +131,13 @@
 			<li>
 				<label >¿Dónde está la mayor fuente de tu dolor?</label>
 				<div class="checkbox-list">
-					<label><input type="checkbox" id="cbox1" value="Cuello"> Cuello</label>
-					<label><input type="checkbox" id="cbox2" value="Espalda"> Espalda</label>
-					<label><input type="checkbox" id="cbox3" value="Rodillas"> Rodillas</label>
-					<label><input type="checkbox" id="cbox4" value="Hombros"> Hombros</label>
-					<label><input type="checkbox" id="cbox5" value="Ciatica"> Ciatica</label>
-					<label><input type="checkbox" id="cbox6" value="Piernas"> Piernas</label>
-					<label><input type="checkbox" id="cbox7" value="Cabeza"> Cabeza</label>
+					<label><input type="checkbox" name="cbox1" id="cbox1" value="Cuello"> Cuello</label>
+					<label><input type="checkbox" name="cbox2" id="cbox2" value="Espalda"> Espalda</label>
+					<label><input type="checkbox" name="cbox3" id="cbox3" value="Rodillas"> Rodillas</label>
+					<label><input type="checkbox" name="cbox4" id="cbox4" value="Hombros"> Hombros</label>
+					<label><input type="checkbox" name="cbox5" id="cbox5" value="Ciatica"> Ciatica</label>
+					<label><input type="checkbox" name="cbox6" id="cbox6" value="Piernas"> Piernas</label>
+					<label><input type="checkbox" name="cbox7" id="cbox7" value="Cabeza"> Cabeza</label>
 				</div>
 			</li>
 		</ol>
@@ -154,7 +154,7 @@
 				<label for="input4">Del 1 al 10, ¿qué tan importante es tu salud?</label><br>
 				<div class="input-rango" >
 					<div class="etiqueta4"></div>
-					<input name="rango1" id="input4" type="range" min="0" max="10" value="5">
+					<input name="rango2" id="input4" type="range" min="0" max="10" value="5">
 					<div class="btn-gradient-2"></div>
 				</div>
 			</li>
