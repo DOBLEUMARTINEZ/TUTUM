@@ -54,11 +54,6 @@
 				<img src="./resources/images/ourwork-1.png">
 				<span></span>
 			</li>
-			<li>
-				<i class="far fa-images"></i>
-				<img src="./resources/images/ourwork-1.png">
-				<span></span>
-			</li>
 		</ol>
 	</div>
 	<div>

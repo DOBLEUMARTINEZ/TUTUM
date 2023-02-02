@@ -357,7 +357,7 @@
     }
 
     .box-services-2 > div > h2{
-        font-size: 40px;
+        font-size: 20px;
         text-align: left;
         font-weight: bold;
         text-shadow: #111 0px 0px;
@@ -573,7 +573,7 @@
 
     /* BOX SERVICES 2 */
         .box-services-2 > div > h2 {
-            font-size: 100px;
+            font-size: 40px;
         }
 
         .box-services-2 > div > ol > li:hover i {
