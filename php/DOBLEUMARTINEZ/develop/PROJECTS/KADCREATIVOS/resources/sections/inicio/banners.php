@@ -1,4 +1,4 @@
-
+<!-- BANNER-1 -->
 <div class="box-slider">
 
     <!-- Bootstrap core CSS -->
@@ -54,15 +54,21 @@
 				<img src="./resources/images/ourwork-1.png">
 				<span></span>
 			</li>
-			<li>
-				<i class="far fa-images"></i>
-				<img src="./resources/images/ourwork-1.png">
-				<span></span>
-			</li>
 		</ol>
 	</div>
 	<div>
-		<h2>Impresión digital, offset tradicional, en gran formato, recorte de vinil, sublimación y serigrafía.
+		<h2>
+			Diseño e impresión de Banners promocionales, lonas, espectaculares, banderines.<br><br>
+			Contamos con estructuras para montar tus banners, arañas, rollup, demostands.
+
 		</h2>
 	</div>
 </div>
+
+
+
+
+
+
+
+

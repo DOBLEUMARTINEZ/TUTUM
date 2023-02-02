@@ -1,4 +1,4 @@
-
+<!-- BANNER-1 -->
 <div class="box-slider">
 
     <!-- Bootstrap core CSS -->
@@ -54,15 +54,19 @@
 				<img src="./resources/images/ourwork-1.png">
 				<span></span>
 			</li>
-			<li>
-				<i class="far fa-images"></i>
-				<img src="./resources/images/ourwork-1.png">
-				<span></span>
-			</li>
 		</ol>
 	</div>
 	<div>
-		<h2>Impresión digital, offset tradicional, en gran formato, recorte de vinil, sublimación y serigrafía.
+		<h2>
+			Personalizamos e imprimimos sobre vinil, con o sin suaje, color solido o transparente.
 		</h2>
 	</div>
 </div>
+
+
+
+
+
+
+
+

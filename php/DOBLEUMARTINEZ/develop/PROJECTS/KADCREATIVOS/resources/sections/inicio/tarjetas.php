@@ -1,4 +1,4 @@
-
+<!-- BANNER-1 -->
 <div class="box-slider">
 
     <!-- Bootstrap core CSS -->
@@ -53,16 +53,20 @@
 				<i class="far fa-images"></i>
 				<img src="./resources/images/ourwork-1.png">
 				<span></span>
-			</li>
-			<li>
-				<i class="far fa-images"></i>
-				<img src="./resources/images/ourwork-1.png">
-				<span></span>
-			</li>
+			</li>	
 		</ol>
 	</div>
 	<div>
-		<h2>Impresión digital, offset tradicional, en gran formato, recorte de vinil, sublimación y serigrafía.
+		<h2>
+			Diseñamos y creamos  tus tarjetas de presentación , en formato digital o impresas.
 		</h2>
 	</div>
 </div>
+
+
+
+
+
+
+
+

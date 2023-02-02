@@ -24,8 +24,9 @@ echo '<body>'; // INICIO CUERPO
 
   // CONTENIDO
   if (isset($_GET['seccion'])) {
-    // GRACIAS
-    include("resources/sections/inicio/gracias.php");
+      // GRACIAS
+      include("resources/sections/inicio/gracias.php");
+
   }else{
     // CONTENIDO
     include("resources/sections/inicio/contenido.php");
