@@ -2,7 +2,7 @@
 
 	if (isset($_POST['action'])&&(!empty($_POST['action']))) {
 		
-		//var_dump($_REQUEST); // Does not contain elements 'foo' or 'bar'
+		var_dump($_REQUEST); // Does not contain elements 'foo' or 'bar'
 		if(!isset($_POST['nombre']) ||
 		    !isset($_POST['apellido']) ||
 		    !isset($_POST['telefono']) ||
@@ -14,8 +14,8 @@
 		    die('Lo sentimos pero parece haber un problema con los datos enviados.');
 		}
 
-		//$recapcha = '1';
-		$recapcha = $_POST['recapcha'];
+		$recapcha = '1';
+		//$recapcha = $_POST['recapcha'];
 
 		if ($recapcha == '1') {
 
@@ -27,6 +27,15 @@
 		    $apellido = $_POST['apellido'];
 		    $telefono = $_POST['telefono'];
 		    $correo = $_POST['correo'];
+		    $dolor = '';
+
+		    // CHECKBOX 
+		    for( $i=1; $i<=7; $i++){
+		    	if (isset($_POST['cbox'.$i])) {
+		    		$dolor .= $_POST['cbox'.$i].', ';
+		    	}	
+		    }
+
 		    $rango1 = $_POST['rango1'];
 		    $rango2 = $_POST['rango2'];
 		    $mensaje = $_POST['mensaje'];
@@ -46,6 +55,7 @@
 		    $email_message .= "Apellido: ".clean_string($apellido)."\n";
 		    $email_message .= "Teléfono: ".clean_string($telefono)."\n";
 		    $email_message .= "Correo: ".clean_string($correo)."\n";
+		    $email_message .= "Principal fguente de dolor: ".clean_string($dolor)."\n";
 		    $email_message .= "Indica el nivel de tensión y/o dolor actual: ".clean_string($rango1)."\n";
 		    $email_message .= "Del 1 al 10, ¿qué tan importante es tu salud? ".clean_string($rango2)."\n";
 		    $email_message .= "Comentarios: ".clean_string($mensaje)."\n";
