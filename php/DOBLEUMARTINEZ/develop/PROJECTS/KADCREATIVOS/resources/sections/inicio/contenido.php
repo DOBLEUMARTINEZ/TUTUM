@@ -128,13 +128,13 @@
 	<ol>
 		<li onclick="window.location.href='impresion';"><h2>IMPRESIÓN</h2></li>
 		<li onclick="window.location.href='stickers';"><h2>STICKERS</h2></li>
-		<li onclick="window.location.href='lonas';"><h2>LONAS</h2></li>
-		<li onclick="window.location.href='cuadros';"><h2>CUADROS</h2></li>
 		<li onclick="window.location.href='banners';"><h2>BANNERS</h2></li>
+		<li onclick="window.location.href='cuadros';"><h2>CUADROS</h2></li>
 		<li onclick="window.location.href='tarjetas';"><h2>TARJETAS</h2></li>
-		<li onclick="window.location.href='playeras';"><h2>PLAYERAS</h2></li>
-		<li onclick="window.location.href='playeras';"><h2>TAZAS</h2></li>
-		<li class="y-mas"><h2>Y MAS...</h2></li>
+		<li onclick="window.location.href='promocionales';"><h2>PROMOCIONALES</h2></li>
+		<li onclick="window.location.href='promocionales';"><h2>PLAYERAS</h2></li>
+		<li onclick="window.location.href='promocionales';"><h2>TAZAS</h2></li>
+		<li class="otros"><h2>Y MAS...</h2></li>
 	</ol>
 </div>
 
@@ -144,9 +144,9 @@
 	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.635902213762!2d-99.22426698459495!3d19.51429444311879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d202ce49f35f17%3A0x9e8e8fb0f79a6dfb!2sCementos%20An%C3%A1huac%2052%2C%2054080%20Vista%20Hermosa%2C%20M%C3%A9x.!5e0!3m2!1ses-419!2smx!4v1673300696831!5m2!1ses-419!2smx" title="@kadcreativos.com" alt="@kadcreativos"	width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 	<ol>
 		<li>@kadcreativos</li>
-		<li>5554341397</li>
-		<li>contacto@kadcreativos.com</li>
-		<li>Calle. Cementos Anahuac No. 52A<br>Col.Vista Hermosa<br>Tlalnepantla, Edo.Mex.</li>
+		<li onclick="window.location.href='tel:5554341397';" >5554341397</li>
+		<li onclick="window.location.href='mailto:contacto@kadcreativos.com';" >contacto@kadcreativos.com</li>
+		<li onclick="window.location.href='https://goo.gl/maps/4YNCjeQhWcTMqvVy9';" >Calle. Cementos Anahuac No. 52A<br>Col.Vista Hermosa<br>Tlalnepantla, Edo.Mex.</li>
 	</ol>
 </div>
 

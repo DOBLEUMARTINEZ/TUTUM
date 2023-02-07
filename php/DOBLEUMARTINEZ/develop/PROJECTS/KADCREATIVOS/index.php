@@ -46,9 +46,13 @@ echo '<body>'; // INICIO CUERPO
       case 'promocionales':
         include("resources/sections/inicio/promocionales.php");
         break;
+
+      case 'otros':
+        include("resources/sections/inicio/promocionales.php");
+        break;
       
       default:
-        include("resources/sections/inicio/not-foud.php");
+        include("resources/sections/inicio/not-found.php");
         break;
     }
     

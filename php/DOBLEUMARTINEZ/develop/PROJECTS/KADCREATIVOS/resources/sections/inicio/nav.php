@@ -7,8 +7,16 @@
     <li onclick="window.location.href='<?php echo $url?>#quienes-somos';" >
       Quienes somos
     </li>
-    <li onclick="window.location.href='<?php echo $url?>#servicios';" >
-      Servicios
+    <li id='drop-down-wm'>
+      <a href="<?php echo $url?>#servicios">Servicios</a>
+      <ol class='drop-down-list'>
+        <li onclick="window.location.href='<?php echo $url?>impresion';" >Impresión</li>
+        <li onclick="window.location.href='<?php echo $url?>stickers';" >Stickers</li>
+        <li onclick="window.location.href='<?php echo $url?>banners';" >Banners</li>
+        <li onclick="window.location.href='<?php echo $url?>cuadros';" >Cuadros</li>
+        <li onclick="window.location.href='<?php echo $url?>tarjetas';" >Tarjetas</li>
+        <li onclick="window.location.href='<?php echo $url?>promocionales';" >Promocinales</li>
+      </ol>
     </li>
     <li onclick="window.location.href='<?php echo $url?>#otros-servicios';" >
     	Otros servicios

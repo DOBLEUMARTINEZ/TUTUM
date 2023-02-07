@@ -9,7 +9,8 @@
 	  	<div class="carousel-inner">
 
 		    <div class="carousel-item active">
-		      	<img class="d-block w-100" src="resources/images/IMPRESION_BANNER1.jpg" title="Impresion" alt="Impresion">
+		      	<img class="d-block w-100" src="resources/images/banner-seccion.jpg" title="Impresion" alt="Impresion">
+		      	<h1 style="position: absolute;bottom: 10%;left: 5%;font-weight: bold;">Stickers</h1>
 		    </div>
 
 	  	</div>
@@ -25,33 +26,19 @@
 	<div>
 		<ol>
 			<li>
-				<i class="far fa-images"></i>
-				<img src="./resources/images/ourwork-1.png">
+				<img src="./resources/images/stickers-1.jpg">
 				<span></span>
 			</li>
 			<li>
-				<i class="far fa-images"></i>
-				<img src="./resources/images/ourwork-1.png">
+				<img src="./resources/images/stickers-2.jpg">
 				<span></span>
 			</li>
 			<li>
-				<i class="far fa-images"></i>
-				<img src="./resources/images/ourwork-1.png">
+				<img src="./resources/images/stickers-3.jpg">
 				<span></span>
 			</li>
 			<li>
-				<i class="far fa-images"></i>
-				<img src="./resources/images/ourwork-1.png">
-				<span></span>
-			</li>
-			<li>
-				<i class="far fa-images"></i>
-				<img src="./resources/images/ourwork-1.png">
-				<span></span>
-			</li>
-			<li>
-				<i class="far fa-images"></i>
-				<img src="./resources/images/ourwork-1.png">
+				<img src="./resources/images/stickers-4.jpg">
 				<span></span>
 			</li>
 		</ol>
