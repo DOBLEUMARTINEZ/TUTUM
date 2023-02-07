@@ -11,9 +11,9 @@
   	 <img class="updown" width="100" height="100" src="<?php echo $url; ?>/resources/images/mouse-cursor.png" title="Dolorfin" alt="icono de raton de computadora color azul png">
   </span>
 
-  <img class="desktop" src="<?php echo $url; ?>/resources/images/banner-1.jpg" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
-  <img class="tablet" src="<?php echo $url; ?>/resources/images/banner-1-tablet.jpg" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
-  <img class="mobile" src="<?php echo $url; ?>/resources/images/banner-1-mobile.jpg" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
+  <img class="desktop" src="<?php echo $url; ?>/resources/images/banner-1.jpg" width="1200" height="auto" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
+  <img class="tablet" src="<?php echo $url; ?>/resources/images/banner-1-tablet.jpg" width="768" height="auto" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
+  <img class="mobile" src="<?php echo $url; ?>/resources/images/banner-1-mobile.jpg" width="425" height="auto" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
 </div>
 
 <a id="dolorfin" href="<?php echo $url; ?>" style="color: #0000; outline: none;text-decoration: none;">Dolorfin Zona Esmeralda</a>
@@ -59,13 +59,13 @@
 		<li>
 			<ul>
 				<li class="porcent-100">
-					<img src="<?php echo $url; ?>/resources/images/dolorfin-2.jpg" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
+					<img src="<?php echo $url; ?>/resources/images/dolorfin-2.jpg" width="761" height="auto" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
 				</li>
 				<li class="porcent-50">
-					<img src="<?php echo $url; ?>/resources/images/dolorfin-4.jpg" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
+					<img src="<?php echo $url; ?>/resources/images/dolorfin-4.jpg" width="373" height="auto" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
 				</li>
 				<li class="porcent-50">
-					<img src="<?php echo $url; ?>/resources/images/dolorfin-3.jpg" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
+					<img src="<?php echo $url; ?>/resources/images/dolorfin-3.jpg" width="373" height="auto" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
 				</li>
 			</ul>
 		</li>
@@ -166,7 +166,8 @@
 				<button class="g-recaptcha" 
 					data-sitekey="6LfextAjAAAAABCxA7r7NyM-cReBY9oU-JpOphn0" 
 					data-callback='onSubmit' 
-					data-action='submit'>reCaptcha
+					data-action='submit'
+					style="opacity: 0">reCaptcha
 				</button>
 			  <button type="submit" name="action" value="form">
 			  	Enviar

@@ -3,8 +3,8 @@
 echo '<!DOCTYPE html><html lang="es">';
 
   // URL
-    //$url = $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
-    $url = './';
+    $url = 'https://dolorfinesmeralda.com/';
+    //$url = './';
 
   // VALIDAR SECCION - TITULO DE SECCION 
     $title_tag = 'Dolorfin especialista Quiropráctico, Fisioterapeuta y Masajista';
