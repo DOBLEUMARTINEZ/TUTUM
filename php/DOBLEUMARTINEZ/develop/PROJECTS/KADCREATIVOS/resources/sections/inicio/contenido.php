@@ -10,7 +10,7 @@
 	<div>
 		<h1>¿QUIÉNES SOMOS?</h1>
 		<p>
-			Somos una agencia especialista en la fusión de estrategia y diseño digital para tu marca, dedicada a proponer estrategias integrales y de valor para cada uno de nuestros clientes.
+			Somos una agencia especialista en la fusión de estrategia y diseño digital e impresa para tu marca, dedicada a proponer estrategias integrales y de valor para cada uno de nuestros clientes.
 		</p>
 	</div>
 	<img  src="resources/images/banner-2.jpg" class="desktop" title="@kadcreativos.com" alt="@kadcreativos">
@@ -132,8 +132,6 @@
 		<li onclick="window.location.href='cuadros';"><h2>CUADROS</h2></li>
 		<li onclick="window.location.href='tarjetas';"><h2>TARJETAS</h2></li>
 		<li onclick="window.location.href='promocionales';"><h2>PROMOCIONALES</h2></li>
-		<li onclick="window.location.href='promocionales';"><h2>PLAYERAS</h2></li>
-		<li onclick="window.location.href='promocionales';"><h2>TAZAS</h2></li>
 		<li class="otros"><h2>Y MAS...</h2></li>
 	</ol>
 </div>
@@ -146,7 +144,7 @@
 		<li>@kadcreativos</li>
 		<li onclick="window.location.href='tel:5554341397';" >5554341397</li>
 		<li onclick="window.location.href='mailto:contacto@kadcreativos.com';" >contacto@kadcreativos.com</li>
-		<li onclick="window.location.href='https://goo.gl/maps/4YNCjeQhWcTMqvVy9';" >Calle. Cementos Anahuac No. 52A<br>Col.Vista Hermosa<br>Tlalnepantla, Edo.Mex.</li>
+		<li onclick="window.location.href='https://goo.gl/maps/4YNCjeQhWcTMqvVy9';" >Calle. Cementos Anahuac No. 53C<br>Col.Vista Hermosa<br>Tlalnepantla, Edo.Mex.</li>
 	</ol>
 </div>
 

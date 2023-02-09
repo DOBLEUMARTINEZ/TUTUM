@@ -9,11 +9,11 @@
 
   <title><?php echo $title_tag;?></title>
 
-  <link href="<?php echo $url;?>/resources/images/icon.png" rel="shortcut icon"/>
+  <link href="<?php echo $url;?>resources/images/icon.png" rel="shortcut icon"/>
 
-  <link rel="manifest" href="<?php echo $url;?>/resources/images/icon.png">
-  <link rel="icon" type="resources/images/icon.png" sizes="32x32" href="<?php echo $url;?>/resources/images/icon.png">
-  <link rel="icon" type="resources/images/icon.png" sizes="16x16" href="<?php echo $url;?>/resources/images/icon.png">
+  <link rel="manifest" href="<?php echo $url;?>resources/images/icon.png">
+  <link rel="icon" type="resources/images/icon.png" sizes="32x32" href="<?php echo $url;?>resources/images/icon.png">
+  <link rel="icon" type="resources/images/icon.png" sizes="16x16" href="<?php echo $url;?>resources/images/icon.png">
 
   <meta property="og:title" content="Dolorfin especialista Quiropráctico, Fisioterapeuta y Masajista">
   <meta property="og:site_name" content="Dolorfin Zona Esmeralda">
@@ -23,8 +23,8 @@
   <meta property="og:image" content="https://dolorfinesmeralda.com/resources/images/icon.png">
 
   <!-- css -->
-  <link rel="stylesheet" href="<?php echo $url;?>/resources/css/styles.css"/>
-  <link rel="stylesheet" href="<?php echo $url;?>/resources/css/fontawesome-free-5.7.0-web/css/all.css">
+  <link rel="stylesheet" href="<?php echo $url;?>resources/css/styles.css"/>
+  <link rel="stylesheet" href="<?php echo $url;?>resources/css/fontawesome-free-5.7.0-web/css/all.css">
 
   <!--jquery
   <script src="<?php echo $url;?>/resources/js/jquery.min.js"></script> -->
@@ -36,7 +36,7 @@
        document.getElementById("demo-form").submit();
      }
    </script>-->
-  
+
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-NDH57KDJ3H"></script>
   <script>
