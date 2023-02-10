@@ -28,24 +28,24 @@
 	  	<div class="carousel-inner">
 
 		    <div class="carousel-item active">
-		      	<img class="d-block w-100" src="resources/images/CONTENIDO_WEB_BANNER_1.jpg" title="Contenido web" alt="Contenido web">
+		      	<img class="d-block w-100" src="resources/images/CONTENIDO_WEB_BANNER_1.jpg" title="Contenido web" alt="Contenido web" onclick="window.location.href='<?php echo $url?>contenido-web';">
 		    </div>
 
 		    <!-- desactive -->
 		    <div class="carousel-item">
-		      	<img class="d-block w-100" src="resources/images/FOTO_VIDEO_BANNER1.jpg" title="Foto y video" alt="Foto y video">
+		      	<img class="d-block w-100" src="resources/images/FOTO_VIDEO_BANNER1.jpg" title="Foto y video" alt="Foto y video" onclick="window.location.href='<?php echo $url?>foto-y-video';">
 		    </div>
 
 		    <div class="carousel-item">
-		      	<img class="d-block w-100" src="resources/images/IMAGEN_CORPORATIVA_BANNER1.jpg" title="Imagen corporiativa" alt="Imagen corporiativa">
+		      	<img class="d-block w-100" src="resources/images/IMAGEN_CORPORATIVA_BANNER1.jpg" title="Imagen corporiativa" alt="Imagen corporiativa" onclick="window.location.href='<?php echo $url?>imagen-corporativa';">
 		    </div>
 
 		    <div class="carousel-item">
-		      	<img class="d-block w-100" src="resources/images/IMPRESION_BANNER1.jpg" title="Impresion" alt="Impresion">
+		      	<img class="d-block w-100" src="resources/images/IMPRESION_BANNER1.jpg" title="Impresion" alt="Impresion" onclick="window.location.href='<?php echo $url?>impresion';">
 		    </div>
 
 		    <div class="carousel-item">
-		      	<img class="d-block w-100" src="resources/images/REDES_SOCIALES_BANNER2.jpg" title="Redes sociales" alt="Redes sociales">
+		      	<img class="d-block w-100" src="resources/images/REDES_SOCIALES_BANNER2.jpg" title="Redes sociales" alt="Redes sociales" onclick="window.location.href='<?php echo $url?>redes-sociales';">
 		    </div>
 
 	  	</div>
@@ -66,63 +66,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
 </div>
 
-<div class="box-services-2" style="display: none;">
-	<div>
-		<ol>
-			<li>
-				<i class="far fa-images"></i>
-				<img src="./resources/images/ourwork-1.png">
-				<span></span>
-			</li>
-			<li>
-				<i class="far fa-images"></i>
-				<img src="./resources/images/ourwork-1.png">
-				<span></span>
-			</li>
-			<li>
-				<i class="far fa-images"></i>
-				<img src="./resources/images/ourwork-1.png">
-				<span></span>
-			</li>
-			<li>
-				<i class="far fa-images"></i>
-				<img src="./resources/images/ourwork-1.png">
-				<span></span>
-			</li>
-			<li>
-				<i class="far fa-images"></i>
-				<img src="./resources/images/ourwork-1.png">
-				<span></span>
-			</li>
-			<li>
-				<i class="far fa-images"></i>
-				<img src="./resources/images/ourwork-1.png">
-				<span></span>
-			</li>
-			<li>
-				<i class="far fa-images"></i>
-				<img src="./resources/images/ourwork-1.png">
-				<span></span>
-			</li>
-			<li>
-				<i class="far fa-images"></i>
-				<img src="./resources/images/ourwork-1.png">
-				<span></span>
-			</li>
-			<li>
-				<i class="far fa-images"></i>
-				<img src="./resources/images/ourwork-1.png">
-				<span></span>
-			</li>
-		</ol>
-	</div>
-	<div>
-		<h2>
-			NUESTRO<br>TRABAJO
-		</h2>
-	</div>
-</div>
-
 <a id='otros-servicios' href="https://kadcreativos.com/" style="color:#0000;"></a>
 <div class="box-services-3" >
 	<ol>
@@ -139,7 +82,7 @@
 <a id='contacto' href="https://kadcreativos.com/" style="color:#0000;"></a>
 <div class="box-contact">
 	<h2>CONTACTO</h2>
-	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.635902213762!2d-99.22426698459495!3d19.51429444311879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d202ce49f35f17%3A0x9e8e8fb0f79a6dfb!2sCementos%20An%C3%A1huac%2052%2C%2054080%20Vista%20Hermosa%2C%20M%C3%A9x.!5e0!3m2!1ses-419!2smx!4v1673300696831!5m2!1ses-419!2smx" title="@kadcreativos.com" alt="@kadcreativos"	width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.6425419085977!2d-99.22225!3d19.514008999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d202cfcc67a0e5%3A0x4306dce9127e5d46!2sCementos%20An%C3%A1huac%2053c%2C%2054080%20Vista%20Hermosa%2C%20M%C3%A9x.!5e0!3m2!1ses-419!2smx!4v1676049372642!5m2!1ses-419!2smx" title="@kadcreativos.com" alt="@kadcreativos"	width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 	<ol>
 		<li>@kadcreativos</li>
 		<li onclick="window.location.href='tel:5554341397';" >5554341397</li>

@@ -84,6 +84,27 @@
         }
     }
 
+    /**/
+    .breadcrum-content h1{
+        position: absolute;
+        bottom: 10%;
+        left: 5%;
+        font-weight: bold;
+        color: #111;  
+        font-size: 60px!important;  
+    }
+
+    .breadcrum-content h1 > a{
+        color: #111;
+        font-size: 18px;
+    }
+
+    /**/
+    .gallery-wm{
+
+    }
+
+    /**/
     .updown{
         animation-name: moviendrew;
         animation-duration: 0.6s;
@@ -91,8 +112,17 @@
         animation-direction: alternate;  
     }
 
-    #drop-down-wm{
+    /**/
+    #drop-down-wm, #drop-down-wm-2{
         position: relative;
+    }
+
+    #drop-down-wm:hover{
+        background-color: #ffffffc4;
+    }
+
+    #drop-down-wm-2:hover{
+        background-color: #ffffffc4;
     }
 
     #drop-down-wm:hover .drop-down-list{
@@ -101,15 +131,21 @@
         opacity: 1;
     }
 
+    #drop-down-wm-2:hover .drop-down-list{
+        transition: 0.3s; 
+        transform: translateY(0px);
+        opacity: 1;
+    }
+
     .drop-down-list{
         transform: translateY(-300px);
         opacity: 0;
-        width: 150%;
+        width: 250px;
         position: absolute;
         margin: 0;
         padding: 5% 0 5% 0;
         top: 101%;
-        left: -25%;
+        left: 0;
         background: #000;
         list-style: none;
         border-radius: 0 0 3px 3px;
@@ -117,14 +153,16 @@
     }
 
     .drop-down-list > li {
-        padding: 1% 2%;
+        padding: 1% 5%;
         color: #fff;
         letter-spacing: 1px;
+        text-align: left;
     }
 
     .drop-down-list > li:hover {
         transition: 0.3s;
         color: #ecd71d;
+        transform: translateX(10px);
     }
 
 /* CTA */
@@ -370,11 +408,11 @@
 
 /* BOX SERVICES 2 */
     .box-services-2{
-        width: 96%;
-        padding: 0 2%;
+        width: 100%;
+        padding: 2% 5%;
         position: relative;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         flex-wrap: wrap;
         align-items: center;
     }
@@ -394,7 +432,7 @@
     }
 
     .box-services-2 > div > h2{
-        font-size: 20px;
+        font-size: 30px;
         text-align: left;
         font-weight: bold;
         text-shadow: #111 0px 0px;
@@ -402,59 +440,128 @@
         cursor: pointer;
     }
 
-    .box-services-2 > div > h2:hover {
+    .box-services-2 > div > h3{
+        font-size: 25px;
+    }
+
+    .box-services-2 > div > .cta-1{
+        font-size: 30px;
+        text-align: center;
+        font-weight: bold;
+        box-shadow: #111 0px 0px;
         transition: 0.2s;
-        text-shadow: #ffc107 -40px 15px;
-    }
-
-    .box-services-2 > div > ol{
-        width: 100%;
-        margin: 5% 0;
-        padding: 0;
-        display: flex;
-        flex-wrap: wrap;
-        list-style: none;
-        align-content: space-around;
-        justify-content: center;
-    }
-
-    .box-services-2 > div > ol > li{
-        width: 45%;
-        margin: 1%;
-        padding: 0;
         cursor: pointer;
+        border-radius: 3px;
+        border:none;
+        outline: none;
+        background-color: #075E54;
+        color: #fff;
+        padding: 0 2%;
+    }
+
+    .box-services-2 > div > button{
+        font-size: 22px;
+        text-align: center;
+        font-weight: bold;
+        box-shadow: #111 0px 0px;
+        transition: 0.2s;
+        cursor: pointer;
+        border-radius: 3px;
+        border:none;
+        outline: none;
+        background-color: #111;
+        color: #fff;
+        letter-spacing: 1px;
+        padding: 0 2%;
+        margin: 5px 0px;
+    }
+
+    .box-services-2 > div > button:hover{
+        color: #ffc107;
+    }
+
+    .gallery-wm{
         position: relative;
-        border-radius: 3px;
-        transition: 0.3s;
+        margin: 0;
+        padding: 0;
+        height: 500px;
+        width: 500px;
+        text-align: right;
+        list-style: none;
     }
 
-    .box-services-2 > div > ol > li > img{
-        width: 100%;
-        border-radius: 3px;
-    }
-
-    .box-services-2 > div > ol > li > span{
+    .gallery-wm > .img-1, .img-2, .img-3, .img-4{
         position: absolute;
         width: 100%;
-        height: 100%;
-        background-color: #111111ad;
-        border-radius: 3px;
-        z-index: 1;
         left: 0;
-        bottom: 0;
-        transition: 0.3s; 
+        background-position: center;
+        background-size: cover;
+        transition: 0.2s;
+        cursor: pointer;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-end;
     }
 
-    .box-services-2 > div > ol > li:hover span{
-        height: 0%;
+    .gallery-wm > .img-1{
+        height: 25%;
+        top: 0;
     }
 
-    .box-services-2 > div > ol > li:hover i{
-        color: #ffc107;
-        top: 29%;
-        right: 29%;
-        font-size: 100px;
+        .gallery-wm > .img-1:hover {
+            z-index: 5;
+            top: 0;
+            height: 100%;
+        }
+
+    .gallery-wm > .img-2{
+        top: 25%;
+        height: 75%;
+        z-index: 0;
     }
+
+        .gallery-wm > .img-2:hover {
+            z-index: 5;
+            top: 0; 
+            height: 100%;
+        }
+
+    .gallery-wm > .img-3{
+        top:50%;
+        height: 50%;
+        z-index: 2;
+    }
+
+        .gallery-wm > .img-3:hover {
+            z-index: 5;
+            top: 0; 
+            height: 100%;
+        }
+
+    .gallery-wm > .img-4{
+        top:75%;
+        height: 25%;
+        z-index: 3;
+    }
+
+        .gallery-wm > .img-4:hover {
+            z-index: 5;
+            top: 0; 
+            height: 100%;
+        }
+
+
+    .gallery-wm > li > span {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #111;
+        color: #fff;
+        font-weight: bold;
+    }
+
 
 /* BOX SERVICES 3 */
     .box-services-3{
@@ -494,7 +601,7 @@
     .box-services-3 ol > li:hover h2{
         transform: translateY(25px);
         color: #fff;
-        box-shadow: 13px -33px 0px 7px #7f3f98;transform: translateY(25px);
+        box-shadow: 13px -33px 0px 7px #ffc107;transform: translateY(25px);
     }
 
     .box-services-3 ol > .y-mas{
