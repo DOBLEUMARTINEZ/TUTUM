@@ -79,11 +79,14 @@
           <i class="fab fa-twitter-square"></i>
         </li>
       </ol>
+      <button class="cat-start-session" onclick="window.location.href='http://172.16.62.43:8080/TUTUM-HIS/index.zul';">
+        Iniciar sesión
+      </button>
     </li>
   </ol>
 
 	<p class="copyrigt">
-		Copyright © <span>2022</span> <a href="https://sanet.com.mx/" >sanet.com.mx</a>, Todos los derechos reservados.<a href="terminos-y-condiciones">Términos y Condiciones.</a> <a href="aviso-de-privacidad">Aviso de Privacidad</a>.
+		Copyright © <span>2022</span> <a href="https://sanet.com.mx/">sanet.com.mx</a>, Todos los derechos reservados.<a href="terminos-y-condiciones">Términos y Condiciones.</a> <a href="aviso-de-privacidad">Aviso de Privacidad</a>.
 	</p>
 </div>
 

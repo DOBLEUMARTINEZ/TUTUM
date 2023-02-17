@@ -18,8 +18,8 @@
 		//$recapcha = $_POST['recapcha'];
 
 		if ($recapcha == '1') {
-
 			$email_to = "contacto@dobleumartinez.com";
+			//$email_to = "contacto@dolorfinesmeralda.com";
 		    $email_subject = 'Formulario de Pagina Web | DOLORFIN ';
 		    $email_message='';
 
@@ -60,7 +60,7 @@
 		    $email_message .= "Del 1 al 10, ¿qué tan importante es tu salud? ".clean_string($rango2)."\n";
 		    $email_message .= "Comentarios: ".clean_string($mensaje)."\n";
 		             
-		    $headers = "From: ventas@dobleumartinez.com". "\r\n" . "CC: jose.atemiz@tutum.com.mx";
+		    $headers = "From: contacto@dobleumartinez.com". "\r\n" . "CC: jose.atemiz@tutum.com.mx";
 		   
 		    @mail($email_to, utf8_decode($email_subject), utf8_decode($email_message), $headers);
 		    header('location: ./gracias');

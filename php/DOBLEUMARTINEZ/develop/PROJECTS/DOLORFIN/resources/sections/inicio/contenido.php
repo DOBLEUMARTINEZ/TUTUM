@@ -4,16 +4,18 @@
   <div>
     <h1>SOLUCIONA<br> TU DOLOR DE<br> ESPALDA</h1>
     <p>Dolorfin especialista Quiropráctico, <br>Fisioterapeuta y Masajista.</p>
-    <button onclick="window.open('https://api.whatsapp.com/send?phone=5529574690&text=Me%20interesa%20agendar%20una%20cita%20en%20Dolorfin%20Zona%20Esmeralda');">Agenda una cita</button>
+    <button onclick="window.open('https://api.whatsapp.com/send?phone=+525633766324&text=Me%20interesa%20agendar%20una%20cita%20en%20Dolorfin%20Zona%20Esmeralda');">Agenda una cita</button>
   </div>
 
   <span class="mouse-icon" onclick="window.location.href='#dolorfin';">
-  	 <img class="updown" width="100" height="100" src="<?php echo $url; ?>/resources/images/mouse-cursor.png" title="Dolorfin" alt="icono de raton de computadora color azul png">
+  	 <img class="updown" width="100" height="100" src="<?php echo $url; ?>/resources/images/mouse-cursor.webp" title="Dolorfin" alt="icono de raton de computadora color azul png">
   </span>
 
-  <img class="desktop" src="<?php echo $url; ?>/resources/images/banner-1.jpg" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
-  <img class="tablet" src="<?php echo $url; ?>/resources/images/banner-1-tablet.jpg" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
-  <img class="mobile" src="<?php echo $url; ?>/resources/images/banner-1-mobile.jpg" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
+  <img class="desktop" src="<?php echo $url; ?>resources/images/banner-1.webp"  title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
+
+  <img class="tablet" src="<?php echo $url; ?>resources/images/banner-1-tablet.webp" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
+
+  <img class="mobile" src="<?php echo $url; ?>resources/images/banner-1-mobile.webp" width="100" height="auto" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
 </div>
 
 <a id="dolorfin" href="<?php echo $url; ?>" style="color: #0000; outline: none;text-decoration: none;">Dolorfin Zona Esmeralda</a>
@@ -24,21 +26,21 @@
 	</p>
 	<ul>
 		<li onclick="window.location.href='#proceso-dolorfin';">
-			<img width="160" height="160" src="<?php echo $url; ?>/resources/images/Quiropractica.png" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
+			<img width="160" height="160" src="<?php echo $url; ?>resources/images/Quiropractica.png" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
 		    <h3>Quiropráctica</h3>
 		</li>
 		<li onclick="window.location.href='#proceso-dolorfin';">
-			<img width="160" height="160" src="<?php echo $url; ?>/resources/images/Fisioterapia.png" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
+			<img width="160" height="160" src="<?php echo $url; ?>resources/images/Fisioterapia.png" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
 		    <h3>Fisioterapia</h3>
 		</li>
 		<li onclick="window.location.href='#proceso-dolorfin';">
-			<img width="160" height="160" src="<?php echo $url; ?>/resources/images/Masaje-Terapeutico.png" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
+			<img width="160" height="160" src="<?php echo $url; ?>resources/images/Masaje-Terapeutico.png" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
 		    <h3>Masaje Terapéutico</h3>
 		</li>
 	</ul>
 	<div>
 		<h2>Dale una segunda oportunidad a tu cuerpo</h2>
-		<button onclick="window.open('https://api.whatsapp.com/send?phone=5529574690&text=Me%20interesa%20agendar%20una%20cita%20en%20Dolorfin%20Zona%20Esmeralda');">AGENDA UNA CITA Y DALE FIN AL <span>DOLOR</span></button>
+		<button onclick="window.open('https://api.whatsapp.com/send?phone=+525633766324&text=Me%20interesa%20agendar%20una%20cita%20en%20Dolorfin%20Zona%20Esmeralda');">AGENDA UNA CITA Y DALE FIN AL <span>DOLOR</span></button>
 	</div>
 </div>
 
@@ -58,14 +60,15 @@
 		</li>
 		<li>
 			<ul>
-				<li class="porcent-100">
-					<img src="<?php echo $url; ?>/resources/images/dolorfin-2.jpg" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
+				<li class="porcent-100 txt-center">
+					<img src="<?php echo $url; ?>resources/images/dolorfin-2.webp" width="600px" height="262px" class="desktop" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
+					<img src="<?php echo $url; ?>resources/images/dolorfin-2-mobile.webp" width="335px" height="147px" class="mobile" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
 				</li>
-				<li class="porcent-50">
-					<img src="<?php echo $url; ?>/resources/images/dolorfin-4.jpg" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
+				<li class="porcent-50 txt-rigth" >
+					<img src="<?php echo $url; ?>resources/images/dolorfin-4.webp" width="290px" height="193px" class="" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
 				</li>
-				<li class="porcent-50">
-					<img src="<?php echo $url; ?>/resources/images/dolorfin-3.jpg" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
+				<li class="porcent-50 txt-left">
+					<img src="<?php echo $url; ?>resources/images/dolorfin-3.webp" width="290px" height="193px" title="Dolorfin" alt="Expertos en eliminar el dolor de espalda, cabeza y más">
 				</li>
 			</ul>
 		</li>
@@ -74,7 +77,7 @@
 
 <div class="bloque-3">
 	<h2>Nos encargaremos de diseñar un tratamiento <br>adecuado para la salud de tu espalda</h2>
-	<button onclick="window.open('https://api.whatsapp.com/send?phone=5529574690&text=Me%20interesa%20agendar%20una%20cita%20en%20Dolorfin%20Zona%20Esmeralda');">Agenda tu cita via WhatsApp</button>
+	<button onclick="window.open('https://api.whatsapp.com/send?phone=+525633766324&text=Me%20interesa%20agendar%20una%20cita%20en%20Dolorfin%20Zona%20Esmeralda');">Agenda tu cita via WhatsApp</button>
 </div>
 
 <div class="bloque-1">
@@ -166,7 +169,8 @@
 				<button class="g-recaptcha" 
 					data-sitekey="6LfextAjAAAAABCxA7r7NyM-cReBY9oU-JpOphn0" 
 					data-callback='onSubmit' 
-					data-action='submit'>reCaptcha
+					data-action='submit'
+					style="opacity: 0">reCaptcha
 				</button>
 			  <button type="submit" name="action" value="form">
 			  	Enviar

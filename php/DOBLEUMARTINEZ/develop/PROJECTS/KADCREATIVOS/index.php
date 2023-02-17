@@ -24,31 +24,47 @@ echo '<body>'; // INICIO CUERPO
 
     switch ($_GET['seccion']) {
       case 'impresion':
-        include("resources/sections/inicio/impresion.php");
+        include("resources/sections/otros-servicios/impresion.php");
         break;
 
       case 'stickers':
-        include("resources/sections/inicio/stickers.php");
+        include("resources/sections/otros-servicios/stickers.php");
         break;
 
       case 'banners':
-        include("resources/sections/inicio/banners.php");
+        include("resources/sections/otros-servicios/banners.php");
         break;
 
       case 'cuadros':
-        include("resources/sections/inicio/cuadros.php");
+        include("resources/sections/otros-servicios/cuadros.php");
         break;
 
       case 'tarjetas':
-        include("resources/sections/inicio/tarjetas.php");
+        include("resources/sections/otros-servicios/tarjetas.php");
         break;
 
       case 'promocionales':
-        include("resources/sections/inicio/promocionales.php");
+        include("resources/sections/otros-servicios/promocionales.php");
         break;
 
-      case 'otros':
-        include("resources/sections/inicio/promocionales.php");
+      case 'impresion-digital':
+        include("resources/sections/servicios/impresion-digital.php");
+        break;
+
+      case 'contenido-web':
+        include("resources/sections/servicios/contenido-web.php");
+        break;
+
+      case 'foto-y-video':
+        include("resources/sections/servicios/foto-y-video.php");
+        break;
+
+      case 'imagen-corporativa':
+        include("resources/sections/servicios/imagen-corporativa.php");
+        break;
+
+      case 'redes-sociales':
+        include("resources/sections/servicios/redes-sociales.php");
         break;
       
       default:

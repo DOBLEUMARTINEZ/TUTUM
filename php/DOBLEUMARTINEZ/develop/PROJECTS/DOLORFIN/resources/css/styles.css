@@ -89,6 +89,18 @@
         animation-iteration-count: infinite;
         animation-direction: alternate;  
     }
+    
+    .txt-center{
+        text-align: center;
+    }
+
+    .txt-rigth{
+        text-align: right;
+    }
+
+    .txt-left{
+        text-align: left;
+    }
 
 /* CTA */
 
@@ -167,11 +179,11 @@
 	}
 
 	.nav-bar > ul > .cta-nav {
-		background: #ecd71d;
-    	color: #111;
-    	font-family: 'Poppins', sans-serif!important;
+	    background: #075E54;
+        color: #fff;
+        font-family: 'Poppins', sans-serif!important;
         font-weight: bold;
-        font-size: 24px;
+        font-size: 24px; 
 	}
 
     .nav-bar > ul > .cta-nav:hover {
@@ -395,7 +407,7 @@
     }
 
     .bloque-2 > ul > li > ul > li > img {
-        width: 100%;
+        
         border-radius: 10px;
     }
 
@@ -455,7 +467,7 @@
     }
 
     .img-uno {
-      background-image: url("../images/parallax-com.jpg");
+      background-image: url("../images/parallax-com.webp");
     }
 
 /* BLOQUE 5 */ 
@@ -783,6 +795,19 @@
 }
 
 @media(max-width: 425px){
+    
+    /* FX */
+     .txt-center{
+        text-align: center;
+    }
+
+    .txt-rigth{
+        text-align: center;
+    }
+
+    .txt-left{
+        text-align: center;
+    }
 
     /* NAV */
         .nav-bar > ul{
@@ -834,6 +859,10 @@
     /* BLOQUE 2  */
         .bloque-2 > ul > li > ol > li {
             width: 80%;
+        }
+        
+        .bloque-2 > ul > li > ul > .porcent-50 {
+            width: 100%;
         }
 
     /* BLOQUE 4  */

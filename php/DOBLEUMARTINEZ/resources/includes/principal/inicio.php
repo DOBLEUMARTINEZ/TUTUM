@@ -3,24 +3,13 @@
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-
 <div class="slider">
 	
-	<!--<h1 class="ml11">
-		  <span class="text-wrapper">
-		    <span class="line line1"></span>
-		    <span class="letters">Hello Goodbye</span>
-		  </span>
-		</h1>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-		<script src="./js/js.js"></script>-->
-	
-
 	<!-- CONTENT BANNER  -->
 	<div>
-		<h1>Te ayudamos con la mejor Estrategia de Marketing Digital</h1><br>
-		<p>Diseñamos poderosas Estrategias de Marketing Digital <br>que resalten la identidad de tu empresa o negocio.</p><br>
-		<button onclick="modalInfo('Formulario')" >Empezar ahora <i class="fas fa-angle-double-right"></i></button>
+		<h1>DESARROLLO WEB</h1><br>
+		<p>Desarrollo de Proyectos Web Atractivos, Rápidos,<br> Funcionales, Modernos y cumpliendo con las <br>mejores prácticas del mercado.</p><br>
+		<button>contactar <i class="fas fa-angle-double-right"></i></button>
 	</div>
 
 	<!-- IMG - BANNER  -->
@@ -28,17 +17,29 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<img src="resources/images/banners/banner-4.jpg" class="desktop">
 	<img src="resources/images/banners/banner-4-tablet.jpg" class="tablet">
 	<img src="resources/images/banners/banner-4-mobil.jpg" class="mobil">
+
 </div>
 
 <section class="section">
 
 	<div class="content-01">
 		<div>
-			<h2><span>| </span>DEMARKETING DIGITAL</h2>
+			<h2><span>| </span>DOBLEU MARTINEZ</h2>
 			<p class="p-black">
-				Nos encargamos de Diseñar, Desarrollar y Gestionar poderosas Estrategias Digitales coordinadas por expertos, con el fin de cumplir los objetivos de tu empresa o negocio.
+				Jose Martinez egresado de la carrera de tecnologías de la información y certificado en algunas otras áreas del desarrollo web, adquiriendo años de experiencia en la gestión de sistemas y desarrollo de proyectos web.<br><br>
+
+				Capaz de adaptarme a las diferentes tendencias que la tecnología actual, incorporando estrategias especializadas a las areas para las que he trabajado.
 			</p>
-			<p>Trabajamos estrictamente con funciones especiales, integraciones, forms, procesos o conexiones especializadas con otras tecnologías.</p>
+			<ol>
+				<li>Diseño web</li>
+				<li>Desarrollo web</li>
+				<li>Gestión de proyectos</li>
+				<li>SEO</li>
+				<li>Copyriht Digital</li>
+				<li>Google Analitycs</li>
+				<li>Goggle Seach Console</li>
+				<li>Goggle Ads</li>
+			</ol>
 		</div>
 		<div>
 			<img src="resources/images/4169292.jpg" title="DOBLEU MARTINEZ - Desarrollo Web" alt="DOBLEU MARTINEZ - Desarrollo Web" loading="lazy">
