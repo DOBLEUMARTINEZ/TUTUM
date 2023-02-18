@@ -30,7 +30,7 @@
         gtag('config', 'UA-187877163-1');
     </script>
     
- <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-2SVY5SCEG4"></script>
     <script>
      window.dataLayer = window.dataLayer || [];
@@ -39,6 +39,36 @@
 
      gtag('config', 'G-2SVY5SCEG4');
     </script>
+
+
+  <!-- cookies -->
+    <link rel="stylesheet" href="<?php echo $url;?>js/pdcc.min.css">
+    <script charset="utf-8" src="<?php echo $url;?>js/pdcc.min.js"></script>
+    <script type="text/javascript">
+      PDCookieConsent.config({
+      "defaultLang" : "es",
+      "brand": {
+      "dev" : false,
+      "name": "TUTUM TECH",
+      "url" : "https://www.tutum.com.mx/",
+      "websiteOwner" : "TUTUM S. A. de C. V"
+      },
+      "cookiePolicyLink": "https://www.tutum.com.mx/aviso-de-privacidad",
+      "hideModalIn": ["https://www.tutum.com.mx/aviso-de-privacidad"],
+      "styles": {
+      "primaryButton": {
+      "bgColor" : "#111",
+      "txtColor": "#fff"
+      },
+      "secondaryButton": {
+      "bgColor" : "#EEEEEE",
+      "txtColor": "#333333"
+      }
+      }
+      });
+    </script>
+
+
 
   
 </head>
