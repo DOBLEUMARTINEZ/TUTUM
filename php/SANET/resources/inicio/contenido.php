@@ -103,7 +103,7 @@
       <p>
         El sistema hospitalario <span>sanet</span> está orientado a la seguridad de la información y del paciente. Comunicación modular y flexible para adaptarse a las necesidades de cada hospital.<br><br>Gestiona todos los procesos clínicos, administrativos, financieros y gerenciales de tu hospital en un solo sistema, y cuenta con toda la información en tiempo real, con trazabilidad completa de la atención en los servicios.
       </p>
-      <button onclick="window.location.href='./contacto';" >Solicita una reunión</button>
+      <button class="cta-go-contact" onclick="window.location.href='./contacto';" >Solicita una reunión</button>
     </div>
     <div>
       <img src="images/img/inicio-2.jpg" class="desktop-3" title="Sanet dipositivos moviles" alt="Enfermera sosteniendo una tablet de un sistema hospitalario">
@@ -136,7 +136,7 @@
   <div class="bloque-4">
     <div>
       <h2>Mejora la atención de tus pacientes y resguarda de manera segura toda su información.</h2>
-      <button onclick="window.location.href='contacto';" >¡Quiero una propuesta!</button>
+      <button class="cta-go-contact" onclick="window.location.href='contacto';" >¡Quiero una propuesta!</button>
     </div>
   </div>
 
