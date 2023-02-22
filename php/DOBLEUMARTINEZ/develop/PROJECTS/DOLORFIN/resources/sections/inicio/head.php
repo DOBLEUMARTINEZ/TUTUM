@@ -47,5 +47,30 @@
     gtag('config', 'G-NDH57KDJ3H');
   </script>
   
-  
+  <!-- cookies -->
+    <link rel="stylesheet" href="<?php echo $url;?>resources/js/pdcc.min.css">
+    <script charset="utf-8" src="<?php echo $url;?>resources/js/pdcc.min.js"></script>
+    <script type="text/javascript">
+      PDCookieConsent.config({
+      "defaultLang" : "es",
+      "brand": {
+      "dev" : false,
+      "name": "Dolorfin Zona Esmeralda",
+      "url" : "https://dolorfinesmeralda.com/",
+      "websiteOwner" : "Dolorfin Zona Esmeralda"
+      },
+      "cookiePolicyLink": "https://dolorfinesmeralda.com/aviso-de-privacidad",
+      "hideModalIn": ["https://dolorfinesmeralda.com/aviso-de-privacidad"],
+      "styles": {
+      "primaryButton": {
+      "bgColor" : "#111",
+      "txtColor": "#fff"
+      },
+      "secondaryButton": {
+      "bgColor" : "#EEEEEE",
+      "txtColor": "#333333"
+      }
+      }
+      });
+    </script>
 </head>

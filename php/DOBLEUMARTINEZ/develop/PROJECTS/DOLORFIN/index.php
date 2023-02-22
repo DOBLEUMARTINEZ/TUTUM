@@ -24,8 +24,25 @@ echo '<body>'; // INICIO CUERPO
 
   // CONTENIDO
   if (isset($_GET['seccion'])) {
-      // GRACIAS
-      include("resources/sections/inicio/gracias.php");
+
+      switch ($_GET['seccion']) {
+        case 'gracias':
+          // GRACIAS
+          include("resources/sections/inicio/gracias.php");
+          break;
+
+        case 'aviso-de-privacidad':
+            // GRACIAS
+            include("resources/sections/inicio/aviso-de-privacidad.php");
+            break;
+        
+        default:
+          // CONTENIDO
+          include("resources/sections/inicio/contenido.php");
+          break;
+      }
+
+      
 
   }else{
     // CONTENIDO
