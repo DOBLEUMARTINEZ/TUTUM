@@ -30,9 +30,15 @@
 <div class="box-services-2" >
 	<div>
 		<h2>
-			Personalizamos e imprimimos sobre vinil, con o sin suaje, color solido o transparente.
+			¿Requieres de tarjetas, flyers, banners, lonas y todo lo que tenga que ver con impresión?<br><br>Contamos con el servicio de:
 		</h2>
-		<button class="cta-1">Contactanos via Whatsapp</button>
+		<ul>
+			<li>Impresión digital en tela, papel o lona.</li>
+			<li>Impresión para banners publicitarios.</li>
+			<li>Impresión de serigrafía, vinil, vinil textil, DTF, bordado.</li>
+			<li>Y muchos servicios más.</li>
+		</ul>
+		<button class="cta-1">Cotiza ahora</button>
 		<hr>
 		<h3>Otros servicios de @kadcreativos que pueden interesarte:</h3>
 		<button onclick="window.location.href='<?php echo $url?>contenido-web';">Contenido web</button><br>

@@ -30,9 +30,17 @@
 <div class="box-services-2" >
 	<div>
 		<h2>
-			Personalizamos e imprimimos sobre vinil, con o sin suaje, color solido o transparente.
+			Podemos crear la fotografía y video perfecto para tu marca o producto.<br><br>
+			Te ofrecemos:
 		</h2>
-		<button class="cta-1">Contactanos via Whatsapp</button>
+		<ul>
+			<li>Moodboard de inspiración.</li>
+			<li>Paleta de colores a seguir.</li>
+			<li>Sesión fotográfica o de video.</li>
+			<li>Edición y retoque.</li>
+			<li>Entrega digital.</li>
+		</ul>
+		<button class="cta-1">Cotiza ahora</button>
 		<hr>
 		<h3>Otros servicios de @kadcreativos que pueden interesarte:</h3>
 		<button onclick="window.location.href='<?php echo $url?>contenido-web';">Contenido web</button><br>
