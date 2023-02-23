@@ -30,9 +30,19 @@
 <div class="box-services-2" >
 	<div>
 		<h2>
-			Personalizamos e imprimimos sobre vinil, con o sin suaje, color solido o transparente.
+			Branding y estrategia de marca,<br>
+			¿Tu identidad actual no te gusta o quieres crear algo desde cero?,<br><br> nosotros te ofrecemos:
 		</h2>
-		<button class="cta-1">Contactanos via Whatsapp</button>
+		<ul>
+			<li>Naming</li>
+			<li>Estrategia de marca</li>
+			<li>Diseño de logotipo y variables</li>
+			<li>Paleta de colores y tipogrsfía</li>
+			<li>Diseño de papelería digital e impresa</li>
+			<li>Diseño de social media kit</li>
+			<li>Manual de identidad</li>
+		</ul>
+		<button class="cta-1">Cotiza ahora</button>
 		<hr>
 		<h3>Otros servicios de @kadcreativos que pueden interesarte:</h3>
 		<button onclick="window.location.href='<?php echo $url?>contenido-web';">Contenido web</button><br>

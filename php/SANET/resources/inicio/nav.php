@@ -46,7 +46,7 @@
         </li>
 
         <li style="border-top: 4px solid #0000!important; padding: 0%;">
-          <button onclick="window.location.href='https://api.whatsapp.com/send?phone=525579285696&text=Estoy%20interesado%20en%20conocer%20mas%20sobre%20sanet';" ><i class="fab fa-whatsapp" ></i> Whatsapp</button>
+          <button class="cta-whatsapp" onclick="window.open('https://api.whatsapp.com/send?phone=525579285696&text=Estoy%20interesado%20en%20conocer%20mas%20sobre%20sanet');" ><i class="fab fa-whatsapp" ></i> Whatsapp</button>
         </li>
 
       </ul>

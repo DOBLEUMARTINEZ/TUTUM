@@ -21,7 +21,7 @@
   <!--jquery-->
   <script src="js/jquery.min.js"></script> 
 
-  <!-- Google tag (gtag.js) 
+  <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-30ZFQMQZJR"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -29,15 +29,41 @@
     gtag('js', new Date());
   
     gtag('config', 'G-30ZFQMQZJR');
-  </script>-->
+  </script>
 
-  <!-- Google Tag Manager 
+  <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-PWNN66M');</script>-->
+    })(window,document,'script','dataLayer','GTM-PWNN66M');</script>
   <!-- End Google Tag Manager -->
   
+  <!-- cookies -->
+    <link rel="stylesheet" href="<?php echo $url;?>/css/pdcc.min.css">
+    <script charset="utf-8" src="<?php echo $url;?>/js/pdcc.min.js"></script>
+    <script type="text/javascript">
+      PDCookieConsent.config({
+      "defaultLang" : "es",
+      "brand": {
+      "dev" : false,
+      "name": "SANET",
+      "url" : "https://www.sanet.com.mx/",
+      "websiteOwner" : "SANET S.A. de C.V."
+      },
+      "cookiePolicyLink": "https://www.sanet.com.mx/aviso-de-privacidad",
+      "hideModalIn": ["https://www.sanet.com.mx/aviso-de-privacidad"],
+      "styles": {
+      "primaryButton": {
+      "bgColor" : "#111",
+      "txtColor": "#fff"
+      },
+      "secondaryButton": {
+      "bgColor" : "#EEEEEE",
+      "txtColor": "#333333"
+      }
+      }
+      });
+    </script>
   
 </head>

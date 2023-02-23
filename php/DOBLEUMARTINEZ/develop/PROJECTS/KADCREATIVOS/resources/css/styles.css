@@ -418,13 +418,13 @@
     }
 
     .box-services-2::after{
-        width: 250px;
-        content: url(../images/logo-2.png);
-        height: 250px;
+        width: 150px;
+        content: url(../images/logo-3.png);
+        height: 150px;
         position: absolute;
         z-index: 9;
-        top: -15%;
-        right: 0%;
+        top: -30%;
+        right: 3%;
     }
 
     .box-services-2 > div {
@@ -625,14 +625,13 @@
     }
 
     .box-services-3::after {
-        width: 250px;
-        content: url(../images/logo-2.png);
-        height: 250px;
+        width: 150px;
+        content: url(../images/logo-3.png);
+        height: 150px;
         position: absolute;
         z-index: 9;
-        bottom: -22%;
+        bottom: -7%;
         left: 1%;
-        transform: rotate(239deg);
     }
 
 /* CONTACTO */

@@ -28,9 +28,18 @@
 <div class="box-services-2" >
 	<div>
 		<h2>
-			Personalizamos e imprimimos sobre vinil, con o sin suaje, color solido o transparente.
+			¿No sabes que publicar en tus redes o simplemente no tienes tiempo para hacerlo?<br><br>
+			Nosotros te ayudamos con:
 		</h2>
-		<button class="cta-1">Contactanos via Whatsapp</button>
+		<ul>
+			<li>Diseño de post, reels e historias.</li>
+			<li>Calendario de publicaciónes.</li>
+			<li>Fotografia y video.</li>
+			<li>Programación de contenido.</li>
+			<li>Estrategia de marketing mensual.</li>
+			<li>Estrategia personalizada.</li>
+		</ul>
+		<button class="cta-1">Cotiza ahora</button>
 		<hr>
 		<h3>Otros servicios de @kadcreativos que pueden interesarte:</h3>
 		<button onclick="window.location.href='<?php echo $url?>contenido-web';">Contenido web</button><br>
