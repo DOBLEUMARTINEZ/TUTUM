@@ -165,6 +165,25 @@
      opacity: 1;
   }
 
+  .jm-block-services-2{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: flex-start;
+    padding: 1% 1%;
+    margin: 0px 0px 5px 0px;
+    border-left: 5px solid #1ea5e8;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+
+  .jm-block-services-2:hover{
+      box-shadow: -2px 0px 10px 4px #11111169;
+      transform: translateX(-20px);
+  }
+
 /********************/
 
 
