@@ -27,19 +27,20 @@
 
 </div>
 
+<div class="box-services-2">
+	<h2>
+		Personalizamos e imprimimos sobre vinil, con o sin suaje, color solido o transparente.
+	</h2>
+</div>
+
 <div class="box-services-2" >
 	<div>
-		<h2>
-			Personalizamos e imprimimos sobre vinil, con o sin suaje, color solido o transparente.
-		</h2>
+		<h3>Paquetes Wordpress</h3>
+		<ul>
+			<li>fdgdf</li>
+			<li>fdgdf</li>
+		</ul>
 		<button class="cta-1">Contactanos via Whatsapp</button>
-		<hr>
-		<h3>Otros servicios de @kadcreativos que pueden interesarte:</h3>
-		<button onclick="window.location.href='<?php echo $url?>contenido-web';">Contenido web</button><br>
-        <button onclick="window.location.href='<?php echo $url?>foto-y-video';">Foto y video</button><br>
-        <button onclick="window.location.href='<?php echo $url?>imagen-corporativa';">Imagen corporativa</button><br>
-        <button onclick="window.location.href='<?php echo $url?>impresion-digital';">Impresión digital</button><br>
-        <button onclick="window.location.href='<?php echo $url?>redes-sociales';">Redes sociales</button><br>
 	</div>
 	<div style="display: flex;justify-content: center;">
 		<ol class="gallery-wm">
@@ -48,5 +49,18 @@
 			<li class="img-3" style="background-image: url('./resources/images/stickers-3.jpg');"><span>3</span></li>
 			<li class="img-4" style="background-image: url('./resources/images/stickers-4.jpg');"><span>4</span></li>
 		</ol>
+	</div>
+</div>
+
+<hr>
+
+<div class="box-services-2" >
+	<div>
+		<h3>Otros servicios de @kadcreativos que pueden interesarte:</h3>
+		<button onclick="window.location.href='<?php echo $url?>contenido-web';">Contenido web</button><br>
+        <button onclick="window.location.href='<?php echo $url?>foto-y-video';">Foto y video</button><br>
+        <button onclick="window.location.href='<?php echo $url?>imagen-corporativa';">Imagen corporativa</button><br>
+        <button onclick="window.location.href='<?php echo $url?>impresion-digital';">Impresión digital</button><br>
+        <button onclick="window.location.href='<?php echo $url?>redes-sociales';">Redes sociales</button><br>
 	</div>
 </div>

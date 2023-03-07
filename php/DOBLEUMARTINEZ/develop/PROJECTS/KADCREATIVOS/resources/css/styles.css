@@ -15,7 +15,7 @@
         padding: 0;
         margin: 0;
         font-family: 'Poppins', sans-serif!important;
-        background-image: url(../images/texture.png);
+        background-image: url(../images/texture-2.jpg);
         background-size: 100%;
     }   
 
@@ -409,7 +409,7 @@
 /* BOX SERVICES 2 */
     .box-services-2{
         width: 100%;
-        padding: 2% 5%;
+        padding: 2% 15%;
         position: relative;
         display: flex;
         justify-content: space-between;
@@ -431,13 +431,14 @@
         width: 50%;
     }
 
-    .box-services-2 > div > h2{
+    .box-services-2 > h2{
         font-size: 30px;
         text-align: left;
         font-weight: bold;
         text-shadow: #111 0px 0px;
         transition: 0.2s;
         cursor: pointer;
+        width: 100%;
     }
 
     .box-services-2 > div > h3{
