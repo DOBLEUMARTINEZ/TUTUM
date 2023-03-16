@@ -563,6 +563,64 @@
         font-weight: bold;
     }
 
+/* BOX SERVICES SECOND */
+    .box-services-second{
+        width: 100%;
+        padding: 2% 15%;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .box-services-second > h2{
+        font-size: 40px;
+        font-weight: bold;
+        margin: 5% 0 5% 0;
+        width: 100%;
+        position: relative;
+    }
+
+    .box-services-second > h2::before{
+        width: 250px;
+        height: 7px;
+        color: #0000;
+        content: '-';
+        position: absolute;
+        z-index: 9;
+        bottom: -50%;
+        left: 0%;
+        background-color: #ffc107;
+    }
+
+    .box-services-second > div{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .box-services-second > div > div{
+        width: 50%;
+    }
+
+    .box-services-second > div > div > h3{
+        font-size: 30px;
+        font-weight: bold;
+        width: 100%;
+    }
+
+    .box-services-second > div > div > ol {
+        width: 100%;
+        margin: 0%;
+        padding: 0% 0% 0% 5%;
+        list-style: none;
+    }
+
+    .box-services-second > div > div > ol > li {
+        
+    }
+
 
 /* BOX SERVICES 3 */
     .box-services-3{
