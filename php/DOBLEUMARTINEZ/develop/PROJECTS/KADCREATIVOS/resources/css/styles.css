@@ -618,9 +618,44 @@
     }
 
     .box-services-second > div > div > ol > li {
-        
+        margin-bottom: 10px;
+        position: relative;
     }
 
+    .box-services-second > div > div > ol > li::after {
+        content: '.';
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 10px;
+        height: 10px;
+        background-color: #111;
+        left: -20px;
+        top: 8px;
+        border-radius: 50px;
+    }
+
+    .box-services-second > div > div > button{
+        font-size: 18px;
+        text-align: center;
+        font-weight: bold;
+        box-shadow: #111 -1px 1px 8px -2px;
+        transition: 0.2s;
+        cursor: pointer;
+        border-radius: 3px;
+        border: none;
+        outline: none;
+        background-color: #075E54;
+        color: #fff;
+        padding: 1% 2%;
+        margin-top: 5px;
+    }
+
+    .box-services-second > div > div > div{
+        width: 60%;
+        margin-left: 20%; 
+    }
 
 /* BOX SERVICES 3 */
     .box-services-3{

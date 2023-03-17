@@ -31,14 +31,15 @@
 	</h2>
 	<div>
 		<div>
-			<h3>Paquetes Wordpress</h3>
+			<h3>PAQUETES WEB HTML</h3>
+			<p>Estos paquetes son diseñados y programados desde cero. 100% Personalizados (No plantillas)</p>
 			<ol>
 				<li>Fácil gestión</li>
 				<li>Aún sin experiencia en código, podrás editar fácilmente imágenes o textos</li>
 				<li>Uso de plantillas</li>
 				<li>Se pueden integrar plugins gratuitos o de pago para mejorar la funcionalidad del sitio</li>
 			</ol>
-			<button class="cta-1">Contactanos via Whatsapp</button>
+			<button>Ver más</button>
 		</div>
 		<div>
 			<div id="carouselExampleControls-2" class="carousel slide" data-ride="carousel">
@@ -77,26 +78,6 @@
 		</div>
 	</div>
 </div>
-
-<!-- CONTENIDO WEB 
-<div class="box-services-2" >
-	<div>
-		<h3>Paquetes Wordpress</h3>
-		<ul>
-			<li>fdgdf</li>
-			<li>fdgdf</li>
-		</ul>
-		
-	</div>
-	<div style="display: flex;justify-content: center;">
-		<ol class="gallery-wm">
-			<li class="img-1" style="background-image: url('./resources/images/stickers-1.jpg');"><span>1</span></li>
-			<li class="img-2" style="background-image: url('./resources/images/stickers-2.jpg');"><span>2</span></li>
-			<li class="img-3" style="background-image: url('./resources/images/stickers-3.jpg');"><span>3</span></li>
-			<li class="img-4" style="background-image: url('./resources/images/stickers-4.jpg');"><span>4</span></li>
-		</ol>
-	</div>
-</div>-->
 
 <hr>
 
