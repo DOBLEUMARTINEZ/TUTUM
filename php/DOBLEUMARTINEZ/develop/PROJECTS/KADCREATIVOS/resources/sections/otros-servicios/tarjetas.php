@@ -1,55 +1,89 @@
+<!-- Bootstrap core CSS -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
 <div class="box-slider">
-
-    <!-- Bootstrap core CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
-
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="box-shadow: 0px 0px 10px 2px #7f3f98ab;">
-
 	  	<div class="carousel-inner">
-
 		    <div class="carousel-item active breadcrum-content">
 		      	<img class="d-block w-100" src="resources/images/banner-seccion.jpg" title="Impresion" alt="Impresion">
 		      	<h1>
-		      		Tarjetas <br>
+		      		Tarjetas de presentación<br>
 		      		<a href="<?php echo $url;?>">inicio > </a>
 		      		<a href="<?php echo $url;?>#otros-servicios">otros servicios > </a>
 		      		<a href="<?php echo $url;?>tarjetas">tarjetas</a> 
 		      	</h1>
 		    </div>
-
 	  	</div>
-
 	</div>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
-
 </div>
+
+<!-- BOX SERVICES -->
+<div class="box-services-second">
+	<h2>
+		Diseñamos y creamos tus tarjetas
+	</h2>
+	<div>
+		<div>
+			<h3>Nosotros te ofrecemos:</h3>
+			<ol>
+				<li>Formato digital</li>
+				<li>Impresas</li>
+			</ol>
+			<button>Ver más</button>
+		</div>
+		<div class="slide-center-jm">
+			<div id="carouselExampleControls-2" class="carousel slide" data-ride="carousel">
+
+			  	<div class="carousel-inner">
+
+				    <div class="carousel-item active">
+				      	<img class="d-block w-100" src="./resources/images/tarjetas-1.jpg" title="Contenido web" alt="Contenido web" onclick="window.location.href='<?php echo $url?>contenido-web';">
+				    </div>
+
+				    <div class="carousel-item">
+				      	<img class="d-block w-100" src="./resources/images/tarjetas-2.jpg" title="Foto y video" alt="Foto y video" onclick="window.location.href='<?php echo $url?>foto-y-video';">
+				    </div>
+
+				    <div class="carousel-item">
+				      	<img class="d-block w-100" src="./resources/images/tarjetas-3.jpg" title="Foto y video" alt="Foto y video" onclick="window.location.href='<?php echo $url?>foto-y-video';">
+				    </div>
+
+				    <div class="carousel-item">
+				      	<img class="d-block w-100" src="./resources/images/tarjetas-4.jpg" title="Foto y video" alt="Foto y video" onclick="window.location.href='<?php echo $url?>foto-y-video';">
+				    </div>
+
+			  	</div>
+
+			  	<a class="carousel-control-prev" href="#carouselExampleControls-2" role="button" data-slide="prev">
+			    	<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    	<span class="sr-only">Previous</span>
+			  	</a>
+
+			  	<a class="carousel-control-next" href="#carouselExampleControls-2" role="button" data-slide="next">
+			    	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    	<span class="sr-only">Next</span>
+			  	</a>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<hr>
 
 <div class="box-services-2" >
 	<div>
-		<h2>
-			Diseñamos y creamos tus tarjetas de presentación , en formato digital o impresas.
-		</h2>
-		<button class="cta-1">Contactanos via Whatsapp</button>
-		<hr>
 		<h3>Otros servicios de @kadcreativos que pueden interesarte:</h3>
-		<button onclick="window.location.href='<?php echo $url?>impresion';" >Impresión</button><br>
-        <button onclick="window.location.href='<?php echo $url?>stickers';" >Stickers</button><br>
-        <button onclick="window.location.href='<?php echo $url?>banners';" >Banners</button><br>
-        <button onclick="window.location.href='<?php echo $url?>cuadros';" >Cuadros</button><br>
-        <button onclick="window.location.href='<?php echo $url?>tarjetas';" >Tarjetas</button><br>
-        <button onclick="window.location.href='<?php echo $url?>promocionales';" >Promocinales</button>
-	</div>
-	<div style="display: flex;justify-content: center;">
-		<ol class="gallery-wm">
-			<li class="img-1" style="background-image: url('./resources/images/tarjetas-1.jpg');"><span>1</span></li>
-			<li class="img-2" style="background-image: url('./resources/images/tarjetas-2.jpg');"><span>2</span></li>
-			<li class="img-3" style="background-image: url('./resources/images/tarjetas-3.jpg');"><span>3</span></li>
-			<li class="img-4" style="background-image: url('./resources/images/tarjetas-4.jpg');"><span>3</span></li>
-		</ol>
+		<button onclick="window.location.href='<?php echo $url?>contenido-web';">Contenido web</button><br>
+        <button onclick="window.location.href='<?php echo $url?>foto-y-video';">Foto y video</button><br>
+        <button onclick="window.location.href='<?php echo $url?>imagen-corporativa';">Imagen corporativa</button><br>
+        <button onclick="window.location.href='<?php echo $url?>impresion-digital';">Impresión digital</button><br>
+        <button onclick="window.location.href='<?php echo $url?>redes-sociales';">Redes sociales</button><br>
 	</div>
 </div>
+
+<!-- Bootstrap core JavaScript -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
 
 
 
