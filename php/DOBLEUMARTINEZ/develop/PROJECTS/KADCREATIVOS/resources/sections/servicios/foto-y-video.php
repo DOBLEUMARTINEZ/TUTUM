@@ -18,6 +18,7 @@
 	</div>
 </div>
 
+<!-- BOX SERVICES -->
 <div class="box-services-second">
 	<h2>
 		Podemos crear la fotografía y video perfecto para tu marca o producto
@@ -34,7 +35,7 @@
 			</ol>
 			<button>Ver más</button>
 		</div>
-		<div>
+		<div class="slide-center-jm">
 			<div id="carouselExampleControls-2" class="carousel slide" data-ride="carousel">
 
 			  	<div class="carousel-inner">

@@ -41,7 +41,7 @@
 			</ol>
 			<button>Ver más</button>
 		</div>
-		<div>
+		<div class="slide-center-jm">
 			<div id="carouselExampleControls-2" class="carousel slide" data-ride="carousel">
 
 			  	<div class="carousel-inner">

@@ -604,6 +604,11 @@
         width: 50%;
     }
 
+    .box-services-second > div > .slide-center-jm{
+        display: flex;
+        align-items:center;
+    }
+
     .box-services-second > div > div > h3{
         font-size: 30px;
         font-weight: bold;
@@ -653,8 +658,8 @@
     }
 
     .box-services-second > div > div > div{
-        width: 60%;
-        margin-left: 20%; 
+        width: 70%;
+        margin-left: 15%;
     }
 
 /* BOX SERVICES 3 */
