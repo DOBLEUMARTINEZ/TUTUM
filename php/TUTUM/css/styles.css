@@ -3218,6 +3218,19 @@
         color: #fff;
     }
 
+/* LIENZO */
+ #jm-canvas-content{
+    position: relative;
+    width: 1000px;
+    height: 500px;
+    margin: 5vh auto;
+ }
+
+ #lienzo {
+
+ }
+
+
 /* RESPONSIVE */
 
     .bloque-just-movil{

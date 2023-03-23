@@ -140,6 +140,10 @@ if (isset($_POST['action'])) {
               include("resources/aviso-de-privacidad.php"); // CONTENIDO 
               break;
 
+            case 'town':
+              include("resources/town.php"); // town
+              break;
+
             case 'gracias':
               include("resources/gracias.php"); // gracias
               break;
@@ -149,6 +153,7 @@ if (isset($_POST['action'])) {
               exit();
               break;
           }
+
         }
       
       }else{
