@@ -88,7 +88,6 @@
         box-sizing: inherit
     }
 
-
 /* empiezan las clases  */
 
     .arrow-down {
@@ -3065,7 +3064,7 @@
         transition: 0.2s;
     }
 
-/**/
+/* FOOTER 01*/
 
     .square-footer-index{
         width: 100%;
@@ -3144,7 +3143,7 @@
         cursor: pointer;
     }
 
-/* PIE DE PAGINA */
+/* PIE DE PAGINA 02 */
 
     .footer-W{
         width:100%;
@@ -3222,12 +3221,18 @@
  #jm-canvas-content{
     position: relative;
     width: 1000px;
-    height: 500px;
-    margin: 5vh auto;
+    display: flex;
+    height: 950px;
+    margin: auto;
+    background-image: url(../images/town-resources/city2.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
  }
 
  #lienzo {
-
  }
 
 
