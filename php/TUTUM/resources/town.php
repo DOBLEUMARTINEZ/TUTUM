@@ -42,7 +42,7 @@
 		}
 	}
 
-	@keyframes taxitwo{
+	@keyframes taxi-rotate{
 		0% {
 			
 		}	
@@ -174,7 +174,7 @@
 		}
 
 		#taxi > img{
-			animation: taxitwo;
+			animation: taxi-rotate;
 			animation-duration: 8s;
 			animation-iteration-count: infinite;
 			cursor: pointer;
