@@ -4,76 +4,92 @@
 		background:#9d968e;
 	}
 
-	@keyframes vuelo{
-		0% {
-		transform: translate(900px,900px);
-		}	
+	/* KEYFRAME */
 
-		100% {
-			transform: translate(-200px, -200px);
-		}
-	}
+	/* CAMION DE CARGA */
 
-	@keyframes carga{
-		from {
-		transform: translate(240px,441px);
-		}	
+		@keyframes vuelo{
+			0% {
+			transform: translate(900px,900px);
+			}	
 
-		to {
-			transform: translate(839px,784px );
-		}
-	}
-
-	@keyframes taxi{
-		0% {
-			transform: translate(780px,436px);
-		}	
-
-		45% {
-			transform: translate(508px, 600px);
+			100% {
+				transform: translate(-200px, -200px);
+			}
 		}
 
-		60% {
-			transform: translate(536px, 640px);
+	/* CAMION DE CARGA */ 
+		@keyframes carga{
+			from {
+			transform: translate(240px,441px);
+			}	
+
+			to {
+				transform: translate(839px,784px );
+			}
 		}
 
-		100% {
-			transform: translate(305px, 783px);
-		}
-	}
+	/* TAXI */  
+		@keyframes taxi{
+			0% {
+				transform: translate(780px,436px);
+			}	
 
-	@keyframes taxi-rotate{
-		0% {
+			45% {
+				transform: translate(508px, 600px);
+			}
+
+			60% {
+				transform: translate(536px, 640px);
+			}
+
+			100% {
+				transform: translate(305px, 783px);
+			}
+		}
+
+		@keyframes taxi-rotate{
+			0% {
+				
+			}	
+			20% {
+				transform: scaleX(1);
+			}
+
+			42% {
+				transform: scaleX(1);
+			}
+
+			42.1% {
+				transform: scaleX(-1);
+			}
+
+			56% {
+				transform: scaleX(-1);
+			}
+
+			56.1% {
+				transform: scaleX(1);
+			}
+
+			100% {
+				transform: scaleX(1);
+			}
+		}
+
+	/* HOSPITAL   
+		@keyframes hospital{
+			0% {
+				transform: translate(780px,436px);
+			}	
+
 			
-		}	
-		20% {
-			transform: scaleX(1);
-		}
+			100% {
+				transform: translate(305px, 783px);
+			}
+		}*/
 
-		40% {
-			transform: scaleX(1);
-		}
-
-		49% {
-			transform: scaleX(-1);
-		}
-
-		57% {
-			transform: scaleX(-1);
-		}
-
-		60% {
-			transform: scaleX(1);
-		}
-
-		100% {
-			transform: scaleX(1);
-		}
-	}
-
-
-
-
+	/******************/
 
 	/* plane */
 		#plane{
@@ -206,13 +222,146 @@
 			top: 5px;
 		}
 
+	/* hospital */
+		#hospital{
+			position: absolute;
+		    top: 508px;
+    		left: 619px;
+		    animation-timing-function: linear;
+		    display: flex;
+		    align-items: center;
+		    justify-content: center;
+		    cursor: pointer;
+		}
 
-	
+		#hospital > span{
+			position: absolute;
+		    background: #4dbed4;
+		    color: #ffffff;
+		    padding: 5px 10px;
+		    border-radius: 50px;
+		    font-weight: bold;
+		    letter-spacing: 1px;
+		    top: 0;
+		    transition: 0.3s;
+		    opacity: 0;
+		    width: 150px;
+		    height: 40px;
+		    display: flex;
+		    align-items: center;
+		    justify-content: center;
+		}
+
+		#hospital > span::before{
+			content: ".";
+		    color: #0000;
+		    position: absolute;
+		    width: 0;
+		    height: 0;
+		    border-right: 63px solid transparent;
+		    border-top: 63px solid transparent;
+		    border-left: 63px solid transparent;
+		    border-bottom: 50px solid #ffc107;
+		    transform: rotate(180deg);
+		    bottom: -111px;
+		}
+
+		#hospital > span::after{
+			content: "Entrar";
+		    position: absolute;
+		    background: #ffc107;
+		    width: 70px;
+		    text-align: center;
+		    font-size: 12px;
+		    color: #333;
+		    bottom: -19px;
+		    left: 40px;
+		    font-weight: bold;
+		}
+
+		#hospital:hover span {
+			top: 40px;
+			opacity: 1;
+			z-index: 99;
+		}
+
+		#hospital > ul{
+			position: absolute;
+		    right: -60%;
+		    top: -35%;
+		    background: #fcfcfb;
+		    padding: 5px 10px 5px 30px;
+		    margin: 0;
+		    opacity: 0;
+		    transition: 0.3s;
+		    z-index: -1;
+		}
+
+		#hospital:hover ul {
+			top: 1%;
+			opacity: 1;
+			z-index: 99;
+		}
+
+
+		/* modales */
+
+		#modales {
+		    position: fixed;
+		    width: 100%;
+		    height: 100%;
+		    background: #33333387;
+		    z-index: 99;
+		    top: 0;
+		    left: 0;
+		}
+
+		.modal-city {
+			position: absolute;
+	    	background: #fff;
+	    	width: 75%;
+	    	height: 100%;
+	    	display: flex;
+	    	align-items: center;
+		}
+
+		.modal-city > span{
+			position: absolute;
+		    right: 5%;
+		    top: 3%;
+		    font-size: 22px;
+		    font-weight: bold;
+		    color: #eb0101;
+		    cursor: pointer;
+		}
+
+		.modal-city > ol{
+			list-style: none;
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			margin:0;
+			padding: 0;	
+		}
+
+		.modal-city > ol > li {
+			width: 50%;
+		}
 
 </style>
 
 <!-- contennedor de canvas -->
 <div id="jm-canvas-content">
+
+	<div id="hospital">
+		<span>Hospital</span>
+		<ul>
+			<li>Soluciones ​integrales en TI​</li>
+			<li>Implementación ​HIS</li>
+			<li>Capacitación ​usuario final</li>
+		</ul>
+		<img src="images/town-resources/hospital.png" height="206" width="310">
+	</div>
 
 	<div id="plane">
 		<span>1</span>
@@ -231,6 +380,22 @@
 
     <canvas id="lienzo" width="1000" height="950"></canvas>
 
+</div>
+
+<div id="modales">
+
+    <div class="modal-content modal-city">
+    	<span>X</span>
+    	<ol>
+    		<li><img src="images/town-resources/hospital.png" height="auto" width="100%"></li>
+    		<li>
+    			<h2>Hospitales</h2>
+    			<p>Tenemos experiencia en los sectores de salud pública y privada gestionando hospitales a nivel nacional, contamos con una cobertura de centros de atención a usuarios y distribución en seis regiones estratégicamente ubicadas en la república mexicana.</p>
+    			<button>Quiero saber más</button>
+    		</li>
+    	</ol>
+    </div>
+    	
 </div>
 
 <!-- SCRIPT CANVAS -->
