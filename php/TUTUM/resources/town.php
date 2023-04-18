@@ -223,6 +223,7 @@
 		}
 
 	/* hospital */
+
 		#hospital{
 			position: absolute;
 		    top: 508px;
@@ -304,28 +305,52 @@
 		}
 
 
-		/* modales */
+	/* modales */
+
+		/* Controls */
+
+			.active-modal{
+				transition: 0.5s;
+				z-index:999!important;
+				opacity: 1!important;
+			}
+
+			.close-modal{
+				transition: 0.5s;
+				z-index:0!important;
+				opacity: 1!important;
+			}
+
+			.active-modal-city {
+				transition: 0.6s;
+				left: 0%!important;
+			}
+
+		/**/
 
 		#modales {
 		    position: fixed;
 		    width: 100%;
 		    height: 100%;
 		    background: #33333387;
-		    z-index: 99;
+		    z-index: -9;
 		    top: 0;
-		    left: 0;
+		    transition: 0.5s;
+		    opacity: 0;
 		}
 
-		.modal-city {
+		#modal-city {
 			position: absolute;
-	    	background: #fff;
-	    	width: 75%;
-	    	height: 100%;
-	    	display: flex;
-	    	align-items: center;
+		    background: #fff;
+		    width: 80%;
+		    height: 100%;
+		    display: flex;
+		    align-items: center;
+		    left: -80%;
+		    transition: 0.5s;
 		}
 
-		.modal-city > span{
+		#modal-city > span{
 			position: absolute;
 		    right: 5%;
 		    top: 3%;
@@ -335,7 +360,7 @@
 		    cursor: pointer;
 		}
 
-		.modal-city > ol{
+		#modal-city > ol{
 			list-style: none;
 			width: 100%;
 			display: flex;
@@ -344,16 +369,18 @@
 			padding: 0;	
 		}
 
-		.modal-city > ol > li {
+		#modal-city > ol > li {
 			width: 50%;
 		}
+
+
 
 </style>
 
 <!-- contennedor de canvas -->
 <div id="jm-canvas-content">
 
-	<div id="hospital">
+	<div id="hospital" onclick="openModal('Hospitales');">
 		<span>Hospital</span>
 		<ul>
 			<li>Soluciones ​integrales en TI​</li>
@@ -384,8 +411,8 @@
 
 <div id="modales">
 
-    <div class="modal-content modal-city">
-    	<span>X</span>
+    <div id="modal-city" class="modal-content">
+    	<span onclick="colseModal();">X</span>
     	<ol>
     		<li><img src="images/town-resources/hospital.png" height="auto" width="100%"></li>
     		<li>
@@ -400,7 +427,23 @@
 
 <!-- SCRIPT CANVAS -->
 <script type="text/javascript">
-	
+
+    function openModal(a){
+    	var modalBack = document.getElementById("modales");
+  		modalBack.classList.add("active-modal");
+
+  		var modalContent = document.getElementById("modal-city");
+  		modalContent.classList.add("active-modal-city");
+    }
+
+    function colseModal(){
+    	var modalBack = document.getElementById("modales");
+  		modalBack.classList.remove("active-modal");
+
+    	var modalContent = document.getElementById("modal-city");
+  		modalContent.classList.remove("active-modal-city");
+    }
+  
 	//console.log("ctx",ctx);
 
 	/*// RECTANGULOS

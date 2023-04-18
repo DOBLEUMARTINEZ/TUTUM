@@ -1,0 +1,12 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+RewriteRule ^/$ index.php
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+)/?$ index.php?name=$1&%{QUERY_STRING} [L]
+
+#Options -Indexes
+ErrorDocument 403 http://localhost/wm_server/php/WEBSITE-TUTUM/
+ErrorDocument 404 http://localhost/wm_server/php/WEBSITE-TUTUM/
