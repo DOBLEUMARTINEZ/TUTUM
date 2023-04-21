@@ -6,13 +6,14 @@
 			case 'DRA.YESENIA':
 				// DATA
 				$url 			= "https://ultrasonidos.dobleumartinez.com/DRA.YESENIA";
-				$enterprise 	= "MEDICINA GENERAL";
-				$description 	= "MEDICINA GENERAL DESC";
+				$enterprise 	= "Centro de Diagnóstico Integral De Los Rios Unidad Palenque";
+				$description 	= "Médicina General<br>CED.PROF. 12386373-UNACH";
 				$url_enterprise = "https://ultrasonidos.dobleumartinez.com/DRA.YESENIA";
 
 				// DATA PERSONAL
-				$name = "YESENIA SALMORAL TREJO";
+				$name = "YESENIA SALMORAN TREJO";
 				$job = "Médico General";
+				$cedulaProf = "CED.PROF. 12386373-UNACH";
 				$phone 	= "5219612445121";
 				$phone_2 = "5219612445121";
 				$mail 	= "ultrasonidos@gmail.com";
@@ -21,7 +22,7 @@
 				// MULTIMEDIA
 				$pick = "foto-doctora.jpg";
 				$icon = "icon-ultrasonidos.png";
-				$logo = "blank.jpg";
+				$logo = "electro.jpg";
 				$qr = "qr-code-DraYesenia.png";
 
 				// SERVICIOS
@@ -48,13 +49,14 @@
 			case 'DR.ANTONIO':
 				// DATA
 				$url 			= "https://ultrasonidos.dobleumartinez.com/DR.ANTONIO";
-				$enterprise 	= "ULTRASONIDOS";
-				$description 	= "ULTRASONIDOS DESC";
+				$enterprise 	= "Centro de Diagnóstico Integral De Los Rios Unidad Palenque";
+				$description 	= "Médico Ultrasonografista<br>CED. PROF1880913.DEPAS0631D133-2008/17DAP0";
 				$url_enterprise = "https://ultrasonidos.dobleumartinez.com/DR.ANTONIO";
 
 				// DATA PERSONAL
-				$name = "DR. ANTONIO FERNANDEZ QUIÑONES";
+				$name = "DR. ANTONIO F. QUIÑONES";
 				$job = "Médico Ultrasonografista";
+				$cedulaProf = "CED. PROF1880913.DEPAS0631D133-2008/17DAP0";
 				$phone 	= "529341351167";
 				$phone_2 = "529341351167";
 				$mail 	= "ultrasonidos@gmail.com";
@@ -73,7 +75,7 @@
 					'3' => 'Renal',
 					'4' => 'Prostatico',
 					'5' => 'Útero y ovarios',
-					'6' => 'Obsetrico',
+					'6' => 'Obsetrico 4D - 5D',
 					'7' => 'Mama'
 				);
 
@@ -101,11 +103,13 @@
 		$url_enterprise = "https://dobleumartinez.com/";
 
 		// DATA PERSONAL
-		$name = "ARACELI MORALES CORTES";
+		$name = "ING. ARACELI MORALES";
 		$job = "EJECUTIVO DE VENTAS";
+		$cedulaProf = "";
 		$phone 	= "525585488532";
 		$phone_2 = "525585488532";
 		$mail 	= "ventas@dobleumartinez.com";
+		$address = 'cdmx';
 
 		// MULTIMEDIA
 		$pick = "dobleu-2.jpg";

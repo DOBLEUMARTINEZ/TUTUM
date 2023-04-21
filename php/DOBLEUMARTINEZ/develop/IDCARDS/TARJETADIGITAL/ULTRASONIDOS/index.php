@@ -89,6 +89,7 @@
                 <div class="info-id">
                   <h1><?php echo $name;?></h1>
                   <h2><?php echo $job;?></h2>
+                  <h3><?php echo $cedulaProf;?></h3>
                 </div>
 
                 <!-- BOTON SERVICIOS -->
@@ -111,25 +112,49 @@
                       <i class="fab fa-whatsapp"></i>
                     </li>
 
+                    
+
+                    <?php 
+                      foreach ($socialMedia as $redsocial => $url_red) {
+                        if (!empty($url_red)) {
+                          ?>
+                            <li  onclick="window.location.href='<?php echo $url_red; ?>';" >
+                              <i class="<?php echo $redsocial; ?>"></i>
+                            </li>
+                          <?php
+                        }
+                      }
+                    ?>
+
                     <li onclick="window.location.href='mailto:<?php echo $mail;?>';" >
                       <i class="far fa-envelope"></i>
                     </li>
 
-                    <li onclick="window.location.href='<?php echo $url_enterprise;?>';" >
+                    <!--<li onclick="window.location.href='<?php echo $url_enterprise;?>';" >
                       <i class="fas fa-globe"></i>
                     </li>
 
-                    <!--<li onclick="window.location.href='./JOSE_MARTINEZ.vcf';" >
+                    <li onclick="window.location.href='./JOSE_MARTINEZ.vcf';" >
                       <i class="fas fa-save"></i>
                     </li>-->
+
 
                     <li class="opc-share">
                       <i class="far fa-paper-plane"></i>
                     </li>
 
+                    <li onclick="window.location.href='<?php echo $address;?>';" >
+                      <i class="fas fa-map-marker-alt"></i>
+                    </li>
+
+                    <li class="opc-share">
+                      <i class="fas fa-share-alt"></i>
+                    </li>
+
                   </ul>
 
-                  <ul>
+                  <!-- social media -->
+                  <ul style="display: none;">
                     <?php 
                       foreach ($socialMedia as $redsocial => $url_red) {
                         if (!empty($url_red)) {
@@ -258,7 +283,6 @@
         });
 
       </script>
-
 
       <!-- Bootstrap core JavaScript -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
