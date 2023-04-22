@@ -23,7 +23,7 @@
   <link rel="manifest" href="<?php echo $url; ?>/images/icons/<?php echo $icon;?>">
         
          
-  <title><?php echo $name; ?> | <?php echo $job; ?></title>
+  <title><?php echo $name." ".$apellido; ?> | <?php echo $job; ?></title>
 
  
   <!-- description -->
@@ -87,7 +87,7 @@
 
                 <!-- INFO PERFIL-->
                 <div class="info-id">
-                  <h1><?php echo $name;?></h1>
+                  <h1><?php echo $name;?><br><?php echo $apellido;?></h1>
                   <h2><?php echo $job;?></h2>
                   <h3><?php echo $cedulaProf;?></h3>
                 </div>
@@ -111,8 +111,6 @@
                     <li onclick="window.location.href='https://wa.me/<?php echo $phone_2;?>';" >
                       <i class="fab fa-whatsapp"></i>
                     </li>
-
-                    
 
                     <?php 
                       foreach ($socialMedia as $redsocial => $url_red) {
@@ -138,12 +136,13 @@
                       <i class="fas fa-save"></i>
                     </li>-->
 
+                    <?php if (!empty($telegram)) { ?>
+                        <li onclick="window.location.href='<?php echo $telegram;?>';" >
+                          <i class="far fa-paper-plane"></i>
+                        </li>
+                    <?php } ?>
 
-                    <li class="opc-share">
-                      <i class="far fa-paper-plane"></i>
-                    </li>
-
-                    <li onclick="window.location.href='<?php echo $address;?>';" >
+                    <li onclick="window.location.href='<?php echo $url_address;?>';" >
                       <i class="fas fa-map-marker-alt"></i>
                     </li>
 
@@ -153,20 +152,6 @@
 
                   </ul>
 
-                  <!-- social media -->
-                  <ul style="display: none;">
-                    <?php 
-                      foreach ($socialMedia as $redsocial => $url_red) {
-                        if (!empty($url_red)) {
-                          ?>
-                            <li  onclick="window.location.href='<?php echo $url_red; ?>';" >
-                              <i class="<?php echo $redsocial; ?>"></i>
-                            </li>
-                          <?php
-                        }
-                      }
-                    ?>
-                  </ul>
                 </div>
 
                 <!-- add to desktop -->
@@ -193,23 +178,28 @@
               <div class="resume-content">
                 <div style="margin: auto;" >
                   <h1><?php echo $enterprise;?></h1>
-                  <p><?php echo str_replace('+', '</br></br>', $description);?></p>
-                  <img class="qr-img" src="./images/qr/<?php echo $qr;?>">
+                  <p>
+                    <strong>Dirección: </strong><?php echo $address;?><br>
+                    <strong>Referencia: </strong>Frente a farmacia union.
+                  </p>
+                  <img onclick="window.open('<?php echo $facebook;?>');" class="qr-img" src="./images/qr/<?php echo $qr;?>">
                 </div>
               </div>
 
               <!-- SERVICIOS -->
               <div class="services-content">
                 <div style="margin: auto;">
-                  <?php 
-                    foreach ($services as $key => $value) {
-                      ?>
-                        <h2 onclick="window.location.href='https://wa.me/<?php echo $phone_2;?>';" >
+                  <ul>
+                    <?php 
+                      foreach ($services as $key => $value) {
+                        ?>
+                        <li>
                           <?php echo $value; ?>
-                        </h2>
-                      <?php
-                    }
-                  ?>
+                        </li>
+                        <?php
+                      }
+                    ?>
+                  </ul>
                 </div>
               </div>
 

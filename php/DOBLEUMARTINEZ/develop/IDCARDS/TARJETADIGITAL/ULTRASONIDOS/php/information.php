@@ -11,13 +11,16 @@
 				$url_enterprise = "https://ultrasonidos.dobleumartinez.com/DRA.YESENIA";
 
 				// DATA PERSONAL
-				$name = "YESENIA SALMORAN TREJO";
+				$name = "DRA. YESENIA";
+				$apellido = "SALMORAN TREJO";
 				$job = "Médico General";
 				$cedulaProf = "CED.PROF. 12386373-UNACH";
 				$phone 	= "5219612445121";
 				$phone_2 = "5219612445121";
-				$mail 	= "ultrasonidos@gmail.com";
-				$address = 'c. corregidora entre allende y aldama Palenque Chiapas, Palenque, Mexico, 29960';
+				$telegram = "https://t.me/+529612445121";
+				$mail 	= "yesi.82@outlook.es";
+				$address = 'Calle Corregidora & Leona Vicario, Ganadera, 86992 Emiliano Zapata, Tab.';
+				$url_address = 'https://goo.gl/maps/WcRPbHPbGU8TLkY17';
 
 				// MULTIMEDIA
 				$pick = "foto-doctora.jpg";
@@ -27,16 +30,31 @@
 
 				// SERVICIOS
 				$services = array(
-					'1' => 'Abdominal',
-					'2' => 'Control parental',
-					'3' => 'Renal',
-					'4' => 'Prostatico',
-					'5' => 'Útero y ovarios',
-					'6' => 'Obsetrico',
-					'7' => 'Mama'
+					'1' => 'Consulta medica',
+					'2' => 'Toma de glisemia capilar',
+					'3' => 'Toma de presión arterial',
+					'4' => 'Certificados Medicos',
+					'5' => 'Peso y talla',
+					'6' => 'Retiro de implante DIU',
+					'7' => 'Inyecciones',
+					'8' => 'Nebulizaciones',
+					'9' => 'Curaciones de heridas',
+					'10' => 'Sutura y retiro de puntos',
+					'11' => 'Control de niño sano',
+					'12' => 'Control diabetes',
+					'13' => 'Mellitus',
+					'14' => 'Hipertensión arterial',
+					'15' => 'Control prenatal',
+					'16' => 'Planificación familiar',
+					'17' => 'Aplicación de sueros Vitaminados',
+					'18' => 'Cambio y colocación de sondas',
+					'19' => 'Lavado de oidos',
+					'20' => 'Toma de papanicolaou',
+					'21' => 'Examen de mamas',
 				);
 
 				// REDES SOCIALES
+				$facebook = "https://www.facebook.com/profile.php?id=100089422906747";
 				$socialMedia = array(
 					'fab fa-facebook-f' => 'https://www.facebook.com/profile.php?id=100089422906747',
 					'fab fa-instagram' => '',
@@ -54,13 +72,16 @@
 				$url_enterprise = "https://ultrasonidos.dobleumartinez.com/DR.ANTONIO";
 
 				// DATA PERSONAL
-				$name = "DR. ANTONIO F. QUIÑONES";
+				$name = "DR. ANTONIO F.";
+				$apellido = "QUIÑONES";
 				$job = "Médico Ultrasonografista";
-				$cedulaProf = "CED. PROF1880913.DEPAS0631D133-2008/17DAP0";
+				$cedulaProf = "CED.PROF1880913.DEPAS0631D133-2008/17DAP0";
 				$phone 	= "529341351167";
 				$phone_2 = "529341351167";
-				$mail 	= "ultrasonidos@gmail.com";
-				$address = 'c. corregidora entre allende y aldama Palenque Chiapas, Palenque, Mexico, 29960';
+				$telegram = "";
+				$mail 	= "fernandezquinoneza@gmail.com";
+				$address = 'Calle Corregidora & Leona Vicario, Ganadera, 86992 Emiliano Zapata, Tab.';
+				$url_address = 'https://goo.gl/maps/WcRPbHPbGU8TLkY17';
 
 				// MULTIMEDIA
 				$pick = "foto-user.jpg";
@@ -80,6 +101,7 @@
 				);
 
 				// REDES SOCIALES
+				$facebook = "https://www.facebook.com/profile.php?id=100089422906747";
 				$socialMedia = array(
 					'fab fa-facebook-f' => 'https://www.facebook.com/profile.php?id=100089422906747',
 					'fab fa-instagram' => '',
@@ -104,12 +126,14 @@
 
 		// DATA PERSONAL
 		$name = "ING. ARACELI MORALES";
+		$apellido="";
 		$job = "EJECUTIVO DE VENTAS";
 		$cedulaProf = "";
 		$phone 	= "525585488532";
 		$phone_2 = "525585488532";
 		$mail 	= "ventas@dobleumartinez.com";
-		$address = 'cdmx';
+		$address = 'Calle Corregidora & Leona Vicario, Ganadera, 86992 Emiliano Zapata, Tab.';
+		$url_address = 'https://goo.gl/maps/WcRPbHPbGU8TLkY17';
 
 		// MULTIMEDIA
 		$pick = "dobleu-2.jpg";
