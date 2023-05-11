@@ -189,7 +189,7 @@
               <!-- SERVICIOS -->
               <div class="services-content">
                 <div style="margin: auto;">
-                  <ul>
+                  <ul class="service-list">
                     <?php 
                       foreach ($services as $key => $value) {
                         ?>

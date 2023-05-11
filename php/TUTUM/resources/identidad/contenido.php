@@ -35,13 +35,14 @@
 		<li><img src="images/icons/sap-icon.png" ></li>
 		<li><img src="images/icons/iso3.png" ></li>
 		<li><img src="images/icons/iso2.png" ></li>
+		<li><img style="width: 90%;" src="images/icons/logoESR.png" ></li>
 		<li style="background-color: #0000; border:none;"><img style="width: 85%;" src="images/icons/GPTW-TUTUM-MEX.png" ></li>
 	</ul>
 </div>
 
 <!-- MISIÓN Y VISIÓN ​ -->
 <div class="square-06">
-	<h2>MISIÓN Y VISIÓN </h2>
+	<h2 style="padding-top: 5%;">MISIÓN Y VISIÓN </h2>
 	<ol>
 		<li>
 			<br>

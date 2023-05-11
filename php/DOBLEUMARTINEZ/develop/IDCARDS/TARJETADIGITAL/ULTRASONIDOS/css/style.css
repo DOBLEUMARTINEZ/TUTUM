@@ -201,6 +201,28 @@ body,html{
 		    cursor: pointer;
 		}
 
+		.service-list{
+			list-style: none;
+		    margin: 0;
+		    padding: 0 0 0 15px;
+		    font-size: 18px;
+		    font-family: 'Bitter', serif;
+		}
+
+		.service-list > li{
+		  position: relative;
+		}
+
+		.service-list > li::before{
+			content: '•';
+		    color: #0188f4;
+		    position: absolute;
+		    left: -15px;
+		    top: -9px;
+		    font-weight: bold;
+		    font-size: 27px;
+		}
+
 	/*** CONTACT ***/
 
 		.contact-id{
@@ -272,7 +294,7 @@ body,html{
 			display: block;
 		}
 
-		/*** RESUME CONTENT ***/
+	/*** RESUME CONTENT ***/
 
 		.resume-content{
 			margin: auto;
@@ -313,8 +335,7 @@ body,html{
 		    font-size: 1.2em;
 		}
 
-
-		/*** SERVICES CONTENT ***/
+	/*** SERVICES CONTENT ***/
 
 		.services-content, .services2-content{
 			margin: auto;
@@ -379,7 +400,7 @@ body,html{
 		    border-radius: 5px;
 		}
 
-		/*** SERVICES CONTENT ***/
+	/*** SERVICES CONTENT ***/
 
 		.share-content{
 			margin: auto;
@@ -405,7 +426,7 @@ body,html{
 		}
 
 		
-		/*****/
+	/*****/
 
 		.active-content{
 			display: flex;

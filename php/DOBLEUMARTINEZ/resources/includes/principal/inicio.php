@@ -7,8 +7,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	
 	<!-- CONTENT BANNER  -->
 	<div>
-		<h1>DESARROLLO WEB</h1><br>
-		<p>Desarrollo de Proyectos Web Atractivos, Rápidos,<br> Funcionales, Modernos y cumpliendo con las <br>mejores prácticas del mercado.</p><br>
+		<h1>Te ayudamos con la mejor solución para tus Proyectos Digitales</h1><br>
+		<p>Diseñamos poderosos desarrollos digitales atractivos que resalten la identidad de tu empresa o negocio</p><br>
 		<button>contactar <i class="fas fa-angle-double-right"></i></button>
 	</div>
 
@@ -26,20 +26,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<div>
 			<h2><span>| </span>DOBLEU MARTINEZ</h2>
 			<p class="p-black">
-				Jose Martinez egresado de la carrera de tecnologías de la información y certificado en algunas otras áreas del desarrollo web, adquiriendo años de experiencia en la gestión de sistemas y desarrollo de proyectos web.<br><br>
-
-				Capaz de adaptarme a las diferentes tendencias que la tecnología actual, incorporando estrategias especializadas a las areas para las que he trabajado.
+				Diseñamos, desarrollamos y gestionamos poderosos proyectos atractivos que resalten la identidad de tu empresa o negocio.
 			</p>
-			<ol>
-				<li>Diseño web</li>
-				<li>Desarrollo web</li>
-				<li>Gestión de proyectos</li>
-				<li>SEO</li>
-				<li>Copyriht Digital</li>
-				<li>Google Analitycs</li>
-				<li>Goggle Seach Console</li>
-				<li>Goggle Ads</li>
-			</ol>
+			<P>
+				Trabajamos estrictamente con funciones especiales, integraciones, forms, procesos o conexiones especializadas con otras tecnologías.
+			</P>
 		</div>
 		<div>
 			<img src="resources/images/4169292.jpg" title="DOBLEU MARTINEZ - Desarrollo Web" alt="DOBLEU MARTINEZ - Desarrollo Web" loading="lazy">
@@ -58,7 +49,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 	<div class="content-03">
 		<h2>Desarrollo Web</h2>
-		<p>Desarrollo de Proyectos Web Atractivos, Rápidos, Funcionales, Modernos y cumpliendo con las mejores prácticas</p>
+		<p>Desarrollo de Proyectos Atractivos, Rápidos, Funcionales y Modernos</p>
 		<ul>
 			<li>
 				<img src="resources/images/landing-page-seo.png" title="DOBLEU MARTINEZ - Landing page" alt="DOBLEU MARTINEZ - Landing page" loading="lazy">
@@ -75,6 +66,68 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<li>
 				<img src="resources/images/sitio-web-seo.png" title="DOBLEU MARTINEZ - Sitio Web" alt="DOBLEU MARTINEZ - Sitio Web" loading="lazy">
 				<h3>Sitio Web</h3>
+				<p>Empieza a competir contra los mejores</p>
+				<button onclick="modalInfo('SitioWeb')">¡Quiero saber más!</button>
+			</li>
+			<li>
+				<img src="resources/images/desarrollos-especiales-seo.png" title="DOBLEU MARTINEZ - Desarrollos Especiales" alt="DOBLEU MARTINEZ - Desarrollos Especiales" loading="lazy">
+				<h3>Desarrollos Especiales</h3>
+				<p>Volvemos realidad todas tus ideas</p>
+				<button onclick="modalInfo('DesarrollosEspeciales')">¡Quiero saber más!</button>
+			</li>
+		</ul>
+	</div>
+
+	<div class="content-03">
+		<h2>Diseño gráfico</h2>
+		<p>Crear y transmitir mensajes a través de la imagen.<br>Para lograr el objetivo de tu empresa o servicio.</p>
+		<ul>
+			<li>
+				<img src="resources/images/landing-page-seo.png" title="DOBLEU MARTINEZ - Landing page" alt="DOBLEU MARTINEZ - Landing page" loading="lazy">
+				<h3>Landing page</h3>
+				<p>Orientada a ventas directas de algun producto o servicio</p>
+				<button onclick="modalInfo('LandigPage')">¡Quiero saber más!</button>
+			</li>
+			<li>
+				<img src="resources/images/pagina-web-seo.png" title="DOBLEU MARTINEZ - Pagina Web" alt="DOBLEU MARTINEZ - Pagina Web" loading="lazy">
+				<h3>Pagina Web</h3>
+				<p>Ideal para empezar a darte a conocer en la Internet</p>
+				<button onclick="modalInfo('PaginaWeb')">¡Quiero saber más!</button>
+			</li>
+			<li>
+				<img src="resources/images/sitio-web-seo.png" title="DOBLEU MARTINEZ - Sitio Web" alt="DOBLEU MARTINEZ - Sitio Web" loading="lazy">
+				<h3>Sitio Web</h3>
+				<p>Empieza a competir contra los mejores</p>
+				<button onclick="modalInfo('SitioWeb')">¡Quiero saber más!</button>
+			</li>
+			<li>
+				<img src="resources/images/desarrollos-especiales-seo.png" title="DOBLEU MARTINEZ - Desarrollos Especiales" alt="DOBLEU MARTINEZ - Desarrollos Especiales" loading="lazy">
+				<h3>Desarrollos Especiales</h3>
+				<p>Volvemos realidad todas tus ideas</p>
+				<button onclick="modalInfo('DesarrollosEspeciales')">¡Quiero saber más!</button>
+			</li>
+		</ul>
+	</div>
+
+	<div class="content-03">
+		<h2>Marketing Digital</h2>
+		<p>Crear y transmitir mensajes a través de la imagen.<br>Para lograr el objetivo de tu empresa o servicio.</p>
+		<ul>
+			<li>
+				<img src="resources/images/landing-page-seo.png" title="DOBLEU MARTINEZ - Landing page" alt="DOBLEU MARTINEZ - Landing page" loading="lazy">
+				<h3>Logos</h3>
+				<p>Orientada a ventas directas de algun producto o servicio</p>
+				<button onclick="modalInfo('LandigPage')">¡Quiero saber más!</button>
+			</li>
+			<li>
+				<img src="resources/images/pagina-web-seo.png" title="DOBLEU MARTINEZ - Pagina Web" alt="DOBLEU MARTINEZ - Pagina Web" loading="lazy">
+				<h3>Naming</h3>
+				<p>Ideal para empezar a darte a conocer en la Internet</p>
+				<button onclick="modalInfo('PaginaWeb')">¡Quiero saber más!</button>
+			</li>
+			<li>
+				<img src="resources/images/sitio-web-seo.png" title="DOBLEU MARTINEZ - Sitio Web" alt="DOBLEU MARTINEZ - Sitio Web" loading="lazy">
+				<h3>Manual de identidad</h3>
 				<p>Empieza a competir contra los mejores</p>
 				<button onclick="modalInfo('SitioWeb')">¡Quiero saber más!</button>
 			</li>

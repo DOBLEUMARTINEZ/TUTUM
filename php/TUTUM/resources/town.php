@@ -304,7 +304,6 @@
 			z-index: 99;
 		}
 
-
 	/* modales */
 
 		/* Controls */
@@ -326,54 +325,55 @@
 				left: 0%!important;
 			}
 
-		/**/
+		/* Content */
 
-		#modales {
-		    position: fixed;
-		    width: 100%;
-		    height: 100%;
-		    background: #33333387;
-		    z-index: -9;
-		    top: 0;
-		    transition: 0.5s;
-		    opacity: 0;
-		}
+			#modales {
+			    position: fixed;
+			    width: 100%;
+			    height: 100%;
+			    background: #33333387;
+			    z-index: -9;
+			    top: 0;
+			    transition: 0.5s;
+			    opacity: 0;
+			}
 
-		#modal-city {
-			position: absolute;
-		    background: #fff;
-		    width: 80%;
-		    height: 100%;
-		    display: flex;
-		    align-items: center;
-		    left: -80%;
-		    transition: 0.5s;
-		}
+			#modal-city {
+				position: absolute;
+			    background: #fff;
+			    width: 80%;
+			    height: 100%;
+			    display: flex;
+			    align-items: center;
+			    left: -80%;
+			    transition: 0.5s;
+			}
 
-		#modal-city > span{
-			position: absolute;
-		    right: 5%;
-		    top: 3%;
-		    font-size: 22px;
-		    font-weight: bold;
-		    color: #eb0101;
-		    cursor: pointer;
-		}
-
-		#modal-city > ol{
-			list-style: none;
-			width: 100%;
-			display: flex;
-			justify-content: center;
-			margin:0;
-			padding: 0;	
-		}
-
-		#modal-city > ol > li {
-			width: 50%;
-		}
+			#modal-city > span{
+				position: absolute;
+			    right: 5%;
+			    top: 3%;
+			    font-size: 22px;
+			    font-weight: bold;
+			    color: #eb0101;
+			    cursor: pointer;
+			}
 
 
+			/* Hospital Content */
+
+				#hospitalContent{
+					list-style: none;
+					width: 100%;
+					display: none;;
+					justify-content: center;
+					margin:0;
+					padding: 0;	
+				}
+
+				#hospitalContent li {
+					width: 50%;
+				}
 
 </style>
 
@@ -413,7 +413,9 @@
 
     <div id="modal-city" class="modal-content">
     	<span onclick="colseModal();">X</span>
-    	<ol>
+
+    	<!-- Hospital Content -->
+    	<ol id="hospitalContent">
     		<li><img src="images/town-resources/hospital.png" height="auto" width="100%"></li>
     		<li>
     			<h2>Hospitales</h2>
@@ -421,6 +423,7 @@
     			<button>Quiero saber más</button>
     		</li>
     	</ol>
+
     </div>
     	
 </div>
@@ -429,14 +432,36 @@
 <script type="text/javascript">
 
     function openModal(a){
+
     	var modalBack = document.getElementById("modales");
   		modalBack.classList.add("active-modal");
 
   		var modalContent = document.getElementById("modal-city");
   		modalContent.classList.add("active-modal-city");
-    }
+
+
+  		switch (a) {
+		  case 'Hospitales':
+		    var openContent = document.getElementById("hospitalContent");
+		    openContent.style.display = "flex";
+		    break;
+		 
+		  default:
+		    alert('none');
+		    break
+		}
+
+	}
 
     function colseModal(){
+
+
+    	// Contents
+
+    	var openContent = document.getElementById("hospitalContent");
+		    openContent.style.display = "none";
+
+		// Modal
     	var modalBack = document.getElementById("modales");
   		modalBack.classList.remove("active-modal");
 

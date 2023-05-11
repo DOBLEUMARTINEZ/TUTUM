@@ -13,11 +13,11 @@
 			switch ($_GET['seccion']) {
 
 				case 'desarrollo-web':
-					include('resources/includes/desarrollo-web/desarrollo-web.php'); 
+					include('resources/includes/services/desarrollo-web.php'); 
 					break;
 
 				case 'marketing-digital':
-					include('resources/includes/notice/error-404.php'); // Marketing digital
+					include('resources/includes/services/marketing-digital.php'); // Marketing digital
 					break;
 
 				case 'tattoo':
