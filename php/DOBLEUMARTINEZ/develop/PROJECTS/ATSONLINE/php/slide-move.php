@@ -25,7 +25,39 @@
     border: 3px solid #f9f9f9
   }
 
+  .desktop-slide{
+    display: initial;
   }
+
+  .mobil-slide{
+    display: none!important;
+  }
+
+  @media (max-width: 425px) {
+
+    .desktop-slide{
+      display: none!important;
+    }
+
+    .mobil-slide{
+      display: initial!important;
+    }
+
+    .titles {
+        top: 15%;
+    }
+    
+    .check-up-laboral {
+      padding: 0% 5% 0% 5%;
+      flex-wrap: wrap;
+    }
+
+    .check-up-laboral > li {
+      width: 50%;
+    }
+
+  }
+
 </style>
 
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -45,7 +77,8 @@
     </div>-->
 
     <div class="carousel-item active">
-      <img class="d-block w-100" src="images/slide/banner-2.jpg" alt="Second slide">
+      <img class="d-block w-100 desktop-slide" src="images/slide/banner-2.jpg" alt="Second slide">
+      <img class="d-block w-100 mobil-slide" src="images/slide/mobil-4.jpg" alt="Second slide">
 
         <div class="titles">
           <h1>Check up Laboral</h1>

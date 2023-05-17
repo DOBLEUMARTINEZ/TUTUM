@@ -375,6 +375,26 @@
 					width: 50%;
 				}
 
+				#hospitalContent li > h2{
+					font-family: 'Roboto', sans-serif!important;
+				    font-size: 40px;
+				    font-weight: 900;
+				}
+
+				#hospitalContent li > p{
+					font-family: 'Montserrat', sans-serif!important;
+				    font-size: 18px;
+				}
+
+				#hospitalContent li > button{
+					padding: 2% 3%;
+				    font-size: 18px;
+				    border: none;
+				    background: #4bbed3;
+				    color: #ffffff;
+				}
+
+
 </style>
 
 <!-- contennedor de canvas -->
