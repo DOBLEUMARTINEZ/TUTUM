@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>prestamo</title>
+<link rel="stylesheet" href="estilopres.css"/>
+<link rel="stylesheet" href="style.css"/>
+
+</head>
+
+<body>
+  <div id="header">
+    <nav>
+    <ul class="nav">
+    <li><a href="libros.html">LIBROS</a></li>
+    <li><a href="prestamo.html">PRESTAMO</a></li>
+    <li><a href="devolucion.html">DEVOLUCIONES</a></li>
+    <li><a href="contacto.html">CONTACTO</a></li>
+    
+
+    </nav>
+    </ul>
+    </div>
+<form method="post">
+<center><h1>Formulario para Prestamo</h1></center>
+<p>
+ <label for="t1">¿CUAL ES TU NOMBRE?<abbr title="Este campo es obligatorio" aria-label="required"></abbr></label>
+<input type="text" id="t1" name="name"maxlength="20"  placeholder=" Tu Nombre"required >
+</p>
+<p>
+ <label for="t2">¿Titulo del libro?<abbr title="Este campo es obligatorio" aria-label="required"></abbr></label>
+<input type="text" id="t2"name="name" maxlength="40" placeholder="Titulo"required  >
+</p>
+<p>
+ <label for="t3">¿Autor del libro?<abbr title="Este campo es obligatorio" aria-label="required"></abbr></label>
+<input type="text" id="t3" name="name" maxlength="50" placeholder="Autor" required >
+</p>
+<p>
+ <label for="t4">¿Cual es genero del libro?<abbr title="Este campo es obligatorio" aria-label="required"></abbr></label>
+ <input type="text" id="t4" name="fruit" list="l1" required
+           pattern="[Nn]arrativo|[Ll]írico|[Ii]ramático|[Dd]idáctico|[Rr]omanse| ">
+    <datalist id="l1">
+      <option> Narrativo</option>
+      <option>Lírico</option>
+      <option>Dramático</option>
+      <option>Didáctico</option>
+      <option>Romanse</option>
+     </datalist>
+  </p>
+
+ 
+ <p>
+<label for="datetime-local">Fecha que lo recibes el libro:<abbr title="Este campo es obligatorio" aria-label="required"></abbr></label>
+             <input type ="datetime-local" name="horayfechalocal"required >
+			  </p>
+ 
+  
+   
+ 
+  <p>
+  <input class ="btn" type="submit" name="registrar" value="Enviar">
+   
+  </p>
+  
+  <button  onClick ="location.href='index.html'" > regresar menu</button> 
+</form>
+</body>
+<footer>       
+
+  <center>
+      
+  
+     <p>Si gustas Agregarnos a WhatsApp para mas datos , contrataciones , dudas o sugerencias</p>
+      <p>Por el momento este es nuestro número de WhatsApp y número fijo*</p>
+<ul type="Circle">
+<li>55-81-73-56-98</li>
+<li>55-63-62-20-05</li>
+<p>Contactanos por medio de facebook,instagram nos encuentras como:</p>
+<ul type="Circle">
+<p>Prestamo de Libros </p>
+<nav><h3>Copyright © 2023 Uriel y Jony.Todos los derechos reservados.</h3></nav>
+</center> 
+  </footer>
+
+</html>

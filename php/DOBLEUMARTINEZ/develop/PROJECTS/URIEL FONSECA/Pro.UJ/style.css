@@ -1,0 +1,70 @@
+h1{
+    font-family:'Arial, Helvetica, sans-serif';
+    color : rgb(255, 145, 0) ;
+    letter-spacing : 0.5em ;
+    }
+    a{
+        color: coral;
+    }
+
+    h2{
+        font-family:'Arial, Helvetica, sans-serif';
+        color : rgb(95, 2, 113) ;
+        letter-spacing : 0.5em ;
+        }   
+        h3{
+            font-family:'Arial, Helvetica, sans-serif';
+        color : rgb(255, 255, 255) ;
+        letter-spacing : 0.2em ;
+        } 
+
+    body{
+        background: #ffffff;
+    }
+    Body{
+        heigh:665px;
+        background-image: url(imagenes/cetis4.png);
+        background-size: 10rem;
+        }
+        
+        *{
+            margin:0px;
+            padding:0px;
+            }
+
+        #container{
+            width:90%;
+            margin:0px auto;
+        }
+       
+        header h1{
+            background:#633c09;
+            height:200px;
+            width: 100%;
+            text-align: center;
+            line-height:200px;
+            color: #ffffff;
+            border-bottom:10px solid #ffffff;
+            font-size:50px;
+            }
+
+        nav{
+            background:#9c6909;
+            height: 50px;
+            border-bottom: 5px solid #ffffff;
+        }
+        nav ul li{
+            float: left;
+            list-style:none;
+            margin:10px;
+            color: #ffffff;
+            font-size:20px;
+            line-height:30px;
+        }
+
+        p {
+            color: rgb(0, 0, 0);
+            font-family:'Comic Sans MS', Times, serif;
+            width: 420;
+            }
+            

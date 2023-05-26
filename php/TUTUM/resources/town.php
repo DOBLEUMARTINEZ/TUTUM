@@ -304,6 +304,70 @@
 			z-index: 99;
 		}
 
+	/* residencial */
+
+		#Corporativo{
+			position: absolute;
+		    top: 290px;
+		    left: 62px;
+		    animation-timing-function: linear;
+		    display: flex;
+		    align-items: center;
+		    justify-content: center;
+		    cursor: pointer;
+		}
+
+		#Corporativo > span{
+			position: absolute;
+		    background: #4dbed4;
+		    color: #ffffff;
+		    padding: 5px 10px;
+		    border-radius: 50px;
+		    font-weight: bold;
+		    letter-spacing: 1px;
+		    top: 0;
+		    transition: 0.3s;
+		    opacity: 0;
+		    width: 150px;
+		    height: 40px;
+		    display: flex;
+		    align-items: center;
+		    justify-content: center;
+		}
+
+		#Corporativo > span::before{
+			content: ".";
+		    color: #0000;
+		    position: absolute;
+		    width: 0;
+		    height: 0;
+		    border-right: 63px solid transparent;
+		    border-top: 63px solid transparent;
+		    border-left: 63px solid transparent;
+		    border-bottom: 50px solid #ffc107;
+		    transform: rotate(180deg);
+		    bottom: -111px;
+		}
+
+		#Corporativo > span::after{
+			content: "Entrar";
+		    position: absolute;
+		    background: #ffc107;
+		    width: 70px;
+		    text-align: center;
+		    font-size: 12px;
+		    color: #333;
+		    bottom: -19px;
+		    left: 40px;
+		    font-weight: bold;
+		}
+
+		#Corporativo:hover span {
+			top: 40px;
+			opacity: 1;
+			z-index: 99;
+		}
+
 	/* modales */
 
 		/* Controls */
@@ -394,6 +458,46 @@
 				    color: #ffffff;
 				}
 
+			/* Corporativo Content */
+
+				#CorporativoContent{
+						
+				}
+
+				.impresoraImage{
+				}
+
+				#CorporativoContent > img{
+					width: 50%;
+				}
+
+				#CorporativoContent > div{
+					padding: 2%;
+				    margin: 2%;
+				    background: #eeeeee;
+				    box-shadow: #5e5e5e 10px 10px 5px 0px;
+				}
+
+				#CorporativoContent > div > h2{
+					font-family: 'Roboto', sans-serif!important;
+				    font-size: 40px;
+				    font-weight: 900;
+				}
+
+				#CorporativoContent > div > p{
+					font-family: 'Montserrat', sans-serif!important;
+				    font-size: 18px;
+				}
+
+				#CorporativoContent > div > button{
+					padding: 2% 3%;
+				    font-size: 18px;
+				    border: none;
+				    background: #4bbed3;
+				    color: #ffffff;
+				}
+
+				
 
 </style>
 
@@ -408,6 +512,11 @@
 			<li>Capacitación ​usuario final</li>
 		</ul>
 		<img src="images/town-resources/hospital.png" height="206" width="310">
+	</div>
+
+	<div id="Corporativo" onclick="openModal('Corporativo');">
+		<span>Corporativo</span>
+		<img src="images/town-resources/residencial.png" height="auto" width="190">
 	</div>
 
 	<div id="plane">
@@ -432,7 +541,7 @@
 <div id="modales">
 
     <div id="modal-city" class="modal-content">
-    	<span onclick="colseModal();">X</span>
+    	<span onclick="colseModal();"><i class="fas fa-times"></i></span>
 
     	<!-- Hospital Content -->
     	<ol id="hospitalContent">
@@ -443,6 +552,32 @@
     			<button>Quiero saber más</button>
     		</li>
     	</ol>
+
+    	<!-- Corporativo -->
+    	<div id="CorporativoContent">
+    		<img src="images/town-resources/recidencia_interior.jpg">
+    		<div>
+    			<h2>Corporativo</h2>
+    			<p>Ofrecemos servicios de diseño e implementación de soluciones tecnológicas y modernas, tanto de hardware como de software, lo cual nos permite implementar sistemas que mejoran la operación.</p>
+    			<ol>
+    				<li>Soluciones ​integrales en TI</li>
+    				<li>Suministro de ​equipamiento</li>
+    				<li>Implementación de ​sistemas​</li>
+    				<li>Implementación ​SAP</li>
+    			</ol>
+    			<button>Quiero saber más</button>
+    		</div>
+    	</div>
+
+    	<!-- Recidencial 
+    	<ol id="residencialContent">
+    		<li><img src="images/town-resources/residencial.png" height="auto" width="40%" style="margin-left: 30%; "></li>
+    		<li>
+    			<h2>Residencial</h2>
+    			<p>Tenemos experiencia en los sectores de salud pública y privada gestionando hospitales a nivel nacional, contamos con una cobertura de centros de atención a usuarios y distribución en seis regiones estratégicamente ubicadas en la república mexicana.</p>
+    			<button>Quiero saber más</button>
+    		</li>
+    	</ol>-->
 
     </div>
     	
@@ -465,6 +600,11 @@
 		    var openContent = document.getElementById("hospitalContent");
 		    openContent.style.display = "flex";
 		    break;
+
+		  case 'Corporativo':
+		    var openContent = document.getElementById("CorporativoContent");
+		    openContent.style.display = "flex";
+		    break;
 		 
 		  default:
 		    alert('none');
@@ -479,6 +619,9 @@
     	// Contents
 
     	var openContent = document.getElementById("hospitalContent");
+		    openContent.style.display = "none";
+
+		var openContent = document.getElementById("CorporativoContent");
 		    openContent.style.display = "none";
 
 		// Modal
