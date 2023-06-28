@@ -13,7 +13,7 @@
 			switch ($_GET['seccion']) {
 
 				case 'desarrollo-web':
-					include('resources/includes/services/desarrollo-web.php'); 
+					include('resources/includes/services/inicio.php'); 
 					break;
 
 				case 'marketing-digital':
@@ -21,7 +21,7 @@
 					break;
 
 				case 'tattoo':
-					include('resources/includes/notice/error-404.php'); // Tatuajes
+					include('resources/includes/services/tattoo.php'); // Tatuajes
 					break;
 
 				case 'musica':

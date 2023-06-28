@@ -3,13 +3,24 @@
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
+
 <div class="slider">
 	
+	<!--<h1 class="ml11">
+		  <span class="text-wrapper">
+		    <span class="line line1"></span>
+		    <span class="letters">Hello Goodbye</span>
+		  </span>
+		</h1>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+		<script src="./js/js.js"></script>-->
+	
+
 	<!-- CONTENT BANNER  -->
 	<div>
 		<h1>Te ayudamos con la mejor solución para tus Proyectos Digitales</h1><br>
-		<p>Diseñamos poderosos desarrollos digitales atractivos que resalten la identidad de tu empresa o negocio</p><br>
-		<button>contactar <i class="fas fa-angle-double-right"></i></button>
+		<p>Diseñamos poderosos desarrollos digitales<br> atractivos que resalten la identidad <br>de tu empresa o negocio</p><br>
+		<button onclick="window.location.href='https://api.whatsapp.com/send?phone=+525541422177&text=Me%20interesa%20conocer%20mas%20a%20detalle%20los%20servicios%20de%20<?php echo strtoupper($title_page);?>';" >Empezar ahora <i class="fas fa-angle-double-right"></i></button>
 	</div>
 
 	<!-- IMG - BANNER  -->
@@ -17,7 +28,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<img src="resources/images/banners/banner-4.jpg" class="desktop">
 	<img src="resources/images/banners/banner-4-tablet.jpg" class="tablet">
 	<img src="resources/images/banners/banner-4-mobil.jpg" class="mobil">
-
 </div>
 
 <section class="section">
@@ -25,12 +35,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<div class="content-01">
 		<div>
 			<h2><span>| </span>DOBLEU MARTINEZ</h2>
-			<p class="p-black">
-				Diseñamos, desarrollamos y gestionamos poderosos proyectos atractivos que resalten la identidad de tu empresa o negocio.
-			</p>
-			<P>
-				Trabajamos estrictamente con funciones especiales, integraciones, forms, procesos o conexiones especializadas con otras tecnologías.
-			</P>
+			<p class="p-black">Diseñamos, desarrollamos y gestionamos poderosos proyectos atractivos que resalten la identidad de tu empresa o negocio.</p>
+			<p>Trabajamos estrictamente con funciones especiales, integraciones, forms, procesos o conexiones especializadas con otras tecnologías.</p>
 		</div>
 		<div>
 			<img src="resources/images/4169292.jpg" title="DOBLEU MARTINEZ - Desarrollo Web" alt="DOBLEU MARTINEZ - Desarrollo Web" loading="lazy">
@@ -41,8 +47,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<div class="content-02">
 		<span></span>
 		<div>
-			<h2>Conoce alguna de las soluciones que <BR>nuestro equipo tiene para ti</h2>
-			<button onclick="modalInfo('Formulario')" >Obtén una propuesta gratis</button>
+			<h2>Conoce alguna de las soluciones que <br>podemos desarrollar para ti</h2>
+			<button onclick="window.location.href='https://api.whatsapp.com/send?phone=+525541422177&text=Me%20interesa%20conocer%20mas%20a%20detalle%20los%20servicios%20de%20<?php echo strtoupper($title_page);?>';">Obtén una propuesta gratis</button>
 		</div>
 	</div>
 
@@ -66,68 +72,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<li>
 				<img src="resources/images/sitio-web-seo.png" title="DOBLEU MARTINEZ - Sitio Web" alt="DOBLEU MARTINEZ - Sitio Web" loading="lazy">
 				<h3>Sitio Web</h3>
-				<p>Empieza a competir contra los mejores</p>
-				<button onclick="modalInfo('SitioWeb')">¡Quiero saber más!</button>
-			</li>
-			<li>
-				<img src="resources/images/desarrollos-especiales-seo.png" title="DOBLEU MARTINEZ - Desarrollos Especiales" alt="DOBLEU MARTINEZ - Desarrollos Especiales" loading="lazy">
-				<h3>Desarrollos Especiales</h3>
-				<p>Volvemos realidad todas tus ideas</p>
-				<button onclick="modalInfo('DesarrollosEspeciales')">¡Quiero saber más!</button>
-			</li>
-		</ul>
-	</div>
-
-	<div class="content-03">
-		<h2>Diseño gráfico</h2>
-		<p>Crear y transmitir mensajes a través de la imagen.<br>Para lograr el objetivo de tu empresa o servicio.</p>
-		<ul>
-			<li>
-				<img src="resources/images/landing-page-seo.png" title="DOBLEU MARTINEZ - Landing page" alt="DOBLEU MARTINEZ - Landing page" loading="lazy">
-				<h3>Landing page</h3>
-				<p>Orientada a ventas directas de algun producto o servicio</p>
-				<button onclick="modalInfo('LandigPage')">¡Quiero saber más!</button>
-			</li>
-			<li>
-				<img src="resources/images/pagina-web-seo.png" title="DOBLEU MARTINEZ - Pagina Web" alt="DOBLEU MARTINEZ - Pagina Web" loading="lazy">
-				<h3>Pagina Web</h3>
-				<p>Ideal para empezar a darte a conocer en la Internet</p>
-				<button onclick="modalInfo('PaginaWeb')">¡Quiero saber más!</button>
-			</li>
-			<li>
-				<img src="resources/images/sitio-web-seo.png" title="DOBLEU MARTINEZ - Sitio Web" alt="DOBLEU MARTINEZ - Sitio Web" loading="lazy">
-				<h3>Sitio Web</h3>
-				<p>Empieza a competir contra los mejores</p>
-				<button onclick="modalInfo('SitioWeb')">¡Quiero saber más!</button>
-			</li>
-			<li>
-				<img src="resources/images/desarrollos-especiales-seo.png" title="DOBLEU MARTINEZ - Desarrollos Especiales" alt="DOBLEU MARTINEZ - Desarrollos Especiales" loading="lazy">
-				<h3>Desarrollos Especiales</h3>
-				<p>Volvemos realidad todas tus ideas</p>
-				<button onclick="modalInfo('DesarrollosEspeciales')">¡Quiero saber más!</button>
-			</li>
-		</ul>
-	</div>
-
-	<div class="content-03">
-		<h2>Marketing Digital</h2>
-		<p>Crear y transmitir mensajes a través de la imagen.<br>Para lograr el objetivo de tu empresa o servicio.</p>
-		<ul>
-			<li>
-				<img src="resources/images/landing-page-seo.png" title="DOBLEU MARTINEZ - Landing page" alt="DOBLEU MARTINEZ - Landing page" loading="lazy">
-				<h3>Logos</h3>
-				<p>Orientada a ventas directas de algun producto o servicio</p>
-				<button onclick="modalInfo('LandigPage')">¡Quiero saber más!</button>
-			</li>
-			<li>
-				<img src="resources/images/pagina-web-seo.png" title="DOBLEU MARTINEZ - Pagina Web" alt="DOBLEU MARTINEZ - Pagina Web" loading="lazy">
-				<h3>Naming</h3>
-				<p>Ideal para empezar a darte a conocer en la Internet</p>
-				<button onclick="modalInfo('PaginaWeb')">¡Quiero saber más!</button>
-			</li>
-			<li>
-				<img src="resources/images/sitio-web-seo.png" title="DOBLEU MARTINEZ - Sitio Web" alt="DOBLEU MARTINEZ - Sitio Web" loading="lazy">
-				<h3>Manual de identidad</h3>
 				<p>Empieza a competir contra los mejores</p>
 				<button onclick="modalInfo('SitioWeb')">¡Quiero saber más!</button>
 			</li>

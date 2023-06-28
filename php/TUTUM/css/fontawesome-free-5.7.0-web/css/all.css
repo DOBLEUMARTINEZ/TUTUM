@@ -8,6 +8,14 @@
     line-height: 1
 }
 
+.fa-map-marker-alt:before {
+    content: "\f3c5"
+}
+
+.fa-circle:before {
+    content: "\f111"
+}
+
 .fa-times:before {
     content: "\f00d"
 }

@@ -3,11 +3,9 @@
 		<li>
 			<h3>DOBLEU MARTINEZ</h3>
 			<ol>
-				<li onclick="window.location.href='./desarrollo-web';" >Desarrollo web</li>
-				<li>Marketing digital</li>
-				<li>Campañas de Google ADS</li>
-				<li>Tattoo</li>
-				<li>Joyeria</li>
+				<li onclick="window.location.href='./';" >Desarrollo web</li>
+				<li onclick="window.location.href='./';">Marketing digital</li>
+				<li onclick="window.location.href='./tattoo';">Tattoo</li>
 			</ol>
 		</li>
 		<li>

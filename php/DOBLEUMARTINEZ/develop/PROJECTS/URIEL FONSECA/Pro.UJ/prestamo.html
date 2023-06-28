@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="es">
 
 <head>
 
 <title>prestamo</title>
+<meta charset="UTF-8">
 <link rel="stylesheet" href="estilopres.css"/>
 <link rel="stylesheet" href="style.css"/>
 
@@ -23,23 +24,23 @@
     </nav>
     </ul>
     </div>
-<form method="post">
+<form method="POST" action="conexion.php">
 <center><h1>Formulario para Prestamo</h1></center>
 <p>
  <label for="t1">¿CUAL ES TU NOMBRE?<abbr title="Este campo es obligatorio" aria-label="required"></abbr></label>
-<input type="text" id="t1" name="name"maxlength="20"  placeholder=" Tu Nombre"required >
+<input type="text" id="t1" name="name"maxlength="20"  placeholder=" Tu Nombre" required >
 </p>
 <p>
  <label for="t2">¿Titulo del libro?<abbr title="Este campo es obligatorio" aria-label="required"></abbr></label>
-<input type="text" id="t2"name="name" maxlength="40" placeholder="Titulo"required  >
+<input type="text" id="t2"name="title" maxlength="40" placeholder="Titulo"required  >
 </p>
 <p>
  <label for="t3">¿Autor del libro?<abbr title="Este campo es obligatorio" aria-label="required"></abbr></label>
-<input type="text" id="t3" name="name" maxlength="50" placeholder="Autor" required >
+<input type="text" id="t3" name="autor" maxlength="50" placeholder="Autor" required >
 </p>
 <p>
  <label for="t4">¿Cual es genero del libro?<abbr title="Este campo es obligatorio" aria-label="required"></abbr></label>
- <input type="text" id="t4" name="fruit" list="l1" required
+ <input type="text" id="t4" name="genero" list="l1" required
            pattern="[Nn]arrativo|[Ll]írico|[Ii]ramático|[Dd]idáctico|[Rr]omanse| ">
     <datalist id="l1">
       <option> Narrativo</option>

@@ -24,7 +24,7 @@
 	<div onclick="window.location.href='./';" >DOBLEU MARTINEZ</div>
 	<ul>
 		<li>
-			<button onclick="modalInfo('Formulario')" >
+			<button onclick="window.location.href='https://api.whatsapp.com/send?phone=+525541422177&text=Me%20interesa%20conocer%20mas%20a%20detalle%20los%20servicios%20de%20<?php echo strtoupper($title_page);?>';" >
 			Contactanos
 			</button>
 		</li>

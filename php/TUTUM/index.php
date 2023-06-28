@@ -141,7 +141,9 @@ if (isset($_POST['action'])) {
               break;
 
             case 'town':
-              include("resources/town.php"); // town
+              include 'resources/styles-town.php'; // CCS TOWN
+              include("resources/town.php"); // TOWN
+              include 'resources/smart-city/js-smart-city.php'; // JS TOWN
               break;
 
             case 'gracias':
